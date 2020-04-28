@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Visualizations of Mittelmann benchmarks
 
 ## Simplex LP
