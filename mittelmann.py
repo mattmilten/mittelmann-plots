@@ -60,4 +60,4 @@ def plot_benchmark(stats):
 if __name__ == '__main__':
     stats = parse_table('http://plato.asu.edu/ftp/lpsimp.html')
     fig = plot_benchmark(stats)
-    fig.write_html('lpsimp.html')
+    fig.write_html('lpsimp.html', include_plotlyjs=False)
