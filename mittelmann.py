@@ -52,7 +52,7 @@ def plot_benchmark(stats):
         fig.add_trace(go.Scatter(x=time['instance'], y=time[s],
                         mode='markers',
                         name=stats['version'][s]))
-    fig.update_layout(title=f'{stats["title"]} ({stats["date"]})')
+    fig.update_layout(title=f'{stats["title"]} ({stats["date"]})', yaxis_type="log")
     fig.show()
     return fig
 
