@@ -132,7 +132,7 @@ top = """<!DOCTYPE html>
 
 bottom = """
       <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-        This site is open source. <a href="https://github.com/mattmilten/mittelmann-plots">Improve this page</a>.
+        This site is open source. Check out <a href="https://github.com/mattmilten/mittelmann-plots">my Github page</a> for more information.
       </div>
       
     </div>
