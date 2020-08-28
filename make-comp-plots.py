@@ -46,7 +46,7 @@ def plot_benchmark(stats, base):
         time[s] = pd.to_numeric(stats['times'][s], errors='coerce')
     time.fillna(value=stats['timelimit'], inplace=True)
     fig = go.Figure()
-    for s in time.keys().drop(['instance', base]):
+    for s in sorted(time.keys().drop(['instance', base])):
         fig.add_trace(go.Bar(x=time['instance'], y=time[s]-time[base],
                              name=stats['version'][s], base=0))
     
