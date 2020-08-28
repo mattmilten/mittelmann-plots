@@ -46,9 +46,11 @@ def plot_benchmark(stats, base):
         time[s] = pd.to_numeric(stats['times'][s], errors='coerce')
     time.fillna(value=stats['timelimit'], inplace=True)
     fig = go.Figure()
-    for s in sorted(time.keys().drop(['instance', base])):
-        fig.add_trace(go.Bar(x=time['instance'], y=time[s]-time[base],
-                             name=stats['version'][s], base=0))
+    for s in sorted(time.keys().drop('instance')):
+        if s == base:
+            fig.add_trace(go.Scatter(x=time['instance'], y=time[base], mode='markers', name=stats['version'][s]))
+        else:
+            fig.add_trace(go.Bar(x=time['instance'], y=time[s]-time[base], name=stats['version'][s]))
     
     fig.update_layout(title=f'Absolute time differences between {stats["version"][base]} and other Simplex LP solvers ({stats["date"]})')
     return fig
