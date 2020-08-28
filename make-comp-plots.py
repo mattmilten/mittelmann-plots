@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import pandas as pd
 import re
+import os, fnmatch
 import plotly.graph_objects as go
 
 def parse_table(url):
@@ -59,18 +60,47 @@ for s in stats['solver']:
     time[s] = pd.to_numeric(stats['times'][s], errors='coerce')
 time.fillna(value=stats['timelimit'], inplace=True)
 
+storedate = stats["date"].replace(' ','-')
+# delete current stored file if present
+os.system(f'rm -f docs/lpcomp-{storedate}.html')
+
+# generate list of previous benchmarks
+def find(pattern, path):
+    result = []
+    for root, dirs, files in os.walk(path):
+        for name in files:
+            if fnmatch.fnmatch(name, pattern):
+                result.append(os.path.join(root, name))
+    return result
+
+oldbench = find('lpcomp-*.html', 'docs')
+
 plots = ""
 plots += f'<h2 id="simplex-lp">Simplex LP ({stats["date"]})</h2>\n'
 plots += '<h3>Choose base solver for comparison:<h3>\n<ul>\n'
 
-for s in time.keys().drop('instance'):
+for s in sorted(time.keys().drop('instance')):
     fig = plot_benchmark(stats, s)
-#     fig.show()
     fig.write_html(f'docs/{s}.html', include_plotlyjs='cdn')
     plots += f'\t<li><a href={s}.html>{stats["version"][s]}</a></li>\n'
+    os.system(f'cat docs/{s}.html >> docs/lpcomp-{storedate}.html')
 plots += '</ul>\n'
 
-top="""<!DOCTYPE html>
+oldlinks = """
+      <p>older versions:
+        <ul>
+"""
+
+for ob in oldbench:
+    name = os.path.basename(ob)
+    oldlinks += f"<li><a href={name}>{name.lstrip('lpcomp').rstrip('html').replace('-',' ')}</a></li>\n"
+
+oldlinks +="""
+        </ul>
+      </p>
+"""
+
+top = """<!DOCTYPE html>
 <html lang="en-US">
   <head>
     <meta charset="UTF-8">
@@ -100,13 +130,7 @@ top="""<!DOCTYPE html>
 
 """
 
-bottom="""
-      <p>older versions:
-        <ul>
-          <li><a href=lpcomp-2020-08-14.html>14 Aug 2020</a></li>
-        </ul>
-      </p>
-
+bottom = """
       <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
         This site is open source. <a href="https://github.com/mattmilten/mittelmann-plots">Improve this page</a>.
       </div>
@@ -122,4 +146,5 @@ bottom="""
 with open('docs/index.html', 'w') as index:
     index.write(top)
     index.write(plots)
+    index.write(oldlinks)
     index.write(bottom)
