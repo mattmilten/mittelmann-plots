@@ -23,7 +23,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install bs4 pandas plotly
+        pip install bs4 pandas plotly requests
     - name: Generate plots
       run: |
         python make-comp-plots.py
