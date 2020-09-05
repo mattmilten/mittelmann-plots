@@ -106,7 +106,7 @@ def write_bench(url, timelimit):
 
     plots = ""
     plots += f'<a href="{url}"><h2 id="{benchname}">{stats["title"]} ({stats["date"]})</h2></a>'
-    plots += '<h3>Choose base solver for comparison:<h3>\n<ul>\n'
+    plots += '<h3>Choose base solver for comparison:</h3>\n<ul>\n'
 
     for s in sorted(time.keys().drop('instance')):
         fig = plot_benchmark(stats, s)
