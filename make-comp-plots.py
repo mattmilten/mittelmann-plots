@@ -30,7 +30,7 @@ def parse_table(url, timelimit=3600):
         stats['solver'] = solver
         nprobs = int(tab[6].split()[0])
         stats['nprobs'] = nprobs
-        stats['score'] = {solver[i]:_score[i] for i in range(len(solver))}
+        stats['score'] = {solver[i]:float(_score[i]) for i in range(len(solver))}
         stats['solved'] = {solver[i]:_solved[i] for i in range(len(solver))}
         stats['version'] = {solver[i]:_version[i] for i in range(len(solver))}
         stats['timelimit'] = int(pre[3].text.split('\n')[-2].split()[1].replace(',',''))
@@ -47,8 +47,8 @@ def parse_table(url, timelimit=3600):
         stats['solver'] = solver
         nprobs = len(tab[tabmark[0]+3:tabmark[1]])
         stats['nprobs'] = nprobs
-        stats['score'] = {solver[i]:_score[i] for i in range(len(solver))}
-        stats['solved'] = {solver[i]:_solved[i] for i in range(len(solver))}
+        stats['score'] = {solver[i]:float(_score[i]) for i in range(len(solver))}
+        stats['solved'] = {solver[i]:int(_solved[i].strip('*')) for i in range(len(solver))}
         if len(_version) == len(solver):
             stats['version'] = {solver[i]:_version[i] for i in range(len(solver))}
         else:
@@ -110,15 +110,18 @@ def write_bench(url, timelimit):
 
     plots = ""
     plots += f'<a href="{url}"><h2 id="{benchname}">{stats["title"]} ({stats["date"]})</h2></a>'
-    plots += '<h3>Choose base solver for comparison:</h3>\n<ul>\n'
+    plots += '<h3>Choose base solver for comparison:</h3>\n<table>\n'
+    plots += '<tr> <th></th> <th>score</th> <th>solved</th> </tr>'
 
-    for s in sorted(time.keys().drop('instance')):
-        plots += f'\t<li><a href={benchname}-{s}.html>{stats["version"][s]}</a> \t (score: {stats["score"][s]})</li>\n'
+    for score, s in sorted(zip(stats['score'].values(), time.keys().drop('instance'))):
+        plots += f'\t<tr><td><a href={benchname}-{s}.html>{stats["version"][s]}</a> </td>\
+        <td> {stats["score"][s]} </td> \
+        <td> {float(stats["solved"][s])/stats["nprobs"]*100:.0f}% </td></tr>\n'
         if newdata:
             fig = plot_benchmark(stats, s)
             fig.write_html(f'docs/{benchname}-{s}.html', include_plotlyjs='cdn')
         os.system(f'cat docs/{benchname}-{s}.html >> docs/{benchname}-{storedate}.html')
-    plots += '</ul>\n'
+    plots += '</table>\n'
 
     if oldbench:
         plots += """
