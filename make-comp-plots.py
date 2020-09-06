@@ -90,8 +90,10 @@ def write_bench(url, timelimit):
     time.fillna(value=stats['timelimit'], inplace=True)
 
     storedate = stats["date"].replace(' ','-')
-    # delete current stored file if present
-    os.system(f'rm -f docs/{benchname}-{storedate}.html')
+    newdata = True
+    # check whether there is already a file for this date
+    if os.path.exists(f'docs/{benchname}-{storedate}.html'):
+        newdata = False
 
     # generate list of previous benchmarks
     def findbench(pattern, path):
@@ -109,10 +111,11 @@ def write_bench(url, timelimit):
     plots += '<h3>Choose base solver for comparison:</h3>\n<ul>\n'
 
     for s in sorted(time.keys().drop('instance')):
-        fig = plot_benchmark(stats, s)
-        fig.write_html(f'docs/{benchname}-{s}.html', include_plotlyjs='cdn')
         plots += f'\t<li><a href={benchname}-{s}.html>{stats["version"][s]}</a></li>\n'
-        os.system(f'cat docs/{benchname}-{s}.html >> docs/{benchname}-{storedate}.html')
+        if newdata:
+            fig = plot_benchmark(stats, s)
+            fig.write_html(f'docs/{benchname}-{s}.html', include_plotlyjs='cdn')
+            os.system(f'cat docs/{benchname}-{s}.html >> docs/{benchname}-{storedate}.html')
     plots += '</ul>\n'
 
     if oldbench:
