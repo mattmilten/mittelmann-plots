@@ -4,6 +4,7 @@ import pandas as pd
 import re
 import os, fnmatch
 import plotly.graph_objects as go
+from datetime import date
 
 def parse_table(url, timelimit=3600):
     """
@@ -112,7 +113,7 @@ def write_bench(url, timelimit):
     plots += '<h3>Choose base solver for comparison:</h3>\n<ul>\n'
 
     for s in sorted(time.keys().drop('instance')):
-        plots += f'\t<li><a href={benchname}-{s}.html>{stats["version"][s]}</a></li>\n'
+        plots += f'\t<li><a href={benchname}-{s}.html>{stats["version"][s]}</a> \t (score: {stats["score"][s]})</li>\n'
         if newdata:
             fig = plot_benchmark(stats, s)
             fig.write_html(f'docs/{benchname}-{s}.html', include_plotlyjs='cdn')
@@ -168,7 +169,8 @@ top = """<!DOCTYPE html>
 
 bottom = """
       <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-        This site is open source. Check out <a href="https://github.com/mattmilten/mittelmann-plots">my Github page</a> for more information.
+        This site is open source. Check out <a href="https://github.com/mattmilten/mittelmann-plots">my Github page</a> for more information.</br>
+        Last update: {}
       </div>
       
     </div>
@@ -177,7 +179,7 @@ bottom = """
     
   </body>
 </html>
-"""
+""".format(date.today())
 
 urls = [('http://plato.asu.edu/ftp/lpsimp.html', 15000),
 ('http://plato.asu.edu/ftp/qplib.html', 3600),
