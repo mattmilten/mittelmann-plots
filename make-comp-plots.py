@@ -94,6 +94,7 @@ def write_bench(url, timelimit):
     # check whether there is already a file for this date
     if os.path.exists(f'docs/{benchname}-{storedate}.html'):
         newdata = False
+        os.system(f'rm -f docs/{benchname}-{storedate}.html')
 
     # generate list of previous benchmarks
     def findbench(pattern, path):
@@ -115,7 +116,7 @@ def write_bench(url, timelimit):
         if newdata:
             fig = plot_benchmark(stats, s)
             fig.write_html(f'docs/{benchname}-{s}.html', include_plotlyjs='cdn')
-            os.system(f'cat docs/{benchname}-{s}.html >> docs/{benchname}-{storedate}.html')
+        os.system(f'cat docs/{benchname}-{s}.html >> docs/{benchname}-{storedate}.html')
     plots += '</ul>\n'
 
     if oldbench:
