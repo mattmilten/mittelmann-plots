@@ -173,7 +173,6 @@ top = """<!DOCTYPE html>
 bottom = """
       <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
         This site is open source. Check out <a href="https://github.com/mattmilten/mittelmann-plots">my Github page</a> for more information.</br>
-        Last update: {}
       </div>
       
     </div>
@@ -182,7 +181,7 @@ bottom = """
     
   </body>
 </html>
-""".format(date.today())
+"""
 
 urls = [('http://plato.asu.edu/ftp/lpsimp.html', 15000),
 ('http://plato.asu.edu/ftp/qplib.html', 3600),
