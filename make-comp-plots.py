@@ -110,7 +110,7 @@ def write_bench(url, timelimit):
 
     plots = '\n'
     plots += f'## [{stats["title"]}]({url}) ({stats["date"]})\n'
-    plots += '### Choose base solver for comparison\n\n'
+    plots += '**Choose base solver for comparison**\n\n'
     plots += '|      | score | solved |\n'
     plots += '| :--- | ---:  | ---:   |\n'
     for score, s in sorted(zip(stats['score'].values(), time.keys().drop('instance'))):
@@ -149,9 +149,9 @@ urls = [('http://plato.asu.edu/ftp/lpsimp.html', 15000),
 ]
 
 with open('docs/index.md', 'w') as index:
-    index.write(top)
+#     index.write(top)
 
     for url in urls:
         index.write(write_bench(url[0], url[1]))
 
-    index.write(bottom)
+#     index.write(bottom)
