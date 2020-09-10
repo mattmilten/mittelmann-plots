@@ -1,4 +1,4 @@
-# Visualizations of Mittelmann benchmarks
+
 ## [Benchmark of Simplex LP solvers](http://plato.asu.edu/ftp/lpsimp.html) (5 Sep 2020)
 **Choose base solver for comparison:**
 
