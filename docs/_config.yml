@@ -1,1 +1,5 @@
 theme: jekyll-theme-primer
+title: Visualizations of Mittelmann benchmarks
+author: Matthias Miltenberger
+kramdown:
+  footnote_backlink=''
