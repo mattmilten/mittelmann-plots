@@ -1,7 +1,6 @@
-
+# Visualizations of Mittelmann benchmarks
 ## [Benchmark of Simplex LP solvers](http://plato.asu.edu/ftp/lpsimp.html) (5 Sep 2020)
-**Choose base solver for comparison**
-
+**Choose base solver for comparison:**
 |      | score | solved |
 | :--- | ---:  | ---:   |
 |[COPT-1.4](lpsimp-COPT.html) | 1.0 | 100%|
@@ -26,8 +25,7 @@
 
 
 ## [Binary Non-Convex QPLIB Benchmark](http://plato.asu.edu/ftp/qplib.html) (12 Aug 2020)
-**Choose base solver for comparison**
-
+**Choose base solver for comparison:**
 |      | score | solved |
 | :--- | ---:  | ---:   |
 |[GUROBI](qplib-GUROBI.html) | 1.0 | 98%|
@@ -43,8 +41,7 @@
 
 
 ## [Discrete Non-Convex QPLIB Benchmark (non-binary)](http://plato.asu.edu/ftp/nonbinary.html) (20 Aug 2020)
-**Choose base solver for comparison**
-
+**Choose base solver for comparison:**
 |      | score | solved |
 | :--- | ---:  | ---:   |
 |[GUROBI](nonbinary-GUROBI.html) | 1.0 | 86%|
@@ -61,8 +58,7 @@
 
 
 ## [Continuous Non-Convex QPLIB Benchmark](http://plato.asu.edu/ftp/cnconv.html) (20 Aug 2020)
-**Choose base solver for comparison**
-
+**Choose base solver for comparison:**
 |      | score | solved |
 | :--- | ---:  | ---:   |
 |[GUROBI-9.0](cnconv-GUROBI.html) | 1.0 | 48%|
@@ -78,8 +74,7 @@
 
 
 ## [Convex Discrete QPLIB Benchmark](http://plato.asu.edu/ftp/convex.html) (15 Aug 2020)
-**Choose base solver for comparison**
-
+**Choose base solver for comparison:**
 |      | score | solved |
 | :--- | ---:  | ---:   |
 |[GUROBI-9.0.1](convex-GUROBI.html) | 1.0 | 74%|
@@ -98,8 +93,7 @@
 
 
 ## [Convex Continuous QPLIB Benchmark](http://plato.asu.edu/ftp/cconvex.html) (3 Apr 2020)
-**Choose base solver for comparison**
-
+**Choose base solver for comparison:**
 |      | score | solved |
 | :--- | ---:  | ---:   |
 |[MOSEK-9.2.4](cconvex-MOSEK.html) | 1.0 | 91%|
