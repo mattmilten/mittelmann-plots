@@ -3,6 +3,7 @@
 
 ## [Benchmark of Simplex LP solvers](http://plato.asu.edu/ftp/lpsimp.html) (5 Sep 2020)
 ### Choose base solver for comparison
+
 |      | score | solved |
 | :--- | ---:  | ---:   |
 |[COPT-1.4](lpsimp-COPT.html) | 1.0 | 100%|
@@ -22,11 +23,13 @@
  - [ 08 Aug 2020.](lpsimp-08-Aug-2020.html)
  - [ 27 Aug 2020.](lpsimp-27-Aug-2020.html)
 
+
  --- 
 
 
 ## [Binary Non-Convex QPLIB Benchmark](http://plato.asu.edu/ftp/qplib.html) (12 Aug 2020)
 ### Choose base solver for comparison
+
 |      | score | solved |
 | :--- | ---:  | ---:   |
 |[GUROBI](qplib-GUROBI.html) | 1.0 | 98%|
@@ -37,11 +40,13 @@
 |[ANTIGONE](qplib-ANTIGONE.html) | 59.0 | 28%|
 |[MINOTAUR](qplib-MINOTAUR.html) | 80.0 | 8%|
 
+
  --- 
 
 
 ## [Discrete Non-Convex QPLIB Benchmark (non-binary)](http://plato.asu.edu/ftp/nonbinary.html) (20 Aug 2020)
 ### Choose base solver for comparison
+
 |      | score | solved |
 | :--- | ---:  | ---:   |
 |[GUROBI](nonbinary-GUROBI.html) | 1.0 | 86%|
@@ -53,11 +58,13 @@
 |[COUENNE](nonbinary-COUENNE.html) | 41.1 | 10%|
 |[MINOTAUR](nonbinary-MINOTAUR.html) | 47.3 | 5%|
 
+
  --- 
 
 
 ## [Continuous Non-Convex QPLIB Benchmark](http://plato.asu.edu/ftp/cnconv.html) (20 Aug 2020)
 ### Choose base solver for comparison
+
 |      | score | solved |
 | :--- | ---:  | ---:   |
 |[GUROBI-9.0](cnconv-GUROBI.html) | 1.0 | 48%|
@@ -68,11 +75,13 @@
 |[SCIP-7.0.0](cnconv-COUENNE.html) | 4.13 | 14%|
 |[COUENNE-0.5](cnconv-MINOTAUR.html) | 4.35 | 11%|
 
+
  --- 
 
 
 ## [Convex Discrete QPLIB Benchmark](http://plato.asu.edu/ftp/convex.html) (15 Aug 2020)
 ### Choose base solver for comparison
+
 |      | score | solved |
 | :--- | ---:  | ---:   |
 |[GUROBI-9.0.1](convex-GUROBI.html) | 1.0 | 74%|
@@ -86,18 +95,22 @@
 |[ANTIGONE-1.1](convex-ANTIGONE.html) | 34.5 | 6%|
 |[Shot-1.0](convex-SHOT.html) | 40.4 | 3%|
 
+
  --- 
 
 
 ## [Convex Continuous QPLIB Benchmark](http://plato.asu.edu/ftp/cconvex.html) (3 Apr 2020)
 ### Choose base solver for comparison
+
 |      | score | solved |
 | :--- | ---:  | ---:   |
 |[MOSEK-9.2.4](cconvex-MOSEK.html) | 1.0 | 91%|
 |[KNITRO-12.0](cconvex-KNITRO.html) | 1.56 | 94%|
 |[IPOPT-3.13.0](cconvex-IPOPT.html) | 3.64 | 88%|
 
+
  --- 
+
 
 
 Check out [my Github page](https://github.com/mattmilten/mittelmann-plots) for more information.
