@@ -146,7 +146,7 @@ urls = [('http://plato.asu.edu/ftp/lpsimp.html', 15000),
 ('http://plato.asu.edu/ftp/cconvex.html', 3600),
 ]
 
-with open('docs/index2.md', 'w') as index:
+with open('docs/index.md', 'w') as index:
     index.write(top)
 
     for url in urls:
