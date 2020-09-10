@@ -1,4 +1,4 @@
-theme: jekyll-theme-primer
+theme: jekyll-theme-leap-day
 title: Visualizations of Mittelmann benchmarks
 author: Matthias Miltenberger
 kramdown:
