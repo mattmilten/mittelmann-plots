@@ -110,7 +110,7 @@ def write_bench(url, timelimit):
 
     plots = '\n'
     plots += f'## [{stats["title"]}]({url}) ({stats["date"]})\n'
-    plots += '**Choose base solver for comparison:**\n'
+    plots += '**Choose base solver for comparison:**\n\n'
     plots += '|      | score | solved |\n'
     plots += '| :--- | ---:  | ---:   |\n'
     for score, s in sorted(zip(stats['score'].values(), time.keys().drop('instance'))):
