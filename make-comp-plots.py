@@ -109,78 +109,34 @@ def write_bench(url, timelimit):
     oldbench = findbench(f'{benchname}-[0-9]*.html', 'docs')
 
     plots = ""
-    plots += f'<a href="{url}"><h2 id="{benchname}">{stats["title"]} ({stats["date"]})</h2></a>'
-    plots += '<h3>Choose base solver for comparison:</h3>\n<table>\n'
-    plots += '<tr> <th></th> <th>score</th> <th>solved</th> </tr>'
-
+    plots += f'## [{stats["title"]}]({url}) ({stats["date"]})\n'
+    plots += '### Choose base solver for comparison\n'
+    plots += '|      | score | solved |\n'
+    plots += '| :--- | ---:  | ---:   |\n'
     for score, s in sorted(zip(stats['score'].values(), time.keys().drop('instance'))):
-        plots += f'\t<tr><td><a href={benchname}-{s}.html>{stats["version"][s]}</a> </td>\
-        <td> {stats["score"][s]} </td> \
-        <td> {float(stats["solved"][s])/stats["nprobs"]*100:.0f}% </td></tr>\n'
+        plots += f'|[{stats["version"][s]}]({benchname}-{s}.html) | {stats["score"][s]} | {float(stats["solved"][s])/stats["nprobs"]*100:.0f}%|\n'
         if newdata:
             fig = plot_benchmark(stats, s)
             fig.write_html(f'docs/{benchname}-{s}.html', include_plotlyjs='cdn')
         os.system(f'cat docs/{benchname}-{s}.html >> docs/{benchname}-{storedate}.html')
-    plots += '</table>\n'
+    plots += '\n\n'
 
     if oldbench:
-        plots += """
-            <p>older versions:
-                <ul>
-        """
+        plots += 'older versions:\n'
 
         for ob in oldbench:
-            name = os.path.basename(ob)
-            plots += f"<li><a href={name}>{name.lstrip(benchname).rstrip('html').replace('-',' ')}</a></li>\n"
-
-        plots += """
-                </ul>
-            </p>
-        """
+            filename = os.path.basename(ob)
+            date = filename.lstrip(benchname).rstrip('html').replace('-',' ')
+            plots += f' - [{date}]({filename})\n'
 
     return plots
 
-top = """<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Visualizations of Mittelmann benchmarks | mittelmann-plots</title>
-<meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Visualizations of Mittelmann benchmarks" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Visualizations of Mittelmann benchmarks" />
-<meta property="og:description" content="Visualizations of Mittelmann benchmarks" />
-<link rel="canonical" href="https://mattmilten.github.io/mittelmann-plots/" />
-<meta property="og:url" content="https://mattmilten.github.io/mittelmann-plots/" />
-<meta property="og:site_name" content="mittelmann-plots" />
-<script type="application/ld+json">
-{"@type":"WebSite","headline":"Visualizations of Mittelmann benchmarks","url":"https://github.com/mattmilten/mittelmann-plots","name":"mittelmann-plots","description":"Visualizations of Mittelmann benchmarks","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-    <link rel="stylesheet" href="/mittelmann-plots/assets/css/style.css?v=73b8bebba12f73a6e4f8873242ca033c15630844">
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  </head>
-  <body>
-    <div class="container-lg px-3 my-5 markdown-body">
-      <h1 id="visualizations-of-mittelmann-benchmarks">Visualizations of Mittelmann benchmarks</h1>
-
+top = """# Visualizations of Mittelmann benchmarks
+---
 """
 
-bottom = """
-      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-        This site is open source. Check out <a href="https://github.com/mattmilten/mittelmann-plots">my Github page</a> for more information.</br>
-      </div>
-      
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
-    
-  </body>
-</html>
+bottom = """---
+This site is open source. Check out [my Github page](https://github.com/mattmilten/mittelmann-plots) for more information.
 """
 
 urls = [('http://plato.asu.edu/ftp/lpsimp.html', 15000),
@@ -191,7 +147,7 @@ urls = [('http://plato.asu.edu/ftp/lpsimp.html', 15000),
 ('http://plato.asu.edu/ftp/cconvex.html', 3600),
 ]
 
-with open('docs/index.html', 'w') as index:
+with open('docs/index2.md', 'w') as index:
     index.write(top)
 
     for url in urls:
