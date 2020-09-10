@@ -145,7 +145,7 @@ urls = [('http://plato.asu.edu/ftp/lpsimp.html', 15000),
 ]
 
 with open('docs/index.md', 'w') as index:
-    index.write(top)
+#     index.write(top)
 
     for url in urls:
         index.write(write_bench(url[0], url[1]))
