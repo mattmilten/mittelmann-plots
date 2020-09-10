@@ -110,7 +110,7 @@ def write_bench(url, timelimit):
 
     plots = '\n'
     plots += f'## [{stats["title"]}]({url}) ({stats["date"]})\n'
-    plots += '### Choose base solver for comparison\n'
+    plots += '### Choose base solver for comparison\n\n'
     plots += '|      | score | solved |\n'
     plots += '| :--- | ---:  | ---:   |\n'
     for score, s in sorted(zip(stats['score'].values(), time.keys().drop('instance'))):
@@ -128,7 +128,7 @@ def write_bench(url, timelimit):
             date = filename.lstrip(benchname).rstrip('html').replace('-',' ')
             plots += f' - [{date}]({filename})\n'
     
-    plots += '\n --- \n\n'
+    plots += '\n\n --- \n\n'
 
     return plots
 
@@ -136,7 +136,7 @@ top = """# Visualizations of Mittelmann benchmarks
 ---
 """
 
-bottom = '\nCheck out [my Github page](https://github.com/mattmilten/mittelmann-plots) for more information.\n'
+bottom = '\n\nCheck out [my Github page](https://github.com/mattmilten/mittelmann-plots) for more information.\n'
 
 urls = [('http://plato.asu.edu/ftp/lpsimp.html', 15000),
 ('http://plato.asu.edu/ftp/qplib.html', 3600),
