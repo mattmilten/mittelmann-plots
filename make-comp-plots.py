@@ -134,6 +134,8 @@ def write_bench(url, timelimit):
 
 top = """# Visualizations of Mittelmann benchmarks
 ---
+* auto-gen TOC:
+{:toc}
 """
 
 bottom = '\n\nCheck out [my Github page](https://github.com/mattmilten/mittelmann-plots) for more information.\n'
