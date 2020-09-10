@@ -1,5 +1,6 @@
 theme: jekyll-theme-leap-day
 title: Visualizations of Mittelmann benchmarks
+description: Interactive plots showing pairwise time differences for every instance and every solver
 author: Matthias Miltenberger
 kramdown:
   toc_levels        : [2]
