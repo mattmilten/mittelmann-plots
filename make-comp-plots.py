@@ -20,7 +20,7 @@ def parse_table(url, timelimit=3600):
     stats['date'] = pre[0].text.split('\n')[1].replace('=','').replace('-','').strip()
     stats['title'] = pre[0].text.split('\n')[2].strip()
 
-    if url.find('lpsimp') >= 0:
+    if url.find('lpsimp.html') >= 0:
         tab = pre[3].text.split('\n')
         _version = pre[2].text.split('\n')[1:-1]
         _version = [x.split()[0].rstrip(':') for x in _version]
@@ -31,10 +31,27 @@ def parse_table(url, timelimit=3600):
         nprobs = int(tab[6].split()[0])
         stats['nprobs'] = nprobs
         stats['score'] = {solver[i]:float(_score[i]) for i in range(len(solver))}
-        stats['solved'] = {solver[i]:_solved[i] for i in range(len(solver))}
+        stats['solved'] = {solver[i]:int(_solved[i]) for i in range(len(solver))}
         stats['version'] = {solver[i]:_version[i] for i in range(len(solver))}
         stats['timelimit'] = int(pre[3].text.split('\n')[-2].split()[1].replace(',',''))
         stats['times'] = pd.DataFrame([l.split() for l in tab[8:nprobs+8]], columns=['instance']+solver)
+
+    elif url.find('lpbar.html') >= 0:
+        tab = pre[3].text.split('\n')
+        tabmark = [ind for ind,i in enumerate(tab) if i.startswith('=====')]
+        _version = pre[2].text.split('\n')[1:-1]
+        _version = [x.split()[0].rstrip(':') for x in _version]
+        _score = tab[3].split()[2:]
+        _solved = tab[4].split()[1:]
+        solver = tab[6].split()[1:]
+        stats['solver'] = solver
+        nprobs = int(tab[3].split()[0])
+        stats['nprobs'] = nprobs
+        stats['score'] = {solver[i]:float(_score[i]) for i in range(len(solver))}
+        stats['solved'] = {solver[i]:int(_solved[i]) for i in range(len(solver))}
+        stats['version'] = {solver[i]:solver[i] for i in range(len(solver))}
+        stats['timelimit'] = timelimit
+        stats['times'] = pd.DataFrame([l.split() for l in tab[tabmark[0]+3:tabmark[-1]]], columns=['instance']+solver)
 
     else:
         tab = pre[2].text.split('\n')
@@ -137,6 +154,7 @@ top = """# Visualizations of Mittelmann benchmarks"""
 bottom = '\n\nCheck out [my Github page](https://github.com/mattmilten/mittelmann-plots) for more information.\n'
 
 urls = [('http://plato.asu.edu/ftp/lpsimp.html', 15000),
+('http://plato.asu.edu/ftp/lpbar.html', 15000),
 ('http://plato.asu.edu/ftp/qplib.html', 3600),
 ('http://plato.asu.edu/ftp/nonbinary.html', 10800),
 ('http://plato.asu.edu/ftp/cnconv.html', 10800),
