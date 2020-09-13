@@ -53,7 +53,7 @@ def parse_table(url, timelimit=3600):
         stats['timelimit'] = timelimit
         stats['times'] = pd.DataFrame([l.split() for l in tab[tabmark[0]+3:tabmark[-1]]], columns=['instance']+solver)
 
-    elif url.find('network.html'):
+    elif url.find('network.html') >= 0:
         tab = pre[2].text.split('\n')
         tabmark = [ind for ind,i in enumerate(tab) if i.startswith('=====')]
         _version = pre[1].text.split('\n')[1:-1]
