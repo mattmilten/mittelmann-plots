@@ -60,6 +60,19 @@
  --- 
 
 
+## [Mixed-integer SOCP Benchmark](http://plato.asu.edu/ftp/misocp.html) (14 Jun 2020)
+**Choose base solver for comparison:**
+
+|      | score | solved |
+| :--- | ---:  | ---:   |
+|[GUROBI](misocp-GUROBI.html) | 1.0 | 100%|
+|[MOSEK](misocp-MOSEK.html) | 10.8 | 68%|
+|[SCIP](misocp-SCIP.html) | 40.9 | 62%|
+
+
+ --- 
+
+
 ## [Binary Non-Convex QPLIB Benchmark](http://plato.asu.edu/ftp/qplib.html) (12 Aug 2020)
 **Choose base solver for comparison:**
 
