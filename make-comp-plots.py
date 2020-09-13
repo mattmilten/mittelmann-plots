@@ -53,6 +53,24 @@ def parse_table(url, timelimit=3600):
         stats['timelimit'] = timelimit
         stats['times'] = pd.DataFrame([l.split() for l in tab[tabmark[0]+3:tabmark[-1]]], columns=['instance']+solver)
 
+    elif url.find('network.html'):
+        tab = pre[2].text.split('\n')
+        tabmark = [ind for ind,i in enumerate(tab) if i.startswith('=====')]
+        _version = pre[1].text.split('\n')[1:-1]
+        _version = [x.split()[1] for x in _version]
+        _score = tab[3].split()
+        solver = tab[5].split()[3:]
+        stats['solver'] = solver
+        stats['nprobs'] = len(tab[tabmark[0]+3:tabmark[-1]])
+        stats['score'] = {solver[i]:_score[i] for i in range(len(solver))}
+        stats['solved'] = {}
+        stats['version'] = {solver[i]:_version[i] for i in range(len(solver))}
+        stats['timelimit'] = timelimit
+        stats['times'] = pd.DataFrame([l.split() for l in tab[tabmark[0]+3:tabmark[-1]]], columns=['instance','nodes','arcs']+solver)
+        stats['times'] = stats['times'].drop(['nodes','arcs'], axis=1)
+        for s in solver:
+            stats['solved'][s] = stats['nprobs'] - pd.to_numeric(stats['times'][s], errors='coerce').isna().sum()
+
     else:
         tab = pre[2].text.split('\n')
         tabmark = [ind for ind,i in enumerate(tab) if i.startswith('=====')]
