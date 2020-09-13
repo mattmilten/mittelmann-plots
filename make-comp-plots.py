@@ -71,6 +71,20 @@ def parse_table(url, timelimit=3600):
         for s in solver:
             stats['solved'][s] = stats['nprobs'] - pd.to_numeric(stats['times'][s], errors='coerce').isna().sum()
 
+    elif url.find('misocp.html') >= 0:
+        tab = pre[1].text.split('\n')
+        tabmark = [ind for ind,i in enumerate(tab) if i.startswith('=====')]
+        _score = tab[2].split()
+        _solved = tab[5].split()[3:]
+        solver = tab[4].split()[1:]
+        stats['solver'] = solver
+        stats['nprobs'] = len(tab[tabmark[0]+4:tabmark[-1]])
+        stats['score'] = {solver[i]:float(_score[i]) for i in range(len(solver))}
+        stats['solved'] = {solver[i]:int(_solved[i].strip('*')) for i in range(len(solver))}
+        stats['version'] = {solver[i]:solver[i] for i in range(len(solver))}
+        stats['timelimit'] = timelimit
+        stats['times'] = pd.DataFrame([l.split() for l in tab[tabmark[0]+4:tabmark[-1]]], columns=['instance']+solver)
+
     else:
         tab = pre[2].text.split('\n')
         tabmark = [ind for ind,i in enumerate(tab) if i.startswith('=====')]
@@ -174,6 +188,7 @@ bottom = '\n\nCheck out [my Github page](https://github.com/mattmilten/mittelman
 urls = [('http://plato.asu.edu/ftp/lpsimp.html', 15000),
 ('http://plato.asu.edu/ftp/lpbar.html', 15000),
 ('http://plato.asu.edu/ftp/network.html', 3600),
+('http://plato.asu.edu/ftp/misocp.html', 7200),
 ('http://plato.asu.edu/ftp/qplib.html', 3600),
 ('http://plato.asu.edu/ftp/nonbinary.html', 10800),
 ('http://plato.asu.edu/ftp/cnconv.html', 10800),
