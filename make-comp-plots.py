@@ -173,6 +173,7 @@ bottom = '\n\nCheck out [my Github page](https://github.com/mattmilten/mittelman
 
 urls = [('http://plato.asu.edu/ftp/lpsimp.html', 15000),
 ('http://plato.asu.edu/ftp/lpbar.html', 15000),
+('http://plato.asu.edu/ftp/network.html', 3600),
 ('http://plato.asu.edu/ftp/qplib.html', 3600),
 ('http://plato.asu.edu/ftp/nonbinary.html', 10800),
 ('http://plato.asu.edu/ftp/cnconv.html', 10800),
