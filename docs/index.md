@@ -25,6 +25,22 @@
  --- 
 
 
+## [Benchmark of Barrier LP solvers](http://plato.asu.edu/ftp/lpbar.html) (8 Sep 2020)
+**Choose base solver for comparison:**
+
+|      | score | solved |
+| :--- | ---:  | ---:   |
+|[Gurobi](lpbar-Gurobi.html) | 1.0 | 100%|
+|[MOSEK](lpbar-MOSEK.html) | 1.33 | 98%|
+|[SAS](lpbar-SAS.html) | 2.96 | 96%|
+|[MATLAB](lpbar-MATLAB.html) | 17.3 | 76%|
+|[TULIP](lpbar-TULIP.html) | 20.4 | 78%|
+|[CLP](lpbar-CLP.html) | 26.7 | 82%|
+
+
+ --- 
+
+
 ## [Binary Non-Convex QPLIB Benchmark](http://plato.asu.edu/ftp/qplib.html) (12 Aug 2020)
 **Choose base solver for comparison:**
 
