@@ -46,15 +46,15 @@
 
 |      | score | solved |
 | :--- | ---:  | ---:   |
-|[SAS-OR-15.1](network-SAS.html) | 1 | 100%|
+|[SAS-OR-15.1](network-SAS.html) | 1.0 | 100%|
 |[Gurobi-9.0.2](network-GUR.html) | 1.91 | 100%|
-|[MOSEK-9.2.21](network-MOSEK.html) | 107 | 80%|
-|[MATLAB-R2020a](network-MATL.html) | 17.4 | 90%|
 |[COPT-1.4](network-COPT.html) | 2.42 | 100%|
-|[Clp-1.17.6](network-CLP.html) | 4.60 | 100%|
+|[Clp-1.17.6](network-CLP.html) | 4.6 | 100%|
+|[MATLAB-R2020a](network-MATL.html) | 17.4 | 90%|
 |[MindOpt-0.10.0](network-MDOPT.html) | 49.8 | 90%|
 |[QSopt-1.01](network-QSOPT.html) | 68.1 | 60%|
 |[SOPLEX-5.0.0](network-SOPLX.html) | 92.1 | 60%|
+|[MOSEK-9.2.21](network-MOSEK.html) | 107.0 | 80%|
 
 
  --- 
