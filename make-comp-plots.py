@@ -122,7 +122,7 @@ def plot_benchmark(stats, base):
         if s == base:
             fig.add_trace(go.Scatter(x=time['instance'], y=time[base], mode='markers', name=stats['version'][s]))
         else:
-            fig.add_trace(go.Bar(x=time['instance'], y=time[s]-time[base], name=stats['version'][s]), visible='legendonly')
+            fig.add_trace(go.Bar(x=time['instance'], y=time[s]-time[base], name=stats['version'][s], visible='legendonly'))
     
     fig.update_layout(title=f'Absolute time differences using {stats["version"][base]} as base solver ({stats["date"]}) - show comparison by selecting a solver from the legend',
         xaxis=dict(type='category')
