@@ -7,6 +7,14 @@ import plotly.graph_objects as go
 from datetime import datetime as dt
 
 def get_version(s, version):
+    if s in ['SPLX', 'SOPLX']:
+        s = 'SoPlex'
+    if s in ['MDOPT']:
+        s = 'MindOpt'
+    if s in ['GLOP']:
+        s = 'Google-GLOP'
+    if s in ['MSK']:
+        s = 'Mosek'
     match = [v for v in version if v.lower().startswith(s.lower())]
     return match[0] if match else s
 
