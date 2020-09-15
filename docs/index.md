@@ -1,5 +1,5 @@
 
-## [Benchmark of Simplex LP solvers](http://plato.asu.edu/ftp/lpsimp.html) (5 Sep 2020)
+## [Benchmark of Simplex LP solvers (5 Sep 2020)](http://plato.asu.edu/ftp/lpsimp.html)
 **Choose base solver for comparison:**
 
 |      | score | solved |
@@ -25,7 +25,7 @@
  --- 
 
 
-## [Benchmark of Barrier LP solvers](http://plato.asu.edu/ftp/lpbar.html) (8 Sep 2020)
+## [Benchmark of Barrier LP solvers (8 Sep 2020)](http://plato.asu.edu/ftp/lpbar.html)
 **Choose base solver for comparison:**
 
 |      | score | solved |
@@ -41,7 +41,7 @@
  --- 
 
 
-## [Large Network-LP Benchmark (commercial vs free)](http://plato.asu.edu/ftp/network.html) (8 Sep 2020)
+## [Large Network-LP Benchmark (commercial vs free) (8 Sep 2020)](http://plato.asu.edu/ftp/network.html)
 **Choose base solver for comparison:**
 
 |      | score | solved |
@@ -60,7 +60,7 @@
  --- 
 
 
-## [Mixed-integer SOCP Benchmark](http://plato.asu.edu/ftp/misocp.html) (14 Jun 2020)
+## [Mixed-integer SOCP Benchmark (14 Jun 2020)](http://plato.asu.edu/ftp/misocp.html)
 **Choose base solver for comparison:**
 
 |      | score | solved |
@@ -73,7 +73,7 @@
  --- 
 
 
-## [Binary Non-Convex QPLIB Benchmark](http://plato.asu.edu/ftp/qplib.html) (12 Aug 2020)
+## [Binary Non-Convex QPLIB Benchmark (12 Aug 2020)](http://plato.asu.edu/ftp/qplib.html)
 **Choose base solver for comparison:**
 
 |      | score | solved |
@@ -90,7 +90,7 @@
  --- 
 
 
-## [Discrete Non-Convex QPLIB Benchmark (non-binary)](http://plato.asu.edu/ftp/nonbinary.html) (20 Aug 2020)
+## [Discrete Non-Convex QPLIB Benchmark (non-binary) (20 Aug 2020)](http://plato.asu.edu/ftp/nonbinary.html)
 **Choose base solver for comparison:**
 
 |      | score | solved |
@@ -108,7 +108,7 @@
  --- 
 
 
-## [Continuous Non-Convex QPLIB Benchmark](http://plato.asu.edu/ftp/cnconv.html) (20 Aug 2020)
+## [Continuous Non-Convex QPLIB Benchmark (20 Aug 2020)](http://plato.asu.edu/ftp/cnconv.html)
 **Choose base solver for comparison:**
 
 |      | score | solved |
@@ -125,7 +125,7 @@
  --- 
 
 
-## [Convex Discrete QPLIB Benchmark](http://plato.asu.edu/ftp/convex.html) (15 Aug 2020)
+## [Convex Discrete QPLIB Benchmark (15 Aug 2020)](http://plato.asu.edu/ftp/convex.html)
 **Choose base solver for comparison:**
 
 |      | score | solved |
@@ -145,7 +145,7 @@
  --- 
 
 
-## [Convex Continuous QPLIB Benchmark](http://plato.asu.edu/ftp/cconvex.html) (3 Apr 2020)
+## [Convex Continuous QPLIB Benchmark (3 Apr 2020)](http://plato.asu.edu/ftp/cconvex.html)
 **Choose base solver for comparison:**
 
 |      | score | solved |
