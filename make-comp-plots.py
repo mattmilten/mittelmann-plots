@@ -4,7 +4,7 @@ import pandas as pd
 import re
 import os, fnmatch
 import plotly.graph_objects as go
-from datetime import date
+from datetime import datetime as dt
 
 def get_version(s, version):
     match = [v for v in version if v.lower().startswith(s.lower())]
@@ -124,9 +124,9 @@ def plot_benchmark(stats, base):
         if s == base:
             fig.add_trace(go.Scatter(x=time['instance'], y=time[base], mode='markers', name=stats['version'][s]))
         else:
-            fig.add_trace(go.Bar(x=time['instance'], y=time[s]-time[base], name=stats['version'][s]))
+            fig.add_trace(go.Bar(x=time['instance'], y=time[s]-time[base], name=stats['version'][s], visible='legendonly'))
     
-    fig.update_layout(title=f'Absolute time differences using {stats["version"][base]} as base solver ({stats["date"]})',
+    fig.update_layout(title=f'Absolute time differences using {stats["version"][base]} as base solver ({stats["date"]}) - show comparison by selecting a solver from the legend',
         xaxis=dict(type='category')
         )
     return fig
@@ -155,17 +155,17 @@ def write_bench(url, timelimit):
             for name in files:
                 if fnmatch.fnmatch(name, pattern):
                     result.append(os.path.join(root, name))
-        return result
+        return sorted(result, key=lambda x: dt.strptime(os.path.basename(x), f'{benchname}-%d-%b-%Y.html'))
 
     oldbench = findbench(f'{benchname}-[0-9]*.html', 'docs')
 
     plots = '\n'
-    plots += f'## [{stats["title"]}]({url}) ({stats["date"]})\n'
+    plots += f'## [{stats["title"]} ({stats["date"]})]({url})\n'
     plots += '**Choose base solver for comparison:**\n\n'
     plots += '|      | score | solved |\n'
     plots += '| :--- | ---:  | ---:   |\n'
     for score, s in sorted(zip(stats['score'].values(), time.keys().drop('instance'))):
-        plots += f'|[{stats["version"][s]}]({benchname}-{s}.html) | {stats["score"][s]} | {float(stats["solved"][s])/stats["nprobs"]*100:.0f}%|\n'
+        plots += f'|[{stats["version"][s]}]({benchname}-{s}.html) | {stats["score"][s]:.2f} | {float(stats["solved"][s])/stats["nprobs"]*100:.0f}%|\n'
         if newdata:
             fig = plot_benchmark(stats, s)
             fig.write_html(f'docs/{benchname}-{s}.html', include_plotlyjs='cdn')
@@ -176,7 +176,7 @@ def write_bench(url, timelimit):
 
         for ob in oldbench:
             filename = os.path.basename(ob)
-            date = filename.lstrip(benchname).rstrip('html').replace('-',' ')
+            date = filename.lstrip(f'{benchname}-').rstrip('.html').replace('-',' ')
             plots += f' - [{date}]({filename})\n'
     
     plots += '\n\n --- \n\n'
