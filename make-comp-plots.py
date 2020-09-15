@@ -158,7 +158,7 @@ def write_bench(url, timelimit):
     oldbench = findbench(f'{benchname}-[0-9]*.html', 'docs')
 
     plots = '\n'
-    plots += f'## [{stats["title"]}]({url}) ({stats["date"]})\n'
+    plots += f'## [{stats["title"]} ({stats["date"]})]({url})\n'
     plots += '**Choose base solver for comparison:**\n\n'
     plots += '|      | score | solved |\n'
     plots += '| :--- | ---:  | ---:   |\n'
