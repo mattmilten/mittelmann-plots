@@ -5,15 +5,15 @@
 |      | score | solved |
 | :--- | ---:  | ---:   |
 |[COPT-1.4](lpsimp-COPT.html) | 1.00 | 100%|
-|[MDOPT](lpsimp-MDOPT.html) | 1.19 | 92%|
+|[MindOpt-0.10.0](lpsimp-MDOPT.html) | 1.19 | 92%|
 |[Gurobi-9.0.2](lpsimp-Gurob.html) | 1.28 | 100%|
 |[CLP-1.17.6](lpsimp-CLP.html) | 2.83 | 100%|
-|[MSK](lpsimp-MSK.html) | 6.04 | 95%|
+|[MOSEK-9.2.20](lpsimp-MSK.html) | 6.04 | 95%|
 |[SAS-OR-15.1](lpsimp-SAS.html) | 6.10 | 90%|
 |[HiGHS-1.0.0](lpsimp-HiGHS.html) | 11.50 | 82%|
-|[GLOP](lpsimp-GLOP.html) | 11.80 | 85%|
+|[Google-GLOP](lpsimp-GLOP.html) | 11.80 | 85%|
 |[MATLAB-R2020a](lpsimp-MATL.html) | 13.10 | 80%|
-|[SPLX](lpsimp-SPLX.html) | 15.60 | 90%|
+|[SOPLEX-5.0.0](lpsimp-SPLX.html) | 15.60 | 90%|
 |[GLPK-4.65](lpsimp-GLPK.html) | 43.70 | 68%|
 
 
@@ -51,9 +51,9 @@
 |[COPT-1.4](network-COPT.html) | 2.42 | 100%|
 |[Clp-1.17.6](network-CLP.html) | 4.60 | 100%|
 |[MATLAB-R2020a](network-MATL.html) | 17.40 | 90%|
-|[MDOPT](network-MDOPT.html) | 49.80 | 90%|
+|[MindOpt-0.10.0](network-MDOPT.html) | 49.80 | 90%|
 |[QSopt-1.01](network-QSOPT.html) | 68.10 | 60%|
-|[SOPLX](network-SOPLX.html) | 92.10 | 60%|
+|[SOPLEX-5.0.0](network-SOPLX.html) | 92.10 | 60%|
 |[MOSEK-9.2.21](network-MOSEK.html) | 107.00 | 80%|
 
 
