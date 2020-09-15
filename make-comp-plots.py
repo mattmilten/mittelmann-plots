@@ -4,7 +4,7 @@ import pandas as pd
 import re
 import os, fnmatch
 import plotly.graph_objects as go
-from datetime import date
+from datetime import datetime as dt
 
 def parse_table(url, timelimit=3600):
     """
@@ -153,7 +153,7 @@ def write_bench(url, timelimit):
             for name in files:
                 if fnmatch.fnmatch(name, pattern):
                     result.append(os.path.join(root, name))
-        return result
+        return sorted(result, key=lambda x: dt.strptime(os.path.basename(x), f'{benchname}-%d-%b-%Y.html'))
 
     oldbench = findbench(f'{benchname}-[0-9]*.html', 'docs')
 
@@ -163,7 +163,7 @@ def write_bench(url, timelimit):
     plots += '|      | score | solved |\n'
     plots += '| :--- | ---:  | ---:   |\n'
     for score, s in sorted(zip(stats['score'].values(), time.keys().drop('instance'))):
-        plots += f'|[{stats["version"][s]}]({benchname}-{s}.html) | {stats["score"][s]} | {float(stats["solved"][s])/stats["nprobs"]*100:.0f}%|\n'
+        plots += f'|[{stats["version"][s]}]({benchname}-{s}.html) | {stats["score"][s]:.2f} | {float(stats["solved"][s])/stats["nprobs"]*100:.0f}%|\n'
         if newdata:
             fig = plot_benchmark(stats, s)
             fig.write_html(f'docs/{benchname}-{s}.html', include_plotlyjs='cdn')
@@ -174,7 +174,7 @@ def write_bench(url, timelimit):
 
         for ob in oldbench:
             filename = os.path.basename(ob)
-            date = filename.lstrip(benchname).rstrip('html').replace('-',' ')
+            date = filename.lstrip(f'{benchname}-').rstrip('.html').replace('-',' ')
             plots += f' - [{date}]({filename})\n'
     
     plots += '\n\n --- \n\n'
