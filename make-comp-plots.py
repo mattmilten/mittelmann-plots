@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
-import re
+import numpy as np
 import os, fnmatch
 import plotly.graph_objects as go
 from datetime import datetime as dt
@@ -117,16 +117,26 @@ def plot_benchmark(stats, base):
     for s in stats['solver']:
         time[s] = pd.to_numeric(stats['times'][s], errors='coerce')
     time.fillna(value=stats['timelimit'], inplace=True)
+
+    # this is to define the tick labels on the y axis (built-in log-scale doesn't work well with bar charts)
+    power = 2
+    maxtime = time.max(numeric_only=True).max()
+    tickvals = np.arange(-int(np.log2(maxtime)),int(np.log2(maxtime)))
+    ticktext = [str(power**i)  if i >= 0 else f'1/{power**-i}' for i in tickvals]
+
     fig = go.Figure()
-    for s in sorted(time.keys().drop('instance')):
-        if s == base:
-            fig.add_trace(go.Scatter(x=time['instance'], y=time[base], mode='markers', name=stats['version'][s]))
-        else:
-            fig.add_trace(go.Bar(x=time['instance'], y=time[s]-time[base], name=stats['version'][s]), visible='legendonly')
+    for s in sorted(time.keys().drop(['instance', base])):
+        hovertext = [f'time: {time[s][i]}</br>factor:{(time[s][i]+10)/(time[base][i]+10):.3f}</br>base time: {time[base][i]}' for i in range(len(time[base]))]
+        fig.add_trace(go.Bar(x=time['instance'], y=np.log2((time[s]+10)/(time[base]+10)), hoverinfo='text+x+name', hovertext=hovertext, name=stats['version'][s]))
     
-    fig.update_layout(title=f'Absolute time differences using {stats["version"][base]} as base solver ({stats["date"]}) - show comparison by selecting a solver from the legend',
-        xaxis=dict(type='category')
-        )
+    fig.update_layout(title=f'Shifted time ratios (shift=10 seconds) using {stats["version"][base]} as base solver ({stats["date"]})',
+                      legend_title_text='click to hide/show',
+                      xaxis_type='category',
+                      yaxis_title='time ratios (log scale)',
+                      yaxis_tickvals=tickvals,
+                      yaxis_ticktext=ticktext
+                     )
+
     return fig
 
 
