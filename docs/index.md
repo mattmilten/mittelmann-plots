@@ -31,11 +31,11 @@
 |      | score | solved |
 | :--- | ---:  | ---:   |
 |[Gurobi](lpbar-Gurobi.html) | 1.00 | 100%|
-|[MOSEK](lpbar-MOSEK.html) | 1.33 | 98%|
-|[SAS](lpbar-SAS.html) | 2.96 | 96%|
-|[MATLAB](lpbar-MATLAB.html) | 17.30 | 76%|
-|[TULIP](lpbar-TULIP.html) | 20.40 | 78%|
-|[CLP](lpbar-CLP.html) | 26.70 | 82%|
+|[MOSEK-9.2.21](lpbar-MOSEK.html) | 1.33 | 98%|
+|[SAS-OR-15.1](lpbar-SAS.html) | 2.96 | 96%|
+|[MATLAB-R2020a](lpbar-MATLAB.html) | 17.30 | 76%|
+|[Tulip-0.5.1](lpbar-TULIP.html) | 20.40 | 78%|
+|[CLP-1.17.6](lpbar-CLP.html) | 26.70 | 82%|
 
 
  --- 
@@ -78,13 +78,13 @@
 
 |      | score | solved |
 | :--- | ---:  | ---:   |
-|[GUROBI](qplib-GUROBI.html) | 1.00 | 98%|
-|[BARON](qplib-BARON.html) | 15.00 | 51%|
-|[OCTERACT](qplib-OCTERACT.html) | 19.00 | 43%|
+|[Gurobi-9.0.1](qplib-GUROBI.html) | 1.00 | 98%|
+|[Baron-20.14.4](qplib-BARON.html) | 15.00 | 51%|
+|[OCTERACT-1.07.29](qplib-OCTERACT.html) | 19.00 | 43%|
 |[FSCIP](qplib-FSCIP.html) | 41.00 | 41%|
 |[SCIP](qplib-SCIP.html) | 49.00 | 31%|
-|[ANTIGONE](qplib-ANTIGONE.html) | 59.00 | 28%|
-|[MINOTAUR](qplib-MINOTAUR.html) | 80.00 | 8%|
+|[ANTIGONE-1.1](qplib-ANTIGONE.html) | 59.00 | 28%|
+|[MINOTAUR-0.2.1](qplib-MINOTAUR.html) | 80.00 | 8%|
 
 
  --- 
@@ -95,14 +95,14 @@
 
 |      | score | solved |
 | :--- | ---:  | ---:   |
-|[GUROBI](nonbinary-GUROBI.html) | 1.00 | 86%|
+|[Gurobi-9.0](nonbinary-GUROBI.html) | 1.00 | 86%|
 |[FSCIP](nonbinary-FSCIP.html) | 7.68 | 42%|
 |[SCIP](nonbinary-SCIP.html) | 12.70 | 39%|
-|[BARON](nonbinary-BARON.html) | 15.30 | 40%|
-|[ANTIGONE](nonbinary-ANTIGONE.html) | 18.40 | 38%|
-|[OCTERACT](nonbinary-OCTERACT.html) | 34.70 | 10%|
-|[COUENNE](nonbinary-COUENNE.html) | 41.10 | 10%|
-|[MINOTAUR](nonbinary-MINOTAUR.html) | 47.30 | 5%|
+|[Baron-20.14.4](nonbinary-BARON.html) | 15.30 | 40%|
+|[ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 18.40 | 38%|
+|[OCTERACT-1.07.29](nonbinary-OCTERACT.html) | 34.70 | 10%|
+|[COUENNE-0.5](nonbinary-COUENNE.html) | 41.10 | 10%|
+|[MINOTAUR-0.2.1](nonbinary-MINOTAUR.html) | 47.30 | 5%|
 
 
  --- 
@@ -114,12 +114,12 @@
 |      | score | solved |
 | :--- | ---:  | ---:   |
 |[GUROBI-9.0](cnconv-GUROBI.html) | 1.00 | 48%|
-|[Baron-20.4.14](cnconv-ANTIGONE.html) | 1.46 | 52%|
-|[ANTIGONE-1.1](cnconv-BARON.html) | 1.69 | 45%|
+|[ANTIGONE-1.1](cnconv-ANTIGONE.html) | 1.46 | 52%|
+|[Baron-20.4.14](cnconv-BARON.html) | 1.69 | 45%|
 |[OCTERACT-1.07.29](cnconv-OCTERACT.html) | 2.29 | 29%|
-|[MINOTAUR-0.2.1](cnconv-SCIP.html) | 3.32 | 21%|
-|[SCIP-7.0.0](cnconv-COUENNE.html) | 4.13 | 14%|
-|[COUENNE-0.5](cnconv-MINOTAUR.html) | 4.35 | 11%|
+|[SCIP-7.0.0](cnconv-SCIP.html) | 3.32 | 21%|
+|[COUENNE-0.5](cnconv-COUENNE.html) | 4.13 | 14%|
+|[MINOTAUR-0.2.1](cnconv-MINOTAUR.html) | 4.35 | 11%|
 
 
  --- 

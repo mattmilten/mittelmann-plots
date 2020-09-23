@@ -6,6 +6,19 @@ import os, fnmatch
 import plotly.graph_objects as go
 from datetime import datetime as dt
 
+def get_version(s, version):
+    if s in ['SPLX', 'SOPLX']:
+        s = 'SoPlex'
+    if s in ['MDOPT']:
+        s = 'MindOpt'
+    if s in ['GLOP']:
+        s = 'Google-GLOP'
+    if s in ['MSK']:
+        s = 'Mosek'
+    match = [v for v in version if v.lower().startswith(s.lower())]
+    return match[0] if match else s
+
+
 def parse_table(url, timelimit=3600):
     """
     parse a specific table to generate a dictionary with the runtimes and
@@ -32,7 +45,7 @@ def parse_table(url, timelimit=3600):
         stats['nprobs'] = nprobs
         stats['score'] = {solver[i]:float(_score[i]) for i in range(len(solver))}
         stats['solved'] = {solver[i]:int(_solved[i]) for i in range(len(solver))}
-        stats['version'] = {solver[i]:_version[i] for i in range(len(solver))}
+        stats['version'] = {s:get_version(s, _version) for s in solver}
         stats['timelimit'] = int(pre[3].text.split('\n')[-2].split()[1].replace(',',''))
         stats['times'] = pd.DataFrame([l.split() for l in tab[8:nprobs+8]], columns=['instance']+solver)
 
@@ -49,7 +62,7 @@ def parse_table(url, timelimit=3600):
         stats['nprobs'] = nprobs
         stats['score'] = {solver[i]:float(_score[i]) for i in range(len(solver))}
         stats['solved'] = {solver[i]:int(_solved[i]) for i in range(len(solver))}
-        stats['version'] = {solver[i]:solver[i] for i in range(len(solver))}
+        stats['version'] = {s:get_version(s, _version) for s in solver}
         stats['timelimit'] = timelimit
         stats['times'] = pd.DataFrame([l.split() for l in tab[tabmark[0]+3:tabmark[-1]]], columns=['instance']+solver)
 
@@ -64,7 +77,7 @@ def parse_table(url, timelimit=3600):
         stats['nprobs'] = len(tab[tabmark[0]+3:tabmark[-1]])
         stats['score'] = {solver[i]:float(_score[i]) for i in range(len(solver))}
         stats['solved'] = {}
-        stats['version'] = {solver[i]:_version[i] for i in range(len(solver))}
+        stats['version'] = {s:get_version(s, _version) for s in solver}
         stats['timelimit'] = timelimit
         stats['times'] = pd.DataFrame([l.split() for l in tab[tabmark[0]+3:tabmark[-1]]], columns=['instance','nodes','arcs']+solver)
         stats['times'] = stats['times'].drop(['nodes','arcs'], axis=1)
@@ -98,10 +111,7 @@ def parse_table(url, timelimit=3600):
         stats['nprobs'] = nprobs
         stats['score'] = {solver[i]:float(_score[i]) for i in range(len(solver))}
         stats['solved'] = {solver[i]:int(_solved[i].strip('*')) for i in range(len(solver))}
-        if len(_version) == len(solver):
-            stats['version'] = {solver[i]:_version[i] for i in range(len(solver))}
-        else:
-            stats['version'] = {solver[i]:solver[i] for i in range(len(solver))}
+        stats['version'] = {s:get_version(s, _version) for s in solver}
         stats['timelimit'] = timelimit
         stats['times'] = pd.DataFrame([l.split() for l in tab[tabmark[0]+3:tabmark[1]]], columns=['instance']+solver)
         
