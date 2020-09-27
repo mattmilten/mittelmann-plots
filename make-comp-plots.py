@@ -183,7 +183,7 @@ def write_bench(url, timelimit):
     plots += '|      | score | solved |\n'
     plots += '| :--- | ---:  | ---:   |\n'
     for score, s in sorted(zip(stats['score'].values(), time.keys().drop('instance'))):
-        plots += f'|[{stats["version"][s]}]({benchname}-{s}.html) | {stats["score"][s]:.2f} | {float(stats["solved"][s])/stats["nprobs"]*100:.0f}%|\n'
+        plots += f'|[{stats["version"][s]}]({benchname}-{s}.html) | {score:.2f} | {float(stats["solved"][s])/stats["nprobs"]*100:.0f}%|\n'
         if newdata:
             fig = plot_benchmark(stats, s)
             fig.write_html(f'docs/{benchname}-{s}.html', include_plotlyjs='cdn')
@@ -201,10 +201,6 @@ def write_bench(url, timelimit):
 
     return plots
 
-top = """# Visualizations of Mittelmann benchmarks"""
-
-bottom = '\n\nCheck out [my Github page](https://github.com/mattmilten/mittelmann-plots) for more information.\n'
-
 urls = [('http://plato.asu.edu/ftp/lpsimp.html', 15000),
 ('http://plato.asu.edu/ftp/lpbar.html', 15000),
 ('http://plato.asu.edu/ftp/network.html', 3600),
@@ -217,9 +213,5 @@ urls = [('http://plato.asu.edu/ftp/lpsimp.html', 15000),
 ]
 
 with open('docs/index.md', 'w') as index:
-#     index.write(top)
-
     for url in urls:
         index.write(write_bench(url[0], url[1]))
-
-#     index.write(bottom)
