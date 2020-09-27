@@ -1,25 +1,26 @@
 
-## [Benchmark of Simplex LP solvers (5 Sep 2020)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers (26 Sep 2020)](http://plato.asu.edu/ftp/lpsimp.html)
 **Choose base solver for comparison:**
 
 |      | score | solved |
 | :--- | ---:  | ---:   |
-|[COPT-1.4](lpsimp-COPT.html) | 1.00 | 100%|
-|[MindOpt-0.10.0](lpsimp-MDOPT.html) | 1.19 | 92%|
-|[Gurobi-9.0.2](lpsimp-Gurob.html) | 1.28 | 100%|
-|[CLP-1.17.6](lpsimp-CLP.html) | 2.83 | 100%|
-|[MOSEK-9.2.20](lpsimp-MSK.html) | 6.04 | 95%|
-|[SAS-OR-15.1](lpsimp-SAS.html) | 6.10 | 90%|
-|[HiGHS-1.0.0](lpsimp-HiGHS.html) | 11.50 | 82%|
-|[Google-GLOP](lpsimp-GLOP.html) | 11.80 | 85%|
-|[MATLAB-R2020a](lpsimp-MATL.html) | 13.10 | 80%|
-|[SOPLEX-5.0.0](lpsimp-SPLX.html) | 15.60 | 90%|
-|[GLPK-4.65](lpsimp-GLPK.html) | 43.70 | 68%|
+|[COPT-1.4.2](lpsimp-COPT.html) | 1.00 | 100%|
+|[MindOpt-0.10.0](lpsimp-MDOPT.html) | 1.41 | 92%|
+|[Gurobi-9.0.3](lpsimp-Gurob.html) | 1.45 | 100%|
+|[CLP-1.17.6](lpsimp-CLP.html) | 3.37 | 100%|
+|[MOSEK-9.2.20](lpsimp-MSK.html) | 7.18 | 95%|
+|[SAS-OR-15.1](lpsimp-SAS.html) | 7.25 | 90%|
+|[HiGHS-1.0.0](lpsimp-HiGHS.html) | 13.60 | 82%|
+|[Google-GLOP](lpsimp-GLOP.html) | 14.00 | 85%|
+|[MATLAB-R2020a](lpsimp-MATL.html) | 15.60 | 80%|
+|[SOPLEX-5.0.0](lpsimp-SPLX.html) | 18.50 | 90%|
+|[GLPK-4.65](lpsimp-GLPK.html) | 51.90 | 68%|
 
 
  older versions:
  - [08 Aug 2020](lpsimp-08-Aug-2020.html)
  - [27 Aug 2020](lpsimp-27-Aug-2020.html)
+ - [5 Sep 2020](lpsimp-5-Sep-2020.html)
 
 
  --- 
@@ -31,11 +32,11 @@
 |      | score | solved |
 | :--- | ---:  | ---:   |
 |[Gurobi](lpbar-Gurobi.html) | 1.00 | 100%|
-|[MOSEK-9.2.21](lpbar-MOSEK.html) | 1.33 | 98%|
-|[SAS-OR-15.1](lpbar-SAS.html) | 2.96 | 96%|
-|[MATLAB-R2020a](lpbar-MATLAB.html) | 17.30 | 76%|
-|[Tulip-0.5.1](lpbar-TULIP.html) | 20.40 | 78%|
-|[CLP-1.17.6](lpbar-CLP.html) | 26.70 | 82%|
+|[MOSEK-9.2.21](lpbar-MOSEK.html) | 1.66 | 98%|
+|[SAS-OR-15.1](lpbar-SAS.html) | 3.64 | 96%|
+|[MATLAB-R2020a](lpbar-MATLAB.html) | 18.30 | 76%|
+|[Tulip-0.5.1](lpbar-TULIP.html) | 21.90 | 78%|
+|[CLP-1.17.6](lpbar-CLP.html) | 29.80 | 82%|
 
 
  --- 
