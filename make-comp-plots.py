@@ -169,11 +169,11 @@ def write_bench(url, timelimit):
     # generate list of previous benchmarks
     def findbench(pattern, path):
         result = []
-        for root, dirs, files in os.walk(path):
+        for root, _, files in os.walk(path):
             for name in files:
                 if fnmatch.fnmatch(name, pattern):
                     result.append(os.path.join(root, name))
-        return sorted(result, key=lambda x: dt.strptime(os.path.basename(x), f'{benchname}-%d-%b-%Y.html'))
+        return sorted(result, key=lambda x: dt.strptime(os.path.basename(x), f'{benchname}-%d-%b-%Y.html'), reverse=True)
 
     oldbench = findbench(f'{benchname}-[0-9]*.html', 'docs')
 
