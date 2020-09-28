@@ -150,14 +150,19 @@
  --- 
 
 
-## [Convex Continuous QPLIB Benchmark (3 Apr 2020)](http://plato.asu.edu/ftp/cconvex.html)
+## [Convex Continuous QPLIB Benchmark (27 Sep 2020)](http://plato.asu.edu/ftp/cconvex.html)
 **Choose base solver for comparison:**
 
 |      | score | solved |
 | :--- | ---:  | ---:   |
 |[MOSEK-9.2.4](cconvex-MOSEK.html) | 1.00 | 91%|
+|[Gurobi-9.0.3](cconvex-Gurobi.html) | 1.31 | 94%|
 |[KNITRO-12.0](cconvex-KNITRO.html) | 1.56 | 94%|
 |[IPOPT-3.13.0](cconvex-IPOPT.html) | 3.64 | 88%|
+
+
+ older versions:
+ - [3 Apr 2020](cconvex-3-Apr-2020.html)
 
 
  --- 
