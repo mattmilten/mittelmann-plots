@@ -6,3 +6,5 @@ These plots should make browsing the results easier. Please let me know if you h
 Click on the solver in the legend to enable or disable it in the plot.
 
 Plots are updated daily.
+
+![Update plots](https://github.com/mattmilten/mittelmann-plots/workflows/Update%20plots/badge.svg)
