@@ -9,7 +9,7 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 12 * * *"
 
 jobs:
   build:
@@ -29,24 +29,16 @@ jobs:
     - name: Generate plots
       run: |
         python make-comp-plots.py
-    - uses: EndBug/add-and-commit@v4 # You can change this to use a specific version
+    - uses: EndBug/add-and-commit@v4
       with:
-        # The arguments for the `git add` command (see the paragraph below for more info)
-        # Default: '.'
         add: 'docs'
-
         # The name of the user that will be displayed as the author of the commit
-        # Default: author of the commit that triggered the run
         author_name: Matthias Miltenberger
-
         # The email of the user that will be displayed as the author of the commit
-        # Default: author of the commit that triggered the run
         author_email: matthias.miltenberger@gmail.com
-
         # The message for the commit
-        # Default: 'Commit from GitHub Actions'
         message: 'Update plots'
 
       env:
         # This is necessary in order to push a commit to the repo
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
