@@ -157,7 +157,7 @@
 | :--- | ---:  | ---:   |
 |[MOSEK-9.2.4](cconvex-MOSEK.html) | 1.00 | 91%|
 |[Gurobi-9.0.3](cconvex-Gurobi.html) | 1.31 | 94%|
-|[KNITRO-12.0](cconvex-KNITRO.html) | 1.56 | 94%|
+|[KNITRO-12.2](cconvex-KNITRO.html) | 1.95 | 84%|
 |[IPOPT-3.13.0](cconvex-IPOPT.html) | 3.64 | 88%|
 
 
