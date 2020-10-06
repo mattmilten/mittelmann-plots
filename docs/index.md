@@ -65,6 +65,37 @@
  --- 
 
 
+## [The MIPLIB2017 Benchmark Instances (2 Oct 2020)](http://plato.asu.edu/ftp/milp.html)
+**Choose base solver for comparison:**
+
+|      | score | solved |
+| :--- | ---:  | ---:   |
+|[Gurobi-9.0.3](milp-Gurobi.html) | 1.00 | 85%|
+|[SAS-OR-15.1](milp-SAS.html) | 2.86 | 61%|
+|[(F)SCIP/spx-7.0.0](milp-SCIP.html) | 4.23 | 52%|
+|[CBC-2.10.5](milp-CBC.html) | 8.10 | 37%|
+|[MATLAB-2020a](milp-MATLAB.html) | 12.70 | 26%|
+|[GLPK-4.65](milp-GLPK.html) | 19.40 | 10%|
+|[LP_SOLVE-5.5.2](milp-LP_SOL.html) | 20.50 | 8%|
+
+
+ --- 
+
+
+## [The MIPLIB2017 Benchmark Instances - 8 threads (2 Oct 2020)](http://plato.asu.edu/ftp/milp.html)
+**Choose base solver for comparison:**
+
+|      | score | solved |
+| :--- | ---:  | ---:   |
+|[Gurobi-9.0.3](milp_8threads-Gurobi.html) | 1.00 | 91%|
+|[SAS-OR-15.1](milp_8threads-SAS.html) | 3.85 | 65%|
+|[FSCIP](milp_8threads-FSCIP.html) | 7.06 | 57%|
+|[CBC-2.10.5](milp_8threads-CBC.html) | 11.40 | 41%|
+
+
+ --- 
+
+
 ## [Mixed-integer SOCP Benchmark (14 Jun 2020)](http://plato.asu.edu/ftp/misocp.html)
 **Choose base solver for comparison:**
 
@@ -87,7 +118,7 @@
 |[Baron-20.14.4](qplib-BARON.html) | 15.00 | 51%|
 |[OCTERACT-1.07.29](qplib-OCTERACT.html) | 19.00 | 43%|
 |[FSCIP](qplib-FSCIP.html) | 41.00 | 41%|
-|[SCIP](qplib-SCIP.html) | 49.00 | 31%|
+|[(F)SCIP-7.0.0](qplib-SCIP.html) | 49.00 | 31%|
 |[ANTIGONE-1.1](qplib-ANTIGONE.html) | 59.00 | 28%|
 |[MINOTAUR-0.2.1](qplib-MINOTAUR.html) | 80.00 | 8%|
 
@@ -102,7 +133,7 @@
 | :--- | ---:  | ---:   |
 |[Gurobi-9.0](nonbinary-GUROBI.html) | 1.00 | 86%|
 |[FSCIP](nonbinary-FSCIP.html) | 7.68 | 42%|
-|[SCIP](nonbinary-SCIP.html) | 12.70 | 39%|
+|[(F)SCIP-7.0.0](nonbinary-SCIP.html) | 12.70 | 39%|
 |[Baron-20.14.4](nonbinary-BARON.html) | 15.30 | 40%|
 |[ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 18.40 | 38%|
 |[OCTERACT-1.07.29](nonbinary-OCTERACT.html) | 34.70 | 10%|
