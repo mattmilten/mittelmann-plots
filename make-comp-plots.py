@@ -9,17 +9,18 @@ from datetime import datetime as dt
 def get_version(s, version):
     if s in ['SPLX', 'SOPLX']:
         s = 'SoPlex'
-    if s in ['MDOPT']:
+    elif s in ['MDOPT']:
         s = 'MindOpt'
-    if s in ['GLOP']:
+    elif s in ['GLOP']:
         s = 'Google-GLOP'
-    if s in ['MSK']:
+    elif s in ['MSK']:
         s = 'Mosek'
-    match = [v for v in version if v.lower().startswith(s.lower())]
+    
+    match = [v for v in version if v.lower().find(s.lower()) >= 0]
     return match[0] if match else s
 
 
-def parse_table(url, timelimit=3600):
+def parse_table(url, timelimit=3600, threads=1):
     """
     parse a specific table to generate a dictionary with the runtimes and
     auxiliary information
@@ -83,6 +84,42 @@ def parse_table(url, timelimit=3600):
         stats['times'] = stats['times'].drop(['nodes','arcs'], axis=1)
         for s in solver:
             stats['solved'][s] = stats['nprobs'] - pd.to_numeric(stats['times'][s], errors='coerce').isna().sum()
+
+    elif url.find('milp.html') >= 0:
+        if threads == 1:
+            taburl = 'http://plato.asu.edu/ftp/milp_tables/1thread.res'
+            scoretab = pre[1].text.split('\n')[5:10]
+        else:
+            taburl = 'http://plato.asu.edu/ftp/milp_tables/8threads.res'
+            scoretab = pre[1].text.split('\n')[13:18]
+            stats['title'] += f' - {threads} threads'
+        
+        resp = requests.get(taburl) 
+        souptab = BeautifulSoup(resp.text, features="html.parser")
+        tab = souptab.contents[0].split('\n')
+        tabmark = [ind for ind,i in enumerate(tab) if i.startswith('----')]
+        columns = tab[tabmark[0]+1].replace('|',' ').split()[1:]
+        
+        for i,c in enumerate(columns):
+            if c.startswith('lpsolve'):
+                columns[i] = 'LP_SOL'
+            elif c.startswith('FiberSCIP'):
+                columns[i] = 'FSCIP'
+            elif c.startswith('SCIP'):
+                columns[i] = 'SCIP'
+
+        _version = str(soup.contents[2]).split('<p>')[4].split('\n')[1:-1]
+        _version = [x.split()[0].rstrip(':') for x in _version]
+        _solved = scoretab[4].split()[1:]
+        _score = scoretab[3].split()[1:]
+        solver = scoretab[0].split()[2:]
+        stats['solver'] = solver
+        stats['solved'] = {solver[i]:int(_solved[i]) for i in range(len(solver))}
+        stats['version'] = {s:get_version(s, _version) for s in solver}
+        stats['score'] = {solver[i]:float(_score[i].strip('`')) for i in range(len(solver))}
+        stats['times'] = pd.DataFrame([l.split() for l in tab[tabmark[1]+1:tabmark[-2]]], columns=['instance']+columns)
+        stats['nprobs'] = len(stats['times'])
+        stats['timelimit'] = timelimit
 
     elif url.find('misocp.html') >= 0:
         tab = pre[1].text.split('\n')
@@ -150,9 +187,12 @@ def plot_benchmark(stats, base):
     return fig
 
 
-def write_bench(url, timelimit):
+def write_bench(url, timelimit, threads=1):
     benchname = url.split('/')[-1][:-5]
-    stats = parse_table(url, timelimit)
+    stats = parse_table(url, timelimit, threads)
+
+    if threads > 1:
+        benchname += f'_{threads}threads'
 
     time = stats['times']
     for s in stats['solver']:
@@ -182,8 +222,9 @@ def write_bench(url, timelimit):
     plots += '**Choose base solver for comparison:**\n\n'
     plots += '|      | score | solved |\n'
     plots += '| :--- | ---:  | ---:   |\n'
-    for score, s in sorted(zip(stats['score'].values(), time.keys().drop('instance'))):
-        plots += f'|[{stats["version"][s]}]({benchname}-{s}.html) | {score:.2f} | {float(stats["solved"][s])/stats["nprobs"]*100:.0f}%|\n'
+    for s in sorted(stats['score'].items(), key=lambda x: x[1]):
+        s = s[0]
+        plots += f'|[{stats["version"][s]}]({benchname}-{s}.html) | {stats["score"][s]:.2f} | {float(stats["solved"][s])/stats["nprobs"]*100:.0f}%|\n'
         if newdata:
             fig = plot_benchmark(stats, s)
             fig.write_html(f'docs/{benchname}-{s}.html', include_plotlyjs='cdn')
@@ -201,17 +242,19 @@ def write_bench(url, timelimit):
 
     return plots
 
-urls = [('http://plato.asu.edu/ftp/lpsimp.html', 15000),
-('http://plato.asu.edu/ftp/lpbar.html', 15000),
-('http://plato.asu.edu/ftp/network.html', 3600),
-('http://plato.asu.edu/ftp/misocp.html', 7200),
-('http://plato.asu.edu/ftp/qplib.html', 3600),
-('http://plato.asu.edu/ftp/nonbinary.html', 10800),
-('http://plato.asu.edu/ftp/cnconv.html', 10800),
-('http://plato.asu.edu/ftp/convex.html', 7200),
-('http://plato.asu.edu/ftp/cconvex.html', 3600),
+urls = [('http://plato.asu.edu/ftp/lpsimp.html', 15000, 1),
+('http://plato.asu.edu/ftp/lpbar.html', 15000, 1),
+('http://plato.asu.edu/ftp/network.html', 3600, 1),
+('http://plato.asu.edu/ftp/milp.html', 7200, 1),
+('http://plato.asu.edu/ftp/milp.html', 7200, 8),
+('http://plato.asu.edu/ftp/misocp.html', 7200, 1),
+('http://plato.asu.edu/ftp/qplib.html', 3600, 1),
+('http://plato.asu.edu/ftp/nonbinary.html', 10800, 1),
+('http://plato.asu.edu/ftp/cnconv.html', 10800, 1),
+('http://plato.asu.edu/ftp/convex.html', 7200, 1),
+('http://plato.asu.edu/ftp/cconvex.html', 3600, 1),
 ]
 
 with open('docs/index.md', 'w') as index:
     for url in urls:
-        index.write(write_bench(url[0], url[1]))
+        index.write(write_bench(url[0], url[1], url[2]))
