@@ -231,7 +231,7 @@ def write_bench(url, timelimit, threads=1):
         os.system(f'cat docs/{benchname}-{s}.html >> docs/{benchname}-{storedate}.html')
 
     if oldbench:
-        plots += '\n\n older versions:\n'
+        plots += '\n\n older benchmarks:\n'
 
         for ob in oldbench:
             filename = os.path.basename(ob)
@@ -258,7 +258,7 @@ urls = [('http://plato.asu.edu/ftp/lpsimp.html', 15000, 1),
 with open('docs/index.md', 'w') as index:
     index.write("""Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http://plato.asu.edu/bench.html).
     Each solver can be selected to show pairwise running time factors for every other solver in the respective benchmark.
-    These plots should make browsing the results easier. Please let [me know](https://github.com/mattmilten) if you have a question or if there is an error.\n
+    These plots should make browsing the results easier. [Please let me know](https://github.com/mattmilten) if you have a question or if there is an error.\n
     """)
     for url in urls:
         index.write(write_bench(url[0], url[1], url[2]))
