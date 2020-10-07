@@ -259,7 +259,7 @@ with open('docs/index.md', 'w') as index:
     Each solver can be selected to show pairwise running time factors for every other solver in the respective benchmark.
     These plots should make browsing the results easier. Please let [me](https://github.com/mattmilten) know if you have a question or if there is an error.\n
     Click the solver in the legend to enable or disable it in the plot.\n
-    There is a daily check for new benchamrk results.
+    There is a daily check for new benchmark results.
     
     """)
     for url in urls:
