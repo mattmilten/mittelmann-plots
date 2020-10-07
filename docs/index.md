@@ -4,12 +4,12 @@ Interactive Plotly graphs comparing the results of [Hans Mittelmann's benchmarks
 
     Click the solver in the legend to enable or disable it in the plot.
 
-    There is a daily check for new benchamrk results.
+    There is a daily check for new benchmark results.
     
     
 ## [Benchmark of Simplex LP solvers (26 Sep 2020)](http://plato.asu.edu/ftp/lpsimp.html)
 
-| choose base solver | score | solved |
+| choose base solver for comparison | score | solved |
 | :--- | ---:  | ---:   |
 |[COPT-1.4.2](lpsimp-COPT.html) | 1.00 | 100%|
 |[MindOpt-0.10.0](lpsimp-MDOPT.html) | 1.41 | 92%|
@@ -35,7 +35,7 @@ Interactive Plotly graphs comparing the results of [Hans Mittelmann's benchmarks
 
 ## [Benchmark of Barrier LP solvers (8 Sep 2020)](http://plato.asu.edu/ftp/lpbar.html)
 
-| choose base solver | score | solved |
+| choose base solver for comparison | score | solved |
 | :--- | ---:  | ---:   |
 |[Gurobi](lpbar-Gurobi.html) | 1.00 | 100%|
 |[MOSEK-9.2.21](lpbar-MOSEK.html) | 1.66 | 98%|
@@ -50,7 +50,7 @@ Interactive Plotly graphs comparing the results of [Hans Mittelmann's benchmarks
 
 ## [Large Network-LP Benchmark (commercial vs free) (26 Sep 2020)](http://plato.asu.edu/ftp/network.html)
 
-| choose base solver | score | solved |
+| choose base solver for comparison | score | solved |
 | :--- | ---:  | ---:   |
 |[SAS-OR-15.1](network-SAS.html) | 1.00 | 100%|
 |[Gurobi-9.0.3](network-GUR.html) | 1.91 | 100%|
@@ -72,7 +72,7 @@ Interactive Plotly graphs comparing the results of [Hans Mittelmann's benchmarks
 
 ## [The MIPLIB2017 Benchmark Instances (2 Oct 2020)](http://plato.asu.edu/ftp/milp.html)
 
-| choose base solver | score | solved |
+| choose base solver for comparison | score | solved |
 | :--- | ---:  | ---:   |
 |[Gurobi-9.0.3](milp-Gurobi.html) | 1.00 | 85%|
 |[SAS-OR-15.1](milp-SAS.html) | 2.86 | 61%|
@@ -88,7 +88,7 @@ Interactive Plotly graphs comparing the results of [Hans Mittelmann's benchmarks
 
 ## [The MIPLIB2017 Benchmark Instances - 8 threads (2 Oct 2020)](http://plato.asu.edu/ftp/milp.html)
 
-| choose base solver | score | solved |
+| choose base solver for comparison | score | solved |
 | :--- | ---:  | ---:   |
 |[Gurobi-9.0.3](milp_8threads-Gurobi.html) | 1.00 | 91%|
 |[SAS-OR-15.1](milp_8threads-SAS.html) | 3.85 | 65%|
@@ -101,7 +101,7 @@ Interactive Plotly graphs comparing the results of [Hans Mittelmann's benchmarks
 
 ## [Mixed-integer SOCP Benchmark (14 Jun 2020)](http://plato.asu.edu/ftp/misocp.html)
 
-| choose base solver | score | solved |
+| choose base solver for comparison | score | solved |
 | :--- | ---:  | ---:   |
 |[GUROBI](misocp-GUROBI.html) | 1.00 | 100%|
 |[MOSEK](misocp-MOSEK.html) | 10.80 | 68%|
@@ -113,7 +113,7 @@ Interactive Plotly graphs comparing the results of [Hans Mittelmann's benchmarks
 
 ## [Binary Non-Convex QPLIB Benchmark (12 Aug 2020)](http://plato.asu.edu/ftp/qplib.html)
 
-| choose base solver | score | solved |
+| choose base solver for comparison | score | solved |
 | :--- | ---:  | ---:   |
 |[Gurobi-9.0.1](qplib-GUROBI.html) | 1.00 | 98%|
 |[Baron-20.14.4](qplib-BARON.html) | 15.00 | 51%|
@@ -129,7 +129,7 @@ Interactive Plotly graphs comparing the results of [Hans Mittelmann's benchmarks
 
 ## [Discrete Non-Convex QPLIB Benchmark (non-binary) (20 Aug 2020)](http://plato.asu.edu/ftp/nonbinary.html)
 
-| choose base solver | score | solved |
+| choose base solver for comparison | score | solved |
 | :--- | ---:  | ---:   |
 |[Gurobi-9.0](nonbinary-GUROBI.html) | 1.00 | 86%|
 |[FSCIP](nonbinary-FSCIP.html) | 7.68 | 42%|
@@ -146,7 +146,7 @@ Interactive Plotly graphs comparing the results of [Hans Mittelmann's benchmarks
 
 ## [Continuous Non-Convex QPLIB Benchmark (20 Aug 2020)](http://plato.asu.edu/ftp/cnconv.html)
 
-| choose base solver | score | solved |
+| choose base solver for comparison | score | solved |
 | :--- | ---:  | ---:   |
 |[GUROBI-9.0](cnconv-GUROBI.html) | 1.00 | 48%|
 |[ANTIGONE-1.1](cnconv-ANTIGONE.html) | 1.46 | 52%|
@@ -162,7 +162,7 @@ Interactive Plotly graphs comparing the results of [Hans Mittelmann's benchmarks
 
 ## [Convex Discrete QPLIB Benchmark (15 Aug 2020)](http://plato.asu.edu/ftp/convex.html)
 
-| choose base solver | score | solved |
+| choose base solver for comparison | score | solved |
 | :--- | ---:  | ---:   |
 |[GUROBI-9.0.1](convex-GUROBI.html) | 1.00 | 74%|
 |[Baron-20.14.4](convex-BARON.html) | 5.42 | 52%|
@@ -181,7 +181,7 @@ Interactive Plotly graphs comparing the results of [Hans Mittelmann's benchmarks
 
 ## [Convex Continuous QPLIB Benchmark (27 Sep 2020)](http://plato.asu.edu/ftp/cconvex.html)
 
-| choose base solver | score | solved |
+| choose base solver for comparison | score | solved |
 | :--- | ---:  | ---:   |
 |[MOSEK-9.2.24](cconvex-MOSEK.html) | 1.00 | 97%|
 |[Gurobi-9.0.3](cconvex-Gurobi.html) | 1.31 | 94%|
