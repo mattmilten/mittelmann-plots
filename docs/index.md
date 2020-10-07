@@ -1,8 +1,15 @@
+Interactive Plotly graphs comparing the results of [Hans Mittelmann's benchmarks](http://plato.asu.edu/bench.html).
+    Each solver can be selected to show pairwise running time factors for every other solver in the respective benchmark.
+    These plots should make browsing the results easier. Please let [me](https://github.com/mattmilten) know if you have a question or if there is an error.
 
+    Click the solver in the legend to enable or disable it in the plot.
+
+    There is a daily check for new benchamrk results.
+    
+    
 ## [Benchmark of Simplex LP solvers (26 Sep 2020)](http://plato.asu.edu/ftp/lpsimp.html)
-**Choose base solver for comparison:**
 
-|      | score | solved |
+| choose base solver | score | solved |
 | :--- | ---:  | ---:   |
 |[COPT-1.4.2](lpsimp-COPT.html) | 1.00 | 100%|
 |[MindOpt-0.10.0](lpsimp-MDOPT.html) | 1.41 | 92%|
@@ -27,9 +34,8 @@
 
 
 ## [Benchmark of Barrier LP solvers (8 Sep 2020)](http://plato.asu.edu/ftp/lpbar.html)
-**Choose base solver for comparison:**
 
-|      | score | solved |
+| choose base solver | score | solved |
 | :--- | ---:  | ---:   |
 |[Gurobi](lpbar-Gurobi.html) | 1.00 | 100%|
 |[MOSEK-9.2.21](lpbar-MOSEK.html) | 1.66 | 98%|
@@ -43,9 +49,8 @@
 
 
 ## [Large Network-LP Benchmark (commercial vs free) (26 Sep 2020)](http://plato.asu.edu/ftp/network.html)
-**Choose base solver for comparison:**
 
-|      | score | solved |
+| choose base solver | score | solved |
 | :--- | ---:  | ---:   |
 |[SAS-OR-15.1](network-SAS.html) | 1.00 | 100%|
 |[Gurobi-9.0.3](network-GUR.html) | 1.91 | 100%|
@@ -66,9 +71,8 @@
 
 
 ## [The MIPLIB2017 Benchmark Instances (2 Oct 2020)](http://plato.asu.edu/ftp/milp.html)
-**Choose base solver for comparison:**
 
-|      | score | solved |
+| choose base solver | score | solved |
 | :--- | ---:  | ---:   |
 |[Gurobi-9.0.3](milp-Gurobi.html) | 1.00 | 85%|
 |[SAS-OR-15.1](milp-SAS.html) | 2.86 | 61%|
@@ -83,9 +87,8 @@
 
 
 ## [The MIPLIB2017 Benchmark Instances - 8 threads (2 Oct 2020)](http://plato.asu.edu/ftp/milp.html)
-**Choose base solver for comparison:**
 
-|      | score | solved |
+| choose base solver | score | solved |
 | :--- | ---:  | ---:   |
 |[Gurobi-9.0.3](milp_8threads-Gurobi.html) | 1.00 | 91%|
 |[SAS-OR-15.1](milp_8threads-SAS.html) | 3.85 | 65%|
@@ -97,9 +100,8 @@
 
 
 ## [Mixed-integer SOCP Benchmark (14 Jun 2020)](http://plato.asu.edu/ftp/misocp.html)
-**Choose base solver for comparison:**
 
-|      | score | solved |
+| choose base solver | score | solved |
 | :--- | ---:  | ---:   |
 |[GUROBI](misocp-GUROBI.html) | 1.00 | 100%|
 |[MOSEK](misocp-MOSEK.html) | 10.80 | 68%|
@@ -110,9 +112,8 @@
 
 
 ## [Binary Non-Convex QPLIB Benchmark (12 Aug 2020)](http://plato.asu.edu/ftp/qplib.html)
-**Choose base solver for comparison:**
 
-|      | score | solved |
+| choose base solver | score | solved |
 | :--- | ---:  | ---:   |
 |[Gurobi-9.0.1](qplib-GUROBI.html) | 1.00 | 98%|
 |[Baron-20.14.4](qplib-BARON.html) | 15.00 | 51%|
@@ -127,9 +128,8 @@
 
 
 ## [Discrete Non-Convex QPLIB Benchmark (non-binary) (20 Aug 2020)](http://plato.asu.edu/ftp/nonbinary.html)
-**Choose base solver for comparison:**
 
-|      | score | solved |
+| choose base solver | score | solved |
 | :--- | ---:  | ---:   |
 |[Gurobi-9.0](nonbinary-GUROBI.html) | 1.00 | 86%|
 |[FSCIP](nonbinary-FSCIP.html) | 7.68 | 42%|
@@ -145,9 +145,8 @@
 
 
 ## [Continuous Non-Convex QPLIB Benchmark (20 Aug 2020)](http://plato.asu.edu/ftp/cnconv.html)
-**Choose base solver for comparison:**
 
-|      | score | solved |
+| choose base solver | score | solved |
 | :--- | ---:  | ---:   |
 |[GUROBI-9.0](cnconv-GUROBI.html) | 1.00 | 48%|
 |[ANTIGONE-1.1](cnconv-ANTIGONE.html) | 1.46 | 52%|
@@ -162,9 +161,8 @@
 
 
 ## [Convex Discrete QPLIB Benchmark (15 Aug 2020)](http://plato.asu.edu/ftp/convex.html)
-**Choose base solver for comparison:**
 
-|      | score | solved |
+| choose base solver | score | solved |
 | :--- | ---:  | ---:   |
 |[GUROBI-9.0.1](convex-GUROBI.html) | 1.00 | 74%|
 |[Baron-20.14.4](convex-BARON.html) | 5.42 | 52%|
@@ -182,9 +180,8 @@
 
 
 ## [Convex Continuous QPLIB Benchmark (27 Sep 2020)](http://plato.asu.edu/ftp/cconvex.html)
-**Choose base solver for comparison:**
 
-|      | score | solved |
+| choose base solver | score | solved |
 | :--- | ---:  | ---:   |
 |[MOSEK-9.2.24](cconvex-MOSEK.html) | 1.00 | 97%|
 |[Gurobi-9.0.3](cconvex-Gurobi.html) | 1.31 | 94%|
