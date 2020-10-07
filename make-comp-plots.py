@@ -219,7 +219,7 @@ def write_bench(url, timelimit, threads=1):
 
     plots = '\n'
     plots += f'## [{stats["title"]} ({stats["date"]})]({url})\n'
-    plots += 'Choose base solver for comparison\n\n'
+    plots += 'Choose base solver for comparison:\n\n'
     plots += '| solver | score | solved |\n'
     plots += '| :--- | ---:  | ---:   |\n'
     for s in sorted(stats['score'].items(), key=lambda x: x[1]):
