@@ -1,6 +1,6 @@
 Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http://plato.asu.edu/bench.html).
     Each solver can be selected to show pairwise running time factors for every other solver in the respective benchmark.
-    These plots should make browsing the results easier. Please let [me know](https://github.com/mattmilten) if you have a question or if there is an error.
+    These plots should make browsing the results easier. [Please let me know](https://github.com/mattmilten) if you have a question or if there is an error.
 
     
 ## [Benchmark of Simplex LP solvers (26 Sep 2020)](http://plato.asu.edu/ftp/lpsimp.html)
@@ -21,7 +21,7 @@ Choose base solver for comparison
 |[GLPK-4.65](lpsimp-GLPK.html) | 51.90 | 68%|
 
 
- older versions:
+ older benchmarks:
  - [5 Sep 2020](lpsimp-5-Sep-2020.html)
  - [27 Aug 2020](lpsimp-27-Aug-2020.html)
  - [08 Aug 2020](lpsimp-08-Aug-2020.html)
@@ -62,7 +62,7 @@ Choose base solver for comparison
 |[MOSEK-9.2.21](network-MOSEK.html) | 107.00 | 80%|
 
 
- older versions:
+ older benchmarks:
  - [8 Sep 2020](network-8-Sep-2020.html)
 
 
@@ -196,7 +196,7 @@ Choose base solver for comparison
 |[IPOPT-3.13.0](cconvex-IPOPT.html) | 3.64 | 88%|
 
 
- older versions:
+ older benchmarks:
  - [3 Apr 2020](cconvex-3-Apr-2020.html)
 
 
