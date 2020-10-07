@@ -4,7 +4,7 @@ Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http:
 
     
 ## [Benchmark of Simplex LP solvers (26 Sep 2020)](http://plato.asu.edu/ftp/lpsimp.html)
-Choose base solver for comparison
+Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
@@ -31,7 +31,7 @@ Choose base solver for comparison
 
 
 ## [Benchmark of Barrier LP solvers (8 Sep 2020)](http://plato.asu.edu/ftp/lpbar.html)
-Choose base solver for comparison
+Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
@@ -47,7 +47,7 @@ Choose base solver for comparison
 
 
 ## [Large Network-LP Benchmark (commercial vs free) (26 Sep 2020)](http://plato.asu.edu/ftp/network.html)
-Choose base solver for comparison
+Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
@@ -70,7 +70,7 @@ Choose base solver for comparison
 
 
 ## [The MIPLIB2017 Benchmark Instances (2 Oct 2020)](http://plato.asu.edu/ftp/milp.html)
-Choose base solver for comparison
+Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
@@ -87,7 +87,7 @@ Choose base solver for comparison
 
 
 ## [The MIPLIB2017 Benchmark Instances - 8 threads (2 Oct 2020)](http://plato.asu.edu/ftp/milp.html)
-Choose base solver for comparison
+Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
@@ -101,7 +101,7 @@ Choose base solver for comparison
 
 
 ## [Mixed-integer SOCP Benchmark (14 Jun 2020)](http://plato.asu.edu/ftp/misocp.html)
-Choose base solver for comparison
+Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
@@ -114,7 +114,7 @@ Choose base solver for comparison
 
 
 ## [Binary Non-Convex QPLIB Benchmark (12 Aug 2020)](http://plato.asu.edu/ftp/qplib.html)
-Choose base solver for comparison
+Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
@@ -131,7 +131,7 @@ Choose base solver for comparison
 
 
 ## [Discrete Non-Convex QPLIB Benchmark (non-binary) (20 Aug 2020)](http://plato.asu.edu/ftp/nonbinary.html)
-Choose base solver for comparison
+Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
@@ -149,7 +149,7 @@ Choose base solver for comparison
 
 
 ## [Continuous Non-Convex QPLIB Benchmark (20 Aug 2020)](http://plato.asu.edu/ftp/cnconv.html)
-Choose base solver for comparison
+Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
@@ -166,7 +166,7 @@ Choose base solver for comparison
 
 
 ## [Convex Discrete QPLIB Benchmark (15 Aug 2020)](http://plato.asu.edu/ftp/convex.html)
-Choose base solver for comparison
+Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
@@ -186,7 +186,7 @@ Choose base solver for comparison
 
 
 ## [Convex Continuous QPLIB Benchmark (27 Sep 2020)](http://plato.asu.edu/ftp/cconvex.html)
-Choose base solver for comparison
+Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
