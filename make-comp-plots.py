@@ -218,9 +218,8 @@ def write_bench(url, timelimit, threads=1):
     oldbench = findbench(f'{benchname}-[0-9]*.html', 'docs')
 
     plots = '\n'
-    plots += f'## [{stats["title"]} ({stats["date"]})]({url})\n'
-    plots += '**Choose base solver for comparison:**\n\n'
-    plots += '|      | score | solved |\n'
+    plots += f'## [{stats["title"]} ({stats["date"]})]({url})\n\n'
+    plots += '| choose base solver | score | solved |\n'
     plots += '| :--- | ---:  | ---:   |\n'
     for s in sorted(stats['score'].items(), key=lambda x: x[1]):
         s = s[0]
@@ -256,5 +255,14 @@ urls = [('http://plato.asu.edu/ftp/lpsimp.html', 15000, 1),
 ]
 
 with open('docs/index.md', 'w') as index:
+    index.write("""Interactive Plotly graphs comparing the results of [Hans Mittelmann's benchmarks](http://plato.asu.edu/bench.html).
+    Each solver can be selected to show pairwise running time factors for every other solver in the respective benchmark.
+    These plots should make browsing the results easier. Please let [me](https://github.com/mattmilten) know if you have a question or if there is an error.
+
+    Click the solver in the legend to enable or disable it in the plot.
+
+    There is a daily check for new benchamrk results.
+    
+    """)
     for url in urls:
         index.write(write_bench(url[0], url[1], url[2]))
