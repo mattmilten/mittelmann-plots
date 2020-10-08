@@ -155,6 +155,17 @@ def parse_table(url, timelimit=3600, threads=1):
     return stats
 
 
+def timeout_symbol(basetime, time, limit):
+    if basetime >= limit:
+        if time >= limit:
+            return '❌'
+        return '🔻'
+    if time >= limit:
+        return '🔺'
+    else:
+        return ''
+    
+
 def plot_benchmark(stats, base):
     """
     generate an interactive Plotly figure from the given dictionary
@@ -173,17 +184,23 @@ def plot_benchmark(stats, base):
 
     fig = go.Figure()
     for s in sorted(time.keys().drop(['instance', base])):
-        hovertext = [f'time: {time[s][i]}</br>factor:{(time[s][i]+10)/(time[base][i]+10):.3f}</br>base time: {time[base][i]}' for i in range(len(time[base]))]
-        fig.add_trace(go.Bar(x=time['instance'], y=np.log2((time[s]+10)/(time[base]+10)), hoverinfo='text+x+name', hovertext=hovertext, name=stats['version'][s]))
+        hovertext = [f'time: {time[s][i]}<br>factor:{(time[s][i]+10)/(time[base][i]+10):.3f}<br>base time: {time[base][i]}' for i in range(len(time[base]))]
+        text = [timeout_symbol(time[base][i], time[s][i], stats['timelimit']) for i in range(len(time[base]))]
+        fig.add_trace(go.Bar(text=text, textposition='outside', textfont_size=20, x=time['instance'], y=np.log2((time[s]+10)/(time[base]+10)), hoverinfo='text+x+name', hovertext=hovertext, name=stats['version'][s]))
     
-    fig.update_layout(title=f'Shifted time ratios (shift=10 seconds) using {stats["version"][base]} as base solver ({stats["date"]})',
+    
+    title = f'<b>{stats["title"]}</b>'
+    title += f'<br>shifted time ratios (shift=10 seconds) using {stats["version"][base]} as base solver ({stats["date"]})'
+
+    fig.add_annotation(x=0, y=1, xref='paper', yref='paper', showarrow=False, align='left', text='(🔻)🔺: (base) solver failed to solve within the time limit<br> ❌: no solution')
+    
+    fig.update_layout(title=title,
                       legend_title_text='click to hide/show',
                       xaxis_type='category',
                       yaxis_title='time ratios (log scale)',
                       yaxis_tickvals=tickvals,
                       yaxis_ticktext=ticktext
                      )
-
     return fig
 
 
