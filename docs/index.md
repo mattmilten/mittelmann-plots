@@ -113,18 +113,22 @@ Choose base solver for comparison:
  --- 
 
 
-## [Binary Non-Convex QPLIB Benchmark (12 Aug 2020)](http://plato.asu.edu/ftp/qplib.html)
+## [Binary Non-Convex QPLIB Benchmark (7 Oct 2020)](http://plato.asu.edu/ftp/qplib.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[Gurobi-9.0.1](qplib-GUROBI.html) | 1.00 | 98%|
+|[Gurobi-9.0.3](qplib-GUROBI.html) | 1.00 | 98%|
 |[Baron-20.14.4](qplib-BARON.html) | 15.00 | 51%|
 |[OCTERACT-1.07.29](qplib-OCTERACT.html) | 19.00 | 43%|
 |[FSCIP](qplib-FSCIP.html) | 41.00 | 41%|
 |[(F)SCIP-7.0.0](qplib-SCIP.html) | 49.00 | 31%|
 |[ANTIGONE-1.1](qplib-ANTIGONE.html) | 59.00 | 28%|
 |[MINOTAUR-0.2.1](qplib-MINOTAUR.html) | 80.00 | 8%|
+
+
+ older benchmarks:
+ - [12 Aug 2020](qplib-12-Aug-2020.html)
 
 
  --- 
