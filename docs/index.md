@@ -134,19 +134,23 @@ Choose base solver for comparison:
  --- 
 
 
-## [Discrete Non-Convex QPLIB Benchmark (non-binary) (20 Aug 2020)](http://plato.asu.edu/ftp/nonbinary.html)
+## [Discrete Non-Convex QPLIB Benchmark (non-binary) (8 Oct 2020)](http://plato.asu.edu/ftp/nonbinary.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[Gurobi-9.0](nonbinary-GUROBI.html) | 1.00 | 86%|
-|[FSCIP](nonbinary-FSCIP.html) | 7.68 | 42%|
-|[(F)SCIP-7.0.0](nonbinary-SCIP.html) | 12.70 | 39%|
-|[Baron-20.14.4](nonbinary-BARON.html) | 15.30 | 40%|
-|[ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 18.40 | 38%|
-|[OCTERACT-1.07.29](nonbinary-OCTERACT.html) | 34.70 | 10%|
-|[COUENNE-0.5](nonbinary-COUENNE.html) | 41.10 | 10%|
-|[MINOTAUR-0.2.1](nonbinary-MINOTAUR.html) | 47.30 | 5%|
+|[Gurobi-9.0.3](nonbinary-GUROBI.html) | 1.00 | 82%|
+|[FSCIP](nonbinary-FSCIP.html) | 7.31 | 41%|
+|[(F)SCIP-7.0.0](nonbinary-SCIP.html) | 11.90 | 38%|
+|[Baron-20.14.4](nonbinary-BARON.html) | 14.30 | 39%|
+|[ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 17.20 | 37%|
+|[OCTERACT-1.07.29](nonbinary-OCTERACT.html) | 31.80 | 10%|
+|[COUENNE-0.5](nonbinary-COUENNE.html) | 37.50 | 10%|
+|[MINOTAUR-0.2.1](nonbinary-MINOTAUR.html) | 43.00 | 5%|
+
+
+ older benchmarks:
+ - [20 Aug 2020](nonbinary-20-Aug-2020.html)
 
 
  --- 
