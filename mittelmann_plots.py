@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 import os, fnmatch
 import plotly.graph_objects as go
+from plotly.subplots import make_subplots
 from datetime import datetime as dt
 
 def get_version(s, version):
@@ -182,25 +183,50 @@ def plot_benchmark(stats, base):
     tickvals = np.arange(-int(np.log2(maxtime)),int(np.log2(maxtime)))
     ticktext = [str(power**i)  if i >= 0 else f'1/{power**-i}' for i in tickvals]
 
-    fig = go.Figure()
-    for s in sorted(time.keys().drop(['instance', base])):
+    fig = make_subplots(specs=[[{"secondary_y": True}]])
+    time = time.sort_values(base).reset_index(drop=True)
+    
+    for s in sorted(time.keys().drop(['instance'])):
+        if s == base:
+            fig.add_trace(go.Scatter(x=time['instance'],
+                                     y=time[base],
+                                     name=stats['version'][base],
+                                     mode='markers',
+                                     hovertext=time[base],
+                                     hoverinfo='text+x+name',
+                                    ),
+                          secondary_y=True
+                         )
+            continue
+        
         hovertext = [f'time: {time[s][i]}<br>factor:{(time[s][i]+10)/(time[base][i]+10):.3f}<br>base time: {time[base][i]}' for i in range(len(time[base]))]
         text = [timeout_symbol(time[base][i], time[s][i], stats['timelimit']) for i in range(len(time[base]))]
-        fig.add_trace(go.Bar(text=text, textposition='outside', textfont_size=20, x=time['instance'], y=np.log2((time[s]+10)/(time[base]+10)), hoverinfo='text+x+name', hovertext=hovertext, name=stats['version'][s]))
+        fig.add_trace(go.Bar(x=time['instance'],
+                             y=np.log2((time[s]+10)/(time[base]+10)),
+                             name=stats['version'][s],
+                             text=text,
+                             textposition='outside', 
+                             textfont_size=20,
+                             hoverinfo='text+x+name',
+                             hovertext=hovertext,
+                            ), secondary_y=False)
     
     
     title = f'<b>{stats["title"]}</b>'
     title += f'<br>shifted time ratios (shift=10 seconds) using {stats["version"][base]} as base solver ({stats["date"]})'
 
-    fig.add_annotation(x=0, y=1, xref='paper', yref='paper', showarrow=False, align='left', text='(🔻)🔺: (base) solver failed to solve within the time limit<br> ❌: no solution')
+    subtext = '(🔻)🔺: (base) solver failed to solve within the time limit<br> ❌: no solution'
+    fig.add_annotation(x=0, y=1, xref='paper', yref='paper', showarrow=False, align='left', text=subtext)
     
     fig.update_layout(title=title,
                       legend_title_text='click to hide/show',
                       xaxis_type='category',
+                      xaxis_title=f'instances sorted by solving time of {stats["version"][base]}',
                       yaxis_title='time ratios (log scale)',
                       yaxis_tickvals=tickvals,
                       yaxis_ticktext=ticktext
                      )
+    fig.update_yaxes(automargin=True, title_text=f'time of {stats["version"][base]}', secondary_y=True, type='log')
     return fig
 
 

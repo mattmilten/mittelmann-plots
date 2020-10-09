@@ -28,7 +28,7 @@ jobs:
         pip install bs4 pandas plotly requests
     - name: Generate plots
       run: |
-        python make-comp-plots.py
+        python mittelmann_plots.py
     - uses: EndBug/add-and-commit@v4
       with:
         add: 'docs'
