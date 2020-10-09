@@ -173,21 +173,25 @@ Choose base solver for comparison:
  --- 
 
 
-## [Convex Discrete QPLIB Benchmark (15 Aug 2020)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (8 Oct 2020)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[GUROBI-9.0.1](convex-GUROBI.html) | 1.00 | 74%|
-|[Baron-20.14.4](convex-BARON.html) | 5.42 | 52%|
-|[MOSEK-9.2.18](convex-MOSEK.html) | 8.98 | 35%|
-|[SCIP-7.0.0](convex-SCIP.html) | 10.50 | 35%|
-|[Bonmin-1.8.7](convex-BONMIN.html) | 13.10 | 32%|
-|[KNITRO-12.0](convex-KNITRO.html) | 13.90 | 29%|
-|[OCTERACT-1.07.29](convex-OCTERACT.html) | 20.30 | 23%|
-|[MINOTAUR-0.2.1](convex-MINOTAUR.html) | 21.70 | 35%|
-|[ANTIGONE-1.1](convex-ANTIGONE.html) | 34.50 | 6%|
-|[Shot-1.0](convex-SHOT.html) | 40.40 | 3%|
+|[GUROBI-9.0.3](convex-GUROBI.html) | 1.00 | 81%|
+|[Baron-20.14.4](convex-BARON.html) | 7.99 | 52%|
+|[MOSEK-9.2.18](convex-MOSEK.html) | 13.20 | 35%|
+|[SCIP-7.0.0](convex-SCIP.html) | 15.50 | 35%|
+|[Bonmin-1.8.7](convex-BONMIN.html) | 19.30 | 32%|
+|[KNITRO-12.0](convex-KNITRO.html) | 20.40 | 29%|
+|[MINOTAUR-0.2.1](convex-MINOTAUR.html) | 32.00 | 35%|
+|[OCTERACT-1.07.29](convex-OCTERACT.html) | 36.30 | 23%|
+|[ANTIGONE-1.1](convex-ANTIGONE.html) | 50.80 | 6%|
+|[Shot-1.0](convex-SHOT.html) | 59.50 | 3%|
+
+
+ older benchmarks:
+ - [15 Aug 2020](convex-15-Aug-2020.html)
 
 
  --- 
