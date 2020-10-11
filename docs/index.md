@@ -119,12 +119,12 @@ Choose base solver for comparison:
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[Gurobi-9.0.3](qplib-GUROBI.html) | 1.00 | 98%|
-|[Baron-20.14.4](qplib-BARON.html) | 15.00 | 51%|
-|[OCTERACT-1.07.29](qplib-OCTERACT.html) | 19.00 | 43%|
-|[FSCIP](qplib-FSCIP.html) | 41.00 | 41%|
-|[(F)SCIP-7.0.0](qplib-SCIP.html) | 49.00 | 31%|
-|[ANTIGONE-1.1](qplib-ANTIGONE.html) | 59.00 | 28%|
-|[MINOTAUR-0.2.1](qplib-MINOTAUR.html) | 80.00 | 8%|
+|[Baron-20.14.4](qplib-BARON.html) | 16.00 | 51%|
+|[OCTERACT-1.07.29](qplib-OCTERACT.html) | 21.00 | 43%|
+|[FSCIP](qplib-FSCIP.html) | 45.00 | 41%|
+|[(F)SCIP-7.0.0](qplib-SCIP.html) | 53.00 | 31%|
+|[ANTIGONE-1.1](qplib-ANTIGONE.html) | 65.00 | 28%|
+|[MINOTAUR-0.2.1](qplib-MINOTAUR.html) | 87.00 | 8%|
 
 
  older benchmarks:
@@ -156,18 +156,22 @@ Choose base solver for comparison:
  --- 
 
 
-## [Continuous Non-Convex QPLIB Benchmark (20 Aug 2020)](http://plato.asu.edu/ftp/cnconv.html)
+## [Continuous Non-Convex QPLIB Benchmark (10 Oct 2020)](http://plato.asu.edu/ftp/cnconv.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[GUROBI-9.0](cnconv-GUROBI.html) | 1.00 | 48%|
-|[ANTIGONE-1.1](cnconv-ANTIGONE.html) | 1.46 | 52%|
-|[Baron-20.4.14](cnconv-BARON.html) | 1.69 | 45%|
-|[OCTERACT-1.07.29](cnconv-OCTERACT.html) | 2.29 | 29%|
-|[SCIP-7.0.0](cnconv-SCIP.html) | 3.32 | 21%|
-|[COUENNE-0.5](cnconv-COUENNE.html) | 4.13 | 14%|
-|[MINOTAUR-0.2.1](cnconv-MINOTAUR.html) | 4.35 | 11%|
+|[GUROBI-9.0.3](cnconv-GUROBI.html) | 1.00 | 49%|
+|[ANTIGONE-1.1](cnconv-ANTIGONE.html) | 1.59 | 51%|
+|[Baron-20.4.14](cnconv-BARON.html) | 1.83 | 44%|
+|[OCTERACT-1.07.29](cnconv-OCTERACT.html) | 2.47 | 28%|
+|[SCIP-7.0.0](cnconv-SCIP.html) | 3.55 | 21%|
+|[COUENNE-0.5](cnconv-COUENNE.html) | 4.39 | 14%|
+|[MINOTAUR-0.2.1](cnconv-MINOTAUR.html) | 4.63 | 11%|
+
+
+ older benchmarks:
+ - [20 Aug 2020](cnconv-20-Aug-2020.html)
 
 
  --- 
