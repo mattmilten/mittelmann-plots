@@ -187,7 +187,7 @@ Choose base solver for comparison:
 |[MOSEK-9.2.18](convex-MOSEK.html) | 13.20 | 35%|
 |[SCIP-7.0.0](convex-SCIP.html) | 15.50 | 35%|
 |[Bonmin-1.8.7](convex-BONMIN.html) | 19.30 | 32%|
-|[KNITRO-12.0](convex-KNITRO.html) | 20.40 | 29%|
+|[KNITRO-12.2](convex-KNITRO.html) | 19.80 | 29%|
 |[MINOTAUR-0.2.1](convex-MINOTAUR.html) | 32.00 | 35%|
 |[OCTERACT-1.07.29](convex-OCTERACT.html) | 36.30 | 23%|
 |[ANTIGONE-1.1](convex-ANTIGONE.html) | 50.80 | 6%|
