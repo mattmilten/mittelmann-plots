@@ -2,12 +2,19 @@ from bs4 import BeautifulSoup
 import requests
 import pandas as pd
 import numpy as np
-import os, fnmatch
+import sys, os, fnmatch
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from datetime import datetime as dt
 
 def get_version(s, version):
+    for v in version:
+        # split up '(F)SCIP' entry
+        if v.startswith('(F)SCIP'):
+            version.append(v.replace('(F)',''))
+            version.append(v.replace('(F)','F'))
+            version.remove(v)
+
     if s in ['SPLX', 'SOPLX']:
         s = 'SoPlex'
     elif s in ['MDOPT']:
@@ -128,11 +135,12 @@ def parse_table(url, timelimit=3600, threads=1):
         _score = tab[2].split()
         _solved = tab[5].split()[3:]
         solver = tab[4].split()[1:]
+        _version = [x.text for x in soup.find_all('td')][0::2]
         stats['solver'] = solver
         stats['nprobs'] = len(tab[tabmark[0]+4:tabmark[-1]])
         stats['score'] = {solver[i]:float(_score[i]) for i in range(len(solver))}
         stats['solved'] = {solver[i]:int(_solved[i].strip('*')) for i in range(len(solver))}
-        stats['version'] = {solver[i]:solver[i] for i in range(len(solver))}
+        stats['version'] = {solver[i]:get_version(solver[i], _version) for i in range(len(solver))}
         stats['timelimit'] = timelimit
         stats['times'] = pd.DataFrame([l.split() for l in tab[tabmark[0]+4:tabmark[-1]]], columns=['instance']+solver)
 
@@ -248,6 +256,9 @@ def write_bench(url, timelimit, threads=1):
     if os.path.exists(f'docs/{benchname}-{storedate}.html'):
         newdata = False
         os.system(f'rm -f docs/{benchname}-{storedate}.html')
+    
+    if 'update' in sys.argv:
+        newdata = True
 
     # generate list of previous benchmarks
     def findbench(pattern, path):
