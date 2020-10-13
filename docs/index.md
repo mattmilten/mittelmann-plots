@@ -76,7 +76,7 @@ Choose base solver for comparison:
 | :--- | ---:  | ---:   |
 |[Gurobi-9.0.3](milp-Gurobi.html) | 1.00 | 85%|
 |[SAS-OR-15.1](milp-SAS.html) | 2.86 | 61%|
-|[(F)SCIP/spx-7.0.0](milp-SCIP.html) | 4.23 | 52%|
+|[SCIP/spx-7.0.0](milp-SCIP.html) | 4.23 | 52%|
 |[CBC-2.10.5](milp-CBC.html) | 8.10 | 37%|
 |[MATLAB-2020a](milp-MATLAB.html) | 12.70 | 26%|
 |[GLPK-4.65](milp-GLPK.html) | 19.40 | 10%|
@@ -93,7 +93,7 @@ Choose base solver for comparison:
 | :--- | ---:  | ---:   |
 |[Gurobi-9.0.3](milp_8threads-Gurobi.html) | 1.00 | 91%|
 |[SAS-OR-15.1](milp_8threads-SAS.html) | 3.85 | 65%|
-|[FSCIP](milp_8threads-FSCIP.html) | 7.06 | 57%|
+|[FSCIP/spx-7.0.0](milp_8threads-FSCIP.html) | 7.06 | 57%|
 |[CBC-2.10.5](milp_8threads-CBC.html) | 11.40 | 41%|
 
 
@@ -105,9 +105,9 @@ Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[GUROBI](misocp-GUROBI.html) | 1.00 | 100%|
-|[MOSEK](misocp-MOSEK.html) | 10.80 | 68%|
-|[SCIP](misocp-SCIP.html) | 40.90 | 62%|
+|[Gurobi-9.0.1](misocp-GUROBI.html) | 1.00 | 100%|
+|[MOSEK-9.2.10](misocp-MOSEK.html) | 10.80 | 68%|
+|[SCIP-7.0.0](misocp-SCIP.html) | 40.90 | 62%|
 
 
  --- 
@@ -121,8 +121,8 @@ Choose base solver for comparison:
 |[Gurobi-9.0.3](qplib-GUROBI.html) | 1.00 | 98%|
 |[Baron-20.14.4](qplib-BARON.html) | 16.00 | 51%|
 |[OCTERACT-1.07.29](qplib-OCTERACT.html) | 21.00 | 43%|
-|[FSCIP](qplib-FSCIP.html) | 45.00 | 41%|
-|[(F)SCIP-7.0.0](qplib-SCIP.html) | 53.00 | 31%|
+|[FSCIP-7.0.0](qplib-FSCIP.html) | 45.00 | 41%|
+|[SCIP-7.0.0](qplib-SCIP.html) | 53.00 | 31%|
 |[ANTIGONE-1.1](qplib-ANTIGONE.html) | 65.00 | 28%|
 |[MINOTAUR-0.2.1](qplib-MINOTAUR.html) | 87.00 | 8%|
 
@@ -140,8 +140,8 @@ Choose base solver for comparison:
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[Gurobi-9.0.3](nonbinary-GUROBI.html) | 1.00 | 82%|
-|[FSCIP](nonbinary-FSCIP.html) | 7.31 | 41%|
-|[(F)SCIP-7.0.0](nonbinary-SCIP.html) | 11.90 | 38%|
+|[FSCIP-7.0.0](nonbinary-FSCIP.html) | 7.31 | 41%|
+|[SCIP-7.0.0](nonbinary-SCIP.html) | 11.90 | 38%|
 |[Baron-20.14.4](nonbinary-BARON.html) | 14.30 | 39%|
 |[ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 17.20 | 37%|
 |[OCTERACT-1.07.29](nonbinary-OCTERACT.html) | 31.80 | 10%|
