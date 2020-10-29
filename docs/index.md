@@ -3,25 +3,26 @@ Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http:
     These plots should make browsing the results easier. [Please let me know](https://github.com/mattmilten) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (26 Sep 2020)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers (22 Oct 2020)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[COPT-1.4.2](lpsimp-COPT.html) | 1.00 | 100%|
-|[MindOpt-0.10.0](lpsimp-MDOPT.html) | 1.41 | 92%|
-|[Gurobi-9.0.3](lpsimp-Gurob.html) | 1.45 | 100%|
-|[CLP-1.17.6](lpsimp-CLP.html) | 3.37 | 100%|
-|[MOSEK-9.2.20](lpsimp-MSK.html) | 7.18 | 95%|
-|[SAS-OR-15.1](lpsimp-SAS.html) | 7.25 | 90%|
-|[HiGHS-1.0.0](lpsimp-HiGHS.html) | 13.60 | 82%|
-|[Google-GLOP](lpsimp-GLOP.html) | 14.00 | 85%|
+|[COPT-1.4.3](lpsimp-COPT.html) | 1.00 | 100%|
+|[MindOpt-0.10.0](lpsimp-MDOPT.html) | 1.42 | 92%|
+|[Gurobi-9.0.3](lpsimp-Gurob.html) | 1.46 | 100%|
+|[CLP-1.17.6](lpsimp-CLP.html) | 3.38 | 100%|
+|[MOSEK-9.2.20](lpsimp-MSK.html) | 7.21 | 95%|
+|[SAS-OR-15.1](lpsimp-SAS.html) | 7.28 | 90%|
+|[HiGHS-1.0.0](lpsimp-HiGHS.html) | 13.70 | 82%|
+|[Google-GLOP](lpsimp-GLOP.html) | 14.10 | 85%|
 |[MATLAB-R2020a](lpsimp-MATL.html) | 15.60 | 80%|
-|[SOPLEX-5.0.0](lpsimp-SPLX.html) | 18.50 | 90%|
-|[GLPK-4.65](lpsimp-GLPK.html) | 51.90 | 68%|
+|[SOPLEX-5.0.0](lpsimp-SPLX.html) | 18.60 | 90%|
+|[GLPK-4.65](lpsimp-GLPK.html) | 52.20 | 68%|
 
 
  older benchmarks:
+ - [26 Sep 2020](lpsimp-26-Sep-2020.html)
  - [5 Sep 2020](lpsimp-5-Sep-2020.html)
  - [27 Aug 2020](lpsimp-27-Aug-2020.html)
  - [08 Aug 2020](lpsimp-08-Aug-2020.html)
