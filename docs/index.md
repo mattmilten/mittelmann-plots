@@ -51,16 +51,16 @@ Choose base solver for comparison:
  --- 
 
 
-## [Large Network-LP Benchmark (commercial vs free) (26 Sep 2020)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (23 Oct 2020)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[SAS-OR-15.1](network-SAS.html) | 1.00 | 100%|
 |[Gurobi-9.0.3](network-GUR.html) | 1.91 | 100%|
-|[COPT-1.4.2](network-COPT.html) | 2.42 | 100%|
+|[COPT-1.4.3](network-COPT.html) | 2.45 | 100%|
 |[Clp-1.17.6](network-CLP.html) | 4.60 | 100%|
-|[MATLAB-R2020a](network-MATL.html) | 17.40 | 90%|
+|[MATLAB-R2020b](network-MATL.html) | 18.10 | 90%|
 |[MindOpt-0.10.0](network-MDOPT.html) | 49.80 | 90%|
 |[QSopt-1.01](network-QSOPT.html) | 68.10 | 60%|
 |[SOPLEX-5.0.0](network-SOPLX.html) | 92.10 | 60%|
@@ -68,6 +68,7 @@ Choose base solver for comparison:
 
 
  older benchmarks:
+ - [26 Sep 2020](network-26-Sep-2020.html)
  - [8 Sep 2020](network-8-Sep-2020.html)
 
 
