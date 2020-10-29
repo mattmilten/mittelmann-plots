@@ -1,6 +1,6 @@
 # [📊 Interactive Visualizations of Mittelmann benchmarks](https://mattmilten.github.io/mittelmann-plots/)
 
-Some interactive [Plotly](https://plotly.com/python/) graphs comparing the results of [Hans Mittelmann's benchmarks](http://plato.asu.edu/bench.html). Each solver can be selected to show pairwise running time differences with every other solver in the respective benchmark. The times are compared using shifted factors on a logarithmic scale. Additionally, the absolute times of the selected base solver are also plotted on a secondary logarithmic axis on the right.
+Some interactive [Plotly](https://plotly.com/python/) graphs comparing the results of [Hans Mittelmann's benchmarks](http://plato.asu.edu/bench.html). Each solver can be selected for pairwise running time comparisons with every other solver in the respective benchmark. The times are compared using shifted factors on a logarithmic scale. Additionally, the absolute times of the selected base solver are also plotted on a secondary logarithmic axis on the right.
 
 These plots should make browsing the results easier. Please let me know if you have a question or if there is an error.
 
