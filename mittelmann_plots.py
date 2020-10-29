@@ -44,31 +44,30 @@ def parse_table(url, timelimit=3600, threads=1):
 
     if url.find('lpsimp.html') >= 0:
         tab = pre[3].text.split('\n')
+        tabmark = [ind for ind,i in enumerate(tab) if i.startswith('=====')]
         _version = pre[2].text.split('\n')[1:-1]
         _version = [x.split()[0].rstrip(':') for x in _version]
-        _score = tab[3].split()
-        _solved = tab[4].split()[1:]
-        solver = tab[6].split()[2:]
+        _score = tab[tabmark[0]-2].split()
+        _solved = tab[tabmark[0]-1].split()[1:]
+        solver = tab[tabmark[0]+1].split()[2:]
         stats['solver'] = solver
-        nprobs = int(tab[6].split()[0])
-        stats['nprobs'] = nprobs
+        stats['nprobs'] = len(tab[tabmark[1]+1:tabmark[-1]])
         stats['score'] = {solver[i]:float(_score[i]) for i in range(len(solver))}
         stats['solved'] = {solver[i]:int(_solved[i]) for i in range(len(solver))}
         stats['version'] = {s:get_version(s, _version) for s in solver}
         stats['timelimit'] = int(pre[3].text.split('\n')[-2].split()[1].replace(',',''))
-        stats['times'] = pd.DataFrame([l.split() for l in tab[8:nprobs+8]], columns=['instance']+solver)
+        stats['times'] = pd.DataFrame([l.split() for l in tab[tabmark[1]+1:tabmark[-1]]], columns=['instance']+solver)
 
     elif url.find('lpbar.html') >= 0:
         tab = pre[3].text.split('\n')
         tabmark = [ind for ind,i in enumerate(tab) if i.startswith('=====')]
         _version = pre[2].text.split('\n')[1:-1]
         _version = [x.split()[0].rstrip(':') for x in _version]
-        _score = tab[3].split()[2:]
-        _solved = tab[4].split()[1:]
-        solver = tab[6].split()[1:]
+        _score = tab[tabmark[0]-2].split()[2:]
+        _solved = tab[tabmark[0]-1].split()[1:]
+        solver = tab[tabmark[0]+1].split()[1:]
         stats['solver'] = solver
-        nprobs = int(tab[3].split()[0])
-        stats['nprobs'] = nprobs
+        stats['nprobs'] = len(tab[tabmark[1]+1:tabmark[-1]])
         stats['score'] = {solver[i]:float(_score[i]) for i in range(len(solver))}
         stats['solved'] = {solver[i]:int(_solved[i]) for i in range(len(solver))}
         stats['version'] = {s:get_version(s, _version) for s in solver}
