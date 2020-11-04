@@ -64,7 +64,6 @@ Choose base solver for comparison:
 |[COPT-1.4.3](network-COPT.html) | 2.45 | 100%|
 |[Clp-1.17.6](network-CLP.html) | 4.60 | 100%|
 |[MATLAB-R2020b](network-MATL.html) | 18.10 | 90%|
-|[MindOpt-0.10.0](network-MDOPT.html) | 49.80 | 90%|
 |[QSopt-1.01](network-QSOPT.html) | 68.10 | 60%|
 |[SOPLEX-5.0.0](network-SOPLX.html) | 92.10 | 60%|
 |[MOSEK-9.2.21](network-MOSEK.html) | 107.00 | 80%|
