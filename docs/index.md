@@ -128,7 +128,7 @@ Choose base solver for comparison:
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[Gurobi-9.0.3](qplib-GUROBI.html) | 1.00 | 98%|
-|[Baron-20.14.4](qplib-BARON.html) | 16.00 | 51%|
+|[Baron-20.4.14](qplib-BARON.html) | 16.00 | 51%|
 |[OCTERACT-1.07.29](qplib-OCTERACT.html) | 21.00 | 43%|
 |[FSCIP-7.0.0](qplib-FSCIP.html) | 45.00 | 41%|
 |[SCIP-7.0.0](qplib-SCIP.html) | 53.00 | 31%|
@@ -151,7 +151,7 @@ Choose base solver for comparison:
 |[Gurobi-9.0.3](nonbinary-GUROBI.html) | 1.00 | 82%|
 |[FSCIP-7.0.0](nonbinary-FSCIP.html) | 7.31 | 41%|
 |[SCIP-7.0.0](nonbinary-SCIP.html) | 11.90 | 38%|
-|[Baron-20.14.4](nonbinary-BARON.html) | 14.30 | 39%|
+|[Baron-20.4.14](nonbinary-BARON.html) | 14.30 | 39%|
 |[ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 17.20 | 37%|
 |[OCTERACT-1.07.29](nonbinary-OCTERACT.html) | 31.80 | 10%|
 |[COUENNE-0.5](nonbinary-COUENNE.html) | 37.50 | 10%|
@@ -192,7 +192,7 @@ Choose base solver for comparison:
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[GUROBI-9.0.3](convex-GUROBI.html) | 1.00 | 81%|
-|[Baron-20.14.4](convex-BARON.html) | 7.99 | 52%|
+|[Baron-20.4.14](convex-BARON.html) | 7.99 | 52%|
 |[MOSEK-9.2.18](convex-MOSEK.html) | 13.20 | 35%|
 |[SCIP-7.0.0](convex-SCIP.html) | 15.50 | 35%|
 |[Bonmin-1.8.7](convex-BONMIN.html) | 19.30 | 32%|
