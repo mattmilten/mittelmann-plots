@@ -109,56 +109,62 @@ Choose base solver for comparison:
  --- 
 
 
-## [Mixed-integer SOCP Benchmark (14 Jun 2020)](http://plato.asu.edu/ftp/misocp.html)
+## [Mixed-integer SOCP Benchmark (10 Nov 2020)](http://plato.asu.edu/ftp/misocp.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[Gurobi-9.0.1](misocp-GUROBI.html) | 1.00 | 100%|
-|[MOSEK-9.2.10](misocp-MOSEK.html) | 10.80 | 68%|
-|[SCIP-7.0.0](misocp-SCIP.html) | 40.90 | 62%|
+|[Gurobi-9.1.0](misocp-GUROBI.html) | 1.00 | 100%|
+|[MOSEK-9.2.10](misocp-MOSEK.html) | 12.30 | 68%|
+|[SCIP-7.0.0](misocp-SCIP.html) | 46.90 | 62%|
+
+
+ older benchmarks:
+ - [14 Jun 2020](misocp-14-Jun-2020.html)
 
 
  --- 
 
 
-## [Binary Non-Convex QPLIB Benchmark (7 Oct 2020)](http://plato.asu.edu/ftp/qplib.html)
+## [Binary Non-Convex QPLIB Benchmark (10 Nov 2020)](http://plato.asu.edu/ftp/qplib.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[Gurobi-9.0.3](qplib-GUROBI.html) | 1.00 | 98%|
+|[Gurobi-9.1.0](qplib-GUROBI.html) | 1.00 | 99%|
 |[Baron-20.4.14](qplib-BARON.html) | 16.00 | 51%|
 |[OCTERACT-1.07.29](qplib-OCTERACT.html) | 21.00 | 43%|
-|[FSCIP-7.0.0](qplib-FSCIP.html) | 45.00 | 41%|
+|[FSCIP-7.0.0](qplib-FSCIP.html) | 44.00 | 41%|
 |[SCIP-7.0.0](qplib-SCIP.html) | 53.00 | 31%|
-|[ANTIGONE-1.1](qplib-ANTIGONE.html) | 65.00 | 28%|
-|[MINOTAUR-0.2.1](qplib-MINOTAUR.html) | 87.00 | 8%|
+|[ANTIGONE-1.1](qplib-ANTIGONE.html) | 64.00 | 28%|
+|[MINOTAUR-0.2.1](qplib-MINOTAUR.html) | 86.00 | 8%|
 
 
  older benchmarks:
+ - [7 Oct 2020](qplib-7-Oct-2020.html)
  - [12 Aug 2020](qplib-12-Aug-2020.html)
 
 
  --- 
 
 
-## [Discrete Non-Convex QPLIB Benchmark (non-binary) (8 Oct 2020)](http://plato.asu.edu/ftp/nonbinary.html)
+## [Discrete Non-Convex QPLIB Benchmark (non-binary) (10 Nov 2020)](http://plato.asu.edu/ftp/nonbinary.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[Gurobi-9.0.3](nonbinary-GUROBI.html) | 1.00 | 82%|
-|[FSCIP-7.0.0](nonbinary-FSCIP.html) | 7.31 | 41%|
-|[SCIP-7.0.0](nonbinary-SCIP.html) | 11.90 | 38%|
-|[Baron-20.4.14](nonbinary-BARON.html) | 14.30 | 39%|
-|[ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 17.20 | 37%|
-|[OCTERACT-1.07.29](nonbinary-OCTERACT.html) | 31.80 | 10%|
-|[COUENNE-0.5](nonbinary-COUENNE.html) | 37.50 | 10%|
-|[MINOTAUR-0.2.1](nonbinary-MINOTAUR.html) | 43.00 | 5%|
+|[Gurobi-9.1.0](nonbinary-GUROBI.html) | 1.00 | 87%|
+|[FSCIP-7.0.0](nonbinary-FSCIP.html) | 10.50 | 42%|
+|[SCIP-7.0.0](nonbinary-SCIP.html) | 17.40 | 39%|
+|[Baron-20.4.14](nonbinary-BARON.html) | 21.10 | 41%|
+|[ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 25.50 | 38%|
+|[OCTERACT-1.07.29](nonbinary-OCTERACT.html) | 48.30 | 11%|
+|[COUENNE-0.5](nonbinary-COUENNE.html) | 57.40 | 11%|
+|[MINOTAUR-0.2.1](nonbinary-MINOTAUR.html) | 66.10 | 5%|
 
 
  older benchmarks:
+ - [8 Oct 2020](nonbinary-8-Oct-2020.html)
  - [20 Aug 2020](nonbinary-20-Aug-2020.html)
 
 
@@ -186,24 +192,25 @@ Choose base solver for comparison:
  --- 
 
 
-## [Convex Discrete QPLIB Benchmark (8 Oct 2020)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (10 Nov 2020)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[GUROBI-9.0.3](convex-GUROBI.html) | 1.00 | 81%|
-|[Baron-20.4.14](convex-BARON.html) | 7.99 | 52%|
-|[MOSEK-9.2.18](convex-MOSEK.html) | 13.20 | 35%|
-|[SCIP-7.0.0](convex-SCIP.html) | 15.50 | 35%|
-|[Bonmin-1.8.7](convex-BONMIN.html) | 19.30 | 32%|
-|[KNITRO-12.2](convex-KNITRO.html) | 19.80 | 29%|
-|[MINOTAUR-0.2.1](convex-MINOTAUR.html) | 32.00 | 35%|
-|[OCTERACT-1.07.29](convex-OCTERACT.html) | 36.30 | 23%|
-|[ANTIGONE-1.1](convex-ANTIGONE.html) | 50.80 | 6%|
-|[Shot-1.0](convex-SHOT.html) | 59.50 | 3%|
+|[GUROBI-9.1.0](convex-GUROBI.html) | 1.00 | 74%|
+|[Baron-20.4.14](convex-BARON.html) | 6.44 | 52%|
+|[MOSEK-9.2.18](convex-MOSEK.html) | 10.70 | 35%|
+|[SCIP-7.0.0](convex-SCIP.html) | 12.50 | 35%|
+|[Bonmin-1.8.7](convex-BONMIN.html) | 15.60 | 32%|
+|[KNITRO-12.2](convex-KNITRO.html) | 16.00 | 29%|
+|[MINOTAUR-0.2.1](convex-MINOTAUR.html) | 25.80 | 35%|
+|[OCTERACT-1.07.29](convex-OCTERACT.html) | 29.30 | 23%|
+|[ANTIGONE-1.1](convex-ANTIGONE.html) | 41.00 | 6%|
+|[Shot-1.0](convex-SHOT.html) | 48.00 | 3%|
 
 
  older benchmarks:
+ - [8 Oct 2020](convex-8-Oct-2020.html)
  - [15 Aug 2020](convex-15-Aug-2020.html)
 
 
