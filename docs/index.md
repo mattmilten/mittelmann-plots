@@ -171,21 +171,22 @@ Choose base solver for comparison:
  --- 
 
 
-## [Continuous Non-Convex QPLIB Benchmark (10 Oct 2020)](http://plato.asu.edu/ftp/cnconv.html)
+## [Continuous Non-Convex QPLIB Benchmark (11 Nov 2020)](http://plato.asu.edu/ftp/cnconv.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[GUROBI-9.0.3](cnconv-GUROBI.html) | 1.00 | 49%|
-|[ANTIGONE-1.1](cnconv-ANTIGONE.html) | 1.59 | 51%|
-|[Baron-20.4.14](cnconv-BARON.html) | 1.83 | 44%|
-|[OCTERACT-1.07.29](cnconv-OCTERACT.html) | 2.47 | 28%|
-|[SCIP-7.0.0](cnconv-SCIP.html) | 3.55 | 21%|
-|[COUENNE-0.5](cnconv-COUENNE.html) | 4.39 | 14%|
-|[MINOTAUR-0.2.1](cnconv-MINOTAUR.html) | 4.63 | 11%|
+|[GUROBI-9.1.0](cnconv-GUROBI.html) | 1.00 | 61%|
+|[ANTIGONE-1.1](cnconv-ANTIGONE.html) | 4.68 | 51%|
+|[Baron-20.4.14](cnconv-BARON.html) | 5.40 | 44%|
+|[OCTERACT-1.07.29](cnconv-OCTERACT.html) | 7.27 | 28%|
+|[SCIP-7.0.0](cnconv-SCIP.html) | 10.50 | 21%|
+|[COUENNE-0.5](cnconv-COUENNE.html) | 13.00 | 14%|
+|[MINOTAUR-0.2.1](cnconv-MINOTAUR.html) | 13.60 | 11%|
 
 
  older benchmarks:
+ - [10 Oct 2020](cnconv-10-Oct-2020.html)
  - [20 Aug 2020](cnconv-20-Aug-2020.html)
 
 
@@ -217,18 +218,19 @@ Choose base solver for comparison:
  --- 
 
 
-## [Convex Continuous QPLIB Benchmark (27 Sep 2020)](http://plato.asu.edu/ftp/cconvex.html)
+## [Convex Continuous QPLIB Benchmark (11 Nov 2020)](http://plato.asu.edu/ftp/cconvex.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[MOSEK-9.2.24](cconvex-MOSEK.html) | 1.00 | 97%|
-|[Gurobi-9.0.3](cconvex-Gurobi.html) | 1.31 | 94%|
-|[KNITRO-12.2](cconvex-KNITRO.html) | 1.95 | 84%|
-|[IPOPT-3.13.0](cconvex-IPOPT.html) | 3.64 | 88%|
+|[MOSEK-9.2.29](cconvex-MOSEK.html) | 1.00 | 94%|
+|[Gurobi-9.1.0](cconvex-Gurobi.html) | 1.27 | 91%|
+|[KNITRO-12.2](cconvex-KNITRO.html) | 1.93 | 84%|
+|[IPOPT-3.13.0](cconvex-IPOPT.html) | 3.61 | 88%|
 
 
  older benchmarks:
+ - [27 Sep 2020](cconvex-27-Sep-2020.html)
  - [3 Apr 2020](cconvex-3-Apr-2020.html)
 
 
