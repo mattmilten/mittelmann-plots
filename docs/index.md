@@ -1,6 +1,6 @@
 Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http://plato.asu.edu/bench.html).
     Each solver can be selected to show pairwise running time factors for every other solver in the respective benchmark.
-    These plots should make browsing the results easier. [Please let me know](https://github.com/mattmilten) if you have a question or if there is an error.
+    These plots should make browsing the results easier. [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
 ## [Benchmark of Simplex LP solvers (2 Nov 2020)](http://plato.asu.edu/ftp/lpsimp.html)
