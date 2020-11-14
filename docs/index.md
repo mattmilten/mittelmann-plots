@@ -199,7 +199,7 @@ Choose base solver for comparison:
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[GUROBI-9.1.0](convex-GUROBI.html) | 1.00 | 74%|
-|[Baron-20.4.14](convex-BARON.html) | 6.44 | 52%|
+|[Baron-20.10.16](convex-BARON.html) | 5.54 | 55%|
 |[MOSEK-9.2.18](convex-MOSEK.html) | 10.70 | 35%|
 |[SCIP-7.0.0](convex-SCIP.html) | 12.50 | 35%|
 |[Bonmin-1.8.7](convex-BONMIN.html) | 15.60 | 32%|
