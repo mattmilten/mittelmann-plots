@@ -193,14 +193,14 @@ Choose base solver for comparison:
  --- 
 
 
-## [Convex Discrete QPLIB Benchmark (10 Nov 2020)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (15 Nov 2020)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[GUROBI-9.1.0](convex-GUROBI.html) | 1.00 | 74%|
 |[Baron-20.10.16](convex-BARON.html) | 5.54 | 55%|
-|[MOSEK-9.2.18](convex-MOSEK.html) | 10.70 | 35%|
+|[MOSEK-9.2.29](convex-MOSEK.html) | 10.20 | 42%|
 |[SCIP-7.0.0](convex-SCIP.html) | 12.50 | 35%|
 |[Bonmin-1.8.7](convex-BONMIN.html) | 15.60 | 32%|
 |[KNITRO-12.2](convex-KNITRO.html) | 16.00 | 29%|
@@ -211,6 +211,7 @@ Choose base solver for comparison:
 
 
  older benchmarks:
+ - [10 Nov 2020](convex-10-Nov-2020.html)
  - [8 Oct 2020](convex-8-Oct-2020.html)
  - [15 Aug 2020](convex-15-Aug-2020.html)
 
