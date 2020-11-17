@@ -78,32 +78,40 @@ Choose base solver for comparison:
  --- 
 
 
-## [The MIPLIB2017 Benchmark Instances (2 Oct 2020)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances (15 Nov 2020)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[Gurobi-9.0.3](milp-Gurobi.html) | 1.00 | 85%|
-|[SAS-OR-15.1](milp-SAS.html) | 2.86 | 61%|
-|[SCIP/spx-7.0.0](milp-SCIP.html) | 4.23 | 52%|
-|[CBC-2.10.5](milp-CBC.html) | 8.10 | 37%|
-|[MATLAB-2020a](milp-MATLAB.html) | 12.70 | 26%|
-|[GLPK-4.65](milp-GLPK.html) | 19.40 | 10%|
-|[LP_SOLVE-5.5.2](milp-LP_SOL.html) | 20.50 | 8%|
+|[Gurobi-9.1.0](milp-Gurobi.html) | 1.00 | 84%|
+|[SAS-OR-15.1](milp-SAS.html) | 3.03 | 61%|
+|[SCIP/spx-7.0.0](milp-SCIP.html) | 4.48 | 52%|
+|[CBC-2.10.5](milp-CBC.html) | 8.59 | 37%|
+|[MATLAB-2020a](milp-MATLAB.html) | 13.50 | 26%|
+|[GLPK-4.65](milp-GLPK.html) | 20.50 | 10%|
+|[LP_SOLVE-5.5.2](milp-LP_SOL.html) | 21.70 | 8%|
+
+
+ older benchmarks:
+ - [2 Oct 2020](milp-2-Oct-2020.html)
 
 
  --- 
 
 
-## [The MIPLIB2017 Benchmark Instances - 8 threads (2 Oct 2020)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances - 8 threads (15 Nov 2020)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[Gurobi-9.0.3](milp_8threads-Gurobi.html) | 1.00 | 91%|
-|[SAS-OR-15.1](milp_8threads-SAS.html) | 3.85 | 65%|
-|[FSCIP/spx-7.0.0](milp_8threads-FSCIP.html) | 7.06 | 57%|
-|[CBC-2.10.5](milp_8threads-CBC.html) | 11.40 | 41%|
+|[Gurobi-9.1.0](milp_8threads-Gurobi.html) | 1.00 | 92%|
+|[SAS-OR-15.1](milp_8threads-SAS.html) | 3.98 | 65%|
+|[FSCIP/spx-7.0.0](milp_8threads-FSCIP.html) | 7.30 | 57%|
+|[CBC-2.10.5](milp_8threads-CBC.html) | 11.80 | 41%|
+
+
+ older benchmarks:
+ - [2 Oct 2020](milp_8threads-2-Oct-2020.html)
 
 
  --- 
@@ -131,13 +139,13 @@ Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[Gurobi-9.1.0](qplib-GUROBI.html) | 1.00 | 99%|
-|[Baron-20.4.14](qplib-BARON.html) | 16.00 | 51%|
-|[OCTERACT-1.07.29](qplib-OCTERACT.html) | 21.00 | 43%|
-|[FSCIP-7.0.0](qplib-FSCIP.html) | 44.00 | 41%|
-|[SCIP-7.0.0](qplib-SCIP.html) | 53.00 | 31%|
-|[ANTIGONE-1.1](qplib-ANTIGONE.html) | 64.00 | 28%|
-|[MINOTAUR-0.2.1](qplib-MINOTAUR.html) | 86.00 | 8%|
+|[Gurobi-9.1.0](qplib-GUROBI.html) | 1.00 | 98%|
+|[Baron-20.10.16](qplib-BARON.html) | 15.00 | 49%|
+|[OCTERACT-1.07.29](qplib-OCTERACT.html) | 20.00 | 43%|
+|[FSCIP-7.0.0](qplib-FSCIP.html) | 42.00 | 40%|
+|[SCIP-7.0.0](qplib-SCIP.html) | 50.00 | 31%|
+|[ANTIGONE-1.1](qplib-ANTIGONE.html) | 60.00 | 27%|
+|[MINOTAUR-0.2.1](qplib-MINOTAUR.html) | 80.00 | 8%|
 
 
  older benchmarks:
@@ -156,7 +164,7 @@ Choose base solver for comparison:
 |[Gurobi-9.1.0](nonbinary-GUROBI.html) | 1.00 | 87%|
 |[FSCIP-7.0.0](nonbinary-FSCIP.html) | 10.50 | 42%|
 |[SCIP-7.0.0](nonbinary-SCIP.html) | 17.40 | 39%|
-|[Baron-20.4.14](nonbinary-BARON.html) | 21.10 | 41%|
+|[Baron-20.10.16](nonbinary-BARON.html) | 24.30 | 38%|
 |[ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 25.50 | 38%|
 |[OCTERACT-1.07.29](nonbinary-OCTERACT.html) | 48.30 | 11%|
 |[COUENNE-0.5](nonbinary-COUENNE.html) | 57.40 | 11%|
@@ -178,7 +186,7 @@ Choose base solver for comparison:
 | :--- | ---:  | ---:   |
 |[GUROBI-9.1.0](cnconv-GUROBI.html) | 1.00 | 61%|
 |[ANTIGONE-1.1](cnconv-ANTIGONE.html) | 4.68 | 51%|
-|[Baron-20.4.14](cnconv-BARON.html) | 5.40 | 44%|
+|[Baron-20.10.16](cnconv-BARON.html) | 5.49 | 46%|
 |[OCTERACT-1.07.29](cnconv-OCTERACT.html) | 7.27 | 28%|
 |[SCIP-7.0.0](cnconv-SCIP.html) | 10.50 | 21%|
 |[COUENNE-0.5](cnconv-COUENNE.html) | 13.00 | 14%|
