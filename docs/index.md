@@ -212,8 +212,8 @@ Choose base solver for comparison:
 |[SCIP-7.0.0](convex-SCIP.html) | 12.50 | 35%|
 |[Bonmin-1.8.7](convex-BONMIN.html) | 15.60 | 32%|
 |[KNITRO-12.2](convex-KNITRO.html) | 16.00 | 29%|
+|[OCTERACT-1.07.29](convex-OCTERACT.html) | 22.20 | 32%|
 |[MINOTAUR-0.2.1](convex-MINOTAUR.html) | 25.80 | 35%|
-|[OCTERACT-1.07.29](convex-OCTERACT.html) | 29.30 | 23%|
 |[ANTIGONE-1.1](convex-ANTIGONE.html) | 41.00 | 6%|
 |[Shot-1.0](convex-SHOT.html) | 48.00 | 3%|
 
