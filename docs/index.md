@@ -3,14 +3,14 @@ Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http:
     These plots should make browsing the results easier. [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (3 Dec 2020)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers (4 Dec 2020)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[MindOpt-0.11.0](lpsimp-MDOPT.html) | 1.00 | 100%|
+|[COPT-1.4.6](lpsimp-COPT.html) | 1.20 | 100%|
 |[Gurobi-9.1.0](lpsimp-Gurob.html) | 1.25 | 100%|
-|[COPT-1.4.3](lpsimp-COPT.html) | 1.48 | 100%|
 |[CLP-1.17.6](lpsimp-CLP.html) | 5.01 | 100%|
 |[MOSEK-9.2.20](lpsimp-MSK.html) | 10.70 | 95%|
 |[SAS-OR-15.1](lpsimp-SAS.html) | 10.80 | 90%|
@@ -22,6 +22,7 @@ Choose base solver for comparison:
 
 
  older benchmarks:
+ - [3 Dec 2020](lpsimp-3-Dec-2020.html)
  - [2 Nov 2020](lpsimp-2-Nov-2020.html)
  - [22 Oct 2020](lpsimp-22-Oct-2020.html)
  - [26 Sep 2020](lpsimp-26-Sep-2020.html)
@@ -33,15 +34,15 @@ Choose base solver for comparison:
  --- 
 
 
-## [Benchmark of Barrier LP solvers (3 Dec 2020)](http://plato.asu.edu/ftp/lpbar.html)
+## [Benchmark of Barrier LP solvers (4 Dec 2020)](http://plato.asu.edu/ftp/lpbar.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[Gurobi-9.1.0](lpbar-Gurobi.html) | 1.00 | 100%|
+|[COPT-1.4.6](lpbar-COPT.html) | 1.66 | 100%|
 |[MindOpt-0.11.0](lpbar-MDOPT.html) | 1.80 | 100%|
 |[MOSEK-9.2.21](lpbar-MOSEK.html) | 2.36 | 98%|
-|[COPT-1.4.3](lpbar-COPT.html) | 2.39 | 100%|
 |[SAS-OR-15.1](lpbar-SAS.html) | 5.26 | 96%|
 |[MATLAB-R2020a](lpbar-MATLAB.html) | 30.70 | 76%|
 |[Tulip-0.5.1](lpbar-TULIP.html) | 36.20 | 78%|
@@ -49,6 +50,7 @@ Choose base solver for comparison:
 
 
  older benchmarks:
+ - [3 Dec 2020](lpbar-3-Dec-2020.html)
  - [2 Nov 2020](lpbar-2-Nov-2020.html)
  - [22 Oct 2020](lpbar-22-Oct-2020.html)
  - [8 Sep 2020](lpbar-8-Sep-2020.html)
