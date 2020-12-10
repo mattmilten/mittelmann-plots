@@ -13,7 +13,6 @@ Choose base solver for comparison:
 |[Gurobi-9.1.0](lpsimp-Gurob.html) | 1.25 | 100%|
 |[CLP-1.17.6](lpsimp-CLP.html) | 5.01 | 100%|
 |[MOSEK-9.2.20](lpsimp-MSK.html) | 10.70 | 95%|
-|[SAS-OR-15.1](lpsimp-SAS.html) | 10.80 | 90%|
 |[HiGHS-1.0.0](lpsimp-HiGHS.html) | 20.30 | 82%|
 |[Google-GLOP](lpsimp-GLOP.html) | 20.90 | 85%|
 |[MATLAB-R2020a](lpsimp-MATL.html) | 23.10 | 80%|
@@ -43,7 +42,6 @@ Choose base solver for comparison:
 |[COPT-1.4.6](lpbar-COPT.html) | 1.66 | 100%|
 |[MindOpt-0.11.0](lpbar-MDOPT.html) | 1.80 | 100%|
 |[MOSEK-9.2.21](lpbar-MOSEK.html) | 2.36 | 98%|
-|[SAS-OR-15.1](lpbar-SAS.html) | 5.26 | 96%|
 |[MATLAB-R2020a](lpbar-MATLAB.html) | 30.70 | 76%|
 |[Tulip-0.5.1](lpbar-TULIP.html) | 36.20 | 78%|
 |[CLP-1.17.6](lpbar-CLP.html) | 47.40 | 82%|
@@ -64,14 +62,13 @@ Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[SAS-OR-15.1](network-SAS.html) | 1.00 | 100%|
-|[Gurobi-9.1.0](network-GUR.html) | 1.77 | 100%|
-|[COPT-1.4.6](network-COPT.html) | 2.43 | 100%|
-|[Clp-1.17.6](network-CLP.html) | 4.60 | 100%|
-|[MATLAB-R2020b](network-MATL.html) | 18.10 | 90%|
-|[QSopt-1.01](network-QSOPT.html) | 68.10 | 60%|
-|[SOPLEX-5.0.0](network-SOPLX.html) | 92.10 | 60%|
-|[MOSEK-9.2.21](network-MOSEK.html) | 107.00 | 80%|
+|[Gurobi-9.1.0](network-GUR.html) | 1.00 | 100%|
+|[COPT-1.4.6](network-COPT.html) | 1.38 | 100%|
+|[Clp-1.17.6](network-CLP.html) | 2.60 | 100%|
+|[MATLAB-R2020b](network-MATL.html) | 10.20 | 90%|
+|[QSopt-1.01](network-QSOPT.html) | 38.50 | 60%|
+|[SOPLEX-5.0.0](network-SOPLX.html) | 52.10 | 60%|
+|[MOSEK-9.2.21](network-MOSEK.html) | 60.60 | 80%|
 
 
  older benchmarks:
@@ -90,7 +87,6 @@ Choose base solver for comparison:
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[Gurobi-9.1.0](milp-Gurobi.html) | 1.00 | 84%|
-|[SAS-OR-15.1](milp-SAS.html) | 3.03 | 61%|
 |[SCIP/spx-7.0.0](milp-SCIP.html) | 4.48 | 52%|
 |[CBC-2.10.5](milp-CBC.html) | 8.59 | 37%|
 |[MATLAB-2020a](milp-MATLAB.html) | 13.50 | 26%|
@@ -111,7 +107,6 @@ Choose base solver for comparison:
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[Gurobi-9.1.0](milp_8threads-Gurobi.html) | 1.00 | 92%|
-|[SAS-OR-15.1](milp_8threads-SAS.html) | 3.98 | 65%|
 |[FSCIP/spx-7.0.0](milp_8threads-FSCIP.html) | 7.30 | 57%|
 |[CBC-2.10.5](milp_8threads-CBC.html) | 11.80 | 41%|
 
