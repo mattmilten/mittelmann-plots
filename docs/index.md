@@ -33,21 +33,22 @@ Choose base solver for comparison:
  --- 
 
 
-## [Benchmark of Barrier LP solvers (4 Dec 2020)](http://plato.asu.edu/ftp/lpbar.html)
+## [Benchmark of Barrier LP solvers (10 Dec 2020)](http://plato.asu.edu/ftp/lpbar.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[Gurobi-9.1.0](lpbar-Gurobi.html) | 1.00 | 100%|
-|[COPT-1.4.6](lpbar-COPT.html) | 1.66 | 100%|
-|[MindOpt-0.11.0](lpbar-MDOPT.html) | 1.80 | 100%|
-|[MOSEK-9.2.21](lpbar-MOSEK.html) | 2.36 | 98%|
-|[MATLAB-R2020a](lpbar-MATLAB.html) | 30.70 | 76%|
-|[Tulip-0.5.1](lpbar-TULIP.html) | 36.20 | 78%|
-|[CLP-1.17.6](lpbar-CLP.html) | 47.40 | 82%|
+|[COPT-1.4.6](lpbar-COPT.html) | 1.69 | 100%|
+|[MindOpt-0.11.0](lpbar-MDOPT.html) | 2.00 | 98%|
+|[MOSEK-9.2.21](lpbar-MOSEK.html) | 2.34 | 98%|
+|[Tulip-0.7.0](lpbar-TULIP.html) | 29.70 | 80%|
+|[MATLAB-R2020a](lpbar-MATLAB.html) | 31.10 | 76%|
+|[CLP-1.17.6](lpbar-CLP.html) | 46.70 | 83%|
 
 
  older benchmarks:
+ - [4 Dec 2020](lpbar-4-Dec-2020.html)
  - [3 Dec 2020](lpbar-3-Dec-2020.html)
  - [2 Nov 2020](lpbar-2-Nov-2020.html)
  - [22 Oct 2020](lpbar-22-Oct-2020.html)
