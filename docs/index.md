@@ -33,7 +33,7 @@ Choose base solver for comparison:
  --- 
 
 
-## [Benchmark of Barrier LP solvers (10 Dec 2020)](http://plato.asu.edu/ftp/lpbar.html)
+## [Benchmark of Barrier LP solvers (13 Dec 2020)](http://plato.asu.edu/ftp/lpbar.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
@@ -42,12 +42,14 @@ Choose base solver for comparison:
 |[COPT-1.4.6](lpbar-COPT.html) | 1.69 | 100%|
 |[MindOpt-0.11.0](lpbar-MDOPT.html) | 2.00 | 98%|
 |[MOSEK-9.2.21](lpbar-MOSEK.html) | 2.34 | 98%|
+|[KNITRO-12.3.0](lpbar-KNITRO.html) | 12.40 | 85%|
 |[Tulip-0.7.0](lpbar-TULIP.html) | 29.70 | 80%|
 |[MATLAB-R2020a](lpbar-MATLAB.html) | 31.10 | 76%|
 |[CLP-1.17.6](lpbar-CLP.html) | 46.70 | 83%|
 
 
  older benchmarks:
+ - [10 Dec 2020](lpbar-10-Dec-2020.html)
  - [4 Dec 2020](lpbar-4-Dec-2020.html)
  - [3 Dec 2020](lpbar-3-Dec-2020.html)
  - [2 Nov 2020](lpbar-2-Nov-2020.html)
@@ -203,7 +205,7 @@ Choose base solver for comparison:
  --- 
 
 
-## [Convex Discrete QPLIB Benchmark (15 Nov 2020)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (13 Dec 2020)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
@@ -213,7 +215,7 @@ Choose base solver for comparison:
 |[MOSEK-9.2.29](convex-MOSEK.html) | 10.20 | 42%|
 |[SCIP-7.0.0](convex-SCIP.html) | 12.50 | 35%|
 |[Bonmin-1.8.7](convex-BONMIN.html) | 15.60 | 32%|
-|[KNITRO-12.2](convex-KNITRO.html) | 16.00 | 29%|
+|[KNITRO-12.3.0](convex-KNITRO.html) | 16.00 | 29%|
 |[OCTERACT-1.07.29](convex-OCTERACT.html) | 22.20 | 32%|
 |[MINOTAUR-0.2.1](convex-MINOTAUR.html) | 25.80 | 35%|
 |[ANTIGONE-1.1](convex-ANTIGONE.html) | 41.00 | 6%|
@@ -221,6 +223,7 @@ Choose base solver for comparison:
 
 
  older benchmarks:
+ - [15 Nov 2020](convex-15-Nov-2020.html)
  - [10 Nov 2020](convex-10-Nov-2020.html)
  - [8 Oct 2020](convex-8-Oct-2020.html)
  - [15 Aug 2020](convex-15-Aug-2020.html)
@@ -229,18 +232,19 @@ Choose base solver for comparison:
  --- 
 
 
-## [Convex Continuous QPLIB Benchmark (11 Nov 2020)](http://plato.asu.edu/ftp/cconvex.html)
+## [Convex Continuous QPLIB Benchmark (13 Dec 2020)](http://plato.asu.edu/ftp/cconvex.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[MOSEK-9.2.29](cconvex-MOSEK.html) | 1.00 | 94%|
 |[Gurobi-9.1.0](cconvex-Gurobi.html) | 1.27 | 91%|
-|[KNITRO-12.2](cconvex-KNITRO.html) | 1.93 | 84%|
+|[KNITRO-12.3.0](cconvex-KNITRO.html) | 1.74 | 88%|
 |[IPOPT-3.13.0](cconvex-IPOPT.html) | 3.61 | 88%|
 
 
  older benchmarks:
+ - [11 Nov 2020](cconvex-11-Nov-2020.html)
  - [27 Sep 2020](cconvex-27-Sep-2020.html)
  - [3 Apr 2020](cconvex-3-Apr-2020.html)
 
