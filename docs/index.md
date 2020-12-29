@@ -3,24 +3,25 @@ Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http:
     These plots should make browsing the results easier. [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (4 Dec 2020)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers (28 Dec 2020)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[MindOpt-0.11.0](lpsimp-MDOPT.html) | 1.00 | 100%|
-|[COPT-1.4.6](lpsimp-COPT.html) | 1.20 | 100%|
-|[Gurobi-9.1.0](lpsimp-Gurob.html) | 1.25 | 100%|
-|[CLP-1.17.6](lpsimp-CLP.html) | 5.01 | 100%|
-|[MOSEK-9.2.20](lpsimp-MSK.html) | 10.70 | 95%|
-|[HiGHS-1.0.0](lpsimp-HiGHS.html) | 20.30 | 82%|
-|[Google-GLOP](lpsimp-GLOP.html) | 20.90 | 85%|
-|[MATLAB-R2020a](lpsimp-MATL.html) | 23.10 | 80%|
-|[SOPLEX-5.0.0](lpsimp-SPLX.html) | 27.60 | 90%|
-|[GLPK-4.65](lpsimp-GLPK.html) | 77.30 | 68%|
+|[COPT-1.4.7](lpsimp-COPT.html) | 1.00 | 100%|
+|[MindOpt-0.11.0](lpsimp-MDOPT.html) | 1.28 | 100%|
+|[Gurobi-9.1.0](lpsimp-Gurob.html) | 1.60 | 100%|
+|[CLP-1.17.6](lpsimp-CLP.html) | 6.43 | 100%|
+|[MOSEK-9.2.20](lpsimp-MSK.html) | 13.70 | 95%|
+|[HiGHS-1.0.0](lpsimp-HiGHS.html) | 26.00 | 82%|
+|[Google-GLOP](lpsimp-GLOP.html) | 26.80 | 85%|
+|[MATLAB-R2020a](lpsimp-MATL.html) | 29.70 | 80%|
+|[SOPLEX-5.0.0](lpsimp-SPLX.html) | 35.40 | 90%|
+|[GLPK-4.65](lpsimp-GLPK.html) | 99.20 | 68%|
 
 
  older benchmarks:
+ - [4 Dec 2020](lpsimp-4-Dec-2020.html)
  - [3 Dec 2020](lpsimp-3-Dec-2020.html)
  - [2 Nov 2020](lpsimp-2-Nov-2020.html)
  - [22 Oct 2020](lpsimp-22-Oct-2020.html)
@@ -33,13 +34,13 @@ Choose base solver for comparison:
  --- 
 
 
-## [Benchmark of Barrier LP solvers (13 Dec 2020)](http://plato.asu.edu/ftp/lpbar.html)
+## [Benchmark of Barrier LP solvers (28 Dec 2020)](http://plato.asu.edu/ftp/lpbar.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[Gurobi-9.1.0](lpbar-Gurobi.html) | 1.00 | 100%|
-|[COPT-1.4.6](lpbar-COPT.html) | 1.69 | 100%|
+|[COPT-1.4.7](lpbar-COPT.html) | 1.58 | 100%|
 |[MindOpt-0.11.0](lpbar-MDOPT.html) | 2.00 | 98%|
 |[MOSEK-9.2.21](lpbar-MOSEK.html) | 2.34 | 98%|
 |[KNITRO-12.3.0](lpbar-KNITRO.html) | 12.40 | 85%|
@@ -49,6 +50,7 @@ Choose base solver for comparison:
 
 
  older benchmarks:
+ - [13 Dec 2020](lpbar-13-Dec-2020.html)
  - [10 Dec 2020](lpbar-10-Dec-2020.html)
  - [4 Dec 2020](lpbar-4-Dec-2020.html)
  - [3 Dec 2020](lpbar-3-Dec-2020.html)
