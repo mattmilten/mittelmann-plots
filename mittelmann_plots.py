@@ -1,3 +1,5 @@
+# %%
+
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
@@ -7,6 +9,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from datetime import datetime as dt
 
+# %%
 def get_version(s, version):
     for v in version:
         # split up '(F)SCIP' entry
@@ -28,6 +31,7 @@ def get_version(s, version):
     return match[0] if match else s
 
 
+# %%
 def parse_table(url, timelimit=3600, threads=1):
     """
     parse a specific table to generate a dictionary with the runtimes and
@@ -163,6 +167,7 @@ def parse_table(url, timelimit=3600, threads=1):
     return stats
 
 
+# %%
 def timeout_symbol(basetime, time, limit):
     if basetime >= limit:
         if time >= limit:
@@ -172,8 +177,9 @@ def timeout_symbol(basetime, time, limit):
         return '🔺'
     else:
         return ''
-    
 
+
+# %%
 def plot_benchmark(stats, base):
     """
     generate an interactive Plotly figure from the given dictionary
@@ -206,7 +212,7 @@ def plot_benchmark(stats, base):
                          )
             continue
         
-        hovertext = [f'time: {time[s][i]}<br>factor:{(time[s][i]+10)/(time[base][i]+10):.3f}<br>base time: {time[base][i]}' for i in range(len(time[base]))]
+        hovertext = [f'{stats["version"][s]}: {time[s][i]}s<br>{stats["version"][base]}: {time[base][i]}s<br>factor:{(time[s][i]+10)/(time[base][i]+10):.3f}' for i in range(len(time[base]))]
         text = [timeout_symbol(time[base][i], time[s][i], stats['timelimit']) for i in range(len(time[base]))]
         fig.add_trace(go.Bar(x=time['instance'],
                              y=np.log2((time[s]+10)/(time[base]+10)),
@@ -214,7 +220,7 @@ def plot_benchmark(stats, base):
                              text=text,
                              textposition='outside', 
                              textfont_size=20,
-                             hoverinfo='text+x+name',
+                             hoverinfo='text+x',
                              hovertext=hovertext,
                             ), secondary_y=False)
     
@@ -237,6 +243,7 @@ def plot_benchmark(stats, base):
     return fig
 
 
+# %%
 def write_bench(url, timelimit, threads=1):
     benchname = url.split('/')[-1][:-5]
     stats = parse_table(url, timelimit, threads)
@@ -295,6 +302,7 @@ def write_bench(url, timelimit, threads=1):
 
     return plots
 
+# %%
 urls = [('http://plato.asu.edu/ftp/lpsimp.html', 15000, 1),
 ('http://plato.asu.edu/ftp/lpbar.html', 15000, 1),
 ('http://plato.asu.edu/ftp/network.html', 3600, 1),
@@ -308,6 +316,7 @@ urls = [('http://plato.asu.edu/ftp/lpsimp.html', 15000, 1),
 ('http://plato.asu.edu/ftp/cconvex.html', 3600, 1),
 ]
 
+# %%
 with open('docs/index.md', 'w') as index:
     index.write("""Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http://plato.asu.edu/bench.html).
     Each solver can be selected to show pairwise running time factors for every other solver in the respective benchmark.
