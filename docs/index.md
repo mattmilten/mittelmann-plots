@@ -62,13 +62,13 @@ Choose base solver for comparison:
  --- 
 
 
-## [Large Network-LP Benchmark (commercial vs free) (5 Dec 2020)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (29 Dec 2020)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[Gurobi-9.1.0](network-GUR.html) | 1.00 | 100%|
-|[COPT-1.4.6](network-COPT.html) | 1.38 | 100%|
+|[COPT-1.4.7](network-COPT.html) | 1.00 | 100%|
+|[Gurobi-9.1.0](network-GUR.html) | 1.02 | 100%|
 |[Clp-1.17.6](network-CLP.html) | 2.60 | 100%|
 |[MATLAB-R2020b](network-MATL.html) | 10.20 | 90%|
 |[QSopt-1.01](network-QSOPT.html) | 38.50 | 60%|
@@ -77,6 +77,7 @@ Choose base solver for comparison:
 
 
  older benchmarks:
+ - [5 Dec 2020](network-5-Dec-2020.html)
  - [2 Nov 2020](network-2-Nov-2020.html)
  - [23 Oct 2020](network-23-Oct-2020.html)
  - [26 Sep 2020](network-26-Sep-2020.html)
