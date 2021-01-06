@@ -3,7 +3,7 @@ Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http:
     These plots should make browsing the results easier. [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (28 Dec 2020)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers (5 Jan 2021)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
@@ -13,7 +13,7 @@ Choose base solver for comparison:
 |[Gurobi-9.1.0](lpsimp-Gurob.html) | 1.60 | 100%|
 |[CLP-1.17.6](lpsimp-CLP.html) | 6.43 | 100%|
 |[MOSEK-9.2.20](lpsimp-MSK.html) | 13.70 | 95%|
-|[HiGHS-1.0.0](lpsimp-HiGHS.html) | 26.00 | 82%|
+|[HiGHS-1.0.0](lpsimp-HiGHS.html) | 24.30 | 82%|
 |[Google-GLOP](lpsimp-GLOP.html) | 26.80 | 85%|
 |[MATLAB-R2020a](lpsimp-MATL.html) | 29.70 | 80%|
 |[SOPLEX-5.0.0](lpsimp-SPLX.html) | 35.40 | 90%|
@@ -21,6 +21,7 @@ Choose base solver for comparison:
 
 
  older benchmarks:
+ - [28 Dec 2020](lpsimp-28-Dec-2020.html)
  - [4 Dec 2020](lpsimp-4-Dec-2020.html)
  - [3 Dec 2020](lpsimp-3-Dec-2020.html)
  - [2 Nov 2020](lpsimp-2-Nov-2020.html)
