@@ -195,7 +195,7 @@ Choose base solver for comparison:
 | :--- | ---:  | ---:   |
 |[GUROBI-9.1.0](cnconv-GUROBI.html) | 1.00 | 60%|
 |[ANTIGONE-1.1](cnconv-ANTIGONE.html) | 4.70 | 50%|
-|[Baron-20.10.16](cnconv-BARON.html) | 5.49 | 45%|
+|[Baron-21.1.13](cnconv-BARON.html) | 5.56 | 43%|
 |[OCTERACT-1.07.29](cnconv-OCTERACT.html) | 7.27 | 28%|
 |[RAPOSA-2.0.0](cnconv-RAPOSa.html) | 10.60 | 14%|
 |[SCIP-7.0.0](cnconv-SCIP.html) | 10.90 | 21%|
@@ -212,13 +212,13 @@ Choose base solver for comparison:
  --- 
 
 
-## [Convex Discrete QPLIB Benchmark (22 Jan 2021)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (23 Jan 2021)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[GUROBI-9.1.0](convex-GUROBI.html) | 1.00 | 74%|
-|[Baron-21.1.13](convex-BARON.html) | 5.54 | 55%|
+|[Baron-21.1.13](convex-BARON.html) | 5.42 | 55%|
 |[MOSEK-9.2.29](convex-MOSEK.html) | 10.20 | 42%|
 |[SCIP-7.0.0](convex-SCIP.html) | 12.50 | 35%|
 |[Bonmin-1.8.7](convex-BONMIN.html) | 15.60 | 32%|
@@ -230,6 +230,7 @@ Choose base solver for comparison:
 
 
  older benchmarks:
+ - [22 Jan 2021](convex-22-Jan-2021.html)
  - [13 Dec 2020](convex-13-Dec-2020.html)
  - [15 Nov 2020](convex-15-Nov-2020.html)
  - [10 Nov 2020](convex-10-Nov-2020.html)
