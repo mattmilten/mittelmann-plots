@@ -166,7 +166,7 @@ Choose base solver for comparison:
  --- 
 
 
-## [Discrete Non-Convex QPLIB Benchmark (non-binary) (10 Nov 2020)](http://plato.asu.edu/ftp/nonbinary.html)
+## [Discrete Non-Convex QPLIB Benchmark (non-binary) (27 Jan 2021)](http://plato.asu.edu/ftp/nonbinary.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
@@ -174,7 +174,7 @@ Choose base solver for comparison:
 |[Gurobi-9.1.0](nonbinary-GUROBI.html) | 1.00 | 87%|
 |[FSCIP-7.0.0](nonbinary-FSCIP.html) | 10.50 | 42%|
 |[SCIP-7.0.0](nonbinary-SCIP.html) | 17.40 | 39%|
-|[Baron-20.10.16](nonbinary-BARON.html) | 24.30 | 38%|
+|[Baron-21.1.13](nonbinary-BARON.html) | 22.60 | 36%|
 |[ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 25.50 | 38%|
 |[OCTERACT-1.07.29](nonbinary-OCTERACT.html) | 48.30 | 11%|
 |[COUENNE-0.5](nonbinary-COUENNE.html) | 57.40 | 11%|
@@ -182,6 +182,7 @@ Choose base solver for comparison:
 
 
  older benchmarks:
+ - [10 Nov 2020](nonbinary-10-Nov-2020.html)
  - [8 Oct 2020](nonbinary-8-Oct-2020.html)
  - [20 Aug 2020](nonbinary-20-Aug-2020.html)
 
