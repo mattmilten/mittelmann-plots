@@ -89,7 +89,7 @@ Choose base solver for comparison:
  --- 
 
 
-## [The MIPLIB2017 Benchmark Instances (15 Nov 2020)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances (5 Feb 2021)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
@@ -98,18 +98,19 @@ Choose base solver for comparison:
 |[SCIP/spx-7.0.0](milp-SCIP.html) | 4.48 | 52%|
 |[CBC-2.10.5](milp-CBC.html) | 8.59 | 37%|
 |[MATLAB-2020a](milp-MATLAB.html) | 13.50 | 26%|
-|[GLPK-4.65](milp-GLPK.html) | 20.50 | 10%|
+|[GLPK-5.0](milp-GLPK.html) | 20.50 | 10%|
 |[LP_SOLVE-5.5.2](milp-LP_SOL.html) | 21.70 | 8%|
 
 
  older benchmarks:
+ - [15 Nov 2020](milp-15-Nov-2020.html)
  - [2 Oct 2020](milp-2-Oct-2020.html)
 
 
  --- 
 
 
-## [The MIPLIB2017 Benchmark Instances - 8 threads (15 Nov 2020)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances - 8 threads (5 Feb 2021)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
@@ -120,6 +121,7 @@ Choose base solver for comparison:
 
 
  older benchmarks:
+ - [15 Nov 2020](milp_8threads-15-Nov-2020.html)
  - [2 Oct 2020](milp_8threads-2-Oct-2020.html)
 
 
