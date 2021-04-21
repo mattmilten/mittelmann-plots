@@ -8,4 +8,4 @@ Click on the solver in the legend to enable or disable it in the plot.
 
 Plots are updated daily.
 
-![Update plots](https://github.com/mattmilten/mittelmann-plots/workflows/Update%20plots/badge.svg)
+[![Update plots](https://github.com/mattmilten/mittelmann-plots/workflows/Update%20plots/badge.svg)](https://github.com/mattmilten/mittelmann-plots/actions/workflows/run-python.yml)
