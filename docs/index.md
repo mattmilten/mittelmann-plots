@@ -96,12 +96,13 @@ Choose base solver for comparison:
  --- 
 
 
-## [The MIPLIB2017 Benchmark Instances (5 Feb 2021)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances (4 Jun 2021)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[Gurobi-9.1.0](milp-Gurobi.html) | 1.00 | 84%|
+|[COPT-2.0.1](milp-COPT.html) | 4.19 | 55%|
 |[SCIP/spx-7.0.0](milp-SCIP.html) | 4.48 | 52%|
 |[CBC-2.10.5](milp-CBC.html) | 8.59 | 37%|
 |[MATLAB-2020a](milp-MATLAB.html) | 13.50 | 26%|
@@ -110,6 +111,7 @@ Choose base solver for comparison:
 
 
  older benchmarks:
+ - [5 Feb 2021](milp-5-Feb-2021.html)
  - [15 Nov 2020](milp-15-Nov-2020.html)
  - [2 Oct 2020](milp-2-Oct-2020.html)
 
@@ -117,17 +119,19 @@ Choose base solver for comparison:
  --- 
 
 
-## [The MIPLIB2017 Benchmark Instances - 8 threads (5 Feb 2021)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances - 8 threads (4 Jun 2021)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[Gurobi-9.1.0](milp_8threads-Gurobi.html) | 1.00 | 92%|
+|[COPT-2.0.1](milp_8threads-COPT.html) | 5.17 | 65%|
 |[FSCIP/spx-7.0.0](milp_8threads-FSCIP.html) | 7.30 | 57%|
 |[CBC-2.10.5](milp_8threads-CBC.html) | 11.80 | 41%|
 
 
  older benchmarks:
+ - [5 Feb 2021](milp_8threads-5-Feb-2021.html)
  - [15 Nov 2020](milp_8threads-15-Nov-2020.html)
  - [2 Oct 2020](milp_8threads-2-Oct-2020.html)
 
