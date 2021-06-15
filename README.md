@@ -4,7 +4,7 @@ Some interactive [Plotly](https://plotly.com/python/) graphs comparing the resul
 
 These plots should make browsing the results easier. Please let me know if you have a question or if there is an error.
 
-Click on the solver in the legend to enable or disable it in the plot.
+Click on the solver name in the legend to enable or disable it in the plot.
 
 Plots are updated daily.
 
