@@ -3,24 +3,24 @@ Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http:
     These plots should make browsing the results easier. [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (9 Jun 2021)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers (21 Jul 2021)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[MindOpt-0.14.0](lpsimp-MDOPT.html) | 1.00 | 100%|
-|[COPT-2.0.0](lpsimp-COPT.html) | 1.14 | 100%|
-|[Gurobi-9.1.0](lpsimp-Gurob.html) | 1.83 | 100%|
-|[CLP-1.17.6](lpsimp-CLP.html) | 7.33 | 100%|
-|[MOSEK-9.2.20](lpsimp-MSK.html) | 15.60 | 95%|
-|[HiGHS-1.0.0](lpsimp-HiGHS.html) | 27.70 | 82%|
-|[Google-GLOP](lpsimp-GLOP.html) | 30.50 | 85%|
-|[MATLAB-R2020a](lpsimp-MATL.html) | 33.90 | 80%|
-|[SOPLEX-5.0.2](lpsimp-SPLX.html) | 36.20 | 90%|
-|[GLPK-5.0](lpsimp-GLPK.html) | 119.00 | 65%|
+|[COPT-2.0.0](lpsimp-COPT.html) | 1.00 | 100%|
+|[Gurobi-9.1.2](lpsimp-Gurob.html) | 1.50 | 100%|
+|[MindOpt-0.14.0](lpsimp-MDOPT.html) | 1.77 | 100%|
+|[CLP-1.17.6](lpsimp-CLP.html) | 6.09 | 100%|
+|[MOSEK-9.2.47](lpsimp-MSK.html) | 12.60 | 95%|
+|[Google-GLOP](lpsimp-GLOP.html) | 19.60 | 80%|
+|[SOPLEX-5.0.2](lpsimp-SPLX.html) | 31.60 | 90%|
+|[MATLAB-R2020b](lpsimp-MATL.html) | 37.30 | 80%|
+|[GLPK-5.0](lpsimp-GLPK.html) | 103.00 | 72%|
 
 
  older benchmarks:
+ - [9 Jun 2021](lpsimp-9-Jun-2021.html)
  - [28 May 2021](lpsimp-28-May-2021.html)
  - [3 Mar 2021](lpsimp-3-Mar-2021.html)
  - [18 Jan 2021](lpsimp-18-Jan-2021.html)
@@ -39,22 +39,23 @@ Choose base solver for comparison:
  --- 
 
 
-## [Benchmark of Barrier LP solvers (9 Jun 2021)](http://plato.asu.edu/ftp/lpbar.html)
+## [Benchmark of Barrier LP solvers (21 Jul 2021)](http://plato.asu.edu/ftp/lpbar.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[COPT-2.0.0](lpbar-COPT.html) | 1.00 | 100%|
-|[Gurobi-9.1.0](lpbar-Gurobi.html) | 1.22 | 100%|
-|[MindOpt-0.14.0](lpbar-MDOPT.html) | 1.65 | 100%|
-|[MOSEK-9.2.21](lpbar-MOSEK.html) | 2.86 | 98%|
-|[KNITRO-12.3.0](lpbar-KNITRO.html) | 15.20 | 85%|
-|[Tulip-0.7.0](lpbar-TULIP.html) | 36.30 | 80%|
-|[MATLAB-R2020a](lpbar-MATLAB.html) | 38.00 | 76%|
-|[CLP-1.17.6](lpbar-CLP.html) | 57.20 | 83%|
+|[Gurobi-9.1.2](lpbar-Gurobi.html) | 1.56 | 100%|
+|[MindOpt-0.14.0](lpbar-MDOPT.html) | 1.96 | 100%|
+|[MOSEK-9.2.47](lpbar-MOSEK.html) | 3.94 | 98%|
+|[KNITRO-12.4.0](lpbar-KNITRO.html) | 13.70 | 87%|
+|[Tulip-0.8.0](lpbar-TULIP.html) | 45.20 | 78%|
+|[MATLAB-R2020b](lpbar-MATLAB.html) | 47.00 | 78%|
+|[CLP-1.17.6](lpbar-CLP.html) | 68.00 | 83%|
 
 
  older benchmarks:
+ - [9 Jun 2021](lpbar-9-Jun-2021.html)
  - [28 May 2021](lpbar-28-May-2021.html)
  - [3 Mar 2021](lpbar-3-Mar-2021.html)
  - [28 Dec 2020](lpbar-28-Dec-2020.html)
@@ -70,21 +71,22 @@ Choose base solver for comparison:
  --- 
 
 
-## [Large Network-LP Benchmark (commercial vs free) (28 May 2021)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (21 Jul 2021)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[COPT-2.0.0](network-COPT.html) | 1.00 | 100%|
-|[Gurobi-9.1.0](network-GUR.html) | 1.39 | 100%|
-|[Clp-1.17.6](network-CLP.html) | 3.62 | 100%|
-|[MATLAB-R2020b](network-MATL.html) | 14.20 | 90%|
-|[QSopt-1.01](network-QSOPT.html) | 53.70 | 60%|
-|[SOPLEX-5.0.2](network-SOPLX.html) | 72.90 | 60%|
-|[MOSEK-9.2.21](network-MOSEK.html) | 84.50 | 80%|
+|[Gurobi-9.1.2](network-GUR.html) | 1.44 | 100%|
+|[Clp-1.17.6](network-CLP.html) | 4.25 | 100%|
+|[MATLAB-R2020b](network-MATL.html) | 14.70 | 100%|
+|[QSopt-1.01](network-QSOPT.html) | 61.90 | 70%|
+|[SOPLEX-5.0.2](network-SOPLX.html) | 94.30 | 60%|
+|[MOSEK-9.2.47](network-MOSEK.html) | 108.00 | 80%|
 
 
  older benchmarks:
+ - [28 May 2021](network-28-May-2021.html)
  - [3 Mar 2021](network-3-Mar-2021.html)
  - [23 Feb 2021](network-23-Feb-2021.html)
  - [29 Dec 2020](network-29-Dec-2020.html)
