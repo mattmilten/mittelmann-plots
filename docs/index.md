@@ -8,15 +8,15 @@ Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[COPT-2.0.0](lpsimp-COPT.html) | 1.00 | 100%|
-|[Gurobi-9.1.2](lpsimp-Gurob.html) | 1.50 | 100%|
-|[MindOpt-0.14.0](lpsimp-MDOPT.html) | 1.77 | 100%|
-|[CLP-1.17.6](lpsimp-CLP.html) | 6.09 | 100%|
-|[MOSEK-9.2.47](lpsimp-MSK.html) | 12.60 | 95%|
-|[Google-GLOP](lpsimp-GLOP.html) | 19.60 | 80%|
-|[SOPLEX-5.0.2](lpsimp-SPLX.html) | 31.60 | 90%|
-|[MATLAB-R2020b](lpsimp-MATL.html) | 37.30 | 80%|
-|[GLPK-5.0](lpsimp-GLPK.html) | 103.00 | 72%|
+|[MindOpt-0.14.0](lpsimp-MDOPT.html) | 1.00 | 100%|
+|[COPT-2.0.0](lpsimp-COPT.html) | 1.14 | 100%|
+|[Gurobi-9.1.2](lpsimp-Gurob.html) | 1.79 | 100%|
+|[CLP-1.17.6](lpsimp-CLP.html) | 7.24 | 100%|
+|[MOSEK-9.2.47](lpsimp-MSK.html) | 15.00 | 95%|
+|[Google-GLOP](lpsimp-GLOP.html) | 23.30 | 80%|
+|[SOPLEX-5.0.2](lpsimp-SPLX.html) | 37.60 | 90%|
+|[MATLAB-R2020b](lpsimp-MATL.html) | 44.30 | 80%|
+|[GLPK-5.0](lpsimp-GLPK.html) | 123.00 | 72%|
 
 
  older benchmarks:
