@@ -3,13 +3,13 @@ Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http:
     These plots should make browsing the results easier. [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (21 Jul 2021)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers (26 Jul 2021)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[MindOpt-0.14.0](lpsimp-MDOPT.html) | 1.00 | 100%|
-|[COPT-2.0.0](lpsimp-COPT.html) | 1.14 | 100%|
+|[COPT-2.0.0](lpsimp-COPT.html) | 1.11 | 100%|
 |[Gurobi-9.1.2](lpsimp-Gurob.html) | 1.79 | 100%|
 |[CLP-1.17.6](lpsimp-CLP.html) | 7.24 | 100%|
 |[MOSEK-9.2.47](lpsimp-MSK.html) | 15.00 | 95%|
@@ -20,6 +20,7 @@ Choose base solver for comparison:
 
 
  older benchmarks:
+ - [21 Jul 2021](lpsimp-21-Jul-2021.html)
  - [9 Jun 2021](lpsimp-9-Jun-2021.html)
  - [28 May 2021](lpsimp-28-May-2021.html)
  - [3 Mar 2021](lpsimp-3-Mar-2021.html)
@@ -39,14 +40,14 @@ Choose base solver for comparison:
  --- 
 
 
-## [Benchmark of Barrier LP solvers (21 Jul 2021)](http://plato.asu.edu/ftp/lpbar.html)
+## [Benchmark of Barrier LP solvers (26 Jul 2021)](http://plato.asu.edu/ftp/lpbar.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[COPT-2.0.0](lpbar-COPT.html) | 1.00 | 100%|
-|[Gurobi-9.1.2](lpbar-Gurobi.html) | 1.56 | 100%|
-|[MindOpt-0.14.0](lpbar-MDOPT.html) | 1.96 | 100%|
+|[Gurobi-9.1.2](lpbar-Gurobi.html) | 1.37 | 100%|
+|[MindOpt-0.14.0](lpbar-MDOPT.html) | 1.71 | 100%|
 |[MOSEK-9.2.47](lpbar-MOSEK.html) | 3.94 | 98%|
 |[KNITRO-12.4.0](lpbar-KNITRO.html) | 13.70 | 87%|
 |[Tulip-0.8.0](lpbar-TULIP.html) | 45.20 | 78%|
@@ -55,6 +56,7 @@ Choose base solver for comparison:
 
 
  older benchmarks:
+ - [21 Jul 2021](lpbar-21-Jul-2021.html)
  - [9 Jun 2021](lpbar-9-Jun-2021.html)
  - [28 May 2021](lpbar-28-May-2021.html)
  - [3 Mar 2021](lpbar-3-Mar-2021.html)
