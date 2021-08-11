@@ -102,7 +102,7 @@ Choose base solver for comparison:
  --- 
 
 
-## [The MIPLIB2017 Benchmark Instances (4 Jun 2021)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances (10 Aug 2021)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
@@ -117,6 +117,7 @@ Choose base solver for comparison:
 
 
  older benchmarks:
+ - [4 Jun 2021](milp-4-Jun-2021.html)
  - [5 Feb 2021](milp-5-Feb-2021.html)
  - [15 Nov 2020](milp-15-Nov-2020.html)
  - [2 Oct 2020](milp-2-Oct-2020.html)
@@ -125,18 +126,15 @@ Choose base solver for comparison:
  --- 
 
 
-## [The MIPLIB2017 Benchmark Instances - 8 threads (4 Jun 2021)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances - 8 threads (10 Aug 2021)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[Gurobi-9.1.0](milp_8threads-Gurobi.html) | 1.00 | 92%|
-|[COPT-2.0.1](milp_8threads-COPT.html) | 5.17 | 65%|
-|[FSCIP/spx-7.0.0](milp_8threads-FSCIP.html) | 7.30 | 57%|
-|[CBC-2.10.5](milp_8threads-CBC.html) | 11.80 | 41%|
 
 
  older benchmarks:
+ - [4 Jun 2021](milp_8threads-4-Jun-2021.html)
  - [5 Feb 2021](milp_8threads-5-Feb-2021.html)
  - [15 Nov 2020](milp_8threads-15-Nov-2020.html)
  - [2 Oct 2020](milp_8threads-2-Oct-2020.html)
