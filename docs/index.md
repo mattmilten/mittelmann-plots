@@ -131,6 +131,10 @@ Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
+|[Gurobi-9.1.0](milp_8threads-Gurobi.html) | 1.00 | 94%|
+|[COPT-2.0.1](milp_8threads-COPT.html) | 5.41 | 68%|
+|[FSCIP/spx-7.0.0](milp_8threads-FSCIP.html) | 7.98 | 61%|
+|[CBC-2.10.5](milp_8threads-CBC.html) | 13.30 | 45%|
 
 
  older benchmarks:
