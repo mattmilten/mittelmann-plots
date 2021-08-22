@@ -147,17 +147,18 @@ Choose base solver for comparison:
  --- 
 
 
-## [Mixed-integer SOCP Benchmark (12 Aug 2021)](http://plato.asu.edu/ftp/misocp.html)
+## [Mixed-integer SOCP Benchmark (21 Aug 2021)](http://plato.asu.edu/ftp/misocp.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[Gurobi-9.1.1](misocp-GUROBI.html) | 1.00 | 100%|
-|[MOSEK-9.3.1](misocp-MOSEK.html) | 12.60 | 68%|
-|[SCIP-7.0.0](misocp-SCIP.html) | 46.80 | 62%|
+|[Gurobi-9.1.2](misocp-GUROBI.html) | 1.00 | 100%|
+|[MOSEK-9.3.1](misocp-MOSEK.html) | 18.60 | 68%|
+|[SCIP-7.0.2](misocp-SCIP.html) | 55.30 | 62%|
 
 
  older benchmarks:
+ - [12 Aug 2021](misocp-12-Aug-2021.html)
  - [16 Feb 2021](misocp-16-Feb-2021.html)
  - [28 Jan 2021](misocp-28-Jan-2021.html)
  - [10 Nov 2020](misocp-10-Nov-2020.html)
@@ -240,24 +241,25 @@ Choose base solver for comparison:
  --- 
 
 
-## [Convex Discrete QPLIB Benchmark (23 Jan 2021)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (21 Aug 2021)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[GUROBI-9.1.0](convex-GUROBI.html) | 1.00 | 74%|
-|[Baron-21.1.13](convex-BARON.html) | 5.42 | 55%|
-|[MOSEK-9.2.29](convex-MOSEK.html) | 10.20 | 42%|
-|[SCIP-7.0.0](convex-SCIP.html) | 12.50 | 35%|
-|[Bonmin-1.8.7](convex-BONMIN.html) | 15.60 | 32%|
+|[GUROBI-9.1.2](convex-GUROBI.html) | 1.00 | 74%|
+|[Baron-21.1.13](convex-BARON.html) | 5.46 | 55%|
+|[MOSEK-9.2.29](convex-MOSEK.html) | 10.30 | 42%|
+|[SCIP-7.0.0](convex-SCIP.html) | 12.60 | 35%|
+|[Bonmin-1.8.7](convex-BONMIN.html) | 15.70 | 32%|
 |[KNITRO-12.3.0](convex-KNITRO.html) | 16.00 | 29%|
-|[OCTERACT-1.07.29](convex-OCTERACT.html) | 22.20 | 32%|
-|[MINOTAUR-0.2.1](convex-MINOTAUR.html) | 25.80 | 35%|
-|[ANTIGONE-1.1](convex-ANTIGONE.html) | 41.00 | 6%|
-|[Shot-1.0](convex-SHOT.html) | 48.00 | 3%|
+|[MINOTAUR-0.2.1](convex-MINOTAUR.html) | 26.00 | 35%|
+|[OCTERACT-3.4.1](convex-OCTERACT.html) | 34.40 | 10%|
+|[ANTIGONE-1.1](convex-ANTIGONE.html) | 41.30 | 6%|
+|[Shot-1.0](convex-SHOT.html) | 48.30 | 3%|
 
 
  older benchmarks:
+ - [23 Jan 2021](convex-23-Jan-2021.html)
  - [22 Jan 2021](convex-22-Jan-2021.html)
  - [13 Dec 2020](convex-13-Dec-2020.html)
  - [15 Nov 2020](convex-15-Nov-2020.html)
