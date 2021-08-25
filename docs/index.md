@@ -40,12 +40,12 @@ Choose base solver for comparison:
  --- 
 
 
-## [Benchmark of Barrier LP solvers (26 Jul 2021)](http://plato.asu.edu/ftp/lpbar.html)
+## [Benchmark of Barrier LP solvers (24 Aug 2021)](http://plato.asu.edu/ftp/lpbar.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[COPT-2.0.0](lpbar-COPT.html) | 1.00 | 100%|
+|[COPT-2.0.1](lpbar-COPT.html) | 1.00 | 100%|
 |[Gurobi-9.1.2](lpbar-Gurobi.html) | 1.37 | 100%|
 |[MindOpt-0.14.0](lpbar-MDOPT.html) | 1.71 | 100%|
 |[MOSEK-9.2.47](lpbar-MOSEK.html) | 3.94 | 98%|
@@ -56,6 +56,7 @@ Choose base solver for comparison:
 
 
  older benchmarks:
+ - [26 Jul 2021](lpbar-26-Jul-2021.html)
  - [21 Jul 2021](lpbar-21-Jul-2021.html)
  - [9 Jun 2021](lpbar-9-Jun-2021.html)
  - [28 May 2021](lpbar-28-May-2021.html)
@@ -73,12 +74,12 @@ Choose base solver for comparison:
  --- 
 
 
-## [Large Network-LP Benchmark (commercial vs free) (21 Jul 2021)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (27 Jul 2021)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[COPT-2.0.0](network-COPT.html) | 1.00 | 100%|
+|[COPT-2.0.1](network-COPT.html) | 1.00 | 100%|
 |[Gurobi-9.1.2](network-GUR.html) | 1.44 | 100%|
 |[Clp-1.17.6](network-CLP.html) | 4.25 | 100%|
 |[MATLAB-R2020b](network-MATL.html) | 14.70 | 100%|
@@ -88,6 +89,7 @@ Choose base solver for comparison:
 
 
  older benchmarks:
+ - [21 Jul 2021](network-21-Jul-2021.html)
  - [28 May 2021](network-28-May-2021.html)
  - [3 Mar 2021](network-3-Mar-2021.html)
  - [23 Feb 2021](network-23-Feb-2021.html)
