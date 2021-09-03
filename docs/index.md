@@ -226,7 +226,7 @@ Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[GUROBI-9.1.0](cnconv-GUROBI.html) | 1.00 | 60%|
+|[GUROBI-9.1.0](cnconv-GUROBI.html) | 1.00 | 59%|
 |[ANTIGONE-1.1](cnconv-ANTIGONE.html) | 4.70 | 50%|
 |[Baron-21.1.13](cnconv-BARON.html) | 5.56 | 43%|
 |[OCTERACT-1.07.29](cnconv-OCTERACT.html) | 7.27 | 28%|
