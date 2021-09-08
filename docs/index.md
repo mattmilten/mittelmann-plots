@@ -222,22 +222,23 @@ Choose base solver for comparison:
  --- 
 
 
-## [Continuous Non-Convex QPLIB Benchmark (2 Dec 2020)](http://plato.asu.edu/ftp/cnconv.html)
+## [Continuous Non-Convex QPLIB Benchmark (7 Sep 2021)](http://plato.asu.edu/ftp/cnconv.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[GUROBI-9.1.0](cnconv-GUROBI.html) | 1.00 | 59%|
-|[ANTIGONE-1.1](cnconv-ANTIGONE.html) | 4.70 | 50%|
-|[Baron-21.1.13](cnconv-BARON.html) | 5.56 | 43%|
-|[OCTERACT-1.07.29](cnconv-OCTERACT.html) | 7.27 | 28%|
-|[RAPOSA-2.0.0](cnconv-RAPOSa.html) | 10.60 | 14%|
-|[SCIP-7.0.0](cnconv-SCIP.html) | 10.90 | 21%|
-|[COUENNE-0.5](cnconv-COUENNE.html) | 13.00 | 14%|
-|[MINOTAUR-0.2.1](cnconv-MINOTAUR.html) | 13.60 | 10%|
+|[GUROBI-9.1.0](cnconv-GUROBI.html) | 1.00 | 62%|
+|[ANTIGONE-1.1](cnconv-ANTIGONE.html) | 4.82 | 52%|
+|[Baron-21.1.13](cnconv-BARON.html) | 6.97 | 43%|
+|[OCTERACT-1.07.29](cnconv-OCTERACT.html) | 7.54 | 29%|
+|[RAPOSA-2.0.0](cnconv-RAPOSa.html) | 11.00 | 14%|
+|[SCIP-7.0.3.5](cnconv-SCIP.html) | 11.20 | 21%|
+|[COUENNE-0.5](cnconv-COUENNE.html) | 13.60 | 14%|
+|[MINOTAUR-0.2.1](cnconv-MINOTAUR.html) | 14.30 | 11%|
 
 
  older benchmarks:
+ - [2 Dec 2020](cnconv-2-Dec-2020.html)
  - [11 Nov 2020](cnconv-11-Nov-2020.html)
  - [10 Oct 2020](cnconv-10-Oct-2020.html)
  - [20 Aug 2020](cnconv-20-Aug-2020.html)
