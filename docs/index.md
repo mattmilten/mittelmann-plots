@@ -232,7 +232,7 @@ Choose base solver for comparison:
 |[Baron-21.1.13](cnconv-BARON.html) | 6.97 | 43%|
 |[OCTERACT-1.07.29](cnconv-OCTERACT.html) | 7.54 | 29%|
 |[RAPOSA-2.0.0](cnconv-RAPOSa.html) | 11.00 | 14%|
-|[SCIP-7.0.3.5](cnconv-SCIP.html) | 11.20 | 21%|
+|[SCIP-7.0.3.5](cnconv-SCIP.html) | 11.20 | 23%|
 |[COUENNE-0.5](cnconv-COUENNE.html) | 13.60 | 14%|
 |[MINOTAUR-0.2.1](cnconv-MINOTAUR.html) | 14.30 | 11%|
 
