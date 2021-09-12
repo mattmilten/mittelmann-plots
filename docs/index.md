@@ -3,23 +3,25 @@ Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http:
     These plots should make browsing the results easier. [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (26 Jul 2021)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers (11 Sep 2021)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[MindOpt-0.14.0](lpsimp-MDOPT.html) | 1.00 | 100%|
-|[COPT-2.0.0](lpsimp-COPT.html) | 1.11 | 100%|
+|[Optverse-0.2.0](lpsimp-OPTV.html) | 1.00 | 100%|
+|[COPT-2.0.1](lpsimp-COPT.html) | 1.31 | 98%|
+|[MindOpt-0.14.0](lpsimp-MDOPT.html) | 1.43 | 98%|
 |[Gurobi-9.1.2](lpsimp-Gurob.html) | 1.79 | 100%|
-|[CLP-1.17.6](lpsimp-CLP.html) | 7.24 | 100%|
-|[MOSEK-9.2.47](lpsimp-MSK.html) | 15.00 | 95%|
-|[Google-GLOP](lpsimp-GLOP.html) | 23.30 | 80%|
-|[SOPLEX-5.0.2](lpsimp-SPLX.html) | 37.60 | 90%|
-|[MATLAB-R2020b](lpsimp-MATL.html) | 44.30 | 80%|
-|[GLPK-5.0](lpsimp-GLPK.html) | 123.00 | 72%|
+|[CLP-1.17.6](lpsimp-CLP.html) | 7.06 | 95%|
+|[MOSEK-9.2/3](lpsimp-MSK.html) | 17.60 | 88%|
+|[Google-GLOP](lpsimp-GLOP.html) | 26.00 | 70%|
+|[MATLAB-R2020b](lpsimp-MATL.html) | 37.60 | 75%|
+|[SOPLEX-5.0.2](lpsimp-SPLX.html) | 39.10 | 80%|
+|[GLPK-5.0](lpsimp-GLPK.html) | 102.00 | 65%|
 
 
  older benchmarks:
+ - [26 Jul 2021](lpsimp-26-Jul-2021.html)
  - [21 Jul 2021](lpsimp-21-Jul-2021.html)
  - [9 Jun 2021](lpsimp-9-Jun-2021.html)
  - [28 May 2021](lpsimp-28-May-2021.html)
@@ -40,22 +42,23 @@ Choose base solver for comparison:
  --- 
 
 
-## [Benchmark of Barrier LP solvers (24 Aug 2021)](http://plato.asu.edu/ftp/lpbar.html)
+## [Benchmark of Barrier LP solvers (11 Sep 2021)](http://plato.asu.edu/ftp/lpbar.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[COPT-2.0.1](lpbar-COPT.html) | 1.00 | 100%|
-|[Gurobi-9.1.2](lpbar-Gurobi.html) | 1.37 | 100%|
-|[MindOpt-0.14.0](lpbar-MDOPT.html) | 1.71 | 100%|
-|[MOSEK-9.2.47](lpbar-MOSEK.html) | 3.94 | 98%|
-|[KNITRO-12.4.0](lpbar-KNITRO.html) | 13.70 | 87%|
-|[Tulip-0.8.0](lpbar-TULIP.html) | 45.20 | 78%|
-|[MATLAB-R2020b](lpbar-MATLAB.html) | 47.00 | 78%|
-|[CLP-1.17.6](lpbar-CLP.html) | 68.00 | 83%|
+|[Gurobi-9.1.2](lpbar-Gurobi.html) | 1.41 | 100%|
+|[MindOpt-0.14.0](lpbar-MDOPT.html) | 2.38 | 98%|
+|[MOSEK-9.2/3](lpbar-MOSEK.html) | 3.83 | 91%|
+|[KNITRO-12.4.0](lpbar-KNITRO.html) | 13.70 | 79%|
+|[MATLAB-R2020b](lpbar-MATLAB.html) | 35.00 | 74%|
+|[Tulip-0.8.0](lpbar-TULIP.html) | 50.10 | 66%|
+|[CLP-1.17.6](lpbar-CLP.html) | 58.90 | 77%|
 
 
  older benchmarks:
+ - [24 Aug 2021](lpbar-24-Aug-2021.html)
  - [26 Jul 2021](lpbar-26-Jul-2021.html)
  - [21 Jul 2021](lpbar-21-Jul-2021.html)
  - [9 Jun 2021](lpbar-9-Jun-2021.html)
@@ -277,18 +280,19 @@ Choose base solver for comparison:
  --- 
 
 
-## [Convex Continuous QPLIB Benchmark (13 Dec 2020)](http://plato.asu.edu/ftp/cconvex.html)
+## [Convex Continuous QPLIB Benchmark (5 May 2021)](http://plato.asu.edu/ftp/cconvex.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[MOSEK-9.2.29](cconvex-MOSEK.html) | 1.00 | 94%|
-|[Gurobi-9.1.0](cconvex-Gurobi.html) | 1.27 | 91%|
-|[KNITRO-12.3.0](cconvex-KNITRO.html) | 1.74 | 88%|
-|[IPOPT-3.13.0](cconvex-IPOPT.html) | 3.61 | 88%|
+|[MOSEK-9.2.43](cconvex-MOSEK.html) | 1.00 | 97%|
+|[Gurobi-9.1.2](cconvex-Gurobi.html) | 1.27 | 97%|
+|[KNITRO-12.3.0](cconvex-KNITRO.html) | 1.74 | 97%|
+|[IPOPT-3.12.13](cconvex-IPOPT.html) | 3.61 | 88%|
 
 
  older benchmarks:
+ - [13 Dec 2020](cconvex-13-Dec-2020.html)
  - [11 Nov 2020](cconvex-11-Nov-2020.html)
  - [27 Sep 2020](cconvex-27-Sep-2020.html)
  - [3 Apr 2020](cconvex-3-Apr-2020.html)
