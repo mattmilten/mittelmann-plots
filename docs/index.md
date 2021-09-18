@@ -3,24 +3,25 @@ Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http:
     These plots should make browsing the results easier. [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (11 Sep 2021)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers (17 Sep 2021)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[Optverse-0.2.0](lpsimp-OPTV.html) | 1.00 | 100%|
-|[COPT-2.0.1](lpsimp-COPT.html) | 1.31 | 98%|
-|[MindOpt-0.14.0](lpsimp-MDOPT.html) | 1.43 | 98%|
-|[Gurobi-9.1.2](lpsimp-Gurob.html) | 1.79 | 100%|
-|[CLP-1.17.6](lpsimp-CLP.html) | 7.06 | 95%|
-|[MOSEK-9.2/3](lpsimp-MSK.html) | 17.60 | 88%|
-|[Google-GLOP](lpsimp-GLOP.html) | 26.00 | 70%|
-|[MATLAB-R2020b](lpsimp-MATL.html) | 37.60 | 75%|
-|[SOPLEX-5.0.2](lpsimp-SPLX.html) | 39.10 | 80%|
-|[GLPK-5.0](lpsimp-GLPK.html) | 102.00 | 65%|
+|[Optverse-0.2.1](lpsimp-OPTV.html) | 1.00 | 98%|
+|[COPT-2.0.1](lpsimp-COPT.html) | 1.25 | 98%|
+|[MindOpt-0.14.0](lpsimp-MDOPT.html) | 1.36 | 98%|
+|[Gurobi-9.1.2](lpsimp-Gurob.html) | 1.71 | 100%|
+|[CLP-1.17.6](lpsimp-CLP.html) | 6.74 | 95%|
+|[MOSEK-9.2/3](lpsimp-MSK.html) | 16.80 | 88%|
+|[Google-GLOP](lpsimp-GLOP.html) | 24.90 | 70%|
+|[MATLAB-R2020b](lpsimp-MATL.html) | 35.90 | 75%|
+|[SOPLEX-5.0.2](lpsimp-SPLX.html) | 37.30 | 80%|
+|[GLPK-5.0](lpsimp-GLPK.html) | 97.00 | 65%|
 
 
  older benchmarks:
+ - [11 Sep 2021](lpsimp-11-Sep-2021.html)
  - [26 Jul 2021](lpsimp-26-Jul-2021.html)
  - [21 Jul 2021](lpsimp-21-Jul-2021.html)
  - [9 Jun 2021](lpsimp-9-Jun-2021.html)
@@ -206,13 +207,13 @@ Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[Gurobi-9.1.0](nonbinary-GUROBI.html) | 1.00 | 87%|
-|[SCIP-7.0.3.5](nonbinary-SCIP.html) | 11.50 | 49%|
-|[Baron-21.1.13](nonbinary-BARON.html) | 22.60 | 36%|
-|[ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 25.50 | 38%|
-|[OCTERACT-1.07.29](nonbinary-OCTERACT.html) | 48.30 | 11%|
-|[COUENNE-0.5](nonbinary-COUENNE.html) | 57.40 | 11%|
-|[MINOTAUR-0.2.1](nonbinary-MINOTAUR.html) | 66.10 | 5%|
+|[Gurobi-9.1.0](nonbinary-GUROBI.html) | 1.00 | 85%|
+|[SCIP-7.0.3.5](nonbinary-SCIP.html) | 10.80 | 47%|
+|[Baron-21.1.13](nonbinary-BARON.html) | 20.70 | 35%|
+|[ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 23.30 | 37%|
+|[OCTERACT-3.4.1](nonbinary-OCTERACT.html) | 26.00 | 26%|
+|[COUENNE-0.5](nonbinary-COUENNE.html) | 51.50 | 10%|
+|[MINOTAUR-0.2.1](nonbinary-MINOTAUR.html) | 59.10 | 5%|
 
 
  older benchmarks:
@@ -225,15 +226,15 @@ Choose base solver for comparison:
  --- 
 
 
-## [Continuous Non-Convex QPLIB Benchmark (7 Sep 2021)](http://plato.asu.edu/ftp/cnconv.html)
+## [Continuous Non-Convex QPLIB Benchmark (16 Sep 2021)](http://plato.asu.edu/ftp/cnconv.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[GUROBI-9.1.0](cnconv-GUROBI.html) | 1.00 | 62%|
 |[ANTIGONE-1.1](cnconv-ANTIGONE.html) | 4.82 | 52%|
+|[OCTERACT-3.4.1](cnconv-OCTERACT.html) | 5.74 | 36%|
 |[Baron-21.1.13](cnconv-BARON.html) | 6.97 | 43%|
-|[OCTERACT-1.07.29](cnconv-OCTERACT.html) | 7.54 | 29%|
 |[RAPOSA-2.0.0](cnconv-RAPOSa.html) | 11.00 | 14%|
 |[SCIP-7.0.3.5](cnconv-SCIP.html) | 11.20 | 23%|
 |[COUENNE-0.5](cnconv-COUENNE.html) | 13.60 | 14%|
@@ -241,6 +242,7 @@ Choose base solver for comparison:
 
 
  older benchmarks:
+ - [7 Sep 2021](cnconv-7-Sep-2021.html)
  - [2 Dec 2020](cnconv-2-Dec-2020.html)
  - [11 Nov 2020](cnconv-11-Nov-2020.html)
  - [10 Oct 2020](cnconv-10-Oct-2020.html)
