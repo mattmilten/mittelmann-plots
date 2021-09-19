@@ -3,79 +3,81 @@ Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http:
     These plots should make browsing the results easier. [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (17 Sep 2021)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers (18 Sep 2021)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[Optverse-0.2.1](lpsimp-OPTV.html) | 1.00 | 98%|
-|[COPT-2.0.1](lpsimp-COPT.html) | 1.25 | 98%|
-|[MindOpt-0.14.0](lpsimp-MDOPT.html) | 1.36 | 98%|
-|[Gurobi-9.1.2](lpsimp-Gurob.html) | 1.71 | 100%|
-|[CLP-1.17.6](lpsimp-CLP.html) | 6.74 | 95%|
-|[MOSEK-9.2/3](lpsimp-MSK.html) | 16.80 | 88%|
-|[Google-GLOP](lpsimp-GLOP.html) | 24.90 | 70%|
-|[MATLAB-R2020b](lpsimp-MATL.html) | 35.90 | 75%|
-|[SOPLEX-5.0.2](lpsimp-SPLX.html) | 37.30 | 80%|
-|[GLPK-5.0](lpsimp-GLPK.html) | 97.00 | 65%|
+|[COPT-2.0.1](lpsimp-COPT.html) | 1.13 | 98%|
+|[MindOpt-0.14.0](lpsimp-MDOPT.html) | 1.29 | 98%|
+|[Gurobi-9.1.2](lpsimp-Gurob.html) | 1.64 | 100%|
+|[CLP-1.17.6](lpsimp-CLP.html) | 6.33 | 92%|
+|[MOSEK-9.2/3](lpsimp-MSK.html) | 15.30 | 88%|
+|[Google-GLOP](lpsimp-GLOP.html) | 23.60 | 68%|
+|[MATLAB-R2020b](lpsimp-MATL.html) | 33.20 | 72%|
+|[SOPLEX-5.0.2](lpsimp-SPLX.html) | 34.40 | 78%|
+|[GLPK-5.0](lpsimp-GLPK.html) | 88.10 | 62%|
 
 
- older benchmarks:
- - [11 Sep 2021](lpsimp-11-Sep-2021.html)
- - [26 Jul 2021](lpsimp-26-Jul-2021.html)
- - [21 Jul 2021](lpsimp-21-Jul-2021.html)
- - [9 Jun 2021](lpsimp-9-Jun-2021.html)
- - [28 May 2021](lpsimp-28-May-2021.html)
- - [3 Mar 2021](lpsimp-3-Mar-2021.html)
- - [18 Jan 2021](lpsimp-18-Jan-2021.html)
- - [5 Jan 2021](lpsimp-5-Jan-2021.html)
- - [28 Dec 2020](lpsimp-28-Dec-2020.html)
- - [4 Dec 2020](lpsimp-4-Dec-2020.html)
- - [3 Dec 2020](lpsimp-3-Dec-2020.html)
- - [2 Nov 2020](lpsimp-2-Nov-2020.html)
- - [22 Oct 2020](lpsimp-22-Oct-2020.html)
- - [26 Sep 2020](lpsimp-26-Sep-2020.html)
- - [5 Sep 2020](lpsimp-5-Sep-2020.html)
- - [27 Aug 2020](lpsimp-27-Aug-2020.html)
- - [08 Aug 2020](lpsimp-08-Aug-2020.html)
+older benchmarks:
+- [17 Sep 2021](lpsimp-17-Sep-2021.html)
+- [11 Sep 2021](lpsimp-11-Sep-2021.html)
+- [26 Jul 2021](lpsimp-26-Jul-2021.html)
+- [21 Jul 2021](lpsimp-21-Jul-2021.html)
+- [9 Jun 2021](lpsimp-9-Jun-2021.html)
+- [28 May 2021](lpsimp-28-May-2021.html)
+- [3 Mar 2021](lpsimp-3-Mar-2021.html)
+- [18 Jan 2021](lpsimp-18-Jan-2021.html)
+- [5 Jan 2021](lpsimp-5-Jan-2021.html)
+- [28 Dec 2020](lpsimp-28-Dec-2020.html)
+- [4 Dec 2020](lpsimp-4-Dec-2020.html)
+- [3 Dec 2020](lpsimp-3-Dec-2020.html)
+- [2 Nov 2020](lpsimp-2-Nov-2020.html)
+- [22 Oct 2020](lpsimp-22-Oct-2020.html)
+- [26 Sep 2020](lpsimp-26-Sep-2020.html)
+- [5 Sep 2020](lpsimp-5-Sep-2020.html)
+- [27 Aug 2020](lpsimp-27-Aug-2020.html)
+- [08 Aug 2020](lpsimp-08-Aug-2020.html)
 
 
- --- 
+---
 
 
-## [Benchmark of Barrier LP solvers (11 Sep 2021)](http://plato.asu.edu/ftp/lpbar.html)
+## [Benchmark of Barrier LP solvers (18 Sep 2021)](http://plato.asu.edu/ftp/lpbar.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[COPT-2.0.1](lpbar-COPT.html) | 1.00 | 100%|
-|[Gurobi-9.1.2](lpbar-Gurobi.html) | 1.41 | 100%|
-|[MindOpt-0.14.0](lpbar-MDOPT.html) | 2.38 | 98%|
-|[MOSEK-9.2/3](lpbar-MOSEK.html) | 3.83 | 91%|
-|[KNITRO-12.4.0](lpbar-KNITRO.html) | 13.70 | 79%|
-|[MATLAB-R2020b](lpbar-MATLAB.html) | 35.00 | 74%|
-|[Tulip-0.8.0](lpbar-TULIP.html) | 50.10 | 66%|
-|[CLP-1.17.6](lpbar-CLP.html) | 58.90 | 77%|
+|[Gurobi-9.1.2](lpbar-Gurobi.html) | 1.38 | 100%|
+|[MindOpt-0.14.0](lpbar-MDOPT.html) | 2.44 | 98%|
+|[MOSEK-9.2/3](lpbar-MOSEK.html) | 4.17 | 89%|
+|[KNITRO-12.4.0](lpbar-KNITRO.html) | 12.60 | 79%|
+|[MATLAB-R2020b](lpbar-MATLAB.html) | 32.50 | 74%|
+|[Tulip-0.8.0](lpbar-TULIP.html) | 49.50 | 66%|
+|[CLP-1.17.6](lpbar-CLP.html) | 60.80 | 74%|
 
 
- older benchmarks:
- - [24 Aug 2021](lpbar-24-Aug-2021.html)
- - [26 Jul 2021](lpbar-26-Jul-2021.html)
- - [21 Jul 2021](lpbar-21-Jul-2021.html)
- - [9 Jun 2021](lpbar-9-Jun-2021.html)
- - [28 May 2021](lpbar-28-May-2021.html)
- - [3 Mar 2021](lpbar-3-Mar-2021.html)
- - [28 Dec 2020](lpbar-28-Dec-2020.html)
- - [13 Dec 2020](lpbar-13-Dec-2020.html)
- - [10 Dec 2020](lpbar-10-Dec-2020.html)
- - [4 Dec 2020](lpbar-4-Dec-2020.html)
- - [3 Dec 2020](lpbar-3-Dec-2020.html)
- - [2 Nov 2020](lpbar-2-Nov-2020.html)
- - [22 Oct 2020](lpbar-22-Oct-2020.html)
- - [8 Sep 2020](lpbar-8-Sep-2020.html)
+older benchmarks:
+- [11 Sep 2021](lpbar-11-Sep-2021.html)
+- [24 Aug 2021](lpbar-24-Aug-2021.html)
+- [26 Jul 2021](lpbar-26-Jul-2021.html)
+- [21 Jul 2021](lpbar-21-Jul-2021.html)
+- [9 Jun 2021](lpbar-9-Jun-2021.html)
+- [28 May 2021](lpbar-28-May-2021.html)
+- [3 Mar 2021](lpbar-3-Mar-2021.html)
+- [28 Dec 2020](lpbar-28-Dec-2020.html)
+- [13 Dec 2020](lpbar-13-Dec-2020.html)
+- [10 Dec 2020](lpbar-10-Dec-2020.html)
+- [4 Dec 2020](lpbar-4-Dec-2020.html)
+- [3 Dec 2020](lpbar-3-Dec-2020.html)
+- [2 Nov 2020](lpbar-2-Nov-2020.html)
+- [22 Oct 2020](lpbar-22-Oct-2020.html)
+- [8 Sep 2020](lpbar-8-Sep-2020.html)
 
 
- --- 
+---
 
 
 ## [Large Network-LP Benchmark (commercial vs free) (26 Aug 2021)](http://plato.asu.edu/ftp/network.html)
@@ -92,21 +94,21 @@ Choose base solver for comparison:
 |[MOSEK-9.3.1](network-MOSEK.html) | 113.00 | 80%|
 
 
- older benchmarks:
- - [27 Jul 2021](network-27-Jul-2021.html)
- - [21 Jul 2021](network-21-Jul-2021.html)
- - [28 May 2021](network-28-May-2021.html)
- - [3 Mar 2021](network-3-Mar-2021.html)
- - [23 Feb 2021](network-23-Feb-2021.html)
- - [29 Dec 2020](network-29-Dec-2020.html)
- - [5 Dec 2020](network-5-Dec-2020.html)
- - [2 Nov 2020](network-2-Nov-2020.html)
- - [23 Oct 2020](network-23-Oct-2020.html)
- - [26 Sep 2020](network-26-Sep-2020.html)
- - [8 Sep 2020](network-8-Sep-2020.html)
+older benchmarks:
+- [27 Jul 2021](network-27-Jul-2021.html)
+- [21 Jul 2021](network-21-Jul-2021.html)
+- [28 May 2021](network-28-May-2021.html)
+- [3 Mar 2021](network-3-Mar-2021.html)
+- [23 Feb 2021](network-23-Feb-2021.html)
+- [29 Dec 2020](network-29-Dec-2020.html)
+- [5 Dec 2020](network-5-Dec-2020.html)
+- [2 Nov 2020](network-2-Nov-2020.html)
+- [23 Oct 2020](network-23-Oct-2020.html)
+- [26 Sep 2020](network-26-Sep-2020.html)
+- [8 Sep 2020](network-8-Sep-2020.html)
 
 
- --- 
+---
 
 
 ## [The MIPLIB2017 Benchmark Instances (10 Aug 2021)](http://plato.asu.edu/ftp/milp.html)
@@ -123,14 +125,14 @@ Choose base solver for comparison:
 |[LP_SOLVE-5.5.2](milp-LP_SOL.html) | 21.70 | 8%|
 
 
- older benchmarks:
- - [4 Jun 2021](milp-4-Jun-2021.html)
- - [5 Feb 2021](milp-5-Feb-2021.html)
- - [15 Nov 2020](milp-15-Nov-2020.html)
- - [2 Oct 2020](milp-2-Oct-2020.html)
+older benchmarks:
+- [4 Jun 2021](milp-4-Jun-2021.html)
+- [5 Feb 2021](milp-5-Feb-2021.html)
+- [15 Nov 2020](milp-15-Nov-2020.html)
+- [2 Oct 2020](milp-2-Oct-2020.html)
 
 
- --- 
+---
 
 
 ## [The MIPLIB2017 Benchmark Instances - 8 threads (10 Aug 2021)](http://plato.asu.edu/ftp/milp.html)
@@ -144,14 +146,14 @@ Choose base solver for comparison:
 |[CBC-2.10.5](milp_8threads-CBC.html) | 13.30 | 45%|
 
 
- older benchmarks:
- - [4 Jun 2021](milp_8threads-4-Jun-2021.html)
- - [5 Feb 2021](milp_8threads-5-Feb-2021.html)
- - [15 Nov 2020](milp_8threads-15-Nov-2020.html)
- - [2 Oct 2020](milp_8threads-2-Oct-2020.html)
+older benchmarks:
+- [4 Jun 2021](milp_8threads-4-Jun-2021.html)
+- [5 Feb 2021](milp_8threads-5-Feb-2021.html)
+- [15 Nov 2020](milp_8threads-15-Nov-2020.html)
+- [2 Oct 2020](milp_8threads-2-Oct-2020.html)
 
 
- --- 
+---
 
 
 ## [Mixed-integer SOCP Benchmark (3 Sep 2021)](http://plato.asu.edu/ftp/misocp.html)
@@ -164,16 +166,16 @@ Choose base solver for comparison:
 |[SCIP-7.0.3.5](misocp-SCIP.html) | 26.20 | 66%|
 
 
- older benchmarks:
- - [21 Aug 2021](misocp-21-Aug-2021.html)
- - [12 Aug 2021](misocp-12-Aug-2021.html)
- - [16 Feb 2021](misocp-16-Feb-2021.html)
- - [28 Jan 2021](misocp-28-Jan-2021.html)
- - [10 Nov 2020](misocp-10-Nov-2020.html)
- - [14 Jun 2020](misocp-14-Jun-2020.html)
+older benchmarks:
+- [21 Aug 2021](misocp-21-Aug-2021.html)
+- [12 Aug 2021](misocp-12-Aug-2021.html)
+- [16 Feb 2021](misocp-16-Feb-2021.html)
+- [28 Jan 2021](misocp-28-Jan-2021.html)
+- [10 Nov 2020](misocp-10-Nov-2020.html)
+- [14 Jun 2020](misocp-14-Jun-2020.html)
 
 
- --- 
+---
 
 
 ## [Binary Non-Convex QPLIB Benchmark (23 Aug 2021)](http://plato.asu.edu/ftp/qplib.html)
@@ -190,16 +192,16 @@ Choose base solver for comparison:
 |[MINOTAUR-0.2.1](qplib-MINOTAUR.html) | 71.10 | 8%|
 
 
- older benchmarks:
- - [27 May 2021](qplib-27-May-2021.html)
- - [6 May 2021](qplib-6-May-2021.html)
- - [25 Jan 2021](qplib-25-Jan-2021.html)
- - [10 Nov 2020](qplib-10-Nov-2020.html)
- - [7 Oct 2020](qplib-7-Oct-2020.html)
- - [12 Aug 2020](qplib-12-Aug-2020.html)
+older benchmarks:
+- [27 May 2021](qplib-27-May-2021.html)
+- [6 May 2021](qplib-6-May-2021.html)
+- [25 Jan 2021](qplib-25-Jan-2021.html)
+- [10 Nov 2020](qplib-10-Nov-2020.html)
+- [7 Oct 2020](qplib-7-Oct-2020.html)
+- [12 Aug 2020](qplib-12-Aug-2020.html)
 
 
- --- 
+---
 
 
 ## [Discrete Non-Convex QPLIB Benchmark (non-binary) (7 Sep 2021)](http://plato.asu.edu/ftp/nonbinary.html)
@@ -216,14 +218,14 @@ Choose base solver for comparison:
 |[MINOTAUR-0.2.1](nonbinary-MINOTAUR.html) | 59.10 | 5%|
 
 
- older benchmarks:
- - [27 Jan 2021](nonbinary-27-Jan-2021.html)
- - [10 Nov 2020](nonbinary-10-Nov-2020.html)
- - [8 Oct 2020](nonbinary-8-Oct-2020.html)
- - [20 Aug 2020](nonbinary-20-Aug-2020.html)
+older benchmarks:
+- [27 Jan 2021](nonbinary-27-Jan-2021.html)
+- [10 Nov 2020](nonbinary-10-Nov-2020.html)
+- [8 Oct 2020](nonbinary-8-Oct-2020.html)
+- [20 Aug 2020](nonbinary-20-Aug-2020.html)
 
 
- --- 
+---
 
 
 ## [Continuous Non-Convex QPLIB Benchmark (16 Sep 2021)](http://plato.asu.edu/ftp/cnconv.html)
@@ -241,15 +243,15 @@ Choose base solver for comparison:
 |[MINOTAUR-0.2.1](cnconv-MINOTAUR.html) | 14.30 | 11%|
 
 
- older benchmarks:
- - [7 Sep 2021](cnconv-7-Sep-2021.html)
- - [2 Dec 2020](cnconv-2-Dec-2020.html)
- - [11 Nov 2020](cnconv-11-Nov-2020.html)
- - [10 Oct 2020](cnconv-10-Oct-2020.html)
- - [20 Aug 2020](cnconv-20-Aug-2020.html)
+older benchmarks:
+- [7 Sep 2021](cnconv-7-Sep-2021.html)
+- [2 Dec 2020](cnconv-2-Dec-2020.html)
+- [11 Nov 2020](cnconv-11-Nov-2020.html)
+- [10 Oct 2020](cnconv-10-Oct-2020.html)
+- [20 Aug 2020](cnconv-20-Aug-2020.html)
 
 
- --- 
+---
 
 
 ## [Convex Discrete QPLIB Benchmark (21 Aug 2021)](http://plato.asu.edu/ftp/convex.html)
@@ -269,17 +271,17 @@ Choose base solver for comparison:
 |[Shot-1.0](convex-SHOT.html) | 48.30 | 3%|
 
 
- older benchmarks:
- - [23 Jan 2021](convex-23-Jan-2021.html)
- - [22 Jan 2021](convex-22-Jan-2021.html)
- - [13 Dec 2020](convex-13-Dec-2020.html)
- - [15 Nov 2020](convex-15-Nov-2020.html)
- - [10 Nov 2020](convex-10-Nov-2020.html)
- - [8 Oct 2020](convex-8-Oct-2020.html)
- - [15 Aug 2020](convex-15-Aug-2020.html)
+older benchmarks:
+- [23 Jan 2021](convex-23-Jan-2021.html)
+- [22 Jan 2021](convex-22-Jan-2021.html)
+- [13 Dec 2020](convex-13-Dec-2020.html)
+- [15 Nov 2020](convex-15-Nov-2020.html)
+- [10 Nov 2020](convex-10-Nov-2020.html)
+- [8 Oct 2020](convex-8-Oct-2020.html)
+- [15 Aug 2020](convex-15-Aug-2020.html)
 
 
- --- 
+---
 
 
 ## [Convex Continuous QPLIB Benchmark (5 May 2021)](http://plato.asu.edu/ftp/cconvex.html)
@@ -293,12 +295,12 @@ Choose base solver for comparison:
 |[IPOPT-3.12.13](cconvex-IPOPT.html) | 3.61 | 88%|
 
 
- older benchmarks:
- - [13 Dec 2020](cconvex-13-Dec-2020.html)
- - [11 Nov 2020](cconvex-11-Nov-2020.html)
- - [27 Sep 2020](cconvex-27-Sep-2020.html)
- - [3 Apr 2020](cconvex-3-Apr-2020.html)
+older benchmarks:
+- [13 Dec 2020](cconvex-13-Dec-2020.html)
+- [11 Nov 2020](cconvex-11-Nov-2020.html)
+- [27 Sep 2020](cconvex-27-Sep-2020.html)
+- [3 Apr 2020](cconvex-3-Apr-2020.html)
 
 
- --- 
+---
 
