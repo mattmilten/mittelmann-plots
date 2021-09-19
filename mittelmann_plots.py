@@ -51,7 +51,7 @@ def parse_table(url, timelimit=3600, threads=1):
         tabmark = [ind for ind, i in enumerate(tab) if i.startswith("=====")]
         _version = pre[2].text.split("\n")[1:-1]
         _version = [x.split()[0].rstrip(":") for x in _version]
-        _score = tab[tabmark[0] - 2].split()
+        _score = tab[tabmark[0] - 2].split()[2:]
         _solved = tab[tabmark[0] - 1].split()[1:]
         solver = tab[tabmark[0] + 1].split()[2:]
         stats["solver"] = solver
@@ -355,14 +355,14 @@ def write_bench(url, timelimit, threads=1):
         os.system(f"cat docs/{benchname}-{s}.html >> docs/{benchname}-{storedate}.html")
 
     if oldbench:
-        plots += "\n\n older benchmarks:\n"
+        plots += "\n\nolder benchmarks:\n"
 
         for ob in oldbench:
             filename = os.path.basename(ob)
             date = filename.lstrip(f"{benchname}-").rstrip(".html").replace("-", " ")
-            plots += f" - [{date}]({filename})\n"
+            plots += f"- [{date}]({filename})\n"
 
-    plots += "\n\n --- \n\n"
+    plots += "\n\n---\n\n"
 
     return plots
 
@@ -391,4 +391,5 @@ with open("docs/index.md", "w") as index:
     """
     )
     for url in urls:
+        print(f"processing {url[0]}...")
         index.write(write_bench(url[0], url[1], url[2]))
