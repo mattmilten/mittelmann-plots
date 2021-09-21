@@ -379,7 +379,7 @@ urls = [
     ("http://plato.asu.edu/ftp/nonbinary.html", 10800, 1),
     ("http://plato.asu.edu/ftp/cnconv.html", 10800, 1),
     ("http://plato.asu.edu/ftp/convex.html", 7200, 1),
-    ("http://plato.asu.edu/ftp/cconvex.html", 3600, 1),
+    ("http://plato.asu.edu/ftp/cconvex.html", 7200, 1),
 ]
 
 # %%
