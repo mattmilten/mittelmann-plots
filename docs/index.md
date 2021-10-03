@@ -3,24 +3,26 @@ Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http:
     These plots should make browsing the results easier. [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (18 Sep 2021)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers (3 Oct 2021)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[Optverse-0.2.1](lpsimp-OPTV.html) | 1.00 | 98%|
-|[COPT-2.0.1](lpsimp-COPT.html) | 1.13 | 98%|
-|[MindOpt-0.14.0](lpsimp-MDOPT.html) | 1.29 | 98%|
-|[Gurobi-9.1.2](lpsimp-Gurob.html) | 1.64 | 100%|
-|[CLP-1.17.6](lpsimp-CLP.html) | 6.33 | 92%|
-|[MOSEK-9.2/3](lpsimp-MSK.html) | 15.30 | 88%|
-|[Google-GLOP](lpsimp-GLOP.html) | 23.60 | 68%|
-|[MATLAB-R2020b](lpsimp-MATL.html) | 33.20 | 72%|
-|[SOPLEX-5.0.2](lpsimp-SPLX.html) | 34.40 | 78%|
-|[GLPK-5.0](lpsimp-GLPK.html) | 88.10 | 62%|
+|[MindOpt-0.15.0](lpsimp-MDOPT.html) | 1.00 | 100%|
+|[COPT-3.0.0](lpsimp-COPT.html) | 1.25 | 100%|
+|[Optverse-0.2.1](lpsimp-OPTV.html) | 1.38 | 98%|
+|[Gurobi-9.1.2](lpsimp-Gurob.html) | 2.26 | 100%|
+|[CLP-1.17.6](lpsimp-CLP.html) | 8.73 | 92%|
+|[HiGHS-1.1.0](lpsimp-HiGHS.html) | 20.10 | 78%|
+|[MOSEK-9.2/3](lpsimp-MSK.html) | 21.10 | 88%|
+|[Google-GLOP](lpsimp-GLOP.html) | 32.60 | 68%|
+|[MATLAB-R2020b](lpsimp-MATL.html) | 45.70 | 72%|
+|[SOPLEX-5.0.2](lpsimp-SPLX.html) | 47.30 | 78%|
+|[GLPK-5.0](lpsimp-GLPK.html) | 121.00 | 62%|
 
 
 older benchmarks:
+- [18 Sep 2021](lpsimp-18-Sep-2021.html)
 - [17 Sep 2021](lpsimp-17-Sep-2021.html)
 - [11 Sep 2021](lpsimp-11-Sep-2021.html)
 - [26 Jul 2021](lpsimp-26-Jul-2021.html)
@@ -44,22 +46,24 @@ older benchmarks:
 ---
 
 
-## [Benchmark of Barrier LP solvers (18 Sep 2021)](http://plato.asu.edu/ftp/lpbar.html)
+## [Benchmark of Barrier LP solvers (1 Oct 2021)](http://plato.asu.edu/ftp/lpbar.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[COPT-2.0.1](lpbar-COPT.html) | 1.00 | 100%|
-|[Gurobi-9.1.2](lpbar-Gurobi.html) | 1.38 | 100%|
-|[MindOpt-0.14.0](lpbar-MDOPT.html) | 2.44 | 98%|
-|[MOSEK-9.2/3](lpbar-MOSEK.html) | 4.17 | 89%|
-|[KNITRO-12.4.0](lpbar-KNITRO.html) | 12.60 | 79%|
-|[MATLAB-R2020b](lpbar-MATLAB.html) | 32.50 | 74%|
-|[Tulip-0.8.0](lpbar-TULIP.html) | 49.50 | 66%|
-|[CLP-1.17.6](lpbar-CLP.html) | 60.80 | 74%|
+|[COPT-3.0.0](lpbar-COPT.html) | 1.00 | 100%|
+|[Gurobi-9.1.2](lpbar-Gurobi.html) | 1.56 | 100%|
+|[MindOpt-0.14.0](lpbar-MDOPT.html) | 2.76 | 98%|
+|[MOSEK-9.2/3](lpbar-MOSEK.html) | 4.71 | 89%|
+|[KNITRO-12.4.0](lpbar-KNITRO.html) | 14.30 | 79%|
+|[HiGHS-1.1.0](lpbar-HiGHS.html) | 15.20 | 87%|
+|[MATLAB-R2020b](lpbar-MATLAB.html) | 36.70 | 74%|
+|[Tulip-0.8.0](lpbar-TULIP.html) | 55.90 | 66%|
+|[CLP-1.17.6](lpbar-CLP.html) | 68.60 | 74%|
 
 
 older benchmarks:
+- [18 Sep 2021](lpbar-18-Sep-2021.html)
 - [11 Sep 2021](lpbar-11-Sep-2021.html)
 - [24 Aug 2021](lpbar-24-Aug-2021.html)
 - [26 Jul 2021](lpbar-26-Jul-2021.html)
@@ -111,14 +115,14 @@ older benchmarks:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances (10 Aug 2021)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances (3 Oct 2021)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[Gurobi-9.1.0](milp-Gurobi.html) | 1.00 | 84%|
 |[COPT-2.0.1](milp-COPT.html) | 4.19 | 55%|
-|[SCIP/spx-7.0.0](milp-SCIP.html) | 4.48 | 52%|
+|[SCIP/spx-7.0.3.5](milp-SCIP.html) | 4.48 | 52%|
 |[CBC-2.10.5](milp-CBC.html) | 8.59 | 37%|
 |[MATLAB-2020a](milp-MATLAB.html) | 13.50 | 26%|
 |[GLPK-5.0](milp-GLPK.html) | 20.50 | 10%|
@@ -126,6 +130,7 @@ Choose base solver for comparison:
 
 
 older benchmarks:
+- [10 Aug 2021](milp-10-Aug-2021.html)
 - [4 Jun 2021](milp-4-Jun-2021.html)
 - [5 Feb 2021](milp-5-Feb-2021.html)
 - [15 Nov 2020](milp-15-Nov-2020.html)
@@ -135,7 +140,7 @@ older benchmarks:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances - 8 threads (10 Aug 2021)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances - 8 threads (3 Oct 2021)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
@@ -143,10 +148,13 @@ Choose base solver for comparison:
 |[Gurobi-9.1.0](milp_8threads-Gurobi.html) | 1.00 | 94%|
 |[COPT-2.0.1](milp_8threads-COPT.html) | 5.41 | 68%|
 |[FSCIP/spx-7.0.0](milp_8threads-FSCIP.html) | 7.98 | 61%|
+|[SCIP/spx-7.0.3.5](milp_8threads-SCIP.html) | 9.60 | 56%|
+|[HiGHS-1.1.1](milp_8threads-HiGHS.html) | 12.00 | 56%|
 |[CBC-2.10.5](milp_8threads-CBC.html) | 13.30 | 45%|
 
 
 older benchmarks:
+- [10 Aug 2021](milp_8threads-10-Aug-2021.html)
 - [4 Jun 2021](milp_8threads-4-Jun-2021.html)
 - [5 Feb 2021](milp_8threads-5-Feb-2021.html)
 - [15 Nov 2020](milp_8threads-15-Nov-2020.html)
