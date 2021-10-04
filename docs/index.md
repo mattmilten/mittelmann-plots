@@ -46,14 +46,14 @@ older benchmarks:
 ---
 
 
-## [Benchmark of Barrier LP solvers (1 Oct 2021)](http://plato.asu.edu/ftp/lpbar.html)
+## [Benchmark of Barrier LP solvers (3 Oct 2021)](http://plato.asu.edu/ftp/lpbar.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
 |[COPT-3.0.0](lpbar-COPT.html) | 1.00 | 100%|
 |[Gurobi-9.1.2](lpbar-Gurobi.html) | 1.56 | 100%|
-|[MindOpt-0.14.0](lpbar-MDOPT.html) | 2.76 | 98%|
+|[MindOpt-0.15.0](lpbar-MDOPT.html) | 2.33 | 100%|
 |[MOSEK-9.2/3](lpbar-MOSEK.html) | 4.71 | 89%|
 |[KNITRO-12.4.0](lpbar-KNITRO.html) | 14.30 | 79%|
 |[HiGHS-1.1.0](lpbar-HiGHS.html) | 15.20 | 87%|
@@ -63,6 +63,7 @@ Choose base solver for comparison:
 
 
 older benchmarks:
+- [1 Oct 2021](lpbar-1-Oct-2021.html)
 - [18 Sep 2021](lpbar-18-Sep-2021.html)
 - [11 Sep 2021](lpbar-11-Sep-2021.html)
 - [24 Aug 2021](lpbar-24-Aug-2021.html)
