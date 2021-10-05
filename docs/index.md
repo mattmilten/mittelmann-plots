@@ -85,21 +85,23 @@ older benchmarks:
 ---
 
 
-## [Large Network-LP Benchmark (commercial vs free) (26 Aug 2021)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (4 Oct 2021)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score | solved |
 | :--- | ---:  | ---:   |
-|[COPT-2.0.1](network-COPT.html) | 1.00 | 100%|
-|[Gurobi-9.1.2](network-GUR.html) | 1.44 | 100%|
-|[Clp-1.17.6](network-CLP.html) | 4.25 | 100%|
-|[MATLAB-R2020b](network-MATL.html) | 14.70 | 100%|
-|[QSopt-1.01](network-QSOPT.html) | 61.90 | 70%|
-|[SOPLEX-5.0.2](network-SOPLX.html) | 94.30 | 60%|
-|[MOSEK-9.3.1](network-MOSEK.html) | 113.00 | 80%|
+|[MindOpt-0.15.0](network-MDOPT.html) | 1.00 | 100%|
+|[COPT-3.0.0](network-COPT.html) | 1.37 | 100%|
+|[Gurobi-9.1.2](network-GUR.html) | 1.97 | 100%|
+|[Clp-1.17.6](network-CLP.html) | 5.81 | 100%|
+|[MATLAB-R2020b](network-MATL.html) | 20.10 | 100%|
+|[QSopt-1.01](network-QSOPT.html) | 84.60 | 70%|
+|[SOPLEX-5.0.2](network-SOPLX.html) | 122.00 | 60%|
+|[MOSEK-9.3.1](network-MOSEK.html) | 154.00 | 80%|
 
 
 older benchmarks:
+- [26 Aug 2021](network-26-Aug-2021.html)
 - [27 Jul 2021](network-27-Jul-2021.html)
 - [21 Jul 2021](network-21-Jul-2021.html)
 - [28 May 2021](network-28-May-2021.html)
