@@ -366,14 +366,14 @@ def write_bench(url, timelimit, threads=1):
         os.system(f"cat docs/{benchname}-{s}.html >> docs/{benchname}-{storedate}.html")
 
     if oldbench:
-        plots += "\n\n<details><summary>🔽 previous benchmarks 🔽</summary><br>\n\n"
+        plots += "\n\n<details><summary>🔽 previous benchmarks 🔽</summary>\n<br>\n\n"
 
         for ob in oldbench:
             filename = os.path.basename(ob)
             date = filename.lstrip(f"{benchname}-").rstrip(".html").replace("-", " ")
-            plots += f"+ [{date}]({filename})\n"
+            plots += f" + [{date}]({filename})\n"
 
-    plots += "</details>\n\n---\n\n"
+    plots += "\n</details>\n\n---\n\n"
 
     return plots
 
