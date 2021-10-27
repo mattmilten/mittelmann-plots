@@ -46,8 +46,8 @@ Choose base solver for comparison:
 <li><a href="/lpsimp-5-Sep-2020.html">5 Sep 2020</a></li>
 <li><a href="/lpsimp-27-Aug-2020.html">27 Aug 2020</a></li>
 <li><a href="/lpsimp-08-Aug-2020.html">08 Aug 2020</a></li>
-</ul>
-</details>
+</ul></details>
+
 ---
 
 
@@ -88,8 +88,8 @@ Choose base solver for comparison:
 <li><a href="/lpbar-2-Nov-2020.html">2 Nov 2020</a></li>
 <li><a href="/lpbar-22-Oct-2020.html">22 Oct 2020</a></li>
 <li><a href="/lpbar-8-Sep-2020.html">8 Sep 2020</a></li>
-</ul>
-</details>
+</ul></details>
+
 ---
 
 
@@ -128,8 +128,8 @@ Choose base solver for comparison:
 <li><a href="/network-23-Oct-2020.html">23 Oct 2020</a></li>
 <li><a href="/network-26-Sep-2020.html">26 Sep 2020</a></li>
 <li><a href="/network-8-Sep-2020.html">8 Sep 2020</a></li>
-</ul>
-</details>
+</ul></details>
+
 ---
 
 
@@ -157,8 +157,8 @@ Choose base solver for comparison:
 <li><a href="/milp-5-Feb-2021.html">5 Feb 2021</a></li>
 <li><a href="/milp-15-Nov-2020.html">15 Nov 2020</a></li>
 <li><a href="/milp-2-Oct-2020.html">2 Oct 2020</a></li>
-</ul>
-</details>
+</ul></details>
+
 ---
 
 
@@ -185,8 +185,8 @@ Choose base solver for comparison:
 <li><a href="/milp_8threads-5-Feb-2021.html">5 Feb 2021</a></li>
 <li><a href="/milp_8threads-15-Nov-2020.html">15 Nov 2020</a></li>
 <li><a href="/milp_8threads-2-Oct-2020.html">2 Oct 2020</a></li>
-</ul>
-</details>
+</ul></details>
+
 ---
 
 
@@ -210,8 +210,8 @@ Choose base solver for comparison:
 <li><a href="/misocp-28-Jan-2021.html">28 Jan 2021</a></li>
 <li><a href="/misocp-10-Nov-2020.html">10 Nov 2020</a></li>
 <li><a href="/misocp-14-Jun-2020.html">14 Jun 2020</a></li>
-</ul>
-</details>
+</ul></details>
+
 ---
 
 
@@ -239,8 +239,8 @@ Choose base solver for comparison:
 <li><a href="/qplib-10-Nov-2020.html">10 Nov 2020</a></li>
 <li><a href="/qplib-7-Oct-2020.html">7 Oct 2020</a></li>
 <li><a href="/qplib-12-Aug-2020.html">12 Aug 2020</a></li>
-</ul>
-</details>
+</ul></details>
+
 ---
 
 
@@ -266,8 +266,8 @@ Choose base solver for comparison:
 <li><a href="/nonbinary-10-Nov-2020.html">10 Nov 2020</a></li>
 <li><a href="/nonbinary-8-Oct-2020.html">8 Oct 2020</a></li>
 <li><a href="/nonbinary-20-Aug-2020.html">20 Aug 2020</a></li>
-</ul>
-</details>
+</ul></details>
+
 ---
 
 
@@ -295,8 +295,8 @@ Choose base solver for comparison:
 <li><a href="/cnconv-11-Nov-2020.html">11 Nov 2020</a></li>
 <li><a href="/cnconv-10-Oct-2020.html">10 Oct 2020</a></li>
 <li><a href="/cnconv-20-Aug-2020.html">20 Aug 2020</a></li>
-</ul>
-</details>
+</ul></details>
+
 ---
 
 
@@ -328,8 +328,8 @@ Choose base solver for comparison:
 <li><a href="/convex-10-Nov-2020.html">10 Nov 2020</a></li>
 <li><a href="/convex-8-Oct-2020.html">8 Oct 2020</a></li>
 <li><a href="/convex-15-Aug-2020.html">15 Aug 2020</a></li>
-</ul>
-</details>
+</ul></details>
+
 ---
 
 
@@ -352,7 +352,7 @@ Choose base solver for comparison:
 <li><a href="/cconvex-11-Nov-2020.html">11 Nov 2020</a></li>
 <li><a href="/cconvex-27-Sep-2020.html">27 Sep 2020</a></li>
 <li><a href="/cconvex-3-Apr-2020.html">3 Apr 2020</a></li>
-</ul>
-</details>
+</ul></details>
+
 ---
 
