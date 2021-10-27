@@ -304,6 +304,9 @@ def plot_benchmark(stats, base):
 
 # %%
 def write_bench(url, timelimit, threads=1):
+
+    medals = {0:"🥇", 1:"🥈", 2:"🥉"}
+
     benchname = url.split("/")[-1][:-5]
     stats = parse_table(url, timelimit, threads)
 
@@ -348,14 +351,15 @@ def write_bench(url, timelimit, threads=1):
 
     oldbench = findbench(f"{benchname}-[0-9]*.html", "docs")
 
+
     plots = "\n"
     plots += f'## [{stats["title"]} ({stats["date"]})]({url})\n'
     plots += "Choose base solver for comparison:\n\n"
     plots += "| solver | score (as reported) | solved |\n"
     plots += "| :--- | ---:  | ---:   |\n"
-    for s in sorted(stats["shmean"].items(), key=lambda x: x[1]):
+    for i,s in enumerate(sorted(stats["shmean"].items(), key=lambda x: x[1])):
         s = s[0]
-        plots += f'|[{stats["version"][s]}]({benchname}-{s}.html) | {stats["shmean"][s]:.2f} ({stats["score"][s]:.2f}) | {float(stats["solved"][s])/stats["nprobs"]*100:.0f}%|\n'
+        plots += f'|[{medals.get(i, "📊")} {stats["version"][s]}]({benchname}-{s}.html) | {stats["shmean"][s]:.2f} ({stats["score"][s]:.2f}) | {float(stats["solved"][s])/stats["nprobs"]*100:.0f}%|\n'
         if newdata:
             fig = plot_benchmark(stats, s)
             fig.write_html(f"docs/{benchname}-{s}.html", include_plotlyjs="cdn")
