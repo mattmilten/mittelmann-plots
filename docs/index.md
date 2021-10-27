@@ -23,7 +23,8 @@ Choose base solver for comparison:
 |[📊 GLPK-5.0](lpsimp-GLPK.html) | 121.44 (121.00) | 62%|
 
 
-<details><summary>🔽 older benchmarks 🔽</summary><br>
+<details><summary>🔽 previous benchmarks 🔽</summary><br>
+
 + [18 Sep 2021](lpsimp-18-Sep-2021.html)
 + [17 Sep 2021](lpsimp-17-Sep-2021.html)
 + [11 Sep 2021](lpsimp-11-Sep-2021.html)
@@ -64,7 +65,8 @@ Choose base solver for comparison:
 |[📊 CLP-1.17.6](lpbar-CLP.html) | 68.62 (68.60) | 74%|
 
 
-<details><summary>🔽 older benchmarks 🔽</summary><br>
+<details><summary>🔽 previous benchmarks 🔽</summary><br>
+
 + [1 Oct 2021](lpbar-1-Oct-2021.html)
 + [18 Sep 2021](lpbar-18-Sep-2021.html)
 + [11 Sep 2021](lpbar-11-Sep-2021.html)
@@ -103,7 +105,8 @@ Choose base solver for comparison:
 |[📊 SOPLEX-5.0.2](network-SOPLX.html) | 41.43 (41.40) | 80%|
 
 
-<details><summary>🔽 older benchmarks 🔽</summary><br>
+<details><summary>🔽 previous benchmarks 🔽</summary><br>
+
 + [11 Oct 2021](network-11-Oct-2021.html)
 + [8 Oct 2021](network-8-Oct-2021.html)
 + [4 Oct 2021](network-4-Oct-2021.html)
@@ -138,7 +141,8 @@ Choose base solver for comparison:
 |[📊 LP_SOLVE-5.5.2](milp-LP_SOL.html) | 21.74 (21.70) | 8%|
 
 
-<details><summary>🔽 older benchmarks 🔽</summary><br>
+<details><summary>🔽 previous benchmarks 🔽</summary><br>
+
 + [3 Oct 2021](milp-3-Oct-2021.html)
 + [10 Aug 2021](milp-10-Aug-2021.html)
 + [4 Jun 2021](milp-4-Jun-2021.html)
@@ -163,7 +167,8 @@ Choose base solver for comparison:
 |[📊 CBC-2.10.5](milp_8threads-CBC.html) | 13.34 (13.30) | 45%|
 
 
-<details><summary>🔽 older benchmarks 🔽</summary><br>
+<details><summary>🔽 previous benchmarks 🔽</summary><br>
+
 + [3 Oct 2021](milp_8threads-3-Oct-2021.html)
 + [10 Aug 2021](milp_8threads-10-Aug-2021.html)
 + [4 Jun 2021](milp_8threads-4-Jun-2021.html)
@@ -185,7 +190,8 @@ Choose base solver for comparison:
 |[🥉 SCIP-7.0.3.5](misocp-SCIP.html) | 22.76 (26.20) | 66%|
 
 
-<details><summary>🔽 older benchmarks 🔽</summary><br>
+<details><summary>🔽 previous benchmarks 🔽</summary><br>
+
 + [21 Aug 2021](misocp-21-Aug-2021.html)
 + [12 Aug 2021](misocp-12-Aug-2021.html)
 + [16 Feb 2021](misocp-16-Feb-2021.html)
@@ -211,7 +217,8 @@ Choose base solver for comparison:
 |[📊 MINOTAUR-0.2.1](qplib-MINOTAUR.html) | 71.06 (71.10) | 8%|
 
 
-<details><summary>🔽 older benchmarks 🔽</summary><br>
+<details><summary>🔽 previous benchmarks 🔽</summary><br>
+
 + [27 May 2021](qplib-27-May-2021.html)
 + [6 May 2021](qplib-6-May-2021.html)
 + [25 Jan 2021](qplib-25-Jan-2021.html)
@@ -237,7 +244,8 @@ Choose base solver for comparison:
 |[📊 MINOTAUR-0.2.1](nonbinary-MINOTAUR.html) | 59.08 (59.10) | 5%|
 
 
-<details><summary>🔽 older benchmarks 🔽</summary><br>
+<details><summary>🔽 previous benchmarks 🔽</summary><br>
+
 + [27 Jan 2021](nonbinary-27-Jan-2021.html)
 + [10 Nov 2020](nonbinary-10-Nov-2020.html)
 + [8 Oct 2020](nonbinary-8-Oct-2020.html)
@@ -262,7 +270,8 @@ Choose base solver for comparison:
 |[📊 MINOTAUR-0.2.1](cnconv-MINOTAUR.html) | 14.31 (14.30) | 11%|
 
 
-<details><summary>🔽 older benchmarks 🔽</summary><br>
+<details><summary>🔽 previous benchmarks 🔽</summary><br>
+
 + [7 Sep 2021](cnconv-7-Sep-2021.html)
 + [2 Dec 2020](cnconv-2-Dec-2020.html)
 + [11 Nov 2020](cnconv-11-Nov-2020.html)
@@ -290,7 +299,8 @@ Choose base solver for comparison:
 |[📊 Shot-1.0](convex-SHOT.html) | 48.31 (48.30) | 3%|
 
 
-<details><summary>🔽 older benchmarks 🔽</summary><br>
+<details><summary>🔽 previous benchmarks 🔽</summary><br>
+
 + [23 Jan 2021](convex-23-Jan-2021.html)
 + [22 Jan 2021](convex-22-Jan-2021.html)
 + [13 Dec 2020](convex-13-Dec-2020.html)
@@ -314,7 +324,8 @@ Choose base solver for comparison:
 |[📊 IPOPT-3.12.13](cconvex-IPOPT.html) | 6.16 (3.61) | 88%|
 
 
-<details><summary>🔽 older benchmarks 🔽</summary><br>
+<details><summary>🔽 previous benchmarks 🔽</summary><br>
+
 + [13 Dec 2020](cconvex-13-Dec-2020.html)
 + [11 Nov 2020](cconvex-11-Nov-2020.html)
 + [27 Sep 2020](cconvex-27-Sep-2020.html)
