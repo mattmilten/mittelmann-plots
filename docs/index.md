@@ -27,25 +27,25 @@ Choose base solver for comparison:
 <br>
 
 <ul>
-<li><a href="/lpsimp-18-Sep-2021.html">18 Sep 2021</a></li>
-<li><a href="/lpsimp-17-Sep-2021.html">17 Sep 2021</a></li>
-<li><a href="/lpsimp-11-Sep-2021.html">11 Sep 2021</a></li>
-<li><a href="/lpsimp-26-Jul-2021.html">26 Jul 2021</a></li>
-<li><a href="/lpsimp-21-Jul-2021.html">21 Jul 2021</a></li>
-<li><a href="/lpsimp-9-Jun-2021.html">9 Jun 2021</a></li>
-<li><a href="/lpsimp-28-May-2021.html">28 May 2021</a></li>
-<li><a href="/lpsimp-3-Mar-2021.html">3 Mar 2021</a></li>
-<li><a href="/lpsimp-18-Jan-2021.html">18 Jan 2021</a></li>
-<li><a href="/lpsimp-5-Jan-2021.html">5 Jan 2021</a></li>
-<li><a href="/lpsimp-28-Dec-2020.html">28 Dec 2020</a></li>
-<li><a href="/lpsimp-4-Dec-2020.html">4 Dec 2020</a></li>
-<li><a href="/lpsimp-3-Dec-2020.html">3 Dec 2020</a></li>
-<li><a href="/lpsimp-2-Nov-2020.html">2 Nov 2020</a></li>
-<li><a href="/lpsimp-22-Oct-2020.html">22 Oct 2020</a></li>
-<li><a href="/lpsimp-26-Sep-2020.html">26 Sep 2020</a></li>
-<li><a href="/lpsimp-5-Sep-2020.html">5 Sep 2020</a></li>
-<li><a href="/lpsimp-27-Aug-2020.html">27 Aug 2020</a></li>
-<li><a href="/lpsimp-08-Aug-2020.html">08 Aug 2020</a></li>
+<li><a href="/mittelmann-plots/lpsimp-18-Sep-2021.html">18 Sep 2021</a></li>
+<li><a href="/mittelmann-plots/lpsimp-17-Sep-2021.html">17 Sep 2021</a></li>
+<li><a href="/mittelmann-plots/lpsimp-11-Sep-2021.html">11 Sep 2021</a></li>
+<li><a href="/mittelmann-plots/lpsimp-26-Jul-2021.html">26 Jul 2021</a></li>
+<li><a href="/mittelmann-plots/lpsimp-21-Jul-2021.html">21 Jul 2021</a></li>
+<li><a href="/mittelmann-plots/lpsimp-9-Jun-2021.html">9 Jun 2021</a></li>
+<li><a href="/mittelmann-plots/lpsimp-28-May-2021.html">28 May 2021</a></li>
+<li><a href="/mittelmann-plots/lpsimp-3-Mar-2021.html">3 Mar 2021</a></li>
+<li><a href="/mittelmann-plots/lpsimp-18-Jan-2021.html">18 Jan 2021</a></li>
+<li><a href="/mittelmann-plots/lpsimp-5-Jan-2021.html">5 Jan 2021</a></li>
+<li><a href="/mittelmann-plots/lpsimp-28-Dec-2020.html">28 Dec 2020</a></li>
+<li><a href="/mittelmann-plots/lpsimp-4-Dec-2020.html">4 Dec 2020</a></li>
+<li><a href="/mittelmann-plots/lpsimp-3-Dec-2020.html">3 Dec 2020</a></li>
+<li><a href="/mittelmann-plots/lpsimp-2-Nov-2020.html">2 Nov 2020</a></li>
+<li><a href="/mittelmann-plots/lpsimp-22-Oct-2020.html">22 Oct 2020</a></li>
+<li><a href="/mittelmann-plots/lpsimp-26-Sep-2020.html">26 Sep 2020</a></li>
+<li><a href="/mittelmann-plots/lpsimp-5-Sep-2020.html">5 Sep 2020</a></li>
+<li><a href="/mittelmann-plots/lpsimp-27-Aug-2020.html">27 Aug 2020</a></li>
+<li><a href="/mittelmann-plots/lpsimp-08-Aug-2020.html">08 Aug 2020</a></li>
 </ul></details>
 
 ---
@@ -71,23 +71,23 @@ Choose base solver for comparison:
 <br>
 
 <ul>
-<li><a href="/lpbar-1-Oct-2021.html">1 Oct 2021</a></li>
-<li><a href="/lpbar-18-Sep-2021.html">18 Sep 2021</a></li>
-<li><a href="/lpbar-11-Sep-2021.html">11 Sep 2021</a></li>
-<li><a href="/lpbar-24-Aug-2021.html">24 Aug 2021</a></li>
-<li><a href="/lpbar-26-Jul-2021.html">26 Jul 2021</a></li>
-<li><a href="/lpbar-21-Jul-2021.html">21 Jul 2021</a></li>
-<li><a href="/lpbar-9-Jun-2021.html">9 Jun 2021</a></li>
-<li><a href="/lpbar-28-May-2021.html">28 May 2021</a></li>
-<li><a href="/lpbar-3-Mar-2021.html">3 Mar 2021</a></li>
-<li><a href="/lpbar-28-Dec-2020.html">28 Dec 2020</a></li>
-<li><a href="/lpbar-13-Dec-2020.html">13 Dec 2020</a></li>
-<li><a href="/lpbar-10-Dec-2020.html">10 Dec 2020</a></li>
-<li><a href="/lpbar-4-Dec-2020.html">4 Dec 2020</a></li>
-<li><a href="/lpbar-3-Dec-2020.html">3 Dec 2020</a></li>
-<li><a href="/lpbar-2-Nov-2020.html">2 Nov 2020</a></li>
-<li><a href="/lpbar-22-Oct-2020.html">22 Oct 2020</a></li>
-<li><a href="/lpbar-8-Sep-2020.html">8 Sep 2020</a></li>
+<li><a href="/mittelmann-plots/lpbar-1-Oct-2021.html">1 Oct 2021</a></li>
+<li><a href="/mittelmann-plots/lpbar-18-Sep-2021.html">18 Sep 2021</a></li>
+<li><a href="/mittelmann-plots/lpbar-11-Sep-2021.html">11 Sep 2021</a></li>
+<li><a href="/mittelmann-plots/lpbar-24-Aug-2021.html">24 Aug 2021</a></li>
+<li><a href="/mittelmann-plots/lpbar-26-Jul-2021.html">26 Jul 2021</a></li>
+<li><a href="/mittelmann-plots/lpbar-21-Jul-2021.html">21 Jul 2021</a></li>
+<li><a href="/mittelmann-plots/lpbar-9-Jun-2021.html">9 Jun 2021</a></li>
+<li><a href="/mittelmann-plots/lpbar-28-May-2021.html">28 May 2021</a></li>
+<li><a href="/mittelmann-plots/lpbar-3-Mar-2021.html">3 Mar 2021</a></li>
+<li><a href="/mittelmann-plots/lpbar-28-Dec-2020.html">28 Dec 2020</a></li>
+<li><a href="/mittelmann-plots/lpbar-13-Dec-2020.html">13 Dec 2020</a></li>
+<li><a href="/mittelmann-plots/lpbar-10-Dec-2020.html">10 Dec 2020</a></li>
+<li><a href="/mittelmann-plots/lpbar-4-Dec-2020.html">4 Dec 2020</a></li>
+<li><a href="/mittelmann-plots/lpbar-3-Dec-2020.html">3 Dec 2020</a></li>
+<li><a href="/mittelmann-plots/lpbar-2-Nov-2020.html">2 Nov 2020</a></li>
+<li><a href="/mittelmann-plots/lpbar-22-Oct-2020.html">22 Oct 2020</a></li>
+<li><a href="/mittelmann-plots/lpbar-8-Sep-2020.html">8 Sep 2020</a></li>
 </ul></details>
 
 ---
@@ -113,21 +113,21 @@ Choose base solver for comparison:
 <br>
 
 <ul>
-<li><a href="/network-11-Oct-2021.html">11 Oct 2021</a></li>
-<li><a href="/network-8-Oct-2021.html">8 Oct 2021</a></li>
-<li><a href="/network-4-Oct-2021.html">4 Oct 2021</a></li>
-<li><a href="/network-26-Aug-2021.html">26 Aug 2021</a></li>
-<li><a href="/network-27-Jul-2021.html">27 Jul 2021</a></li>
-<li><a href="/network-21-Jul-2021.html">21 Jul 2021</a></li>
-<li><a href="/network-28-May-2021.html">28 May 2021</a></li>
-<li><a href="/network-3-Mar-2021.html">3 Mar 2021</a></li>
-<li><a href="/network-23-Feb-2021.html">23 Feb 2021</a></li>
-<li><a href="/network-29-Dec-2020.html">29 Dec 2020</a></li>
-<li><a href="/network-5-Dec-2020.html">5 Dec 2020</a></li>
-<li><a href="/network-2-Nov-2020.html">2 Nov 2020</a></li>
-<li><a href="/network-23-Oct-2020.html">23 Oct 2020</a></li>
-<li><a href="/network-26-Sep-2020.html">26 Sep 2020</a></li>
-<li><a href="/network-8-Sep-2020.html">8 Sep 2020</a></li>
+<li><a href="/mittelmann-plots/network-11-Oct-2021.html">11 Oct 2021</a></li>
+<li><a href="/mittelmann-plots/network-8-Oct-2021.html">8 Oct 2021</a></li>
+<li><a href="/mittelmann-plots/network-4-Oct-2021.html">4 Oct 2021</a></li>
+<li><a href="/mittelmann-plots/network-26-Aug-2021.html">26 Aug 2021</a></li>
+<li><a href="/mittelmann-plots/network-27-Jul-2021.html">27 Jul 2021</a></li>
+<li><a href="/mittelmann-plots/network-21-Jul-2021.html">21 Jul 2021</a></li>
+<li><a href="/mittelmann-plots/network-28-May-2021.html">28 May 2021</a></li>
+<li><a href="/mittelmann-plots/network-3-Mar-2021.html">3 Mar 2021</a></li>
+<li><a href="/mittelmann-plots/network-23-Feb-2021.html">23 Feb 2021</a></li>
+<li><a href="/mittelmann-plots/network-29-Dec-2020.html">29 Dec 2020</a></li>
+<li><a href="/mittelmann-plots/network-5-Dec-2020.html">5 Dec 2020</a></li>
+<li><a href="/mittelmann-plots/network-2-Nov-2020.html">2 Nov 2020</a></li>
+<li><a href="/mittelmann-plots/network-23-Oct-2020.html">23 Oct 2020</a></li>
+<li><a href="/mittelmann-plots/network-26-Sep-2020.html">26 Sep 2020</a></li>
+<li><a href="/mittelmann-plots/network-8-Sep-2020.html">8 Sep 2020</a></li>
 </ul></details>
 
 ---
@@ -151,12 +151,12 @@ Choose base solver for comparison:
 <br>
 
 <ul>
-<li><a href="/milp-3-Oct-2021.html">3 Oct 2021</a></li>
-<li><a href="/milp-10-Aug-2021.html">10 Aug 2021</a></li>
-<li><a href="/milp-4-Jun-2021.html">4 Jun 2021</a></li>
-<li><a href="/milp-5-Feb-2021.html">5 Feb 2021</a></li>
-<li><a href="/milp-15-Nov-2020.html">15 Nov 2020</a></li>
-<li><a href="/milp-2-Oct-2020.html">2 Oct 2020</a></li>
+<li><a href="/mittelmann-plots/milp-3-Oct-2021.html">3 Oct 2021</a></li>
+<li><a href="/mittelmann-plots/milp-10-Aug-2021.html">10 Aug 2021</a></li>
+<li><a href="/mittelmann-plots/milp-4-Jun-2021.html">4 Jun 2021</a></li>
+<li><a href="/mittelmann-plots/milp-5-Feb-2021.html">5 Feb 2021</a></li>
+<li><a href="/mittelmann-plots/milp-15-Nov-2020.html">15 Nov 2020</a></li>
+<li><a href="/mittelmann-plots/milp-2-Oct-2020.html">2 Oct 2020</a></li>
 </ul></details>
 
 ---
@@ -179,12 +179,12 @@ Choose base solver for comparison:
 <br>
 
 <ul>
-<li><a href="/milp_8threads-3-Oct-2021.html">3 Oct 2021</a></li>
-<li><a href="/milp_8threads-10-Aug-2021.html">10 Aug 2021</a></li>
-<li><a href="/milp_8threads-4-Jun-2021.html">4 Jun 2021</a></li>
-<li><a href="/milp_8threads-5-Feb-2021.html">5 Feb 2021</a></li>
-<li><a href="/milp_8threads-15-Nov-2020.html">15 Nov 2020</a></li>
-<li><a href="/milp_8threads-2-Oct-2020.html">2 Oct 2020</a></li>
+<li><a href="/mittelmann-plots/milp_8threads-3-Oct-2021.html">3 Oct 2021</a></li>
+<li><a href="/mittelmann-plots/milp_8threads-10-Aug-2021.html">10 Aug 2021</a></li>
+<li><a href="/mittelmann-plots/milp_8threads-4-Jun-2021.html">4 Jun 2021</a></li>
+<li><a href="/mittelmann-plots/milp_8threads-5-Feb-2021.html">5 Feb 2021</a></li>
+<li><a href="/mittelmann-plots/milp_8threads-15-Nov-2020.html">15 Nov 2020</a></li>
+<li><a href="/mittelmann-plots/milp_8threads-2-Oct-2020.html">2 Oct 2020</a></li>
 </ul></details>
 
 ---
@@ -204,12 +204,12 @@ Choose base solver for comparison:
 <br>
 
 <ul>
-<li><a href="/misocp-21-Aug-2021.html">21 Aug 2021</a></li>
-<li><a href="/misocp-12-Aug-2021.html">12 Aug 2021</a></li>
-<li><a href="/misocp-16-Feb-2021.html">16 Feb 2021</a></li>
-<li><a href="/misocp-28-Jan-2021.html">28 Jan 2021</a></li>
-<li><a href="/misocp-10-Nov-2020.html">10 Nov 2020</a></li>
-<li><a href="/misocp-14-Jun-2020.html">14 Jun 2020</a></li>
+<li><a href="/mittelmann-plots/misocp-21-Aug-2021.html">21 Aug 2021</a></li>
+<li><a href="/mittelmann-plots/misocp-12-Aug-2021.html">12 Aug 2021</a></li>
+<li><a href="/mittelmann-plots/misocp-16-Feb-2021.html">16 Feb 2021</a></li>
+<li><a href="/mittelmann-plots/misocp-28-Jan-2021.html">28 Jan 2021</a></li>
+<li><a href="/mittelmann-plots/misocp-10-Nov-2020.html">10 Nov 2020</a></li>
+<li><a href="/mittelmann-plots/misocp-14-Jun-2020.html">14 Jun 2020</a></li>
 </ul></details>
 
 ---
@@ -233,12 +233,12 @@ Choose base solver for comparison:
 <br>
 
 <ul>
-<li><a href="/qplib-27-May-2021.html">27 May 2021</a></li>
-<li><a href="/qplib-6-May-2021.html">6 May 2021</a></li>
-<li><a href="/qplib-25-Jan-2021.html">25 Jan 2021</a></li>
-<li><a href="/qplib-10-Nov-2020.html">10 Nov 2020</a></li>
-<li><a href="/qplib-7-Oct-2020.html">7 Oct 2020</a></li>
-<li><a href="/qplib-12-Aug-2020.html">12 Aug 2020</a></li>
+<li><a href="/mittelmann-plots/qplib-27-May-2021.html">27 May 2021</a></li>
+<li><a href="/mittelmann-plots/qplib-6-May-2021.html">6 May 2021</a></li>
+<li><a href="/mittelmann-plots/qplib-25-Jan-2021.html">25 Jan 2021</a></li>
+<li><a href="/mittelmann-plots/qplib-10-Nov-2020.html">10 Nov 2020</a></li>
+<li><a href="/mittelmann-plots/qplib-7-Oct-2020.html">7 Oct 2020</a></li>
+<li><a href="/mittelmann-plots/qplib-12-Aug-2020.html">12 Aug 2020</a></li>
 </ul></details>
 
 ---
@@ -262,10 +262,10 @@ Choose base solver for comparison:
 <br>
 
 <ul>
-<li><a href="/nonbinary-27-Jan-2021.html">27 Jan 2021</a></li>
-<li><a href="/nonbinary-10-Nov-2020.html">10 Nov 2020</a></li>
-<li><a href="/nonbinary-8-Oct-2020.html">8 Oct 2020</a></li>
-<li><a href="/nonbinary-20-Aug-2020.html">20 Aug 2020</a></li>
+<li><a href="/mittelmann-plots/nonbinary-27-Jan-2021.html">27 Jan 2021</a></li>
+<li><a href="/mittelmann-plots/nonbinary-10-Nov-2020.html">10 Nov 2020</a></li>
+<li><a href="/mittelmann-plots/nonbinary-8-Oct-2020.html">8 Oct 2020</a></li>
+<li><a href="/mittelmann-plots/nonbinary-20-Aug-2020.html">20 Aug 2020</a></li>
 </ul></details>
 
 ---
@@ -290,11 +290,11 @@ Choose base solver for comparison:
 <br>
 
 <ul>
-<li><a href="/cnconv-7-Sep-2021.html">7 Sep 2021</a></li>
-<li><a href="/cnconv-2-Dec-2020.html">2 Dec 2020</a></li>
-<li><a href="/cnconv-11-Nov-2020.html">11 Nov 2020</a></li>
-<li><a href="/cnconv-10-Oct-2020.html">10 Oct 2020</a></li>
-<li><a href="/cnconv-20-Aug-2020.html">20 Aug 2020</a></li>
+<li><a href="/mittelmann-plots/cnconv-7-Sep-2021.html">7 Sep 2021</a></li>
+<li><a href="/mittelmann-plots/cnconv-2-Dec-2020.html">2 Dec 2020</a></li>
+<li><a href="/mittelmann-plots/cnconv-11-Nov-2020.html">11 Nov 2020</a></li>
+<li><a href="/mittelmann-plots/cnconv-10-Oct-2020.html">10 Oct 2020</a></li>
+<li><a href="/mittelmann-plots/cnconv-20-Aug-2020.html">20 Aug 2020</a></li>
 </ul></details>
 
 ---
@@ -321,13 +321,13 @@ Choose base solver for comparison:
 <br>
 
 <ul>
-<li><a href="/convex-23-Jan-2021.html">23 Jan 2021</a></li>
-<li><a href="/convex-22-Jan-2021.html">22 Jan 2021</a></li>
-<li><a href="/convex-13-Dec-2020.html">13 Dec 2020</a></li>
-<li><a href="/convex-15-Nov-2020.html">15 Nov 2020</a></li>
-<li><a href="/convex-10-Nov-2020.html">10 Nov 2020</a></li>
-<li><a href="/convex-8-Oct-2020.html">8 Oct 2020</a></li>
-<li><a href="/convex-15-Aug-2020.html">15 Aug 2020</a></li>
+<li><a href="/mittelmann-plots/convex-23-Jan-2021.html">23 Jan 2021</a></li>
+<li><a href="/mittelmann-plots/convex-22-Jan-2021.html">22 Jan 2021</a></li>
+<li><a href="/mittelmann-plots/convex-13-Dec-2020.html">13 Dec 2020</a></li>
+<li><a href="/mittelmann-plots/convex-15-Nov-2020.html">15 Nov 2020</a></li>
+<li><a href="/mittelmann-plots/convex-10-Nov-2020.html">10 Nov 2020</a></li>
+<li><a href="/mittelmann-plots/convex-8-Oct-2020.html">8 Oct 2020</a></li>
+<li><a href="/mittelmann-plots/convex-15-Aug-2020.html">15 Aug 2020</a></li>
 </ul></details>
 
 ---
@@ -348,10 +348,10 @@ Choose base solver for comparison:
 <br>
 
 <ul>
-<li><a href="/cconvex-13-Dec-2020.html">13 Dec 2020</a></li>
-<li><a href="/cconvex-11-Nov-2020.html">11 Nov 2020</a></li>
-<li><a href="/cconvex-27-Sep-2020.html">27 Sep 2020</a></li>
-<li><a href="/cconvex-3-Apr-2020.html">3 Apr 2020</a></li>
+<li><a href="/mittelmann-plots/cconvex-13-Dec-2020.html">13 Dec 2020</a></li>
+<li><a href="/mittelmann-plots/cconvex-11-Nov-2020.html">11 Nov 2020</a></li>
+<li><a href="/mittelmann-plots/cconvex-27-Sep-2020.html">27 Sep 2020</a></li>
+<li><a href="/mittelmann-plots/cconvex-3-Apr-2020.html">3 Apr 2020</a></li>
 </ul></details>
 
 ---
