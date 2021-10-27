@@ -371,7 +371,7 @@ def write_bench(url, timelimit, threads=1):
         for ob in oldbench:
             filename = os.path.basename(ob)
             date = filename.lstrip(f"{benchname}-").rstrip(".html").replace("-", " ")
-            plots += f'<li><a href="/{filename}">{date}</a></li>\n'
+            plots += f'<li><a href="/mittelmann-plots/{filename}">{date}</a></li>\n'
 
     plots += "</ul></details>\n\n---\n\n"
 
