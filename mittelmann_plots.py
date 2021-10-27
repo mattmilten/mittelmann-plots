@@ -351,11 +351,11 @@ def write_bench(url, timelimit, threads=1):
     plots = "\n"
     plots += f'## [{stats["title"]} ({stats["date"]})]({url})\n'
     plots += "Choose base solver for comparison:\n\n"
-    plots += "| solver | score (recomputed) | solved |\n"
+    plots += "| solver | score (as reported) | solved |\n"
     plots += "| :--- | ---:  | ---:   |\n"
     for s in sorted(stats["shmean"].items(), key=lambda x: x[1]):
         s = s[0]
-        plots += f'|[{stats["version"][s]}]({benchname}-{s}.html) | {stats["score"][s]:.2f} ({stats["shmean"][s]:.2f}) | {float(stats["solved"][s])/stats["nprobs"]*100:.0f}%|\n'
+        plots += f'|[{stats["version"][s]}]({benchname}-{s}.html) | {stats["shmean"][s]:.2f} ({stats["score"][s]:.2f}) | {float(stats["solved"][s])/stats["nprobs"]*100:.0f}%|\n'
         if newdata:
             fig = plot_benchmark(stats, s)
             fig.write_html(f"docs/{benchname}-{s}.html", include_plotlyjs="cdn")
