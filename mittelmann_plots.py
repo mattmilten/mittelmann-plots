@@ -2,6 +2,7 @@
 
 from bs4 import BeautifulSoup
 import requests
+import math
 import pandas as pd
 import numpy as np
 import sys, os, fnmatch
@@ -309,10 +310,16 @@ def write_bench(url, timelimit, threads=1):
     if threads > 1:
         benchname += f"_{threads}threads"
 
-    time = stats["times"]
+    stats["shmean"] = {}
+    shift = 10
     for s in stats["solver"]:
-        time[s] = pd.to_numeric(stats["times"][s], errors="coerce")
-    time.fillna(value=stats["timelimit"], inplace=True)
+        time = pd.to_numeric(stats["times"][s], errors="coerce")
+        time.fillna(value=stats["timelimit"], inplace=True)
+        logsum = sum(time.apply(lambda x: math.log(max(1, x + shift))))
+        stats["shmean"].update({s: math.exp(logsum / len(time)) - shift})
+    bestshmean = min(stats["shmean"].values())
+    for s in stats["solver"]:
+        stats["shmean"][s] = stats["shmean"][s] / bestshmean
 
     storedate = stats["date"].replace(" ", "-")
     newdata = True
@@ -344,11 +351,11 @@ def write_bench(url, timelimit, threads=1):
     plots = "\n"
     plots += f'## [{stats["title"]} ({stats["date"]})]({url})\n'
     plots += "Choose base solver for comparison:\n\n"
-    plots += "| solver | score | solved |\n"
+    plots += "| solver | score (recomputed) | solved |\n"
     plots += "| :--- | ---:  | ---:   |\n"
-    for s in sorted(stats["score"].items(), key=lambda x: x[1]):
+    for s in sorted(stats["shmean"].items(), key=lambda x: x[1]):
         s = s[0]
-        plots += f'|[{stats["version"][s]}]({benchname}-{s}.html) | {stats["score"][s]:.2f} | {float(stats["solved"][s])/stats["nprobs"]*100:.0f}%|\n'
+        plots += f'|[{stats["version"][s]}]({benchname}-{s}.html) | {stats["score"][s]:.2f} ({stats["shmean"][s]:.2f}) | {float(stats["solved"][s])/stats["nprobs"]*100:.0f}%|\n'
         if newdata:
             fig = plot_benchmark(stats, s)
             fig.write_html(f"docs/{benchname}-{s}.html", include_plotlyjs="cdn")
@@ -387,9 +394,13 @@ with open("docs/index.md", "w") as index:
     index.write(
         """Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http://plato.asu.edu/bench.html).
     Each solver can be selected to show pairwise running time factors for every other solver in the respective benchmark.
-    These plots should make browsing the results easier. [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.\n
+    These plots should make browsing the results easier.
+    The score ([scaled shifted geometric mean](http://plato.asu.edu/ftp/shgeom.html)) is recomputed using the reported solving times.
+    [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.\n
     """
     )
     for url in urls:
         print(f"processing {url[0]}...")
         index.write(write_bench(url[0], url[1], url[2]))
+
+# %%
