@@ -366,14 +366,15 @@ def write_bench(url, timelimit, threads=1):
         os.system(f"cat docs/{benchname}-{s}.html >> docs/{benchname}-{storedate}.html")
 
     if oldbench:
+        baseurl = "https://mattmilten.github.io/mittelmann-plots/"
         plots += "\n\n<details><summary>🔽 previous benchmarks 🔽</summary>\n<br>\n\n"
-
+        plots += "<ul>\n"
         for ob in oldbench:
             filename = os.path.basename(ob)
             date = filename.lstrip(f"{benchname}-").rstrip(".html").replace("-", " ")
-            plots += f" + [{date}]({filename})\n"
+            plots += f"<li><a href={baseurl}{filename}>{date}</a></li>\n"
 
-    plots += "\n</details>\n\n---\n\n"
+    plots += "\n</ul>\n</details><br>\n\n---\n\n"
 
     return plots
 
