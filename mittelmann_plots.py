@@ -366,12 +366,7 @@ def write_bench(url, timelimit, threads=1):
         os.system(f"cat docs/{benchname}-{s}.html >> docs/{benchname}-{storedate}.html")
 
     if oldbench:
-        plots += """
-        
-        <details>
-        <summary>older benchmarks:</summary>
-        <br>
-        """
+        plots += "\n\n<details><summary>older benchmarks:</summary><br>"
 
         for ob in oldbench:
             filename = os.path.basename(ob)
