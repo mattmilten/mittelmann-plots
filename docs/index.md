@@ -102,7 +102,7 @@ Choose base solver for comparison:
 |[🥈 MindOpt-0.15.1](network-MDOPT.html) | 1.35 (1.35) | 100%|
 |[🥉 Clp-1.17.6](network-CLP.html) | 3.04 (3.04) | 100%|
 |[📊 Gurobi-9.1.2](network-GUR.html) | 3.64 (3.64) | 100%|
-|[📊 HGHS](network-HGHS.html) | 6.39 (6.39) | 100%|
+|[📊 HiGHS-1.1.1](network-HGHS.html) | 6.39 (6.39) | 100%|
 |[📊 MATLAB-R2020b](network-MATL.html) | 12.59 (12.60) | 100%|
 |[📊 QSopt-1.01](network-QSOPT.html) | 22.92 (22.90) | 85%|
 |[📊 MOSEK-9.3.1](network-MOSEK.html) | 38.57 (38.60) | 90%|
