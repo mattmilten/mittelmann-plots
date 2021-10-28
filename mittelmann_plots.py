@@ -27,6 +27,8 @@ def get_version(s, version):
         s = "Google-GLOP"
     elif s in ["MSK"]:
         s = "Mosek"
+    elif s in ["HGHS"]:
+        s = "HiGHS"
 
     match = [v for v in version if v.lower().find(s.lower()) >= 0]
     return match[0] if match else s
