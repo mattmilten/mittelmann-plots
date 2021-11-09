@@ -93,7 +93,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Network-LP Benchmark (commercial vs free) (22 Oct 2021)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (8 Nov 2021)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved |
@@ -101,11 +101,11 @@ Choose base solver for comparison:
 |[🥇 COPT-3.0.2](network-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 MindOpt-0.15.1](network-MDOPT.html) | 1.35 (1.35) | 100%|
 |[🥉 Clp-1.17.6](network-CLP.html) | 3.04 (3.04) | 100%|
-|[📊 Gurobi-9.1.2](network-GUR.html) | 3.64 (3.64) | 100%|
+|[📊 Gurobi-9.1.2](network-GUR.html) | 3.97 (3.97) | 100%|
 |[📊 HiGHS-1.1.1](network-HGHS.html) | 6.39 (6.39) | 100%|
 |[📊 MATLAB-R2020b](network-MATL.html) | 12.59 (12.60) | 100%|
+|[📊 MOSEK-9.3.6](network-MOSEK.html) | 13.52 (13.50) | 100%|
 |[📊 QSopt-1.01](network-QSOPT.html) | 22.92 (22.90) | 85%|
-|[📊 MOSEK-9.3.1](network-MOSEK.html) | 38.57 (38.60) | 90%|
 |[📊 SOPLEX-5.0.2](network-SOPLX.html) | 41.43 (41.40) | 80%|
 
 
@@ -113,6 +113,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/network-22-Oct-2021.html">22 Oct 2021</a></li>
 <li><a href="/mittelmann-plots/network-11-Oct-2021.html">11 Oct 2021</a></li>
 <li><a href="/mittelmann-plots/network-8-Oct-2021.html">8 Oct 2021</a></li>
 <li><a href="/mittelmann-plots/network-4-Oct-2021.html">4 Oct 2021</a></li>
