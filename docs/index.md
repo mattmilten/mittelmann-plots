@@ -5,15 +5,15 @@ Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http:
     [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (3 Oct 2021)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers (10 Nov 2021)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved |
 | :--- | ---:  | ---:   |
 |[🥇 MindOpt-0.15.0](lpsimp-MDOPT.html) | 1.00 (1.00) | 100%|
 |[🥈 COPT-3.0.0](lpsimp-COPT.html) | 1.25 (1.25) | 100%|
-|[🥉 Optverse-0.2.1](lpsimp-OPTV.html) | 1.38 (1.38) | 98%|
-|[📊 Gurobi-9.1.2](lpsimp-Gurob.html) | 2.26 (2.26) | 100%|
+|[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.37 (1.37) | 100%|
+|[📊 Optverse-0.2.1](lpsimp-OPTV.html) | 1.38 (1.38) | 98%|
 |[📊 CLP-1.17.6](lpsimp-CLP.html) | 8.73 (8.73) | 92%|
 |[📊 HiGHS-1.1.0](lpsimp-HiGHS.html) | 20.10 (20.10) | 78%|
 |[📊 MOSEK-9.2/3](lpsimp-MSK.html) | 21.10 (21.10) | 88%|
@@ -27,6 +27,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpsimp-3-Oct-2021.html">3 Oct 2021</a></li>
 <li><a href="/mittelmann-plots/lpsimp-18-Sep-2021.html">18 Sep 2021</a></li>
 <li><a href="/mittelmann-plots/lpsimp-17-Sep-2021.html">17 Sep 2021</a></li>
 <li><a href="/mittelmann-plots/lpsimp-11-Sep-2021.html">11 Sep 2021</a></li>
@@ -51,26 +52,27 @@ Choose base solver for comparison:
 ---
 
 
-## [Benchmark of Barrier LP solvers (3 Oct 2021)](http://plato.asu.edu/ftp/lpbar.html)
+## [Benchmark of Barrier LP solvers (10 Nov 2021)](http://plato.asu.edu/ftp/lpbar.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved |
 | :--- | ---:  | ---:   |
-|[🥇 COPT-3.0.0](lpbar-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 Gurobi-9.1.2](lpbar-Gurobi.html) | 1.56 (1.56) | 100%|
-|[🥉 MindOpt-0.15.0](lpbar-MDOPT.html) | 2.33 (2.33) | 100%|
-|[📊 MOSEK-9.2/3](lpbar-MOSEK.html) | 4.71 (4.71) | 89%|
-|[📊 KNITRO-12.4.0](lpbar-KNITRO.html) | 14.26 (14.30) | 79%|
-|[📊 HiGHS-1.1.0](lpbar-HiGHS.html) | 15.20 (15.20) | 87%|
-|[📊 MATLAB-R2020b](lpbar-MATLAB.html) | 42.61 (36.70) | 74%|
-|[📊 Tulip-0.8.0](lpbar-TULIP.html) | 55.90 (55.90) | 66%|
-|[📊 CLP-1.17.6](lpbar-CLP.html) | 68.62 (68.60) | 74%|
+|[🥇 Gurobi-9.5.0](lpbar-Gurobi.html) | 1.00 (1.00) | 100%|
+|[🥈 COPT-3.0.0](lpbar-COPT.html) | 1.07 (1.07) | 100%|
+|[🥉 MindOpt-0.15.0](lpbar-MDOPT.html) | 2.49 (2.49) | 100%|
+|[📊 MOSEK-9.2/3](lpbar-MOSEK.html) | 5.04 (5.04) | 89%|
+|[📊 KNITRO-12.4.0](lpbar-KNITRO.html) | 15.26 (15.30) | 79%|
+|[📊 HiGHS-1.1.0](lpbar-HiGHS.html) | 16.27 (16.30) | 87%|
+|[📊 MATLAB-R2020b](lpbar-MATLAB.html) | 45.60 (39.30) | 74%|
+|[📊 Tulip-0.8.0](lpbar-TULIP.html) | 59.83 (59.80) | 66%|
+|[📊 CLP-1.17.6](lpbar-CLP.html) | 73.43 (73.40) | 74%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpbar-3-Oct-2021.html">3 Oct 2021</a></li>
 <li><a href="/mittelmann-plots/lpbar-1-Oct-2021.html">1 Oct 2021</a></li>
 <li><a href="/mittelmann-plots/lpbar-18-Sep-2021.html">18 Sep 2021</a></li>
 <li><a href="/mittelmann-plots/lpbar-11-Sep-2021.html">11 Sep 2021</a></li>
@@ -93,15 +95,15 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Network-LP Benchmark (commercial vs free) (8 Nov 2021)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (10 Nov 2021)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved |
 | :--- | ---:  | ---:   |
 |[🥇 COPT-3.0.2](network-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 MindOpt-0.15.1](network-MDOPT.html) | 1.35 (1.35) | 100%|
-|[🥉 Clp-1.17.6](network-CLP.html) | 3.04 (3.04) | 100%|
-|[📊 Gurobi-9.1.2](network-GUR.html) | 3.97 (3.97) | 100%|
+|[🥉 Gurobi-9.5.0](network-GUR.html) | 2.71 (2.71) | 100%|
+|[📊 Clp-1.17.6](network-CLP.html) | 3.04 (3.04) | 100%|
 |[📊 HiGHS-1.1.1](network-HGHS.html) | 6.39 (6.39) | 100%|
 |[📊 MATLAB-R2020b](network-MATL.html) | 12.59 (12.60) | 100%|
 |[📊 MOSEK-9.3.6](network-MOSEK.html) | 13.52 (13.50) | 100%|
@@ -113,6 +115,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/network-8-Nov-2021.html">8 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/network-22-Oct-2021.html">22 Oct 2021</a></li>
 <li><a href="/mittelmann-plots/network-11-Oct-2021.html">11 Oct 2021</a></li>
 <li><a href="/mittelmann-plots/network-8-Oct-2021.html">8 Oct 2021</a></li>
@@ -191,20 +194,21 @@ Choose base solver for comparison:
 ---
 
 
-## [Mixed-integer SOCP Benchmark (3 Sep 2021)](http://plato.asu.edu/ftp/misocp.html)
+## [Mixed-integer SOCP Benchmark (10 Nov 2021)](http://plato.asu.edu/ftp/misocp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved |
 | :--- | ---:  | ---:   |
-|[🥇 Gurobi-9.1.2](misocp-GUROBI.html) | 1.00 (1.00) | 100%|
-|[🥈 MOSEK-9.3.1](misocp-MOSEK.html) | 18.59 (21.20) | 68%|
-|[🥉 SCIP-7.0.3.5](misocp-SCIP.html) | 22.76 (26.20) | 66%|
+|[🥇 Gurobi-9.5.0](misocp-GUROBI.html) | 1.00 (1.00) | 100%|
+|[🥈 MOSEK-9.3.1](misocp-MOSEK.html) | 18.28 (18.30) | 68%|
+|[🥉 SCIP-7.0.3.5](misocp-SCIP.html) | 22.39 (22.40) | 66%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/misocp-3-Sep-2021.html">3 Sep 2021</a></li>
 <li><a href="/mittelmann-plots/misocp-21-Aug-2021.html">21 Aug 2021</a></li>
 <li><a href="/mittelmann-plots/misocp-12-Aug-2021.html">12 Aug 2021</a></li>
 <li><a href="/mittelmann-plots/misocp-16-Feb-2021.html">16 Feb 2021</a></li>
