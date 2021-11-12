@@ -338,21 +338,22 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Continuous QPLIB Benchmark (5 May 2021)](http://plato.asu.edu/ftp/cconvex.html)
+## [Convex Continuous QPLIB Benchmark (11 Nov 2021)](http://plato.asu.edu/ftp/cconvex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved |
 | :--- | ---:  | ---:   |
-|[🥇 Gurobi-9.1.2](cconvex-Gurobi.html) | 1.00 (1.27) | 97%|
-|[🥈 KNITRO-12.3.0](cconvex-KNITRO.html) | 1.45 (1.74) | 97%|
-|[🥉 MOSEK-9.2.43](cconvex-MOSEK.html) | 1.63 (1.00) | 97%|
-|[📊 IPOPT-3.12.13](cconvex-IPOPT.html) | 6.16 (3.61) | 88%|
+|[🥇 Gurobi-9.5.0](cconvex-Gurobi.html) | 1.00 (1.00) | 97%|
+|[🥈 KNITRO-12.3.0](cconvex-KNITRO.html) | 1.40 (1.40) | 97%|
+|[🥉 MOSEK-9.2.43](cconvex-MOSEK.html) | 1.57 (1.57) | 97%|
+|[📊 IPOPT-3.12.13](cconvex-IPOPT.html) | 5.94 (5.94) | 88%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/cconvex-5-May-2021.html">5 May 2021</a></li>
 <li><a href="/mittelmann-plots/cconvex-13-Dec-2020.html">13 Dec 2020</a></li>
 <li><a href="/mittelmann-plots/cconvex-11-Nov-2020.html">11 Nov 2020</a></li>
 <li><a href="/mittelmann-plots/cconvex-27-Sep-2020.html">27 Sep 2020</a></li>
