@@ -137,12 +137,12 @@ Choose base solver for comparison:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances (5 Oct 2021)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances (13 Nov 2021)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved |
 | :--- | ---:  | ---:   |
-|[🥇 Gurobi-9.1.0](milp-Gurobi.html) | 1.00 (1.00) | 84%|
+|[🥇 Gurobi-9.5.0](milp-Gurobi.html) | 1.00 (1.00) | 84%|
 |[🥈 COPT-3.0.0](milp-COPT.html) | 4.19 (4.19) | 55%|
 |[🥉 SCIP/spx-7.0.3.5](milp-SCIP.html) | 4.48 (4.48) | 52%|
 |[📊 CBC-2.10.5](milp-CBC.html) | 8.59 (8.59) | 37%|
@@ -155,6 +155,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/milp-5-Oct-2021.html">5 Oct 2021</a></li>
 <li><a href="/mittelmann-plots/milp-3-Oct-2021.html">3 Oct 2021</a></li>
 <li><a href="/mittelmann-plots/milp-10-Aug-2021.html">10 Aug 2021</a></li>
 <li><a href="/mittelmann-plots/milp-4-Jun-2021.html">4 Jun 2021</a></li>
@@ -166,23 +167,24 @@ Choose base solver for comparison:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances - 8 threads (5 Oct 2021)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances - 8 threads (13 Nov 2021)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved |
 | :--- | ---:  | ---:   |
-|[🥇 Gurobi-9.1.0](milp_8threads-Gurobi.html) | 1.00 (1.00) | 94%|
-|[🥈 COPT-3.0.0](milp_8threads-COPT.html) | 4.52 (4.52) | 73%|
-|[🥉 FSCIP/spx-7.0.0](milp_8threads-FSCIP.html) | 7.98 (7.98) | 61%|
-|[📊 SCIP/spx-7.0.3.5](milp_8threads-SCIP.html) | 9.60 (9.60) | 56%|
-|[📊 HiGHS-1.1.1](milp_8threads-HiGHS.html) | 12.00 (12.00) | 56%|
-|[📊 CBC-2.10.5](milp_8threads-CBC.html) | 13.34 (13.30) | 45%|
+|[🥇 Gurobi-9.5.0](milp_8threads-Gurobi.html) | 1.00 (1.00) | 93%|
+|[🥈 COPT-3.0.0](milp_8threads-COPT.html) | 4.92 (4.52) | 73%|
+|[🥉 FSCIP/spx-7.0.0](milp_8threads-FSCIP.html) | 8.69 (8.69) | 61%|
+|[📊 SCIP/spx-7.0.3.5](milp_8threads-SCIP.html) | 10.46 (10.50) | 56%|
+|[📊 HiGHS-1.1.1](milp_8threads-HiGHS.html) | 13.07 (13.10) | 56%|
+|[📊 CBC-2.10.5](milp_8threads-CBC.html) | 14.53 (14.50) | 45%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/milp_8threads-5-Oct-2021.html">5 Oct 2021</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-3-Oct-2021.html">3 Oct 2021</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-10-Aug-2021.html">10 Aug 2021</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-4-Jun-2021.html">4 Jun 2021</a></li>
@@ -220,24 +222,25 @@ Choose base solver for comparison:
 ---
 
 
-## [Binary Non-Convex QPLIB Benchmark (23 Aug 2021)](http://plato.asu.edu/ftp/qplib.html)
+## [Binary Non-Convex QPLIB Benchmark (13 Nov 2021)](http://plato.asu.edu/ftp/qplib.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved |
 | :--- | ---:  | ---:   |
-|[🥇 Gurobi-9.1.2](qplib-GUROBI.html) | 1.00 (1.00) | 99%|
-|[🥈 Baron-21.1.13](qplib-BARON.html) | 13.39 (13.40) | 49%|
-|[🥉 OCTERACT-3.4.1](qplib-OCTERACT.html) | 21.00 (21.00) | 42%|
-|[📊 FSCIP-7.0.0](qplib-FSCIP.html) | 37.62 (37.60) | 40%|
-|[📊 SCIP-7.0.0](qplib-SCIP.html) | 44.32 (44.30) | 30%|
-|[📊 ANTIGONE-1.1](qplib-ANTIGONE.html) | 53.31 (53.30) | 27%|
-|[📊 MINOTAUR-0.2.1](qplib-MINOTAUR.html) | 71.06 (71.10) | 8%|
+|[🥇 Gurobi-9.5.0](qplib-GUROBI.html) | 1.00 (1.00) | 99%|
+|[🥈 Baron-21.1.13](qplib-BARON.html) | 15.10 (15.10) | 48%|
+|[🥉 OCTERACT-3.4.1](qplib-OCTERACT.html) | 23.44 (23.40) | 41%|
+|[📊 FSCIP-7.0.0](qplib-FSCIP.html) | 41.42 (41.40) | 39%|
+|[📊 SCIP-7.0.0](qplib-SCIP.html) | 48.62 (48.60) | 30%|
+|[📊 ANTIGONE-1.1](qplib-ANTIGONE.html) | 58.24 (58.20) | 26%|
+|[📊 MINOTAUR-0.2.1](qplib-MINOTAUR.html) | 77.12 (77.10) | 8%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/qplib-23-Aug-2021.html">23 Aug 2021</a></li>
 <li><a href="/mittelmann-plots/qplib-27-May-2021.html">27 May 2021</a></li>
 <li><a href="/mittelmann-plots/qplib-6-May-2021.html">6 May 2021</a></li>
 <li><a href="/mittelmann-plots/qplib-25-Jan-2021.html">25 Jan 2021</a></li>
