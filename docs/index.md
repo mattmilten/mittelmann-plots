@@ -173,7 +173,7 @@ Choose base solver for comparison:
 | solver | score (as reported) | solved |
 | :--- | ---:  | ---:   |
 |[🥇 Gurobi-9.5.0](milp_8threads-Gurobi.html) | 1.00 (1.00) | 93%|
-|[🥈 COPT-3.0.0](milp_8threads-COPT.html) | 4.92 (4.52) | 73%|
+|[🥈 COPT-3.0.0](milp_8threads-COPT.html) | 4.92 (4.92) | 73%|
 |[🥉 FSCIP/spx-7.0.0](milp_8threads-FSCIP.html) | 8.69 (8.69) | 61%|
 |[📊 SCIP/spx-7.0.3.5](milp_8threads-SCIP.html) | 10.46 (10.50) | 56%|
 |[📊 HiGHS-1.1.1](milp_8threads-HiGHS.html) | 13.07 (13.10) | 56%|
