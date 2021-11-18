@@ -252,24 +252,25 @@ Choose base solver for comparison:
 ---
 
 
-## [Discrete Non-Convex QPLIB Benchmark (non-binary) (7 Sep 2021)](http://plato.asu.edu/ftp/nonbinary.html)
+## [Discrete Non-Convex QPLIB Benchmark (non-binary) (17 Nov 2021)](http://plato.asu.edu/ftp/nonbinary.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved |
 | :--- | ---:  | ---:   |
-|[🥇 Gurobi-9.1.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 85%|
-|[🥈 SCIP-7.0.3.5](nonbinary-SCIP.html) | 10.75 (10.80) | 47%|
-|[🥉 Baron-21.1.13](nonbinary-BARON.html) | 20.73 (20.70) | 35%|
-|[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 23.32 (23.30) | 37%|
-|[📊 OCTERACT-3.4.1](nonbinary-OCTERACT.html) | 26.02 (26.00) | 26%|
-|[📊 COUENNE-0.5](nonbinary-COUENNE.html) | 51.49 (51.50) | 10%|
-|[📊 MINOTAUR-0.2.1](nonbinary-MINOTAUR.html) | 59.08 (59.10) | 5%|
+|[🥇 Gurobi-9.5.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 92%|
+|[🥈 SCIP-7.0.3.5](nonbinary-SCIP.html) | 29.44 (29.40) | 47%|
+|[🥉 Baron-21.1.13](nonbinary-BARON.html) | 56.30 (56.30) | 34%|
+|[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 63.22 (63.20) | 37%|
+|[📊 OCTERACT-3.4.1](nonbinary-OCTERACT.html) | 70.45 (70.40) | 25%|
+|[📊 COUENNE-0.5](nonbinary-COUENNE.html) | 138.20 (138.00) | 10%|
+|[📊 MINOTAUR-0.2.1](nonbinary-MINOTAUR.html) | 158.31 (158.00) | 5%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/nonbinary-7-Sep-2021.html">7 Sep 2021</a></li>
 <li><a href="/mittelmann-plots/nonbinary-27-Jan-2021.html">27 Jan 2021</a></li>
 <li><a href="/mittelmann-plots/nonbinary-10-Nov-2020.html">10 Nov 2020</a></li>
 <li><a href="/mittelmann-plots/nonbinary-8-Oct-2020.html">8 Oct 2020</a></li>
@@ -279,25 +280,26 @@ Choose base solver for comparison:
 ---
 
 
-## [Continuous Non-Convex QPLIB Benchmark (16 Sep 2021)](http://plato.asu.edu/ftp/cnconv.html)
+## [Continuous Non-Convex QPLIB Benchmark (17 Nov 2021)](http://plato.asu.edu/ftp/cnconv.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved |
 | :--- | ---:  | ---:   |
-|[🥇 GUROBI-9.1.0](cnconv-GUROBI.html) | 1.00 (1.00) | 62%|
-|[🥈 ANTIGONE-1.1](cnconv-ANTIGONE.html) | 4.82 (4.82) | 52%|
-|[🥉 OCTERACT-3.4.1](cnconv-OCTERACT.html) | 5.74 (5.74) | 36%|
-|[📊 Baron-21.1.13](cnconv-BARON.html) | 6.97 (6.97) | 43%|
-|[📊 RAPOSA-2.0.0](cnconv-RAPOSa.html) | 11.05 (11.00) | 14%|
-|[📊 SCIP-7.0.3.5](cnconv-SCIP.html) | 11.16 (11.20) | 23%|
-|[📊 COUENNE-0.5](cnconv-COUENNE.html) | 13.58 (13.60) | 14%|
-|[📊 MINOTAUR-0.2.1](cnconv-MINOTAUR.html) | 14.31 (14.30) | 11%|
+|[🥇 GUROBI-9.5.0](cnconv-GUROBI.html) | 1.00 (1.00) | 63%|
+|[🥈 ANTIGONE-1.1](cnconv-ANTIGONE.html) | 4.05 (4.05) | 47%|
+|[🥉 OCTERACT-3.4.1](cnconv-OCTERACT.html) | 4.74 (4.74) | 32%|
+|[📊 Baron-21.1.13](cnconv-BARON.html) | 5.66 (5.66) | 39%|
+|[📊 RAPOSA-2.0.0](cnconv-RAPOSa.html) | 8.58 (8.58) | 13%|
+|[📊 SCIP-7.0.3.5](cnconv-SCIP.html) | 8.65 (8.65) | 21%|
+|[📊 COUENNE-0.5](cnconv-COUENNE.html) | 10.33 (10.30) | 13%|
+|[📊 MINOTAUR-0.2.1](cnconv-MINOTAUR.html) | 10.83 (10.80) | 10%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/cnconv-16-Sep-2021.html">16 Sep 2021</a></li>
 <li><a href="/mittelmann-plots/cnconv-7-Sep-2021.html">7 Sep 2021</a></li>
 <li><a href="/mittelmann-plots/cnconv-2-Dec-2020.html">2 Dec 2020</a></li>
 <li><a href="/mittelmann-plots/cnconv-11-Nov-2020.html">11 Nov 2020</a></li>
