@@ -210,6 +210,9 @@ Choose base solver for comparison:
 |[📊 GLPK-5.0](path-GLPK.html) | 35.15 (35.20) | 13%|
 |[📊 MATLAB-2020a](path-MATLAB.html) | 42.36 (42.40) | 7%|
 
+---
+
+
 ## [Infeasibility Detection for MILP Problems (10 Nov 2021)](http://plato.asu.edu/ftp/infeas.html)
 Choose base solver for comparison:
 
@@ -221,6 +224,9 @@ Choose base solver for comparison:
 |[📊 SCIP-7.0.2](infeas-SCIP.html) | 8.63 (7.37) | 66%|
 |[📊 CBC-2.10.5](infeas-CBC.html) | 14.80 (14.80) | 62%|
 |[📊 MATLAB-2020b](infeas-MATLAB.html) | 23.00 (23.00) | 47%|
+
+---
+
 
 ## [Mixed-integer SOCP Benchmark (10 Nov 2021)](http://plato.asu.edu/ftp/misocp.html)
 Choose base solver for comparison:
