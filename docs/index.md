@@ -8,7 +8,7 @@ Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http:
 ## [Benchmark of Simplex LP solvers (10 Nov 2021)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved |
+| solver | score (as reported) | solved of 40|
 | :--- | ---:  | ---:   |
 |[🥇 MindOpt-0.15.0](lpsimp-MDOPT.html) | 1.00 (1.00) | 100%|
 |[🥈 COPT-3.0.0](lpsimp-COPT.html) | 1.25 (1.25) | 100%|
@@ -55,7 +55,7 @@ Choose base solver for comparison:
 ## [Benchmark of Barrier LP solvers (10 Nov 2021)](http://plato.asu.edu/ftp/lpbar.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved |
+| solver | score (as reported) | solved of 47|
 | :--- | ---:  | ---:   |
 |[🥇 Gurobi-9.5.0](lpbar-Gurobi.html) | 1.00 (1.00) | 100%|
 |[🥈 COPT-3.0.0](lpbar-COPT.html) | 1.07 (1.07) | 100%|
@@ -98,7 +98,7 @@ Choose base solver for comparison:
 ## [Large Network-LP Benchmark (commercial vs free) (10 Nov 2021)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved |
+| solver | score (as reported) | solved of 20|
 | :--- | ---:  | ---:   |
 |[🥇 COPT-3.0.2](network-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 MindOpt-0.15.1](network-MDOPT.html) | 1.35 (1.35) | 100%|
@@ -140,7 +140,7 @@ Choose base solver for comparison:
 ## [The MIPLIB2017 Benchmark Instances (13 Nov 2021)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved |
+| solver | score (as reported) | solved of 240|
 | :--- | ---:  | ---:   |
 |[🥇 Gurobi-9.5.0](milp-Gurobi.html) | 1.00 (1.00) | 84%|
 |[🥈 COPT-3.0.0](milp-COPT.html) | 4.19 (4.19) | 55%|
@@ -170,7 +170,7 @@ Choose base solver for comparison:
 ## [The MIPLIB2017 Benchmark Instances - 8 threads (13 Nov 2021)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved |
+| solver | score (as reported) | solved of 240|
 | :--- | ---:  | ---:   |
 |[🥇 Gurobi-9.5.0](milp_8threads-Gurobi.html) | 1.00 (1.00) | 93%|
 |[🥈 COPT-3.0.0](milp_8threads-COPT.html) | 4.92 (4.92) | 73%|
@@ -196,10 +196,44 @@ Choose base solver for comparison:
 ---
 
 
+## [MILP cases that are slightly pathological (11 Nov 2021)](http://plato.asu.edu/ftp/path.html)
+Choose base solver for comparison:
+
+| solver | score (as reported) | solved of 45|
+| :--- | ---:  | ---:   |
+|[🥇 GUROBI-9.5.0](path-Gurobi.html) | 1.00 (1.00) | 98%|
+|[🥈 COPT-3.0.0](path-COPT.html) | 8.26 (8.26) | 56%|
+|[🥉 FSCIP-7.0.0](path-FSCIP.html) | 13.75 (13.80) | 53%|
+|[📊 SCIP-7.0.0](path-SCIP.html) | 21.81 (21.80) | 40%|
+|[📊 CBC-2.10.5](path-CBC.html) | 23.39 (23.40) | 31%|
+|[📊 HiGHS-1.1.1](path-HiGHS.html) | 26.09 (26.10) | 36%|
+|[📊 GLPK-5.0](path-GLPK.html) | 35.15 (35.20) | 13%|
+|[📊 MATLAB-2020a](path-MATLAB.html) | 42.36 (42.40) | 7%|
+</ul></details>
+
+---
+
+
+## [Infeasibility Detection for MILP Problems (10 Nov 2021)](http://plato.asu.edu/ftp/infeas.html)
+Choose base solver for comparison:
+
+| solver | score (as reported) | solved of 32|
+| :--- | ---:  | ---:   |
+|[🥇 GUROBI-9.5.0](infeas-Gurobi.html) | 1.00 (1.00) | 91%|
+|[🥈 COPT-3.0.0](infeas-COPT.html) | 4.28 (1.67) | 78%|
+|[🥉 FSCIP-7.0.0](infeas-FSCIP.html) | 7.37 (4.28) | 75%|
+|[📊 SCIP-7.0.2](infeas-SCIP.html) | 8.63 (7.37) | 66%|
+|[📊 CBC-2.10.5](infeas-CBC.html) | 14.80 (14.80) | 62%|
+|[📊 MATLAB-2020b](infeas-MATLAB.html) | 23.00 (23.00) | 47%|
+</ul></details>
+
+---
+
+
 ## [Mixed-integer SOCP Benchmark (10 Nov 2021)](http://plato.asu.edu/ftp/misocp.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved |
+| solver | score (as reported) | solved of 47|
 | :--- | ---:  | ---:   |
 |[🥇 Gurobi-9.5.0](misocp-GUROBI.html) | 1.00 (1.00) | 100%|
 |[🥈 MOSEK-9.3.1](misocp-MOSEK.html) | 18.28 (18.30) | 68%|
@@ -225,7 +259,7 @@ Choose base solver for comparison:
 ## [Binary Non-Convex QPLIB Benchmark (13 Nov 2021)](http://plato.asu.edu/ftp/qplib.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved |
+| solver | score (as reported) | solved of 88|
 | :--- | ---:  | ---:   |
 |[🥇 Gurobi-9.5.0](qplib-GUROBI.html) | 1.00 (1.00) | 99%|
 |[🥈 Baron-21.1.13](qplib-BARON.html) | 15.10 (15.10) | 48%|
@@ -255,7 +289,7 @@ Choose base solver for comparison:
 ## [Discrete Non-Convex QPLIB Benchmark (non-binary) (17 Nov 2021)](http://plato.asu.edu/ftp/nonbinary.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved |
+| solver | score (as reported) | solved of 79|
 | :--- | ---:  | ---:   |
 |[🥇 Gurobi-9.5.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 92%|
 |[🥈 SCIP-7.0.3.5](nonbinary-SCIP.html) | 29.44 (29.40) | 47%|
@@ -283,7 +317,7 @@ Choose base solver for comparison:
 ## [Continuous Non-Convex QPLIB Benchmark (17 Nov 2021)](http://plato.asu.edu/ftp/cnconv.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved |
+| solver | score (as reported) | solved of 62|
 | :--- | ---:  | ---:   |
 |[🥇 GUROBI-9.5.0](cnconv-GUROBI.html) | 1.00 (1.00) | 63%|
 |[🥈 ANTIGONE-1.1](cnconv-ANTIGONE.html) | 4.05 (4.05) | 47%|
@@ -313,7 +347,7 @@ Choose base solver for comparison:
 ## [Convex Discrete QPLIB Benchmark (11 Nov 2021)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved |
+| solver | score (as reported) | solved of 31|
 | :--- | ---:  | ---:   |
 |[🥇 GUROBI-9.5.0](convex-GUROBI.html) | 1.00 (1.00) | 74%|
 |[🥈 Baron-21.1.13](convex-BARON.html) | 6.20 (6.20) | 55%|
@@ -347,7 +381,7 @@ Choose base solver for comparison:
 ## [Convex Continuous QPLIB Benchmark (11 Nov 2021)](http://plato.asu.edu/ftp/cconvex.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved |
+| solver | score (as reported) | solved of 32|
 | :--- | ---:  | ---:   |
 |[🥇 Gurobi-9.5.0](cconvex-Gurobi.html) | 1.00 (1.00) | 97%|
 |[🥈 KNITRO-12.3.0](cconvex-KNITRO.html) | 1.40 (1.40) | 97%|
