@@ -29,8 +29,10 @@ def get_version(s, version):
         s = "Mosek"
     elif s in ["HGHS"]:
         s = "HiGHS"
+    elif s in ["GUROBI"]:
+        s = "Gurobi"
 
-    match = [v for v in version if v.lower().find(s.lower()) >= 0]
+    match = [v for v in version if v.lower().startswith(s.lower())]
     return match[0] if match else s
 
 
@@ -49,7 +51,7 @@ def parse_table(url, timelimit=3600, threads=1):
     stats["date"] = pre[0].text.split("\n")[1].replace("=", "").replace("-", "").strip()
     stats["title"] = pre[0].text.split("\n")[2].strip()
 
-    if url.find("lpsimp.html") >= 0:
+    if "lpsimp.html" in url:
         tab = pre[3].text.split("\n")
         tabmark = [ind for ind, i in enumerate(tab) if i.startswith("=====")]
         _version = pre[2].text.split("\n")[1:-1]
@@ -70,7 +72,7 @@ def parse_table(url, timelimit=3600, threads=1):
             columns=["instance"] + solver,
         )
 
-    elif url.find("lpbar.html") >= 0:
+    elif "lpbar.html" in url:
         tab = pre[3].text.split("\n")
         tabmark = [ind for ind, i in enumerate(tab) if i.startswith("=====")]
         _version = pre[2].text.split("\n")[1:-1]
@@ -89,7 +91,7 @@ def parse_table(url, timelimit=3600, threads=1):
             columns=["instance"] + solver,
         )
 
-    elif url.find("network.html") >= 0:
+    elif "network.html" in url:
         tab = pre[2].text.split("\n")
         tabmark = [ind for ind, i in enumerate(tab) if i.startswith("=====")]
         _version = pre[1].text.split("\n")[1:-1]
@@ -113,7 +115,7 @@ def parse_table(url, timelimit=3600, threads=1):
                 - pd.to_numeric(stats["times"][s], errors="coerce").isna().sum()
             )
 
-    elif url.find("milp.html") >= 0:
+    elif "milp.html" in url:
         if threads == 1:
             taburl = "http://plato.asu.edu/ftp/milp_tables/1thread.res"
             scoretab = pre[1].text.split("\n")[5:10]
@@ -154,7 +156,77 @@ def parse_table(url, timelimit=3600, threads=1):
         stats["nprobs"] = len(stats["times"])
         stats["timelimit"] = timelimit
 
-    elif url.find("misocp.html") >= 0:
+    elif "path.html" in url:
+        taburl = "http://plato.asu.edu/ftp/path.res"
+        scoretab = pre[1].text.split("\n")[3:7]
+        resp = requests.get(taburl)
+        souptab = BeautifulSoup(resp.text, features="html.parser")
+        tab = souptab.contents[0].split("\n")
+        tabmark = [ind for ind, i in enumerate(tab) if i.startswith("----")]
+        columns = tab[tabmark[0] + 1].replace("|", " ").split()[1:]
+
+        for i, c in enumerate(columns):
+            if c.startswith("lpsolve"):
+                columns[i] = "LP_SOL"
+            elif c.startswith("FiberSCIP"):
+                columns[i] = "FSCIP"
+            elif c.startswith("SCIP"):
+                columns[i] = "SCIP"
+
+        _version = str(soup.contents[2]).split("<br/>")[1:-1]
+        _version = [x.split()[0].rstrip(":") for x in _version]
+        _solved = scoretab[3].split()[:]
+        _score = scoretab[2].split()[:]
+        solver = [get_version(s, "") for s in scoretab[0].split()[:]]
+        stats["solver"] = solver
+        stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
+        stats["version"] = {s: get_version(s, _version) for s in solver}
+        stats["score"] = {
+            solver[i]: float(_score[i]) for i in range(len(solver))
+        }
+        stats["times"] = pd.DataFrame(
+            [l.split() for l in tab[tabmark[1] + 1 : tabmark[-2]]],
+            columns=["instance"] + columns,
+        )
+        stats["nprobs"] = len(stats["times"])
+        stats["timelimit"] = timelimit
+
+    elif "infeas.html" in url:
+        taburl = "http://plato.asu.edu/ftp/infeasible.res"
+        scoretab = pre[1].text.split("\n")[1:7]
+        resp = requests.get(taburl)
+        souptab = BeautifulSoup(resp.text, features="html.parser")
+        tab = souptab.contents[0].split("\n")
+        tabmark = [ind for ind, i in enumerate(tab) if i.startswith("----")]
+        columns = tab[tabmark[0] + 1].replace("|", " ").split()[1:]
+
+        for i, c in enumerate(columns):
+            if c.startswith("lpsolve"):
+                columns[i] = "LP_SOL"
+            elif c.startswith("FiberSCIP"):
+                columns[i] = "FSCIP"
+            elif c.startswith("SCIP"):
+                columns[i] = "SCIP"
+
+        _version = str(soup.contents[2]).split("<p>")[3].split("\n")[1:-1]
+        _version = [x.split()[0].rstrip(":") for x in _version]
+        _solved = scoretab[4].split()[3:]
+        _score = scoretab[2].split()[:]
+        solver = [get_version(s, "") for s in scoretab[0].split()[:]]
+        stats["solver"] = solver
+        stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
+        stats["version"] = {s: get_version(s, _version) for s in solver}
+        stats["score"] = {
+            solver[i]: float(_score[i]) for i in range(len(solver))
+        }
+        stats["times"] = pd.DataFrame(
+            [l.split() for l in tab[tabmark[1] + 1 : tabmark[-2]]],
+            columns=["instance"] + columns,
+        )
+        stats["nprobs"] = len(stats["times"])
+        stats["timelimit"] = timelimit
+
+    elif "misocp.html" in url:
         tab = pre[1].text.split("\n")
         tabmark = [ind for ind, i in enumerate(tab) if i.startswith("=====")]
         _score = tab[2].split()
@@ -234,6 +306,8 @@ def plot_benchmark(stats, base):
     time = time.sort_values(base).reset_index(drop=True)
 
     for s in sorted(time.keys().drop(["instance"])):
+        if not s in stats["version"]:
+            continue
         if s == base:
             fig.add_trace(
                 go.Scatter(
@@ -357,7 +431,7 @@ def write_bench(url, timelimit, threads=1):
     plots = "\n"
     plots += f'## [{stats["title"]} ({stats["date"]})]({url})\n'
     plots += "Choose base solver for comparison:\n\n"
-    plots += "| solver | score (as reported) | solved |\n"
+    plots += f'| solver | score (as reported) | solved of {stats["nprobs"]}|\n'
     plots += "| :--- | ---:  | ---:   |\n"
     for i,s in enumerate(sorted(stats["shmean"].items(), key=lambda x: x[1])):
         s = s[0]
@@ -387,6 +461,8 @@ urls = [
     ("http://plato.asu.edu/ftp/network.html", 3600, 1),
     ("http://plato.asu.edu/ftp/milp.html", 7200, 1),
     ("http://plato.asu.edu/ftp/milp.html", 7200, 8),
+    ("http://plato.asu.edu/ftp/path.html", 10800, 1),
+    ("http://plato.asu.edu/ftp/infeas.html", 3600, 1),
     ("http://plato.asu.edu/ftp/misocp.html", 7200, 1),
     ("http://plato.asu.edu/ftp/qplib.html", 3600, 1),
     ("http://plato.asu.edu/ftp/nonbinary.html", 10800, 1),
