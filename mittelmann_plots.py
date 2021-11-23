@@ -248,6 +248,29 @@ def parse_table(url, timelimit=3600, threads=1):
             columns=["instance"] + solver,
         )
 
+    elif "socp.html" in url:
+        tab = pre[1].text.split("\n")
+        tabmark = [ind for ind, i in enumerate(tab) if i.startswith("-----") or i.startswith("======")]
+        # Solvers version on this page are in a table
+        vers = soup.find_all("table")
+        _version = [x.text for x in soup.find_all("td")][0::2]
+        _score = tab[3].split()[1:]
+        _solved = tab[4].split()[1:]
+        solver = tab[6].split()[1:]
+        stats["solver"] = solver
+        nprobs = len(tab[tabmark[1] + 1 : tabmark[2]])
+        stats["nprobs"] = nprobs
+        stats["score"] = {solver[i]: float(_score[i]) for i in range(len(solver))}
+        stats["solved"] = {
+            solver[i]: int(_solved[i].strip("*")) for i in range(len(solver))
+        }
+        stats["version"] = {s: get_version(s, _version) for s in solver}
+        stats["timelimit"] = timelimit
+        stats["times"] = pd.DataFrame(
+            [l.split() for l in tab[tabmark[1] + 1 : tabmark[2]]],
+            columns=["instance"] + solver,
+        )
+
     else:
         tab = pre[2].text.split("\n")
         tabmark = [ind for ind, i in enumerate(tab) if i.startswith("=====")]
@@ -449,7 +472,7 @@ def write_bench(url, timelimit, threads=1):
             date = filename.lstrip(f"{benchname}-").rstrip(".html").replace("-", " ")
             plots += f'<li><a href="/mittelmann-plots/{filename}">{date}</a></li>\n'
         plots += "</ul></details>\n"
-        
+
     plots+="\n---\n\n"
 
     return plots
@@ -464,6 +487,7 @@ urls = [
     ("http://plato.asu.edu/ftp/milp.html", 7200, 8),
     ("http://plato.asu.edu/ftp/path.html", 10800, 1),
     ("http://plato.asu.edu/ftp/infeas.html", 3600, 1),
+    ("http://plato.asu.edu/ftp/socp.html", 3600, 1),
     ("http://plato.asu.edu/ftp/misocp.html", 7200, 1),
     ("http://plato.asu.edu/ftp/qplib.html", 3600, 1),
     ("http://plato.asu.edu/ftp/nonbinary.html", 10800, 1),
