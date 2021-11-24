@@ -228,6 +228,20 @@ Choose base solver for comparison:
 ---
 
 
+## [Large Second Order Cone Benchmark (10 Nov 2021)](http://plato.asu.edu/ftp/socp.html)
+Choose base solver for comparison:
+
+| solver | score (as reported) | solved of 18|
+| :--- | ---:  | ---:   |
+|[🥇 MOSEK-9.3.6](socp-MOSEK.html) | 1.00 (1.00) | 100%|
+|[🥈 Gurobi-9.5.0](socp-Gurobi.html) | 1.08 (1.08) | 100%|
+|[🥉 COPT-3.0.0](socp-COPT.html) | 1.66 (1.66) | 100%|
+|[📊 KNITRO-12.3.0](socp-KNITRO.html) | 9.74 (9.74) | 83%|
+|[📊 ECOS-2.0.4](socp-ECOS.html) | 78.36 (78.40) | 33%|
+
+---
+
+
 ## [Mixed-integer SOCP Benchmark (10 Nov 2021)](http://plato.asu.edu/ftp/misocp.html)
 Choose base solver for comparison:
 
