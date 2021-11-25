@@ -6,13 +6,9 @@
   background: #e5e5e5;
   border: 1px solid #d0d0d0;
 }
-@font-face {
-  font-family: "Fira Sans";
-  src: "url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap')";
-}
 body {
   background: url(../paper_fibers.png);
-//   font: 14px/22px 'Verdana';  
+  font: 14px/22px 'Verdana';  
 }
 section {
   width: 645px;
