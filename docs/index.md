@@ -276,7 +276,7 @@ Choose base solver for comparison:
 |[🥇 Gurobi-9.5.0](qplib-GUROBI.html) | 1.00 (1.00) | 99%|
 |[🥈 Baron-21.1.13](qplib-BARON.html) | 15.10 (15.10) | 48%|
 |[🥉 FSCIP-7.0.0](qplib-FSCIP.html) | 41.42 (41.40) | 39%|
-|[📊 OCTERACT-3.6.0](qplib-OCTERACT.html) | 43.67 (43.70) | 30%|
+|[📊 OCTERACT-3.6.0](qplib-OCTERACT.html) | 41.70 (41.70) | 32%|
 |[📊 SCIP-7.0.0](qplib-SCIP.html) | 48.62 (48.60) | 30%|
 |[📊 ANTIGONE-1.1](qplib-ANTIGONE.html) | 58.24 (58.20) | 26%|
 |[📊 MINOTAUR-0.2.1](qplib-MINOTAUR.html) | 77.12 (77.10) | 8%|
