@@ -213,17 +213,25 @@ Choose base solver for comparison:
 ---
 
 
-## [Infeasibility Detection for MILP Problems (10 Nov 2021)](http://plato.asu.edu/ftp/infeas.html)
+## [Infeasibility Detection for MILP Problems (3 Dec 2021)](http://plato.asu.edu/ftp/infeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
 | :--- | ---:  | ---:   |
 |[🥇 GUROBI-9.5.0](infeas-Gurobi.html) | 1.00 (1.00) | 91%|
-|[🥈 COPT-3.0.0](infeas-COPT.html) | 4.28 (1.67) | 78%|
-|[🥉 FSCIP-7.0.0](infeas-FSCIP.html) | 7.37 (4.28) | 75%|
-|[📊 SCIP-7.0.2](infeas-SCIP.html) | 8.63 (7.37) | 66%|
+|[🥈 COPT-3.0.0](infeas-COPT.html) | 4.28 (4.28) | 78%|
+|[🥉 FSCIP-7.0.0](infeas-FSCIP.html) | 7.37 (7.37) | 75%|
+|[📊 SCIP-7.0.2](infeas-SCIP.html) | 8.63 (8.63) | 66%|
 |[📊 CBC-2.10.5](infeas-CBC.html) | 14.80 (14.80) | 62%|
 |[📊 MATLAB-2020b](infeas-MATLAB.html) | 23.00 (23.00) | 47%|
+
+
+<details><summary>previous benchmarks 🔽</summary>
+<br>
+
+<ul>
+<li><a href="/mittelmann-plots/infeas-10-Nov-2021.html">10 Nov 2021</a></li>
+</ul></details>
 
 ---
 
@@ -268,24 +276,25 @@ Choose base solver for comparison:
 ---
 
 
-## [Binary Non-Convex QPLIB Benchmark (29 Nov 2021)](http://plato.asu.edu/ftp/qplib.html)
+## [Binary Non-Convex QPLIB Benchmark (3 Dec 2021)](http://plato.asu.edu/ftp/qplib.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 88|
 | :--- | ---:  | ---:   |
-|[🥇 Gurobi-9.5.0](qplib-GUROBI.html) | 1.00 (1.00) | 99%|
-|[🥈 OCTERACT-3.6.0](qplib-OCTERACT.html) | 12.82 (12.80) | 55%|
-|[🥉 Baron-21.1.13](qplib-BARON.html) | 15.10 (15.10) | 48%|
-|[📊 FSCIP-7.0.0](qplib-FSCIP.html) | 41.42 (41.40) | 39%|
-|[📊 SCIP-7.0.0](qplib-SCIP.html) | 48.62 (48.60) | 30%|
-|[📊 ANTIGONE-1.1](qplib-ANTIGONE.html) | 58.24 (58.20) | 26%|
-|[📊 MINOTAUR-0.2.1](qplib-MINOTAUR.html) | 77.12 (77.10) | 8%|
+|[🥇 Gurobi-9.5.0](qplib-GUROBI.html) | 1.00 (1.00) | 98%|
+|[🥈 OCTERACT-3.6.0](qplib-OCTERACT.html) | 12.73 (12.70) | 55%|
+|[🥉 Baron-21.1.13](qplib-BARON.html) | 14.99 (15.00) | 48%|
+|[📊 FSCIP-7.0.0](qplib-FSCIP.html) | 41.13 (41.10) | 39%|
+|[📊 SCIP-7.0.0](qplib-SCIP.html) | 48.28 (48.30) | 30%|
+|[📊 ANTIGONE-1.1](qplib-ANTIGONE.html) | 57.83 (57.80) | 26%|
+|[📊 MINOTAUR-0.2.1](qplib-MINOTAUR.html) | 76.58 (76.60) | 8%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/qplib-29-Nov-2021.html">29 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/qplib-24-Nov-2021.html">24 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/qplib-13-Nov-2021.html">13 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/qplib-23-Aug-2021.html">23 Aug 2021</a></li>
@@ -300,24 +309,25 @@ Choose base solver for comparison:
 ---
 
 
-## [Discrete Non-Convex QPLIB Benchmark (non-binary) (1 Dec 2021)](http://plato.asu.edu/ftp/nonbinary.html)
+## [Discrete Non-Convex QPLIB Benchmark (non-binary) (3 Dec 2021)](http://plato.asu.edu/ftp/nonbinary.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 80|
+| solver | score (as reported) | solved of 81|
 | :--- | ---:  | ---:   |
-|[🥇 Gurobi-9.5.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 91%|
-|[🥈 SCIP-7.0.3.5](nonbinary-SCIP.html) | 27.99 (28.00) | 46%|
-|[🥉 Baron-21.1.13](nonbinary-BARON.html) | 53.09 (53.10) | 34%|
-|[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 59.53 (59.50) | 36%|
-|[📊 OCTERACT-3.6.0](nonbinary-OCTERACT.html) | 87.91 (87.90) | 16%|
-|[📊 COUENNE-0.5](nonbinary-COUENNE.html) | 128.88 (129.00) | 10%|
-|[📊 MINOTAUR-0.2.1](nonbinary-MINOTAUR.html) | 147.38 (147.00) | 5%|
+|[🥇 Gurobi-9.5.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 90%|
+|[🥈 SCIP-7.0.3.5](nonbinary-SCIP.html) | 26.41 (26.40) | 46%|
+|[🥉 Baron-21.1.13](nonbinary-BARON.html) | 49.70 (49.70) | 33%|
+|[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 55.65 (55.60) | 36%|
+|[📊 OCTERACT-3.6.0](nonbinary-OCTERACT.html) | 81.78 (81.80) | 16%|
+|[📊 COUENNE-0.5](nonbinary-COUENNE.html) | 119.32 (119.00) | 10%|
+|[📊 MINOTAUR-0.2.1](nonbinary-MINOTAUR.html) | 136.23 (136.00) | 5%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/nonbinary-1-Dec-2021.html">1 Dec 2021</a></li>
 <li><a href="/mittelmann-plots/nonbinary-17-Nov-2021.html">17 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/nonbinary-7-Sep-2021.html">7 Sep 2021</a></li>
 <li><a href="/mittelmann-plots/nonbinary-27-Jan-2021.html">27 Jan 2021</a></li>
@@ -329,25 +339,25 @@ Choose base solver for comparison:
 ---
 
 
-## [Continuous Non-Convex QPLIB Benchmark (30 Nov 2021)](http://plato.asu.edu/ftp/cnconv.html)
+## [Continuous Non-Convex QPLIB Benchmark (3 Dec 2021)](http://plato.asu.edu/ftp/cnconv.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 63|
 | :--- | ---:  | ---:   |
-|[🥇 GUROBI-9.5.0](cnconv-GUROBI.html) | 1.00 (1.00) | 62%|
-|[🥈 ANTIGONE-1.1](cnconv-ANTIGONE.html) | 3.96 (3.96) | 46%|
-|[🥉 OCTERACT-3.6.0](cnconv-OCTERACT.html) | 4.07 (4.07) | 37%|
-|[📊 Baron-21.1.13](cnconv-BARON.html) | 5.50 (5.50) | 38%|
-|[📊 RAPOSA-2.0.0](cnconv-RAPOSa.html) | 8.28 (8.28) | 13%|
-|[📊 SCIP-7.0.3.5](cnconv-SCIP.html) | 8.36 (8.36) | 21%|
-|[📊 COUENNE-0.5](cnconv-COUENNE.html) | 9.95 (9.95) | 13%|
-|[📊 MINOTAUR-0.2.1](cnconv-MINOTAUR.html) | 10.43 (10.40) | 10%|
+|[🥇 GUROBI-9.5.0](cnconv-GUROBI.html) | 1.00 (1.00) | 67%|
+|[🥈 OCTERACT-3.6.0](cnconv-OCTERACT.html) | 5.00 (5.00) | 37%|
+|[🥉 ANTIGONE-1.1](cnconv-ANTIGONE.html) | 5.01 (5.01) | 44%|
+|[📊 Baron-21.1.13](cnconv-BARON.html) | 6.76 (6.76) | 38%|
+|[📊 SCIP-7.0.3.5](cnconv-SCIP.html) | 10.27 (10.30) | 21%|
+|[📊 COUENNE-0.5](cnconv-COUENNE.html) | 12.23 (12.20) | 13%|
+|[📊 MINOTAUR-0.2.1](cnconv-MINOTAUR.html) | 12.81 (12.80) | 10%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/cnconv-30-Nov-2021.html">30 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/cnconv-17-Nov-2021.html">17 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/cnconv-16-Sep-2021.html">16 Sep 2021</a></li>
 <li><a href="/mittelmann-plots/cnconv-7-Sep-2021.html">7 Sep 2021</a></li>
