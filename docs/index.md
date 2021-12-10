@@ -52,7 +52,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Benchmark of Barrier LP solvers (10 Nov 2021)](http://plato.asu.edu/ftp/lpbar.html)
+## [Benchmark of Barrier LP solvers (9 Dec 2021)](http://plato.asu.edu/ftp/lpbar.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 47|
@@ -60,7 +60,7 @@ Choose base solver for comparison:
 |[🥇 Gurobi-9.5.0](lpbar-Gurobi.html) | 1.00 (1.00) | 100%|
 |[🥈 COPT-3.0.0](lpbar-COPT.html) | 1.07 (1.07) | 100%|
 |[🥉 MindOpt-0.15.0](lpbar-MDOPT.html) | 2.49 (2.49) | 100%|
-|[📊 MOSEK-9.2/3](lpbar-MOSEK.html) | 5.04 (5.04) | 89%|
+|[📊 MOSEK-9.3.10](lpbar-MOSEK.html) | 4.45 (4.45) | 96%|
 |[📊 KNITRO-12.4.0](lpbar-KNITRO.html) | 15.26 (15.30) | 79%|
 |[📊 HiGHS-1.1.0](lpbar-HiGHS.html) | 16.27 (16.30) | 87%|
 |[📊 MATLAB-R2020b](lpbar-MATLAB.html) | 45.60 (39.30) | 74%|
@@ -72,6 +72,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpbar-10-Nov-2021.html">10 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/lpbar-3-Oct-2021.html">3 Oct 2021</a></li>
 <li><a href="/mittelmann-plots/lpbar-1-Oct-2021.html">1 Oct 2021</a></li>
 <li><a href="/mittelmann-plots/lpbar-18-Sep-2021.html">18 Sep 2021</a></li>
