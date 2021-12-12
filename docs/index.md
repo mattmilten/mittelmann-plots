@@ -5,7 +5,7 @@ Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http:
     [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (10 Nov 2021)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers (11 Dec 2021)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 40|
@@ -15,8 +15,8 @@ Choose base solver for comparison:
 |[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.37 (1.37) | 100%|
 |[📊 Optverse-0.2.1](lpsimp-OPTV.html) | 1.38 (1.38) | 98%|
 |[📊 CLP-1.17.6](lpsimp-CLP.html) | 8.73 (8.73) | 92%|
+|[📊 MOSEK-9.3.10](lpsimp-MSK.html) | 19.98 (20.00) | 82%|
 |[📊 HiGHS-1.1.0](lpsimp-HiGHS.html) | 20.10 (20.10) | 78%|
-|[📊 MOSEK-9.2/3](lpsimp-MSK.html) | 21.10 (21.10) | 88%|
 |[📊 Google-GLOP](lpsimp-GLOP.html) | 32.58 (32.60) | 68%|
 |[📊 MATLAB-R2020b](lpsimp-MATL.html) | 45.72 (45.70) | 72%|
 |[📊 SOPLEX-5.0.2](lpsimp-SPLX.html) | 47.34 (47.30) | 78%|
@@ -27,6 +27,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpsimp-10-Nov-2021.html">10 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/lpsimp-3-Oct-2021.html">3 Oct 2021</a></li>
 <li><a href="/mittelmann-plots/lpsimp-18-Sep-2021.html">18 Sep 2021</a></li>
 <li><a href="/mittelmann-plots/lpsimp-17-Sep-2021.html">17 Sep 2021</a></li>
