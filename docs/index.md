@@ -97,7 +97,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Network-LP Benchmark (commercial vs free) (10 Nov 2021)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (14 Dec 2021)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 20|
@@ -110,13 +110,14 @@ Choose base solver for comparison:
 |[📊 MATLAB-R2020b](network-MATL.html) | 12.59 (12.60) | 100%|
 |[📊 MOSEK-9.3.6](network-MOSEK.html) | 13.52 (13.50) | 100%|
 |[📊 QSopt-1.01](network-QSOPT.html) | 22.92 (22.90) | 85%|
-|[📊 SOPLEX-5.0.2](network-SOPLX.html) | 41.43 (41.40) | 80%|
+|[📊 SOPLEX-6.0.0](network-SOPLX.html) | 51.40 (51.40) | 80%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/network-10-Nov-2021.html">10 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/network-8-Nov-2021.html">8 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/network-22-Oct-2021.html">22 Oct 2021</a></li>
 <li><a href="/mittelmann-plots/network-11-Oct-2021.html">11 Oct 2021</a></li>
@@ -215,15 +216,15 @@ Choose base solver for comparison:
 ---
 
 
-## [Infeasibility Detection for MILP Problems (3 Dec 2021)](http://plato.asu.edu/ftp/infeas.html)
+## [Infeasibility Detection for MILP Problems (14 Dec 2021)](http://plato.asu.edu/ftp/infeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
 | :--- | ---:  | ---:   |
 |[🥇 GUROBI-9.5.0](infeas-Gurobi.html) | 1.00 (1.00) | 91%|
 |[🥈 COPT-3.0.0](infeas-COPT.html) | 4.28 (4.28) | 78%|
-|[🥉 FSCIP-7.0.0](infeas-FSCIP.html) | 7.37 (7.37) | 75%|
-|[📊 SCIP-7.0.2](infeas-SCIP.html) | 8.63 (8.63) | 66%|
+|[🥉 SCIP-8.0.0](infeas-SCIP.html) | 6.06 (6.06) | 78%|
+|[📊 FSCIP-7.0.0](infeas-FSCIP.html) | 7.37 (7.37) | 75%|
 |[📊 CBC-2.10.5](infeas-CBC.html) | 14.80 (14.80) | 62%|
 |[📊 MATLAB-2020b](infeas-MATLAB.html) | 23.00 (23.00) | 47%|
 
@@ -232,6 +233,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/infeas-3-Dec-2021.html">3 Dec 2021</a></li>
 <li><a href="/mittelmann-plots/infeas-10-Nov-2021.html">10 Nov 2021</a></li>
 </ul></details>
 
