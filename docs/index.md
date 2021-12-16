@@ -5,7 +5,7 @@ Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http:
     [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (11 Dec 2021)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers (15 Dec 2021)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 40|
@@ -18,8 +18,8 @@ Choose base solver for comparison:
 |[📊 MOSEK-9.3.10](lpsimp-MSK.html) | 19.98 (20.00) | 82%|
 |[📊 HiGHS-1.1.0](lpsimp-HiGHS.html) | 20.10 (20.10) | 78%|
 |[📊 Google-GLOP](lpsimp-GLOP.html) | 32.58 (32.60) | 68%|
+|[📊 SOPLEX-6.0.0](lpsimp-SPLX.html) | 45.72 (45.70) | 80%|
 |[📊 MATLAB-R2020b](lpsimp-MATL.html) | 45.72 (45.70) | 72%|
-|[📊 SOPLEX-5.0.2](lpsimp-SPLX.html) | 47.34 (47.30) | 78%|
 |[📊 GLPK-5.0](lpsimp-GLPK.html) | 121.44 (121.00) | 62%|
 
 
@@ -27,6 +27,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpsimp-11-Dec-2021.html">11 Dec 2021</a></li>
 <li><a href="/mittelmann-plots/lpsimp-10-Nov-2021.html">10 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/lpsimp-3-Oct-2021.html">3 Oct 2021</a></li>
 <li><a href="/mittelmann-plots/lpsimp-18-Sep-2021.html">18 Sep 2021</a></li>
@@ -199,7 +200,7 @@ Choose base solver for comparison:
 ---
 
 
-## [MILP cases that are slightly pathological (11 Nov 2021)](http://plato.asu.edu/ftp/path.html)
+## [MILP cases that are slightly pathological (15 Dec 2021)](http://plato.asu.edu/ftp/path.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 45|
@@ -207,11 +208,19 @@ Choose base solver for comparison:
 |[🥇 GUROBI-9.5.0](path-Gurobi.html) | 1.00 (1.00) | 98%|
 |[🥈 COPT-3.0.0](path-COPT.html) | 8.26 (8.26) | 56%|
 |[🥉 FSCIP-7.0.0](path-FSCIP.html) | 13.75 (13.80) | 53%|
-|[📊 SCIP-7.0.0](path-SCIP.html) | 21.81 (21.80) | 40%|
+|[📊 SCIP-8.0.0](path-SCIP.html) | 23.02 (23.00) | 38%|
 |[📊 CBC-2.10.5](path-CBC.html) | 23.39 (23.40) | 31%|
 |[📊 HiGHS-1.1.1](path-HiGHS.html) | 26.09 (26.10) | 36%|
 |[📊 GLPK-5.0](path-GLPK.html) | 35.15 (35.20) | 13%|
 |[📊 MATLAB-2020a](path-MATLAB.html) | 42.36 (42.40) | 7%|
+
+
+<details><summary>previous benchmarks 🔽</summary>
+<br>
+
+<ul>
+<li><a href="/mittelmann-plots/path-11-Nov-2021.html">11 Nov 2021</a></li>
+</ul></details>
 
 ---
 
