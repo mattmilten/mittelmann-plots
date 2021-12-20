@@ -141,14 +141,14 @@ Choose base solver for comparison:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances (13 Nov 2021)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances (19 Dec 2021)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
 | :--- | ---:  | ---:   |
 |[🥇 Gurobi-9.5.0](milp-Gurobi.html) | 1.00 (1.00) | 84%|
 |[🥈 COPT-3.0.0](milp-COPT.html) | 4.19 (4.19) | 55%|
-|[🥉 SCIP/spx-7.0.3.5](milp-SCIP.html) | 4.48 (4.48) | 52%|
+|[🥉 SCIP/spx-8.0.0](milp-SCIP.html) | 4.48 (4.48) | 52%|
 |[📊 CBC-2.10.5](milp-CBC.html) | 8.59 (8.59) | 37%|
 |[📊 MATLAB-2020a](milp-MATLAB.html) | 13.45 (13.50) | 26%|
 |[📊 GLPK-5.0](milp-GLPK.html) | 20.56 (20.50) | 10%|
@@ -159,6 +159,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/milp-13-Nov-2021.html">13 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/milp-5-Oct-2021.html">5 Oct 2021</a></li>
 <li><a href="/mittelmann-plots/milp-3-Oct-2021.html">3 Oct 2021</a></li>
 <li><a href="/mittelmann-plots/milp-10-Aug-2021.html">10 Aug 2021</a></li>
@@ -171,7 +172,7 @@ Choose base solver for comparison:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances - 8 threads (13 Nov 2021)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances - 8 threads (19 Dec 2021)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
@@ -179,7 +180,7 @@ Choose base solver for comparison:
 |[🥇 Gurobi-9.5.0](milp_8threads-Gurobi.html) | 1.00 (1.00) | 93%|
 |[🥈 COPT-3.0.0](milp_8threads-COPT.html) | 4.92 (4.92) | 73%|
 |[🥉 FSCIP/spx-7.0.0](milp_8threads-FSCIP.html) | 8.69 (8.69) | 61%|
-|[📊 SCIP/spx-7.0.3.5](milp_8threads-SCIP.html) | 10.46 (10.50) | 56%|
+|[📊 SCIP/spx-8.0.0](milp_8threads-SCIP.html) | 10.29 (10.30) | 54%|
 |[📊 HiGHS-1.1.1](milp_8threads-HiGHS.html) | 13.07 (13.10) | 56%|
 |[📊 CBC-2.10.5](milp_8threads-CBC.html) | 14.53 (14.50) | 45%|
 
@@ -188,6 +189,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/milp_8threads-13-Nov-2021.html">13 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-5-Oct-2021.html">5 Oct 2021</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-3-Oct-2021.html">3 Oct 2021</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-10-Aug-2021.html">10 Aug 2021</a></li>
@@ -323,13 +325,13 @@ Choose base solver for comparison:
 ---
 
 
-## [Discrete Non-Convex QPLIB Benchmark (non-binary) (3 Dec 2021)](http://plato.asu.edu/ftp/nonbinary.html)
+## [Discrete Non-Convex QPLIB Benchmark (non-binary) (18 Dec 2021)](http://plato.asu.edu/ftp/nonbinary.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 81|
 | :--- | ---:  | ---:   |
 |[🥇 Gurobi-9.5.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 90%|
-|[🥈 SCIP-7.0.3.5](nonbinary-SCIP.html) | 26.41 (26.40) | 46%|
+|[🥈 SCIP-8.0.0](nonbinary-SCIP.html) | 29.17 (29.20) | 46%|
 |[🥉 Baron-21.1.13](nonbinary-BARON.html) | 49.70 (49.70) | 33%|
 |[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 55.65 (55.60) | 36%|
 |[📊 OCTERACT-3.6.0](nonbinary-OCTERACT.html) | 81.78 (81.80) | 16%|
@@ -341,6 +343,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/nonbinary-3-Dec-2021.html">3 Dec 2021</a></li>
 <li><a href="/mittelmann-plots/nonbinary-1-Dec-2021.html">1 Dec 2021</a></li>
 <li><a href="/mittelmann-plots/nonbinary-17-Nov-2021.html">17 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/nonbinary-7-Sep-2021.html">7 Sep 2021</a></li>
@@ -420,14 +423,14 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Continuous QPLIB Benchmark (11 Nov 2021)](http://plato.asu.edu/ftp/cconvex.html)
+## [Convex Continuous QPLIB Benchmark (19 Dec 2021)](http://plato.asu.edu/ftp/cconvex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
 | :--- | ---:  | ---:   |
 |[🥇 Gurobi-9.5.0](cconvex-Gurobi.html) | 1.00 (1.00) | 97%|
 |[🥈 KNITRO-12.3.0](cconvex-KNITRO.html) | 1.40 (1.40) | 97%|
-|[🥉 MOSEK-9.2.43](cconvex-MOSEK.html) | 1.57 (1.57) | 97%|
+|[🥉 MOSEK-9.3.11](cconvex-MOSEK.html) | 1.57 (1.57) | 97%|
 |[📊 IPOPT-3.12.13](cconvex-IPOPT.html) | 5.94 (5.94) | 88%|
 
 
@@ -435,6 +438,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/cconvex-11-Nov-2021.html">11 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/cconvex-5-May-2021.html">5 May 2021</a></li>
 <li><a href="/mittelmann-plots/cconvex-13-Dec-2020.html">13 Dec 2020</a></li>
 <li><a href="/mittelmann-plots/cconvex-11-Nov-2020.html">11 Nov 2020</a></li>
