@@ -356,7 +356,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Continuous Non-Convex QPLIB Benchmark (3 Dec 2021)](http://plato.asu.edu/ftp/cnconv.html)
+## [Continuous Non-Convex QPLIB Benchmark (20 Dec 2021)](http://plato.asu.edu/ftp/cnconv.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 63|
@@ -365,7 +365,7 @@ Choose base solver for comparison:
 |[🥈 OCTERACT-3.6.0](cnconv-OCTERACT.html) | 5.00 (5.00) | 37%|
 |[🥉 ANTIGONE-1.1](cnconv-ANTIGONE.html) | 5.01 (5.01) | 44%|
 |[📊 Baron-21.1.13](cnconv-BARON.html) | 6.76 (6.76) | 38%|
-|[📊 SCIP-7.0.3.5](cnconv-SCIP.html) | 10.27 (10.30) | 21%|
+|[📊 SCIP-8.0.0](cnconv-SCIP.html) | 10.64 (10.60) | 21%|
 |[📊 COUENNE-0.5](cnconv-COUENNE.html) | 12.23 (12.20) | 13%|
 |[📊 MINOTAUR-0.2.1](cnconv-MINOTAUR.html) | 12.81 (12.80) | 10%|
 
@@ -374,6 +374,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/cnconv-3-Dec-2021.html">3 Dec 2021</a></li>
 <li><a href="/mittelmann-plots/cnconv-30-Nov-2021.html">30 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/cnconv-17-Nov-2021.html">17 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/cnconv-16-Sep-2021.html">16 Sep 2021</a></li>
