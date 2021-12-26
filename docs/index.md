@@ -141,7 +141,7 @@ Choose base solver for comparison:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances (19 Dec 2021)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances (25 Dec 2021)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
@@ -159,6 +159,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/milp-19-Dec-2021.html">19 Dec 2021</a></li>
 <li><a href="/mittelmann-plots/milp-13-Nov-2021.html">13 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/milp-5-Oct-2021.html">5 Oct 2021</a></li>
 <li><a href="/mittelmann-plots/milp-3-Oct-2021.html">3 Oct 2021</a></li>
@@ -172,7 +173,7 @@ Choose base solver for comparison:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances - 8 threads (19 Dec 2021)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances - 8 threads (25 Dec 2021)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
@@ -180,7 +181,7 @@ Choose base solver for comparison:
 |[🥇 Gurobi-9.5.0](milp_8threads-Gurobi.html) | 1.00 (1.00) | 93%|
 |[🥈 COPT-3.0.0](milp_8threads-COPT.html) | 4.92 (4.92) | 73%|
 |[🥉 FSCIP/spx-7.0.0](milp_8threads-FSCIP.html) | 8.69 (8.69) | 61%|
-|[📊 SCIP/spx-8.0.0](milp_8threads-SCIP.html) | 10.29 (10.30) | 54%|
+|[📊 SCIP/spx-8.0.0](milp_8threads-SCIP.html) | 10.15 (10.20) | 55%|
 |[📊 HiGHS-1.1.1](milp_8threads-HiGHS.html) | 13.07 (13.10) | 56%|
 |[📊 CBC-2.10.5](milp_8threads-CBC.html) | 14.53 (14.50) | 45%|
 
@@ -189,6 +190,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/milp_8threads-19-Dec-2021.html">19 Dec 2021</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-13-Nov-2021.html">13 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-5-Oct-2021.html">5 Oct 2021</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-3-Oct-2021.html">3 Oct 2021</a></li>
