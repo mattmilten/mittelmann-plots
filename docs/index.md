@@ -267,20 +267,21 @@ Choose base solver for comparison:
 ---
 
 
-## [Mixed-integer SOCP Benchmark (10 Nov 2021)](http://plato.asu.edu/ftp/misocp.html)
+## [Mixed-integer SOCP Benchmark (26 Dec 2021)](http://plato.asu.edu/ftp/misocp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 47|
 | :--- | ---:  | ---:   |
 |[🥇 Gurobi-9.5.0](misocp-GUROBI.html) | 1.00 (1.00) | 100%|
 |[🥈 MOSEK-9.3.1](misocp-MOSEK.html) | 18.28 (18.30) | 68%|
-|[🥉 SCIP-7.0.3.5](misocp-SCIP.html) | 22.39 (22.40) | 66%|
+|[🥉 SCIP-8.0.0](misocp-SCIP.html) | 20.37 (20.40) | 66%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/misocp-10-Nov-2021.html">10 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/misocp-3-Sep-2021.html">3 Sep 2021</a></li>
 <li><a href="/mittelmann-plots/misocp-21-Aug-2021.html">21 Aug 2021</a></li>
 <li><a href="/mittelmann-plots/misocp-12-Aug-2021.html">12 Aug 2021</a></li>
