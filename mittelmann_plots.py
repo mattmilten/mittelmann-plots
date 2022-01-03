@@ -31,6 +31,8 @@ def get_version(s, version):
         s = "HiGHS"
     elif s in ["GUROBI"]:
         s = "Gurobi"
+    elif s in ["SCIPC"]:
+        s = "SCIP/cpx"
 
     match = [v for v in version if v.lower().startswith(s.lower())]
     return match[0] if match else s
@@ -135,8 +137,10 @@ def parse_table(url, timelimit=3600, threads=1):
                 columns[i] = "LP_SOL"
             elif c.startswith("FiberSCIP"):
                 columns[i] = "FSCIP"
-            elif c.startswith("SCIP"):
+            elif c.startswith("SCIP-spx"):
                 columns[i] = "SCIP"
+            elif c.startswith("SCIP-cpx"):
+                columns[i] = "SCIPC"
 
         _version = str(soup.contents[2]).split("<p>")[4].split("\n")[1:-1]
         _version = [x.split()[0].rstrip(":") for x in _version]
