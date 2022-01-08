@@ -297,13 +297,13 @@ Choose base solver for comparison:
 ---
 
 
-## [Binary Non-Convex QPLIB Benchmark (18 Dec 2021)](http://plato.asu.edu/ftp/qplib.html)
+## [Binary Non-Convex QPLIB Benchmark (7 Jan 2022)](http://plato.asu.edu/ftp/qplib.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 88|
 | :--- | ---:  | ---:   |
 |[🥇 Gurobi-9.5.0](qplib-GUROBI.html) | 1.00 (1.00) | 98%|
-|[🥈 OCTERACT-3.6.0](qplib-OCTERACT.html) | 12.73 (12.70) | 55%|
+|[🥈 OCTERACT-4.0.0](qplib-OCTERACT.html) | 12.14 (12.10) | 55%|
 |[🥉 Baron-21.1.13](qplib-BARON.html) | 14.99 (15.00) | 48%|
 |[📊 FSCIP-7.0.0](qplib-FSCIP.html) | 41.13 (41.10) | 39%|
 |[📊 SCIP-8.0.0](qplib-SCIP.html) | 41.57 (41.60) | 34%|
@@ -315,6 +315,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/qplib-18-Dec-2021.html">18 Dec 2021</a></li>
 <li><a href="/mittelmann-plots/qplib-3-Dec-2021.html">3 Dec 2021</a></li>
 <li><a href="/mittelmann-plots/qplib-29-Nov-2021.html">29 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/qplib-24-Nov-2021.html">24 Nov 2021</a></li>
