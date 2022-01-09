@@ -395,7 +395,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Discrete QPLIB Benchmark (16 Dec 2021)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (8 Jan 2022)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 31|
@@ -404,10 +404,10 @@ Choose base solver for comparison:
 |[🥈 Baron-21.1.13](convex-BARON.html) | 6.20 (6.20) | 55%|
 |[🥉 MOSEK-9.2.29](convex-MOSEK.html) | 11.71 (11.70) | 42%|
 |[📊 SCIP-8.0.0](convex-SCIP.html) | 13.06 (13.10) | 42%|
+|[📊 OCTERACT-4.0.0](convex-OCTERACT.html) | 17.31 (17.30) | 39%|
 |[📊 Bonmin-1.8.7](convex-BONMIN.html) | 17.78 (17.80) | 32%|
 |[📊 KNITRO-12.3.0](convex-KNITRO.html) | 18.13 (18.10) | 29%|
 |[📊 MINOTAUR-0.2.1](convex-MINOTAUR.html) | 29.48 (29.50) | 35%|
-|[📊 OCTERACT-3.6.0](convex-OCTERACT.html) | 29.82 (29.20) | 16%|
 |[📊 ANTIGONE-1.1](convex-ANTIGONE.html) | 46.86 (46.90) | 6%|
 |[📊 Shot-1.0](convex-SHOT.html) | 54.86 (54.90) | 3%|
 
@@ -416,6 +416,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/convex-16-Dec-2021.html">16 Dec 2021</a></li>
 <li><a href="/mittelmann-plots/convex-22-Nov-2021.html">22 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/convex-11-Nov-2021.html">11 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/convex-21-Aug-2021.html">21 Aug 2021</a></li>
