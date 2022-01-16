@@ -332,7 +332,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Discrete Non-Convex QPLIB Benchmark (non-binary) (18 Dec 2021)](http://plato.asu.edu/ftp/nonbinary.html)
+## [Discrete Non-Convex QPLIB Benchmark (non-binary) (15 Jan 2022)](http://plato.asu.edu/ftp/nonbinary.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 81|
@@ -341,7 +341,7 @@ Choose base solver for comparison:
 |[🥈 SCIP-8.0.0](nonbinary-SCIP.html) | 29.17 (29.20) | 46%|
 |[🥉 Baron-21.1.13](nonbinary-BARON.html) | 49.70 (49.70) | 33%|
 |[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 55.65 (55.60) | 36%|
-|[📊 OCTERACT-3.6.0](nonbinary-OCTERACT.html) | 81.78 (81.80) | 16%|
+|[📊 OCTERACT-4.0.0](nonbinary-OCTERACT.html) | 60.89 (60.90) | 23%|
 |[📊 COUENNE-0.5](nonbinary-COUENNE.html) | 119.32 (119.00) | 10%|
 |[📊 MINOTAUR-0.2.1](nonbinary-MINOTAUR.html) | 136.23 (136.00) | 5%|
 
@@ -350,6 +350,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/nonbinary-18-Dec-2021.html">18 Dec 2021</a></li>
 <li><a href="/mittelmann-plots/nonbinary-3-Dec-2021.html">3 Dec 2021</a></li>
 <li><a href="/mittelmann-plots/nonbinary-1-Dec-2021.html">1 Dec 2021</a></li>
 <li><a href="/mittelmann-plots/nonbinary-17-Nov-2021.html">17 Nov 2021</a></li>
@@ -363,13 +364,13 @@ Choose base solver for comparison:
 ---
 
 
-## [Continuous Non-Convex QPLIB Benchmark (20 Dec 2021)](http://plato.asu.edu/ftp/cnconv.html)
+## [Continuous Non-Convex QPLIB Benchmark (15 Jan 2022)](http://plato.asu.edu/ftp/cnconv.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 63|
 | :--- | ---:  | ---:   |
 |[🥇 GUROBI-9.5.0](cnconv-GUROBI.html) | 1.00 (1.00) | 67%|
-|[🥈 OCTERACT-3.6.0](cnconv-OCTERACT.html) | 5.00 (5.00) | 37%|
+|[🥈 OCTERACT-4.0.0](cnconv-OCTERACT.html) | 4.91 (4.91) | 35%|
 |[🥉 ANTIGONE-1.1](cnconv-ANTIGONE.html) | 5.01 (5.01) | 44%|
 |[📊 Baron-21.1.13](cnconv-BARON.html) | 6.76 (6.76) | 38%|
 |[📊 SCIP-8.0.0](cnconv-SCIP.html) | 10.64 (10.60) | 21%|
@@ -381,6 +382,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/cnconv-20-Dec-2021.html">20 Dec 2021</a></li>
 <li><a href="/mittelmann-plots/cnconv-3-Dec-2021.html">3 Dec 2021</a></li>
 <li><a href="/mittelmann-plots/cnconv-30-Nov-2021.html">30 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/cnconv-17-Nov-2021.html">17 Nov 2021</a></li>
