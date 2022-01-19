@@ -256,7 +256,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Second Order Cone Benchmark (10 Nov 2021)](http://plato.asu.edu/ftp/socp.html)
+## [Large Second Order Cone Benchmark (18 Jan 2022)](http://plato.asu.edu/ftp/socp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 18|
@@ -264,8 +264,16 @@ Choose base solver for comparison:
 |[🥇 MOSEK-9.3.6](socp-MOSEK.html) | 1.00 (1.00) | 100%|
 |[🥈 Gurobi-9.5.0](socp-Gurobi.html) | 1.08 (1.08) | 100%|
 |[🥉 COPT-3.0.0](socp-COPT.html) | 1.66 (1.66) | 100%|
-|[📊 KNITRO-12.3.0](socp-KNITRO.html) | 9.74 (9.74) | 83%|
+|[📊 KNITRO-13.0.0](socp-KNITRO.html) | 9.50 (9.50) | 83%|
 |[📊 ECOS-2.0.4](socp-ECOS.html) | 78.36 (78.40) | 33%|
+
+
+<details><summary>previous benchmarks 🔽</summary>
+<br>
+
+<ul>
+<li><a href="/mittelmann-plots/socp-10-Nov-2021.html">10 Nov 2021</a></li>
+</ul></details>
 
 ---
 
@@ -435,13 +443,13 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Continuous QPLIB Benchmark (19 Dec 2021)](http://plato.asu.edu/ftp/cconvex.html)
+## [Convex Continuous QPLIB Benchmark (18 Jan 2022)](http://plato.asu.edu/ftp/cconvex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
 | :--- | ---:  | ---:   |
 |[🥇 Gurobi-9.5.0](cconvex-Gurobi.html) | 1.00 (1.00) | 97%|
-|[🥈 KNITRO-12.3.0](cconvex-KNITRO.html) | 1.40 (1.40) | 97%|
+|[🥈 KNITRO-13.0.0](cconvex-KNITRO.html) | 1.22 (1.22) | 97%|
 |[🥉 MOSEK-9.3.11](cconvex-MOSEK.html) | 1.57 (1.57) | 97%|
 |[📊 IPOPT-3.12.13](cconvex-IPOPT.html) | 5.94 (5.94) | 88%|
 
@@ -450,6 +458,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/cconvex-19-Dec-2021.html">19 Dec 2021</a></li>
 <li><a href="/mittelmann-plots/cconvex-11-Nov-2021.html">11 Nov 2021</a></li>
 <li><a href="/mittelmann-plots/cconvex-5-May-2021.html">5 May 2021</a></li>
 <li><a href="/mittelmann-plots/cconvex-13-Dec-2020.html">13 Dec 2020</a></li>
