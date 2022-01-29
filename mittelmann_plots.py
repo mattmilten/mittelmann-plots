@@ -1,5 +1,6 @@
 # %%
 
+from time import sleep
 from bs4 import BeautifulSoup
 import requests
 import math
@@ -519,5 +520,6 @@ The score ([scaled shifted geometric mean](http://plato.asu.edu/ftp/shgeom.html)
          for url in urls:
              print(f"processing {url[0]}")
              index.write(write_bench(url[0], url[1], url[2]))
+             sleep(3)
 
 # %%
