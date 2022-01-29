@@ -509,15 +509,15 @@ urls = [
 if __name__ == '__main__':
      with open("docs/index.md", "w", encoding="utf-8") as index:
          index.write(
-             """Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http://plato.asu.edu/bench.html).
-    Each solver can be selected to show pairwise running time factors for every other solver in the respective benchmark.
-    These plots should make browsing the results easier.
-    The score ([scaled shifted geometric mean](http://plato.asu.edu/ftp/shgeom.html)) is recomputed using the reported solving times.
-    [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.\n
+"""Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http://plato.asu.edu/bench.html).
+Each solver can be selected to show pairwise running time factors for every other solver in the respective benchmark.
+These plots should make browsing the results easier.
+The score ([scaled shifted geometric mean](http://plato.asu.edu/ftp/shgeom.html)) is recomputed using the reported solving times.
+[Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.\n
     """
          )
          for url in urls:
-             print(f"processing {url[0]}...")
+             print(f"processing {url[0]}")
              index.write(write_bench(url[0], url[1], url[2]))
 
 # %%
