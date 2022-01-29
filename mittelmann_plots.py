@@ -18,6 +18,9 @@ def get_version(s, version):
             version.append(v.replace("(F)", ""))
             version.append(v.replace("(F)", "F"))
             version.remove(v)
+        # split up SCIP entry to support SCIP-cpx
+        if v.startswith("SCIP-"):
+            version.append(v.replace("SCIP","SCIPC"))
 
     if s in ["SPLX", "SOPLX"]:
         s = "SoPlex"
@@ -32,7 +35,7 @@ def get_version(s, version):
     elif s in ["GUROBI"]:
         s = "Gurobi"
     elif s in ["SCIPC"]:
-        s = "SCIP/cpx"
+        s = "SCIPC"
 
     match = [v for v in version if v.lower().startswith(s.lower())]
     return match[0] if match else s
@@ -174,8 +177,10 @@ def parse_table(url, timelimit=3600, threads=1):
                 columns[i] = "LP_SOL"
             elif c.startswith("FiberSCIP"):
                 columns[i] = "FSCIP"
-            elif c.startswith("SCIP"):
+            elif c.startswith("SCIP-spx"):
                 columns[i] = "SCIP"
+            elif c.startswith("SCIP-cpx"):
+                columns[i] = "SCIPC"
 
         _version = str(soup.contents[2]).split("<br/>")[1:-1]
         _version = [x.split()[0].rstrip(":") for x in _version]
@@ -209,14 +214,14 @@ def parse_table(url, timelimit=3600, threads=1):
                 columns[i] = "LP_SOL"
             elif c.startswith("FiberSCIP"):
                 columns[i] = "FSCIP"
-            elif c.startswith("SCIP"):
+            elif c.startswith("SCIP-spx"):
                 columns[i] = "SCIP"
 
         _version = str(soup.contents[2]).split("<p>")[3].split("\n")[1:-1]
         _version = [x.split()[0].rstrip(":") for x in _version]
         _solved = scoretab[4].split()[3:]
         _score = scoretab[2].split()[:]
-        solver = [get_version(s, "") for s in scoretab[0].split()[:]]
+        solver = [get_version(s, "") for s in scoretab[0].split()[:-1]]
         stats["solver"] = solver
         stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
         stats["version"] = {s: get_version(s, _version) for s in solver}
@@ -502,7 +507,7 @@ urls = [
 
 # %%
 if __name__ == '__main__':
-     with open("docs/index.md", "w") as index:
+     with open("docs/index.md", "w", encoding="utf-8") as index:
          index.write(
              """Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http://plato.asu.edu/bench.html).
     Each solver can be selected to show pairwise running time factors for every other solver in the respective benchmark.
