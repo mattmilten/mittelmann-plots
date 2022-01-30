@@ -11,16 +11,16 @@ Choose base solver for comparison:
 | solver | score (as reported) | solved of 40|
 | :--- | ---:  | ---:   |
 |[🥇 COPT-4.0.0](lpsimp-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 MindOpt-0.15.0](lpsimp-MDOPT.html) | 1.19 (1.19) | 100%|
-|[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.63 (1.63) | 100%|
-|[📊 Optverse-0.2.1](lpsimp-OPTV.html) | 1.64 (1.64) | 98%|
-|[📊 CLP-1.17.6](lpsimp-CLP.html) | 10.37 (10.40) | 92%|
-|[📊 MOSEK-9.3.10](lpsimp-MSK.html) | 23.74 (23.70) | 82%|
-|[📊 HiGHS-1.1.0](lpsimp-HiGHS.html) | 23.89 (23.90) | 78%|
-|[📊 Google-GLOP](lpsimp-GLOP.html) | 38.72 (38.70) | 68%|
-|[📊 SOPLEX-6.0.0](lpsimp-SPLX.html) | 54.33 (54.30) | 80%|
-|[📊 MATLAB-R2020b](lpsimp-MATL.html) | 54.33 (54.30) | 72%|
-|[📊 GLPK-5.0](lpsimp-GLPK.html) | 144.32 (144.00) | 62%|
+|[🥈 MindOpt-0.15.0](lpsimp-MDOPT.html) | 1.30 (1.30) | 100%|
+|[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.79 (1.79) | 100%|
+|[📊 Optverse-0.2.1](lpsimp-OPTV.html) | 1.80 (1.80) | 98%|
+|[📊 CLP-1.17.6](lpsimp-CLP.html) | 11.37 (11.40) | 92%|
+|[📊 MOSEK-9.3.10](lpsimp-MSK.html) | 26.03 (26.00) | 82%|
+|[📊 HiGHS-1.1.0](lpsimp-HiGHS.html) | 26.19 (26.20) | 78%|
+|[📊 Google-GLOP](lpsimp-GLOP.html) | 42.45 (42.40) | 68%|
+|[📊 SOPLEX-6.0.0](lpsimp-SPLX.html) | 59.56 (59.60) | 80%|
+|[📊 MATLAB-R2020b](lpsimp-MATL.html) | 59.57 (59.60) | 72%|
+|[📊 GLPK-5.0](lpsimp-GLPK.html) | 158.22 (158.00) | 62%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
@@ -60,15 +60,15 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 47|
 | :--- | ---:  | ---:   |
-|[🥇 COPT-4.0.0](lpbar-COPT.html) | 1.00 (1.07) | 100%|
-|[🥈 Gurobi-9.5.0](lpbar-Gurobi.html) | 1.07 (1.00) | 100%|
-|[🥉 MindOpt-0.15.0](lpbar-MDOPT.html) | 2.66 (2.49) | 100%|
-|[📊 MOSEK-9.3.10](lpbar-MOSEK.html) | 4.75 (4.45) | 96%|
-|[📊 KNITRO-13.0.0](lpbar-KNITRO.html) | 15.45 (14.50) | 81%|
-|[📊 HiGHS-1.1.0](lpbar-HiGHS.html) | 17.37 (16.30) | 87%|
-|[📊 MATLAB-R2020b](lpbar-MATLAB.html) | 48.67 (39.30) | 74%|
-|[📊 Tulip-0.8.0](lpbar-TULIP.html) | 63.85 (59.80) | 66%|
-|[📊 CLP-1.17.6](lpbar-CLP.html) | 78.37 (73.40) | 74%|
+|[🥇 COPT-4.0.0](lpbar-COPT.html) | 1.00 (1.00) | 100%|
+|[🥈 Gurobi-9.5.0](lpbar-Gurobi.html) | 1.07 (1.07) | 100%|
+|[🥉 MindOpt-0.15.0](lpbar-MDOPT.html) | 2.66 (2.66) | 100%|
+|[📊 MOSEK-9.3.10](lpbar-MOSEK.html) | 4.75 (4.75) | 96%|
+|[📊 KNITRO-13.0.0](lpbar-KNITRO.html) | 15.45 (15.50) | 81%|
+|[📊 HiGHS-1.1.0](lpbar-HiGHS.html) | 17.37 (17.40) | 87%|
+|[📊 MATLAB-R2020b](lpbar-MATLAB.html) | 48.67 (41.90) | 74%|
+|[📊 Tulip-0.8.0](lpbar-TULIP.html) | 63.85 (63.80) | 66%|
+|[📊 CLP-1.17.6](lpbar-CLP.html) | 78.37 (78.40) | 74%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
