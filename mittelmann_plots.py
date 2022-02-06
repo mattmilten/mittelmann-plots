@@ -20,7 +20,7 @@ def get_version(s, version):
             version.append(v.replace("(F)", "F"))
             version.remove(v)
         # split up SCIP entry to support SCIP-cpx
-        if v.startswith("SCIP-"):
+        if v.startswith("SCIP-") or v.startswith("SCIP/"):
             version.append(v.replace("SCIP","SCIPC"))
 
     if s in ["SPLX", "SOPLX"]:
