@@ -188,7 +188,7 @@ Choose base solver for comparison:
 | :--- | ---:  | ---:   |
 |[🥇 Gurobi-9.5.0](milp_8threads-Gurobi.html) | 1.00 (1.00) | 93%|
 |[🥈 COPT-4.0.0](milp_8threads-COPT.html) | 3.50 (3.50) | 77%|
-|[🥉 SCIPC](milp_8threads-SCIPC.html) | 8.33 (8.33) | 61%|
+|[🥉 SCIPC/cpx-8.0.0](milp_8threads-SCIPC.html) | 8.33 (8.33) | 61%|
 |[📊 FSCIP/spx-7.0.0](milp_8threads-FSCIP.html) | 8.69 (8.69) | 61%|
 |[📊 SCIP/spx-8.0.0](milp_8threads-SCIP.html) | 10.15 (10.20) | 55%|
 |[📊 HiGHS-1.1.1](milp_8threads-HiGHS.html) | 13.07 (13.10) | 56%|
