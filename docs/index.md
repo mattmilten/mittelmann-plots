@@ -5,28 +5,29 @@ The score ([scaled shifted geometric mean](http://plato.asu.edu/ftp/shgeom.html)
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (1 Feb 2022)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers (17 Feb 2022)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 40|
 | :--- | ---:  | ---:   |
-|[🥇 MindOpt-0.16.0](lpsimp-MDOPT.html) | 1.00 (1.00) | 100%|
-|[🥈 COPT-4.0.0](lpsimp-COPT.html) | 1.05 (1.05) | 100%|
-|[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.87 (1.87) | 100%|
-|[📊 Optverse-0.2.1](lpsimp-OPTV.html) | 1.88 (1.88) | 98%|
-|[📊 CLP-1.17.7](lpsimp-CLP.html) | 11.06 (11.10) | 90%|
-|[📊 MOSEK-9.3.10](lpsimp-MSK.html) | 27.26 (27.30) | 82%|
-|[📊 HiGHS-1.1.0](lpsimp-HiGHS.html) | 27.43 (27.40) | 78%|
-|[📊 Google-GLOP](lpsimp-GLOP.html) | 44.45 (44.40) | 68%|
-|[📊 SOPLEX-6.0.0](lpsimp-SPLX.html) | 62.38 (62.40) | 80%|
-|[📊 MATLAB-R2020b](lpsimp-MATL.html) | 62.38 (62.40) | 72%|
-|[📊 GLPK-5.0](lpsimp-GLPK.html) | 165.70 (166.00) | 62%|
+|[🥇 COPT-4.0.1](lpsimp-COPT.html) | 1.00 (1.00) | 100%|
+|[🥈 MindOpt-0.16.0](lpsimp-MDOPT.html) | 1.09 (1.09) | 100%|
+|[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 2.04 (2.04) | 100%|
+|[📊 Optverse-0.2.1](lpsimp-OPTV.html) | 2.05 (2.05) | 98%|
+|[📊 CLP-1.17.7](lpsimp-CLP.html) | 12.04 (12.00) | 90%|
+|[📊 MOSEK-9.3.10](lpsimp-MSK.html) | 29.66 (29.70) | 82%|
+|[📊 HiGHS-1.1.0](lpsimp-HiGHS.html) | 29.85 (29.90) | 78%|
+|[📊 Google-GLOP](lpsimp-GLOP.html) | 48.38 (48.40) | 68%|
+|[📊 SOPLEX-6.0.0](lpsimp-SPLX.html) | 67.89 (67.90) | 80%|
+|[📊 MATLAB-R2020b](lpsimp-MATL.html) | 67.89 (67.90) | 72%|
+|[📊 GLPK-5.0](lpsimp-GLPK.html) | 180.34 (180.00) | 62%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpsimp-1-Feb-2022.html">1 Feb 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-30-Jan-2022.html">30 Jan 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-28-Jan-2022.html">28 Jan 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-15-Dec-2021.html">15 Dec 2021</a></li>
@@ -57,26 +58,27 @@ Choose base solver for comparison:
 ---
 
 
-## [Benchmark of Barrier LP solvers (28 Jan 2022)](http://plato.asu.edu/ftp/lpbar.html)
+## [Benchmark of Barrier LP solvers (17 Feb 2022)](http://plato.asu.edu/ftp/lpbar.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 47|
 | :--- | ---:  | ---:   |
-|[🥇 COPT-4.0.0](lpbar-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 Gurobi-9.5.0](lpbar-Gurobi.html) | 1.07 (1.07) | 100%|
-|[🥉 MindOpt-0.16.0](lpbar-MDOPT.html) | 2.08 (2.08) | 100%|
-|[📊 MOSEK-9.3.10](lpbar-MOSEK.html) | 4.75 (4.75) | 96%|
-|[📊 KNITRO-13.0.0](lpbar-KNITRO.html) | 15.45 (15.50) | 81%|
-|[📊 HiGHS-1.1.0](lpbar-HiGHS.html) | 17.37 (17.40) | 87%|
-|[📊 MATLAB-R2020b](lpbar-MATLAB.html) | 48.67 (41.90) | 74%|
-|[📊 Tulip-0.8.0](lpbar-TULIP.html) | 63.85 (63.80) | 66%|
-|[📊 CLP-1.17.6](lpbar-CLP.html) | 78.37 (78.40) | 74%|
+|[🥇 COPT-4.0.1](lpbar-COPT.html) | 1.00 (1.00) | 100%|
+|[🥈 Gurobi-9.5.0](lpbar-Gurobi.html) | 1.10 (1.10) | 100%|
+|[🥉 MindOpt-0.16.0](lpbar-MDOPT.html) | 2.14 (2.14) | 100%|
+|[📊 MOSEK-9.3.10](lpbar-MOSEK.html) | 4.89 (4.89) | 96%|
+|[📊 KNITRO-13.0.0](lpbar-KNITRO.html) | 15.92 (15.90) | 81%|
+|[📊 HiGHS-1.1.0](lpbar-HiGHS.html) | 17.89 (17.90) | 87%|
+|[📊 MATLAB-R2020b](lpbar-MATLAB.html) | 50.15 (43.20) | 74%|
+|[📊 Tulip-0.8.0](lpbar-TULIP.html) | 65.79 (65.80) | 66%|
+|[📊 CLP-1.17.6](lpbar-CLP.html) | 80.75 (80.80) | 74%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpbar-28-Jan-2022.html">28 Jan 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-19-Jan-2022.html">19 Jan 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-9-Dec-2021.html">9 Dec 2021</a></li>
 <li><a href="/mittelmann-plots/lpbar-10-Nov-2021.html">10 Nov 2021</a></li>
