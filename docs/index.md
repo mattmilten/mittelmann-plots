@@ -105,26 +105,27 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Network-LP Benchmark (commercial vs free) (1 Mar 2022)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (3 Mar 2022)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 21|
+| solver | score (as reported) | solved of 25|
 | :--- | ---:  | ---:   |
 |[🥇 MindOpt-0.17.0](network-MDOPT.html) | 1.00 (1.00) | 100%|
-|[🥈 COPT-4.0.0](network-COPT.html) | 1.20 (1.20) | 100%|
-|[🥉 Gurobi-9.5.0](network-GUR.html) | 3.30 (3.30) | 100%|
-|[📊 Clp-1.17.7](network-CLP.html) | 3.50 (3.50) | 100%|
-|[📊 HiGHS-1.1.1](network-HGHS.html) | 7.43 (7.43) | 95%|
-|[📊 MATLAB-R2020b](network-MATL.html) | 14.08 (14.10) | 95%|
-|[📊 MOSEK-9.3.6](network-MOSEK.html) | 15.07 (15.10) | 100%|
-|[📊 QSopt-1.01](network-QSOPT.html) | 24.85 (24.90) | 81%|
-|[📊 SOPLEX-6.0.0](network-SOPLX.html) | 53.57 (53.60) | 76%|
+|[🥈 COPT-4.0.1](network-COPT.html) | 1.10 (1.10) | 100%|
+|[🥉 Clp-1.17.7](network-CLP.html) | 3.05 (3.05) | 100%|
+|[📊 Gurobi-9.5.0](network-GUR.html) | 3.33 (3.33) | 96%|
+|[📊 HiGHS-1.1.1](network-HGHS.html) | 6.56 (6.56) | 80%|
+|[📊 MATLAB-R2020b](network-MATL.html) | 11.09 (11.10) | 80%|
+|[📊 MOSEK-9.3.6](network-MOSEK.html) | 11.73 (11.70) | 84%|
+|[📊 QSopt-1.01](network-QSOPT.html) | 17.80 (17.80) | 68%|
+|[📊 SOPLEX-6.0.0](network-SOPLX.html) | 33.84 (33.80) | 64%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/network-1-Mar-2022.html">1 Mar 2022</a></li>
 <li><a href="/mittelmann-plots/network-1-Feb-2022.html">1 Feb 2022</a></li>
 <li><a href="/mittelmann-plots/network-14-Dec-2021.html">14 Dec 2021</a></li>
 <li><a href="/mittelmann-plots/network-10-Nov-2021.html">10 Nov 2021</a></li>
