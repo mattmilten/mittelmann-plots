@@ -5,28 +5,28 @@ The score ([scaled shifted geometric mean](http://plato.asu.edu/ftp/shgeom.html)
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (4 Mar 2022)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers (1 Apr 2022)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 40|
+| solver | score (as reported) | solved of 53|
 | :--- | ---:  | ---:   |
-|[🥇 MindOpt-0.17.0](lpsimp-MDOPT.html) | 1.00 (1.00) | 100%|
-|[🥈 COPT-4.0.1](lpsimp-COPT.html) | 1.14 (1.14) | 100%|
-|[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 2.32 (2.32) | 100%|
-|[📊 Optverse-0.2.1](lpsimp-OPTV.html) | 2.34 (2.34) | 98%|
-|[📊 CLP-1.17.7](lpsimp-CLP.html) | 13.75 (13.70) | 90%|
-|[📊 MOSEK-9.3.10](lpsimp-MSK.html) | 33.87 (33.90) | 82%|
-|[📊 HiGHS-1.1.0](lpsimp-HiGHS.html) | 34.08 (34.10) | 78%|
-|[📊 Google-GLOP](lpsimp-GLOP.html) | 55.24 (55.20) | 68%|
-|[📊 SOPLEX-6.0.0](lpsimp-SPLX.html) | 77.51 (77.50) | 80%|
-|[📊 MATLAB-R2020b](lpsimp-MATL.html) | 77.52 (77.50) | 72%|
-|[📊 GLPK-5.0](lpsimp-GLPK.html) | 205.90 (206.00) | 62%|
+|[🥇 COPT-4.0.1](lpsimp-COPT.html) | 1.00 (1.00) | 98%|
+|[🥈 MindOpt-0.18.0](lpsimp-MDOPT.html) | 1.21 (1.21) | 98%|
+|[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.33 (1.33) | 100%|
+|[📊 Optverse-0.2.1](lpsimp-OPTV.html) | 3.63 (3.63) | 74%|
+|[📊 CLP-1.17.7](lpsimp-CLP.html) | 8.80 (8.80) | 79%|
+|[📊 HiGHS-1.2.1](lpsimp-HiGHS.html) | 14.29 (14.30) | 79%|
+|[📊 MOSEK-9.3.18](lpsimp-MOSEK.html) | 15.72 (15.70) | 79%|
+|[📊 Google-GLOP](lpsimp-GLOP.html) | 26.12 (26.10) | 60%|
+|[📊 SOPLEX-6.0.0](lpsimp-SPLX.html) | 44.48 (44.50) | 64%|
+|[📊 GLPK-5.0](lpsimp-GLPK.html) | 89.82 (89.80) | 53%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpsimp-4-Mar-2022.html">4 Mar 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-17-Feb-2022.html">17 Feb 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-1-Feb-2022.html">1 Feb 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-30-Jan-2022.html">30 Jan 2022</a></li>
@@ -59,7 +59,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Benchmark of Barrier LP solvers (4 Mar 2022)](http://plato.asu.edu/ftp/lpbar.html)
+## [Benchmark of Barrier LP solvers (12 Mar 2022)](http://plato.asu.edu/ftp/lpbar.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 47|
@@ -69,9 +69,9 @@ Choose base solver for comparison:
 |[🥉 MindOpt-0.17.0](lpbar-MDOPT.html) | 2.17 (2.17) | 100%|
 |[📊 MOSEK-9.3.10](lpbar-MOSEK.html) | 4.89 (4.89) | 96%|
 |[📊 KNITRO-13.0.0](lpbar-KNITRO.html) | 15.92 (15.90) | 81%|
-|[📊 HiGHS-1.1.0](lpbar-HiGHS.html) | 17.89 (17.90) | 87%|
+|[📊 HiGHS-1.2.1](lpbar-HiGHS.html) | 19.29 (19.30) | 89%|
 |[📊 MATLAB-R2020b](lpbar-MATLAB.html) | 50.15 (43.20) | 74%|
-|[📊 Tulip-0.8.0](lpbar-TULIP.html) | 65.79 (65.80) | 66%|
+|[📊 Tulip-0.9.2](lpbar-TULIP.html) | 56.30 (56.30) | 70%|
 |[📊 CLP-1.17.6](lpbar-CLP.html) | 80.75 (80.80) | 74%|
 
 
@@ -79,6 +79,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpbar-4-Mar-2022.html">4 Mar 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-17-Feb-2022.html">17 Feb 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-28-Jan-2022.html">28 Jan 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-19-Jan-2022.html">19 Jan 2022</a></li>
@@ -107,13 +108,13 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Network-LP Benchmark (commercial vs free) (4 Mar 2022)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (26 Mar 2022)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 25|
 | :--- | ---:  | ---:   |
 |[🥇 Gurobi-9.5.1](network-GUR.html) | 1.00 (1.00) | 100%|
-|[🥈 MindOpt-0.17.0](network-MDOPT.html) | 1.17 (1.17) | 100%|
+|[🥈 MindOpt-0.18.0](network-MDOPT.html) | 1.18 (1.18) | 100%|
 |[🥉 COPT-4.0.1](network-COPT.html) | 1.29 (1.29) | 100%|
 |[📊 Clp-1.17.7](network-CLP.html) | 3.56 (3.56) | 100%|
 |[📊 HiGHS-1.1.1](network-HGHS.html) | 7.66 (7.66) | 80%|
@@ -127,6 +128,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/network-4-Mar-2022.html">4 Mar 2022</a></li>
 <li><a href="/mittelmann-plots/network-3-Mar-2022.html">3 Mar 2022</a></li>
 <li><a href="/mittelmann-plots/network-1-Mar-2022.html">1 Mar 2022</a></li>
 <li><a href="/mittelmann-plots/network-1-Feb-2022.html">1 Feb 2022</a></li>
@@ -363,24 +365,25 @@ Choose base solver for comparison:
 ---
 
 
-## [Discrete Non-Convex QPLIB Benchmark (non-binary) (28 Jan 2022)](http://plato.asu.edu/ftp/nonbinary.html)
+## [Discrete Non-Convex QPLIB Benchmark (non-binary) (9 Mar 2022)](http://plato.asu.edu/ftp/nonbinary.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 81|
+| solver | score (as reported) | solved of 85|
 | :--- | ---:  | ---:   |
-|[🥇 Gurobi-9.5.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 90%|
-|[🥈 SCIP-8.0.0](nonbinary-SCIP.html) | 29.17 (29.20) | 46%|
-|[🥉 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 55.65 (55.60) | 36%|
-|[📊 Baron-22.1.8](nonbinary-BARON.html) | 57.16 (57.20) | 32%|
-|[📊 OCTERACT-4.0.0](nonbinary-OCTERACT.html) | 60.89 (60.90) | 23%|
-|[📊 COUENNE-0.5](nonbinary-COUENNE.html) | 119.32 (119.00) | 10%|
-|[📊 MINOTAUR-0.2.1](nonbinary-MINOTAUR.html) | 136.23 (136.00) | 5%|
+|[🥇 Gurobi-9.5.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 86%|
+|[🥈 OCTERACT-4.2.0](nonbinary-OCTERACT.html) | 9.39 (9.39) | 51%|
+|[🥉 SCIP-8.0.0](nonbinary-SCIP.html) | 24.33 (24.30) | 44%|
+|[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 45.01 (45.00) | 34%|
+|[📊 Baron-22.1.8](nonbinary-BARON.html) | 46.18 (46.20) | 31%|
+|[📊 COUENNE-0.5](nonbinary-COUENNE.html) | 93.12 (93.10) | 9%|
+|[📊 MINOTAUR-0.2.1](nonbinary-MINOTAUR.html) | 105.65 (106.00) | 5%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/nonbinary-28-Jan-2022.html">28 Jan 2022</a></li>
 <li><a href="/mittelmann-plots/nonbinary-15-Jan-2022.html">15 Jan 2022</a></li>
 <li><a href="/mittelmann-plots/nonbinary-18-Dec-2021.html">18 Dec 2021</a></li>
 <li><a href="/mittelmann-plots/nonbinary-3-Dec-2021.html">3 Dec 2021</a></li>
