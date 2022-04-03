@@ -5,7 +5,7 @@ The score ([scaled shifted geometric mean](http://plato.asu.edu/ftp/shgeom.html)
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (1 Apr 2022)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers (2 Apr 2022)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 53|
@@ -18,6 +18,7 @@ Choose base solver for comparison:
 |[📊 HiGHS-1.2.1](lpsimp-HiGHS.html) | 14.29 (14.30) | 79%|
 |[📊 MOSEK-9.3.18](lpsimp-MOSEK.html) | 15.72 (15.70) | 79%|
 |[📊 Google-GLOP](lpsimp-GLOP.html) | 26.12 (26.10) | 60%|
+|[📊 MATLAB-R2020b](lpsimp-MATL.html) | 29.80 (29.80) | 66%|
 |[📊 SOPLEX-6.0.0](lpsimp-SPLX.html) | 44.48 (44.50) | 64%|
 |[📊 GLPK-5.0](lpsimp-GLPK.html) | 89.82 (89.80) | 53%|
 
@@ -26,6 +27,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpsimp-1-Apr-2022.html">1 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-4-Mar-2022.html">4 Mar 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-17-Feb-2022.html">17 Feb 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-1-Feb-2022.html">1 Feb 2022</a></li>
