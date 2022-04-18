@@ -5,28 +5,29 @@ The score ([scaled shifted geometric mean](http://plato.asu.edu/ftp/shgeom.html)
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (7 Apr 2022)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers (17 Apr 2022)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 54|
 | :--- | ---:  | ---:   |
-|[🥇 COPT-4.0.1](lpsimp-COPT.html) | 1.00 (1.00) | 98%|
-|[🥈 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.20 (1.20) | 100%|
-|[🥉 MindOpt-0.18.0](lpsimp-MDOPT.html) | 1.22 (1.22) | 96%|
-|[📊 Optverse-0.2.1](lpsimp-OPTV.html) | 3.56 (3.56) | 72%|
-|[📊 CLP-1.17.7](lpsimp-CLP.html) | 8.47 (8.47) | 78%|
-|[📊 HiGHS-1.2.1](lpsimp-HiGHS.html) | 13.44 (13.40) | 80%|
-|[📊 MOSEK-9.3.18](lpsimp-MOSEK.html) | 14.96 (15.00) | 78%|
-|[📊 Google-GLOP](lpsimp-GLOP.html) | 24.63 (24.60) | 59%|
-|[📊 MATLAB-R2020b](lpsimp-MATL.html) | 25.91 (25.90) | 67%|
-|[📊 SOPLEX-6.0.0](lpsimp-SPLX.html) | 41.53 (41.50) | 63%|
-|[📊 GLPK-5.0](lpsimp-GLPK.html) | 82.77 (82.80) | 52%|
+|[🥇 COPT-4.0.4](lpsimp-COPT.html) | 1.00 (1.00) | 100%|
+|[🥈 MindOpt-0.18.1](lpsimp-MDOPT.html) | 1.11 (1.11) | 100%|
+|[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.38 (1.38) | 100%|
+|[📊 Optverse-0.2.1](lpsimp-OPTV.html) | 4.08 (4.08) | 72%|
+|[📊 CLP-1.17.7](lpsimp-CLP.html) | 9.69 (9.69) | 78%|
+|[📊 HiGHS-1.2.1](lpsimp-HiGHS.html) | 15.39 (15.40) | 80%|
+|[📊 MOSEK-9.3.18](lpsimp-MOSEK.html) | 17.13 (17.10) | 78%|
+|[📊 Google-GLOP](lpsimp-GLOP.html) | 28.18 (28.20) | 59%|
+|[📊 MATLAB-R2020b](lpsimp-MATL.html) | 29.65 (29.70) | 67%|
+|[📊 SOPLEX-6.0.0](lpsimp-SPLX.html) | 47.52 (47.50) | 63%|
+|[📊 GLPK-5.0](lpsimp-GLPK.html) | 94.73 (94.70) | 52%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpsimp-7-Apr-2022.html">7 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-2-Apr-2022.html">2 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-1-Apr-2022.html">1 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-4-Mar-2022.html">4 Mar 2022</a></li>
@@ -62,14 +63,14 @@ Choose base solver for comparison:
 ---
 
 
-## [Benchmark of Barrier LP solvers (12 Mar 2022)](http://plato.asu.edu/ftp/lpbar.html)
+## [Benchmark of Barrier LP solvers (15 Apr 2022)](http://plato.asu.edu/ftp/lpbar.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 47|
 | :--- | ---:  | ---:   |
 |[🥇 COPT-4.0.1](lpbar-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 Gurobi-9.5.0](lpbar-Gurobi.html) | 1.10 (1.10) | 100%|
-|[🥉 MindOpt-0.17.0](lpbar-MDOPT.html) | 2.17 (2.17) | 100%|
+|[🥉 MindOpt-0.18.1](lpbar-MDOPT.html) | 2.04 (2.04) | 100%|
 |[📊 MOSEK-9.3.10](lpbar-MOSEK.html) | 4.89 (4.89) | 96%|
 |[📊 KNITRO-13.0.0](lpbar-KNITRO.html) | 15.92 (15.90) | 81%|
 |[📊 HiGHS-1.2.1](lpbar-HiGHS.html) | 19.29 (19.30) | 89%|
@@ -82,6 +83,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpbar-12-Mar-2022.html">12 Mar 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-4-Mar-2022.html">4 Mar 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-17-Feb-2022.html">17 Feb 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-28-Jan-2022.html">28 Jan 2022</a></li>
@@ -111,14 +113,14 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Network-LP Benchmark (commercial vs free) (26 Mar 2022)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (17 Apr 2022)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 25|
 | :--- | ---:  | ---:   |
 |[🥇 Gurobi-9.5.1](network-GUR.html) | 1.00 (1.00) | 100%|
-|[🥈 MindOpt-0.18.0](network-MDOPT.html) | 1.18 (1.18) | 100%|
-|[🥉 COPT-4.0.1](network-COPT.html) | 1.29 (1.29) | 100%|
+|[🥈 MindOpt-0.18.1](network-MDOPT.html) | 1.07 (1.07) | 100%|
+|[🥉 COPT-4.0.4](network-COPT.html) | 1.26 (1.26) | 100%|
 |[📊 Clp-1.17.7](network-CLP.html) | 3.56 (3.56) | 100%|
 |[📊 HiGHS-1.1.1](network-HGHS.html) | 7.66 (7.66) | 80%|
 |[📊 MATLAB-R2020b](network-MATL.html) | 12.97 (13.00) | 80%|
@@ -131,6 +133,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/network-26-Mar-2022.html">26 Mar 2022</a></li>
 <li><a href="/mittelmann-plots/network-4-Mar-2022.html">4 Mar 2022</a></li>
 <li><a href="/mittelmann-plots/network-3-Mar-2022.html">3 Mar 2022</a></li>
 <li><a href="/mittelmann-plots/network-1-Mar-2022.html">1 Mar 2022</a></li>
