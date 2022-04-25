@@ -123,6 +123,7 @@ def parse_table(url, timelimit=3600, threads=1):
         if threads == 1:
             taburl = "http://plato.asu.edu/ftp/milp_tables/1thread.res"
             scoretab = pre[1].text.split("\n")[5:10]
+            stats["title"] += f" - 1 thread - discontinued"
         else:
             taburl = "http://plato.asu.edu/ftp/milp_tables/8threads.res"
             scoretab = pre[1].text.split("\n")[14:19]
@@ -491,7 +492,7 @@ urls = [
     ("http://plato.asu.edu/ftp/lpsimp.html", 15000, 1),
     ("http://plato.asu.edu/ftp/lpbar.html", 15000, 1),
     ("http://plato.asu.edu/ftp/network.html", 3600, 1),
-    # ("http://plato.asu.edu/ftp/milp.html", 7200, 1),
+    ("http://plato.asu.edu/ftp/milp.html", 7200, 1),
     ("http://plato.asu.edu/ftp/milp.html", 7200, 8),
     ("http://plato.asu.edu/ftp/path.html", 10800, 1),
     ("http://plato.asu.edu/ftp/infeas.html", 3600, 1),
