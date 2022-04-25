@@ -162,41 +162,6 @@ Choose base solver for comparison:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances (23 Apr 2022)](http://plato.asu.edu/ftp/milp.html)
-Choose base solver for comparison:
-
-| solver | score (as reported) | solved of 240|
-| :--- | ---:  | ---:   |
-|[🥇 Gurobi-9.5.0](milp-Gurobi.html) | 1.00 (1.00) | 84%|
-|[🥈 COPT-4.0.1](milp-COPT.html) | 4.19 (4.19) | 55%|
-|[🥉 SCIP/spx-8.0.0](milp-SCIP.html) | 4.48 (4.48) | 52%|
-|[📊 CBC-2.10.5](milp-CBC.html) | 8.59 (8.59) | 37%|
-|[📊 MATLAB-2020a](milp-MATLAB.html) | 13.45 (13.50) | 26%|
-|[📊 GLPK-5.0](milp-GLPK.html) | 20.56 (20.50) | 10%|
-|[📊 LP_SOLVE-5.5.2](milp-LP_SOL.html) | 21.74 (21.70) | 8%|
-
-
-<details><summary>previous benchmarks 🔽</summary>
-<br>
-
-<ul>
-<li><a href="/mittelmann-plots/milp-5-Feb-2022.html">5 Feb 2022</a></li>
-<li><a href="/mittelmann-plots/milp-30-Dec-2021.html">30 Dec 2021</a></li>
-<li><a href="/mittelmann-plots/milp-25-Dec-2021.html">25 Dec 2021</a></li>
-<li><a href="/mittelmann-plots/milp-19-Dec-2021.html">19 Dec 2021</a></li>
-<li><a href="/mittelmann-plots/milp-13-Nov-2021.html">13 Nov 2021</a></li>
-<li><a href="/mittelmann-plots/milp-5-Oct-2021.html">5 Oct 2021</a></li>
-<li><a href="/mittelmann-plots/milp-3-Oct-2021.html">3 Oct 2021</a></li>
-<li><a href="/mittelmann-plots/milp-10-Aug-2021.html">10 Aug 2021</a></li>
-<li><a href="/mittelmann-plots/milp-4-Jun-2021.html">4 Jun 2021</a></li>
-<li><a href="/mittelmann-plots/milp-5-Feb-2021.html">5 Feb 2021</a></li>
-<li><a href="/mittelmann-plots/milp-15-Nov-2020.html">15 Nov 2020</a></li>
-<li><a href="/mittelmann-plots/milp-2-Oct-2020.html">2 Oct 2020</a></li>
-</ul></details>
-
----
-
-
 ## [The MIPLIB2017 Benchmark Instances - 8 threads (23 Apr 2022)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
