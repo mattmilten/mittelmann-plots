@@ -491,7 +491,7 @@ urls = [
     ("http://plato.asu.edu/ftp/lpsimp.html", 15000, 1),
     ("http://plato.asu.edu/ftp/lpbar.html", 15000, 1),
     ("http://plato.asu.edu/ftp/network.html", 3600, 1),
-    ("http://plato.asu.edu/ftp/milp.html", 7200, 1),
+    # ("http://plato.asu.edu/ftp/milp.html", 7200, 1),
     ("http://plato.asu.edu/ftp/milp.html", 7200, 8),
     ("http://plato.asu.edu/ftp/path.html", 10800, 1),
     ("http://plato.asu.edu/ftp/infeas.html", 3600, 1),
