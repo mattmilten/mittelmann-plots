@@ -216,12 +216,14 @@ def parse_table(url, timelimit=3600, threads=1):
                 columns[i] = "FSCIP"
             elif c.startswith("SCIP-spx"):
                 columns[i] = "SCIP"
+            elif c.startswith("SCIP-cpx"):
+                columns[i] = "SCIPC"
 
         _version = str(soup.contents[2]).split("<p>")[3].split("\n")[1:-1]
         _version = [x.split()[0].rstrip(":") for x in _version]
         _solved = scoretab[4].split()[3:]
         _score = scoretab[2].split()[:]
-        solver = [get_version(s, "") for s in scoretab[0].split()[:-1]]
+        solver = [get_version(s, "") for s in scoretab[0].split()]
         stats["solver"] = solver
         stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
         stats["version"] = {s: get_version(s, _version) for s in solver}
