@@ -225,15 +225,17 @@ Choose base solver for comparison:
 ---
 
 
-## [Infeasibility Detection for MILP Problems (28 Jan 2022)](http://plato.asu.edu/ftp/infeas.html)
+## [Infeasibility Detection for MILP Problems (25 Apr 2022)](http://plato.asu.edu/ftp/infeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
 | :--- | ---:  | ---:   |
 |[🥇 GUROBI-9.5.0](infeas-Gurobi.html) | 1.00 (1.00) | 91%|
 |[🥈 COPT-4.0.0](infeas-COPT.html) | 2.76 (2.76) | 84%|
-|[🥉 SCIP-8.0.0](infeas-SCIP.html) | 6.06 (6.06) | 78%|
+|[🥉 SCIPC-8.0.0](infeas-SCIPC.html) | 4.68 (4.68) | 81%|
+|[📊 SCIP-8.0.0](infeas-SCIP.html) | 6.06 (6.06) | 78%|
 |[📊 FSCIP-7.0.0](infeas-FSCIP.html) | 7.37 (7.37) | 75%|
+|[📊 HiGHS-1.2.2](infeas-HiGHS.html) | 8.12 (8.12) | 91%|
 |[📊 CBC-2.10.5](infeas-CBC.html) | 14.80 (14.80) | 62%|
 |[📊 MATLAB-2020b](infeas-MATLAB.html) | 23.00 (23.00) | 47%|
 
@@ -242,6 +244,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/infeas-28-Jan-2022.html">28 Jan 2022</a></li>
 <li><a href="/mittelmann-plots/infeas-14-Dec-2021.html">14 Dec 2021</a></li>
 <li><a href="/mittelmann-plots/infeas-3-Dec-2021.html">3 Dec 2021</a></li>
 <li><a href="/mittelmann-plots/infeas-10-Nov-2021.html">10 Nov 2021</a></li>
@@ -407,14 +410,14 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Discrete QPLIB Benchmark (23 Feb 2022)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (25 Apr 2022)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 31|
 | :--- | ---:  | ---:   |
 |[🥇 GUROBI-9.5.0](convex-GUROBI.html) | 1.00 (1.00) | 74%|
-|[🥈 OCTERACT-4.2.0](convex-OCTERACT.html) | 3.84 (3.84) | 77%|
-|[🥉 Baron-22.1.8](convex-BARON.html) | 7.22 (6.38) | 55%|
+|[🥈 OCTERACT-4.3.0](convex-OCTERACT.html) | 3.36 (3.36) | 81%|
+|[🥉 Baron-22.1.8](convex-BARON.html) | 7.22 (7.22) | 55%|
 |[📊 MOSEK-9.3.11](convex-MOSEK.html) | 11.72 (11.70) | 42%|
 |[📊 SCIP-8.0.0](convex-SCIP.html) | 13.06 (13.10) | 42%|
 |[📊 Bonmin-1.8.7](convex-BONMIN.html) | 17.78 (17.80) | 32%|
@@ -428,6 +431,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/convex-23-Feb-2022.html">23 Feb 2022</a></li>
 <li><a href="/mittelmann-plots/convex-25-Jan-2022.html">25 Jan 2022</a></li>
 <li><a href="/mittelmann-plots/convex-11-Jan-2022.html">11 Jan 2022</a></li>
 <li><a href="/mittelmann-plots/convex-8-Jan-2022.html">8 Jan 2022</a></li>
