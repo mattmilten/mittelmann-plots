@@ -236,7 +236,7 @@ Choose base solver for comparison:
 |[🥉 SCIPC-8.0.0](infeas-SCIPC.html) | 4.68 (4.68) | 81%|
 |[📊 SCIP-8.0.0](infeas-SCIP.html) | 6.06 (6.06) | 78%|
 |[📊 FSCIP-7.0.0](infeas-FSCIP.html) | 7.37 (7.37) | 75%|
-|[📊 HiGHS-1.2.2](infeas-HiGHS.html) | 8.12 (8.12) | 91%|
+|[📊 HiGHS-1.2.2](infeas-HiGHS.html) | 8.12 (8.12) | 75%|
 |[📊 CBC-2.10.5](infeas-CBC.html) | 14.80 (14.80) | 62%|
 |[📊 MATLAB-2020b](infeas-MATLAB.html) | 23.00 (23.00) | 47%|
 
