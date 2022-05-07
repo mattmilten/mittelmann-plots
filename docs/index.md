@@ -254,22 +254,23 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Second Order Cone Benchmark (28 Jan 2022)](http://plato.asu.edu/ftp/socp.html)
+## [Large Second Order Cone Benchmark (6 May 2022)](http://plato.asu.edu/ftp/socp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 18|
 | :--- | ---:  | ---:   |
-|[🥇 MOSEK-9.3.6](socp-MOSEK.html) | 1.00 (1.00) | 100%|
-|[🥈 Gurobi-9.5.0](socp-Gurobi.html) | 1.08 (1.08) | 100%|
+|[🥇 MOSEK-9.3.20](socp-MOSEK.html) | 1.00 (1.00) | 100%|
+|[🥈 Gurobi-9.5.0](socp-Gurobi.html) | 1.07 (1.07) | 100%|
 |[🥉 COPT-4.0.0](socp-COPT.html) | 1.21 (1.21) | 100%|
-|[📊 KNITRO-13.0.0](socp-KNITRO.html) | 9.50 (9.50) | 83%|
-|[📊 ECOS-2.0.4](socp-ECOS.html) | 78.36 (78.40) | 33%|
+|[📊 KNITRO-13.0.0](socp-KNITRO.html) | 9.47 (9.47) | 83%|
+|[📊 ECOS-2.0.4](socp-ECOS.html) | 78.11 (78.10) | 33%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/socp-28-Jan-2022.html">28 Jan 2022</a></li>
 <li><a href="/mittelmann-plots/socp-18-Jan-2022.html">18 Jan 2022</a></li>
 <li><a href="/mittelmann-plots/socp-10-Nov-2021.html">10 Nov 2021</a></li>
 </ul></details>
@@ -306,24 +307,25 @@ Choose base solver for comparison:
 ---
 
 
-## [Binary Non-Convex QPLIB Benchmark (1 May 2022)](http://plato.asu.edu/ftp/qplib.html)
+## [Binary Non-Convex QPLIB Benchmark (6 May 2022)](http://plato.asu.edu/ftp/qplib.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 92|
+| solver | score (as reported) | solved of 91|
 | :--- | ---:  | ---:   |
-|[🥇 Gurobi-9.5.0](qplib-GUROBI.html) | 1.00 (1.00) | 93%|
-|[🥈 OCTERACT-4.3.0](qplib-OCTERACT.html) | 2.12 (2.12) | 93%|
-|[🥉 Baron-22.1.8](qplib-BARON.html) | 12.94 (12.90) | 45%|
-|[📊 FSCIP-7.0.0](qplib-FSCIP.html) | 33.86 (33.90) | 37%|
-|[📊 SCIP-8.0.0](qplib-SCIP.html) | 34.21 (34.20) | 33%|
-|[📊 ANTIGONE-1.1](qplib-ANTIGONE.html) | 46.91 (46.90) | 25%|
-|[📊 MINOTAUR-0.2.1](qplib-MINOTAUR.html) | 61.37 (61.40) | 8%|
+|[🥇 Gurobi-9.5.0](qplib-GUROBI.html) | 1.00 (1.00) | 95%|
+|[🥈 OCTERACT-4.3.0](qplib-OCTERACT.html) | 2.15 (2.15) | 95%|
+|[🥉 Baron-22.1.8](qplib-BARON.html) | 13.41 (13.40) | 45%|
+|[📊 FSCIP-7.0.0](qplib-FSCIP.html) | 35.46 (35.50) | 37%|
+|[📊 SCIP-8.0.0](qplib-SCIP.html) | 35.83 (35.80) | 33%|
+|[📊 ANTIGONE-1.1](qplib-ANTIGONE.html) | 49.30 (49.30) | 25%|
+|[📊 MINOTAUR-0.2.1](qplib-MINOTAUR.html) | 64.69 (64.70) | 8%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/qplib-1-May-2022.html">1 May 2022</a></li>
 <li><a href="/mittelmann-plots/qplib-25-Feb-2022.html">25 Feb 2022</a></li>
 <li><a href="/mittelmann-plots/qplib-27-Jan-2022.html">27 Jan 2022</a></li>
 <li><a href="/mittelmann-plots/qplib-7-Jan-2022.html">7 Jan 2022</a></li>
