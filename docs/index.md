@@ -5,28 +5,29 @@ The score ([scaled shifted geometric mean](http://plato.asu.edu/ftp/shgeom.html)
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (7 May 2022)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers     BENCHMARK TEMPORARILY FROZEN (8 May 2022)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 54|
+| solver | score (as reported) | solved of 55|
 | :--- | ---:  | ---:   |
 |[🥇 COPT-4.0.4](lpsimp-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 MindOpt-0.18.2](lpsimp-MDOPT.html) | 1.06 (1.06) | 100%|
-|[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.38 (1.38) | 100%|
-|[📊 Optverse-0.2.1](lpsimp-OPTV.html) | 4.08 (4.08) | 72%|
-|[📊 CLP-1.17.7](lpsimp-CLP.html) | 9.69 (9.69) | 78%|
-|[📊 HiGHS-1.2.1](lpsimp-HiGHS.html) | 15.39 (15.40) | 80%|
-|[📊 MOSEK-9.3.18](lpsimp-MOSEK.html) | 17.13 (17.10) | 78%|
-|[📊 Google-GLOP](lpsimp-GLOP.html) | 28.18 (28.20) | 59%|
-|[📊 MATLAB-R2020b](lpsimp-MATL.html) | 29.65 (29.70) | 67%|
-|[📊 SOPLEX-6.0.0](lpsimp-SPLX.html) | 47.52 (47.50) | 63%|
-|[📊 GLPK-5.0](lpsimp-GLPK.html) | 94.73 (94.70) | 52%|
+|[🥈 MindOpt-0.18.2](lpsimp-MDOPT.html) | 1.13 (1.13) | 98%|
+|[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.41 (1.41) | 100%|
+|[📊 Optverse-0.2.1](lpsimp-OPTV.html) | 4.19 (4.19) | 71%|
+|[📊 CLP-1.17.7](lpsimp-CLP.html) | 9.78 (9.78) | 76%|
+|[📊 HiGHS-1.2.1](lpsimp-HiGHS.html) | 14.41 (14.40) | 80%|
+|[📊 MOSEK-9.3.18](lpsimp-MOSEK.html) | 17.10 (17.10) | 76%|
+|[📊 Google-GLOP](lpsimp-GLOP.html) | 27.88 (27.90) | 58%|
+|[📊 MATLAB-R2020b](lpsimp-MATL.html) | 29.31 (29.30) | 65%|
+|[📊 SOPLEX-6.0.0](lpsimp-SPLX.html) | 46.56 (46.60) | 62%|
+|[📊 GLPK-5.0](lpsimp-GLPK.html) | 91.65 (91.70) | 51%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpsimp-7-May-2022.html">7 May 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-17-Apr-2022.html">17 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-7-Apr-2022.html">7 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-2-Apr-2022.html">2 Apr 2022</a></li>
@@ -163,14 +164,14 @@ Choose base solver for comparison:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances - 8 threads (23 Apr 2022)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances - 8 threads (8 May 2022)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
 | :--- | ---:  | ---:   |
 |[🥇 Gurobi-9.5.0](milp_8threads-Gurobi.html) | 1.00 (1.00) | 93%|
 |[🥈 COPT-4.0.1](milp_8threads-COPT.html) | 3.53 (3.53) | 77%|
-|[🥉 SCIPC/cpx-8.0.0](milp_8threads-SCIPC.html) | 8.33 (8.33) | 61%|
+|[🥉 SCIPC/cpx-8.0.0](milp_8threads-SCIPC.html) | 8.39 (8.39) | 62%|
 |[📊 FSCIP/spx-7.0.0](milp_8threads-FSCIP.html) | 8.69 (8.69) | 61%|
 |[📊 HiGHS-1.2.2](milp_8threads-HiGHS.html) | 9.15 (9.15) | 62%|
 |[📊 SCIP/spx-8.0.0](milp_8threads-SCIP.html) | 10.15 (10.20) | 55%|
@@ -181,6 +182,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/milp_8threads-23-Apr-2022.html">23 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-5-Feb-2022.html">5 Feb 2022</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-30-Dec-2021.html">30 Dec 2021</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-25-Dec-2021.html">25 Dec 2021</a></li>
