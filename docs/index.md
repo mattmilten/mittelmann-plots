@@ -77,7 +77,7 @@ Choose base solver for comparison:
 |[📊 KNITRO-13.0.0](lpbar-KNITRO.html) | 15.92 (15.90) | 81%|
 |[📊 HiGHS-1.2.1](lpbar-HiGHS.html) | 19.29 (19.30) | 89%|
 |[📊 MATLAB-R2020b](lpbar-MATLAB.html) | 50.15 (43.20) | 74%|
-|[📊 Tulip-0.9.2](lpbar-TULIP.html) | 56.30 (56.30) | 70%|
+|[📊 Tulip-0.9.3](lpbar-TULIP.html) | 56.30 (56.30) | 70%|
 |[📊 CLP-1.17.6](lpbar-CLP.html) | 80.75 (80.80) | 74%|
 
 
