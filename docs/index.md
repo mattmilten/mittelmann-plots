@@ -65,7 +65,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Benchmark of Barrier LP solvers (15 Apr 2022)](http://plato.asu.edu/ftp/lpbar.html)
+## [Benchmark of Barrier LP solvers (14 May 2022)](http://plato.asu.edu/ftp/lpbar.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 47|
@@ -74,8 +74,9 @@ Choose base solver for comparison:
 |[🥈 Gurobi-9.5.0](lpbar-Gurobi.html) | 1.10 (1.10) | 100%|
 |[🥉 MindOpt-0.18.1](lpbar-MDOPT.html) | 2.04 (2.04) | 100%|
 |[📊 MOSEK-9.3.10](lpbar-MOSEK.html) | 4.89 (4.89) | 96%|
+|[📊 PDLP$](lpbar-PDLP$.html) | 14.85 (14.80) | 85%|
 |[📊 KNITRO-13.0.0](lpbar-KNITRO.html) | 15.92 (15.90) | 81%|
-|[📊 HiGHS-1.2.1](lpbar-HiGHS.html) | 19.29 (19.30) | 89%|
+|[📊 HiGHS-1.2.1](lpbar-HiGHS.html) | 21.32 (19.30) | 89%|
 |[📊 MATLAB-R2020b](lpbar-MATLAB.html) | 50.15 (43.20) | 74%|
 |[📊 Tulip-0.9.3](lpbar-TULIP.html) | 56.30 (56.30) | 70%|
 |[📊 CLP-1.17.6](lpbar-CLP.html) | 80.75 (80.80) | 74%|
@@ -85,6 +86,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpbar-15-Apr-2022.html">15 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-12-Mar-2022.html">12 Mar 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-4-Mar-2022.html">4 Mar 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-17-Feb-2022.html">17 Feb 2022</a></li>
