@@ -5,28 +5,29 @@ The score ([scaled shifted geometric mean](http://plato.asu.edu/ftp/shgeom.html)
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (8 May 2022)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers (26 May 2022)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 55|
+| solver | score (as reported) | solved of 56|
 | :--- | ---:  | ---:   |
 |[🥇 COPT-4.0.4](lpsimp-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 MindOpt-0.18.2](lpsimp-MDOPT.html) | 1.13 (1.13) | 98%|
-|[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.41 (1.41) | 100%|
-|[📊 Optverse-0.2.1](lpsimp-OPTV.html) | 4.19 (4.19) | 71%|
-|[📊 CLP-1.17.7](lpsimp-CLP.html) | 9.78 (9.78) | 76%|
-|[📊 HiGHS-1.2.1](lpsimp-HiGHS.html) | 14.41 (14.40) | 80%|
-|[📊 MOSEK-9.3.18](lpsimp-MOSEK.html) | 17.10 (17.10) | 76%|
-|[📊 Google-GLOP](lpsimp-GLOP.html) | 27.88 (27.90) | 58%|
-|[📊 MATLAB-R2020b](lpsimp-MATL.html) | 29.31 (29.30) | 65%|
-|[📊 SOPLEX-6.0.0](lpsimp-SPLX.html) | 46.56 (46.60) | 62%|
-|[📊 GLPK-5.0](lpsimp-GLPK.html) | 91.65 (91.70) | 51%|
+|[🥈 MindOpt-0.18.2](lpsimp-MDOPT.html) | 1.16 (1.16) | 98%|
+|[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.43 (1.43) | 100%|
+|[📊 Optverse-0.2.1](lpsimp-OPTV.html) | 4.23 (4.23) | 70%|
+|[📊 CLP-1.17.7](lpsimp-CLP.html) | 9.52 (9.52) | 77%|
+|[📊 HiGHS-1.2.1](lpsimp-HiGHS.html) | 14.21 (14.20) | 79%|
+|[📊 MOSEK-9.3.18](lpsimp-MOSEK.html) | 16.80 (16.80) | 75%|
+|[📊 Google-GLOP](lpsimp-GLOP.html) | 27.15 (27.20) | 57%|
+|[📊 MATLAB-R2020b](lpsimp-MATL.html) | 28.22 (28.20) | 66%|
+|[📊 SOPLEX-6.0.0](lpsimp-SPLX.html) | 44.93 (44.90) | 61%|
+|[📊 GLPK-5.0](lpsimp-GLPK.html) | 87.37 (87.40) | 50%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpsimp-8-May-2022.html">8 May 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-7-May-2022.html">7 May 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-17-Apr-2022.html">17 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-7-Apr-2022.html">7 Apr 2022</a></li>
