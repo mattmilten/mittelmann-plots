@@ -66,27 +66,28 @@ Choose base solver for comparison:
 ---
 
 
-## [Benchmark of Barrier LP solvers (25 May 2022)](http://plato.asu.edu/ftp/lpbar.html)
+## [Benchmark of Barrier LP solvers (1 Jun 2022)](http://plato.asu.edu/ftp/lpbar.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 49|
+| solver | score (as reported) | solved of 50|
 | :--- | ---:  | ---:   |
 |[🥇 COPT-4.0.4](lpbar-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 Gurobi-9.5.1](lpbar-Gurobi.html) | 1.32 (1.32) | 98%|
-|[🥉 MindOpt-0.18.2](lpbar-MDOPT.html) | 2.33 (2.33) | 98%|
-|[📊 MOSEK-9.3.20](lpbar-MOSEK.html) | 5.11 (5.11) | 94%|
-|[📊 PDLP$](lpbar-PDLP$.html) | 14.20 (14.20) | 86%|
-|[📊 KNITRO-13.0.0](lpbar-KNITRO.html) | 15.31 (15.30) | 80%|
-|[📊 HiGHS-1.2.2](lpbar-HiGHS.html) | 21.87 (19.90) | 86%|
-|[📊 MATLAB-R2020b](lpbar-MATLAB.html) | 49.58 (40.50) | 73%|
-|[📊 Tulip-0.9.3](lpbar-TULIP.html) | 55.38 (55.40) | 67%|
-|[📊 CLP-1.17.7](lpbar-CLP.html) | 78.26 (78.30) | 71%|
+|[🥈 Gurobi-9.5.1](lpbar-Gurobi.html) | 1.19 (1.19) | 98%|
+|[🥉 MindOpt-0.18.2](lpbar-MDOPT.html) | 2.21 (2.21) | 98%|
+|[📊 MOSEK-9.3.20](lpbar-MOSEK.html) | 4.67 (4.67) | 94%|
+|[📊 PDLP$](lpbar-PDLP$.html) | 12.48 (12.50) | 86%|
+|[📊 KNITRO-13.0.0](lpbar-KNITRO.html) | 14.13 (14.10) | 78%|
+|[📊 HiGHS-1.2.2](lpbar-HiGHS.html) | 20.03 (18.20) | 84%|
+|[📊 MATLAB-R2020b](lpbar-MATLAB.html) | 44.63 (36.60) | 72%|
+|[📊 Tulip-0.9.3](lpbar-TULIP.html) | 49.75 (49.70) | 66%|
+|[📊 CLP-1.17.7](lpbar-CLP.html) | 69.80 (69.80) | 70%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpbar-25-May-2022.html">25 May 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-14-May-2022.html">14 May 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-15-Apr-2022.html">15 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-12-Mar-2022.html">12 Mar 2022</a></li>
