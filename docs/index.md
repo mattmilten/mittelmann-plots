@@ -5,15 +5,15 @@ The score ([scaled shifted geometric mean](http://plato.asu.edu/ftp/shgeom.html)
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (6 Jun 2022)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers (12 Jun 2022)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 56|
 | :--- | ---:  | ---:   |
 |[🥇 COPT-4.0.4](lpsimp-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 MindOpt-0.18.3](lpsimp-MDOPT.html) | 1.17 (1.17) | 98%|
+|[🥈 MindOpt-0.18.3](lpsimp-MDOPT.html) | 1.02 (1.02) | 100%|
 |[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.43 (1.43) | 100%|
-|[📊 Optverse-0.2.1](lpsimp-OPTV.html) | 4.23 (4.23) | 70%|
+|[📊 Optverse-0.2.6](lpsimp-OPTV.html) | 2.30 (2.30) | 93%|
 |[📊 CLP-1.17.7](lpsimp-CLP.html) | 9.52 (9.52) | 77%|
 |[📊 HiGHS-1.2.1](lpsimp-HiGHS.html) | 14.21 (14.20) | 79%|
 |[📊 MOSEK-9.3.18](lpsimp-MOSEK.html) | 16.80 (16.80) | 75%|
@@ -27,6 +27,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpsimp-6-Jun-2022.html">6 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-26-May-2022.html">26 May 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-8-May-2022.html">8 May 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-7-May-2022.html">7 May 2022</a></li>
@@ -121,26 +122,28 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Network-LP Benchmark (commercial vs free) (17 Apr 2022)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (13 Jun 2022)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 25|
 | :--- | ---:  | ---:   |
-|[🥇 Gurobi-9.5.1](network-GUR.html) | 1.00 (1.00) | 100%|
-|[🥈 MindOpt-0.18.1](network-MDOPT.html) | 1.07 (1.07) | 100%|
-|[🥉 COPT-4.0.4](network-COPT.html) | 1.26 (1.26) | 100%|
-|[📊 Clp-1.17.7](network-CLP.html) | 3.56 (3.56) | 100%|
-|[📊 HiGHS-1.1.1](network-HGHS.html) | 7.66 (7.66) | 80%|
-|[📊 MATLAB-R2020b](network-MATL.html) | 12.97 (13.00) | 80%|
-|[📊 MOSEK-9.3.6](network-MOSEK.html) | 13.71 (13.70) | 84%|
-|[📊 QSopt-1.01](network-QSOPT.html) | 20.80 (20.80) | 68%|
-|[📊 SOPLEX-6.0.0](network-SOPLX.html) | 39.55 (39.60) | 64%|
+|[🥇 OptVerse-0.2.6](network-OPTV.html) | 1.00 (1.00) | 100%|
+|[🥈 Gurobi-9.5.1](network-GUR.html) | 1.11 (1.11) | 100%|
+|[🥉 MindOpt-0.18.1](network-MDOPT.html) | 1.19 (1.19) | 100%|
+|[📊 COPT-4.0.4](network-COPT.html) | 1.41 (1.41) | 100%|
+|[📊 Clp-1.17.7](network-CLP.html) | 3.96 (3.96) | 100%|
+|[📊 HiGHS-1.1.1](network-HGHS.html) | 8.53 (8.53) | 80%|
+|[📊 MATLAB-R2020b](network-MATL.html) | 14.44 (14.40) | 80%|
+|[📊 MOSEK-9.3.6](network-MOSEK.html) | 15.27 (15.30) | 84%|
+|[📊 QSopt-1.01](network-QSOPT.html) | 23.16 (23.20) | 68%|
+|[📊 SOPLEX-6.0.0](network-SPLX.html) | 44.04 (44.00) | 64%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/network-17-Apr-2022.html">17 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/network-26-Mar-2022.html">26 Mar 2022</a></li>
 <li><a href="/mittelmann-plots/network-4-Mar-2022.html">4 Mar 2022</a></li>
 <li><a href="/mittelmann-plots/network-3-Mar-2022.html">3 Mar 2022</a></li>
@@ -175,13 +178,11 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
 | :--- | ---:  | ---:   |
-|[🥇 Gurobi-9.5.0](milp_8threads-Gurobi.html) | 1.00 (1.00) | 93%|
-|[🥈 COPT-4.0.1](milp_8threads-COPT.html) | 3.53 (3.53) | 77%|
-|[🥉 SCIPC/cpx-8.0.0](milp_8threads-SCIPC.html) | 8.39 (8.39) | 62%|
-|[📊 FSCIP/spx-7.0.0](milp_8threads-FSCIP.html) | 8.69 (8.69) | 61%|
-|[📊 HiGHS-1.2.2](milp_8threads-HiGHS.html) | 9.15 (9.15) | 62%|
-|[📊 SCIP/spx-8.0.0](milp_8threads-SCIP.html) | 10.15 (10.20) | 55%|
-|[📊 CBC-2.10.5](milp_8threads-CBC.html) | 14.53 (14.50) | 45%|
+|[🥇 Gurobi-9.5.0](milp_8threads-Gurobi.html) | 1.00 (14.50) | 45%|
+|[🥈 COPT-4.0.1](milp_8threads-COPT.html) | 3.53 (8.69) | 61%|
+|[🥉 SCIPC/cpx-8.0.0](milp_8threads-SCIPC.html) | 8.39 (3.53) | 77%|
+|[📊 HiGHS-1.2.2](milp_8threads-HiGHS.html) | 9.15 (10.20) | 55%|
+|[📊 SCIP/spx-8.0.0](milp_8threads-SCIP.html) | 10.15 (1.00) | 93%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
@@ -427,27 +428,28 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Discrete QPLIB Benchmark (25 Apr 2022)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (12 Jun 2022)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 31|
 | :--- | ---:  | ---:   |
 |[🥇 GUROBI-9.5.0](convex-GUROBI.html) | 1.00 (1.00) | 74%|
 |[🥈 OCTERACT-4.3.0](convex-OCTERACT.html) | 3.36 (3.36) | 81%|
-|[🥉 Baron-22.1.8](convex-BARON.html) | 7.22 (7.22) | 55%|
+|[🥉 Shot-1.1](convex-SHOT.html) | 5.15 (5.15) | 48%|
+|[📊 Baron-22.1.8](convex-BARON.html) | 7.22 (7.22) | 55%|
 |[📊 MOSEK-9.3.11](convex-MOSEK.html) | 11.72 (11.70) | 42%|
 |[📊 SCIP-8.0.0](convex-SCIP.html) | 13.06 (13.10) | 42%|
 |[📊 Bonmin-1.8.7](convex-BONMIN.html) | 17.78 (17.80) | 32%|
 |[📊 KNITRO-12.3.0](convex-KNITRO.html) | 18.13 (18.10) | 29%|
 |[📊 MINOTAUR-0.2.1](convex-MINOTAUR.html) | 29.48 (29.50) | 35%|
 |[📊 ANTIGONE-1.1](convex-ANTIGONE.html) | 46.86 (46.90) | 6%|
-|[📊 Shot-1.0](convex-SHOT.html) | 54.86 (54.90) | 3%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/convex-25-Apr-2022.html">25 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/convex-23-Feb-2022.html">23 Feb 2022</a></li>
 <li><a href="/mittelmann-plots/convex-25-Jan-2022.html">25 Jan 2022</a></li>
 <li><a href="/mittelmann-plots/convex-11-Jan-2022.html">11 Jan 2022</a></li>
