@@ -126,7 +126,7 @@ def parse_table(url, timelimit=3600, threads=1):
             stats["title"] += f" - 1 thread - discontinued"
         else:
             taburl = "http://plato.asu.edu/ftp/milp_tables/8threads.res"
-            scoretab = pre[1].text.split("\n")[14:19]
+            scoretab = pre[1].text.split("\n")[5:10]
             stats["title"] += f" - {threads} threads"
 
         resp = requests.get(taburl)
