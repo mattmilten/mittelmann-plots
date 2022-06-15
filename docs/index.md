@@ -5,28 +5,29 @@ The score ([scaled shifted geometric mean](http://plato.asu.edu/ftp/shgeom.html)
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (12 Jun 2022)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers (15 Jun 2022)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 56|
 | :--- | ---:  | ---:   |
-|[🥇 COPT-4.0.4](lpsimp-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 MindOpt-0.18.3](lpsimp-MDOPT.html) | 1.02 (1.02) | 100%|
-|[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.43 (1.43) | 100%|
-|[📊 Optverse-0.2.6](lpsimp-OPTV.html) | 2.30 (2.30) | 93%|
-|[📊 CLP-1.17.7](lpsimp-CLP.html) | 9.52 (9.52) | 77%|
-|[📊 HiGHS-1.2.1](lpsimp-HiGHS.html) | 14.21 (14.20) | 79%|
-|[📊 MOSEK-9.3.18](lpsimp-MOSEK.html) | 16.80 (16.80) | 75%|
-|[📊 Google-GLOP](lpsimp-GLOP.html) | 27.15 (27.20) | 57%|
-|[📊 MATLAB-R2020b](lpsimp-MATL.html) | 28.22 (28.20) | 66%|
-|[📊 SOPLEX-6.0.0](lpsimp-SPLX.html) | 44.93 (44.90) | 61%|
-|[📊 GLPK-5.0](lpsimp-GLPK.html) | 87.37 (87.40) | 50%|
+|[🥇 MindOpt-0.18.3](lpsimp-MDOPT.html) | 1.00 (1.00) | 100%|
+|[🥈 COPT-5.0.0](lpsimp-COPT.html) | 1.04 (1.04) | 100%|
+|[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.41 (1.41) | 100%|
+|[📊 Optverse-0.2.6](lpsimp-OPTV.html) | 2.26 (2.26) | 93%|
+|[📊 CLP-1.17.7](lpsimp-CLP.html) | 9.35 (9.35) | 77%|
+|[📊 HiGHS-1.2.1](lpsimp-HiGHS.html) | 13.95 (14.00) | 79%|
+|[📊 MOSEK-9.3.18](lpsimp-MOSEK.html) | 16.50 (16.50) | 75%|
+|[📊 Google-GLOP](lpsimp-GLOP.html) | 26.67 (26.70) | 57%|
+|[📊 MATLAB-R2020b](lpsimp-MATL.html) | 27.72 (27.70) | 66%|
+|[📊 SOPLEX-6.0.0](lpsimp-SPLX.html) | 44.14 (44.10) | 61%|
+|[📊 GLPK-5.0](lpsimp-GLPK.html) | 85.83 (85.80) | 50%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpsimp-12-Jun-2022.html">12 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-6-Jun-2022.html">6 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-26-May-2022.html">26 May 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-8-May-2022.html">8 May 2022</a></li>
@@ -68,27 +69,28 @@ Choose base solver for comparison:
 ---
 
 
-## [Benchmark of Barrier LP solvers (1 Jun 2022)](http://plato.asu.edu/ftp/lpbar.html)
+## [Benchmark of Barrier LP solvers (15 Jun 2022)](http://plato.asu.edu/ftp/lpbar.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 50|
 | :--- | ---:  | ---:   |
-|[🥇 COPT-4.0.4](lpbar-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 Gurobi-9.5.1](lpbar-Gurobi.html) | 1.19 (1.19) | 98%|
-|[🥉 MindOpt-0.18.2](lpbar-MDOPT.html) | 2.21 (2.21) | 98%|
-|[📊 MOSEK-9.3.20](lpbar-MOSEK.html) | 4.67 (4.67) | 94%|
-|[📊 PDLP$](lpbar-PDLP$.html) | 12.48 (12.50) | 86%|
-|[📊 KNITRO-13.0.0](lpbar-KNITRO.html) | 14.13 (14.10) | 78%|
-|[📊 HiGHS-1.2.2](lpbar-HiGHS.html) | 20.03 (18.20) | 84%|
-|[📊 MATLAB-R2020b](lpbar-MATLAB.html) | 44.63 (36.60) | 72%|
-|[📊 Tulip-0.9.3](lpbar-TULIP.html) | 49.75 (49.70) | 66%|
-|[📊 CLP-1.17.7](lpbar-CLP.html) | 69.80 (69.80) | 70%|
+|[🥇 COPT-5.0.0](lpbar-COPT.html) | 1.00 (1.00) | 100%|
+|[🥈 Gurobi-9.5.1](lpbar-Gurobi.html) | 1.33 (1.33) | 98%|
+|[🥉 MindOpt-0.18.2](lpbar-MDOPT.html) | 2.47 (2.47) | 98%|
+|[📊 MOSEK-9.3.20](lpbar-MOSEK.html) | 5.21 (5.21) | 94%|
+|[📊 PDLP$](lpbar-PDLP$.html) | 13.91 (13.90) | 86%|
+|[📊 KNITRO-13.0.0](lpbar-KNITRO.html) | 15.75 (15.70) | 78%|
+|[📊 HiGHS-1.2.2](lpbar-HiGHS.html) | 22.32 (20.30) | 84%|
+|[📊 MATLAB-R2020b](lpbar-MATLAB.html) | 49.74 (40.80) | 72%|
+|[📊 Tulip-0.9.3](lpbar-TULIP.html) | 55.44 (55.40) | 66%|
+|[📊 CLP-1.17.7](lpbar-CLP.html) | 77.79 (77.80) | 70%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpbar-1-Jun-2022.html">1 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-25-May-2022.html">25 May 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-14-May-2022.html">14 May 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-15-Apr-2022.html">15 Apr 2022</a></li>
