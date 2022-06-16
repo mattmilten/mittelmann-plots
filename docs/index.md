@@ -124,7 +124,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Network-LP Benchmark (commercial vs free) (13 Jun 2022)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (16 Jun 2022)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 25|
@@ -132,7 +132,7 @@ Choose base solver for comparison:
 |[🥇 OptVerse-0.2.6](network-OPTV.html) | 1.00 (1.00) | 100%|
 |[🥈 Gurobi-9.5.1](network-GUR.html) | 1.11 (1.11) | 100%|
 |[🥉 MindOpt-0.18.1](network-MDOPT.html) | 1.19 (1.19) | 100%|
-|[📊 COPT-4.0.4](network-COPT.html) | 1.41 (1.41) | 100%|
+|[📊 COPT-5.0.0](network-COPT.html) | 1.41 (1.41) | 100%|
 |[📊 Clp-1.17.7](network-CLP.html) | 3.96 (3.96) | 100%|
 |[📊 HiGHS-1.1.1](network-HGHS.html) | 8.53 (8.53) | 80%|
 |[📊 MATLAB-R2020b](network-MATL.html) | 14.44 (14.40) | 80%|
@@ -145,6 +145,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/network-13-Jun-2022.html">13 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/network-17-Apr-2022.html">17 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/network-26-Mar-2022.html">26 Mar 2022</a></li>
 <li><a href="/mittelmann-plots/network-4-Mar-2022.html">4 Mar 2022</a></li>
