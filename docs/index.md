@@ -240,14 +240,14 @@ Choose base solver for comparison:
 ---
 
 
-## [Infeasibility Detection for MILP Problems (25 Apr 2022)](http://plato.asu.edu/ftp/infeas.html)
+## [Infeasibility Detection for MILP Problems (18 Jun 2022)](http://plato.asu.edu/ftp/infeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
 | :--- | ---:  | ---:   |
 |[🥇 GUROBI-9.5.0](infeas-Gurobi.html) | 1.00 (1.00) | 91%|
-|[🥈 COPT-4.0.0](infeas-COPT.html) | 2.76 (2.76) | 84%|
-|[🥉 SCIPC-8.0.0](infeas-SCIPC.html) | 4.68 (4.68) | 81%|
+|[🥈 COPT-5.0.0](infeas-COPT.html) | 1.39 (1.39) | 91%|
+|[🥉 SCIPC-8.0.0](infeas-SCIPC.html) | 4.73 (4.68) | 81%|
 |[📊 SCIP-8.0.0](infeas-SCIP.html) | 6.06 (6.06) | 78%|
 |[📊 FSCIP-7.0.0](infeas-FSCIP.html) | 7.37 (7.37) | 75%|
 |[📊 HiGHS-1.2.2](infeas-HiGHS.html) | 8.12 (8.12) | 75%|
@@ -259,6 +259,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/infeas-25-Apr-2022.html">25 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/infeas-28-Jan-2022.html">28 Jan 2022</a></li>
 <li><a href="/mittelmann-plots/infeas-14-Dec-2021.html">14 Dec 2021</a></li>
 <li><a href="/mittelmann-plots/infeas-3-Dec-2021.html">3 Dec 2021</a></li>
