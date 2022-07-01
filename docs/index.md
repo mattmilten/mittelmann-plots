@@ -177,22 +177,23 @@ Choose base solver for comparison:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances - 8 threads (8 May 2022)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances - 8 threads (30 Jun 2022)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
 | :--- | ---:  | ---:   |
 |[🥇 Gurobi-9.5.0](milp_8threads-Gurobi.html) | 1.00 (14.50) | 45%|
-|[🥈 COPT-4.0.1](milp_8threads-COPT.html) | 3.53 (8.69) | 61%|
-|[🥉 SCIPC/cpx-8.0.0](milp_8threads-SCIPC.html) | 8.39 (3.53) | 77%|
-|[📊 HiGHS-1.2.2](milp_8threads-HiGHS.html) | 9.15 (10.20) | 55%|
-|[📊 SCIP/spx-8.0.0](milp_8threads-SCIP.html) | 10.15 (1.00) | 93%|
+|[🥈 COPT-5.0.0](milp_8threads-COPT.html) | 2.34 (8.69) | 61%|
+|[🥉 SCIPC/cpx-8.0.0](milp_8threads-SCIPC.html) | 7.95 (2.34) | 81%|
+|[📊 HiGHS-1.2.2](milp_8threads-HiGHS.html) | 9.15 (9.72) | 57%|
+|[📊 SCIP/spx-8.0.0](milp_8threads-SCIP.html) | 9.72 (1.00) | 93%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/milp_8threads-8-May-2022.html">May 2022</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-23-Apr-2022.html">23 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-5-Feb-2022.html">5 Feb 2022</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-30-Dec-2021.html">30 Dec 2021</a></li>
@@ -211,13 +212,13 @@ Choose base solver for comparison:
 ---
 
 
-## [MILP cases that are slightly pathological (27 Apr 2022)](http://plato.asu.edu/ftp/path.html)
+## [MILP cases that are slightly pathological (19 Jun 2022)](http://plato.asu.edu/ftp/path.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 45|
 | :--- | ---:  | ---:   |
 |[🥇 GUROBI-9.5.0](path-Gurobi.html) | 1.00 (1.00) | 98%|
-|[🥈 COPT-4.0.0](path-COPT.html) | 6.72 (6.72) | 64%|
+|[🥈 COPT-5.0.0](path-COPT.html) | 3.99 (3.99) | 76%|
 |[🥉 FSCIP-7.0.0](path-FSCIP.html) | 13.75 (13.80) | 53%|
 |[📊 SCIPC-8.0.0](path-SCIPC.html) | 16.86 (16.90) | 56%|
 |[📊 HiGHS-1.2.2](path-HiGHS.html) | 17.28 (17.30) | 56%|
@@ -231,6 +232,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/path-27-Apr-2022.html">27 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/path-1-Feb-2022.html">1 Feb 2022</a></li>
 <li><a href="/mittelmann-plots/path-26-Jan-2022.html">26 Jan 2022</a></li>
 <li><a href="/mittelmann-plots/path-15-Dec-2021.html">15 Dec 2021</a></li>
@@ -269,14 +271,14 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Second Order Cone Benchmark (6 May 2022)](http://plato.asu.edu/ftp/socp.html)
+## [Large Second Order Cone Benchmark (19 Jun 2022)](http://plato.asu.edu/ftp/socp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 18|
 | :--- | ---:  | ---:   |
 |[🥇 MOSEK-9.3.20](socp-MOSEK.html) | 1.00 (1.00) | 100%|
 |[🥈 Gurobi-9.5.0](socp-Gurobi.html) | 1.07 (1.07) | 100%|
-|[🥉 COPT-4.0.0](socp-COPT.html) | 1.21 (1.21) | 100%|
+|[🥉 COPT-5.0.0](socp-COPT.html) | 1.10 (1.10) | 100%|
 |[📊 KNITRO-13.0.0](socp-KNITRO.html) | 9.47 (9.47) | 83%|
 |[📊 ECOS-2.0.4](socp-ECOS.html) | 78.11 (78.10) | 33%|
 
@@ -285,6 +287,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/socp-6-May-2022.html">6 May 2022</a></li>
 <li><a href="/mittelmann-plots/socp-28-Jan-2022.html">28 Jan 2022</a></li>
 <li><a href="/mittelmann-plots/socp-18-Jan-2022.html">18 Jan 2022</a></li>
 <li><a href="/mittelmann-plots/socp-10-Nov-2021.html">10 Nov 2021</a></li>
@@ -475,22 +478,23 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Continuous QPLIB Benchmark (11 Apr 2022)](http://plato.asu.edu/ftp/cconvex.html)
+## [Convex Continuous QPLIB Benchmark (19 Jun 2022)](http://plato.asu.edu/ftp/cconvex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
 | :--- | ---:  | ---:   |
-|[🥇 COPT-4.0.0](cconvex-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 KNITRO-13.0.0](cconvex-KNITRO.html) | 1.54 (1.54) | 100%|
-|[🥉 MOSEK-9.3.12](cconvex-MOSEK.html) | 1.98 (1.98) | 97%|
-|[📊 Gurobi-9.5.0](cconvex-Gurobi.html) | 2.01 (2.01) | 94%|
-|[📊 IPOPT-3.14.5](cconvex-IPOPT.html) | 7.31 (7.31) | 91%|
+|[🥇 COPT-5.0.0](cconvex-COPT.html) | 1.00 (1.00) | 100%|
+|[🥈 KNITRO-13.0.0](cconvex-KNITRO.html) | 1.55 (1.55) | 100%|
+|[🥉 MOSEK-9.3.12](cconvex-MOSEK.html) | 2.00 (2.00) | 97%|
+|[📊 Gurobi-9.5.0](cconvex-Gurobi.html) | 2.03 (2.03) | 94%|
+|[📊 IPOPT-3.14.5](cconvex-IPOPT.html) | 7.40 (7.40) | 91%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/cconvex-11-Apr-2022.html">11 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/cconvex-28-Jan-2022.html">28 Jan 2022</a></li>
 <li><a href="/mittelmann-plots/cconvex-22-Jan-2022.html">22 Jan 2022</a></li>
 <li><a href="/mittelmann-plots/cconvex-18-Jan-2022.html">18 Jan 2022</a></li>
