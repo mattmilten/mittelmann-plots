@@ -182,10 +182,12 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
 | :--- | ---:  | ---:   |
-|[🥇 COPT-5.0.0](milp_8threads-COPT.html) | 1.00 (14.50) | 45%|
-|[🥈 SCIPC/spx-8.0.0](milp_8threads-SCIPC.html) | 3.40 (2.34) | 81%|
-|[🥉 HiGHS-1.2.2](milp_8threads-HiGHS.html) | 3.91 (9.72) | 57%|
-|[📊 SCIP/spx-8.0.0](milp_8threads-SCIP.html) | 4.15 (1.00) | 93%|
+|[🥇 Gurobi-9.5.0](milp_8threads-Gurobi.html) | 1.00 (1.00) | 93%|
+|[🥈 COPT-5.0.0](milp_8threads-COPT.html) | 2.34 (2.34) | 81%|
+|[🥉 SCIPC/spx-8.0.0](milp_8threads-SCIPC.html) | 7.95 (7.95) | 63%|
+|[📊 HiGHS-1.2.2](milp_8threads-HiGHS.html) | 9.15 (9.15) | 62%|
+|[📊 SCIP/spx-8.0.0](milp_8threads-SCIP.html) | 9.72 (9.72) | 57%|
+|[📊 CBC-2.10.5](milp_8threads-CBC.html) | 14.53 (14.50) | 45%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
