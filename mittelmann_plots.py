@@ -149,7 +149,7 @@ def parse_table(url, timelimit=3600, threads=1):
         _version = [x.split()[0].rstrip(":") for x in _version]
         _solved = scoretab[4].split()[1:]
         _score = scoretab[3].split()[1:]
-        solver = scoretab[0].split()[2:]
+        solver = scoretab[0].split()[:]
         stats["solver"] = solver
         stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
         stats["version"] = {s: get_version(s, _version) for s in solver}
