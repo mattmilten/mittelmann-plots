@@ -213,17 +213,16 @@ Choose base solver for comparison:
 ---
 
 
-## [MILP cases that are slightly pathological (19 Jun 2022)](http://plato.asu.edu/ftp/path.html)
+## [MILP cases that are slightly pathological (6 Jul 2022)](http://plato.asu.edu/ftp/path.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 45|
 | :--- | ---:  | ---:   |
 |[🥇 GUROBI-9.5.0](path-Gurobi.html) | 1.00 (1.00) | 98%|
 |[🥈 COPT-5.0.0](path-COPT.html) | 3.99 (3.99) | 76%|
-|[🥉 FSCIP-7.0.0](path-FSCIP.html) | 13.75 (13.80) | 53%|
-|[📊 SCIPC-8.0.0](path-SCIPC.html) | 16.86 (16.90) | 56%|
+|[🥉 SCIPC-8.0.0](path-SCIPC.html) | 8.04 (8.04) | 76%|
+|[📊 SCIP-8.0.0](path-SCIP.html) | 15.49 (15.50) | 51%|
 |[📊 HiGHS-1.2.2](path-HiGHS.html) | 17.28 (17.30) | 56%|
-|[📊 SCIP-8.0.0](path-SCIP.html) | 23.02 (23.00) | 38%|
 |[📊 CBC-2.10.7](path-CBC.html) | 34.68 (34.70) | 11%|
 |[📊 GLPK-5.0](path-GLPK.html) | 35.15 (35.20) | 13%|
 |[📊 MATLAB-2020a](path-MATLAB.html) | 42.36 (42.40) | 7%|
@@ -233,6 +232,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/path-19-Jun-2022.html">19 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/path-27-Apr-2022.html">27 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/path-1-Feb-2022.html">1 Feb 2022</a></li>
 <li><a href="/mittelmann-plots/path-26-Jan-2022.html">26 Jan 2022</a></li>
