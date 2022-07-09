@@ -365,7 +365,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Discrete Non-Convex QPLIB Benchmark (non-binary) (30 Apr 2022)](http://plato.asu.edu/ftp/nonbinary.html)
+## [Discrete Non-Convex QPLIB Benchmark (non-binary) (7 Jul 2022)](http://plato.asu.edu/ftp/nonbinary.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 86|
@@ -375,14 +375,15 @@ Choose base solver for comparison:
 |[🥉 SCIP-8.0.0](nonbinary-SCIP.html) | 23.34 (23.30) | 43%|
 |[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 42.87 (42.90) | 34%|
 |[📊 Baron-22.3.21](nonbinary-BARON.html) | 44.49 (44.50) | 31%|
+|[📊 MINOTAUR-0.3.0](nonbinary-MINOTAUR.html) | 53.29 (53.30) | 17%|
 |[📊 COUENNE-0.5](nonbinary-COUENNE.html) | 87.93 (87.90) | 9%|
-|[📊 MINOTAUR-0.2.1](nonbinary-MINOTAUR.html) | 99.61 (99.60) | 5%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/nonbinary-30-Apr-2022.html">30 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/nonbinary-26-Apr-2022.html">26 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/nonbinary-9-Mar-2022.html">9 Mar 2022</a></li>
 <li><a href="/mittelmann-plots/nonbinary-28-Jan-2022.html">28 Jan 2022</a></li>
