@@ -326,13 +326,13 @@ Choose base solver for comparison:
 ---
 
 
-## [Binary Non-Convex QPLIB Benchmark (9 Jul 2022)](http://plato.asu.edu/ftp/qplib.html)
+## [Binary Non-Convex QPLIB Benchmark (15 Jul 2022)](http://plato.asu.edu/ftp/qplib.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 91|
 | :--- | ---:  | ---:   |
 |[🥇 Gurobi-9.5.0](qplib-GUROBI.html) | 1.00 (1.00) | 95%|
-|[🥈 OCTERACT-4.3.0](qplib-OCTERACT.html) | 2.15 (2.15) | 95%|
+|[🥈 OCTERACT-4.4.0](qplib-OCTERACT.html) | 2.07 (2.07) | 92%|
 |[🥉 Baron-22.1.8](qplib-BARON.html) | 13.41 (13.40) | 45%|
 |[📊 FSCIP-7.0.0](qplib-FSCIP.html) | 35.46 (35.50) | 37%|
 |[📊 SCIP-8.0.0](qplib-SCIP.html) | 35.83 (35.80) | 33%|
@@ -344,6 +344,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/qplib-9-Jul-2022.html">9 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/qplib-6-May-2022.html">6 May 2022</a></li>
 <li><a href="/mittelmann-plots/qplib-1-May-2022.html">1 May 2022</a></li>
 <li><a href="/mittelmann-plots/qplib-25-Feb-2022.html">25 Feb 2022</a></li>
@@ -366,24 +367,25 @@ Choose base solver for comparison:
 ---
 
 
-## [Discrete Non-Convex QPLIB Benchmark (non-binary) (7 Jul 2022)](http://plato.asu.edu/ftp/nonbinary.html)
+## [Discrete Non-Convex QPLIB Benchmark (non-binary) (15 Jul 2022)](http://plato.asu.edu/ftp/nonbinary.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 86|
+| solver | score (as reported) | solved of 87|
 | :--- | ---:  | ---:   |
-|[🥇 Gurobi-9.5.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 85%|
-|[🥈 OCTERACT-4.3.0](nonbinary-OCTERACT.html) | 7.97 (7.97) | 52%|
-|[🥉 SCIP-8.0.0](nonbinary-SCIP.html) | 23.34 (23.30) | 43%|
-|[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 42.87 (42.90) | 34%|
-|[📊 Baron-22.3.21](nonbinary-BARON.html) | 44.49 (44.50) | 31%|
-|[📊 MINOTAUR-0.3.0](nonbinary-MINOTAUR.html) | 53.29 (53.30) | 17%|
-|[📊 COUENNE-0.5](nonbinary-COUENNE.html) | 87.93 (87.90) | 9%|
+|[🥇 Gurobi-9.5.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 84%|
+|[🥈 OCTERACT-4.4.0](nonbinary-OCTERACT.html) | 3.99 (4.56) | 85%|
+|[🥉 SCIP-8.0.0](nonbinary-SCIP.html) | 22.41 (22.40) | 43%|
+|[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 40.88 (40.90) | 33%|
+|[📊 Baron-22.3.21](nonbinary-BARON.html) | 42.41 (42.40) | 31%|
+|[📊 MINOTAUR-0.3.0](nonbinary-MINOTAUR.html) | 50.70 (50.70) | 17%|
+|[📊 COUENNE-0.5](nonbinary-COUENNE.html) | 83.16 (83.20) | 9%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/nonbinary-7-Jul-2022.html">7 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/nonbinary-30-Apr-2022.html">30 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/nonbinary-26-Apr-2022.html">26 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/nonbinary-9-Mar-2022.html">9 Mar 2022</a></li>
