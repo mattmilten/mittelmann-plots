@@ -367,24 +367,25 @@ Choose base solver for comparison:
 ---
 
 
-## [Discrete Non-Convex QPLIB Benchmark (non-binary) (15 Jul 2022)](http://plato.asu.edu/ftp/nonbinary.html)
+## [Discrete Non-Convex QPLIB Benchmark (non-binary) (16 Jul 2022)](http://plato.asu.edu/ftp/nonbinary.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 87|
+| solver | score (as reported) | solved of 88|
 | :--- | ---:  | ---:   |
-|[🥇 Gurobi-9.5.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 84%|
-|[🥈 OCTERACT-4.4.0](nonbinary-OCTERACT.html) | 3.99 (4.56) | 85%|
-|[🥉 SCIP-8.0.0](nonbinary-SCIP.html) | 22.41 (22.40) | 43%|
-|[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 40.88 (40.90) | 33%|
-|[📊 Baron-22.3.21](nonbinary-BARON.html) | 42.41 (42.40) | 31%|
-|[📊 MINOTAUR-0.3.0](nonbinary-MINOTAUR.html) | 50.70 (50.70) | 17%|
-|[📊 COUENNE-0.5](nonbinary-COUENNE.html) | 83.16 (83.20) | 9%|
+|[🥇 Gurobi-9.5.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 83%|
+|[🥈 OCTERACT-4.4.0](nonbinary-OCTERACT.html) | 3.91 (3.91) | 85%|
+|[🥉 SCIP-8.0.0](nonbinary-SCIP.html) | 21.55 (21.60) | 42%|
+|[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 39.04 (39.00) | 33%|
+|[📊 Baron-22.3.21](nonbinary-BARON.html) | 40.49 (40.50) | 31%|
+|[📊 MINOTAUR-0.3.0](nonbinary-MINOTAUR.html) | 48.29 (48.30) | 17%|
+|[📊 COUENNE-0.5](nonbinary-COUENNE.html) | 78.78 (78.80) | 9%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/nonbinary-15-Jul-2022.html">15 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/nonbinary-7-Jul-2022.html">7 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/nonbinary-30-Apr-2022.html">30 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/nonbinary-26-Apr-2022.html">26 Apr 2022</a></li>
@@ -442,13 +443,13 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Discrete QPLIB Benchmark (7 Jul 2022)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (16 Jul 2022)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 31|
 | :--- | ---:  | ---:   |
 |[🥇 GUROBI-9.5.0](convex-GUROBI.html) | 1.00 (1.00) | 74%|
-|[🥈 OCTERACT-4.3.0](convex-OCTERACT.html) | 3.36 (3.36) | 81%|
+|[🥈 OCTERACT-4.4.0](convex-OCTERACT.html) | 3.99 (3.99) | 74%|
 |[🥉 Shot-1.1](convex-SHOT.html) | 5.15 (5.15) | 48%|
 |[📊 Baron-22.1.8](convex-BARON.html) | 7.22 (7.22) | 55%|
 |[📊 MOSEK-9.3.11](convex-MOSEK.html) | 11.72 (11.70) | 42%|
@@ -463,6 +464,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/convex-7-Jul-2022.html">7 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/convex-12-Jun-2022.html">12 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/convex-25-Apr-2022.html">25 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/convex-23-Feb-2022.html">23 Feb 2022</a></li>
