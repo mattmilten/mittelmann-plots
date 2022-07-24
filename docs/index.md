@@ -326,7 +326,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Binary Non-Convex QPLIB Benchmark (15 Jul 2022)](http://plato.asu.edu/ftp/qplib.html)
+## [Binary Non-Convex QPLIB Benchmark (23 Jul 2022)](http://plato.asu.edu/ftp/qplib.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 91|
@@ -334,7 +334,6 @@ Choose base solver for comparison:
 |[🥇 Gurobi-9.5.0](qplib-GUROBI.html) | 1.00 (1.00) | 95%|
 |[🥈 OCTERACT-4.4.0](qplib-OCTERACT.html) | 2.07 (2.07) | 92%|
 |[🥉 Baron-22.1.8](qplib-BARON.html) | 13.41 (13.40) | 45%|
-|[📊 FSCIP-7.0.0](qplib-FSCIP.html) | 35.46 (35.50) | 37%|
 |[📊 SCIP-8.0.0](qplib-SCIP.html) | 35.83 (35.80) | 33%|
 |[📊 ANTIGONE-1.1](qplib-ANTIGONE.html) | 49.30 (49.30) | 25%|
 |[📊 MINOTAUR-0.3.0](qplib-MINOTAUR.html) | 71.27 (71.30) | 7%|
@@ -344,6 +343,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/qplib-15-Jul-2022.html">15 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/qplib-9-Jul-2022.html">9 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/qplib-6-May-2022.html">6 May 2022</a></li>
 <li><a href="/mittelmann-plots/qplib-1-May-2022.html">1 May 2022</a></li>
