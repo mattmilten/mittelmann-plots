@@ -179,7 +179,7 @@ def parse_table(url, timelimit=3600, threads=1):
                 columns[i] = "FSCIP"
             elif c.startswith("SCIP-spx"):
                 columns[i] = "SCIP"
-            elif c.startswith("SCIP-cpx"):
+            elif c.startswith("SCIPC-cpx"):
                 columns[i] = "SCIPC"
 
         _version = str(soup.contents[2]).split("<br/>")[1:-1]
