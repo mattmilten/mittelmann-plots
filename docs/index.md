@@ -273,6 +273,21 @@ Choose base solver for comparison:
 ---
 
 
+## [Several SDP-codes on sparse and other SDP problems (27 Jul 2022)](http://plato.asu.edu/ftp/sparse_sdp.html)
+Choose base solver for comparison:
+
+| solver | score (as reported) | solved of 76|
+| :--- | ---:  | ---:   |
+|[🥇 COPT-5.0](sparse_sdp-COPT.html) | 1.00 (1.00) | 97%|
+|[🥈 SDPT3-4.0](sparse_sdp-SDPT3.html) | 2.13 (2.17) | 91%|
+|[🥉 CSDP-6.2.0](sparse_sdp-CSDP.html) | 2.16 (2.19) | 92%|
+|[📊 HDSDP-0.9.2](sparse_sdp-HDSDP.html) | 3.50 (3.57) | 92%|
+|[📊 SDPA-7.4.2](sparse_sdp-SDPA.html) | 4.29 (4.40) | 80%|
+|[📊 SeDuMi-1.3.5](sparse_sdp-SeDuMi.html) | 11.69 (12.20) | 82%|
+
+---
+
+
 ## [Large Second Order Cone Benchmark (19 Jun 2022)](http://plato.asu.edu/ftp/socp.html)
 Choose base solver for comparison:
 
@@ -445,6 +460,39 @@ Choose base solver for comparison:
 ---
 
 
+## [Convex Continuous QPLIB Benchmark (26 Jul 2022)](http://plato.asu.edu/ftp/cconvex.html)
+Choose base solver for comparison:
+
+| solver | score (as reported) | solved of 32|
+| :--- | ---:  | ---:   |
+|[🥇 COPT-5.0.0](cconvex-COPT.html) | 1.00 (1.00) | 100%|
+|[🥈 KNITRO-13.0.0](cconvex-KNITRO.html) | 1.55 (1.55) | 100%|
+|[🥉 MOSEK-9.3.12](cconvex-MOSEK.html) | 2.00 (2.00) | 97%|
+|[📊 Gurobi-9.5.0](cconvex-Gurobi.html) | 2.03 (2.03) | 94%|
+|[📊 IPOPT-3.14.5](cconvex-IPOPT.html) | 7.40 (7.40) | 91%|
+
+
+<details><summary>previous benchmarks 🔽</summary>
+<br>
+
+<ul>
+<li><a href="/mittelmann-plots/cconvex-19-Jun-2022.html">19 Jun 2022</a></li>
+<li><a href="/mittelmann-plots/cconvex-11-Apr-2022.html">11 Apr 2022</a></li>
+<li><a href="/mittelmann-plots/cconvex-28-Jan-2022.html">28 Jan 2022</a></li>
+<li><a href="/mittelmann-plots/cconvex-22-Jan-2022.html">22 Jan 2022</a></li>
+<li><a href="/mittelmann-plots/cconvex-18-Jan-2022.html">18 Jan 2022</a></li>
+<li><a href="/mittelmann-plots/cconvex-19-Dec-2021.html">19 Dec 2021</a></li>
+<li><a href="/mittelmann-plots/cconvex-11-Nov-2021.html">11 Nov 2021</a></li>
+<li><a href="/mittelmann-plots/cconvex-5-May-2021.html">5 May 2021</a></li>
+<li><a href="/mittelmann-plots/cconvex-13-Dec-2020.html">13 Dec 2020</a></li>
+<li><a href="/mittelmann-plots/cconvex-11-Nov-2020.html">11 Nov 2020</a></li>
+<li><a href="/mittelmann-plots/cconvex-27-Sep-2020.html">27 Sep 2020</a></li>
+<li><a href="/mittelmann-plots/cconvex-3-Apr-2020.html">3 Apr 2020</a></li>
+</ul></details>
+
+---
+
+
 ## [Convex Discrete QPLIB Benchmark (16 Jul 2022)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
@@ -489,35 +537,14 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Continuous QPLIB Benchmark (26 Jul 2022)](http://plato.asu.edu/ftp/cconvex.html)
+## [MPEC Benchmark (Math. Progr. w. Equilibrium Constraints) (12 Apr 2022)](http://plato.asu.edu/ftp/mpec.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 32|
+| solver | score (as reported) | solved of 29|
 | :--- | ---:  | ---:   |
-|[🥇 COPT-5.0.0](cconvex-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 KNITRO-13.0.0](cconvex-KNITRO.html) | 1.55 (1.55) | 100%|
-|[🥉 MOSEK-9.3.12](cconvex-MOSEK.html) | 2.00 (2.00) | 97%|
-|[📊 Gurobi-9.5.0](cconvex-Gurobi.html) | 2.03 (2.03) | 94%|
-|[📊 IPOPT-3.14.5](cconvex-IPOPT.html) | 7.40 (7.40) | 91%|
-
-
-<details><summary>previous benchmarks 🔽</summary>
-<br>
-
-<ul>
-<li><a href="/mittelmann-plots/cconvex-19-Jun-2022.html">19 Jun 2022</a></li>
-<li><a href="/mittelmann-plots/cconvex-11-Apr-2022.html">11 Apr 2022</a></li>
-<li><a href="/mittelmann-plots/cconvex-28-Jan-2022.html">28 Jan 2022</a></li>
-<li><a href="/mittelmann-plots/cconvex-22-Jan-2022.html">22 Jan 2022</a></li>
-<li><a href="/mittelmann-plots/cconvex-18-Jan-2022.html">18 Jan 2022</a></li>
-<li><a href="/mittelmann-plots/cconvex-19-Dec-2021.html">19 Dec 2021</a></li>
-<li><a href="/mittelmann-plots/cconvex-11-Nov-2021.html">11 Nov 2021</a></li>
-<li><a href="/mittelmann-plots/cconvex-5-May-2021.html">5 May 2021</a></li>
-<li><a href="/mittelmann-plots/cconvex-13-Dec-2020.html">13 Dec 2020</a></li>
-<li><a href="/mittelmann-plots/cconvex-11-Nov-2020.html">11 Nov 2020</a></li>
-<li><a href="/mittelmann-plots/cconvex-27-Sep-2020.html">27 Sep 2020</a></li>
-<li><a href="/mittelmann-plots/cconvex-3-Apr-2020.html">3 Apr 2020</a></li>
-</ul></details>
+|[🥇 KNITRO-13.0](mpec-KNITRO.html) | 1.00 (1.00) | 83%|
+|[🥈 filter-MPEC](mpec-filter.html) | 7.82 (8.90) | 62%|
+|[🥉 LOQO-7.03](mpec-LOQO.html) | 16.69 (19.50) | 21%|
 
 ---
 
