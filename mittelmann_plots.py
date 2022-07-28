@@ -282,6 +282,54 @@ def parse_table(url, timelimit=3600, threads=1):
             columns=["instance"] + solver,
         )
 
+    elif "sparse_sdp.html" in url:
+        tab = pre[3].text.split("\n")
+        tabmark = [ind for ind, i in enumerate(tab) if i.startswith("=====")]
+        _version = pre[1].text.split("\n")[1:-1]
+        _version = [x.split()[0].rstrip(":") for x in _version]
+        _score = tab[2].split()[:]
+        _solved = tab[5].split()[3:]
+        solver = tab[7].split()[1:]
+        stats["solver"] = solver
+        nprobs = len(tab[tabmark[1] : tabmark[2]])
+        stats["nprobs"] = nprobs
+        stats["score"] = {solver[i]: float(_score[i]) for i in range(len(solver))}
+        stats["solved"] = {
+            solver[i]: int(_solved[i].strip("*")) for i in range(len(solver))
+        }
+        stats["version"] = {s: get_version(s, _version) for s in solver}
+        stats["timelimit"] = timelimit
+        stats["times"] = pd.DataFrame(
+            [l.split() for l in tab[tabmark[1] : tabmark[2]]],
+            columns=["instance"] + solver,
+        )
+        # count small violations (marked with an "a" suffix) as solved
+        stats["times"].replace({r"(\s*[0-9]+)a" : r"\1"}, regex=True, inplace=True)
+
+    elif "mpec.html" in url:
+        p = soup.find_all("p")
+        stats["date"] = p[0].text.split("\n")[0].replace("=", "").replace("-", "").strip()
+        tab = pre[1].text.split("\n")
+        tabmark = [ind for ind, i in enumerate(tab) if i.startswith("=====")]
+        _version = p[4].text.split("\n")[0:3]
+        _version = [x.split()[0].rstrip(":") for x in _version]
+        _score = tab[1].split()[2:]
+        _solved = tab[2].split()[4:]
+        solver = tab[4].split()[1:]
+        stats["solver"] = solver
+        nprobs = len(tab[tabmark[0]+2 : tabmark[1]])
+        stats["nprobs"] = nprobs
+        stats["score"] = {solver[i]: float(_score[i]) for i in range(len(solver))}
+        stats["solved"] = {
+            solver[i]: int(_solved[i].strip("*")) for i in range(len(solver))
+        }
+        stats["version"] = {s: get_version(s, _version) for s in solver}
+        stats["timelimit"] = timelimit
+        stats["times"] = pd.DataFrame(
+            [l.split() for l in tab[tabmark[0]+2 : tabmark[1]]],
+            columns=["instance"] + solver,
+        )
+
     else:
         tab = pre[2].text.split("\n")
         tabmark = [ind for ind, i in enumerate(tab) if i.startswith("=====")]
@@ -491,20 +539,29 @@ def write_bench(url, timelimit, threads=1):
 
 # %%
 urls = [
+    # LP
     ("http://plato.asu.edu/ftp/lpsimp.html", 15000, 1),
     ("http://plato.asu.edu/ftp/lpbar.html", 15000, 1),
     ("http://plato.asu.edu/ftp/network.html", 3600, 1),
-    # ("http://plato.asu.edu/ftp/milp.html", 7200, 1),
+    # MIP
+    # ("http://plato.asu.edu/ftp/milp.html", 7200, 1), deprecated
     ("http://plato.asu.edu/ftp/milp.html", 7200, 8),
     ("http://plato.asu.edu/ftp/path.html", 10800, 1),
     ("http://plato.asu.edu/ftp/infeas.html", 3600, 1),
+    # SDP/SQLP
+    ("http://plato.asu.edu/ftp/sparse_sdp.html", 40000, 1),
     ("http://plato.asu.edu/ftp/socp.html", 3600, 1),
     ("http://plato.asu.edu/ftp/misocp.html", 7200, 1),
+    # MIQP/QCP
     ("http://plato.asu.edu/ftp/qplib.html", 3600, 1),
     ("http://plato.asu.edu/ftp/nonbinary.html", 10800, 1),
     ("http://plato.asu.edu/ftp/cnconv.html", 10800, 1),
-    ("http://plato.asu.edu/ftp/convex.html", 7200, 1),
     ("http://plato.asu.edu/ftp/cconvex.html", 7200, 1),
+    ("http://plato.asu.edu/ftp/convex.html", 7200, 1),
+    # MINLP
+    # ("http://plato.asu.edu/ftp/minlp.html", 7200, 1), table is difficult to parse
+    # MPEC
+    ("http://plato.asu.edu/ftp/mpec.html", 500, 1),
 ]
 
 # %%
