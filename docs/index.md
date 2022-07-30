@@ -5,13 +5,13 @@ The score ([scaled shifted geometric mean](http://plato.asu.edu/ftp/shgeom.html)
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (17 Jun 2022)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers (29 Jul 2022)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 56|
 | :--- | ---:  | ---:   |
 |[🥇 COPT-5.0.0](lpsimp-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 MindOpt-0.18.3](lpsimp-MDOPT.html) | 1.02 (1.02) | 100%|
+|[🥈 MindOpt-0.18.4](lpsimp-MDOPT.html) | 1.08 (1.08) | 98%|
 |[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.43 (1.43) | 100%|
 |[📊 Optverse-0.2.6](lpsimp-OPTV.html) | 2.30 (2.30) | 93%|
 |[📊 CLP-1.17.7](lpsimp-CLP.html) | 9.52 (9.52) | 77%|
@@ -27,6 +27,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpsimp-17-Jun-2022.html">17 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-15-Jun-2022.html">15 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-12-Jun-2022.html">12 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-6-Jun-2022.html">6 Jun 2022</a></li>
@@ -70,7 +71,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Benchmark of Barrier LP solvers (15 Jun 2022)](http://plato.asu.edu/ftp/lpbar.html)
+## [Benchmark of Barrier LP solvers (29 Jul 2022)](http://plato.asu.edu/ftp/lpbar.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 50|
@@ -83,7 +84,7 @@ Choose base solver for comparison:
 |[📊 KNITRO-13.0.0](lpbar-KNITRO.html) | 15.75 (15.70) | 78%|
 |[📊 HiGHS-1.2.2](lpbar-HiGHS.html) | 22.32 (20.30) | 84%|
 |[📊 MATLAB-R2020b](lpbar-MATLAB.html) | 49.74 (40.80) | 72%|
-|[📊 Tulip-0.9.3](lpbar-TULIP.html) | 55.44 (55.40) | 66%|
+|[📊 Tulip-0.9.4](lpbar-TULIP.html) | 58.58 (58.60) | 64%|
 |[📊 CLP-1.17.7](lpbar-CLP.html) | 77.79 (77.80) | 70%|
 
 
@@ -91,6 +92,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpbar-15-Jun-2022.html">15 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-1-Jun-2022.html">1 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-25-May-2022.html">25 May 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-14-May-2022.html">14 May 2022</a></li>
