@@ -352,6 +352,13 @@ def parse_table(url, timelimit=3600, threads=1):
             columns=["instance"] + solver,
         )
 
+    # clean up non-numeric values and replace with timelimit
+    time = stats["times"]
+    for s in stats["solver"]:
+        time[s] = pd.to_numeric(stats["times"][s], errors="coerce")
+    time.fillna(value=stats["timelimit"], inplace=True)
+    stats["times"] = time
+
     return stats
 
 
@@ -372,14 +379,10 @@ def plot_benchmark(stats, base):
     """
     generate an interactive Plotly figure from the given dictionary
     """
-    # clean up non-numeric values and replace with timelimit
-    time = stats["times"]
-    for s in stats["solver"]:
-        time[s] = pd.to_numeric(stats["times"][s], errors="coerce")
-    time.fillna(value=stats["timelimit"], inplace=True)
-
+    
     # this is to define the tick labels on the y-axis (built-in log-scale doesn't work well with bar charts)
     power = 2
+    time = stats["times"]
     maxtime = time.max(numeric_only=True).max()
     tickvals = np.arange(-int(np.log2(maxtime)), int(np.log2(maxtime)))
     ticktext = [str(power ** i) if i >= 0 else f"1/{power**-i}" for i in tickvals]
@@ -463,7 +466,7 @@ def plot_benchmark(stats, base):
 # %%
 def write_bench(url, timelimit, threads=1):
 
-    medals = {0:"🥇", 1:"🥈", 2:"🥉"}
+    medals = {0: "⭐", 1:"🥇", 2:"🥈", 3:"🥉"}
 
     benchname = url.split("/")[-1][:-5]
     stats = parse_table(url, timelimit, threads)
@@ -471,16 +474,26 @@ def write_bench(url, timelimit, threads=1):
     if threads > 1:
         benchname += f"_{threads}threads"
 
+    # compute scores based on shifted geometric means of solve times
     stats["shmean"] = {}
     shift = 10
     for s in stats["solver"]:
-        time = pd.to_numeric(stats["times"][s], errors="coerce")
-        time.fillna(value=stats["timelimit"], inplace=True)
+        time = stats["times"][s]
         logsum = sum(time.apply(lambda x: math.log(max(1, x + shift))))
         stats["shmean"].update({s: math.exp(logsum / len(time)) - shift})
     bestshmean = min(stats["shmean"].values())
     for s in stats["solver"]:
         stats["shmean"][s] = stats["shmean"][s] / bestshmean
+
+    # add data for the virtual best solver
+    stats["solver"].append("vbest")
+    stats["version"]["vbest"] = "virtual best"
+    stats["solved"]["vbest"] = max(stats["solved"].values())
+    times = stats["times"].drop("instance", axis="columns")
+    stats["times"]["vbest"] = times.apply(min, axis="columns")
+    stats["score"]["vbest"] = 0
+    logsum = sum(stats["times"]["vbest"].apply(lambda x: math.log(max(1, x + shift))))
+    stats["shmean"]["vbest"] = (math.exp(logsum / len(time)) - shift) / bestshmean
 
     storedate = stats["date"].replace(" ", "-")
     newdata = True

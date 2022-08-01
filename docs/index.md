@@ -10,6 +10,7 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 57|
 | :--- | ---:  | ---:   |
+|[⭐ virtual best](lpsimp-vbest.html) | 0.68 (0.00) | 100%|
 |[🥇 COPT-5.0.0](lpsimp-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 MindOpt-0.18.4](lpsimp-MDOPT.html) | 1.07 (1.07) | 98%|
 |[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.46 (1.46) | 98%|
@@ -77,6 +78,7 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 50|
 | :--- | ---:  | ---:   |
+|[⭐ virtual best](lpbar-vbest.html) | 0.68 (0.00) | 100%|
 |[🥇 COPT-5.0.0](lpbar-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 Gurobi-9.5.1](lpbar-Gurobi.html) | 1.33 (1.33) | 98%|
 |[🥉 MindOpt-0.18.2](lpbar-MDOPT.html) | 2.47 (2.47) | 98%|
@@ -133,6 +135,7 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 25|
 | :--- | ---:  | ---:   |
+|[⭐ virtual best](network-vbest.html) | 0.85 (0.00) | 100%|
 |[🥇 OptVerse-0.2.6](network-OPTV.html) | 1.00 (1.00) | 100%|
 |[🥈 Gurobi-9.5.1](network-GUR.html) | 1.11 (1.11) | 100%|
 |[🥉 MindOpt-0.18.1](network-MDOPT.html) | 1.19 (1.19) | 100%|
@@ -185,6 +188,7 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
 | :--- | ---:  | ---:   |
+|[⭐ virtual best](milp_8threads-vbest.html) | 0.81 (0.00) | 93%|
 |[🥇 Gurobi-9.5.0](milp_8threads-Gurobi.html) | 1.00 (1.00) | 93%|
 |[🥈 COPT-5.0.0](milp_8threads-COPT.html) | 2.34 (2.34) | 81%|
 |[🥉 SCIPC/spx-8.0.0](milp_8threads-SCIPC.html) | 7.95 (7.95) | 63%|
@@ -221,6 +225,7 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 45|
 | :--- | ---:  | ---:   |
+|[⭐ virtual best](path-vbest.html) | 0.80 (0.00) | 98%|
 |[🥇 GUROBI-9.5.0](path-Gurobi.html) | 1.00 (1.00) | 98%|
 |[🥈 COPT-5.0.0](path-COPT.html) | 3.99 (3.99) | 76%|
 |[🥉 HiGHS-1.2.2](path-HiGHS.html) | 17.28 (17.30) | 56%|
@@ -252,6 +257,7 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
 | :--- | ---:  | ---:   |
+|[⭐ virtual best](infeas-vbest.html) | 0.66 (0.00) | 91%|
 |[🥇 GUROBI-9.5.0](infeas-Gurobi.html) | 1.00 (1.00) | 91%|
 |[🥈 COPT-5.0.0](infeas-COPT.html) | 1.39 (1.39) | 91%|
 |[🥉 SCIPC-8.0.0](infeas-SCIPC.html) | 4.73 (4.68) | 81%|
@@ -281,6 +287,7 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 76|
 | :--- | ---:  | ---:   |
+|[⭐ virtual best](sparse_sdp-vbest.html) | 0.44 (0.00) | 97%|
 |[🥇 COPT-5.0](sparse_sdp-COPT.html) | 1.00 (1.00) | 97%|
 |[🥈 SDPT3-4.0](sparse_sdp-SDPT3.html) | 2.13 (2.17) | 91%|
 |[🥉 CSDP-6.2.0](sparse_sdp-CSDP.html) | 2.16 (2.19) | 92%|
@@ -296,6 +303,7 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 18|
 | :--- | ---:  | ---:   |
+|[⭐ virtual best](socp-vbest.html) | 0.74 (0.00) | 100%|
 |[🥇 MOSEK-9.3.20](socp-MOSEK.html) | 1.00 (1.00) | 100%|
 |[🥈 Gurobi-9.5.0](socp-Gurobi.html) | 1.07 (1.07) | 100%|
 |[🥉 COPT-5.0.0](socp-COPT.html) | 1.10 (1.10) | 100%|
@@ -321,7 +329,8 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 47|
 | :--- | ---:  | ---:   |
-|[🥇 Gurobi-9.5.1](misocp-GUROBI.html) | 1.00 (1.00) | 100%|
+|[⭐ Gurobi-9.5.1](misocp-GUROBI.html) | 1.00 (1.00) | 100%|
+|[🥇 virtual best](misocp-vbest.html) | 1.00 (0.00) | 100%|
 |[🥈 MOSEK-9.3.20](misocp-MOSEK.html) | 13.25 (13.20) | 68%|
 |[🥉 SCIP-8.0.0](misocp-SCIP.html) | 20.43 (20.40) | 66%|
 
@@ -350,6 +359,7 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 91|
 | :--- | ---:  | ---:   |
+|[⭐ virtual best](qplib-vbest.html) | 0.77 (0.00) | 95%|
 |[🥇 Gurobi-9.5.0](qplib-GUROBI.html) | 1.00 (1.00) | 95%|
 |[🥈 OCTERACT-4.4.0](qplib-OCTERACT.html) | 2.07 (2.07) | 92%|
 |[🥉 Baron-22.1.8](qplib-BARON.html) | 13.41 (13.40) | 45%|
@@ -391,6 +401,7 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 88|
 | :--- | ---:  | ---:   |
+|[⭐ virtual best](nonbinary-vbest.html) | 0.30 (0.00) | 85%|
 |[🥇 Gurobi-9.5.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 83%|
 |[🥈 OCTERACT-4.4.0](nonbinary-OCTERACT.html) | 3.91 (3.91) | 85%|
 |[🥉 SCIP-8.0.0](nonbinary-SCIP.html) | 21.55 (21.60) | 42%|
@@ -430,6 +441,7 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 68|
 | :--- | ---:  | ---:   |
+|[⭐ virtual best](cnconv-vbest.html) | 0.23 (0.00) | 62%|
 |[🥇 GUROBI-9.5.0](cnconv-GUROBI.html) | 1.00 (1.00) | 62%|
 |[🥈 OCTERACT-4.4.0](cnconv-OCTERACT.html) | 1.87 (1.87) | 62%|
 |[🥉 ANTIGONE-1.1](cnconv-ANTIGONE.html) | 4.90 (4.90) | 41%|
@@ -468,6 +480,7 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
 | :--- | ---:  | ---:   |
+|[⭐ virtual best](cconvex-vbest.html) | 0.89 (0.00) | 100%|
 |[🥇 COPT-5.0.0](cconvex-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 KNITRO-13.0.0](cconvex-KNITRO.html) | 1.55 (1.55) | 100%|
 |[🥉 MOSEK-9.3.12](cconvex-MOSEK.html) | 2.00 (2.00) | 97%|
@@ -501,6 +514,7 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 31|
 | :--- | ---:  | ---:   |
+|[⭐ virtual best](convex-vbest.html) | 0.64 (0.00) | 74%|
 |[🥇 GUROBI-9.5.0](convex-GUROBI.html) | 1.00 (1.00) | 74%|
 |[🥈 OCTERACT-4.4.0](convex-OCTERACT.html) | 3.99 (3.99) | 74%|
 |[🥉 Shot-1.1](convex-SHOT.html) | 5.15 (5.15) | 48%|
@@ -545,7 +559,8 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 29|
 | :--- | ---:  | ---:   |
-|[🥇 KNITRO-13.0](mpec-KNITRO.html) | 1.00 (1.00) | 83%|
+|[⭐ KNITRO-13.0](mpec-KNITRO.html) | 1.00 (1.00) | 83%|
+|[🥇 virtual best](mpec-vbest.html) | 1.00 (0.00) | 83%|
 |[🥈 filter-MPEC](mpec-filter.html) | 7.82 (8.90) | 62%|
 |[🥉 LOQO-7.03](mpec-LOQO.html) | 16.69 (19.50) | 21%|
 
