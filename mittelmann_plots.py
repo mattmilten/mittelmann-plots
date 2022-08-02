@@ -21,7 +21,7 @@ def get_version(s, version):
             version.remove(v)
         # split up SCIP entry to support SCIP-cpx
         if v.startswith("SCIP-") or v.startswith("SCIP/"):
-            version.append(v.replace("SCIP","SCIPC"))
+            version.append(v.replace("SCIP", "SCIPC"))
 
     if s in ["SPLX", "SOPLX"]:
         s = "SoPlex"
@@ -67,7 +67,9 @@ def parse_table(url, timelimit=3600, threads=1):
         solver = tab[tabmark[0] + 1].split()[1:]
         stats["solver"] = solver
         stats["nprobs"] = len(tab[tabmark[1] + 1 : tabmark[2]])
-        stats["score"] = {solver[i]: float(_score[i].strip("*")) for i in range(len(solver))}
+        stats["score"] = {
+            solver[i]: float(_score[i].strip("*")) for i in range(len(solver))
+        }
         stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
         stats["version"] = {s: get_version(s, _version) for s in solver}
         stats["timelimit"] = timelimit
@@ -190,9 +192,7 @@ def parse_table(url, timelimit=3600, threads=1):
         stats["solver"] = solver
         stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
         stats["version"] = {s: get_version(s, _version) for s in solver}
-        stats["score"] = {
-            solver[i]: float(_score[i]) for i in range(len(solver))
-        }
+        stats["score"] = {solver[i]: float(_score[i]) for i in range(len(solver))}
         stats["times"] = pd.DataFrame(
             [l.split() for l in tab[tabmark[1] + 1 : tabmark[-2]]],
             columns=["instance"] + columns,
@@ -227,9 +227,7 @@ def parse_table(url, timelimit=3600, threads=1):
         stats["solver"] = solver
         stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
         stats["version"] = {s: get_version(s, _version) for s in solver}
-        stats["score"] = {
-            solver[i]: float(_score[i]) for i in range(len(solver))
-        }
+        stats["score"] = {solver[i]: float(_score[i]) for i in range(len(solver))}
         stats["times"] = pd.DataFrame(
             [l.split() for l in tab[tabmark[1] + 1 : tabmark[-2]]],
             columns=["instance"] + columns,
@@ -261,9 +259,12 @@ def parse_table(url, timelimit=3600, threads=1):
 
     elif "socp.html" in url:
         tab = pre[1].text.split("\n")
-        tabmark = [ind for ind, i in enumerate(tab) if i.startswith("-----") or i.startswith("======")]
+        tabmark = [
+            ind
+            for ind, i in enumerate(tab)
+            if i.startswith("-----") or i.startswith("======")
+        ]
         # Solvers version on this page are in a table
-        vers = soup.find_all("table")
         _version = [x.text for x in soup.find_all("td")][0::2]
         _score = tab[3].split()[1:]
         _solved = tab[4].split()[1:]
@@ -304,11 +305,13 @@ def parse_table(url, timelimit=3600, threads=1):
             columns=["instance"] + solver,
         )
         # count small violations (marked with an "a" suffix) as solved
-        stats["times"].replace({r"(\s*[0-9]+)a" : r"\1"}, regex=True, inplace=True)
+        stats["times"].replace({r"(\s*[0-9]+)a": r"\1"}, regex=True, inplace=True)
 
     elif "mpec.html" in url:
         p = soup.find_all("p")
-        stats["date"] = p[0].text.split("\n")[0].replace("=", "").replace("-", "").strip()
+        stats["date"] = (
+            p[0].text.split("\n")[0].replace("=", "").replace("-", "").strip()
+        )
         tab = pre[1].text.split("\n")
         tabmark = [ind for ind, i in enumerate(tab) if i.startswith("=====")]
         _version = p[4].text.split("\n")[0:3]
@@ -317,7 +320,7 @@ def parse_table(url, timelimit=3600, threads=1):
         _solved = tab[2].split()[4:]
         solver = tab[4].split()[1:]
         stats["solver"] = solver
-        nprobs = len(tab[tabmark[0]+2 : tabmark[1]])
+        nprobs = len(tab[tabmark[0] + 2 : tabmark[1]])
         stats["nprobs"] = nprobs
         stats["score"] = {solver[i]: float(_score[i]) for i in range(len(solver))}
         stats["solved"] = {
@@ -326,9 +329,44 @@ def parse_table(url, timelimit=3600, threads=1):
         stats["version"] = {s: get_version(s, _version) for s in solver}
         stats["timelimit"] = timelimit
         stats["times"] = pd.DataFrame(
-            [l.split() for l in tab[tabmark[0]+2 : tabmark[1]]],
+            [l.split() for l in tab[tabmark[0] + 2 : tabmark[1]]],
             columns=["instance"] + solver,
         )
+
+    elif "minlp.html" in url:
+        taburl = "http://plato.asu.edu/ftp/compare.txt"
+        resp = requests.get(taburl)
+        souptab = BeautifulSoup(resp.text, features="html.parser")
+        tab = souptab.contents[0].split("\n")
+        scoretab = pre[1].text.split("\n")
+        solver = scoretab[1].split()
+        stats["solver"] = solver
+        _score = scoretab[3].split()[2:]
+        _solved = scoretab[4].split()[1:]
+        stats["score"] = {solver[i]: float(_score[i]) for i in range(len(solver))}
+        stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
+        stats["version"] = {s: s for s in solver}
+        stats["timelimit"] = timelimit
+        tabmark = [ind for ind, i in enumerate(tab) if i.startswith("-----")]
+        columns = ["instance"] + [f"{solver[0]}_nodes_drop", f"{solver[0]}"]
+        # solver = [s[0:s.find("(")] for s in scoretab[0].replace("|", " ").split()]
+        for i in range(1, len(solver)):
+            columns.append(f"{solver[i]}_nodes_drop")
+            columns.append(f"{solver[i]}")
+            columns.append(f"{solver[i]}_nodesQ_drop")
+            columns.append(f"{solver[i]}_timeQ_drop")
+        columns.append("check_drop")
+        times = pd.DataFrame(
+            [
+                l.replace("*", " ").replace(">", " ").replace("#", " ").split()
+                for l in tab[tabmark[1] + 1 : tabmark[2]]
+            ],
+            columns=columns,
+        )
+        drop = [c for c in times.columns if c.find("drop") >= 0]
+        times.drop(drop, axis=1, inplace=True)
+        stats["times"] = times
+        stats["nprobs"] = len(times)
 
     else:
         tab = pre[2].text.split("\n")
@@ -379,7 +417,7 @@ def plot_benchmark(stats, base):
     """
     generate an interactive Plotly figure from the given dictionary
     """
-    
+
     # this is to define the tick labels on the y-axis (built-in log-scale doesn't work well with bar charts)
     power = 2
     time = stats["times"]
@@ -466,7 +504,7 @@ def plot_benchmark(stats, base):
 # %%
 def write_bench(url, timelimit, threads=1):
 
-    medals = {0: "⭐", 1:"🥇", 2:"🥈", 3:"🥉"}
+    medals = {0: "⭐", 1: "🥇", 2: "🥈", 3: "🥉"}
 
     benchname = url.split("/")[-1][:-5]
     stats = parse_table(url, timelimit, threads)
@@ -488,12 +526,13 @@ def write_bench(url, timelimit, threads=1):
     # add data for the virtual best solver
     stats["solver"].append("vbest")
     stats["version"]["vbest"] = "virtual best"
-    stats["solved"]["vbest"] = max(stats["solved"].values())
     times = stats["times"].drop("instance", axis="columns")
     stats["times"]["vbest"] = times.apply(min, axis="columns")
+    stats["solved"]["vbest"] = len(stats["times"][stats["times"]["vbest"] < timelimit])
     stats["score"]["vbest"] = 0
     logsum = sum(stats["times"]["vbest"].apply(lambda x: math.log(max(1, x + shift))))
     stats["shmean"]["vbest"] = (math.exp(logsum / len(time)) - shift) / bestshmean
+    stats["shmean"]["vbest"] -= 1e-4 # enforce that vbest is always first in the list
 
     storedate = stats["date"].replace(" ", "-")
     newdata = True
@@ -522,13 +561,12 @@ def write_bench(url, timelimit, threads=1):
 
     oldbench = findbench(f"{benchname}-[0-9]*.html", "docs")
 
-
     plots = "\n"
     plots += f'## [{stats["title"]} ({stats["date"]})]({url})\n'
     plots += "Choose base solver for comparison:\n\n"
     plots += f'| solver | score (as reported) | solved of {stats["nprobs"]}|\n'
     plots += "| :--- | ---:  | ---:   |\n"
-    for i,s in enumerate(sorted(stats["shmean"].items(), key=lambda x: x[1])):
+    for i, s in enumerate(sorted(stats["shmean"].items(), key=lambda x: x[1])):
         s = s[0]
         plots += f'|[{medals.get(i, "📊")} {stats["version"][s]}]({benchname}-{s}.html) | {stats["shmean"][s]:.2f} ({stats["score"][s]:.2f}) | {float(stats["solved"][s])/stats["nprobs"]*100:.0f}%|\n'
         if newdata:
@@ -545,7 +583,7 @@ def write_bench(url, timelimit, threads=1):
             plots += f'<li><a href="/mittelmann-plots/{filename}">{date}</a></li>\n'
         plots += "</ul></details>\n"
 
-    plots+="\n---\n\n"
+    plots += "\n---\n\n"
 
     return plots
 
@@ -572,24 +610,24 @@ urls = [
     ("http://plato.asu.edu/ftp/cconvex.html", 7200, 1),
     ("http://plato.asu.edu/ftp/convex.html", 7200, 1),
     # MINLP
-    # ("http://plato.asu.edu/ftp/minlp.html", 7200, 1), table is difficult to parse
+    ("http://plato.asu.edu/ftp/minlp.html", 7200, 1),
     # MPEC
     ("http://plato.asu.edu/ftp/mpec.html", 500, 1),
 ]
 
 # %%
-if __name__ == '__main__':
-     with open("docs/index.md", "w", encoding="utf-8") as index:
-         index.write(
-"""Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http://plato.asu.edu/bench.html).
+if __name__ == "__main__":
+    with open("docs/index.md", "w", encoding="utf-8") as index:
+        index.write(
+            """Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http://plato.asu.edu/bench.html).
 Each solver can be selected to show pairwise running time factors for every other solver in the respective benchmark.
 These plots should make browsing the results easier.
 The score ([scaled shifted geometric mean](http://plato.asu.edu/ftp/shgeom.html)) is recomputed using the reported solving times.
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.\n
     """
-         )
-         for url in urls:
-             print(f"processing {url[0]}")
-             index.write(write_bench(url[0], url[1], url[2]))
+        )
+        for url in urls:
+            print(f"processing {url[0]}")
+            index.write(write_bench(url[0], url[1], url[2]))
 
 # %%
