@@ -560,10 +560,10 @@ Choose base solver for comparison:
 | solver | score (as reported) | solved of 87|
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](minlp-vbest.html) | 0.22  | 95%|
-|[🥇 SCIP](minlp-SCIP.html) | 1.00 (0.78) | 74%|
-|[🥈 OCTERACT](minlp-OCTERACT.html) | 1.07 (0.73) | 77%|
-|[🥉 ANTIGONE](minlp-ANTIGONE.html) | 1.38 (2.93) | 61%|
-|[📊 BARON](minlp-BARON.html) | 4.03 (1.00) | 68%|
+|[🥇 OCTERACT](minlp-OCTERACT.html) | 1.00 (0.73) | 77%|
+|[🥈 SCIP](minlp-SCIP.html) | 1.07 (0.78) | 74%|
+|[🥉 BARON](minlp-BARON.html) | 1.38 (1.00) | 68%|
+|[📊 ANTIGONE](minlp-ANTIGONE.html) | 4.03 (2.93) | 61%|
 |[📊 LINDO](minlp-LINDO.html) | 5.30 (3.85) | 43%|
 
 ---
