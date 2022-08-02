@@ -188,7 +188,7 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](milp_8threads-vbest.html) | 0.81 (0.00) | 93%|
+|[⭐ virtual best](milp_8threads-vbest.html) | 0.81 (0.00) | 96%|
 |[🥇 Gurobi-9.5.0](milp_8threads-Gurobi.html) | 1.00 (1.00) | 93%|
 |[🥈 COPT-5.0.0](milp_8threads-COPT.html) | 2.34 (2.34) | 81%|
 |[🥉 SCIPC/spx-8.0.0](milp_8threads-SCIPC.html) | 7.95 (7.95) | 63%|
@@ -257,7 +257,7 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](infeas-vbest.html) | 0.66 (0.00) | 91%|
+|[⭐ virtual best](infeas-vbest.html) | 0.66 (0.00) | 94%|
 |[🥇 GUROBI-9.5.0](infeas-Gurobi.html) | 1.00 (1.00) | 91%|
 |[🥈 COPT-5.0.0](infeas-COPT.html) | 1.39 (1.39) | 91%|
 |[🥉 SCIPC-8.0.0](infeas-SCIPC.html) | 4.73 (4.68) | 81%|
@@ -287,7 +287,7 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 76|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](sparse_sdp-vbest.html) | 0.44 (0.00) | 97%|
+|[⭐ virtual best](sparse_sdp-vbest.html) | 0.44 (0.00) | 99%|
 |[🥇 COPT-5.0](sparse_sdp-COPT.html) | 1.00 (1.00) | 97%|
 |[🥈 SDPT3-4.0](sparse_sdp-SDPT3.html) | 2.13 (2.17) | 91%|
 |[🥉 CSDP-6.2.0](sparse_sdp-CSDP.html) | 2.16 (2.19) | 92%|
@@ -329,8 +329,8 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 47|
 | :--- | ---:  | ---:   |
-|[⭐ Gurobi-9.5.1](misocp-GUROBI.html) | 1.00 (1.00) | 100%|
-|[🥇 virtual best](misocp-vbest.html) | 1.00 (0.00) | 100%|
+|[⭐ virtual best](misocp-vbest.html) | 1.00 (0.00) | 100%|
+|[🥇 Gurobi-9.5.1](misocp-GUROBI.html) | 1.00 (1.00) | 100%|
 |[🥈 MOSEK-9.3.20](misocp-MOSEK.html) | 13.25 (13.20) | 68%|
 |[🥉 SCIP-8.0.0](misocp-SCIP.html) | 20.43 (20.40) | 66%|
 
@@ -359,7 +359,7 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 91|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](qplib-vbest.html) | 0.77 (0.00) | 95%|
+|[⭐ virtual best](qplib-vbest.html) | 0.77 (0.00) | 100%|
 |[🥇 Gurobi-9.5.0](qplib-GUROBI.html) | 1.00 (1.00) | 95%|
 |[🥈 OCTERACT-4.4.0](qplib-OCTERACT.html) | 2.07 (2.07) | 92%|
 |[🥉 Baron-22.1.8](qplib-BARON.html) | 13.41 (13.40) | 45%|
@@ -401,7 +401,7 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 88|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](nonbinary-vbest.html) | 0.30 (0.00) | 85%|
+|[⭐ virtual best](nonbinary-vbest.html) | 0.30 (0.00) | 100%|
 |[🥇 Gurobi-9.5.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 83%|
 |[🥈 OCTERACT-4.4.0](nonbinary-OCTERACT.html) | 3.91 (3.91) | 85%|
 |[🥉 SCIP-8.0.0](nonbinary-SCIP.html) | 21.55 (21.60) | 42%|
@@ -441,7 +441,7 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 68|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](cnconv-vbest.html) | 0.23 (0.00) | 62%|
+|[⭐ virtual best](cnconv-vbest.html) | 0.23 (0.00) | 99%|
 |[🥇 GUROBI-9.5.0](cnconv-GUROBI.html) | 1.00 (1.00) | 62%|
 |[🥈 OCTERACT-4.4.0](cnconv-OCTERACT.html) | 1.87 (1.87) | 62%|
 |[🥉 ANTIGONE-1.1](cnconv-ANTIGONE.html) | 4.90 (4.90) | 41%|
@@ -514,7 +514,7 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 31|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](convex-vbest.html) | 0.64 (0.00) | 74%|
+|[⭐ virtual best](convex-vbest.html) | 0.64 (0.00) | 87%|
 |[🥇 GUROBI-9.5.0](convex-GUROBI.html) | 1.00 (1.00) | 74%|
 |[🥈 OCTERACT-4.4.0](convex-OCTERACT.html) | 3.99 (3.99) | 74%|
 |[🥉 Shot-1.1](convex-SHOT.html) | 5.15 (5.15) | 48%|
@@ -554,13 +554,28 @@ Choose base solver for comparison:
 ---
 
 
+## [Mixed Integer Nonlinear Programming Benchmark (MINLPLIB) (23 Jul 2022)](http://plato.asu.edu/ftp/minlp.html)
+Choose base solver for comparison:
+
+| solver | score (as reported) | solved of 87|
+| :--- | ---:  | ---:   |
+|[⭐ virtual best](minlp-vbest.html) | 0.22 (0.00) | 95%|
+|[🥇 SCIP](minlp-SCIP.html) | 1.00 (0.78) | 74%|
+|[🥈 OCTERACT](minlp-OCTERACT.html) | 1.07 (0.73) | 77%|
+|[🥉 ANTIGONE](minlp-ANTIGONE.html) | 1.38 (2.93) | 61%|
+|[📊 BARON](minlp-BARON.html) | 4.03 (1.00) | 68%|
+|[📊 LINDO](minlp-LINDO.html) | 5.30 (3.85) | 43%|
+
+---
+
+
 ## [MPEC Benchmark (Math. Progr. w. Equilibrium Constraints) (12 Apr 2022)](http://plato.asu.edu/ftp/mpec.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 29|
 | :--- | ---:  | ---:   |
-|[⭐ KNITRO-13.0](mpec-KNITRO.html) | 1.00 (1.00) | 83%|
-|[🥇 virtual best](mpec-vbest.html) | 1.00 (0.00) | 83%|
+|[⭐ virtual best](mpec-vbest.html) | 1.00 (0.00) | 83%|
+|[🥇 KNITRO-13.0](mpec-KNITRO.html) | 1.00 (1.00) | 83%|
 |[🥈 filter-MPEC](mpec-filter.html) | 7.82 (8.90) | 62%|
 |[🥉 LOQO-7.03](mpec-LOQO.html) | 16.69 (19.50) | 21%|
 
