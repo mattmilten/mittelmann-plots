@@ -348,8 +348,9 @@ def parse_table(url, timelimit=3600, threads=1):
         stats["version"] = {s: s for s in solver}
         stats["timelimit"] = timelimit
         tabmark = [ind for ind, i in enumerate(tab) if i.startswith("-----")]
+        # need to get solver names again because of different order in table
+        solver = [s[0:s.find("(")] for s in tab[0].replace("|", " ").split()]
         columns = ["instance"] + [f"{solver[0]}_nodes_drop", f"{solver[0]}"]
-        # solver = [s[0:s.find("(")] for s in scoretab[0].replace("|", " ").split()]
         for i in range(1, len(solver)):
             columns.append(f"{solver[i]}_nodes_drop")
             columns.append(f"{solver[i]}")
