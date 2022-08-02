@@ -568,7 +568,8 @@ def write_bench(url, timelimit, threads=1):
     plots += "| :--- | ---:  | ---:   |\n"
     for i, s in enumerate(sorted(stats["shmean"].items(), key=lambda x: x[1])):
         s = s[0]
-        plots += f'|[{medals.get(i, "📊")} {stats["version"][s]}]({benchname}-{s}.html) | {stats["shmean"][s]:.2f} ({stats["score"][s]:.2f}) | {float(stats["solved"][s])/stats["nprobs"]*100:.0f}%|\n'
+        score = f"({stats['score'][s]:.2f})" if not s == "vbest" else ""
+        plots += f'|[{medals.get(i, "📊")} {stats["version"][s]}]({benchname}-{s}.html) | {stats["shmean"][s]:.2f} {score} | {float(stats["solved"][s])/stats["nprobs"]*100:.0f}%|\n'
         if newdata:
             fig = plot_benchmark(stats, s)
             fig.write_html(f"docs/{benchname}-{s}.html", include_plotlyjs="cdn")
