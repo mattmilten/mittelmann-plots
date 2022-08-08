@@ -28,7 +28,7 @@ jobs:
         pip install -r requirements.txt
     - name: Generate plots
       run: |
-        python mittelmann_plots.py update
+        python mittelmann_plots.py
     - uses: EndBug/add-and-commit@v4
       with:
         add: 'docs'
