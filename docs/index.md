@@ -556,17 +556,25 @@ Choose base solver for comparison:
 ---
 
 
-## [Mixed Integer Nonlinear Programming Benchmark (MINLPLIB) (23 Jul 2022)](http://plato.asu.edu/ftp/minlp.html)
+## [Mixed Integer Nonlinear Programming Benchmark (MINLPLIB) (10 Aug 2022)](http://plato.asu.edu/ftp/minlp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 87|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](minlp-vbest.html) | 0.22  | 95%|
-|[🥇 OCTERACT](minlp-OCTERACT.html) | 1.00 (0.73) | 77%|
-|[🥈 SCIP](minlp-SCIP.html) | 1.07 (0.78) | 74%|
-|[🥉 BARON](minlp-BARON.html) | 1.38 (1.00) | 68%|
-|[📊 ANTIGONE](minlp-ANTIGONE.html) | 4.03 (2.93) | 61%|
-|[📊 LINDO](minlp-LINDO.html) | 5.30 (3.85) | 43%|
+|[⭐ virtual best](minlp-vbest.html) | 0.21  | 95%|
+|[🥇 OCTERACT](minlp-OCTERACT.html) | 1.00 (0.74) | 77%|
+|[🥈 SCIP](minlp-SCIP.html) | 1.07 (0.79) | 74%|
+|[🥉 BARON](minlp-BARON.html) | 1.35 (1.00) | 71%|
+|[📊 ANTIGONE](minlp-ANTIGONE.html) | 4.03 (2.99) | 61%|
+|[📊 LINDO](minlp-LINDO.html) | 5.30 (3.93) | 43%|
+
+
+<details><summary>previous benchmarks 🔽</summary>
+<br>
+
+<ul>
+<li><a href="/mittelmann-plots/minlp-23-Jul-2022.html">23 Jul 2022</a></li>
+</ul></details>
 
 ---
 
