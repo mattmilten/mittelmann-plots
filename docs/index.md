@@ -443,14 +443,14 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 68|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](cnconv-vbest.html) | 0.23  | 99%|
+|[⭐ virtual best](cnconv-vbest.html) | 0.20  | 94%|
 |[🥇 GUROBI-9.5.0](cnconv-GUROBI.html) | 1.00 (1.00) | 62%|
-|[🥈 OCTERACT-4.4.0](cnconv-OCTERACT.html) | 1.87 (1.87) | 62%|
-|[🥉 ANTIGONE-1.1](cnconv-ANTIGONE.html) | 4.90 (4.90) | 41%|
-|[📊 Baron-22.1.8](cnconv-BARON.html) | 6.64 (6.64) | 25%|
-|[📊 MINOTAUR-0.3.0](cnconv-MINOTAUR.html) | 6.95 (6.95) | 22%|
-|[📊 SCIP-8.0.0](cnconv-SCIP.html) | 9.85 (9.85) | 19%|
-|[📊 COUENNE-0.5](cnconv-COUENNE.html) | 11.20 (11.20) | 12%|
+|[🥈 OCTERACT-4.4.0](cnconv-OCTERACT.html) | 1.50 (1.87) | 62%|
+|[🥉 ANTIGONE-1.1](cnconv-ANTIGONE.html) | 3.93 (4.90) | 41%|
+|[📊 Baron-22.1.8](cnconv-BARON.html) | 5.32 (6.64) | 25%|
+|[📊 MINOTAUR-0.3.0](cnconv-MINOTAUR.html) | 5.57 (6.95) | 22%|
+|[📊 SCIP-8.0.0](cnconv-SCIP.html) | 7.89 (9.85) | 19%|
+|[📊 COUENNE-0.5](cnconv-COUENNE.html) | 8.98 (11.20) | 12%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
@@ -511,7 +511,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Discrete QPLIB Benchmark (16 Jul 2022)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (12 Aug 2022)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 31|
@@ -521,10 +521,10 @@ Choose base solver for comparison:
 |[🥈 OCTERACT-4.4.0](convex-OCTERACT.html) | 3.99 (3.99) | 74%|
 |[🥉 Shot-1.1](convex-SHOT.html) | 5.15 (5.15) | 48%|
 |[📊 Baron-22.1.8](convex-BARON.html) | 7.22 (7.22) | 55%|
+|[📊 KNITRO-13.1.0](convex-KNITRO.html) | 8.43 (8.43) | 42%|
 |[📊 MOSEK-9.3.11](convex-MOSEK.html) | 11.72 (11.70) | 42%|
 |[📊 SCIP-8.0.0](convex-SCIP.html) | 13.06 (13.10) | 42%|
 |[📊 Bonmin-1.8.7](convex-BONMIN.html) | 17.78 (17.80) | 32%|
-|[📊 KNITRO-12.3.0](convex-KNITRO.html) | 18.13 (18.10) | 29%|
 |[📊 MINOTAUR-0.3.0](convex-MINOTAUR.html) | 23.42 (23.40) | 42%|
 |[📊 ANTIGONE-1.1](convex-ANTIGONE.html) | 46.86 (46.90) | 6%|
 
@@ -533,6 +533,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/convex-16-Jul-2022.html">16 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/convex-7-Jul-2022.html">7 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/convex-12-Jun-2022.html">12 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/convex-25-Apr-2022.html">25 Apr 2022</a></li>
