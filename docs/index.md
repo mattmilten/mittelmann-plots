@@ -10,20 +10,20 @@ instance. This might reveal how much potential the individual solvers still have
 ## [Benchmark of Simplex LP solvers (31 Jul 2022)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 57|
+| solver | score (as reported) | solved of 58|
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](lpsimp-vbest.html) | 0.68  | 100%|
-|[🥇 COPT-5.0.0](lpsimp-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 MindOpt-0.18.4](lpsimp-MDOPT.html) | 1.07 (1.07) | 98%|
-|[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.46 (1.46) | 98%|
-|[📊 Optverse-0.2.6](lpsimp-OPTV.html) | 2.32 (2.32) | 91%|
-|[📊 CLP-1.17.7](lpsimp-CLP.html) | 9.34 (9.34) | 75%|
-|[📊 HiGHS-1.2.1](lpsimp-HiGHS.html) | 13.84 (13.80) | 77%|
-|[📊 MOSEK-9.3.18](lpsimp-MOSEK.html) | 16.31 (16.30) | 74%|
-|[📊 Google-GLOP](lpsimp-GLOP.html) | 26.14 (26.10) | 56%|
-|[📊 MATLAB-R2020b](lpsimp-MATL.html) | 27.15 (27.10) | 65%|
-|[📊 SOPLEX-6.0.0](lpsimp-SPLX.html) | 42.87 (42.90) | 60%|
-|[📊 GLPK-5.0](lpsimp-GLPK.html) | 82.39 (82.40) | 49%|
+|[🥇 COPT-5.0.0](lpsimp-COPT.html) | 1.00 (1.00) | 98%|
+|[🥈 MindOpt-0.18.4](lpsimp-MDOPT.html) | 1.09 (1.07) | 97%|
+|[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.47 (1.46) | 97%|
+|[📊 Optverse-0.2.6](lpsimp-OPTV.html) | 2.34 (2.32) | 90%|
+|[📊 CLP-1.17.7](lpsimp-CLP.html) | 8.88 (9.34) | 74%|
+|[📊 HiGHS-1.2.1](lpsimp-HiGHS.html) | 13.95 (13.80) | 76%|
+|[📊 MOSEK-9.3.18](lpsimp-MOSEK.html) | 16.17 (16.30) | 72%|
+|[📊 Google-GLOP](lpsimp-GLOP.html) | 25.83 (26.10) | 55%|
+|[📊 MATLAB-R2020b](lpsimp-MATL.html) | 27.05 (27.10) | 64%|
+|[📊 SOPLEX-6.0.0](lpsimp-SPLX.html) | 42.39 (42.90) | 59%|
+|[📊 GLPK-5.0](lpsimp-GLPK.html) | 79.00 (82.40) | 48%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
@@ -403,14 +403,14 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 88|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](nonbinary-vbest.html) | 0.30  | 100%|
+|[⭐ virtual best](nonbinary-vbest.html) | 0.17  | 99%|
 |[🥇 Gurobi-9.5.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 83%|
-|[🥈 OCTERACT-4.4.0](nonbinary-OCTERACT.html) | 3.91 (3.91) | 85%|
-|[🥉 SCIP-8.0.0](nonbinary-SCIP.html) | 21.55 (21.60) | 42%|
-|[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 39.04 (39.00) | 33%|
-|[📊 Baron-22.3.21](nonbinary-BARON.html) | 40.49 (40.50) | 31%|
-|[📊 MINOTAUR-0.3.0](nonbinary-MINOTAUR.html) | 48.29 (48.30) | 17%|
-|[📊 COUENNE-0.5](nonbinary-COUENNE.html) | 78.78 (78.80) | 9%|
+|[🥈 OCTERACT-4.4.0](nonbinary-OCTERACT.html) | 1.63 (3.91) | 85%|
+|[🥉 SCIP-8.0.0](nonbinary-SCIP.html) | 8.97 (21.60) | 42%|
+|[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 16.24 (39.00) | 33%|
+|[📊 Baron-22.3.21](nonbinary-BARON.html) | 16.85 (40.50) | 31%|
+|[📊 MINOTAUR-0.3.0](nonbinary-MINOTAUR.html) | 20.10 (48.30) | 17%|
+|[📊 COUENNE-0.5](nonbinary-COUENNE.html) | 32.78 (78.80) | 9%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
