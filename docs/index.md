@@ -7,29 +7,30 @@ instance. This might reveal how much potential the individual solvers still have
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (19 Aug 2022)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers (20 Aug 2022)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 58|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](lpsimp-vbest.html) | 0.69  | 100%|
-|[🥇 COPT-5.0.0](lpsimp-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 MindOpt-0.18.5](lpsimp-MDOPT.html) | 1.01 (1.01) | 100%|
-|[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.50 (1.50) | 98%|
-|[📊 Optverse-0.2.6](lpsimp-OPTV.html) | 2.38 (2.38) | 90%|
-|[📊 CLP-1.17.7](lpsimp-CLP.html) | 9.30 (9.30) | 74%|
-|[📊 HiGHS-1.2.1](lpsimp-HiGHS.html) | 13.58 (13.60) | 78%|
-|[📊 MOSEK-9.3.18](lpsimp-MOSEK.html) | 16.06 (16.10) | 74%|
-|[📊 MATLAB-R2020b](lpsimp-MATL.html) | 25.41 (25.40) | 66%|
-|[📊 Google-GLOP](lpsimp-GLOP.html) | 25.56 (25.60) | 55%|
-|[📊 SOPLEX-6.0.0](lpsimp-SPLX.html) | 41.56 (41.20) | 59%|
-|[📊 GLPK-5.0](lpsimp-GLPK.html) | 78.97 (79.00) | 48%|
+|[⭐ virtual best](lpsimp-vbest.html) | 0.74  | 100%|
+|[🥇 COPT-5.0.4](lpsimp-COPT.html) | 1.00 (1.00) | 100%|
+|[🥈 MindOpt-0.18.5](lpsimp-MDOPT.html) | 1.11 (1.11) | 100%|
+|[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.64 (1.64) | 98%|
+|[📊 Optverse-0.2.6](lpsimp-OPTV.html) | 2.61 (2.61) | 90%|
+|[📊 CLP-1.17.7](lpsimp-CLP.html) | 10.20 (10.20) | 74%|
+|[📊 HiGHS-1.2.1](lpsimp-HiGHS.html) | 14.88 (14.90) | 78%|
+|[📊 MOSEK-9.3.18](lpsimp-MOSEK.html) | 17.60 (17.60) | 74%|
+|[📊 MATLAB-R2020b](lpsimp-MATL.html) | 27.85 (27.90) | 66%|
+|[📊 Google-GLOP](lpsimp-GLOP.html) | 28.01 (28.00) | 55%|
+|[📊 SOPLEX-6.0.0](lpsimp-SPLX.html) | 45.55 (45.50) | 59%|
+|[📊 GLPK-5.0](lpsimp-GLPK.html) | 86.56 (86.60) | 48%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpsimp-19-Aug-2022.html">19 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-18-Aug-2022.html">18 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-31-Jul-2022.html">31 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-29-Jul-2022.html">29 Jul 2022</a></li>
@@ -77,28 +78,29 @@ Choose base solver for comparison:
 ---
 
 
-## [Benchmark of Barrier LP solvers (29 Jul 2022)](http://plato.asu.edu/ftp/lpbar.html)
+## [Benchmark of Barrier LP solvers (20 Aug 2022)](http://plato.asu.edu/ftp/lpbar.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 50|
+| solver | score (as reported) | solved of 51|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](lpbar-vbest.html) | 0.68  | 100%|
+|[⭐ virtual best](lpbar-vbest.html) | 0.65  | 100%|
 |[🥇 COPT-5.0.0](lpbar-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 Gurobi-9.5.1](lpbar-Gurobi.html) | 1.33 (1.33) | 98%|
-|[🥉 MindOpt-0.18.2](lpbar-MDOPT.html) | 2.47 (2.47) | 98%|
-|[📊 MOSEK-9.3.20](lpbar-MOSEK.html) | 5.21 (5.21) | 94%|
-|[📊 PDLP$](lpbar-PDLP$.html) | 13.91 (13.90) | 86%|
-|[📊 KNITRO-13.0.0](lpbar-KNITRO.html) | 15.75 (15.70) | 78%|
-|[📊 HiGHS-1.2.2](lpbar-HiGHS.html) | 22.32 (20.30) | 84%|
-|[📊 MATLAB-R2020b](lpbar-MATLAB.html) | 49.74 (40.80) | 72%|
-|[📊 Tulip-0.9.4](lpbar-TULIP.html) | 58.58 (58.60) | 64%|
-|[📊 CLP-1.17.7](lpbar-CLP.html) | 77.79 (77.80) | 70%|
+|[🥈 Gurobi-9.5.1](lpbar-Gurobi.html) | 1.31 (1.31) | 98%|
+|[🥉 MindOpt-0.18.2](lpbar-MDOPT.html) | 2.39 (2.39) | 96%|
+|[📊 MOSEK-9.3.20](lpbar-MOSEK.html) | 4.92 (4.92) | 92%|
+|[📊 PDLP$](lpbar-PDLP$.html) | 12.09 (12.10) | 86%|
+|[📊 KNITRO-13.0.0](lpbar-KNITRO.html) | 14.47 (14.40) | 76%|
+|[📊 HiGHS-1.2.2](lpbar-HiGHS.html) | 20.35 (18.60) | 82%|
+|[📊 MATLAB-R2020b](lpbar-MATLAB.html) | 44.61 (36.80) | 71%|
+|[📊 Tulip-0.9.4](lpbar-TULIP.html) | 52.37 (52.40) | 63%|
+|[📊 CLP-1.17.7](lpbar-CLP.html) | 69.14 (69.10) | 69%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpbar-29-Jul-2022.html">29 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-15-Jun-2022.html">15 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-1-Jun-2022.html">1 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-25-May-2022.html">25 May 2022</a></li>
