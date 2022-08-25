@@ -137,28 +137,29 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Network-LP Benchmark (commercial vs free) (17 Aug 2022)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (24 Aug 2022)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 25|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](network-vbest.html) | 0.84  | 100%|
-|[🥇 OptVerse-0.2.6](network-OPTV.html) | 1.00 (1.00) | 100%|
-|[🥈 MindOpt-0.18.5](network-MDOPT.html) | 1.09 (1.09) | 100%|
-|[🥉 Gurobi-9.5.1](network-GUR.html) | 1.11 (1.11) | 100%|
-|[📊 COPT-5.0.0](network-COPT.html) | 1.41 (1.41) | 100%|
-|[📊 Clp-1.17.7](network-CLP.html) | 3.96 (3.96) | 100%|
-|[📊 HiGHS-1.1.1](network-HGHS.html) | 8.53 (8.53) | 80%|
-|[📊 MATLAB-R2020b](network-MATL.html) | 14.44 (14.40) | 80%|
-|[📊 MOSEK-9.3.6](network-MOSEK.html) | 15.27 (15.30) | 84%|
-|[📊 QSopt-1.01](network-QSOPT.html) | 23.16 (23.20) | 68%|
-|[📊 SOPLEX-6.0.0](network-SPLX.html) | 44.04 (44.00) | 64%|
+|[⭐ virtual best](network-vbest.html) | 0.92  | 100%|
+|[🥇 MindOpt-0.18.6](network-MDOPT.html) | 1.00 (1.00) | 100%|
+|[🥈 OptVerse-0.2.6](network-OPTV.html) | 1.19 (1.19) | 100%|
+|[🥉 Gurobi-9.5.1](network-GUR.html) | 1.32 (1.32) | 100%|
+|[📊 COPT-5.0.0](network-COPT.html) | 1.68 (1.68) | 100%|
+|[📊 Clp-1.17.7](network-CLP.html) | 4.71 (4.71) | 100%|
+|[📊 HiGHS-1.1.1](network-HGHS.html) | 10.15 (10.20) | 80%|
+|[📊 MATLAB-R2020b](network-MATL.html) | 17.17 (17.20) | 80%|
+|[📊 MOSEK-9.3.6](network-MOSEK.html) | 18.16 (18.20) | 84%|
+|[📊 QSopt-1.01](network-QSOPT.html) | 27.55 (27.50) | 68%|
+|[📊 SOPLEX-6.0.0](network-SPLX.html) | 52.38 (52.40) | 64%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/network-17-Aug-2022.html">17 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/network-16-Jun-2022.html">16 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/network-13-Jun-2022.html">13 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/network-17-Apr-2022.html">17 Apr 2022</a></li>
