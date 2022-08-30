@@ -151,7 +151,7 @@ Choose base solver for comparison:
 |[📊 Clp-1.17.7](network-CLP.html) | 4.71 (4.71) | 100%|
 |[📊 HiGHS-1.1.1](network-HGHS.html) | 10.15 (10.20) | 80%|
 |[📊 MATLAB-R2020b](network-MATL.html) | 17.17 (17.20) | 80%|
-|[📊 MOSEK-9.3.6](network-MOSEK.html) | 18.16 (18.20) | 84%|
+|[📊 MOSEK-10.0.16](network-MOSEK.html) | 20.31 (20.30) | 92%|
 |[📊 QSopt-1.01](network-QSOPT.html) | 27.55 (27.50) | 68%|
 |[📊 SOPLEX-6.0.0](network-SPLX.html) | 52.38 (52.40) | 64%|
 
@@ -292,39 +292,49 @@ Choose base solver for comparison:
 ---
 
 
-## [Several SDP-codes on sparse and other SDP problems (27 Jul 2022)](http://plato.asu.edu/ftp/sparse_sdp.html)
+## [Several SDP-codes on sparse and other SDP problems (29 Aug 2022)](http://plato.asu.edu/ftp/sparse_sdp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 76|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](sparse_sdp-vbest.html) | 0.44  | 99%|
+|[⭐ virtual best](sparse_sdp-vbest.html) | 0.40  | 99%|
 |[🥇 COPT-5.0](sparse_sdp-COPT.html) | 1.00 (1.00) | 97%|
 |[🥈 SDPT3-4.0](sparse_sdp-SDPT3.html) | 2.13 (2.17) | 91%|
 |[🥉 CSDP-6.2.0](sparse_sdp-CSDP.html) | 2.16 (2.19) | 92%|
+|[📊 MOSEK-10.0.16](sparse_sdp-MOSEK.html) | 2.23 (2.27) | 95%|
 |[📊 HDSDP-0.9.2](sparse_sdp-HDSDP.html) | 3.50 (3.57) | 92%|
 |[📊 SDPA-7.4.2](sparse_sdp-SDPA.html) | 4.29 (4.40) | 80%|
 |[📊 SeDuMi-1.3.5](sparse_sdp-SeDuMi.html) | 11.69 (12.20) | 82%|
-
----
-
-
-## [Large Second Order Cone Benchmark (19 Jun 2022)](http://plato.asu.edu/ftp/socp.html)
-Choose base solver for comparison:
-
-| solver | score (as reported) | solved of 18|
-| :--- | ---:  | ---:   |
-|[⭐ virtual best](socp-vbest.html) | 0.74  | 100%|
-|[🥇 MOSEK-9.3.20](socp-MOSEK.html) | 1.00 (1.00) | 100%|
-|[🥈 Gurobi-9.5.0](socp-Gurobi.html) | 1.07 (1.07) | 100%|
-|[🥉 COPT-5.0.0](socp-COPT.html) | 1.10 (1.10) | 100%|
-|[📊 KNITRO-13.0.0](socp-KNITRO.html) | 9.47 (9.47) | 83%|
-|[📊 ECOS-2.0.4](socp-ECOS.html) | 78.11 (78.10) | 33%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/sparse_sdp-27-Jul-2022.html">27 Jul 2022</a></li>
+</ul></details>
+
+---
+
+
+## [Large Second Order Cone Benchmark (29 Aug 2022)](http://plato.asu.edu/ftp/socp.html)
+Choose base solver for comparison:
+
+| solver | score (as reported) | solved of 18|
+| :--- | ---:  | ---:   |
+|[⭐ virtual best](socp-vbest.html) | 0.77  | 100%|
+|[🥇 MOSEK-10.0.16](socp-MOSEK.html) | 1.00 (1.00) | 100%|
+|[🥈 Gurobi-9.5.0](socp-Gurobi.html) | 1.12 (1.12) | 100%|
+|[🥉 COPT-5.0.0](socp-COPT.html) | 1.15 (1.15) | 100%|
+|[📊 KNITRO-13.0.0](socp-KNITRO.html) | 9.93 (9.93) | 83%|
+|[📊 ECOS-2.0.4](socp-ECOS.html) | 81.94 (81.90) | 33%|
+
+
+<details><summary>previous benchmarks 🔽</summary>
+<br>
+
+<ul>
+<li><a href="/mittelmann-plots/socp-19-Jun-2022.html">19 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/socp-6-May-2022.html">6 May 2022</a></li>
 <li><a href="/mittelmann-plots/socp-28-Jan-2022.html">28 Jan 2022</a></li>
 <li><a href="/mittelmann-plots/socp-18-Jan-2022.html">18 Jan 2022</a></li>
