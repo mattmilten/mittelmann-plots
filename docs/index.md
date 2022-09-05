@@ -421,25 +421,26 @@ Choose base solver for comparison:
 ---
 
 
-## [Discrete Non-Convex QPLIB Benchmark (non-binary) (16 Jul 2022)](http://plato.asu.edu/ftp/nonbinary.html)
+## [Discrete Non-Convex QPLIB Benchmark (non-binary) (4 Sep 2022)](http://plato.asu.edu/ftp/nonbinary.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 88|
+| solver | score (as reported) | solved of 107|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](nonbinary-vbest.html) | 0.17  | 99%|
-|[🥇 Gurobi-9.5.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 83%|
-|[🥈 OCTERACT-4.4.0](nonbinary-OCTERACT.html) | 1.63 (3.91) | 85%|
-|[🥉 SCIP-8.0.0](nonbinary-SCIP.html) | 8.97 (21.60) | 42%|
-|[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 16.24 (39.00) | 33%|
-|[📊 Baron-22.3.21](nonbinary-BARON.html) | 16.85 (40.50) | 31%|
-|[📊 MINOTAUR-0.3.0](nonbinary-MINOTAUR.html) | 20.10 (48.30) | 17%|
-|[📊 COUENNE-0.5](nonbinary-COUENNE.html) | 32.78 (78.80) | 9%|
+|[⭐ virtual best](nonbinary-vbest.html) | 0.15  | 94%|
+|[🥇 OCTERACT-4.5.0](nonbinary-OCTERACT.html) | 1.00 (1.45) | 70%|
+|[🥈 Gurobi-9.5.0](nonbinary-GUROBI.html) | 1.08 (1.00) | 68%|
+|[🥉 SCIP-8.0.0](nonbinary-SCIP.html) | 7.63 (11.10) | 35%|
+|[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 12.44 (18.00) | 27%|
+|[📊 Baron-22.3.21](nonbinary-BARON.html) | 12.82 (18.30) | 25%|
+|[📊 MINOTAUR-0.3.0](nonbinary-MINOTAUR.html) | 14.81 (21.50) | 14%|
+|[📊 COUENNE-0.5](nonbinary-COUENNE.html) | 22.15 (32.10) | 7%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/nonbinary-16-Jul-2022.html">16 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/nonbinary-15-Jul-2022.html">15 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/nonbinary-7-Jul-2022.html">7 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/nonbinary-30-Apr-2022.html">30 Apr 2022</a></li>
@@ -535,28 +536,29 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Discrete QPLIB Benchmark (12 Aug 2022)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (4 Sep 2022)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 31|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](convex-vbest.html) | 0.64  | 87%|
+|[⭐ virtual best](convex-vbest.html) | 0.46  | 90%|
 |[🥇 GUROBI-9.5.0](convex-GUROBI.html) | 1.00 (1.00) | 74%|
-|[🥈 OCTERACT-4.4.0](convex-OCTERACT.html) | 3.99 (3.99) | 74%|
-|[🥉 Shot-1.1](convex-SHOT.html) | 5.15 (5.15) | 48%|
-|[📊 Baron-22.1.8](convex-BARON.html) | 7.22 (7.22) | 55%|
-|[📊 KNITRO-13.1.0](convex-KNITRO.html) | 8.43 (8.43) | 42%|
-|[📊 MOSEK-9.3.11](convex-MOSEK.html) | 11.72 (11.70) | 42%|
-|[📊 SCIP-8.0.0](convex-SCIP.html) | 13.06 (13.10) | 42%|
-|[📊 Bonmin-1.8.7](convex-BONMIN.html) | 17.78 (17.80) | 32%|
-|[📊 MINOTAUR-0.3.0](convex-MINOTAUR.html) | 23.42 (23.40) | 42%|
-|[📊 ANTIGONE-1.1](convex-ANTIGONE.html) | 46.86 (46.90) | 6%|
+|[🥈 OCTERACT-4.5.0](convex-OCTERACT.html) | 1.30 (1.43) | 87%|
+|[🥉 Shot-1.1](convex-SHOT.html) | 5.15 (4.34) | 48%|
+|[📊 MOSEK-10.0.18](convex-MOSEK.html) | 6.15 (5.44) | 55%|
+|[📊 Baron-22.9.1](convex-BARON.html) | 7.82 (6.92) | 55%|
+|[📊 KNITRO-13.1.0](convex-KNITRO.html) | 8.43 (6.82) | 42%|
+|[📊 SCIP-8.0.0](convex-SCIP.html) | 13.06 (10.60) | 42%|
+|[📊 Bonmin-1.8.7](convex-BONMIN.html) | 17.78 (13.50) | 32%|
+|[📊 MINOTAUR-0.3.0](convex-MINOTAUR.html) | 23.42 (219.00) | 42%|
+|[📊 ANTIGONE-1.1](convex-ANTIGONE.html) | 46.86 (29.70) | 6%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/convex-12-Aug-2022.html">12 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/convex-16-Jul-2022.html">16 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/convex-7-Jul-2022.html">7 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/convex-12-Jun-2022.html">12 Jun 2022</a></li>
@@ -581,23 +583,24 @@ Choose base solver for comparison:
 ---
 
 
-## [Mixed Integer Nonlinear Programming Benchmark (MINLPLIB) (10 Aug 2022)](http://plato.asu.edu/ftp/minlp.html)
+## [Mixed Integer Nonlinear Programming Benchmark (MINLPLIB) (4 Sep 2022)](http://plato.asu.edu/ftp/minlp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 87|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](minlp-vbest.html) | 0.21  | 95%|
-|[🥇 OCTERACT](minlp-OCTERACT.html) | 1.00 (0.74) | 77%|
-|[🥈 SCIP](minlp-SCIP.html) | 1.07 (0.79) | 74%|
-|[🥉 BARON](minlp-BARON.html) | 1.35 (1.00) | 71%|
-|[📊 ANTIGONE](minlp-ANTIGONE.html) | 4.03 (2.99) | 61%|
-|[📊 LINDO](minlp-LINDO.html) | 5.30 (3.93) | 43%|
+|[⭐ virtual best](minlp-vbest.html) | 0.22  | 95%|
+|[🥇 OCTERACT](minlp-OCTERACT.html) | 1.00 (0.85) | 77%|
+|[🥈 SCIP](minlp-SCIP.html) | 1.07 (0.91) | 74%|
+|[🥉 BARON](minlp-BARON.html) | 1.17 (1.00) | 79%|
+|[📊 ANTIGONE](minlp-ANTIGONE.html) | 4.03 (3.43) | 61%|
+|[📊 LINDO](minlp-LINDO.html) | 5.30 (4.51) | 43%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/minlp-10-Aug-2022.html">10 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/minlp-23-Jul-2022.html">23 Jul 2022</a></li>
 </ul></details>
 
