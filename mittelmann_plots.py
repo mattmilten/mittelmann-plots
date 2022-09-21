@@ -240,7 +240,7 @@ def parse_table(url, timelimit=3600, threads=1):
         tabmark = [ind for ind, i in enumerate(tab) if i.startswith("=====")]
         _score = tab[2].split()
         _solved = tab[5].split()[3:]
-        solver = tab[4].split()[1:]
+        solver = [s.rstrip("&") for s in tab[4].split()[1:]]
         _version = [x.text for x in soup.find_all("td")][0::2]
         stats["solver"] = solver
         stats["nprobs"] = len(tab[tabmark[0] + 4 : tabmark[-1]])
@@ -268,7 +268,7 @@ def parse_table(url, timelimit=3600, threads=1):
         _version = [x.text for x in soup.find_all("td")][0::2]
         _score = tab[3].split()[1:]
         _solved = tab[4].split()[1:]
-        solver = tab[6].split()[1:]
+        solver = [s.rstrip("&") for s in tab[6].split()[1:]]
         stats["solver"] = solver
         nprobs = len(tab[tabmark[1] + 1 : tabmark[2]])
         stats["nprobs"] = nprobs
@@ -290,7 +290,7 @@ def parse_table(url, timelimit=3600, threads=1):
         _version = [x.split()[0].rstrip(":") for x in _version]
         _score = tab[2].split()[:]
         _solved = tab[5].split()[3:]
-        solver = tab[7].split()[1:]
+        solver = [s.rstrip("&") for s in tab[7].split()[1:]]
         stats["solver"] = solver
         nprobs = len(tab[tabmark[1] : tabmark[2]])
         stats["nprobs"] = nprobs
@@ -318,7 +318,7 @@ def parse_table(url, timelimit=3600, threads=1):
         _version = [x.split()[0].rstrip(":") for x in _version]
         _score = tab[1].split()[2:]
         _solved = tab[2].split()[4:]
-        solver = tab[4].split()[1:]
+        solver = [s.rstrip("&") for s in tab[4].split()[1:]]
         stats["solver"] = solver
         nprobs = len(tab[tabmark[0] + 2 : tabmark[1]])
         stats["nprobs"] = nprobs
@@ -339,7 +339,7 @@ def parse_table(url, timelimit=3600, threads=1):
         souptab = BeautifulSoup(resp.text, features="html.parser")
         tab = souptab.contents[0].split("\n")
         scoretab = pre[1].text.split("\n")
-        solver = scoretab[1].split()
+        solver = [s.rstrip("&") for s in scoretab[1].split()]
         stats["solver"] = solver
         _score = scoretab[3].split()[2:]
         _solved = scoretab[4].split()[1:]
@@ -369,6 +369,32 @@ def parse_table(url, timelimit=3600, threads=1):
         stats["times"] = times
         stats["nprobs"] = len(times)
 
+    elif "nonbinary.html" in url:
+        tab = pre[2].text.split("\n")
+        tabmark = [ind for ind, i in enumerate(tab) if i.startswith("=====")]
+        _version = pre[1].text.split("\n")[1:-1]
+        _version = [x.split()[0].rstrip(":") for x in _version]
+        _score = tab[1].split()[1:]
+        _solved = tab[2].split()[1:]
+        _solved.remove("&&&") # temporary hack to remove unreliable OCTERACT results
+        solver = [s.rstrip("&") for s in tab[4].split()[1:]]
+        solver_oct = solver.copy()
+        solver.remove("OCTERACT")
+        stats["solver"] = solver
+        nprobs = len(tab[tabmark[0] + 3 : tabmark[1]])
+        stats["nprobs"] = nprobs
+        stats["score"] = {solver[i]: float(_score[i]) for i in range(len(solver))}
+        stats["solved"] = {
+            solver[i]: int(_solved[i].strip("*")) for i in range(len(solver))
+        }
+        stats["version"] = {s: get_version(s, _version) for s in solver}
+        stats["timelimit"] = timelimit
+        stats["times"] = pd.DataFrame(
+            [l.split() for l in tab[tabmark[0] + 3 : tabmark[1]]],
+            columns=["instance"] + solver_oct,
+        )
+        stats["times"].drop("OCTERACT", axis=1, inplace=True)
+
     else:
         tab = pre[2].text.split("\n")
         tabmark = [ind for ind, i in enumerate(tab) if i.startswith("=====")]
@@ -376,7 +402,7 @@ def parse_table(url, timelimit=3600, threads=1):
         _version = [x.split()[0].rstrip(":") for x in _version]
         _score = tab[1].split()[1:]
         _solved = tab[2].split()[1:]
-        solver = tab[4].split()[1:]
+        solver = [s.rstrip("&") for s in tab[4].split()[1:]]
         stats["solver"] = solver
         nprobs = len(tab[tabmark[0] + 3 : tabmark[1]])
         stats["nprobs"] = nprobs
@@ -597,7 +623,7 @@ urls = [
     ("http://plato.asu.edu/ftp/lpbar.html", 15000, 1),
     ("http://plato.asu.edu/ftp/network.html", 3600, 1),
     # MIP
-    # ("http://plato.asu.edu/ftp/milp.html", 7200, 1), deprecated
+    # ("http://plato.asu.edu/ftp/milp.html", 7200, 1), # deprecated
     ("http://plato.asu.edu/ftp/milp.html", 7200, 8),
     ("http://plato.asu.edu/ftp/path.html", 10800, 1),
     ("http://plato.asu.edu/ftp/infeas.html", 3600, 1),
