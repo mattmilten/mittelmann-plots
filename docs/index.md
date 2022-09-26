@@ -540,28 +540,28 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Discrete QPLIB Benchmark (4 Sep 2022)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (25 Sep 2022)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 31|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](convex-vbest.html) | 0.46  | 90%|
-|[🥇 GUROBI-9.5.0](convex-GUROBI.html) | 1.00 (1.00) | 74%|
-|[🥈 OCTERACT-4.5.0](convex-OCTERACT.html) | 1.30 (1.30) | 87%|
-|[🥉 Shot-1.1](convex-SHOT.html) | 5.15 (5.15) | 48%|
-|[📊 MOSEK-10.0.18](convex-MOSEK.html) | 6.15 (6.15) | 55%|
-|[📊 Baron-22.9.1](convex-BARON.html) | 7.82 (7.82) | 55%|
-|[📊 KNITRO-13.1.0](convex-KNITRO.html) | 8.43 (8.43) | 42%|
-|[📊 SCIP-8.0.0](convex-SCIP.html) | 13.06 (13.10) | 42%|
-|[📊 Bonmin-1.8.7](convex-BONMIN.html) | 17.78 (17.80) | 32%|
-|[📊 MINOTAUR-0.3.0](convex-MINOTAUR.html) | 23.42 (23.40) | 42%|
-|[📊 ANTIGONE-1.1](convex-ANTIGONE.html) | 46.86 (46.90) | 6%|
+|[⭐ virtual best](convex-vbest.html) | 0.44  | 94%|
+|[🥇 GUROBI-9.5.2](convex-GUROBI.html) | 1.00 (1.00) | 77%|
+|[🥈 OCTACT](convex-OCTACT.html) | 3.38 (3.38) | 74%|
+|[🥉 Shot-1.1](convex-SHOT.html) | 5.38 (5.38) | 48%|
+|[📊 MOSEK-10.0.18](convex-MOSEK.html) | 5.73 (5.73) | 61%|
+|[📊 KNITRO-13.1.0](convex-KNITRO.html) | 8.23 (8.23) | 52%|
+|[📊 Baron-22.9.1](convex-BARON.html) | 8.69 (8.69) | 58%|
+|[📊 SCIP-8.0.0](convex-SCIP.html) | 22.69 (22.70) | 39%|
+|[📊 MNTAUR](convex-MNTAUR.html) | 26.00 (26.00) | 45%|
+|[📊 Bonmin-1.8.7](convex-BONMIN.html) | 33.57 (33.60) | 23%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/convex-4-Sep-2022.html">4 Sep 2022</a></li>
 <li><a href="/mittelmann-plots/convex-12-Aug-2022.html">12 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/convex-16-Jul-2022.html">16 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/convex-7-Jul-2022.html">7 Jul 2022</a></li>
