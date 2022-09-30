@@ -7,29 +7,30 @@ instance. This might reveal how much potential the individual solvers still have
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (31 Aug 2022)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers (29 Sep 2022)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 60|
+| solver | score (as reported) | solved of 59|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](lpsimp-vbest.html) | 0.74  | 100%|
-|[🥇 COPT-5.0.4](lpsimp-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 MindOpt-0.18.6](lpsimp-MDOPT.html) | 1.16 (1.16) | 100%|
-|[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.70 (1.70) | 98%|
-|[📊 Optverse-0.2.6](lpsimp-OPTV.html) | 2.62 (2.62) | 88%|
-|[📊 CLP-1.17.7](lpsimp-CLP.html) | 9.96 (9.96) | 72%|
-|[📊 HiGHS-1.2.1](lpsimp-HiGHS.html) | 13.79 (13.80) | 78%|
-|[📊 MOSEK-10.0.18](lpsimp-MOSEK.html) | 15.95 (15.90) | 77%|
-|[📊 MATLAB-R2020b](lpsimp-MATL.html) | 25.13 (25.10) | 65%|
-|[📊 Google-GLOP](lpsimp-GLOP.html) | 26.43 (26.40) | 53%|
-|[📊 SOPLEX-6.0.0](lpsimp-SPLX.html) | 42.28 (42.30) | 57%|
-|[📊 GLPK-5.0](lpsimp-GLPK.html) | 78.65 (78.70) | 47%|
+|[⭐ virtual best](lpsimp-vbest.html) | 0.67  | 100%|
+|[🥇 MindOpt-0.21.0](lpsimp-MDOPT.html) | 1.00 (1.00) | 100%|
+|[🥈 COPT-5.0.4](lpsimp-COPT.html) | 1.03 (1.03) | 102%|
+|[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.71 (1.71) | 100%|
+|[📊 Optverse-0.2.6](lpsimp-OPTV.html) | 2.64 (2.64) | 90%|
+|[📊 CLP-1.17.7](lpsimp-CLP.html) | 10.29 (10.30) | 73%|
+|[📊 HiGHS-1.2.1](lpsimp-HiGHS.html) | 14.44 (14.40) | 80%|
+|[📊 MATLAB-R2022b](lpsimp-MATL.html) | 16.18 (16.20) | 75%|
+|[📊 MOSEK-10.0.18](lpsimp-MOSEK.html) | 16.65 (16.60) | 78%|
+|[📊 Google-GLOP](lpsimp-GLOP.html) | 27.78 (27.80) | 54%|
+|[📊 SOPLEX-6.0.0](lpsimp-SPLX.html) | 44.80 (44.80) | 58%|
+|[📊 GLPK-5.0](lpsimp-GLPK.html) | 84.21 (84.20) | 47%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpsimp-31-Aug-2022.html">31 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-26-Aug-2022.html">26 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-23-Aug-2022.html">23 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-20-Aug-2022.html">20 Aug 2022</a></li>
@@ -81,7 +82,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Benchmark of Barrier LP solvers (29 Aug 2022)](http://plato.asu.edu/ftp/lpbar.html)
+## [Benchmark of Barrier LP solvers (29 Sep 2022)](http://plato.asu.edu/ftp/lpbar.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 51|
@@ -94,7 +95,7 @@ Choose base solver for comparison:
 |[📊 PDLP$](lpbar-PDLP$.html) | 12.09 (12.10) | 86%|
 |[📊 KNITRO-13.0.0](lpbar-KNITRO.html) | 14.47 (14.40) | 76%|
 |[📊 HiGHS-1.2.2](lpbar-HiGHS.html) | 20.35 (18.60) | 82%|
-|[📊 MATLAB-R2020b](lpbar-MATLAB.html) | 44.61 (36.80) | 71%|
+|[📊 MATLAB-R2022b](lpbar-MATLAB.html) | 37.90 (34.30) | 69%|
 |[📊 Tulip-0.9.4](lpbar-TULIP.html) | 52.37 (52.40) | 63%|
 |[📊 CLP-1.17.7](lpbar-CLP.html) | 69.14 (69.10) | 69%|
 
@@ -103,6 +104,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpbar-29-Aug-2022.html">29 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-20-Aug-2022.html">20 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-29-Jul-2022.html">29 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/lpbar-15-Jun-2022.html">15 Jun 2022</a></li>
