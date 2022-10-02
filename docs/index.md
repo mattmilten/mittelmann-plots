@@ -7,29 +7,30 @@ instance. This might reveal how much potential the individual solvers still have
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (29 Sep 2022)](http://plato.asu.edu/ftp/lpsimp.html)
+## [Benchmark of Simplex LP solvers (1 Oct 2022)](http://plato.asu.edu/ftp/lpsimp.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 59|
+| solver | score (as reported) | solved of 60|
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](lpsimp-vbest.html) | 0.67  | 100%|
-|[🥇 MindOpt-0.21.0](lpsimp-MDOPT.html) | 1.00 (1.00) | 100%|
-|[🥈 COPT-5.0.4](lpsimp-COPT.html) | 1.03 (1.03) | 102%|
-|[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.71 (1.71) | 100%|
-|[📊 Optverse-0.2.6](lpsimp-OPTV.html) | 2.64 (2.64) | 90%|
-|[📊 CLP-1.17.7](lpsimp-CLP.html) | 10.29 (10.30) | 73%|
-|[📊 HiGHS-1.2.1](lpsimp-HiGHS.html) | 14.44 (14.40) | 80%|
-|[📊 MATLAB-R2022b](lpsimp-MATL.html) | 16.18 (16.20) | 75%|
-|[📊 MOSEK-10.0.18](lpsimp-MOSEK.html) | 16.65 (16.60) | 78%|
-|[📊 Google-GLOP](lpsimp-GLOP.html) | 27.78 (27.80) | 54%|
-|[📊 SOPLEX-6.0.0](lpsimp-SPLX.html) | 44.80 (44.80) | 58%|
-|[📊 GLPK-5.0](lpsimp-GLPK.html) | 84.21 (84.20) | 47%|
+|[🥇 MindOpt-0.21.0](lpsimp-MDOPT.html) | 1.00 (1.00) | 98%|
+|[🥈 COPT-5.0.4](lpsimp-COPT.html) | 1.02 (1.02) | 100%|
+|[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.70 (1.70) | 98%|
+|[📊 Optverse-0.2.6](lpsimp-OPTV.html) | 2.55 (2.55) | 88%|
+|[📊 CLP-1.17.7](lpsimp-CLP.html) | 9.99 (10.00) | 72%|
+|[📊 HiGHS-1.2.1](lpsimp-HiGHS.html) | 13.64 (13.60) | 78%|
+|[📊 MATLAB-R2022b](lpsimp-MATL.html) | 15.58 (15.60) | 73%|
+|[📊 MOSEK-10.0.18](lpsimp-MOSEK.html) | 16.03 (16.00) | 77%|
+|[📊 Google-GLOP](lpsimp-GLOP.html) | 26.52 (26.50) | 53%|
+|[📊 SOPLEX-6.0.0](lpsimp-SPLX.html) | 42.41 (42.40) | 57%|
+|[📊 GLPK-5.0](lpsimp-GLPK.html) | 78.89 (78.90) | 47%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpsimp-29-Sep-2022.html">29 Sep 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-31-Aug-2022.html">31 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-26-Aug-2022.html">26 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/lpsimp-23-Aug-2022.html">23 Aug 2022</a></li>
