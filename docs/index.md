@@ -143,7 +143,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Network-LP Benchmark (commercial vs free) (24 Aug 2022)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (3 Oct 2022)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 25|
@@ -155,9 +155,9 @@ Choose base solver for comparison:
 |[📊 COPT-5.0.0](network-COPT.html) | 1.68 (1.68) | 100%|
 |[📊 Clp-1.17.7](network-CLP.html) | 4.71 (4.71) | 100%|
 |[📊 HiGHS-1.1.1](network-HGHS.html) | 10.15 (10.20) | 80%|
-|[📊 MATLAB-R2020b](network-MATL.html) | 17.17 (17.20) | 80%|
-|[📊 MOSEK-10.0.16](network-MOSEK.html) | 20.31 (20.30) | 92%|
-|[📊 QSopt-1.01](network-QSOPT.html) | 27.55 (27.50) | 68%|
+|[📊 MATLAB-R2022b](network-MATL.html) | 16.52 (16.50) | 80%|
+|[📊 MOSEK-10.0.24](network-MOSEK.html) | 20.36 (20.40) | 88%|
+|[📊 QSopt-1.01](network-QSOPT.html) | 27.55 (27.60) | 68%|
 |[📊 SOPLEX-6.0.0](network-SPLX.html) | 52.38 (52.40) | 64%|
 
 
@@ -165,6 +165,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/network-24-Aug-2022.html">24 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/network-17-Aug-2022.html">17 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/network-16-Jun-2022.html">16 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/network-13-Jun-2022.html">13 Jun 2022</a></li>
