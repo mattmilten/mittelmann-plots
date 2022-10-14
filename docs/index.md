@@ -298,25 +298,27 @@ Choose base solver for comparison:
 ---
 
 
-## [Several SDP-codes on sparse and other SDP problems (13 Sep 2022)](http://plato.asu.edu/ftp/sparse_sdp.html)
+## [Several SDP-codes on sparse and other SDP problems (13 Oct 2022)](http://plato.asu.edu/ftp/sparse_sdp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 76|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](sparse_sdp-vbest.html) | 0.36  | 99%|
-|[🥇 COPT-5.0](sparse_sdp-COPT.html) | 1.00 (1.00) | 97%|
-|[🥈 MOSEK-10.0.18](sparse_sdp-MOSEK.html) | 1.64 (1.64) | 95%|
-|[🥉 SDPT3-4.0](sparse_sdp-SDPT3.html) | 2.13 (2.17) | 91%|
-|[📊 CSDP-6.2.0](sparse_sdp-CSDP.html) | 2.16 (2.19) | 92%|
-|[📊 HDSDP-0.9.2](sparse_sdp-HDSDP.html) | 3.50 (3.57) | 92%|
-|[📊 SDPA-7.4.2](sparse_sdp-SDPA.html) | 4.29 (4.40) | 80%|
-|[📊 SeDuMi-1.3.5](sparse_sdp-SeDuMi.html) | 11.69 (12.20) | 82%|
+|[⭐ virtual best](sparse_sdp-vbest.html) | 0.42  | 99%|
+|[🥇 COPT-6.0](sparse_sdp-COPT.html) | 1.00 (1.00) | 99%|
+|[🥈 MindOpt-0.22.0](sparse_sdp-MDOPT.html) | 1.17 (1.18) | 97%|
+|[🥉 MOSEK-10.0.18](sparse_sdp-MOSEK.html) | 2.27 (2.31) | 95%|
+|[📊 SDPT3-4.0](sparse_sdp-SDPT3.html) | 2.95 (3.02) | 91%|
+|[📊 CSDP-6.2.0](sparse_sdp-CSDP.html) | 2.99 (3.06) | 92%|
+|[📊 HDSDP-0.9.2](sparse_sdp-HDSDP.html) | 4.84 (4.98) | 92%|
+|[📊 SDPA-7.4.2](sparse_sdp-SDPA.html) | 5.94 (6.14) | 80%|
+|[📊 SeDuMi-1.3.5](sparse_sdp-SeDuMi.html) | 16.18 (17.00) | 82%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/sparse_sdp-13-Sep-2022.html">13 Sep 2022</a></li>
 <li><a href="/mittelmann-plots/sparse_sdp-29-Aug-2022.html">29 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/sparse_sdp-27-Jul-2022.html">27 Jul 2022</a></li>
 </ul></details>
@@ -352,21 +354,23 @@ Choose base solver for comparison:
 ---
 
 
-## [Mixed-integer SOCP Benchmark (31 Aug 2022)](http://plato.asu.edu/ftp/misocp.html)
+## [Mixed-integer SOCP Benchmark (12 Oct 2022)](http://plato.asu.edu/ftp/misocp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 47|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](misocp-vbest.html) | 1.00  | 100%|
+|[⭐ virtual best](misocp-vbest.html) | 0.92  | 100%|
 |[🥇 Gurobi-9.5.1](misocp-GUROBI.html) | 1.00 (1.00) | 100%|
-|[🥈 MOSEK-10.0.18](misocp-MOSEK.html) | 11.84 (11.80) | 72%|
-|[🥉 SCIP-8.0.0](misocp-SCIP.html) | 20.43 (20.40) | 66%|
+|[🥈 COPT-6.0.0](misocp-COPT.html) | 3.19 (3.19) | 89%|
+|[🥉 MOSEK-10.0.18](misocp-MOSEK.html) | 11.84 (11.80) | 72%|
+|[📊 SCIP-8.0.0](misocp-SCIP.html) | 20.43 (20.40) | 66%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/misocp-31-Aug-2022.html">31 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/misocp-5-May-2022.html">5 May 2022</a></li>
 <li><a href="/mittelmann-plots/misocp-4-Mar-2022.html">4 Mar 2022</a></li>
 <li><a href="/mittelmann-plots/misocp-26-Dec-2021.html">26 Dec 2021</a></li>
@@ -544,27 +548,29 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Discrete QPLIB Benchmark (25 Sep 2022)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (13 Oct 2022)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 31|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](convex-vbest.html) | 0.44  | 94%|
-|[🥇 GUROBI-9.5.2](convex-GUROBI.html) | 1.00 (1.00) | 77%|
-|[🥈 OCTACT](convex-OCTACT.html) | 3.38 (3.38) | 74%|
-|[🥉 Shot-1.1](convex-SHOT.html) | 5.38 (5.38) | 48%|
-|[📊 MOSEK-10.0.18](convex-MOSEK.html) | 5.73 (5.73) | 61%|
-|[📊 KNITRO-13.1.0](convex-KNITRO.html) | 8.23 (8.23) | 52%|
-|[📊 Baron-22.9.1](convex-BARON.html) | 8.69 (8.69) | 58%|
-|[📊 SCIP-8.0.0](convex-SCIP.html) | 22.69 (22.70) | 39%|
-|[📊 MNTAUR](convex-MNTAUR.html) | 26.00 (26.00) | 45%|
-|[📊 Bonmin-1.8.7](convex-BONMIN.html) | 33.57 (33.60) | 23%|
+|[⭐ virtual best](convex-vbest.html) | 0.54  | 87%|
+|[🥇 COPT-6.0.0](convex-COPT.html) | 1.00 (1.00) | 77%|
+|[🥈 GUROBI-9.5.2](convex-GUROBI.html) | 1.25 (1.25) | 77%|
+|[🥉 OCTACT](convex-OCTACT.html) | 5.38 (5.38) | 68%|
+|[📊 Shot-1.1](convex-SHOT.html) | 6.73 (6.73) | 48%|
+|[📊 MOSEK-10.0.18](convex-MOSEK.html) | 7.17 (7.17) | 61%|
+|[📊 KNITRO-13.1.0](convex-KNITRO.html) | 10.30 (10.30) | 52%|
+|[📊 Baron-22.9.1](convex-BARON.html) | 10.89 (10.90) | 58%|
+|[📊 SCIP-8.0.0](convex-SCIP.html) | 28.42 (28.40) | 39%|
+|[📊 MNTAUR](convex-MNTAUR.html) | 32.57 (32.60) | 45%|
+|[📊 Bonmin-1.8.7](convex-BONMIN.html) | 42.05 (42.00) | 23%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/convex-25-Sep-2022.html">25 Sep 2022</a></li>
 <li><a href="/mittelmann-plots/convex-4-Sep-2022.html">4 Sep 2022</a></li>
 <li><a href="/mittelmann-plots/convex-12-Aug-2022.html">12 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/convex-16-Jul-2022.html">16 Jul 2022</a></li>
