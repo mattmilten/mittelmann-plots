@@ -304,7 +304,7 @@ Choose base solver for comparison:
 | solver | score (as reported) | solved of 76|
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](sparse_sdp-vbest.html) | 0.42  | 99%|
-|[🥇 COPT-6.0](sparse_sdp-COPT.html) | 1.00 (1.00) | 99%|
+|[🥇 COPT-6.0](sparse_sdp-COPT.html) | 1.00 (1.00) | 97%|
 |[🥈 MindOpt-0.22.0](sparse_sdp-MDOPT.html) | 1.17 (1.18) | 97%|
 |[🥉 MOSEK-10.0.18](sparse_sdp-MOSEK.html) | 2.27 (2.31) | 95%|
 |[📊 SDPT3-4.0](sparse_sdp-SDPT3.html) | 2.95 (3.02) | 91%|
