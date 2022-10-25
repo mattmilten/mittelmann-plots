@@ -474,14 +474,14 @@ Choose base solver for comparison:
 ---
 
 
-## [Continuous Non-Convex QPLIB Benchmark (10 Sep 2022)](http://plato.asu.edu/ftp/cnconv.html)
+## [Continuous Non-Convex QPLIB Benchmark (24 Oct 2022)](http://plato.asu.edu/ftp/cnconv.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 68|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](cnconv-vbest.html) | 0.19  | 94%|
+|[⭐ virtual best](cnconv-vbest.html) | 0.21  | 93%|
 |[🥇 GUROBI-9.5.0](cnconv-GUROBI.html) | 1.00 (1.00) | 62%|
-|[🥈 OCTERACT-4.5.0](cnconv-OCTERACT.html) | 1.00 (1.25) | 72%|
+|[🥈 OCTERACT-4.5.1](cnconv-OCTERACT.html) | 1.33 (1.66) | 66%|
 |[🥉 ANTIGONE-1.1](cnconv-ANTIGONE.html) | 3.93 (4.90) | 41%|
 |[📊 Baron-22.9.1](cnconv-BARON.html) | 4.62 (5.76) | 28%|
 |[📊 MINOTAUR-0.3.0](cnconv-MINOTAUR.html) | 5.57 (6.95) | 22%|
@@ -493,6 +493,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/cnconv-10-Sep-2022.html">10 Sep 2022</a></li>
 <li><a href="/mittelmann-plots/cnconv-21-Jul-2022.html">21 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/cnconv-5-Jul-2022.html">5 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/cnconv-3-May-2022.html">3 May 2022</a></li>
