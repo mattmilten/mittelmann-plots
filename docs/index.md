@@ -327,7 +327,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Second Order Cone Benchmark (19 Sep 2022)](http://plato.asu.edu/ftp/socp.html)
+## [Large Second Order Cone Benchmark (26 Oct 2022)](http://plato.asu.edu/ftp/socp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 18|
@@ -335,7 +335,7 @@ Choose base solver for comparison:
 |[⭐ virtual best](socp-vbest.html) | 0.77  | 100%|
 |[🥇 MOSEK-10.0.18](socp-MOSEK.html) | 1.00 (1.00) | 100%|
 |[🥈 Gurobi-9.5.0](socp-Gurobi.html) | 1.14 (1.14) | 100%|
-|[🥉 COPT-5.0.0](socp-COPT.html) | 1.16 (1.16) | 100%|
+|[🥉 COPT-6.0.0](socp-COPT.html) | 1.15 (1.15) | 100%|
 |[📊 KNITRO-13.0.0](socp-KNITRO.html) | 10.06 (10.10) | 83%|
 |[📊 ECOS-2.0.4](socp-ECOS.html) | 83.02 (83.00) | 33%|
 
@@ -344,6 +344,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/socp-19-Sep-2022.html">19 Sep 2022</a></li>
 <li><a href="/mittelmann-plots/socp-29-Aug-2022.html">29 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/socp-19-Jun-2022.html">19 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/socp-6-May-2022.html">6 May 2022</a></li>
@@ -599,24 +600,25 @@ Choose base solver for comparison:
 ---
 
 
-## [Mixed Integer Nonlinear Programming Benchmark (MINLPLIB) (20 Sep 2022)](http://plato.asu.edu/ftp/minlp.html)
+## [Mixed Integer Nonlinear Programming Benchmark (MINLPLIB) (26 Oct 2022)](http://plato.asu.edu/ftp/minlp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 87|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](minlp-vbest.html) | 0.22  | 95%|
-|[🥇 OCTERACT](minlp-OCTERACT.html) | 1.00 (0.85) | 77%|
-|[🥈 SCIP](minlp-SCIP.html) | 1.07 (0.91) | 74%|
-|[🥉 BARON](minlp-BARON.html) | 1.17 (1.00) | 79%|
-|[📊 ANTIGONE](minlp-ANTIGONE.html) | 4.03 (3.43) | 61%|
-|[📊 LINDO](minlp-LINDO.html) | 5.30 (4.51) | 43%|
-|[📊 COUENNE](minlp-COUENNE.html) | 9.12 (7.77) | 28%|
+|[⭐ virtual best](minlp-vbest.html) | 0.22  | 97%|
+|[🥇 BARON](minlp-BARON.html) | 1.00 (1.00) | 82%|
+|[🥈 OCTERACT](minlp-OCTERACT.html) | 1.11 (1.11) | 77%|
+|[🥉 SCIP](minlp-SCIP.html) | 1.19 (1.19) | 74%|
+|[📊 ANTIGONE](minlp-ANTIGONE.html) | 4.48 (4.48) | 61%|
+|[📊 LINDO](minlp-LINDO.html) | 5.90 (5.90) | 43%|
+|[📊 COUENNE](minlp-COUENNE.html) | 10.15 (10.15) | 28%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/minlp-20-Sep-2022.html">20 Sep 2022</a></li>
 <li><a href="/mittelmann-plots/minlp-4-Sep-2022.html">4 Sep 2022</a></li>
 <li><a href="/mittelmann-plots/minlp-10-Aug-2022.html">10 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/minlp-23-Jul-2022.html">23 Jul 2022</a></li>
