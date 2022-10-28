@@ -605,13 +605,13 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 87|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](minlp-vbest.html) | 0.22  | 97%|
-|[🥇 BARON](minlp-BARON.html) | 1.00 (1.00) | 82%|
-|[🥈 OCTERACT](minlp-OCTERACT.html) | 1.11 (1.11) | 77%|
-|[🥉 SCIP](minlp-SCIP.html) | 1.19 (1.19) | 74%|
-|[📊 ANTIGONE](minlp-ANTIGONE.html) | 4.48 (4.48) | 61%|
-|[📊 LINDO](minlp-LINDO.html) | 5.90 (5.90) | 43%|
-|[📊 COUENNE](minlp-COUENNE.html) | 10.15 (10.15) | 28%|
+|[⭐ virtual best](minlp-vbest.html) | 0.31  | 99%|
+|[🥇 OCTERACT](minlp-OCTERACT.html) | 1.00 (1.11) | 77%|
+|[🥈 BARON](minlp-BARON.html) | 1.71 (1.00) | 82%|
+|[🥉 SCIP](minlp-SCIP.html) | 2.04 (1.19) | 74%|
+|[📊 ANTIGONE](minlp-ANTIGONE.html) | 7.68 (4.48) | 61%|
+|[📊 LINDO](minlp-LINDO.html) | 10.10 (5.90) | 43%|
+|[📊 COUENNE](minlp-COUENNE.html) | 17.38 (10.15) | 28%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
