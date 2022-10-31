@@ -200,14 +200,14 @@ Choose base solver for comparison:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances - 8 threads (30 Jun 2022)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances - 8 threads (30 Oct 2022)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](milp_8threads-vbest.html) | 0.81  | 96%|
+|[⭐ virtual best](milp_8threads-vbest.html) | 0.78  | 96%|
 |[🥇 Gurobi-9.5.0](milp_8threads-Gurobi.html) | 1.00 (1.00) | 93%|
-|[🥈 COPT-5.0.0](milp_8threads-COPT.html) | 2.34 (2.34) | 81%|
+|[🥈 COPT-6.0.1](milp_8threads-COPT.html) | 2.35 (2.35) | 82%|
 |[🥉 SCIPC/spx-8.0.0](milp_8threads-SCIPC.html) | 7.95 (7.95) | 63%|
 |[📊 HiGHS-1.2.2](milp_8threads-HiGHS.html) | 9.15 (9.15) | 62%|
 |[📊 SCIP/spx-8.0.0](milp_8threads-SCIP.html) | 9.72 (9.72) | 57%|
@@ -218,6 +218,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/milp_8threads-30-Jun-2022.html">30 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-8-May-2022.html">May 2022</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-23-Apr-2022.html">23 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-5-Feb-2022.html">5 Feb 2022</a></li>
@@ -299,26 +300,27 @@ Choose base solver for comparison:
 ---
 
 
-## [Several SDP-codes on sparse and other SDP problems (13 Oct 2022)](http://plato.asu.edu/ftp/sparse_sdp.html)
+## [Several SDP-codes on sparse and other SDP problems (30 Oct 2022)](http://plato.asu.edu/ftp/sparse_sdp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 76|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](sparse_sdp-vbest.html) | 0.42  | 99%|
-|[🥇 COPT-6.0](sparse_sdp-COPT.html) | 1.00 (1.00) | 97%|
-|[🥈 MindOpt-0.22.0](sparse_sdp-MDOPT.html) | 1.17 (1.18) | 97%|
-|[🥉 MOSEK-10.0.18](sparse_sdp-MOSEK.html) | 2.27 (2.31) | 95%|
-|[📊 SDPT3-4.0](sparse_sdp-SDPT3.html) | 2.95 (3.02) | 91%|
-|[📊 CSDP-6.2.0](sparse_sdp-CSDP.html) | 2.99 (3.06) | 92%|
-|[📊 HDSDP-0.9.2](sparse_sdp-HDSDP.html) | 4.84 (4.98) | 92%|
-|[📊 SDPA-7.4.2](sparse_sdp-SDPA.html) | 5.94 (6.14) | 80%|
-|[📊 SeDuMi-1.3.5](sparse_sdp-SeDuMi.html) | 16.18 (17.00) | 82%|
+|[⭐ virtual best](sparse_sdp-vbest.html) | 0.59  | 99%|
+|[🥇 COPT-6.0.1](sparse_sdp-COPT.html) | 1.00 (1.00) | 99%|
+|[🥈 MindOpt-0.22.0](sparse_sdp-MDOPT.html) | 1.89 (1.93) | 97%|
+|[🥉 MOSEK-10.0.18](sparse_sdp-MOSEK.html) | 3.67 (3.79) | 95%|
+|[📊 SDPT3-4.0](sparse_sdp-SDPT3.html) | 4.77 (4.94) | 91%|
+|[📊 CSDP-6.2.0](sparse_sdp-CSDP.html) | 4.83 (5.01) | 92%|
+|[📊 HDSDP-0.9.2](sparse_sdp-HDSDP.html) | 7.81 (8.16) | 92%|
+|[📊 SDPA-7.4.2](sparse_sdp-SDPA.html) | 9.58 (10.00) | 80%|
+|[📊 SeDuMi-1.3.5](sparse_sdp-SeDuMi.html) | 26.11 (27.80) | 82%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/sparse_sdp-13-Oct-2022.html">13 Oct 2022</a></li>
 <li><a href="/mittelmann-plots/sparse_sdp-13-Sep-2022.html">13 Sep 2022</a></li>
 <li><a href="/mittelmann-plots/sparse_sdp-29-Aug-2022.html">29 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/sparse_sdp-27-Jul-2022.html">27 Jul 2022</a></li>
@@ -356,14 +358,14 @@ Choose base solver for comparison:
 ---
 
 
-## [Mixed-integer SOCP Benchmark (12 Oct 2022)](http://plato.asu.edu/ftp/misocp.html)
+## [Mixed-integer SOCP Benchmark (18 Oct 2022)](http://plato.asu.edu/ftp/misocp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 47|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](misocp-vbest.html) | 0.92  | 100%|
+|[⭐ virtual best](misocp-vbest.html) | 0.93  | 100%|
 |[🥇 Gurobi-9.5.1](misocp-GUROBI.html) | 1.00 (1.00) | 100%|
-|[🥈 COPT-6.0.0](misocp-COPT.html) | 3.19 (3.19) | 89%|
+|[🥈 COPT-6.0.1](misocp-COPT.html) | 2.34 (2.34) | 98%|
 |[🥉 MOSEK-10.0.18](misocp-MOSEK.html) | 11.84 (11.80) | 72%|
 |[📊 SCIP-8.0.0](misocp-SCIP.html) | 20.43 (20.40) | 66%|
 
@@ -372,6 +374,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/misocp-12-Oct-2022.html">12 Oct 2022</a></li>
 <li><a href="/mittelmann-plots/misocp-31-Aug-2022.html">31 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/misocp-5-May-2022.html">5 May 2022</a></li>
 <li><a href="/mittelmann-plots/misocp-4-Mar-2022.html">4 Mar 2022</a></li>
@@ -551,28 +554,29 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Discrete QPLIB Benchmark (13 Oct 2022)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (28 Oct 2022)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 31|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](convex-vbest.html) | 0.54  | 87%|
-|[🥇 COPT-6.0.0](convex-COPT.html) | 1.00 (1.00) | 77%|
-|[🥈 GUROBI-9.5.2](convex-GUROBI.html) | 1.25 (1.25) | 77%|
-|[🥉 OCTACT](convex-OCTACT.html) | 5.38 (5.38) | 68%|
-|[📊 Shot-1.1](convex-SHOT.html) | 6.73 (6.73) | 48%|
-|[📊 MOSEK-10.0.18](convex-MOSEK.html) | 7.17 (7.17) | 61%|
-|[📊 KNITRO-13.1.0](convex-KNITRO.html) | 10.30 (10.30) | 52%|
-|[📊 Baron-22.9.1](convex-BARON.html) | 10.89 (10.90) | 58%|
-|[📊 SCIP-8.0.0](convex-SCIP.html) | 28.42 (28.40) | 39%|
-|[📊 MNTAUR](convex-MNTAUR.html) | 32.57 (32.60) | 45%|
-|[📊 Bonmin-1.8.7](convex-BONMIN.html) | 42.05 (42.00) | 23%|
+|[⭐ virtual best](convex-vbest.html) | 0.62  | 87%|
+|[🥇 COPT-6.0.1](convex-COPT.html) | 1.00 (1.00) | 77%|
+|[🥈 GUROBI-9.5.2](convex-GUROBI.html) | 1.43 (1.43) | 77%|
+|[🥉 OCTACT](convex-OCTACT.html) | 6.15 (6.15) | 68%|
+|[📊 Shot-1.1](convex-SHOT.html) | 7.70 (7.70) | 48%|
+|[📊 MOSEK-10.0.18](convex-MOSEK.html) | 8.21 (8.21) | 61%|
+|[📊 KNITRO-13.1.0](convex-KNITRO.html) | 11.79 (11.80) | 52%|
+|[📊 Baron-22.9.1](convex-BARON.html) | 12.45 (12.50) | 58%|
+|[📊 SCIP-8.0.0](convex-SCIP.html) | 32.52 (32.50) | 39%|
+|[📊 MNTAUR](convex-MNTAUR.html) | 37.26 (37.30) | 45%|
+|[📊 Bonmin-1.8.7](convex-BONMIN.html) | 48.10 (48.10) | 23%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/convex-13-Oct-2022.html">13 Oct 2022</a></li>
 <li><a href="/mittelmann-plots/convex-25-Sep-2022.html">25 Sep 2022</a></li>
 <li><a href="/mittelmann-plots/convex-4-Sep-2022.html">4 Sep 2022</a></li>
 <li><a href="/mittelmann-plots/convex-12-Aug-2022.html">12 Aug 2022</a></li>
