@@ -43,12 +43,12 @@ def get_version(s, version):
 
 
 # %%
-def parse_table(url, timelimit=3600, threads=1):
+def parse_table(url, session, timelimit=3600, threads=1):
     """
     parse a specific table to generate a dictionary with the runtimes and
     auxiliary information
     """
-    resp = requests.get(url)
+    resp = session.get(url)
     soup = BeautifulSoup(resp.text, features="html.parser")
     pre = soup.find_all("pre")
 
@@ -131,7 +131,7 @@ def parse_table(url, timelimit=3600, threads=1):
             scoretab = pre[1].text.split("\n")[5:10]
             stats["title"] += f" - {threads} threads"
 
-        resp = requests.get(taburl)
+        resp = session.get(taburl)
         souptab = BeautifulSoup(resp.text, features="html.parser")
         tab = souptab.contents[0].split("\n")
         tabmark = [ind for ind, i in enumerate(tab) if i.startswith("----")]
@@ -168,7 +168,7 @@ def parse_table(url, timelimit=3600, threads=1):
     elif "path.html" in url:
         taburl = "http://plato.asu.edu/ftp/path.res"
         scoretab = pre[1].text.split("\n")[3:7]
-        resp = requests.get(taburl)
+        resp = session.get(taburl)
         souptab = BeautifulSoup(resp.text, features="html.parser")
         tab = souptab.contents[0].split("\n")
         tabmark = [ind for ind, i in enumerate(tab) if i.startswith("----")]
@@ -203,7 +203,7 @@ def parse_table(url, timelimit=3600, threads=1):
     elif "infeas.html" in url:
         taburl = "http://plato.asu.edu/ftp/infeasible.res"
         scoretab = pre[1].text.split("\n")[1:7]
-        resp = requests.get(taburl)
+        resp = session.get(taburl)
         souptab = BeautifulSoup(resp.text, features="html.parser")
         tab = souptab.contents[0].split("\n")
         tabmark = [ind for ind, i in enumerate(tab) if i.startswith("----")]
@@ -335,7 +335,7 @@ def parse_table(url, timelimit=3600, threads=1):
 
     elif "minlp.html" in url:
         taburl = "http://plato.asu.edu/ftp/compare.txt"
-        resp = requests.get(taburl)
+        resp = session.get(taburl)
         souptab = BeautifulSoup(resp.text, features="html.parser")
         tab = souptab.contents[0].split("\n")
         scoretab = pre[1].text.split("\n")
@@ -529,12 +529,12 @@ def plot_benchmark(stats, base):
 
 
 # %%
-def write_bench(url, timelimit, threads=1):
+def write_bench(url, session, timelimit, threads=1):
 
     medals = {0: "⭐", 1: "🥇", 2: "🥈", 3: "🥉"}
 
     benchname = url.split("/")[-1][:-5]
-    stats = parse_table(url, timelimit, threads)
+    stats = parse_table(url, session, timelimit, threads)
 
     if threads > 1:
         benchname += f"_{threads}threads"
@@ -617,7 +617,7 @@ def write_bench(url, timelimit, threads=1):
 
 
 # %%
-urls = [
+parsedata = [
     # LP
     ("http://plato.asu.edu/ftp/lpsimp.html", 15000, 1),
     ("http://plato.asu.edu/ftp/lpbar.html", 15000, 1),
@@ -645,6 +645,7 @@ urls = [
 
 # %%
 if __name__ == "__main__":
+    session = requests.Session()
     with open("docs/index.md", "w", encoding="utf-8") as index:
         index.write(
             """Interactive charts comparing the results of [Hans Mittelmann's benchmarks](http://plato.asu.edu/bench.html).
@@ -656,8 +657,8 @@ instance. This might reveal how much potential the individual solvers still have
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.\n
     """
         )
-        for url in urls:
-            print(f"processing {url[0]}")
-            index.write(write_bench(url[0], url[1], url[2]))
+        for (url, timelimit, threads) in parsedata:
+            print(f"processing {url}")
+            index.write(write_bench(url, session, timelimit, threads))
 
 # %%
