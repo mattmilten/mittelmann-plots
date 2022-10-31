@@ -406,7 +406,7 @@ def parse_table(url, timelimit=3600, threads=1):
         stats["solver"] = solver
         nprobs = len(tab[tabmark[0] + 3 : tabmark[1]])
         stats["nprobs"] = nprobs
-        stats["score"] = {solver[i]: float(_score[i]) for i in range(len(solver))}
+        stats["score"] = {solver[i]: float(_score[i].replace("r","").replace("R","")) for i in range(len(solver))}
         stats["solved"] = {
             solver[i]: int(_solved[i].strip("*")) for i in range(len(solver))
         }
