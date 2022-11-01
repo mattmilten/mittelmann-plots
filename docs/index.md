@@ -307,13 +307,13 @@ Choose base solver for comparison:
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](sparse_sdp-vbest.html) | 0.59  | 99%|
 |[🥇 COPT-6.0.1](sparse_sdp-COPT.html) | 1.00 (1.00) | 99%|
-|[🥈 MindOpt-0.22.0](sparse_sdp-MDOPT.html) | 1.89 (1.93) | 97%|
-|[🥉 MOSEK-10.0.18](sparse_sdp-MOSEK.html) | 3.67 (3.79) | 95%|
-|[📊 SDPT3-4.0](sparse_sdp-SDPT3.html) | 4.77 (4.94) | 91%|
-|[📊 CSDP-6.2.0](sparse_sdp-CSDP.html) | 4.83 (5.01) | 92%|
-|[📊 HDSDP-0.9.2](sparse_sdp-HDSDP.html) | 7.81 (8.16) | 92%|
-|[📊 SDPA-7.4.2](sparse_sdp-SDPA.html) | 9.58 (10.00) | 80%|
-|[📊 SeDuMi-1.3.5](sparse_sdp-SeDuMi.html) | 26.11 (27.80) | 82%|
+|[🥈 MindOpt-0.22.0](sparse_sdp-MDOPT.html) | 1.77 (1.80) | 97%|
+|[🥉 MOSEK-10.0.18](sparse_sdp-MOSEK.html) | 3.44 (3.54) | 95%|
+|[📊 SDPT3-4.0](sparse_sdp-SDPT3.html) | 4.47 (4.62) | 91%|
+|[📊 CSDP-6.2.0](sparse_sdp-CSDP.html) | 4.52 (4.68) | 92%|
+|[📊 HDSDP-0.9.2](sparse_sdp-HDSDP.html) | 7.31 (7.62) | 92%|
+|[📊 SDPA-7.4.2](sparse_sdp-SDPA.html) | 8.98 (9.39) | 80%|
+|[📊 SeDuMi-1.3.5](sparse_sdp-SeDuMi.html) | 24.46 (25.90) | 82%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
@@ -604,24 +604,25 @@ Choose base solver for comparison:
 ---
 
 
-## [Mixed Integer Nonlinear Programming Benchmark (MINLPLIB) (26 Oct 2022)](http://plato.asu.edu/ftp/minlp.html)
+## [Mixed Integer Nonlinear Programming Benchmark (MINLPLIB) (27 Oct 2022)](http://plato.asu.edu/ftp/minlp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 87|
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](minlp-vbest.html) | 0.31  | 99%|
-|[🥇 OCTERACT](minlp-OCTERACT.html) | 1.00 (1.11) | 77%|
-|[🥈 BARON](minlp-BARON.html) | 1.71 (1.00) | 82%|
-|[🥉 SCIP](minlp-SCIP.html) | 2.04 (1.19) | 74%|
-|[📊 ANTIGONE](minlp-ANTIGONE.html) | 7.68 (4.48) | 61%|
-|[📊 LINDO](minlp-LINDO.html) | 10.10 (5.90) | 43%|
-|[📊 COUENNE](minlp-COUENNE.html) | 17.38 (10.15) | 28%|
+|[🥇 OCTERACT](minlp-OCTERACT.html) | 1.00 (1.00) | 91%|
+|[🥈 BARON](minlp-BARON.html) | 1.71 (1.72) | 82%|
+|[🥉 SCIP](minlp-SCIP.html) | 2.04 (2.05) | 74%|
+|[📊 ANTIGONE](minlp-ANTIGONE.html) | 7.68 (7.59) | 61%|
+|[📊 LINDO](minlp-LINDO.html) | 10.10 (10.20) | 43%|
+|[📊 COUENNE](minlp-COUENNE.html) | 17.38 (17.50) | 28%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/minlp-26-Oct-2022.html">26 Oct 2022</a></li>
 <li><a href="/mittelmann-plots/minlp-20-Sep-2022.html">20 Sep 2022</a></li>
 <li><a href="/mittelmann-plots/minlp-4-Sep-2022.html">4 Sep 2022</a></li>
 <li><a href="/mittelmann-plots/minlp-10-Aug-2022.html">10 Aug 2022</a></li>
