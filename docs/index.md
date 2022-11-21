@@ -7,83 +7,6 @@ instance. This might reveal how much potential the individual solvers still have
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Simplex LP solvers (19 Oct 2022)](http://plato.asu.edu/ftp/lpsimp.html)
-Choose base solver for comparison:
-
-| solver | score (as reported) | solved of 60|
-| :--- | ---:  | ---:   |
-|[⭐ virtual best](lpsimp-vbest.html) | 0.66  | 100%|
-|[🥇 MindOpt-0.22.0](lpsimp-MDOPT.html) | 1.00 (1.00) | 98%|
-|[🥈 COPT-6.0.0](lpsimp-COPT.html) | 1.01 (1.01) | 100%|
-|[🥉 Gurobi-9.5.0](lpsimp-Gurob.html) | 1.80 (1.80) | 98%|
-|[📊 Optverse-0.2.6](lpsimp-OPTV.html) | 2.70 (2.70) | 88%|
-|[📊 CLP-1.17.7](lpsimp-CLP.html) | 10.55 (10.60) | 72%|
-|[📊 HiGHS-1.2.1](lpsimp-HiGHS.html) | 14.41 (14.40) | 78%|
-|[📊 MATLAB-R2022b](lpsimp-MATL.html) | 16.46 (16.50) | 73%|
-|[📊 MOSEK-10.0.18](lpsimp-MOSEK.html) | 16.93 (16.90) | 77%|
-|[📊 Google-GLOP](lpsimp-GLOP.html) | 28.01 (28.00) | 53%|
-|[📊 SOPLEX-6.0.0](lpsimp-SPLX.html) | 44.80 (44.80) | 57%|
-|[📊 GLPK-5.0](lpsimp-GLPK.html) | 83.34 (83.30) | 47%|
-
-
-<details><summary>previous benchmarks 🔽</summary>
-<br>
-
-<ul>
-<li><a href="/mittelmann-plots/lpsimp-1-Oct-2022.html">1 Oct 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-29-Sep-2022.html">29 Sep 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-31-Aug-2022.html">31 Aug 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-26-Aug-2022.html">26 Aug 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-23-Aug-2022.html">23 Aug 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-20-Aug-2022.html">20 Aug 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-19-Aug-2022.html">19 Aug 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-18-Aug-2022.html">18 Aug 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-31-Jul-2022.html">31 Jul 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-29-Jul-2022.html">29 Jul 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-17-Jun-2022.html">17 Jun 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-15-Jun-2022.html">15 Jun 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-12-Jun-2022.html">12 Jun 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-6-Jun-2022.html">6 Jun 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-26-May-2022.html">26 May 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-8-May-2022.html">8 May 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-7-May-2022.html">7 May 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-17-Apr-2022.html">17 Apr 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-7-Apr-2022.html">7 Apr 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-2-Apr-2022.html">2 Apr 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-1-Apr-2022.html">1 Apr 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-4-Mar-2022.html">4 Mar 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-17-Feb-2022.html">17 Feb 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-1-Feb-2022.html">1 Feb 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-30-Jan-2022.html">30 Jan 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-28-Jan-2022.html">28 Jan 2022</a></li>
-<li><a href="/mittelmann-plots/lpsimp-15-Dec-2021.html">15 Dec 2021</a></li>
-<li><a href="/mittelmann-plots/lpsimp-11-Dec-2021.html">11 Dec 2021</a></li>
-<li><a href="/mittelmann-plots/lpsimp-10-Nov-2021.html">10 Nov 2021</a></li>
-<li><a href="/mittelmann-plots/lpsimp-3-Oct-2021.html">3 Oct 2021</a></li>
-<li><a href="/mittelmann-plots/lpsimp-18-Sep-2021.html">18 Sep 2021</a></li>
-<li><a href="/mittelmann-plots/lpsimp-17-Sep-2021.html">17 Sep 2021</a></li>
-<li><a href="/mittelmann-plots/lpsimp-11-Sep-2021.html">11 Sep 2021</a></li>
-<li><a href="/mittelmann-plots/lpsimp-26-Jul-2021.html">26 Jul 2021</a></li>
-<li><a href="/mittelmann-plots/lpsimp-21-Jul-2021.html">21 Jul 2021</a></li>
-<li><a href="/mittelmann-plots/lpsimp-9-Jun-2021.html">9 Jun 2021</a></li>
-<li><a href="/mittelmann-plots/lpsimp-28-May-2021.html">28 May 2021</a></li>
-<li><a href="/mittelmann-plots/lpsimp-3-Mar-2021.html">3 Mar 2021</a></li>
-<li><a href="/mittelmann-plots/lpsimp-18-Jan-2021.html">18 Jan 2021</a></li>
-<li><a href="/mittelmann-plots/lpsimp-5-Jan-2021.html">5 Jan 2021</a></li>
-<li><a href="/mittelmann-plots/lpsimp-28-Dec-2020.html">28 Dec 2020</a></li>
-<li><a href="/mittelmann-plots/lpsimp-4-Dec-2020.html">4 Dec 2020</a></li>
-<li><a href="/mittelmann-plots/lpsimp-3-Dec-2020.html">3 Dec 2020</a></li>
-<li><a href="/mittelmann-plots/lpsimp-2-Nov-2020.html">2 Nov 2020</a></li>
-<li><a href="/mittelmann-plots/lpsimp-22-Oct-2020.html">22 Oct 2020</a></li>
-<li><a href="/mittelmann-plots/lpsimp-26-Sep-2020.html">26 Sep 2020</a></li>
-<li><a href="/mittelmann-plots/lpsimp-5-Sep-2020.html">5 Sep 2020</a></li>
-<li><a href="/mittelmann-plots/lpsimp-27-Aug-2020.html">27 Aug 2020</a></li>
-<li><a href="/mittelmann-plots/lpsimp-08-Aug-2020.html">08 Aug 2020</a></li>
-</ul></details>
-
----
-
-
 ## [Benchmark of Barrier LP solvers (29 Sep 2022)](http://plato.asu.edu/ftp/lpbar.html)
 Choose base solver for comparison:
 
@@ -144,7 +67,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Network-LP Benchmark (commercial vs free) (3 Oct 2022)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (12 Nov 2022)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 25|
@@ -152,7 +75,7 @@ Choose base solver for comparison:
 |[⭐ virtual best](network-vbest.html) | 0.92  | 100%|
 |[🥇 MindOpt-0.18.6](network-MDOPT.html) | 1.00 (1.00) | 100%|
 |[🥈 OptVerse-0.2.6](network-OPTV.html) | 1.19 (1.19) | 100%|
-|[🥉 Gurobi-9.5.1](network-GUR.html) | 1.32 (1.32) | 100%|
+|[🥉 Gurobi-10.0.0](network-GUR.html) | 1.33 (1.33) | 100%|
 |[📊 COPT-5.0.0](network-COPT.html) | 1.68 (1.68) | 100%|
 |[📊 Clp-1.17.7](network-CLP.html) | 4.71 (4.71) | 100%|
 |[📊 HiGHS-1.1.1](network-HGHS.html) | 10.15 (10.20) | 80%|
@@ -166,6 +89,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/network-3-Oct-2022.html">3 Oct 2022</a></li>
 <li><a href="/mittelmann-plots/network-24-Aug-2022.html">24 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/network-17-Aug-2022.html">17 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/network-16-Jun-2022.html">16 Jun 2022</a></li>
@@ -200,24 +124,25 @@ Choose base solver for comparison:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances - 8 threads (30 Oct 2022)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances - 8 threads (13 Nov 2022)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](milp_8threads-vbest.html) | 0.78  | 96%|
-|[🥇 Gurobi-9.5.0](milp_8threads-Gurobi.html) | 1.00 (1.00) | 93%|
-|[🥈 COPT-6.0.1](milp_8threads-COPT.html) | 2.35 (2.35) | 82%|
-|[🥉 SCIPC/spx-8.0.0](milp_8threads-SCIPC.html) | 7.95 (7.95) | 63%|
-|[📊 HiGHS-1.2.2](milp_8threads-HiGHS.html) | 9.15 (9.15) | 62%|
-|[📊 SCIP/spx-8.0.0](milp_8threads-SCIP.html) | 9.72 (9.72) | 57%|
-|[📊 CBC-2.10.5](milp_8threads-CBC.html) | 14.53 (14.50) | 45%|
+|[⭐ virtual best](milp_8threads-vbest.html) | 0.82  | 96%|
+|[🥇 Gurobi-10.0.0](milp_8threads-Gurobi.html) | 1.00 (1.00) | 95%|
+|[🥈 COPT-6.0.1](milp_8threads-COPT.html) | 2.63 (2.63) | 82%|
+|[🥉 SCIPC/spx-8.0.0](milp_8threads-SCIPC.html) | 8.92 (8.92) | 63%|
+|[📊 HiGHS-1.3.0](milp_8threads-HiGHS.html) | 9.28 (9.27) | 65%|
+|[📊 SCIP/spx-8.0.0](milp_8threads-SCIP.html) | 10.90 (10.90) | 57%|
+|[📊 CBC-2.10.5](milp_8threads-CBC.html) | 16.30 (16.30) | 45%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/milp_8threads-30-Oct-2022.html">30 Oct 2022</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-30-Jun-2022.html">30 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-8-May-2022.html">May 2022</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-23-Apr-2022.html">23 Apr 2022</a></li>
@@ -330,14 +255,14 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Second Order Cone Benchmark (26 Oct 2022)](http://plato.asu.edu/ftp/socp.html)
+## [Large Second Order Cone Benchmark (12 Nov 2022)](http://plato.asu.edu/ftp/socp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 18|
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](socp-vbest.html) | 0.77  | 100%|
 |[🥇 MOSEK-10.0.18](socp-MOSEK.html) | 1.00 (1.00) | 100%|
-|[🥈 Gurobi-9.5.0](socp-Gurobi.html) | 1.14 (1.14) | 100%|
+|[🥈 Gurobi-10.0.0](socp-Gurobi.html) | 1.11 (1.11) | 100%|
 |[🥉 COPT-6.0.0](socp-COPT.html) | 1.15 (1.15) | 100%|
 |[📊 KNITRO-13.0.0](socp-KNITRO.html) | 10.06 (10.10) | 83%|
 |[📊 ECOS-2.0.4](socp-ECOS.html) | 83.02 (83.00) | 33%|
@@ -347,6 +272,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/socp-26-Oct-2022.html">26 Oct 2022</a></li>
 <li><a href="/mittelmann-plots/socp-19-Sep-2022.html">19 Sep 2022</a></li>
 <li><a href="/mittelmann-plots/socp-29-Aug-2022.html">29 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/socp-19-Jun-2022.html">19 Jun 2022</a></li>
@@ -359,22 +285,23 @@ Choose base solver for comparison:
 ---
 
 
-## [Mixed-integer SOCP Benchmark (18 Oct 2022)](http://plato.asu.edu/ftp/misocp.html)
+## [Mixed-integer SOCP Benchmark (12 Nov 2022)](http://plato.asu.edu/ftp/misocp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 47|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](misocp-vbest.html) | 0.93  | 100%|
-|[🥇 Gurobi-9.5.1](misocp-GUROBI.html) | 1.00 (1.00) | 100%|
-|[🥈 COPT-6.0.1](misocp-COPT.html) | 2.34 (2.34) | 98%|
-|[🥉 MOSEK-10.0.18](misocp-MOSEK.html) | 11.84 (11.80) | 72%|
-|[📊 SCIP-8.0.0](misocp-SCIP.html) | 20.43 (20.40) | 66%|
+|[⭐ virtual best](misocp-vbest.html) | 0.94  | 100%|
+|[🥇 Gurobi-10.0.0](misocp-GUROBI.html) | 1.00 (1.00) | 100%|
+|[🥈 COPT-6.0.1](misocp-COPT.html) | 2.78 (2.78) | 98%|
+|[🥉 MOSEK-10.0.18](misocp-MOSEK.html) | 14.07 (14.10) | 72%|
+|[📊 SCIP-8.0.0](misocp-SCIP.html) | 24.28 (24.30) | 66%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/misocp-18-Oct-2022.html">18 Oct 2022</a></li>
 <li><a href="/mittelmann-plots/misocp-12-Oct-2022.html">12 Oct 2022</a></li>
 <li><a href="/mittelmann-plots/misocp-31-Aug-2022.html">31 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/misocp-5-May-2022.html">5 May 2022</a></li>
@@ -393,24 +320,25 @@ Choose base solver for comparison:
 ---
 
 
-## [Binary Non-Convex QPLIB Benchmark (3 Nov 2022)](http://plato.asu.edu/ftp/qplib.html)
+## [Binary Non-Convex QPLIB Benchmark (13 Nov 2022)](http://plato.asu.edu/ftp/qplib.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 96|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](qplib-vbest.html) | 0.63  | 100%|
-|[🥇 Gurobi-9.5.2](qplib-GUROBI.html) | 1.00 (1.00) | 93%|
-|[🥈 OCTERACT-4.5.1](qplib-OCTERACT.html) | 1.54 (1.54) | 95%|
-|[🥉 Baron-22.9.1](qplib-BARON.html) | 6.65 (6.65) | 57%|
-|[📊 SCIP-8.0.0](qplib-SCIP.html) | 33.75 (33.80) | 36%|
-|[📊 ANTIGONE-1.1](qplib-ANTIGONE.html) | 68.43 (68.40) | 17%|
-|[📊 COUENNE-0.5](qplib-COUENNE.html) | 81.43 (81.40) | 6%|
+|[⭐ virtual best](qplib-vbest.html) | 0.69  | 100%|
+|[🥇 Gurobi-10.0.0](qplib-GUROBI.html) | 1.00 (1.00) | 97%|
+|[🥈 OCTERACT-4.5.1](qplib-OCTERACT.html) | 1.76 (1.76) | 95%|
+|[🥉 Baron-22.9.1](qplib-BARON.html) | 7.59 (7.59) | 57%|
+|[📊 SCIP-8.0.0](qplib-SCIP.html) | 38.48 (38.50) | 36%|
+|[📊 ANTIGONE-1.1](qplib-ANTIGONE.html) | 78.03 (78.00) | 17%|
+|[📊 COUENNE-0.5](qplib-COUENNE.html) | 92.85 (92.90) | 6%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/qplib-3-Nov-2022.html">3 Nov 2022</a></li>
 <li><a href="/mittelmann-plots/qplib-5-Sep-2022.html">5 Sep 2022</a></li>
 <li><a href="/mittelmann-plots/qplib-3-Sep-2022.html">3 Sep 2022</a></li>
 <li><a href="/mittelmann-plots/qplib-18-Aug-2022.html">18 Aug 2022</a></li>
@@ -439,24 +367,25 @@ Choose base solver for comparison:
 ---
 
 
-## [Discrete Non-Convex QPLIB Benchmark (non-binary) (10 Sep 2022)](http://plato.asu.edu/ftp/nonbinary.html)
+## [Discrete Non-Convex QPLIB Benchmark (non-binary) (20 Nov 2022)](http://plato.asu.edu/ftp/nonbinary.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 99|
+| solver | score (as reported) | solved of 97|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](nonbinary-vbest.html) | 0.37  | 88%|
-|[🥇 Gurobi-9.5.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 83%|
-|[🥈 SCIP-8.0.0](nonbinary-SCIP.html) | 9.33 (20.90) | 37%|
-|[🥉 Baron-22.9.1](nonbinary-BARON.html) | 14.83 (33.30) | 31%|
-|[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 15.82 (35.60) | 29%|
-|[📊 MINOTAUR-0.3.0](nonbinary-MINOTAUR.html) | 19.12 (43.10) | 15%|
-|[📊 COUENNE-0.5](nonbinary-COUENNE.html) | 29.53 (66.80) | 8%|
+|[⭐ virtual best](nonbinary-vbest.html) | 0.34  | 87%|
+|[🥇 Gurobi-10.0.0](nonbinary-GUROBI.html) | 1.00 (5.65) | 76%|
+|[🥈 SCIP-8.0.0](nonbinary-SCIP.html) | 8.25 (18.70) | 38%|
+|[🥉 Baron-22.9.1](nonbinary-BARON.html) | 13.23 (30.00) | 32%|
+|[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 14.14 (32.00) | 30%|
+|[📊 MINOTAUR-0.3.0](nonbinary-MINOTAUR.html) | 17.15 (38.80) | 15%|
+|[📊 COUENNE-0.5](nonbinary-COUENNE.html) | 26.73 (60.50) | 8%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/nonbinary-10-Sep-2022.html">10 Sep 2022</a></li>
 <li><a href="/mittelmann-plots/nonbinary-4-Sep-2022.html">4 Sep 2022</a></li>
 <li><a href="/mittelmann-plots/nonbinary-16-Jul-2022.html">16 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/nonbinary-15-Jul-2022.html">15 Jul 2022</a></li>
@@ -480,25 +409,26 @@ Choose base solver for comparison:
 ---
 
 
-## [Continuous Non-Convex QPLIB Benchmark (24 Oct 2022)](http://plato.asu.edu/ftp/cnconv.html)
+## [Continuous Non-Convex QPLIB Benchmark (20 Nov 2022)](http://plato.asu.edu/ftp/cnconv.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 68|
+| solver | score (as reported) | solved of 69|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](cnconv-vbest.html) | 0.21  | 93%|
-|[🥇 GUROBI-9.5.0](cnconv-GUROBI.html) | 1.00 (1.00) | 62%|
-|[🥈 OCTERACT-4.5.1](cnconv-OCTERACT.html) | 1.33 (1.66) | 66%|
-|[🥉 ANTIGONE-1.1](cnconv-ANTIGONE.html) | 3.93 (4.90) | 41%|
-|[📊 Baron-22.9.1](cnconv-BARON.html) | 4.62 (5.76) | 28%|
-|[📊 MINOTAUR-0.3.0](cnconv-MINOTAUR.html) | 5.57 (6.95) | 22%|
-|[📊 SCIP-8.0.0](cnconv-SCIP.html) | 7.89 (9.85) | 19%|
-|[📊 COUENNE-0.5](cnconv-COUENNE.html) | 8.98 (11.20) | 12%|
+|[⭐ virtual best](cnconv-vbest.html) | 0.22  | 91%|
+|[🥇 GUROBI-10.0.0](cnconv-GUROBI.html) | 1.00 (1.00) | 62%|
+|[🥈 OCTERACT-4.5.1](cnconv-OCTERACT.html) | 1.33 (1.70) | 65%|
+|[🥉 ANTIGONE-1.1](cnconv-ANTIGONE.html) | 3.85 (5.35) | 41%|
+|[📊 Baron-22.9.1](cnconv-BARON.html) | 4.51 (6.55) | 28%|
+|[📊 MINOTAUR-0.3.0](cnconv-MINOTAUR.html) | 5.43 (8.03) | 22%|
+|[📊 SCIP-8.0.0](cnconv-SCIP.html) | 7.65 (11.40) | 19%|
+|[📊 COUENNE-0.5](cnconv-COUENNE.html) | 8.69 (13.30) | 12%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/cnconv-24-Oct-2022.html">24 Oct 2022</a></li>
 <li><a href="/mittelmann-plots/cnconv-10-Sep-2022.html">10 Sep 2022</a></li>
 <li><a href="/mittelmann-plots/cnconv-21-Jul-2022.html">21 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/cnconv-5-Jul-2022.html">5 Jul 2022</a></li>
@@ -556,28 +486,29 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Discrete QPLIB Benchmark (28 Oct 2022)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (12 Nov 2022)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 31|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](convex-vbest.html) | 0.62  | 87%|
-|[🥇 COPT-6.0.1](convex-COPT.html) | 1.00 (1.00) | 77%|
-|[🥈 GUROBI-9.5.2](convex-GUROBI.html) | 1.43 (1.43) | 77%|
-|[🥉 OCTACT](convex-OCTACT.html) | 6.15 (6.15) | 68%|
-|[📊 Shot-1.1](convex-SHOT.html) | 7.70 (7.70) | 48%|
-|[📊 MOSEK-10.0.18](convex-MOSEK.html) | 8.21 (8.21) | 61%|
-|[📊 KNITRO-13.1.0](convex-KNITRO.html) | 11.79 (11.80) | 52%|
-|[📊 Baron-22.9.1](convex-BARON.html) | 12.45 (12.50) | 58%|
-|[📊 SCIP-8.0.0](convex-SCIP.html) | 32.52 (32.50) | 39%|
-|[📊 MNTAUR](convex-MNTAUR.html) | 37.26 (37.30) | 45%|
-|[📊 Bonmin-1.8.7](convex-BONMIN.html) | 48.10 (48.10) | 23%|
+|[⭐ virtual best](convex-vbest.html) | 0.70  | 87%|
+|[🥇 GUROBI-10.0.0](convex-GUROBI.html) | 1.00 (1.00) | 81%|
+|[🥈 COPT-6.0.1](convex-COPT.html) | 1.09 (1.09) | 77%|
+|[🥉 OCTACT](convex-OCTACT.html) | 6.72 (6.72) | 68%|
+|[📊 Shot-1.1](convex-SHOT.html) | 8.42 (8.42) | 48%|
+|[📊 MOSEK-10.0.18](convex-MOSEK.html) | 8.96 (8.96) | 61%|
+|[📊 KNITRO-13.1.0](convex-KNITRO.html) | 12.88 (12.90) | 52%|
+|[📊 Baron-22.9.1](convex-BARON.html) | 13.61 (13.60) | 58%|
+|[📊 SCIP-8.0.0](convex-SCIP.html) | 35.52 (35.50) | 39%|
+|[📊 MNTAUR](convex-MNTAUR.html) | 40.70 (40.70) | 45%|
+|[📊 Bonmin-1.8.7](convex-BONMIN.html) | 52.55 (52.60) | 23%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/convex-28-Oct-2022.html">28 Oct 2022</a></li>
 <li><a href="/mittelmann-plots/convex-13-Oct-2022.html">13 Oct 2022</a></li>
 <li><a href="/mittelmann-plots/convex-25-Sep-2022.html">25 Sep 2022</a></li>
 <li><a href="/mittelmann-plots/convex-4-Sep-2022.html">4 Sep 2022</a></li>
