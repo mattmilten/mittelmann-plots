@@ -376,7 +376,6 @@ def parse_table(url, session, timelimit=3600, threads=1):
         _version = [x.split()[0].rstrip(":") for x in _version]
         _score = tab[1].split()[1:]
         _solved = tab[2].split()[1:]
-        _solved.remove("&&&") # temporary hack to remove unreliable OCTERACT results
         solver = [s.rstrip("&") for s in tab[4].split()[1:]]
         solver_oct = solver.copy()
         solver.remove("OCTERACT")
@@ -619,7 +618,7 @@ def write_bench(url, session, timelimit, threads=1):
 # %%
 parsedata = [
     # LP
-    ("http://plato.asu.edu/ftp/lpsimp.html", 15000, 1),
+    # ("http://plato.asu.edu/ftp/lpsimp.html", 15000, 1), # deprecated
     ("http://plato.asu.edu/ftp/lpbar.html", 15000, 1),
     ("http://plato.asu.edu/ftp/network.html", 3600, 1),
     # MIP
