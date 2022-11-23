@@ -7,66 +7,6 @@ instance. This might reveal how much potential the individual solvers still have
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Benchmark of Barrier LP solvers (29 Sep 2022)](http://plato.asu.edu/ftp/lpbar.html)
-Choose base solver for comparison:
-
-| solver | score (as reported) | solved of 51|
-| :--- | ---:  | ---:   |
-|[⭐ virtual best](lpbar-vbest.html) | 0.64  | 100%|
-|[🥇 COPT-5.0.0](lpbar-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 Gurobi-9.5.1](lpbar-Gurobi.html) | 1.31 (1.31) | 98%|
-|[🥉 MindOpt-0.18.2](lpbar-MDOPT.html) | 2.39 (2.39) | 96%|
-|[📊 MOSEK-10.0.18](lpbar-MOSEK.html) | 4.00 (4.00) | 92%|
-|[📊 PDLP$](lpbar-PDLP$.html) | 12.09 (12.10) | 86%|
-|[📊 KNITRO-13.0.0](lpbar-KNITRO.html) | 14.47 (14.40) | 76%|
-|[📊 HiGHS-1.2.2](lpbar-HiGHS.html) | 20.35 (18.60) | 82%|
-|[📊 MATLAB-R2022b](lpbar-MATLAB.html) | 37.90 (34.30) | 69%|
-|[📊 Tulip-0.9.4](lpbar-TULIP.html) | 52.37 (52.40) | 63%|
-|[📊 CLP-1.17.7](lpbar-CLP.html) | 69.14 (69.10) | 69%|
-
-
-<details><summary>previous benchmarks 🔽</summary>
-<br>
-
-<ul>
-<li><a href="/mittelmann-plots/lpbar-29-Aug-2022.html">29 Aug 2022</a></li>
-<li><a href="/mittelmann-plots/lpbar-20-Aug-2022.html">20 Aug 2022</a></li>
-<li><a href="/mittelmann-plots/lpbar-29-Jul-2022.html">29 Jul 2022</a></li>
-<li><a href="/mittelmann-plots/lpbar-15-Jun-2022.html">15 Jun 2022</a></li>
-<li><a href="/mittelmann-plots/lpbar-1-Jun-2022.html">1 Jun 2022</a></li>
-<li><a href="/mittelmann-plots/lpbar-25-May-2022.html">25 May 2022</a></li>
-<li><a href="/mittelmann-plots/lpbar-14-May-2022.html">14 May 2022</a></li>
-<li><a href="/mittelmann-plots/lpbar-15-Apr-2022.html">15 Apr 2022</a></li>
-<li><a href="/mittelmann-plots/lpbar-12-Mar-2022.html">12 Mar 2022</a></li>
-<li><a href="/mittelmann-plots/lpbar-4-Mar-2022.html">4 Mar 2022</a></li>
-<li><a href="/mittelmann-plots/lpbar-17-Feb-2022.html">17 Feb 2022</a></li>
-<li><a href="/mittelmann-plots/lpbar-28-Jan-2022.html">28 Jan 2022</a></li>
-<li><a href="/mittelmann-plots/lpbar-19-Jan-2022.html">19 Jan 2022</a></li>
-<li><a href="/mittelmann-plots/lpbar-9-Dec-2021.html">9 Dec 2021</a></li>
-<li><a href="/mittelmann-plots/lpbar-10-Nov-2021.html">10 Nov 2021</a></li>
-<li><a href="/mittelmann-plots/lpbar-3-Oct-2021.html">3 Oct 2021</a></li>
-<li><a href="/mittelmann-plots/lpbar-1-Oct-2021.html">1 Oct 2021</a></li>
-<li><a href="/mittelmann-plots/lpbar-18-Sep-2021.html">18 Sep 2021</a></li>
-<li><a href="/mittelmann-plots/lpbar-11-Sep-2021.html">11 Sep 2021</a></li>
-<li><a href="/mittelmann-plots/lpbar-24-Aug-2021.html">24 Aug 2021</a></li>
-<li><a href="/mittelmann-plots/lpbar-26-Jul-2021.html">26 Jul 2021</a></li>
-<li><a href="/mittelmann-plots/lpbar-21-Jul-2021.html">21 Jul 2021</a></li>
-<li><a href="/mittelmann-plots/lpbar-9-Jun-2021.html">9 Jun 2021</a></li>
-<li><a href="/mittelmann-plots/lpbar-28-May-2021.html">28 May 2021</a></li>
-<li><a href="/mittelmann-plots/lpbar-3-Mar-2021.html">3 Mar 2021</a></li>
-<li><a href="/mittelmann-plots/lpbar-28-Dec-2020.html">28 Dec 2020</a></li>
-<li><a href="/mittelmann-plots/lpbar-13-Dec-2020.html">13 Dec 2020</a></li>
-<li><a href="/mittelmann-plots/lpbar-10-Dec-2020.html">10 Dec 2020</a></li>
-<li><a href="/mittelmann-plots/lpbar-4-Dec-2020.html">4 Dec 2020</a></li>
-<li><a href="/mittelmann-plots/lpbar-3-Dec-2020.html">3 Dec 2020</a></li>
-<li><a href="/mittelmann-plots/lpbar-2-Nov-2020.html">2 Nov 2020</a></li>
-<li><a href="/mittelmann-plots/lpbar-22-Oct-2020.html">22 Oct 2020</a></li>
-<li><a href="/mittelmann-plots/lpbar-8-Sep-2020.html">8 Sep 2020</a></li>
-</ul></details>
-
----
-
-
 ## [Large Network-LP Benchmark (commercial vs free) (12 Nov 2022)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
@@ -195,25 +135,26 @@ Choose base solver for comparison:
 ---
 
 
-## [Infeasibility Detection for MILP Problems (24 Jul 2022)](http://plato.asu.edu/ftp/infeas.html)
+## [Infeasibility Detection for MILP Problems (22 Nov 2022)](http://plato.asu.edu/ftp/infeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](infeas-vbest.html) | 0.66  | 94%|
-|[🥇 GUROBI-9.5.0](infeas-Gurobi.html) | 1.00 (1.00) | 91%|
-|[🥈 COPT-5.0.0](infeas-COPT.html) | 1.39 (1.39) | 91%|
-|[🥉 SCIPC-8.0.0](infeas-SCIPC.html) | 4.73 (4.68) | 81%|
-|[📊 SCIP-8.0.0](infeas-SCIP.html) | 6.06 (6.06) | 78%|
-|[📊 HiGHS-1.2.2](infeas-HiGHS.html) | 8.12 (8.12) | 75%|
-|[📊 CBC-2.10.5](infeas-CBC.html) | 14.80 (14.80) | 62%|
-|[📊 MATLAB-2020b](infeas-MATLAB.html) | 23.00 (23.00) | 47%|
+|[⭐ virtual best](infeas-vbest.html) | 0.92  | 94%|
+|[🥇 GUROBI-10.0.0](infeas-Gurobi.html) | 1.00 (1.00) | 94%|
+|[🥈 COPT-6.0.1](infeas-COPT.html) | 1.62 (1.62) | 94%|
+|[🥉 SCIPC-8.0.0](infeas-SCIPC.html) | 6.24 (6.24) | 81%|
+|[📊 SCIP-8.0.0](infeas-SCIP.html) | 8.00 (8.00) | 78%|
+|[📊 HiGHS-1.2.2](infeas-HiGHS.html) | 10.72 (10.70) | 91%|
+|[📊 CBC-2.10.5](infeas-CBC.html) | 19.53 (19.50) | 62%|
+|[📊 MATLAB-2020b](infeas-MATLAB.html) | 30.36 (30.00) | 47%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/infeas-24-Jul-2022.html">24 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/infeas-18-Jun-2022.html">18 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/infeas-25-Apr-2022.html">25 Apr 2022</a></li>
 <li><a href="/mittelmann-plots/infeas-28-Jan-2022.html">28 Jan 2022</a></li>
