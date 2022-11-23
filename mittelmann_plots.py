@@ -619,7 +619,7 @@ def write_bench(url, session, timelimit, threads=1):
 parsedata = [
     # LP
     # ("http://plato.asu.edu/ftp/lpsimp.html", 15000, 1), # deprecated
-    ("http://plato.asu.edu/ftp/lpbar.html", 15000, 1),
+    # ("http://plato.asu.edu/ftp/lpbar.html", 15000, 1), # deprecated
     ("http://plato.asu.edu/ftp/network.html", 3600, 1),
     # MIP
     # ("http://plato.asu.edu/ftp/milp.html", 7200, 1), # deprecated
