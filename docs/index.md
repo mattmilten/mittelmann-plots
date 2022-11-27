@@ -103,26 +103,27 @@ Choose base solver for comparison:
 ---
 
 
-## [MILP cases that are slightly pathological (25 Jul 2022)](http://plato.asu.edu/ftp/path.html)
+## [MILP cases that are slightly pathological (26 Nov 2022)](http://plato.asu.edu/ftp/path.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 45|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](path-vbest.html) | 0.80  | 98%|
-|[🥇 GUROBI-9.5.0](path-Gurobi.html) | 1.00 (1.00) | 98%|
-|[🥈 COPT-5.0.0](path-COPT.html) | 3.99 (3.99) | 76%|
-|[🥉 HiGHS-1.2.2](path-HiGHS.html) | 17.28 (17.30) | 56%|
-|[📊 SCIPC-8.0.0](path-SCIPC.html) | 17.33 (17.30) | 51%|
-|[📊 SCIP-8.0.0](path-SCIP.html) | 22.21 (22.20) | 42%|
-|[📊 CBC-2.10.7](path-CBC.html) | 34.68 (34.70) | 11%|
-|[📊 GLPK-5.0](path-GLPK.html) | 35.15 (35.20) | 13%|
-|[📊 MATLAB-2020a](path-MATLAB.html) | 42.36 (42.40) | 7%|
+|[⭐ virtual best](path-vbest.html) | 0.82  | 98%|
+|[🥇 GUROBI-10.0.0](path-Gurobi.html) | 1.00 (1.00) | 98%|
+|[🥈 COPT-5.0.0](path-COPT.html) | 4.79 (4.79) | 76%|
+|[🥉 HiGHS-1.2.2](path-HiGHS.html) | 20.74 (20.70) | 56%|
+|[📊 SCIPC-8.0.0](path-SCIPC.html) | 20.80 (20.80) | 51%|
+|[📊 SCIP-8.0.0](path-SCIP.html) | 26.66 (26.70) | 42%|
+|[📊 CBC-2.10.7](path-CBC.html) | 41.62 (41.60) | 11%|
+|[📊 GLPK-5.0](path-GLPK.html) | 42.19 (42.20) | 13%|
+|[📊 MATLAB-2020a](path-MATLAB.html) | 50.84 (50.80) | 7%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/path-25-Jul-2022.html">25 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/path-6-Jul-2022.html">6 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/path-19-Jun-2022.html">19 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/path-27-Apr-2022.html">27 Apr 2022</a></li>
@@ -392,23 +393,24 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Continuous QPLIB Benchmark (29 Aug 2022)](http://plato.asu.edu/ftp/cconvex.html)
+## [Convex Continuous QPLIB Benchmark (26 Nov`2022)](http://plato.asu.edu/ftp/cconvex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](cconvex-vbest.html) | 0.87  | 100%|
-|[🥇 COPT-5.0.0](cconvex-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 MOSEK-10.0.18](cconvex-MOSEK.html) | 1.35 (1.35) | 100%|
-|[🥉 KNITRO-13.0.0](cconvex-KNITRO.html) | 1.55 (1.55) | 100%|
-|[📊 Gurobi-9.5.0](cconvex-Gurobi.html) | 2.03 (2.03) | 94%|
-|[📊 IPOPT-3.14.5](cconvex-IPOPT.html) | 7.40 (7.40) | 91%|
+|[⭐ virtual best](cconvex-vbest.html) | 0.85  | 100%|
+|[🥇 COPT-6.0.2](cconvex-COPT.html) | 1.00 (1.00) | 100%|
+|[🥈 MOSEK-10.0.18](cconvex-MOSEK.html) | 1.33 (1.33) | 100%|
+|[🥉 KNITRO-13.0.0](cconvex-KNITRO.html) | 1.53 (1.53) | 100%|
+|[📊 Gurobi-10.0.0](cconvex-Gurobi.html) | 1.95 (1.95) | 94%|
+|[📊 IPOPT-3.14.5](cconvex-IPOPT.html) | 7.29 (7.29) | 91%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/cconvex-29-Aug-2022.html">29 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/cconvex-26-Jul-2022.html">26 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/cconvex-19-Jun-2022.html">19 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/cconvex-11-Apr-2022.html">11 Apr 2022</a></li>
