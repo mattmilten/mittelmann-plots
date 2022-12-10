@@ -7,7 +7,7 @@ instance. This might reveal how much potential the individual solvers still have
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [Large Network-LP Benchmark (commercial vs free) (12 Nov 2022)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (9 Dec 2022)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 25|
@@ -18,7 +18,7 @@ Choose base solver for comparison:
 |[🥉 Gurobi-10.0.0](network-GUR.html) | 1.33 (1.33) | 100%|
 |[📊 COPT-5.0.0](network-COPT.html) | 1.68 (1.68) | 100%|
 |[📊 Clp-1.17.7](network-CLP.html) | 4.71 (4.71) | 100%|
-|[📊 HiGHS-1.1.1](network-HGHS.html) | 10.15 (10.20) | 80%|
+|[📊 HiGHS-1.4.1](network-HGHS.html) | 9.92 (9.92) | 80%|
 |[📊 MATLAB-R2022b](network-MATL.html) | 16.52 (16.50) | 80%|
 |[📊 MOSEK-10.0.24](network-MOSEK.html) | 20.36 (20.40) | 88%|
 |[📊 QSopt-1.01](network-QSOPT.html) | 27.55 (27.60) | 68%|
@@ -29,6 +29,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/network-12-Nov-2022.html">12 Nov 2022</a></li>
 <li><a href="/mittelmann-plots/network-3-Oct-2022.html">3 Oct 2022</a></li>
 <li><a href="/mittelmann-plots/network-24-Aug-2022.html">24 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/network-17-Aug-2022.html">17 Aug 2022</a></li>
