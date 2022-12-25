@@ -13,7 +13,7 @@ Choose base solver for comparison:
 | solver | score (as reported) | solved of 71|
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](lpfeas-vbest.html) | 0.64  | 100%|
-|[🥇 Gurobi-10.0.0](lpfeas-Gurobi.html) | 1.00 (0.00) | 0%|
+|[🥇 Gurobi-10.0.0](lpfeas-Gurobi.html) | 1.00 (0.00) | 100%|
 |[🥈 COPT-6.0.3](lpfeas-COPT.html) | 1.04 (1.00) | 100%|
 |[🥉 MOSEK-10.0.25](lpfeas-MOSEK.html) | 2.01 (1.94) | 100%|
 |[📊 ORTOOLS-9.4](lpfeas-PDLP%.html) | 15.10 (14.60) | 77%|
@@ -432,7 +432,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Continuous QPLIB Benchmark (26 Nov`2022)](http://plato.asu.edu/ftp/cconvex.html)
+## [Convex Continuous QPLIB Benchmark (26 Nov 2022)](http://plato.asu.edu/ftp/cconvex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
