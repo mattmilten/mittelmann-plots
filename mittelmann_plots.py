@@ -37,6 +37,8 @@ def get_version(s, version):
         s = "Gurobi"
     elif s in ["SCIPC"]:
         s = "SCIPC"
+    elif s in ["PDLP%"]:
+        s = "ORTOOLS"
 
     match = [v for v in version if v.lower().startswith(s.lower())]
     return match[0] if match else s
@@ -57,18 +59,19 @@ def parse_table(url, session, timelimit=3600, threads=1):
     stats["date"] = pre[0].text.split("\n")[1].replace("=", "").replace("-", "").strip()
     stats["title"] = pre[0].text.split("\n")[2].strip()
 
-    if "lpsimp.html" in url:
-        tab = pre[3].text.split("\n")
+    if "lpopt.html" in url:
+        tab = pre[0].text.split("\n")
         tabmark = [ind for ind, i in enumerate(tab) if i.startswith("=====")]
-        _version = pre[2].text.split("\n")[1:-1]
+        _version = pre[0].text.split("\n\n")[6].split("\n")
         _version = [x.split()[0].rstrip(":") for x in _version]
         _score = tab[tabmark[0] - 2].split()[2:]
         _solved = tab[tabmark[0] - 1].split()[1:]
         solver = tab[tabmark[0] + 1].split()[1:]
+        solver.remove("MDOPT")
         stats["solver"] = solver
         stats["nprobs"] = len(tab[tabmark[1] + 1 : tabmark[2]])
         stats["score"] = {
-            solver[i]: float(_score[i].strip("*")) for i in range(len(solver))
+            solver[i]: float(_score[i]) for i in range(len(solver))
         }
         stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
         stats["version"] = {s: get_version(s, _version) for s in solver}
@@ -78,22 +81,26 @@ def parse_table(url, session, timelimit=3600, threads=1):
             columns=["instance"] + solver,
         )
 
-    elif "lpbar.html" in url:
-        tab = pre[3].text.split("\n")
+    elif "lpfeas.html" in url:
+        tab = pre[0].text.split("\n")
         tabmark = [ind for ind, i in enumerate(tab) if i.startswith("=====")]
-        _version = pre[2].text.split("\n")[1:-1]
+        _version = pre[0].text.split("\n\n")[6].split("\n")
         _version = [x.split()[0].rstrip(":") for x in _version]
         _score = tab[tabmark[0] - 2].split()[2:]
-        _solved = tab[tabmark[0] - 1].split()[1:]
+        _solved = ["0"]
+        _solved.extend(tab[tabmark[0] - 1].split()[1:]) # hack to add the missing solved number for Gurobi
         solver = tab[tabmark[0] + 1].split()[1:]
+        solver.remove("MDOPT")
         stats["solver"] = solver
-        stats["nprobs"] = len(tab[tabmark[1] + 1 : tabmark[-1]])
-        stats["score"] = {solver[i]: float(_score[i]) for i in range(len(solver))}
+        stats["nprobs"] = len(tab[tabmark[1] + 1 : tabmark[2]])
+        stats["score"] = {
+            solver[i]: float(_score[i].replace("$", "0")) for i in range(len(solver))
+        }
         stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
         stats["version"] = {s: get_version(s, _version) for s in solver}
         stats["timelimit"] = timelimit
         stats["times"] = pd.DataFrame(
-            [l.split() for l in tab[tabmark[0] + 3 : tabmark[-1]]],
+            [l.split() for l in tab[tabmark[1] + 1 : tabmark[2]]],
             columns=["instance"] + solver,
         )
 
@@ -618,8 +625,8 @@ def write_bench(url, session, timelimit, threads=1):
 # %%
 parsedata = [
     # LP
-    # ("http://plato.asu.edu/ftp/lpsimp.html", 15000, 1), # deprecated
-    # ("http://plato.asu.edu/ftp/lpbar.html", 15000, 1), # deprecated
+    ("http://plato.asu.edu/ftp/lpopt.html", 15000, 1),
+    ("http://plato.asu.edu/ftp/lpfeas.html", 15000, 1),
     ("http://plato.asu.edu/ftp/network.html", 3600, 1),
     # MIP
     # ("http://plato.asu.edu/ftp/milp.html", 7200, 1), # deprecated
