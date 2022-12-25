@@ -7,6 +7,43 @@ instance. This might reveal how much potential the individual solvers still have
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
+## [LPfeas Benchmark (find PD feasible point) (9 Dec 2022)](http://plato.asu.edu/ftp/lpfeas.html)
+Choose base solver for comparison:
+
+| solver | score (as reported) | solved of 71|
+| :--- | ---:  | ---:   |
+|[⭐ virtual best](lpfeas-vbest.html) | 0.64  | 100%|
+|[🥇 Gurobi-10.0.0](lpfeas-Gurobi.html) | 1.00 (0.00) | 0%|
+|[🥈 COPT-6.0.3](lpfeas-COPT.html) | 1.04 (1.00) | 100%|
+|[🥉 MOSEK-10.0.25](lpfeas-MOSEK.html) | 2.01 (1.94) | 100%|
+|[📊 ORTOOLS-9.4](lpfeas-PDLP%.html) | 15.10 (14.60) | 77%|
+|[📊 HiGHS-1.4.1](lpfeas-HiGHS.html) | 18.23 (17.60) | 82%|
+|[📊 KNITRO-13.0.0](lpfeas-KNITRO.html) | 20.85 (20.10) | 70%|
+|[📊 MATLAB-R2022b](lpfeas-MATL.html) | 27.38 (22.90) | 79%|
+|[📊 Tulip-0.9.4](lpfeas-TULIP.html) | 70.61 (68.10) | 56%|
+
+---
+
+
+## [LPopt Benchmark (find optimal basic solution) (14 Dec 2022)](http://plato.asu.edu/ftp/lpopt.html)
+Choose base solver for comparison:
+
+| solver | score (as reported) | solved of 71|
+| :--- | ---:  | ---:   |
+|[⭐ virtual best](lpopt-vbest.html) | 0.81  | 100%|
+|[🥇 COPT-6.0.3](lpopt-COPT.html) | 1.00 (1.00) | 100%|
+|[🥈 Gurobi-10.0.0](lpopt-Gurob.html) | 1.18 (1.18) | 99%|
+|[🥉 MOSEK-10.0.24](lpopt-MOSEK.html) | 5.14 (5.14) | 82%|
+|[📊 Optverse-0.2.6](lpopt-OPTV.html) | 8.55 (8.55) | 77%|
+|[📊 HiGHS-1.4.1](lpopt-HiGHS.html) | 16.89 (16.90) | 79%|
+|[📊 CLP-1.17.7](lpopt-CLP.html) | 28.99 (29.00) | 61%|
+|[📊 MATLAB-R2022b](lpopt-MATL.html) | 41.14 (41.10) | 65%|
+|[📊 Google-GLOP](lpopt-GLOP.html) | 60.65 (60.70) | 48%|
+|[📊 SOPLEX-6.0.0](lpopt-SPLX.html) | 98.11 (98.10) | 48%|
+
+---
+
+
 ## [Large Network-LP Benchmark (commercial vs free) (9 Dec 2022)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
@@ -315,10 +352,11 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 97|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](nonbinary-vbest.html) | 0.34  | 87%|
-|[🥇 Gurobi-10.0.0](nonbinary-GUROBI.html) | 1.00 (5.65) | 76%|
-|[🥈 SCIP-8.0.0](nonbinary-SCIP.html) | 8.25 (18.70) | 38%|
-|[🥉 Baron-22.9.1](nonbinary-BARON.html) | 13.23 (30.00) | 32%|
+|[⭐ virtual best](nonbinary-vbest.html) | 0.25  | 95%|
+|[🥇 Gurobi-10.0.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 84%|
+|[🥈 OCTERACT-4.5.1](nonbinary-OCTERACT.html) | 2.50 (5.65) | 76%|
+|[🥉 SCIP-8.0.0](nonbinary-SCIP.html) | 8.25 (18.70) | 38%|
+|[📊 Baron-22.9.1](nonbinary-BARON.html) | 13.23 (30.00) | 32%|
 |[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 14.14 (32.00) | 30%|
 |[📊 MINOTAUR-0.3.0](nonbinary-MINOTAUR.html) | 17.15 (38.80) | 15%|
 |[📊 COUENNE-0.5](nonbinary-COUENNE.html) | 26.73 (60.50) | 8%|
