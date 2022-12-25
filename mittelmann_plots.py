@@ -103,6 +103,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
             [l.split() for l in tab[tabmark[1] + 1 : tabmark[2]]],
             columns=["instance"] + solver,
         )
+        stats["solved"]["Gurobi"] = len(stats["times"][stats["times"]["Gurobi"].astype(float) < timelimit])
 
     elif "network.html" in url:
         tab = pre[2].text.split("\n")
@@ -384,7 +385,6 @@ def parse_table(url, session, timelimit=3600, threads=1):
         _score = tab[1].split()[1:]
         _solved = tab[2].split()[1:]
         solver = [s.rstrip("&") for s in tab[4].split()[1:]]
-        solver_oct = solver.copy()
         stats["solver"] = solver
         nprobs = len(tab[tabmark[0] + 3 : tabmark[1]])
         stats["nprobs"] = nprobs
@@ -396,7 +396,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
         stats["timelimit"] = timelimit
         stats["times"] = pd.DataFrame(
             [l.split() for l in tab[tabmark[0] + 3 : tabmark[1]]],
-            columns=["instance"] + solver_oct,
+            columns=["instance"] + solver,
         )
 
     else:
