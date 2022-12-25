@@ -56,7 +56,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
 
     stats = {}
 
-    stats["date"] = pre[0].text.split("\n")[1].replace("=", "").replace("-", "").strip()
+    stats["date"] = pre[0].text.split("\n")[1].replace("=", "").replace("-", "").replace("`"," ").strip()
     stats["title"] = pre[0].text.split("\n")[2].strip()
 
     if "lpopt.html" in url:
