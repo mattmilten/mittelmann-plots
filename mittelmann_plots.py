@@ -385,7 +385,6 @@ def parse_table(url, session, timelimit=3600, threads=1):
         _solved = tab[2].split()[1:]
         solver = [s.rstrip("&") for s in tab[4].split()[1:]]
         solver_oct = solver.copy()
-        solver.remove("OCTERACT")
         stats["solver"] = solver
         nprobs = len(tab[tabmark[0] + 3 : tabmark[1]])
         stats["nprobs"] = nprobs
@@ -399,7 +398,6 @@ def parse_table(url, session, timelimit=3600, threads=1):
             [l.split() for l in tab[tabmark[0] + 3 : tabmark[1]]],
             columns=["instance"] + solver_oct,
         )
-        stats["times"].drop("OCTERACT", axis=1, inplace=True)
 
     else:
         tab = pre[2].text.split("\n")
@@ -625,8 +623,8 @@ def write_bench(url, session, timelimit, threads=1):
 # %%
 parsedata = [
     # LP
-    ("http://plato.asu.edu/ftp/lpopt.html", 15000, 1),
     ("http://plato.asu.edu/ftp/lpfeas.html", 15000, 1),
+    ("http://plato.asu.edu/ftp/lpopt.html", 15000, 1),
     ("http://plato.asu.edu/ftp/network.html", 3600, 1),
     # MIP
     # ("http://plato.asu.edu/ftp/milp.html", 7200, 1), # deprecated
