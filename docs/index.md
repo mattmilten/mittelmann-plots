@@ -13,14 +13,14 @@ Choose base solver for comparison:
 | solver | score (as reported) | solved of 71|
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](lpfeas-vbest.html) | 0.64  | 100%|
-|[🥇 Gurobi-10.0.0](lpfeas-Gurobi.html) | 1.00 (0.00) | 100%|
-|[🥈 COPT-6.0.3](lpfeas-COPT.html) | 1.04 (1.00) | 100%|
-|[🥉 MOSEK-10.0.25](lpfeas-MOSEK.html) | 2.01 (1.94) | 100%|
-|[📊 ORTOOLS-9.4](lpfeas-PDLP%.html) | 15.10 (14.60) | 77%|
-|[📊 HiGHS-1.4.1](lpfeas-HiGHS.html) | 18.23 (17.60) | 82%|
-|[📊 KNITRO-13.0.0](lpfeas-KNITRO.html) | 20.85 (20.10) | 70%|
-|[📊 MATLAB-R2022b](lpfeas-MATL.html) | 27.38 (22.90) | 79%|
-|[📊 Tulip-0.9.4](lpfeas-TULIP.html) | 70.61 (68.10) | 56%|
+|[🥇 Gurobi-10.0.0](lpfeas-Gurobi.html) | 1.00 (10.00) | 100%|
+|[🥈 COPT-6.0.3](lpfeas-COPT.html) | 1.04 (1.04) | 100%|
+|[🥉 MOSEK-10.0.25](lpfeas-MOSEK.html) | 2.01 (2.01) | 56%|
+|[📊 ORTOOLS-9.4](lpfeas-PDLP%.html) | 15.10 (15.10) | 70%|
+|[📊 HiGHS-1.4.1](lpfeas-HiGHS.html) | 18.23 (18.20) | 100%|
+|[📊 KNITRO-13.0.0](lpfeas-KNITRO.html) | 20.85 (20.80) | 79%|
+|[📊 MATLAB-R2022b](lpfeas-MATL.html) | 27.38 (23.70) | 82%|
+|[📊 Tulip-0.9.4](lpfeas-TULIP.html) | 70.61 (70.60) | 100%|
 
 ---
 
