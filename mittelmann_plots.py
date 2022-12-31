@@ -94,7 +94,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
         stats["solver"] = solver
         stats["nprobs"] = len(tab[tabmark[1] + 1 : tabmark[2]])
         stats["score"] = {
-            solver[i]: float(_score[i].replace("$", "0")) for i in range(len(solver))
+            solver[i]: float(_score[i].strip("$")) for i in range(len(solver))
         }
         stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
         stats["version"] = {s: get_version(s, _version) for s in solver}
