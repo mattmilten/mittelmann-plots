@@ -13,7 +13,7 @@ Choose base solver for comparison:
 | solver | score (as reported) | solved of 71|
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](lpfeas-vbest.html) | 0.64  | 100%|
-|[🥇 Gurobi-10.0.0](lpfeas-Gurobi.html) | 1.00 (10.00) | 100%|
+|[🥇 Gurobi-10.0.0](lpfeas-Gurobi.html) | 1.00 (1.00) | 100%|
 |[🥈 COPT-6.0.3](lpfeas-COPT.html) | 1.04 (1.04) | 100%|
 |[🥉 MOSEK-10.0.25](lpfeas-MOSEK.html) | 2.01 (2.01) | 56%|
 |[📊 ORTOOLS-9.4](lpfeas-PDLP%.html) | 15.10 (15.10) | 70%|
