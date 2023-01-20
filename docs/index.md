@@ -15,12 +15,12 @@ Choose base solver for comparison:
 |[⭐ virtual best](lpfeas-vbest.html) | 0.64  | 100%|
 |[🥇 Gurobi-10.0.0](lpfeas-Gurobi.html) | 1.00 (1.00) | 100%|
 |[🥈 COPT-6.0.3](lpfeas-COPT.html) | 1.04 (1.04) | 100%|
-|[🥉 MOSEK-10.0.25](lpfeas-MOSEK.html) | 2.01 (2.01) | 56%|
-|[📊 ORTOOLS-9.4](lpfeas-PDLP%.html) | 15.10 (15.10) | 70%|
-|[📊 HiGHS-1.4.1](lpfeas-HiGHS.html) | 18.23 (18.20) | 100%|
-|[📊 KNITRO-13.0.0](lpfeas-KNITRO.html) | 20.85 (20.80) | 79%|
-|[📊 MATLAB-R2022b](lpfeas-MATL.html) | 27.38 (23.70) | 82%|
-|[📊 Tulip-0.9.4](lpfeas-TULIP.html) | 70.61 (70.60) | 100%|
+|[🥉 MOSEK-10.0.25](lpfeas-MOSEK.html) | 2.01 (2.01) | 100%|
+|[📊 ORTOOLS-9.4](lpfeas-PDLP%.html) | 15.10 (15.10) | 77%|
+|[📊 HiGHS-1.4.1](lpfeas-HiGHS.html) | 18.23 (18.20) | 82%|
+|[📊 KNITRO-13.0.0](lpfeas-KNITRO.html) | 20.85 (20.80) | 70%|
+|[📊 MATLAB-R2022b](lpfeas-MATL.html) | 27.38 (23.70) | 79%|
+|[📊 Tulip-0.9.4](lpfeas-TULIP.html) | 70.61 (70.60) | 56%|
 
 ---
 
