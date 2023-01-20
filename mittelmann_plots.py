@@ -87,8 +87,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
         _version = pre[0].text.split("\n\n")[6].split("\n")
         _version = [x.split()[0].rstrip(":") for x in _version]
         _score = tab[tabmark[0] - 2].split()[2:]
-        _solved = ["0"]
-        _solved.extend(tab[tabmark[0] - 1].split()[1:]) # hack to add the missing solved number for Gurobi
+        _solved = tab[tabmark[0] - 1].split()[1:] # hack to add the missing solved number for Gurobi
         solver = tab[tabmark[0] + 1].split()[1:]
         solver.remove("MDOPT")
         stats["solver"] = solver
