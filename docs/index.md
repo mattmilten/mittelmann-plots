@@ -521,24 +521,25 @@ Choose base solver for comparison:
 ---
 
 
-## [Mixed Integer Nonlinear Programming Benchmark (MINLPLIB) (27 Oct 2022)](http://plato.asu.edu/ftp/minlp.html)
+## [Mixed Integer Nonlinear Programming Benchmark (MINLPLIB) (24 Jan 2023)](http://plato.asu.edu/ftp/minlp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 87|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](minlp-vbest.html) | 0.31  | 99%|
-|[🥇 OCTERACT](minlp-OCTERACT.html) | 1.00 (1.00) | 91%|
-|[🥈 BARON](minlp-BARON.html) | 1.71 (1.72) | 82%|
-|[🥉 SCIP](minlp-SCIP.html) | 2.04 (2.05) | 74%|
-|[📊 ANTIGONE](minlp-ANTIGONE.html) | 7.68 (7.59) | 61%|
-|[📊 LINDO](minlp-LINDO.html) | 10.10 (10.20) | 43%|
-|[📊 COUENNE](minlp-COUENNE.html) | 17.38 (17.50) | 28%|
+|[⭐ virtual best](minlp-vbest.html) | 0.35  | 100%|
+|[🥇 OCTERACT](minlp-OCTERACT.html) | 1.00 (1.00) | 99%|
+|[🥈 BARON](minlp-BARON.html) | 1.39 (2.11) | 84%|
+|[🥉 SCIP](minlp-SCIP.html) | 2.77 (2.42) | 74%|
+|[📊 ANTIGONE](minlp-ANTIGONE.html) | 10.43 (5.26) | 61%|
+|[📊 LINDO](minlp-LINDO.html) | 13.72 (80.80) | 43%|
+|[📊 COUENNE](minlp-COUENNE.html) | 23.61 (460.00) | 28%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/minlp-27-Oct-2022.html">27 Oct 2022</a></li>
 <li><a href="/mittelmann-plots/minlp-26-Oct-2022.html">26 Oct 2022</a></li>
 <li><a href="/mittelmann-plots/minlp-20-Sep-2022.html">20 Sep 2022</a></li>
 <li><a href="/mittelmann-plots/minlp-4-Sep-2022.html">4 Sep 2022</a></li>
