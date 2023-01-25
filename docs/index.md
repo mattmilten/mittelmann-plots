@@ -44,28 +44,29 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Network-LP Benchmark (commercial vs free) (9 Dec 2022)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (24 Jan 2023)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 25|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](network-vbest.html) | 0.92  | 100%|
-|[🥇 MindOpt-0.18.6](network-MDOPT.html) | 1.00 (1.00) | 100%|
-|[🥈 OptVerse-0.2.6](network-OPTV.html) | 1.19 (1.19) | 100%|
-|[🥉 Gurobi-10.0.0](network-GUR.html) | 1.33 (1.33) | 100%|
-|[📊 COPT-5.0.0](network-COPT.html) | 1.68 (1.68) | 100%|
-|[📊 Clp-1.17.7](network-CLP.html) | 4.71 (4.71) | 100%|
-|[📊 HiGHS-1.4.1](network-HGHS.html) | 9.92 (9.92) | 80%|
-|[📊 MATLAB-R2022b](network-MATL.html) | 16.52 (16.50) | 80%|
-|[📊 MOSEK-10.0.24](network-MOSEK.html) | 20.36 (20.40) | 88%|
-|[📊 QSopt-1.01](network-QSOPT.html) | 27.55 (27.60) | 68%|
-|[📊 SOPLEX-6.0.0](network-SPLX.html) | 52.38 (52.40) | 64%|
+|[⭐ virtual best](network-vbest.html) | 0.88  | 100%|
+|[🥇 OptVerse-0.2.13](network-OPTV.html) | 1.00 (1.00) | 100%|
+|[🥈 MindOpt-0.18.6](network-MDOPT.html) | 1.20 (1.20) | 100%|
+|[🥉 Gurobi-10.0.0](network-GUR.html) | 1.60 (1.60) | 100%|
+|[📊 COPT-5.0.0](network-COPT.html) | 2.02 (2.02) | 100%|
+|[📊 Clp-1.17.7](network-CLP.html) | 5.66 (5.66) | 100%|
+|[📊 HiGHS-1.4.1](network-HGHS.html) | 11.91 (11.90) | 80%|
+|[📊 MATLAB-R2022b](network-MATL.html) | 19.84 (19.80) | 80%|
+|[📊 MOSEK-10.0.24](network-MOSEK.html) | 24.46 (24.50) | 88%|
+|[📊 QSopt-1.01](network-QSOPT.html) | 33.08 (33.10) | 68%|
+|[📊 SOPLEX-6.0.0](network-SPLX.html) | 62.91 (62.90) | 64%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/network-9-Dec-2022.html">9 Dec 2022</a></li>
 <li><a href="/mittelmann-plots/network-12-Nov-2022.html">12 Nov 2022</a></li>
 <li><a href="/mittelmann-plots/network-3-Oct-2022.html">3 Oct 2022</a></li>
 <li><a href="/mittelmann-plots/network-24-Aug-2022.html">24 Aug 2022</a></li>
@@ -530,9 +531,9 @@ Choose base solver for comparison:
 |[🥇 OCTERACT](minlp-OCTERACT.html) | 1.00 (1.00) | 99%|
 |[🥈 BARON](minlp-BARON.html) | 1.39 (2.11) | 84%|
 |[🥉 SCIP](minlp-SCIP.html) | 2.77 (2.42) | 74%|
-|[📊 ANTIGONE](minlp-ANTIGONE.html) | 10.43 (5.26) | 61%|
-|[📊 LINDO](minlp-LINDO.html) | 13.72 (80.80) | 43%|
-|[📊 COUENNE](minlp-COUENNE.html) | 23.61 (460.00) | 28%|
+|[📊 ANTIGONE](minlp-ANTIGONE.html) | 10.42 (5.26) | 61%|
+|[📊 LINDO](minlp-LINDO.html) | 13.71 (80.80) | 43%|
+|[📊 COUENNE](minlp-COUENNE.html) | 23.58 (460.00) | 28%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
