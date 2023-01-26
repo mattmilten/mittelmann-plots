@@ -25,7 +25,7 @@ Choose base solver for comparison:
 ---
 
 
-## [LPopt Benchmark (find optimal basic solution) (14 Dec 2022)](http://plato.asu.edu/ftp/lpopt.html)
+## [LPopt Benchmark (find optimal basic solution) (25 Jan 2023)](http://plato.asu.edu/ftp/lpopt.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 71|
@@ -33,13 +33,21 @@ Choose base solver for comparison:
 |[⭐ virtual best](lpopt-vbest.html) | 0.81  | 100%|
 |[🥇 COPT-6.0.3](lpopt-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 Gurobi-10.0.0](lpopt-Gurob.html) | 1.18 (1.18) | 99%|
-|[🥉 MOSEK-10.0.24](lpopt-MOSEK.html) | 5.14 (5.14) | 82%|
-|[📊 Optverse-0.2.6](lpopt-OPTV.html) | 8.55 (8.55) | 77%|
+|[🥉 Optverse-0.2.13](lpopt-OPTV.html) | 3.71 (3.71) | 90%|
+|[📊 MOSEK-10.0.24](lpopt-MOSEK.html) | 5.14 (5.14) | 82%|
 |[📊 HiGHS-1.4.1](lpopt-HiGHS.html) | 16.89 (16.90) | 79%|
 |[📊 CLP-1.17.7](lpopt-CLP.html) | 28.99 (29.00) | 61%|
 |[📊 MATLAB-R2022b](lpopt-MATL.html) | 41.14 (41.10) | 65%|
 |[📊 Google-GLOP](lpopt-GLOP.html) | 60.65 (60.70) | 48%|
 |[📊 SOPLEX-6.0.0](lpopt-SPLX.html) | 98.11 (98.10) | 48%|
+
+
+<details><summary>previous benchmarks 🔽</summary>
+<br>
+
+<ul>
+<li><a href="/mittelmann-plots/lpopt-14-Dec-2022.html">14 Dec 2022</a></li>
+</ul></details>
 
 ---
 
