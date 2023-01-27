@@ -33,7 +33,7 @@ Choose base solver for comparison:
 |[⭐ virtual best](lpopt-vbest.html) | 0.81  | 100%|
 |[🥇 COPT-6.0.3](lpopt-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 Gurobi-10.0.0](lpopt-Gurob.html) | 1.18 (1.18) | 99%|
-|[🥉 Optverse-0.2.13](lpopt-OPTV.html) | 3.71 (3.71) | 90%|
+|[🥉 Optverse-0.2.13](lpopt-OPTV.html) | 3.65 (3.65) | 90%|
 |[📊 MOSEK-10.0.24](lpopt-MOSEK.html) | 5.14 (5.14) | 82%|
 |[📊 HiGHS-1.4.1](lpopt-HiGHS.html) | 16.89 (16.90) | 79%|
 |[📊 CLP-1.17.7](lpopt-CLP.html) | 28.99 (29.00) | 61%|
