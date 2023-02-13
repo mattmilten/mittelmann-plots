@@ -357,6 +357,22 @@ Choose base solver for comparison:
 ---
 
 
+## [Nonconvex QUBO-QPLIB Benchmark (10 Feb 2023)](http://plato.asu.edu/ftp/qubo.html)
+Choose base solver for comparison:
+
+| solver | score (as reported) | solved of 23|
+| :--- | ---:  | ---:   |
+|[⭐ virtual best](qubo-vbest.html) | 0.98  | 65%|
+|[🥇 QuBowl](qubo-QUBOWL.html) | 1.00 (1.00) | 65%|
+|[🥈 Gurobi-10.0.1](qubo-GUROBI.html) | 1.46 (1.46) | 57%|
+|[🥉 Baron-23.1.5](qubo-BARON.html) | 1.86 (1.86) | 52%|
+|[📊 OCTERACT-4.6.0](qubo-OCTERACT.html) | 1.94 (1.94) | 52%|
+|[📊 SCIP-8.0](qubo-SCIP.html) | 5.65 (5.65) | 35%|
+|[📊 Biqcrunch-2](qubo-BIQCRUNCH.html) | 11.70 (11.70) | 13%|
+
+---
+
+
 ## [Discrete Non-Convex QPLIB Benchmark (non-binary) (6 Feb 2023)](http://plato.asu.edu/ftp/nonbinary.html)
 Choose base solver for comparison:
 
