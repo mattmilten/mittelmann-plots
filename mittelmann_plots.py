@@ -406,6 +406,9 @@ def parse_table(url, session, timelimit=3600, threads=1):
         _score = tab[1].split()[1:]
         _solved = tab[2].split()[1:]
         solver = [s.rstrip("&") for s in tab[4].split()[1:]]
+        # temporary hack to handle missing data in QUBO benchmark
+        if "BIQBIN" in solver:
+            solver.remove("BIQBIN")
         stats["solver"] = solver
         nprobs = len(tab[tabmark[0] + 3 : tabmark[1]])
         stats["nprobs"] = nprobs
@@ -636,6 +639,7 @@ parsedata = [
     ("http://plato.asu.edu/ftp/misocp.html", 7200, 1),
     # MIQP/QCP
     ("http://plato.asu.edu/ftp/qplib.html", 3600, 1),
+    ("http://plato.asu.edu/ftp/qubo.html", 3600, 1),
     ("http://plato.asu.edu/ftp/nonbinary.html", 10800, 1),
     ("http://plato.asu.edu/ftp/cnconv.html", 10800, 1),
     ("http://plato.asu.edu/ftp/cconvex.html", 7200, 1),
