@@ -561,7 +561,7 @@ Choose base solver for comparison:
 |[🥉 SCIP](minlp-SCIP.html) | 6.81 (6.80) | 74%|
 |[📊 LINDO](minlp-LINDO.html) | 21.65 (21.60) | 48%|
 |[📊 ANTIGONE](minlp-ANTIGONE.html) | 25.91 (25.90) | 61%|
-|[📊 COUENNE](minlp-COUENNE.html) | 59.13 (59.10) | 28%|
+|[📊 COUENNE](minlp-COUENNE.html) | 59.17 (59.10) | 28%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
