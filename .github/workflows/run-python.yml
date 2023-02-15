@@ -17,9 +17,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: Set up Python 3.8
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: 3.8
     - name: Install dependencies
@@ -29,7 +29,7 @@ jobs:
     - name: Generate plots
       run: |
         python mittelmann_plots.py
-    - uses: EndBug/add-and-commit@v4
+    - uses: EndBug/add-and-commit@v9
       with:
         add: 'docs'
         # The name of the user that will be displayed as the author of the commit
