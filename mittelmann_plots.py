@@ -401,7 +401,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
     else:
         tab = pre[2].text.split("\n")
         tabmark = [ind for ind, i in enumerate(tab) if i.startswith("=====")]
-        _version = pre[1].text.split("\n")[1:-1]
+        _version = [x for x in pre[1].text.split("\n") if x]
         _version = [x.split()[0].rstrip(":") for x in _version]
         _score = tab[1].split()[1:]
         _solved = tab[2].split()[1:]
@@ -409,6 +409,8 @@ def parse_table(url, session, timelimit=3600, threads=1):
         # temporary hack to handle missing data in QUBO benchmark
         if "BIQBIN" in solver:
             solver.remove("BIQBIN")
+        if "MCSPARSE" in solver:
+            solver.remove("MCSPARSE")
         stats["solver"] = solver
         nprobs = len(tab[tabmark[0] + 3 : tabmark[1]])
         stats["nprobs"] = nprobs
