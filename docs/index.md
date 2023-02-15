@@ -368,7 +368,7 @@ Choose base solver for comparison:
 |[🥉 Baron-23.1.5](qubo-BARON.html) | 1.86 (1.86) | 52%|
 |[📊 OCTERACT-4.6.0](qubo-OCTERACT.html) | 1.94 (1.94) | 52%|
 |[📊 SCIP-8.0](qubo-SCIP.html) | 5.65 (5.65) | 35%|
-|[📊 Biqcrunch-2](qubo-BIQCRUNCH.html) | 11.70 (11.70) | 13%|
+|[📊 BQCRUNCH](qubo-BQCRUNCH.html) | 11.70 (11.70) | 13%|
 
 ---
 
