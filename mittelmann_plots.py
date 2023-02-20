@@ -409,8 +409,6 @@ def parse_table(url, session, timelimit=3600, threads=1):
         # temporary hack to handle missing data in QUBO benchmark
         if "BIQBIN" in solver:
             solver.remove("BIQBIN")
-        if "MCSPARSE" in solver:
-            solver.remove("MCSPARSE")
         stats["solver"] = solver
         nprobs = len(tab[tabmark[0] + 3 : tabmark[1]])
         stats["nprobs"] = nprobs
