@@ -357,7 +357,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Nonconvex QUBO-QPLIB Benchmark (10 Feb 2023)](http://plato.asu.edu/ftp/qubo.html)
+## [Nonconvex QUBO-QPLIB Benchmark (16 Feb 2023)](http://plato.asu.edu/ftp/qubo.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 23|
@@ -367,8 +367,17 @@ Choose base solver for comparison:
 |[🥈 Gurobi-10.0.1](qubo-GUROBI.html) | 1.46 (1.46) | 57%|
 |[🥉 Baron-23.1.5](qubo-BARON.html) | 1.86 (1.86) | 52%|
 |[📊 OCTERACT-4.6.0](qubo-OCTERACT.html) | 1.94 (1.94) | 52%|
+|[📊 McSparse-2.0](qubo-MCSPARSE.html) | 2.44 (2.44) | 52%|
 |[📊 SCIP-8.0](qubo-SCIP.html) | 5.65 (5.65) | 35%|
 |[📊 BQCRUNCH](qubo-BQCRUNCH.html) | 11.70 (11.70) | 13%|
+
+
+<details><summary>previous benchmarks 🔽</summary>
+<br>
+
+<ul>
+<li><a href="/mittelmann-plots/qubo-10-Feb-2023.html">10 Feb 2023</a></li>
+</ul></details>
 
 ---
 
