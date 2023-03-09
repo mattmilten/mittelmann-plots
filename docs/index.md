@@ -360,7 +360,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Nonconvex QUBO-QPLIB Benchmark (26 Feb 2023)](http://plato.asu.edu/ftp/qubo.html)
+## [Nonconvex QUBO-QPLIB Benchmark (8 Mar 2023)](http://plato.asu.edu/ftp/qubo.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 23|
@@ -370,9 +370,9 @@ Choose base solver for comparison:
 |[🥈 Gurobi-10.0.1](qubo-GUROBI.html) | 1.46 (1.46) | 57%|
 |[🥉 Baron-23.1.5](qubo-BARON.html) | 1.86 (1.86) | 52%|
 |[📊 OCTERACT-4.6.0](qubo-OCTERACT.html) | 1.94 (1.94) | 52%|
+|[📊 SHOT-1.1](qubo-SHOT.html) | 2.06 (2.06) | 48%|
 |[📊 McSparse-2.0](qubo-MCSPARSE.html) | 2.44 (2.44) | 52%|
 |[📊 SCIP-8.0](qubo-SCIP.html) | 5.65 (5.65) | 35%|
-|[📊 SHOT-1.1](qubo-SHOT.html) | 5.81 (5.81) | 30%|
 |[📊 BQCRUNCH](qubo-BQCRUNCH.html) | 11.70 (11.70) | 13%|
 
 
@@ -380,6 +380,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/qubo-26-Feb-2023.html">26 Feb 2023</a></li>
 <li><a href="/mittelmann-plots/qubo-16-Feb-2023.html">16 Feb 2023</a></li>
 <li><a href="/mittelmann-plots/qubo-10-Feb-2023.html">10 Feb 2023</a></li>
 </ul></details>
@@ -512,16 +513,16 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Discrete QPLIB Benchmark (1 Feb 2023)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (8 Mar 2023)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 31|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](convex-vbest.html) | 0.70  | 87%|
+|[⭐ virtual best](convex-vbest.html) | 0.69  | 87%|
 |[🥇 GUROBI-10.0.0](convex-GUROBI.html) | 1.00 (1.00) | 81%|
 |[🥈 COPT-6.0.1](convex-COPT.html) | 1.09 (1.09) | 77%|
-|[🥉 OCTACT](convex-OCTACT.html) | 2.35 (2.35) | 77%|
-|[📊 Shot-1.1](convex-SHOT.html) | 8.42 (8.42) | 48%|
+|[🥉 Shot-1.1](convex-SHOT.html) | 1.13 (1.13) | 81%|
+|[📊 OCTACT](convex-OCTACT.html) | 2.35 (2.35) | 77%|
 |[📊 MOSEK-10.0.18](convex-MOSEK.html) | 8.96 (8.96) | 61%|
 |[📊 KNITRO-13.1.0](convex-KNITRO.html) | 12.88 (12.90) | 52%|
 |[📊 Baron-22.9.1](convex-BARON.html) | 13.61 (13.60) | 58%|
@@ -534,6 +535,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/convex-1-Feb-2023.html">1 Feb 2023</a></li>
 <li><a href="/mittelmann-plots/convex-12-Nov-2022.html">12 Nov 2022</a></li>
 <li><a href="/mittelmann-plots/convex-28-Oct-2022.html">28 Oct 2022</a></li>
 <li><a href="/mittelmann-plots/convex-13-Oct-2022.html">13 Oct 2022</a></li>
