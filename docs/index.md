@@ -310,25 +310,26 @@ Choose base solver for comparison:
 ---
 
 
-## [Binary Non-Convex QPLIB Benchmark (28 Feb 2023)](http://plato.asu.edu/ftp/qplib.html)
+## [Binary Non-Convex QPLIB Benchmark (9 Mar 2023)](http://plato.asu.edu/ftp/qplib.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 97|
+| solver | score (as reported) | solved of 96|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](qplib-vbest.html) | 0.66  | 100%|
-|[🥇 Gurobi-10.0.0](qplib-GUROBI.html) | 1.00 (1.00) | 96%|
-|[🥈 OCTERACT-4.6.0](qplib-OCTERACT.html) | 1.56 (1.56) | 96%|
-|[🥉 Baron-22.9.1](qplib-BARON.html) | 7.36 (7.36) | 57%|
-|[📊 SHOT-1.1](qplib-SHOT.html) | 14.18 (14.20) | 58%|
-|[📊 SCIP-8.0.0](qplib-SCIP.html) | 36.69 (36.70) | 36%|
-|[📊 ANTIGONE-1.1](qplib-ANTIGONE.html) | 73.85 (73.90) | 16%|
-|[📊 COUENNE-0.5](qplib-COUENNE.html) | 87.73 (87.70) | 6%|
+|[⭐ virtual best](qplib-vbest.html) | 0.67  | 100%|
+|[🥇 Gurobi-10.0.0](qplib-GUROBI.html) | 1.00 (1.00) | 97%|
+|[🥈 SHOT-1.1](qplib-SHOT.html) | 1.36 (1.36) | 89%|
+|[🥉 OCTERACT-4.6.0](qplib-OCTERACT.html) | 1.57 (1.57) | 97%|
+|[📊 Baron-22.9.1](qplib-BARON.html) | 7.59 (7.59) | 57%|
+|[📊 SCIP-8.0.0](qplib-SCIP.html) | 38.48 (38.50) | 36%|
+|[📊 ANTIGONE-1.1](qplib-ANTIGONE.html) | 78.03 (78.00) | 17%|
+|[📊 COUENNE-0.5](qplib-COUENNE.html) | 92.85 (92.90) | 6%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/qplib-28-Feb-2023.html">28 Feb 2023</a></li>
 <li><a href="/mittelmann-plots/qplib-4-Feb-2023.html">4 Feb 2023</a></li>
 <li><a href="/mittelmann-plots/qplib-13-Nov-2022.html">13 Nov 2022</a></li>
 <li><a href="/mittelmann-plots/qplib-3-Nov-2022.html">3 Nov 2022</a></li>
