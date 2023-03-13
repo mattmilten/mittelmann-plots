@@ -394,14 +394,14 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 102|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](nonbinary-vbest.html) | 0.25  | 99%|
-|[🥇 SHOT-1.1](nonbinary-SHOT.html) | 1.00 (1.19) | 79%|
-|[🥈 Gurobi-10.0.0](nonbinary-GUROBI.html) | 2.12 (1.00) | 79%|
-|[🥉 OCTERACT-4.6.0](nonbinary-OCTERACT.html) | 3.50 (4.16) | 75%|
-|[📊 SCIP-8.0.0](nonbinary-SCIP.html) | 15.75 (18.70) | 36%|
-|[📊 Baron-22.9.1](nonbinary-BARON.html) | 24.68 (29.30) | 30%|
-|[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 26.29 (31.20) | 28%|
-|[📊 MINOTAUR-0.3.0](nonbinary-MINOTAUR.html) | 31.59 (37.50) | 15%|
+|[⭐ virtual best](nonbinary-vbest.html) | 0.28  | 99%|
+|[🥇 Gurobi-10.0.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 79%|
+|[🥈 SHOT-1.1](nonbinary-SHOT.html) | 1.19 (1.19) | 79%|
+|[🥉 OCTERACT-4.6.0](nonbinary-OCTERACT.html) | 4.16 (4.16) | 75%|
+|[📊 SCIP-8.0.0](nonbinary-SCIP.html) | 18.70 (18.70) | 36%|
+|[📊 Baron-22.9.1](nonbinary-BARON.html) | 29.31 (29.30) | 30%|
+|[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 31.22 (31.20) | 28%|
+|[📊 MINOTAUR-0.3.0](nonbinary-MINOTAUR.html) | 37.50 (37.50) | 15%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
@@ -439,15 +439,15 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 70|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](cnconv-vbest.html) | 0.22  | 87%|
+|[⭐ virtual best](cnconv-vbest.html) | 0.24  | 91%|
 |[🥇 GUROBI-10.0.0](cnconv-GUROBI.html) | 1.00 (1.00) | 61%|
-|[🥈 OCTERACT-4.6.0](cnconv-OCTERACT.html) | 1.20 (1.56) | 63%|
-|[🥉 ANTIGONE-1.1](cnconv-ANTIGONE.html) | 3.77 (4.90) | 40%|
-|[📊 Baron-22.9.1](cnconv-BARON.html) | 4.42 (5.74) | 27%|
-|[📊 MINOTAUR-0.3.0](cnconv-MINOTAUR.html) | 5.30 (6.88) | 21%|
-|[📊 SCIP-8.0.0](cnconv-SCIP.html) | 7.43 (9.65) | 19%|
-|[📊 COUENNE-0.5](cnconv-COUENNE.html) | 8.42 (10.90) | 11%|
-|[📊 RAPOSa-3.2.0](cnconv-RAPOSA.html) | 10.59 (13.80) | 6%|
+|[🥈 OCTERACT-4.6.0](cnconv-OCTERACT.html) | 1.55 (1.56) | 63%|
+|[🥉 ANTIGONE-1.1](cnconv-ANTIGONE.html) | 4.87 (4.90) | 40%|
+|[📊 Baron-22.9.1](cnconv-BARON.html) | 5.70 (5.74) | 27%|
+|[📊 MINOTAUR-0.3.0](cnconv-MINOTAUR.html) | 6.84 (6.88) | 21%|
+|[📊 SCIP-8.0.0](cnconv-SCIP.html) | 9.60 (9.65) | 19%|
+|[📊 COUENNE-0.5](cnconv-COUENNE.html) | 10.88 (10.90) | 11%|
+|[📊 RAPOSa-3.2.0](cnconv-RAPOSA.html) | 13.68 (13.80) | 6%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
