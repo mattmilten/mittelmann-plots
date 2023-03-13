@@ -394,7 +394,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
         stats["version"] = {s: get_version(s, _version) for s in solver}
         stats["timelimit"] = timelimit
         stats["times"] = pd.DataFrame(
-            [l.split() for l in tab[tabmark[0] + 3 : tabmark[1]]],
+            [l.replace("*", "").split() for l in tab[tabmark[0] + 3 : tabmark[1]]],
             columns=["instance"] + solver,
         )
 
@@ -419,7 +419,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
         stats["version"] = {s: get_version(s, _version) for s in solver}
         stats["timelimit"] = timelimit
         stats["times"] = pd.DataFrame(
-            [l.split() for l in tab[tabmark[0] + 3 : tabmark[1]]],
+            [l.replace("*", "").split() for l in tab[tabmark[0] + 3 : tabmark[1]]],
             columns=["instance"] + solver,
         )
 
