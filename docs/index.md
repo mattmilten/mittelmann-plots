@@ -434,26 +434,27 @@ Choose base solver for comparison:
 ---
 
 
-## [Continuous Non-Convex QPLIB Benchmark (8 Feb 2023)](http://plato.asu.edu/ftp/cnconv.html)
+## [Continuous Non-Convex QPLIB Benchmark (15 Mar 2023)](http://plato.asu.edu/ftp/cnconv.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 70|
+| solver | score (as reported) | solved of 66|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](cnconv-vbest.html) | 0.24  | 91%|
-|[🥇 GUROBI-10.0.0](cnconv-GUROBI.html) | 1.00 (1.00) | 61%|
-|[🥈 OCTERACT-4.6.0](cnconv-OCTERACT.html) | 1.55 (1.56) | 63%|
-|[🥉 ANTIGONE-1.1](cnconv-ANTIGONE.html) | 4.87 (4.90) | 40%|
-|[📊 Baron-22.9.1](cnconv-BARON.html) | 5.70 (5.74) | 27%|
-|[📊 MINOTAUR-0.3.0](cnconv-MINOTAUR.html) | 6.84 (6.88) | 21%|
-|[📊 SCIP-8.0.0](cnconv-SCIP.html) | 9.60 (9.65) | 19%|
-|[📊 COUENNE-0.5](cnconv-COUENNE.html) | 10.88 (10.90) | 11%|
-|[📊 RAPOSa-3.2.0](cnconv-RAPOSA.html) | 13.68 (13.80) | 6%|
+|[⭐ virtual best](cnconv-vbest.html) | 0.22  | 97%|
+|[🥇 GUROBI-10.0.0](cnconv-GUROBI.html) | 1.00 (1.00) | 65%|
+|[🥈 OCTERACT-4.6.0](cnconv-OCTERACT.html) | 1.59 (1.59) | 67%|
+|[🥉 Baron-23.1.5](cnconv-BARON.html) | 3.81 (3.81) | 42%|
+|[📊 ANTIGONE-1.1](cnconv-ANTIGONE.html) | 5.37 (5.37) | 42%|
+|[📊 MINOTAUR-0.3.0](cnconv-MINOTAUR.html) | 9.45 (9.45) | 20%|
+|[📊 SCIP-8.0.0](cnconv-SCIP.html) | 11.03 (11.00) | 20%|
+|[📊 COUENNE-0.5](cnconv-COUENNE.html) | 12.59 (12.60) | 12%|
+|[📊 RAPOSa-3.2.0](cnconv-RAPOSA.html) | 16.06 (16.10) | 6%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/cnconv-8-Feb-2023.html">8 Feb 2023</a></li>
 <li><a href="/mittelmann-plots/cnconv-7-Jan-2023.html">7 Jan 2023</a></li>
 <li><a href="/mittelmann-plots/cnconv-20-Nov-2022.html">20 Nov 2022</a></li>
 <li><a href="/mittelmann-plots/cnconv-24-Oct-2022.html">24 Oct 2022</a></li>
