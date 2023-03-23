@@ -7,20 +7,28 @@ instance. This might reveal how much potential the individual solvers still have
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [LPfeas Benchmark (find PD feasible point) (9 Dec 2022)](http://plato.asu.edu/ftp/lpfeas.html)
+## [LPfeas Benchmark (find PD feasible point) (22 Mar 2023)](http://plato.asu.edu/ftp/lpfeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 71|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](lpfeas-vbest.html) | 0.64  | 100%|
+|[⭐ virtual best](lpfeas-vbest.html) | 0.65  | 100%|
 |[🥇 Gurobi-10.0.0](lpfeas-Gurobi.html) | 1.00 (1.00) | 100%|
 |[🥈 COPT-6.0.3](lpfeas-COPT.html) | 1.04 (1.04) | 100%|
 |[🥉 MOSEK-10.0.25](lpfeas-MOSEK.html) | 2.01 (2.01) | 100%|
-|[📊 ORTOOLS-9.4](lpfeas-PDLP%.html) | 15.10 (15.10) | 77%|
+|[📊 ORTOOLS-9.6](lpfeas-PDLP%.html) | 15.47 (15.50) | 77%|
 |[📊 HiGHS-1.4.1](lpfeas-HiGHS.html) | 18.23 (18.20) | 82%|
 |[📊 KNITRO-13.0.0](lpfeas-KNITRO.html) | 20.85 (20.80) | 70%|
 |[📊 MATLAB-R2022b](lpfeas-MATL.html) | 27.38 (23.70) | 79%|
 |[📊 Tulip-0.9.4](lpfeas-TULIP.html) | 70.61 (70.60) | 56%|
+
+
+<details><summary>previous benchmarks 🔽</summary>
+<br>
+
+<ul>
+<li><a href="/mittelmann-plots/lpfeas-9-Dec-2022.html">9 Dec 2022</a></li>
+</ul></details>
 
 ---
 
