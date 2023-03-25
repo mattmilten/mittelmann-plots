@@ -7,60 +7,62 @@ instance. This might reveal how much potential the individual solvers still have
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [LPfeas Benchmark (find PD feasible point) (22 Mar 2023)](http://plato.asu.edu/ftp/lpfeas.html)
+## [LPfeas Benchmark (find PD feasible point) (24 Mar 2023)](http://plato.asu.edu/ftp/lpfeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 71|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](lpfeas-vbest.html) | 0.65  | 100%|
-|[🥇 Gurobi-10.0.0](lpfeas-Gurobi.html) | 1.00 (1.00) | 100%|
-|[🥈 COPT-6.0.3](lpfeas-COPT.html) | 1.04 (1.04) | 100%|
-|[🥉 MOSEK-10.0.25](lpfeas-MOSEK.html) | 2.01 (2.01) | 100%|
-|[📊 ORTOOLS-9.6](lpfeas-PDLP%.html) | 15.47 (15.50) | 77%|
-|[📊 HiGHS-1.4.1](lpfeas-HiGHS.html) | 18.23 (18.20) | 82%|
-|[📊 KNITRO-13.0.0](lpfeas-KNITRO.html) | 20.85 (20.80) | 70%|
-|[📊 MATLAB-R2022b](lpfeas-MATL.html) | 27.38 (23.70) | 79%|
-|[📊 Tulip-0.9.4](lpfeas-TULIP.html) | 70.61 (70.60) | 56%|
+|[⭐ virtual best](lpfeas-vbest.html) | 0.66  | 100%|
+|[🥇 COPT-6.5.0](lpfeas-COPT.html) | 1.00 (1.00) | 100%|
+|[🥈 Gurobi-10.0.0](lpfeas-Gurobi.html) | 1.02 (1.02) | 100%|
+|[🥉 MOSEK-10.0.25](lpfeas-MOSEK.html) | 2.05 (2.05) | 100%|
+|[📊 ORTOOLS-9.6](lpfeas-PDLP%.html) | 15.80 (15.80) | 77%|
+|[📊 HiGHS-1.4.1](lpfeas-HiGHS.html) | 18.62 (18.60) | 82%|
+|[📊 KNITRO-13.0.0](lpfeas-KNITRO.html) | 21.30 (21.30) | 70%|
+|[📊 MATLAB-R2022b](lpfeas-MATL.html) | 27.97 (24.20) | 79%|
+|[📊 Tulip-0.9.4](lpfeas-TULIP.html) | 72.13 (72.10) | 56%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpfeas-22-Mar-2023.html">22 Mar 2023</a></li>
 <li><a href="/mittelmann-plots/lpfeas-9-Dec-2022.html">9 Dec 2022</a></li>
 </ul></details>
 
 ---
 
 
-## [LPopt Benchmark (find optimal basic solution) (25 Jan 2023)](http://plato.asu.edu/ftp/lpopt.html)
+## [LPopt Benchmark (find optimal basic solution) (24 Mar 2023)](http://plato.asu.edu/ftp/lpopt.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 71|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](lpopt-vbest.html) | 0.81  | 100%|
-|[🥇 COPT-6.0.3](lpopt-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 Gurobi-10.0.0](lpopt-Gurob.html) | 1.18 (1.18) | 99%|
-|[🥉 Optverse-0.2.13](lpopt-OPTV.html) | 3.65 (3.65) | 90%|
-|[📊 MOSEK-10.0.24](lpopt-MOSEK.html) | 5.14 (5.14) | 82%|
-|[📊 HiGHS-1.4.1](lpopt-HiGHS.html) | 16.89 (16.90) | 79%|
-|[📊 CLP-1.17.7](lpopt-CLP.html) | 28.99 (29.00) | 61%|
-|[📊 MATLAB-R2022b](lpopt-MATL.html) | 41.14 (41.10) | 65%|
-|[📊 Google-GLOP](lpopt-GLOP.html) | 60.65 (60.70) | 48%|
-|[📊 SOPLEX-6.0.0](lpopt-SPLX.html) | 98.11 (98.10) | 48%|
+|[⭐ virtual best](lpopt-vbest.html) | 0.82  | 100%|
+|[🥇 COPT-6.5.0](lpopt-COPT.html) | 1.00 (1.00) | 100%|
+|[🥈 Gurobi-10.0.0](lpopt-Gurob.html) | 1.22 (1.22) | 99%|
+|[🥉 Optverse-0.2.13](lpopt-OPTV.html) | 3.76 (3.76) | 90%|
+|[📊 MOSEK-10.0.24](lpopt-MOSEK.html) | 5.29 (5.29) | 82%|
+|[📊 HiGHS-1.4.1](lpopt-HiGHS.html) | 17.38 (17.40) | 79%|
+|[📊 CLP-1.17.7](lpopt-CLP.html) | 29.83 (29.80) | 61%|
+|[📊 MATLAB-R2022b](lpopt-MATL.html) | 42.33 (42.30) | 65%|
+|[📊 Google-GLOP](lpopt-GLOP.html) | 62.41 (62.40) | 48%|
+|[📊 SOPLEX-6.0.0](lpopt-SPLX.html) | 100.95 (101.00) | 48%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpopt-25-Jan-2023.html">25 Jan 2023</a></li>
 <li><a href="/mittelmann-plots/lpopt-14-Dec-2022.html">14 Dec 2022</a></li>
 </ul></details>
 
 ---
 
 
-## [Large Network-LP Benchmark (commercial vs free) (24 Jan 2023)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (24 Mar 2023)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 25|
@@ -69,7 +71,7 @@ Choose base solver for comparison:
 |[🥇 OptVerse-0.2.13](network-OPTV.html) | 1.00 (1.00) | 100%|
 |[🥈 MindOpt-0.18.6](network-MDOPT.html) | 1.20 (1.20) | 100%|
 |[🥉 Gurobi-10.0.0](network-GUR.html) | 1.60 (1.60) | 100%|
-|[📊 COPT-5.0.0](network-COPT.html) | 2.02 (2.02) | 100%|
+|[📊 COPT-6.5.0](network-COPT.html) | 1.99 (1.99) | 100%|
 |[📊 Clp-1.17.7](network-CLP.html) | 5.66 (5.66) | 100%|
 |[📊 HiGHS-1.4.1](network-HGHS.html) | 11.91 (11.90) | 80%|
 |[📊 MATLAB-R2022b](network-MATL.html) | 19.84 (19.80) | 80%|
@@ -82,6 +84,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/network-24-Jan-2023.html">24 Jan 2023</a></li>
 <li><a href="/mittelmann-plots/network-9-Dec-2022.html">9 Dec 2022</a></li>
 <li><a href="/mittelmann-plots/network-12-Nov-2022.html">12 Nov 2022</a></li>
 <li><a href="/mittelmann-plots/network-3-Oct-2022.html">3 Oct 2022</a></li>
@@ -191,14 +194,14 @@ Choose base solver for comparison:
 ---
 
 
-## [Infeasibility Detection for MILP Problems (22 Nov 2022)](http://plato.asu.edu/ftp/infeas.html)
+## [Infeasibility Detection for MILP Problems (24 Mar 2023)](http://plato.asu.edu/ftp/infeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](infeas-vbest.html) | 0.92  | 94%|
+|[⭐ virtual best](infeas-vbest.html) | 0.85  | 94%|
 |[🥇 GUROBI-10.0.0](infeas-Gurobi.html) | 1.00 (1.00) | 94%|
-|[🥈 COPT-6.0.1](infeas-COPT.html) | 1.62 (1.62) | 94%|
+|[🥈 COPT-6.5.0](infeas-COPT.html) | 1.30 (1.30) | 94%|
 |[🥉 SCIPC-8.0.0](infeas-SCIPC.html) | 6.24 (6.24) | 81%|
 |[📊 SCIP-8.0.0](infeas-SCIP.html) | 8.00 (8.00) | 78%|
 |[📊 HiGHS-1.2.2](infeas-HiGHS.html) | 10.72 (10.70) | 91%|
@@ -210,6 +213,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/infeas-22-Nov-2022.html">22 Nov 2022</a></li>
 <li><a href="/mittelmann-plots/infeas-24-Jul-2022.html">24 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/infeas-18-Jun-2022.html">18 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/infeas-25-Apr-2022.html">25 Apr 2022</a></li>
@@ -222,26 +226,27 @@ Choose base solver for comparison:
 ---
 
 
-## [Several SDP-codes on sparse and other SDP problems (4 Nov 2022)](http://plato.asu.edu/ftp/sparse_sdp.html)
+## [Several SDP-codes on sparse and other SDP problems (24 Mar 2023)](http://plato.asu.edu/ftp/sparse_sdp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 76|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](sparse_sdp-vbest.html) | 0.59  | 99%|
-|[🥇 COPT-6.0.1](sparse_sdp-COPT.html) | 1.00 (1.00) | 99%|
-|[🥈 MindOpt-0.22.0](sparse_sdp-MDOPT.html) | 1.77 (1.80) | 97%|
-|[🥉 MOSEK-10.0.27](sparse_sdp-MOSEK.html) | 2.99 (3.07) | 95%|
-|[📊 SDPT3-4.0](sparse_sdp-SDPT3.html) | 4.47 (4.62) | 91%|
-|[📊 CSDP-6.2.0](sparse_sdp-CSDP.html) | 4.52 (4.68) | 92%|
-|[📊 HDSDP-0.9.2](sparse_sdp-HDSDP.html) | 7.31 (7.62) | 92%|
-|[📊 SDPA-7.4.2](sparse_sdp-SDPA.html) | 8.98 (9.39) | 80%|
-|[📊 SeDuMi-1.3.5](sparse_sdp-SeDuMi.html) | 24.46 (25.90) | 82%|
+|[⭐ virtual best](sparse_sdp-vbest.html) | 0.60  | 99%|
+|[🥇 COPT-6.5.0](sparse_sdp-COPT.html) | 1.00 (1.00) | 99%|
+|[🥈 MindOpt-0.22.0](sparse_sdp-MDOPT.html) | 1.91 (1.94) | 97%|
+|[🥉 MOSEK-10.0.27](sparse_sdp-MOSEK.html) | 3.21 (3.31) | 95%|
+|[📊 SDPT3-4.0](sparse_sdp-SDPT3.html) | 4.80 (4.98) | 91%|
+|[📊 CSDP-6.2.0](sparse_sdp-CSDP.html) | 4.87 (5.05) | 92%|
+|[📊 HDSDP-0.9.2](sparse_sdp-HDSDP.html) | 7.86 (8.22) | 92%|
+|[📊 SDPA-7.4.2](sparse_sdp-SDPA.html) | 9.65 (10.10) | 80%|
+|[📊 SeDuMi-1.3.5](sparse_sdp-SeDuMi.html) | 26.30 (28.00) | 82%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/sparse_sdp-4-Nov-2022.html">4 Nov 2022</a></li>
 <li><a href="/mittelmann-plots/sparse_sdp-30-Oct-2022.html">30 Oct 2022</a></li>
 <li><a href="/mittelmann-plots/sparse_sdp-13-Oct-2022.html">13 Oct 2022</a></li>
 <li><a href="/mittelmann-plots/sparse_sdp-13-Sep-2022.html">13 Sep 2022</a></li>
@@ -252,15 +257,15 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Second Order Cone Benchmark (12 Nov 2022)](http://plato.asu.edu/ftp/socp.html)
+## [Large Second Order Cone Benchmark (24 Mar 2023)](http://plato.asu.edu/ftp/socp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 18|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](socp-vbest.html) | 0.77  | 100%|
+|[⭐ virtual best](socp-vbest.html) | 0.78  | 100%|
 |[🥇 MOSEK-10.0.18](socp-MOSEK.html) | 1.00 (1.00) | 100%|
 |[🥈 Gurobi-10.0.0](socp-Gurobi.html) | 1.11 (1.11) | 100%|
-|[🥉 COPT-6.0.0](socp-COPT.html) | 1.15 (1.15) | 100%|
+|[🥉 COPT-6.5.0](socp-COPT.html) | 1.19 (1.19) | 100%|
 |[📊 KNITRO-13.0.0](socp-KNITRO.html) | 10.06 (10.10) | 83%|
 |[📊 ECOS-2.0.4](socp-ECOS.html) | 83.02 (83.00) | 33%|
 
@@ -269,6 +274,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/socp-12-Nov-2022.html">12 Nov 2022</a></li>
 <li><a href="/mittelmann-plots/socp-26-Oct-2022.html">26 Oct 2022</a></li>
 <li><a href="/mittelmann-plots/socp-19-Sep-2022.html">19 Sep 2022</a></li>
 <li><a href="/mittelmann-plots/socp-29-Aug-2022.html">29 Aug 2022</a></li>
