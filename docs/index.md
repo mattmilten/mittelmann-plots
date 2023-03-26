@@ -288,14 +288,14 @@ Choose base solver for comparison:
 ---
 
 
-## [Mixed-integer SOCP Benchmark (4 Mar 2023)](http://plato.asu.edu/ftp/misocp.html)
+## [Mixed-integer SOCP Benchmark (25 Mar 2023)](http://plato.asu.edu/ftp/misocp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 47|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](misocp-vbest.html) | 0.94  | 100%|
+|[⭐ virtual best](misocp-vbest.html) | 0.95  | 100%|
 |[🥇 Gurobi-10.0.0](misocp-GUROBI.html) | 1.00 (1.00) | 100%|
-|[🥈 COPT-6.0.1](misocp-COPT.html) | 2.78 (2.78) | 98%|
+|[🥈 COPT-6.5.0](misocp-COPT.html) | 2.14 (2.14) | 100%|
 |[🥉 MOSEK-10.0.37](misocp-MOSEK.html) | 14.19 (14.20) | 70%|
 |[📊 SCIP-8.0.0](misocp-SCIP.html) | 24.28 (24.30) | 66%|
 
@@ -304,6 +304,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/misocp-4-Mar-2023.html">4 Mar 2023</a></li>
 <li><a href="/mittelmann-plots/misocp-12-Nov-2022.html">12 Nov 2022</a></li>
 <li><a href="/mittelmann-plots/misocp-18-Oct-2022.html">18 Oct 2022</a></li>
 <li><a href="/mittelmann-plots/misocp-12-Oct-2022.html">12 Oct 2022</a></li>
@@ -494,23 +495,24 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Continuous QPLIB Benchmark (26 Nov 2022)](http://plato.asu.edu/ftp/cconvex.html)
+## [Convex Continuous QPLIB Benchmark (25 Mar 2023)](http://plato.asu.edu/ftp/cconvex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](cconvex-vbest.html) | 0.85  | 100%|
-|[🥇 COPT-6.0.2](cconvex-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 MOSEK-10.0.18](cconvex-MOSEK.html) | 1.33 (1.33) | 100%|
-|[🥉 KNITRO-13.0.0](cconvex-KNITRO.html) | 1.53 (1.53) | 100%|
-|[📊 Gurobi-10.0.0](cconvex-Gurobi.html) | 1.95 (1.95) | 94%|
-|[📊 IPOPT-3.14.5](cconvex-IPOPT.html) | 7.29 (7.29) | 91%|
+|[🥇 COPT-6.5.0](cconvex-COPT.html) | 1.00 (1.00) | 100%|
+|[🥈 MOSEK-10.0.18](cconvex-MOSEK.html) | 1.31 (1.31) | 100%|
+|[🥉 KNITRO-13.0.0](cconvex-KNITRO.html) | 1.50 (1.50) | 100%|
+|[📊 Gurobi-10.0.0](cconvex-Gurobi.html) | 1.91 (1.91) | 94%|
+|[📊 IPOPT-3.14.5](cconvex-IPOPT.html) | 7.16 (7.16) | 91%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/cconvex-26-Nov-2022.html">26 Nov 2022</a></li>
 <li><a href="/mittelmann-plots/cconvex-29-Aug-2022.html">29 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/cconvex-26-Jul-2022.html">26 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/cconvex-19-Jun-2022.html">19 Jun 2022</a></li>
@@ -530,28 +532,29 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Discrete QPLIB Benchmark (8 Mar 2023)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (25 Mar 2023)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 31|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](convex-vbest.html) | 0.69  | 87%|
-|[🥇 GUROBI-10.0.0](convex-GUROBI.html) | 1.00 (1.00) | 81%|
-|[🥈 COPT-6.0.1](convex-COPT.html) | 1.09 (1.09) | 77%|
-|[🥉 Shot-1.1](convex-SHOT.html) | 1.13 (1.13) | 81%|
-|[📊 OCTACT](convex-OCTACT.html) | 2.35 (2.35) | 77%|
-|[📊 MOSEK-10.0.18](convex-MOSEK.html) | 8.96 (8.96) | 61%|
-|[📊 KNITRO-13.1.0](convex-KNITRO.html) | 12.88 (12.90) | 52%|
-|[📊 Baron-22.9.1](convex-BARON.html) | 13.61 (13.60) | 58%|
-|[📊 SCIP-8.0.0](convex-SCIP.html) | 35.52 (35.50) | 39%|
-|[📊 MNTAUR](convex-MNTAUR.html) | 40.70 (40.70) | 45%|
-|[📊 Bonmin-1.8.7](convex-BONMIN.html) | 52.55 (52.60) | 23%|
+|[⭐ virtual best](convex-vbest.html) | 0.65  | 87%|
+|[🥇 COPT-6.5.0](convex-COPT.html) | 1.00 (1.00) | 77%|
+|[🥈 GUROBI-10.0.0](convex-GUROBI.html) | 1.01 (1.01) | 81%|
+|[🥉 Shot-1.1](convex-SHOT.html) | 1.14 (1.14) | 81%|
+|[📊 OCTACT](convex-OCTACT.html) | 2.37 (2.37) | 77%|
+|[📊 MOSEK-10.0.18](convex-MOSEK.html) | 9.06 (9.06) | 61%|
+|[📊 KNITRO-13.1.0](convex-KNITRO.html) | 13.01 (13.00) | 52%|
+|[📊 Baron-22.9.1](convex-BARON.html) | 13.75 (13.70) | 58%|
+|[📊 SCIP-8.0.0](convex-SCIP.html) | 35.89 (35.90) | 39%|
+|[📊 MNTAUR](convex-MNTAUR.html) | 41.12 (41.10) | 45%|
+|[📊 Bonmin-1.8.7](convex-BONMIN.html) | 53.09 (53.10) | 23%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/convex-8-Mar-2023.html">8 Mar 2023</a></li>
 <li><a href="/mittelmann-plots/convex-1-Feb-2023.html">1 Feb 2023</a></li>
 <li><a href="/mittelmann-plots/convex-12-Nov-2022.html">12 Nov 2022</a></li>
 <li><a href="/mittelmann-plots/convex-28-Oct-2022.html">28 Oct 2022</a></li>
