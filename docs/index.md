@@ -122,14 +122,14 @@ Choose base solver for comparison:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances - 8 threads (13 Nov 2022)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances - 8 threads (26 Mar 2023)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](milp_8threads-vbest.html) | 0.82  | 96%|
+|[⭐ virtual best](milp_8threads-vbest.html) | 0.78  | 96%|
 |[🥇 Gurobi-10.0.0](milp_8threads-Gurobi.html) | 1.00 (1.00) | 95%|
-|[🥈 COPT-6.0.1](milp_8threads-COPT.html) | 2.63 (2.63) | 82%|
+|[🥈 COPT-6.5.0](milp_8threads-COPT.html) | 2.01 (2.01) | 85%|
 |[🥉 SCIPC/spx-8.0.0](milp_8threads-SCIPC.html) | 8.92 (8.92) | 63%|
 |[📊 HiGHS-1.3.0](milp_8threads-HiGHS.html) | 9.28 (9.27) | 65%|
 |[📊 SCIP/spx-8.0.0](milp_8threads-SCIP.html) | 10.90 (10.90) | 57%|
@@ -140,6 +140,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/milp_8threads-13-Nov-2022.html">13 Nov 2022</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-30-Oct-2022.html">30 Oct 2022</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-30-Jun-2022.html">30 Jun 2022</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-8-May-2022.html">May 2022</a></li>
@@ -161,14 +162,14 @@ Choose base solver for comparison:
 ---
 
 
-## [MILP cases that are slightly pathological (26 Nov 2022)](http://plato.asu.edu/ftp/path.html)
+## [MILP cases that are slightly pathological (26 Mar 2023)](http://plato.asu.edu/ftp/path.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 45|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](path-vbest.html) | 0.82  | 98%|
+|[⭐ virtual best](path-vbest.html) | 0.83  | 98%|
 |[🥇 GUROBI-10.0.0](path-Gurobi.html) | 1.00 (1.00) | 98%|
-|[🥈 COPT-5.0.0](path-COPT.html) | 4.79 (4.79) | 76%|
+|[🥈 COPT-6.5.0](path-COPT.html) | 4.48 (4.48) | 80%|
 |[🥉 HiGHS-1.2.2](path-HiGHS.html) | 20.74 (20.70) | 56%|
 |[📊 SCIPC-8.0.0](path-SCIPC.html) | 20.80 (20.80) | 51%|
 |[📊 SCIP-8.0.0](path-SCIP.html) | 26.66 (26.70) | 42%|
@@ -181,6 +182,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/path-26-Nov-2022.html">26 Nov 2022</a></li>
 <li><a href="/mittelmann-plots/path-25-Jul-2022.html">25 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/path-6-Jul-2022.html">6 Jul 2022</a></li>
 <li><a href="/mittelmann-plots/path-19-Jun-2022.html">19 Jun 2022</a></li>
