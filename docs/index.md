@@ -259,23 +259,24 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Second Order Cone Benchmark (24 Mar 2023)](http://plato.asu.edu/ftp/socp.html)
+## [Large Second Order Cone Benchmark (28 Mar 2023)](http://plato.asu.edu/ftp/socp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 18|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](socp-vbest.html) | 0.78  | 100%|
-|[🥇 MOSEK-10.0.18](socp-MOSEK.html) | 1.00 (1.00) | 100%|
-|[🥈 Gurobi-10.0.0](socp-Gurobi.html) | 1.11 (1.11) | 100%|
-|[🥉 COPT-6.5.0](socp-COPT.html) | 1.19 (1.19) | 100%|
-|[📊 KNITRO-13.0.0](socp-KNITRO.html) | 10.06 (10.10) | 83%|
-|[📊 ECOS-2.0.4](socp-ECOS.html) | 83.02 (83.00) | 33%|
+|[⭐ virtual best](socp-vbest.html) | 0.74  | 100%|
+|[🥇 MOSEK-10.0.37](socp-MOSEK.html) | 1.00 (1.00) | 100%|
+|[🥈 COPT-6.5.0](socp-COPT.html) | 1.04 (1.04) | 100%|
+|[🥉 Gurobi-10.0.1](socp-Gurobi.html) | 1.07 (1.07) | 100%|
+|[📊 KNITRO-13.2.0](socp-KNITRO.html) | 11.99 (11.90) | 83%|
+|[📊 ECOS-2.0.4](socp-ECOS.html) | 88.69 (88.70) | 61%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/socp-24-Mar-2023.html">24 Mar 2023</a></li>
 <li><a href="/mittelmann-plots/socp-12-Nov-2022.html">12 Nov 2022</a></li>
 <li><a href="/mittelmann-plots/socp-26-Oct-2022.html">26 Oct 2022</a></li>
 <li><a href="/mittelmann-plots/socp-19-Sep-2022.html">19 Sep 2022</a></li>
