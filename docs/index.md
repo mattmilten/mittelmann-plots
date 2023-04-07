@@ -453,7 +453,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Continuous Non-Convex QPLIB Benchmark (15 Mar 2023)](http://plato.asu.edu/ftp/cnconv.html)
+## [Continuous Non-Convex QPLIB Benchmark (6 Apr 2023)](http://plato.asu.edu/ftp/cnconv.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 66|
@@ -466,13 +466,14 @@ Choose base solver for comparison:
 |[📊 MINOTAUR-0.3.0](cnconv-MINOTAUR.html) | 9.45 (9.45) | 20%|
 |[📊 SCIP-8.0.0](cnconv-SCIP.html) | 11.03 (11.00) | 20%|
 |[📊 COUENNE-0.5](cnconv-COUENNE.html) | 12.59 (12.60) | 12%|
-|[📊 RAPOSa-3.2.0](cnconv-RAPOSA.html) | 16.06 (16.10) | 6%|
+|[📊 RAPOSa-4.0.2](cnconv-RAPOSA.html) | 16.00 (16.00) | 6%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/cnconv-15-Mar-2023.html">15 Mar 2023</a></li>
 <li><a href="/mittelmann-plots/cnconv-8-Feb-2023.html">8 Feb 2023</a></li>
 <li><a href="/mittelmann-plots/cnconv-7-Jan-2023.html">7 Jan 2023</a></li>
 <li><a href="/mittelmann-plots/cnconv-20-Nov-2022.html">20 Nov 2022</a></li>
