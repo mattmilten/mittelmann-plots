@@ -382,7 +382,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Nonconvex QUBO-QPLIB Benchmark (8 Mar 2023)](http://plato.asu.edu/ftp/qubo.html)
+## [Nonconvex QUBO-QPLIB Benchmark (19 Apr 2023)](http://plato.asu.edu/ftp/qubo.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 23|
@@ -390,8 +390,8 @@ Choose base solver for comparison:
 |[⭐ virtual best](qubo-vbest.html) | 0.98  | 65%|
 |[🥇 QuBowl](qubo-QUBOWL.html) | 1.00 (1.00) | 65%|
 |[🥈 Gurobi-10.0.1](qubo-GUROBI.html) | 1.46 (1.46) | 57%|
-|[🥉 Baron-23.1.5](qubo-BARON.html) | 1.86 (1.86) | 52%|
-|[📊 OCTERACT-4.6.0](qubo-OCTERACT.html) | 1.94 (1.94) | 52%|
+|[🥉 OCTERACT-4.7.1](qubo-OCTERACT.html) | 1.80 (1.80) | 52%|
+|[📊 Baron-23.1.5](qubo-BARON.html) | 1.86 (1.86) | 52%|
 |[📊 SHOT-1.1](qubo-SHOT.html) | 2.06 (2.06) | 48%|
 |[📊 McSparse-2.0](qubo-MCSPARSE.html) | 2.44 (2.44) | 52%|
 |[📊 SCIP-8.0](qubo-SCIP.html) | 5.65 (5.65) | 35%|
@@ -402,6 +402,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/qubo-8-Mar-2023.html">8 Mar 2023</a></li>
 <li><a href="/mittelmann-plots/qubo-26-Feb-2023.html">26 Feb 2023</a></li>
 <li><a href="/mittelmann-plots/qubo-16-Feb-2023.html">16 Feb 2023</a></li>
 <li><a href="/mittelmann-plots/qubo-10-Feb-2023.html">10 Feb 2023</a></li>
@@ -539,7 +540,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Discrete QPLIB Benchmark (25 Mar 2023)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (19 Apr 2023)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 31|
@@ -561,6 +562,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/convex-25-Mar-2023.html">25 Mar 2023</a></li>
 <li><a href="/mittelmann-plots/convex-8-Mar-2023.html">8 Mar 2023</a></li>
 <li><a href="/mittelmann-plots/convex-1-Feb-2023.html">1 Feb 2023</a></li>
 <li><a href="/mittelmann-plots/convex-12-Nov-2022.html">12 Nov 2022</a></li>
