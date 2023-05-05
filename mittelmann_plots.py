@@ -346,10 +346,10 @@ def parse_table(url, session, timelimit=3600, threads=1):
         souptab = BeautifulSoup(resp.text, features="html.parser")
         tab = souptab.contents[0].split("\n")
         scoretab = pre[1].text.split("\n")
-        solver = [s.rstrip("&") for s in scoretab[2].split()]
+        solver = [s.rstrip("&") for s in scoretab[1].split()]
         stats["solver"] = solver
-        _score = scoretab[5].split()[1:]
-        _solved = scoretab[6].split()[1:]
+        _score = scoretab[4].split()[1:]
+        _solved = scoretab[5].split()[1:]
         stats["score"] = {solver[i]: float(_score[i]) for i in range(len(solver))}
         stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
         stats["version"] = {s: s for s in solver}
