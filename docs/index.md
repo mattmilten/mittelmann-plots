@@ -331,7 +331,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Binary Non-Convex QPLIB Benchmark (9 Mar 2023)](http://plato.asu.edu/ftp/qplib.html)
+## [Binary Non-Convex QPLIB Benchmark (20 Apr 2023)](http://plato.asu.edu/ftp/qplib.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 96|
@@ -339,7 +339,7 @@ Choose base solver for comparison:
 |[⭐ virtual best](qplib-vbest.html) | 0.67  | 100%|
 |[🥇 Gurobi-10.0.0](qplib-GUROBI.html) | 1.00 (1.00) | 97%|
 |[🥈 SHOT-1.1](qplib-SHOT.html) | 1.36 (1.36) | 89%|
-|[🥉 OCTERACT-4.6.0](qplib-OCTERACT.html) | 1.57 (1.57) | 97%|
+|[🥉 OCTERACT-4.7.1](qplib-OCTERACT.html) | 1.55 (1.55) | 97%|
 |[📊 Baron-22.9.1](qplib-BARON.html) | 7.59 (7.59) | 57%|
 |[📊 SCIP-8.0.0](qplib-SCIP.html) | 38.48 (38.50) | 36%|
 |[📊 ANTIGONE-1.1](qplib-ANTIGONE.html) | 78.03 (78.00) | 17%|
@@ -350,6 +350,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/qplib-9-Mar-2023.html">9 Mar 2023</a></li>
 <li><a href="/mittelmann-plots/qplib-28-Feb-2023.html">28 Feb 2023</a></li>
 <li><a href="/mittelmann-plots/qplib-4-Feb-2023.html">4 Feb 2023</a></li>
 <li><a href="/mittelmann-plots/qplib-13-Nov-2022.html">13 Nov 2022</a></li>
@@ -382,26 +383,27 @@ Choose base solver for comparison:
 ---
 
 
-## [Nonconvex QUBO-QPLIB Benchmark (19 Apr 2023)](http://plato.asu.edu/ftp/qubo.html)
+## [Nonconvex QUBO-QPLIB Benchmark (22 Apr 2023)](http://plato.asu.edu/ftp/qubo.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 23|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](qubo-vbest.html) | 0.98  | 65%|
+|[⭐ virtual best](qubo-vbest.html) | 0.87  | 70%|
 |[🥇 QuBowl](qubo-QUBOWL.html) | 1.00 (1.00) | 65%|
 |[🥈 Gurobi-10.0.1](qubo-GUROBI.html) | 1.46 (1.46) | 57%|
 |[🥉 OCTERACT-4.7.1](qubo-OCTERACT.html) | 1.80 (1.80) | 52%|
 |[📊 Baron-23.1.5](qubo-BARON.html) | 1.86 (1.86) | 52%|
 |[📊 SHOT-1.1](qubo-SHOT.html) | 2.06 (2.06) | 48%|
 |[📊 McSparse-2.0](qubo-MCSPARSE.html) | 2.44 (2.44) | 52%|
+|[📊 Biqbin](qubo-BIQBIN.html) | 5.31 (5.31) | 43%|
 |[📊 SCIP-8.0](qubo-SCIP.html) | 5.65 (5.65) | 35%|
-|[📊 BQCRUNCH](qubo-BQCRUNCH.html) | 11.70 (11.70) | 13%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/qubo-19-Apr-2023.html">19 Apr 2023</a></li>
 <li><a href="/mittelmann-plots/qubo-8-Mar-2023.html">8 Mar 2023</a></li>
 <li><a href="/mittelmann-plots/qubo-26-Feb-2023.html">26 Feb 2023</a></li>
 <li><a href="/mittelmann-plots/qubo-16-Feb-2023.html">16 Feb 2023</a></li>
@@ -411,15 +413,15 @@ Choose base solver for comparison:
 ---
 
 
-## [Discrete Non-Convex QPLIB Benchmark (non-binary) (11 Mar 2023)](http://plato.asu.edu/ftp/nonbinary.html)
+## [Discrete Non-Convex QPLIB Benchmark (non-binary) (23 Apr 2023)](http://plato.asu.edu/ftp/nonbinary.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 102|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](nonbinary-vbest.html) | 0.28  | 99%|
+|[⭐ virtual best](nonbinary-vbest.html) | 0.27  | 99%|
 |[🥇 Gurobi-10.0.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 79%|
 |[🥈 SHOT-1.1](nonbinary-SHOT.html) | 1.19 (1.19) | 79%|
-|[🥉 OCTERACT-4.6.0](nonbinary-OCTERACT.html) | 4.16 (4.16) | 75%|
+|[🥉 OCTERACT-4.7.1](nonbinary-OCTERACT.html) | 3.21 (3.21) | 77%|
 |[📊 SCIP-8.0.0](nonbinary-SCIP.html) | 18.70 (18.70) | 36%|
 |[📊 Baron-22.9.1](nonbinary-BARON.html) | 29.31 (29.30) | 30%|
 |[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 31.22 (31.20) | 28%|
@@ -430,6 +432,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/nonbinary-11-Mar-2023.html">11 Mar 2023</a></li>
 <li><a href="/mittelmann-plots/nonbinary-6-Feb-2023.html">6 Feb 2023</a></li>
 <li><a href="/mittelmann-plots/nonbinary-20-Nov-2022.html">20 Nov 2022</a></li>
 <li><a href="/mittelmann-plots/nonbinary-10-Sep-2022.html">10 Sep 2022</a></li>
@@ -456,14 +459,14 @@ Choose base solver for comparison:
 ---
 
 
-## [Continuous Non-Convex QPLIB Benchmark (6 Apr 2023)](http://plato.asu.edu/ftp/cnconv.html)
+## [Continuous Non-Convex QPLIB Benchmark (26 Apr 2023)](http://plato.asu.edu/ftp/cnconv.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 66|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](cnconv-vbest.html) | 0.22  | 97%|
+|[⭐ virtual best](cnconv-vbest.html) | 0.21  | 97%|
 |[🥇 GUROBI-10.0.0](cnconv-GUROBI.html) | 1.00 (1.00) | 65%|
-|[🥈 OCTERACT-4.6.0](cnconv-OCTERACT.html) | 1.59 (1.59) | 67%|
+|[🥈 OCTERACT-4.7.1](cnconv-OCTERACT.html) | 1.42 (1.42) | 70%|
 |[🥉 Baron-23.1.5](cnconv-BARON.html) | 3.81 (3.81) | 42%|
 |[📊 ANTIGONE-1.1](cnconv-ANTIGONE.html) | 5.37 (5.37) | 42%|
 |[📊 MINOTAUR-0.3.0](cnconv-MINOTAUR.html) | 9.45 (9.45) | 20%|
@@ -476,6 +479,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/cnconv-6-Apr-2023.html">6 Apr 2023</a></li>
 <li><a href="/mittelmann-plots/cnconv-15-Mar-2023.html">15 Mar 2023</a></li>
 <li><a href="/mittelmann-plots/cnconv-8-Feb-2023.html">8 Feb 2023</a></li>
 <li><a href="/mittelmann-plots/cnconv-7-Jan-2023.html">7 Jan 2023</a></li>
@@ -595,24 +599,25 @@ Choose base solver for comparison:
 ---
 
 
-## [Mixed Integer Nonlinear Programming Benchmark (MINLPLIB) (5 Feb 2023)](http://plato.asu.edu/ftp/minlp.html)
+## [Mixed Integer Nonlinear Programming Benchmark (MINLPLIB) (20 Apr 2023)](http://plato.asu.edu/ftp/minlp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 87|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](minlp-vbest.html) | 0.47  | 99%|
-|[🥇 OCTERACT](minlp-OCTERACT.html) | 1.00 (1.00) | 97%|
-|[🥈 BARON](minlp-BARON.html) | 2.47 (2.50) | 85%|
-|[🥉 SCIP](minlp-SCIP.html) | 6.81 (6.80) | 74%|
-|[📊 LINDO](minlp-LINDO.html) | 21.65 (21.60) | 48%|
-|[📊 ANTIGONE](minlp-ANTIGONE.html) | 25.91 (25.90) | 61%|
-|[📊 COUENNE](minlp-COUENNE.html) | 59.17 (59.10) | 28%|
+|[⭐ virtual best](minlp-vbest.html) | 0.62  | 100%|
+|[🥇 OCTERACT](minlp-OCTERACT.html) | 1.00 (1.00) | 100%|
+|[🥈 BARON](minlp-BARON.html) | 3.75 (3.80) | 85%|
+|[🥉 SCIP](minlp-SCIP.html) | 10.34 (10.30) | 74%|
+|[📊 LINDO](minlp-LINDO.html) | 32.85 (32.80) | 48%|
+|[📊 ANTIGONE](minlp-ANTIGONE.html) | 39.32 (39.30) | 61%|
+|[📊 COUENNE](minlp-COUENNE.html) | 89.78 (89.80) | 28%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/minlp-5-Feb-2023.html">5 Feb 2023</a></li>
 <li><a href="/mittelmann-plots/minlp-29-Jan-2023.html">29 Jan 2023</a></li>
 <li><a href="/mittelmann-plots/minlp-24-Jan-2023.html">24 Jan 2023</a></li>
 <li><a href="/mittelmann-plots/minlp-27-Oct-2022.html">27 Oct 2022</a></li>
