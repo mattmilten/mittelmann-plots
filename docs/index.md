@@ -507,14 +507,14 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Continuous QPLIB Benchmark (25 Mar 2023)](http://plato.asu.edu/ftp/cconvex.html)
+## [Convex Continuous QPLIB Benchmark (6 May 2023)](http://plato.asu.edu/ftp/cconvex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](cconvex-vbest.html) | 0.85  | 100%|
 |[🥇 COPT-6.5.0](cconvex-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 MOSEK-10.0.18](cconvex-MOSEK.html) | 1.31 (1.31) | 100%|
+|[🥈 MOSEK-10.0.38](cconvex-MOSEK.html) | 1.10 (1.10) | 100%|
 |[🥉 KNITRO-13.0.0](cconvex-KNITRO.html) | 1.50 (1.50) | 100%|
 |[📊 Gurobi-10.0.0](cconvex-Gurobi.html) | 1.91 (1.91) | 94%|
 |[📊 IPOPT-3.14.5](cconvex-IPOPT.html) | 7.16 (7.16) | 91%|
@@ -524,6 +524,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/cconvex-25-Mar-2023.html">25 Mar 2023</a></li>
 <li><a href="/mittelmann-plots/cconvex-26-Nov-2022.html">26 Nov 2022</a></li>
 <li><a href="/mittelmann-plots/cconvex-29-Aug-2022.html">29 Aug 2022</a></li>
 <li><a href="/mittelmann-plots/cconvex-26-Jul-2022.html">26 Jul 2022</a></li>
