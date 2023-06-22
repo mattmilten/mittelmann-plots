@@ -7,7 +7,7 @@ instance. This might reveal how much potential the individual solvers still have
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [LPfeas Benchmark (find PD feasible point) (24 Mar 2023)](http://plato.asu.edu/ftp/lpfeas.html)
+## [LPfeas Benchmark (find PD feasible point) (21 Jun 2023)](http://plato.asu.edu/ftp/lpfeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 71|
@@ -19,7 +19,7 @@ Choose base solver for comparison:
 |[📊 ORTOOLS-9.6](lpfeas-PDLP%.html) | 15.80 (15.80) | 77%|
 |[📊 HiGHS-1.4.1](lpfeas-HiGHS.html) | 18.62 (18.60) | 82%|
 |[📊 KNITRO-13.0.0](lpfeas-KNITRO.html) | 21.30 (21.30) | 70%|
-|[📊 MATLAB-R2022b](lpfeas-MATL.html) | 27.97 (24.20) | 79%|
+|[📊 MATLAB-R2023a](lpfeas-MATL.html) | 23.71 (23.70) | 80%|
 |[📊 Tulip-0.9.4](lpfeas-TULIP.html) | 72.13 (72.10) | 56%|
 
 
@@ -27,6 +27,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpfeas-24-Mar-2023.html">24 Mar 2023</a></li>
 <li><a href="/mittelmann-plots/lpfeas-22-Mar-2023.html">22 Mar 2023</a></li>
 <li><a href="/mittelmann-plots/lpfeas-9-Dec-2022.html">9 Dec 2022</a></li>
 </ul></details>
