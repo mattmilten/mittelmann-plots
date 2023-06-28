@@ -63,14 +63,14 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Network-LP Benchmark (commercial vs free) (24 Mar 2023)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (27 Jun 2023)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 25|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](network-vbest.html) | 0.88  | 100%|
+|[⭐ virtual best](network-vbest.html) | 0.84  | 100%|
 |[🥇 OptVerse-0.2.13](network-OPTV.html) | 1.00 (1.00) | 100%|
-|[🥈 MindOpt-0.18.6](network-MDOPT.html) | 1.20 (1.20) | 100%|
+|[🥈 MindOpt-0.24.1](network-MDOPT.html) | 1.09 (1.09) | 100%|
 |[🥉 Gurobi-10.0.0](network-GUR.html) | 1.60 (1.60) | 100%|
 |[📊 COPT-6.5.0](network-COPT.html) | 1.99 (1.99) | 100%|
 |[📊 Clp-1.17.7](network-CLP.html) | 5.66 (5.66) | 100%|
@@ -85,6 +85,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/network-24-Mar-2023.html">24 Mar 2023</a></li>
 <li><a href="/mittelmann-plots/network-24-Jan-2023.html">24 Jan 2023</a></li>
 <li><a href="/mittelmann-plots/network-9-Dec-2022.html">9 Dec 2022</a></li>
 <li><a href="/mittelmann-plots/network-12-Nov-2022.html">12 Nov 2022</a></li>
@@ -200,7 +201,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Infeasibility Detection for MILP Problems (13 Apr 2023)](http://plato.asu.edu/ftp/infeas.html)
+## [Infeasibility Detection for MILP Problems (27 Jun 2023)](http://plato.asu.edu/ftp/infeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
@@ -212,13 +213,14 @@ Choose base solver for comparison:
 |[📊 HiGHS-1.5.0](infeas-HiGHS.html) | 7.04 (7.04) | 94%|
 |[📊 SCIP-8.0.0](infeas-SCIP.html) | 8.00 (8.00) | 78%|
 |[📊 CBC-2.10.5](infeas-CBC.html) | 19.53 (19.50) | 62%|
-|[📊 MATLAB-2020b](infeas-MATLAB.html) | 30.36 (30.00) | 47%|
+|[📊 MATLAB-2023a](infeas-MATLAB.html) | 38.65 (38.70) | 50%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/infeas-13-Apr-2023.html">13 Apr 2023</a></li>
 <li><a href="/mittelmann-plots/infeas-24-Mar-2023.html">24 Mar 2023</a></li>
 <li><a href="/mittelmann-plots/infeas-22-Nov-2022.html">22 Nov 2022</a></li>
 <li><a href="/mittelmann-plots/infeas-24-Jul-2022.html">24 Jul 2022</a></li>
@@ -233,14 +235,14 @@ Choose base solver for comparison:
 ---
 
 
-## [Several SDP-codes on sparse and other SDP problems (24 Mar 2023)](http://plato.asu.edu/ftp/sparse_sdp.html)
+## [Several SDP-codes on sparse and other SDP problems (27 Jun 2023)](http://plato.asu.edu/ftp/sparse_sdp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 76|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](sparse_sdp-vbest.html) | 0.60  | 99%|
+|[⭐ virtual best](sparse_sdp-vbest.html) | 0.58  | 99%|
 |[🥇 COPT-6.5.0](sparse_sdp-COPT.html) | 1.00 (1.00) | 99%|
-|[🥈 MindOpt-0.22.0](sparse_sdp-MDOPT.html) | 1.91 (1.94) | 97%|
+|[🥈 MindOpt-0.24.1](sparse_sdp-MDOPT.html) | 1.35 (1.36) | 99%|
 |[🥉 MOSEK-10.0.27](sparse_sdp-MOSEK.html) | 3.21 (3.31) | 95%|
 |[📊 SDPT3-4.0](sparse_sdp-SDPT3.html) | 4.80 (4.98) | 91%|
 |[📊 CSDP-6.2.0](sparse_sdp-CSDP.html) | 4.87 (5.05) | 92%|
@@ -253,6 +255,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/sparse_sdp-24-Mar-2023.html">24 Mar 2023</a></li>
 <li><a href="/mittelmann-plots/sparse_sdp-4-Nov-2022.html">4 Nov 2022</a></li>
 <li><a href="/mittelmann-plots/sparse_sdp-30-Oct-2022.html">30 Oct 2022</a></li>
 <li><a href="/mittelmann-plots/sparse_sdp-13-Oct-2022.html">13 Oct 2022</a></li>
