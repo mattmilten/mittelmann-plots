@@ -390,7 +390,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Nonconvex QUBO-QPLIB Benchmark (22 Apr 2023)](http://plato.asu.edu/ftp/qubo.html)
+## [Nonconvex QUBO-QPLIB Benchmark (10 Jul 2023)](http://plato.asu.edu/ftp/qubo.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 23|
@@ -399,7 +399,7 @@ Choose base solver for comparison:
 |[🥇 QuBowl](qubo-QUBOWL.html) | 1.00 (1.00) | 65%|
 |[🥈 Gurobi-10.0.1](qubo-GUROBI.html) | 1.46 (1.46) | 57%|
 |[🥉 OCTERACT-4.7.1](qubo-OCTERACT.html) | 1.80 (1.80) | 52%|
-|[📊 Baron-23.1.5](qubo-BARON.html) | 1.86 (1.86) | 52%|
+|[📊 Baron-23.6.22](qubo-BARON.html) | 1.85 (1.85) | 52%|
 |[📊 SHOT-1.1](qubo-SHOT.html) | 2.06 (2.06) | 48%|
 |[📊 McSparse-2.0](qubo-MCSPARSE.html) | 2.44 (2.44) | 52%|
 |[📊 Biqbin](qubo-BIQBIN.html) | 5.31 (5.31) | 43%|
@@ -410,6 +410,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/qubo-22-Apr-2023.html">22 Apr 2023</a></li>
 <li><a href="/mittelmann-plots/qubo-19-Apr-2023.html">19 Apr 2023</a></li>
 <li><a href="/mittelmann-plots/qubo-8-Mar-2023.html">8 Mar 2023</a></li>
 <li><a href="/mittelmann-plots/qubo-26-Feb-2023.html">26 Feb 2023</a></li>
@@ -553,7 +554,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Discrete QPLIB Benchmark (30 Jun 2023)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (10 Jul 2023)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 31|
@@ -563,9 +564,9 @@ Choose base solver for comparison:
 |[🥈 GUROBI-10.0.0](convex-GUROBI.html) | 1.01 (1.01) | 81%|
 |[🥉 Shot-1.1](convex-SHOT.html) | 1.14 (1.14) | 81%|
 |[📊 OCTACT](convex-OCTACT.html) | 2.37 (2.37) | 77%|
+|[📊 Baron-23.6.22](convex-BARON.html) | 7.11 (7.11) | 61%|
 |[📊 MOSEK-10.0.46](convex-MOSEK.html) | 8.91 (8.91) | 61%|
 |[📊 KNITRO-13.1.0](convex-KNITRO.html) | 13.01 (13.00) | 52%|
-|[📊 Baron-22.9.1](convex-BARON.html) | 13.75 (13.70) | 58%|
 |[📊 SCIP-8.0.0](convex-SCIP.html) | 35.89 (35.90) | 39%|
 |[📊 MNTAUR](convex-MNTAUR.html) | 41.12 (41.10) | 45%|
 |[📊 Bonmin-1.8.7](convex-BONMIN.html) | 53.09 (53.10) | 23%|
@@ -575,6 +576,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/convex-30-Jun-2023.html">30 Jun 2023</a></li>
 <li><a href="/mittelmann-plots/convex-19-Apr-2023.html">19 Apr 2023</a></li>
 <li><a href="/mittelmann-plots/convex-25-Mar-2023.html">25 Mar 2023</a></li>
 <li><a href="/mittelmann-plots/convex-8-Mar-2023.html">8 Mar 2023</a></li>
@@ -609,14 +611,14 @@ Choose base solver for comparison:
 ---
 
 
-## [Mixed Integer Nonlinear Programming Benchmark (MINLPLIB) (20 Apr 2023)](http://plato.asu.edu/ftp/minlp.html)
+## [Mixed Integer Nonlinear Programming Benchmark (MINLPLIB) (10 Jul 2023)](http://plato.asu.edu/ftp/minlp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 87|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](minlp-vbest.html) | 0.62  | 100%|
+|[⭐ virtual best](minlp-vbest.html) | 0.57  | 100%|
 |[🥇 OCTERACT](minlp-OCTERACT.html) | 1.00 (1.00) | 100%|
-|[🥈 BARON](minlp-BARON.html) | 3.75 (3.80) | 85%|
+|[🥈 BARON](minlp-BARON.html) | 2.34 (2.30) | 89%|
 |[🥉 SCIP](minlp-SCIP.html) | 10.34 (10.30) | 74%|
 |[📊 LINDO](minlp-LINDO.html) | 32.85 (32.80) | 48%|
 |[📊 ANTIGONE](minlp-ANTIGONE.html) | 39.32 (39.30) | 61%|
@@ -627,6 +629,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/minlp-20-Apr-2023.html">20 Apr 2023</a></li>
 <li><a href="/mittelmann-plots/minlp-5-Feb-2023.html">5 Feb 2023</a></li>
 <li><a href="/mittelmann-plots/minlp-29-Jan-2023.html">29 Jan 2023</a></li>
 <li><a href="/mittelmann-plots/minlp-24-Jan-2023.html">24 Jan 2023</a></li>
