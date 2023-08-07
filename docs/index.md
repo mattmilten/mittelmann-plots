@@ -237,7 +237,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Several SDP-codes on sparse and other SDP problems (27 Jun 2023)](http://plato.asu.edu/ftp/sparse_sdp.html)
+## [Several SDP-codes on sparse and other SDP problems (6 Aug 2023)](http://plato.asu.edu/ftp/sparse_sdp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 76|
@@ -245,7 +245,7 @@ Choose base solver for comparison:
 |[⭐ virtual best](sparse_sdp-vbest.html) | 0.58  | 99%|
 |[🥇 COPT-6.5.0](sparse_sdp-COPT.html) | 1.00 (1.00) | 99%|
 |[🥈 MindOpt-0.24.1](sparse_sdp-MDOPT.html) | 1.35 (1.36) | 99%|
-|[🥉 MOSEK-10.0.27](sparse_sdp-MOSEK.html) | 3.21 (3.31) | 95%|
+|[🥉 MOSEK-10.0.46](sparse_sdp-MOSEK.html) | 3.41 (3.52) | 95%|
 |[📊 SDPT3-4.0](sparse_sdp-SDPT3.html) | 4.80 (4.98) | 91%|
 |[📊 CSDP-6.2.0](sparse_sdp-CSDP.html) | 4.87 (5.05) | 92%|
 |[📊 HDSDP-0.9.2](sparse_sdp-HDSDP.html) | 7.86 (8.22) | 92%|
@@ -257,6 +257,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/sparse_sdp-27-Jun-2023.html">27 Jun 2023</a></li>
 <li><a href="/mittelmann-plots/sparse_sdp-24-Mar-2023.html">24 Mar 2023</a></li>
 <li><a href="/mittelmann-plots/sparse_sdp-4-Nov-2022.html">4 Nov 2022</a></li>
 <li><a href="/mittelmann-plots/sparse_sdp-30-Oct-2022.html">30 Oct 2022</a></li>
