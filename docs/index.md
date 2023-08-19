@@ -7,15 +7,15 @@ instance. This might reveal how much potential the individual solvers still have
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [LPfeas Benchmark (find PD feasible point) (16 Aug 2023)](http://plato.asu.edu/ftp/lpfeas.html)
+## [LPfeas Benchmark (find PD feasible point) (18 Aug 2023)](http://plato.asu.edu/ftp/lpfeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 65|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](lpfeas-vbest.html) | 0.67  | 100%|
+|[⭐ virtual best](lpfeas-vbest.html) | 0.71  | 100%|
 |[🥇 COPT-6.5.0](lpfeas-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 Gurobi-10.0.0](lpfeas-Gurobi.html) | 1.06 (1.06) | 100%|
-|[🥉 MOSEK-10.0.25](lpfeas-MOSEK.html) | 2.10 (2.10) | 100%|
+|[🥉 MOSEK-10.1.9](lpfeas-MOSEK.html) | 2.50 (2.50) | 98%|
 |[📊 ORTOOLS-9.6](lpfeas-PDLP%.html) | 17.11 (17.10) | 75%|
 |[📊 HiGHS-1.4.1](lpfeas-HiGHS.html) | 19.24 (19.20) | 80%|
 |[📊 KNITRO-13.0.0](lpfeas-KNITRO.html) | 21.65 (21.60) | 68%|
@@ -27,6 +27,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpfeas-16-Aug-2023.html">16 Aug 2023</a></li>
 <li><a href="/mittelmann-plots/lpfeas-21-Jun-2023.html">21 Jun 2023</a></li>
 <li><a href="/mittelmann-plots/lpfeas-24-Mar-2023.html">24 Mar 2023</a></li>
 <li><a href="/mittelmann-plots/lpfeas-22-Mar-2023.html">22 Mar 2023</a></li>
@@ -65,7 +66,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Network-LP Benchmark (commercial vs free) (27 Jun 2023)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (18 Aug 2023)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 25|
@@ -78,7 +79,7 @@ Choose base solver for comparison:
 |[📊 Clp-1.17.7](network-CLP.html) | 5.66 (5.66) | 100%|
 |[📊 HiGHS-1.4.1](network-HGHS.html) | 11.91 (11.90) | 80%|
 |[📊 MATLAB-R2022b](network-MATL.html) | 19.84 (19.80) | 80%|
-|[📊 MOSEK-10.0.24](network-MOSEK.html) | 24.46 (24.50) | 88%|
+|[📊 MOSEK-10.1.9](network-MOSEK.html) | 25.04 (25.00) | 88%|
 |[📊 QSopt-1.01](network-QSOPT.html) | 33.08 (33.10) | 68%|
 |[📊 SOPLEX-6.0.0](network-SPLX.html) | 62.91 (62.90) | 64%|
 
@@ -87,6 +88,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/network-27-Jun-2023.html">27 Jun 2023</a></li>
 <li><a href="/mittelmann-plots/network-24-Mar-2023.html">24 Mar 2023</a></li>
 <li><a href="/mittelmann-plots/network-24-Jan-2023.html">24 Jan 2023</a></li>
 <li><a href="/mittelmann-plots/network-9-Dec-2022.html">9 Dec 2022</a></li>
