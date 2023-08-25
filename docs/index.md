@@ -37,7 +37,7 @@ Choose base solver for comparison:
 ---
 
 
-## [LPopt Benchmark (find optimal basic solution) (16 Aug 2023)](http://plato.asu.edu/ftp/lpopt.html)
+## [LPopt Benchmark (find optimal basic solution) (18 Aug 2023)](http://plato.asu.edu/ftp/lpopt.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 65|
@@ -46,7 +46,7 @@ Choose base solver for comparison:
 |[🥇 COPT-6.5.0](lpopt-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 Gurobi-10.0.0](lpopt-Gurob.html) | 1.26 (1.26) | 100%|
 |[🥉 Optverse-0.2.13](lpopt-OPTV.html) | 3.76 (3.76) | 89%|
-|[📊 MOSEK-10.0.24](lpopt-MOSEK.html) | 5.66 (5.66) | 80%|
+|[📊 MOSEK-10.1.9](lpopt-MOSEK.html) | 5.46 (5.66) | 80%|
 |[📊 HiGHS-1.4.1](lpopt-HiGHS.html) | 17.03 (17.00) | 78%|
 |[📊 CLP-1.17.7](lpopt-CLP.html) | 25.42 (25.50) | 62%|
 |[📊 MATLAB-R2022b](lpopt-MATL.html) | 38.76 (38.80) | 65%|
@@ -58,6 +58,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpopt-16-Aug-2023.html">16 Aug 2023</a></li>
 <li><a href="/mittelmann-plots/lpopt-24-Mar-2023.html">24 Mar 2023</a></li>
 <li><a href="/mittelmann-plots/lpopt-25-Jan-2023.html">25 Jan 2023</a></li>
 <li><a href="/mittelmann-plots/lpopt-14-Dec-2022.html">14 Dec 2022</a></li>
