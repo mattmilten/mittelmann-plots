@@ -404,26 +404,27 @@ Choose base solver for comparison:
 ---
 
 
-## [Nonconvex QUBO-QPLIB Benchmark (10 Jul 2023)](http://plato.asu.edu/ftp/qubo.html)
+## [Nonconvex QUBO-QPLIB Benchmark (20 Sep 2023)](http://plato.asu.edu/ftp/qubo.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 23|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](qubo-vbest.html) | 0.87  | 70%|
+|[⭐ virtual best](qubo-vbest.html) | 0.88  | 70%|
 |[🥇 QuBowl](qubo-QUBOWL.html) | 1.00 (1.00) | 65%|
-|[🥈 Gurobi-10.0.1](qubo-GUROBI.html) | 1.46 (1.46) | 57%|
-|[🥉 OCTERACT-4.7.1](qubo-OCTERACT.html) | 1.80 (1.80) | 52%|
-|[📊 Baron-23.6.22](qubo-BARON.html) | 1.85 (1.85) | 52%|
-|[📊 SHOT-1.1](qubo-SHOT.html) | 2.06 (2.06) | 48%|
-|[📊 McSparse-2.0](qubo-MCSPARSE.html) | 2.44 (2.44) | 52%|
-|[📊 Biqbin](qubo-BIQBIN.html) | 5.31 (5.31) | 43%|
-|[📊 SCIP-8.0](qubo-SCIP.html) | 5.65 (5.65) | 35%|
+|[🥈 Gurobi-10.0.1](qubo-GUROBI.html) | 1.41 (1.41) | 57%|
+|[🥉 OCTERACT-4.7.1](qubo-OCTERACT.html) | 1.74 (1.74) | 52%|
+|[📊 Baron-23.6.22](qubo-BARON.html) | 1.79 (1.79) | 52%|
+|[📊 SHOT-1.1](qubo-SHOT.html) | 1.99 (1.99) | 48%|
+|[📊 McSparse-2.0](qubo-MCSPARSE.html) | 2.36 (2.36) | 52%|
+|[📊 Biqbin](qubo-BIQBIN.html) | 5.40 (5.40) | 39%|
+|[📊 SCIP-8.0](qubo-SCIP.html) | 5.46 (5.46) | 35%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/qubo-10-Jul-2023.html">10 Jul 2023</a></li>
 <li><a href="/mittelmann-plots/qubo-22-Apr-2023.html">22 Apr 2023</a></li>
 <li><a href="/mittelmann-plots/qubo-19-Apr-2023.html">19 Apr 2023</a></li>
 <li><a href="/mittelmann-plots/qubo-8-Mar-2023.html">8 Mar 2023</a></li>
