@@ -162,8 +162,8 @@ def parse_table(url, session, timelimit=3600, threads=1):
         _score = scoretab[3].split()[1:]
         solver = scoretab[0].split()[:]
         # remove FSMOOTHIE results because they are not in the detailed table, yet
-        solver.remove("FSM")
-        solver.remove("FSMX")
+        solver.remove("SMOO")
+        solver.remove("XSMOO")
         stats["solver"] = solver
         stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
         stats["version"] = {s: get_version(s, _version) for s in solver}
