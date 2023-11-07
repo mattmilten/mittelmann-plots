@@ -39,6 +39,8 @@ def get_version(s, version):
         s = "SCIPC"
     elif s in ["PDLP%"]:
         s = "ORTOOLS"
+    elif s in ["OCTACT"]:
+        s = "OCTERACT"
 
     match = [v for v in version if v.lower().startswith(s.lower())]
     return match[0] if match else s
@@ -67,7 +69,6 @@ def parse_table(url, session, timelimit=3600, threads=1):
         _score = tab[tabmark[0] - 2].split()[2:]
         _solved = tab[tabmark[0] - 1].split()[1:]
         solver = tab[tabmark[0] + 1].split()[1:]
-        solver.remove("MDOPT")
         stats["solver"] = solver
         stats["nprobs"] = len(tab[tabmark[1] + 1 : tabmark[2]])
         stats["score"] = {
@@ -89,7 +90,6 @@ def parse_table(url, session, timelimit=3600, threads=1):
         _score = tab[tabmark[0] - 2].split()[2:]
         _solved = tab[tabmark[0] - 1].split()[1:]
         solver = tab[tabmark[0] + 1].split()[1:]
-        solver.remove("MDOPT")
         stats["solver"] = solver
         stats["nprobs"] = len(tab[tabmark[1] + 1 : tabmark[2]])
         stats["score"] = {
@@ -156,7 +156,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
             elif c.startswith("MATLAB"):
                 columns[i] = "Matlab"    
 
-        _version = str(soup.contents[2]).split("<p>")[4].split("\n")[1:-2]
+        _version = str(soup.contents[2]).split("<p>")[4].split("\n")[1:-1]
         _version = [x.split()[0].rstrip(":") for x in _version]
         _solved = scoretab[4].split()[1:]
         _score = scoretab[3].split()[1:]
@@ -195,8 +195,10 @@ def parse_table(url, session, timelimit=3600, threads=1):
                 columns[i] = "SCIP"
             elif c.startswith("SCIPC-cpx"):
                 columns[i] = "SCIPC"
+            elif c.startswith("MDOPT"):
+                columns[i] = "MindOpt"
 
-        _version = str(soup.contents[2]).split("<br/>")[1:-1]
+        _version = str(soup.contents[2]).split("<br/>")[1:]
         _version = [x.split()[0].rstrip(":") for x in _version]
         _solved = scoretab[3].split()[:]
         _score = scoretab[2].split()[:]
@@ -230,6 +232,8 @@ def parse_table(url, session, timelimit=3600, threads=1):
                 columns[i] = "SCIP"
             elif c.startswith("SCIP-cpx"):
                 columns[i] = "SCIPC"
+            elif c.startswith("MDOPT"):
+                columns[i] = "MindOpt"
 
         _version = str(soup.contents[2]).split("<p>")[3].split("\n")[1:-1]
         _version = [x.split()[0].rstrip(":") for x in _version]
