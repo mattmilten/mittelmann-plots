@@ -546,24 +546,25 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Continuous QPLIB Benchmark (ext) (5 Nov 2023)](http://plato.asu.edu/ftp/cconvex.html)
+## [Convex Continuous QPLIB Benchmark (ext) (11 Nov 2023)](http://plato.asu.edu/ftp/cconvex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 39|
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](cconvex-vbest.html) | 0.63  | 100%|
 |[🥇 MOSEK-10.1.10](cconvex-MOSEK.html) | 1.00 (1.00) | 100%|
-|[🥈 COPT-7.0.1](cconvex-COPT.html) | 1.06 (1.06) | 97%|
-|[🥉 KNITRO-13.0.0](cconvex-KNITRO.html) | 1.52 (1.52) | 95%|
-|[📊 Gurobi-10.0.3](cconvex-Gurobi.html) | 2.03 (2.03) | 97%|
-|[📊 MindOpt-1.0.0](cconvex-MINDOPT.html) | 2.73 (2.73) | 87%|
-|[📊 IPOPT-3.14.5](cconvex-IPOPT.html) | 6.31 (6.31) | 85%|
+|[🥈 COPT-7.0.1](cconvex-COPT.html) | 1.29 (1.29) | 97%|
+|[🥉 Gurobi-10.0.3](cconvex-Gurobi.html) | 2.03 (2.03) | 97%|
+|[📊 KNITRO-13.0.2](cconvex-KNITRO.html) | 2.09 (2.09) | 90%|
+|[📊 MindOpt-1.0.0](cconvex-MINDOPT.html) | 3.10 (2.90) | 87%|
+|[📊 IPOPT-3.14.5](cconvex-IPOPT.html) | 6.31 (6.31) | 87%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/cconvex-5-Nov-2023.html">5 Nov 2023</a></li>
 <li><a href="/mittelmann-plots/cconvex-26-Aug-2023.html">26 Aug 2023</a></li>
 <li><a href="/mittelmann-plots/cconvex-29-Jun-2023.html">29 Jun 2023</a></li>
 <li><a href="/mittelmann-plots/cconvex-6-May-2023.html">6 May 2023</a></li>
