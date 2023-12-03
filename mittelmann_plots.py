@@ -102,7 +102,6 @@ def parse_table(url, session, timelimit=3600, threads=1):
             [l.split() for l in tab[tabmark[1] + 1 : tabmark[2]]],
             columns=["instance"] + solver,
         )
-        stats["solved"]["Gurobi"] = len(stats["times"][stats["times"]["Gurobi"].astype(float) < timelimit])
 
     elif "network.html" in url:
         tab = pre[2].text.split("\n")
