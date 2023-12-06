@@ -389,13 +389,35 @@ def parse_table(url, session, timelimit=3600, threads=1):
         tabmark = [ind for ind, i in enumerate(tab) if i.startswith("=====")]
         _version = pre[1].text.split("\n")[1:-1]
         _version = [x.split()[0].rstrip(":") for x in _version]
-        _score = tab[1].split()[1:]
-        _solved = tab[2].split()[1:]
-        solver = [s.rstrip("&") for s in tab[4].split()[1:]]
+        _score = tab[2].split()[1:]
+        _solved = tab[3].split()[1:]
+        solver = [s.rstrip("&") for s in tab[5].split()[1:]]
         stats["solver"] = solver
         nprobs = len(tab[tabmark[0] + 3 : tabmark[1]])
         stats["nprobs"] = nprobs
         stats["score"] = {solver[i]: float(_score[i]) for i in range(len(solver))}
+        stats["solved"] = {
+            solver[i]: int(_solved[i].strip("*")) for i in range(len(solver))
+        }
+        stats["version"] = {s: get_version(s, _version) for s in solver}
+        stats["timelimit"] = timelimit
+        stats["times"] = pd.DataFrame(
+            [l.replace("*", "").split() for l in tab[tabmark[0] + 3 : tabmark[1]]],
+            columns=["instance"] + solver,
+        )
+
+    elif "cnconv.html" in url:
+        tab = pre[2].text.split("\n")
+        tabmark = [ind for ind, i in enumerate(tab) if i.startswith("=====")]
+        _version = [x for x in pre[1].text.split("\n") if x]
+        _version = [x.split()[0].rstrip(":") for x in _version]
+        _score = tab[2].split()[1:]
+        _solved = tab[3].split()[1:]
+        solver = [s.rstrip("&*") for s in tab[5].split()[1:]]
+        stats["solver"] = solver
+        nprobs = len(tab[tabmark[0] + 3 : tabmark[1]])
+        stats["nprobs"] = nprobs
+        stats["score"] = {solver[i]: float(_score[i].replace("r","").replace("R","")) for i in range(len(solver))}
         stats["solved"] = {
             solver[i]: int(_solved[i].strip("*")) for i in range(len(solver))
         }
