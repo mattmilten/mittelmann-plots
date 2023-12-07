@@ -41,6 +41,8 @@ def get_version(s, version):
         s = "ORTOOLS"
     elif s in ["OCTACT"]:
         s = "OCTERACT"
+    elif s in ["OPTVER"]:
+        s = "optverse"
 
     match = [v for v in version if v.lower().startswith(s.lower())]
     return match[0] if match else s
@@ -391,7 +393,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
         _version = [x.split()[0].rstrip(":") for x in _version]
         _score = tab[2].split()[1:]
         _solved = tab[3].split()[1:]
-        solver = [s.rstrip("&") for s in tab[5].split()[1:]]
+        solver = [s.rstrip("&*") for s in tab[5].split()[1:]]
         stats["solver"] = solver
         nprobs = len(tab[tabmark[0] + 3 : tabmark[1]])
         stats["nprobs"] = nprobs
