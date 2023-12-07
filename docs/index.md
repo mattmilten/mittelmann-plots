@@ -228,7 +228,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Infeasibility Detection for MILP Problems (30 Nov 2023)](http://plato.asu.edu/ftp/infeas.html)
+## [Infeasibility Detection for MILP Problems (6 Dec 2023)](http://plato.asu.edu/ftp/infeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
@@ -236,7 +236,8 @@ Choose base solver for comparison:
 |[⭐ virtual best](infeas-vbest.html) | 0.98  | 94%|
 |[🥇 GUROBI-11.0.0](infeas-Gurobi.html) | 1.00 (1.00) | 94%|
 |[🥈 COPT-7.0.0](infeas-COPT.html) | 1.47 (1.47) | 94%|
-|[🥉 SCIPC-8.0.0](infeas-SCIPC.html) | 7.19 (8.18) | 81%|
+|[🥉 OptVerse-0.7.0](infeas-optverse.html) | 3.00 (3.00) | 88%|
+|[📊 SCIPC-8.0.0](infeas-SCIPC.html) | 7.19 (8.18) | 81%|
 |[📊 MindOpt-1.0.0](infeas-MindOpt.html) | 7.81 (7.19) | 84%|
 |[📊 HiGHS-1.6.0](infeas-HiGHS.html) | 8.18 (7.81) | 81%|
 |[📊 SCIP-8.0.0](infeas-SCIP.html) | 9.22 (9.22) | 78%|
@@ -248,6 +249,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/infeas-30-Nov-2023.html">30 Nov 2023</a></li>
 <li><a href="/mittelmann-plots/infeas-4-Oct-2023.html">4 Oct 2023</a></li>
 <li><a href="/mittelmann-plots/infeas-27-Jun-2023.html">27 Jun 2023</a></li>
 <li><a href="/mittelmann-plots/infeas-13-Apr-2023.html">13 Apr 2023</a></li>
@@ -462,25 +464,26 @@ Choose base solver for comparison:
 ---
 
 
-## [Discrete Non-Convex QPLIB Benchmark (non-binary) (14 Jul 2023)](http://plato.asu.edu/ftp/nonbinary.html)
+## [Discrete Non-Convex QPLIB Benchmark (non-binary) (6 Dec 2023)](http://plato.asu.edu/ftp/nonbinary.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 102|
+| solver | score (as reported) | solved of 108|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](nonbinary-vbest.html) | 0.27  | 99%|
-|[🥇 Gurobi-10.0.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 79%|
-|[🥈 SHOT-1.1](nonbinary-SHOT.html) | 1.19 (1.19) | 79%|
-|[🥉 OCTERACT-4.7.1](nonbinary-OCTERACT.html) | 3.21 (3.21) | 77%|
-|[📊 Baron-23.6.22](nonbinary-BARON.html) | 7.24 (7.24) | 55%|
-|[📊 SCIP-8.0.0](nonbinary-SCIP.html) | 18.70 (18.70) | 36%|
-|[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 31.22 (31.20) | 28%|
-|[📊 MINOTAUR-0.3.0](nonbinary-MINOTAUR.html) | 37.50 (37.50) | 15%|
+|[⭐ virtual best](nonbinary-vbest.html) | 0.36  | 98%|
+|[🥇 Gurobi-11.0.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 86%|
+|[🥈 SHOT-1.1](nonbinary-SHOT.html) | 2.48 (2.48) | 75%|
+|[🥉 OCTERACT-4.7.1](nonbinary-OCTERACT.html) | 6.31 (6.31) | 73%|
+|[📊 Baron-23.6.22](nonbinary-BARON.html) | 13.58 (13.60) | 52%|
+|[📊 SCIP-8.0.0](nonbinary-SCIP.html) | 33.24 (33.20) | 34%|
+|[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 53.92 (53.90) | 27%|
+|[📊 MINOTAUR-0.3.0](nonbinary-MINOTAUR.html) | 64.13 (64.10) | 14%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/nonbinary-14-Jul-2023.html">14 Jul 2023</a></li>
 <li><a href="/mittelmann-plots/nonbinary-23-Apr-2023.html">23 Apr 2023</a></li>
 <li><a href="/mittelmann-plots/nonbinary-11-Mar-2023.html">11 Mar 2023</a></li>
 <li><a href="/mittelmann-plots/nonbinary-6-Feb-2023.html">6 Feb 2023</a></li>
