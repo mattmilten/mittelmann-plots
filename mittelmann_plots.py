@@ -41,8 +41,10 @@ def get_version(s, version):
         s = "ORTOOLS"
     elif s in ["OCTACT"]:
         s = "OCTERACT"
-    elif s in ["OPTVER"]:
+    elif s in ["OPTVER", "OPTV"]:
         s = "optverse"
+    elif s in ["Matlb"]:
+        s = "Matlab"
 
     match = [v for v in version if v.lower().startswith(s.lower())]
     return match[0] if match else s
@@ -155,16 +157,23 @@ def parse_table(url, session, timelimit=3600, threads=1):
             elif c.startswith("SCIP-cpx"):
                 columns[i] = "SCIPC"
             elif c.startswith("MATLAB"):
-                columns[i] = "Matlab"    
+                columns[i] = "Matlab"
+            elif c.startswith("MDOPT"):
+                columns[i] = "MindOpt"    
 
         _version = str(soup.contents[2]).split("<p>")[4].split("\n")[1:-1]
         _version = [x.split()[0].rstrip(":") for x in _version]
         _solved = scoretab[4].split()[1:]
         _score = scoretab[3].split()[1:]
-        solver = scoretab[0].split()[:]
+        solver = [get_version(s, "") for s in scoretab[0].split()[:]]
         # remove FSMOOTHIE results because they are not in the detailed table, yet
         solver.remove("SMOO")
         solver.remove("XSMOO")
+        # for i in range(len(solver)):
+        #     if solver[i] == "Matlb":
+        #         solver[i] = "Matlab"
+        #     elif solver[i] == "OPTV":
+        #         solver[i] = "optverse"
         stats["solver"] = solver
         stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
         stats["version"] = {s: get_version(s, _version) for s in solver}
