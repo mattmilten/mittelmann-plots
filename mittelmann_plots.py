@@ -33,7 +33,7 @@ def get_version(s, version):
         s = "Mosek"
     elif s in ["HGHS"]:
         s = "HiGHS"
-    elif s in ["GUROBI"]:
+    elif s in ["GUROBI", "Gurob"]:
         s = "Gurobi"
     elif s in ["SCIPC"]:
         s = "SCIPC"
@@ -169,6 +169,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
         # remove FSMOOTHIE results because they are not in the detailed table, yet
         solver.remove("SMOO")
         solver.remove("XSMOO")
+        solver.remove("|MDO_L2O$")
         # for i in range(len(solver)):
         #     if solver[i] == "Matlb":
         #         solver[i] = "Matlab"
