@@ -27,6 +27,8 @@ def get_version(s, version):
         s = "SoPlex"
     elif s in ["MDOPT"]:
         s = "MindOpt"
+    elif s in ["|MDO_L2O$", "MDO_L2O$"]:
+        s = "MindOpt-L2O"
     elif s in ["GLOP"]:
         s = "Google-GLOP"
     elif s in ["MSK"]:
@@ -159,7 +161,9 @@ def parse_table(url, session, timelimit=3600, threads=1):
             elif c.startswith("MATLAB"):
                 columns[i] = "Matlab"
             elif c.startswith("MDOPT"):
-                columns[i] = "MindOpt"    
+                columns[i] = "MindOpt"
+            elif c.startswith("MindOpt-L2O/cp"):
+                columns[i] = "MindOpt-L2O"
 
         _version = str(soup.contents[2]).split("<p>")[4].split("\n")[1:-1]
         _version = [x.split()[0].rstrip(":") for x in _version]
@@ -169,12 +173,6 @@ def parse_table(url, session, timelimit=3600, threads=1):
         # remove FSMOOTHIE results because they are not in the detailed table, yet
         solver.remove("SMOO")
         solver.remove("XSMOO")
-        solver.remove("|MDO_L2O$")
-        # for i in range(len(solver)):
-        #     if solver[i] == "Matlb":
-        #         solver[i] = "Matlab"
-        #     elif solver[i] == "OPTV":
-        #         solver[i] = "optverse"
         stats["solver"] = solver
         stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
         stats["version"] = {s: get_version(s, _version) for s in solver}
@@ -208,12 +206,17 @@ def parse_table(url, session, timelimit=3600, threads=1):
                 columns[i] = "SCIPC"
             elif c.startswith("MDOPT"):
                 columns[i] = "MindOpt"
+            elif c.startswith("MindOpt-L2O/cp"):
+                columns[i] = "MindOpt-L2O"
 
         _version = str(soup.contents[2]).split("<br/>")[1:]
         _version = [x.split()[0].rstrip(":") for x in _version]
         _solved = scoretab[3].split()[:]
+        _solved.remove("|")
         _score = scoretab[2].split()[:]
+        _score.remove("|")
         solver = [get_version(s, "") for s in scoretab[0].split()[:]]
+        solver.remove("|")
         stats["solver"] = solver
         stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
         stats["version"] = {s: get_version(s, _version) for s in solver}
