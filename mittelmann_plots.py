@@ -168,16 +168,22 @@ def parse_table(url, session, timelimit=3600, threads=1):
         _version = str(soup.contents[2]).split("<p>")[4].split("\n")[1:-1]
         _version = [x.split()[0].rstrip(":") for x in _version]
         _solved = scoretab[4].split()[1:]
+        _solved.remove("|")
         _score = scoretab[3].split()[1:]
+        _score.remove("|")
         solver = [get_version(s, "") for s in scoretab[0].split()[:]]
         # remove FSMOOTHIE results because they are not in the detailed table, yet
-        solver.remove("SMOO")
-        solver.remove("XSMOO")
+        remove_results = ["SMOO", "XSMOO"]
+        for r in remove_results:
+            id_r = solver.index(r)
+            del _solved[id_r]
+            del _score[id_r]
+            del solver[id_r]
         stats["solver"] = solver
         stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
         stats["version"] = {s: get_version(s, _version) for s in solver}
         stats["score"] = {
-            solver[i]: float(_score[i].strip("`")) for i in range(len(solver))
+            solver[i]: float(_score[i]) for i in range(len(solver))
         }
         stats["times"] = pd.DataFrame(
             [l.split() for l in tab[tabmark[1] + 1 : tabmark[-2]]],
