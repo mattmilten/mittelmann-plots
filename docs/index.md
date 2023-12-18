@@ -149,11 +149,11 @@ Choose base solver for comparison:
 | solver | score (as reported) | solved of 240|
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](milp_8threads-vbest.html) | 0.61  | 98%|
-|[🥇 MindOpt-L2O](milp_8threads-MindOpt-L2O.html) | 1.00 (4.18) | 82%|
+|[🥇 MindOpt-L2O](milp_8threads-MindOpt-L2O.html) | 1.00 (0.83) | 95%|
 |[🥈 Gurobi-11.0.0](milp_8threads-Gurobi.html) | 1.20 (1.00) | 95%|
 |[🥉 COPT-7.0.0](milp_8threads-COPT.html) | 2.09 (1.74) | 88%|
-|[📊 OptVerse-0.7.0](milp_8threads-optverse.html) | 3.45 (7.07) | 72%|
-|[📊 MindOpt-1.0.0](milp_8threads-MindOpt.html) | 5.01 (8.49) | 68%|
+|[📊 OptVerse-0.7.0](milp_8threads-optverse.html) | 3.45 (2.88) | 84%|
+|[📊 MindOpt-1.0.0](milp_8threads-MindOpt.html) | 5.01 (4.18) | 82%|
 |[📊 HiGHS-1.6.0](milp_8threads-HiGHS.html) | 11.98 (9.98) | 66%|
 |[📊 SCIPC/spx-8.0.0](milp_8threads-SCIPC.html) | 12.10 (10.10) | 63%|
 |[📊 SCIP/spx-8.0.0](milp_8threads-SCIP.html) | 14.78 (12.30) | 57%|
