@@ -35,7 +35,7 @@ def get_version(s, version):
         s = "Mosek"
     elif s in ["HGHS"]:
         s = "HiGHS"
-    elif s in ["GUROBI", "Gurob"]:
+    elif s in ["GUROBI", "Gurob", "GUROB"]:
         s = "Gurobi"
     elif s in ["SCIPC"]:
         s = "SCIPC"
