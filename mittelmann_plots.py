@@ -249,6 +249,8 @@ def parse_table(url, session, timelimit=3600, threads=1):
                 columns[i] = "SCIP"
             elif c.startswith("SCIP-cpx"):
                 columns[i] = "SCIPC"
+            elif c.startswith("GUROB"):
+                columns[i] = "Gurobi"
             elif c.startswith("MDOPT"):
                 columns[i] = "MindOpt"
 
