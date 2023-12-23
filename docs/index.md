@@ -143,30 +143,29 @@ Choose base solver for comparison:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances - 8 threads (18 Dec 2023)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances - 8 threads (7 Dec 2023)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](milp_8threads-vbest.html) | 0.62  | 98%|
-|[🥇 MindOpt-L2O](milp_8threads-MindOpt-L2O.html) | 1.00 (0.81) | 96%|
-|[🥈 Gurobi-11.0.0](milp_8threads-Gurobi.html) | 1.23 (1.00) | 95%|
-|[🥉 COPT-7.0.0](milp_8threads-COPT.html) | 2.15 (1.74) | 88%|
-|[📊 OptVerse-0.7.0](milp_8threads-optverse.html) | 3.55 (2.88) | 84%|
-|[📊 MindOpt-1.0.0](milp_8threads-MindOpt.html) | 5.16 (4.18) | 82%|
-|[📊 HiGHS-1.6.0](milp_8threads-HiGHS.html) | 12.33 (9.98) | 66%|
-|[📊 SCIPC/spx-8.0.0](milp_8threads-SCIPC.html) | 12.44 (10.10) | 63%|
-|[📊 SCIP/spx-8.0.0](milp_8threads-SCIP.html) | 15.21 (12.30) | 57%|
-|[📊 CBC-2.10.5](milp_8threads-CBC.html) | 22.74 (18.40) | 45%|
-|[📊 MATLAB-2023a](milp_8threads-Matlab.html) | 46.49 (37.60) | 30%|
+|[⭐ virtual best](milp_8threads-vbest.html) | 0.67  | 98%|
+|[🥇 Gurobi-11.0.0](milp_8threads-Gurobi.html) | 1.00 (1.00) | 95%|
+|[🥈 COPT-7.0.0](milp_8threads-COPT.html) | 1.74 (1.74) | 88%|
+|[🥉 OptVerse-0.7.0](milp_8threads-optverse.html) | 2.88 (2.88) | 84%|
+|[📊 MindOpt-1.0.0](milp_8threads-MindOpt.html) | 4.18 (4.18) | 82%|
+|[📊 HiGHS-1.6.0](milp_8threads-HiGHS.html) | 9.98 (9.98) | 66%|
+|[📊 SCIPC/spx-8.0.0](milp_8threads-SCIPC.html) | 10.08 (10.10) | 63%|
+|[📊 SCIP/spx-8.0.0](milp_8threads-SCIP.html) | 12.32 (12.30) | 57%|
+|[📊 CBC-2.10.5](milp_8threads-CBC.html) | 18.42 (18.40) | 45%|
+|[📊 MATLAB-2023a](milp_8threads-Matlab.html) | 37.65 (37.60) | 30%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/milp_8threads-18-Dec-2023.html">18 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-17-Dec-2023.html">17 Dec 2023</a></li>
-<li><a href="/mittelmann-plots/milp_8threads-7-Dec-2023.html">7 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-1-Dec-2023.html">1 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-4-Oct-2023.html">4 Oct 2023</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-19-Aug-2023.html">19 Aug 2023</a></li>
@@ -195,16 +194,15 @@ Choose base solver for comparison:
 ---
 
 
-## [MILP cases that are slightly pathological (17 Dec 2023)](http://plato.asu.edu/ftp/path.html)
+## [MILP cases that are slightly pathological (8 Dec 2023)](http://plato.asu.edu/ftp/path.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 45|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](path-vbest.html) | 0.57  | 100%|
+|[⭐ virtual best](path-vbest.html) | 0.65  | 100%|
 |[🥇 GUROBI-11.0.0](path-Gurobi.html) | 1.00 (1.00) | 96%|
-|[🥈 MindOpt-L2O](path-MindOpt-L2O.html) | 2.07 (2.07) | 91%|
-|[🥉 COPT-7.0.0](path-COPT.html) | 2.91 (2.91) | 91%|
-|[📊 OptVerse-0.7.0](path-optverse.html) | 3.89 (3.89) | 80%|
+|[🥈 COPT-7.0.0](path-COPT.html) | 2.91 (2.91) | 91%|
+|[🥉 OptVerse-0.7.0](path-optverse.html) | 3.89 (3.89) | 80%|
 |[📊 MindOpt-1.0.0](path-MindOpt.html) | 16.84 (16.80) | 44%|
 |[📊 HiGHS-1.6.0](path-HiGHS.html) | 19.42 (19.40) | 53%|
 |[📊 SCIPC-8.0.0](path-SCIPC.html) | 22.50 (22.50) | 51%|
@@ -218,7 +216,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
-<li><a href="/mittelmann-plots/path-8-Dec-2023.html">8 Dec 2023</a></li>
+<li><a href="/mittelmann-plots/path-17-Dec-2023.html">17 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/path-30-Nov-2023.html">30 Nov 2023</a></li>
 <li><a href="/mittelmann-plots/path-5-Oct-2023.html">5 Oct 2023</a></li>
 <li><a href="/mittelmann-plots/path-25-Jun-2023.html">25 Jun 2023</a></li>
