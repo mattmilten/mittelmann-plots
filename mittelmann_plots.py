@@ -168,9 +168,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
         _version = str(soup.contents[2]).split("<p>")[4].split("\n")[1:-1]
         _version = [x.split()[0].rstrip(":") for x in _version]
         _solved = scoretab[4].split()[1:]
-        _solved.remove("|")
         _score = scoretab[3].split()[1:]
-        _score.remove("|")
         solver = [get_version(s, "") for s in scoretab[0].split()[:]]
         # remove FSMOOTHIE results because they are not in the detailed table, yet
         remove_results = ["SMOO", "XSMOO"]
@@ -218,9 +216,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
         _version = str(soup.contents[2]).split("<br/>")[1:]
         _version = [x.split()[0].rstrip(":") for x in _version]
         _solved = scoretab[3].split()[:]
-        _solved.remove("|")
         _score = scoretab[2].split()[:]
-        _score.remove("|")
         solver = [get_version(s, "") for s in scoretab[0].split()[:]]
         solver.remove("|")
         stats["solver"] = solver
