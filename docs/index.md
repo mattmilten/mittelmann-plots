@@ -439,7 +439,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Nonconvex QUBO-QPLIB Benchmark (30 Nov 2023)](http://plato.asu.edu/ftp/qubo.html)
+## [Nonconvex QUBO-QPLIB Benchmark (10 Jan 2024)](http://plato.asu.edu/ftp/qubo.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 23|
@@ -452,13 +452,14 @@ Choose base solver for comparison:
 |[📊 SHOT-1.1](qubo-SHOT.html) | 1.99 (1.99) | 48%|
 |[📊 McSparse-2.0](qubo-MCSPARSE.html) | 2.36 (2.36) | 52%|
 |[📊 Biqbin](qubo-BIQBIN.html) | 5.40 (5.40) | 39%|
-|[📊 SCIP-8.0](qubo-SCIP.html) | 5.46 (5.46) | 35%|
+|[📊 SCIP-8.1](qubo-SCIP.html) | 5.46 (5.46) | 35%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/qubo-30-Nov-2023.html">30 Nov 2023</a></li>
 <li><a href="/mittelmann-plots/qubo-20-Sep-2023.html">20 Sep 2023</a></li>
 <li><a href="/mittelmann-plots/qubo-10-Jul-2023.html">10 Jul 2023</a></li>
 <li><a href="/mittelmann-plots/qubo-22-Apr-2023.html">22 Apr 2023</a></li>
@@ -618,7 +619,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Discrete QPLIB Benchmark (30 Nov 2023)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (10 Jan 2024)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 31|
@@ -631,7 +632,7 @@ Choose base solver for comparison:
 |[📊 Baron-23.6.22](convex-BARON.html) | 7.31 (7.30) | 61%|
 |[📊 MOSEK-10.1.9](convex-MOSEK.html) | 10.04 (10.00) | 58%|
 |[📊 KNITRO-13.1.0](convex-KNITRO.html) | 13.39 (13.40) | 52%|
-|[📊 SCIP-8.0.0](convex-SCIP.html) | 36.94 (36.90) | 39%|
+|[📊 SCIP-8.1.0](convex-SCIP.html) | 26.71 (26.70) | 42%|
 |[📊 MNTAUR](convex-MNTAUR.html) | 42.32 (42.30) | 45%|
 |[📊 Bonmin-1.8.7](convex-BONMIN.html) | 54.64 (54.60) | 23%|
 
@@ -640,6 +641,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/convex-30-Nov-2023.html">30 Nov 2023</a></li>
 <li><a href="/mittelmann-plots/convex-27-Sep-2023.html">27 Sep 2023</a></li>
 <li><a href="/mittelmann-plots/convex-17-Aug-2023.html">17 Aug 2023</a></li>
 <li><a href="/mittelmann-plots/convex-10-Jul-2023.html">10 Jul 2023</a></li>
