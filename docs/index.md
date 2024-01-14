@@ -17,7 +17,7 @@ Choose base solver for comparison:
 |[🥈 Gurobi-11.0.0](lpfeas-Gurobi.html) | 1.28 (1.28) | 97%|
 |[🥉 MindOpt-1.0.0](lpfeas-MDOPT.html) | 1.80 (1.80) | 97%|
 |[📊 MOSEK-10.1.9](lpfeas-MOSEK.html) | 2.60 (2.60) | 98%|
-|[📊 XOPT-0.0.3](lpfeas-XOPT.html) | 6.22 (6.22) | 89%|
+|[📊 XOPT-0.0.2](lpfeas-XOPT.html) | 6.22 (6.22) | 89%|
 |[📊 ORTOOLS-9.7](lpfeas-PDLP%.html) | 16.97 (17.00) | 75%|
 |[📊 HiGHS-1.6.0](lpfeas-HiGHS.html) | 19.21 (19.20) | 80%|
 |[📊 KNITRO-13.0.0](lpfeas-KNITRO.html) | 22.89 (22.90) | 66%|
@@ -44,7 +44,7 @@ Choose base solver for comparison:
 ---
 
 
-## [LPopt Benchmark (find optimal basic solution) (13 Dec 2023)](http://plato.asu.edu/ftp/lpopt.html)
+## [LPopt Benchmark (find optimal basic solution) (13 Jan 2024)](http://plato.asu.edu/ftp/lpopt.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 65|
@@ -55,6 +55,7 @@ Choose base solver for comparison:
 |[🥉 Optverse-0.7.1](lpopt-OPTV.html) | 1.66 (1.66) | 98%|
 |[📊 MindOpt-1.0.0](lpopt-MDOPT.html) | 1.89 (1.89) | 97%|
 |[📊 MOSEK-10.1.9](lpopt-MOSEK.html) | 5.61 (5.61) | 80%|
+|[📊 XOPT-0.0.3](lpopt-XOPT.html) | 6.79 (6.79) | 78%|
 |[📊 HiGHS-1.6.0](lpopt-HiGHS.html) | 17.44 (17.40) | 78%|
 |[📊 CLP-1.17.7](lpopt-CLP.html) | 26.12 (26.10) | 62%|
 |[📊 MATLAB-R2022b](lpopt-MATL.html) | 39.83 (39.80) | 65%|
@@ -66,6 +67,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpopt-13-Dec-2023.html">13 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/lpopt-5-Dec-2023.html">5 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/lpopt-30-Nov-2023.html">30 Nov 2023</a></li>
 <li><a href="/mittelmann-plots/lpopt-5-Oct-2023.html">5 Oct 2023</a></li>
@@ -238,7 +240,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Infeasibility Detection for MILP Problems (6 Dec 2023)](http://plato.asu.edu/ftp/infeas.html)
+## [Infeasibility Detection for MILP Problems (13 Jan 2024)](http://plato.asu.edu/ftp/infeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
@@ -248,6 +250,7 @@ Choose base solver for comparison:
 |[🥈 COPT-7.0.0](infeas-COPT.html) | 1.47 (1.47) | 94%|
 |[🥉 OptVerse-0.7.0](infeas-optverse.html) | 3.00 (3.00) | 88%|
 |[📊 SCIPC-8.0.0](infeas-SCIPC.html) | 7.19 (8.18) | 81%|
+|[📊 XOPT-0.0.3](infeas-XOPT.html) | 7.34 (7.34) | 78%|
 |[📊 MindOpt-1.0.0](infeas-MindOpt.html) | 7.81 (7.19) | 84%|
 |[📊 HiGHS-1.6.0](infeas-HiGHS.html) | 8.18 (7.81) | 81%|
 |[📊 SCIP-8.0.0](infeas-SCIP.html) | 9.22 (9.22) | 78%|
@@ -259,6 +262,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/infeas-6-Dec-2023.html">6 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/infeas-30-Nov-2023.html">30 Nov 2023</a></li>
 <li><a href="/mittelmann-plots/infeas-4-Oct-2023.html">4 Oct 2023</a></li>
 <li><a href="/mittelmann-plots/infeas-27-Jun-2023.html">27 Jun 2023</a></li>
@@ -476,7 +480,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Discrete Non-Convex QPLIB Benchmark (non-binary) (6 Dec 2023)](http://plato.asu.edu/ftp/nonbinary.html)
+## [Discrete Non-Convex QPLIB Benchmark (non-binary) (13 Jan 2024)](http://plato.asu.edu/ftp/nonbinary.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 108|
@@ -486,7 +490,7 @@ Choose base solver for comparison:
 |[🥈 SHOT-1.1](nonbinary-SHOT.html) | 2.48 (2.48) | 75%|
 |[🥉 OCTERACT-4.7.1](nonbinary-OCTERACT.html) | 6.31 (6.31) | 73%|
 |[📊 Baron-23.6.22](nonbinary-BARON.html) | 13.58 (13.60) | 52%|
-|[📊 SCIP-8.0.0](nonbinary-SCIP.html) | 33.24 (33.20) | 34%|
+|[📊 SCIP-8.1.0](nonbinary-SCIP.html) | 29.30 (29.30) | 38%|
 |[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 53.92 (53.90) | 27%|
 |[📊 MINOTAUR-0.3.0](nonbinary-MINOTAUR.html) | 64.13 (64.10) | 14%|
 
@@ -495,6 +499,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/nonbinary-6-Dec-2023.html">6 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/nonbinary-14-Jul-2023.html">14 Jul 2023</a></li>
 <li><a href="/mittelmann-plots/nonbinary-23-Apr-2023.html">23 Apr 2023</a></li>
 <li><a href="/mittelmann-plots/nonbinary-11-Mar-2023.html">11 Mar 2023</a></li>
