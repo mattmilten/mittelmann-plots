@@ -7,7 +7,7 @@ instance. This might reveal how much potential the individual solvers still have
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [LPfeas Benchmark (find PD feasible point) (12 Jan 2024)](http://plato.asu.edu/ftp/lpfeas.html)
+## [LPfeas Benchmark (find PD feasible point) (15 Jan 2024)](http://plato.asu.edu/ftp/lpfeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 65|
@@ -17,7 +17,7 @@ Choose base solver for comparison:
 |[🥈 Gurobi-11.0.0](lpfeas-Gurobi.html) | 1.28 (1.28) | 97%|
 |[🥉 MindOpt-1.0.0](lpfeas-MDOPT.html) | 1.80 (1.80) | 97%|
 |[📊 MOSEK-10.1.9](lpfeas-MOSEK.html) | 2.60 (2.60) | 98%|
-|[📊 XOPT-0.0.2](lpfeas-XOPT.html) | 6.22 (6.22) | 89%|
+|[📊 XOPT-0.0.3](lpfeas-XOPT.html) | 5.41 (5.41) | 91%|
 |[📊 ORTOOLS-9.7](lpfeas-PDLP%.html) | 16.97 (17.00) | 75%|
 |[📊 HiGHS-1.6.0](lpfeas-HiGHS.html) | 19.21 (19.20) | 80%|
 |[📊 KNITRO-13.0.0](lpfeas-KNITRO.html) | 22.89 (22.90) | 66%|
@@ -29,6 +29,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpfeas-12-Jan-2024.html">12 Jan 2024</a></li>
 <li><a href="/mittelmann-plots/lpfeas-30-Nov-2023.html">30 Nov 2023</a></li>
 <li><a href="/mittelmann-plots/lpfeas-4-Oct-2023.html">4 Oct 2023</a></li>
 <li><a href="/mittelmann-plots/lpfeas-5-Sep-2023.html">5 Sep 2023</a></li>
@@ -240,7 +241,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Infeasibility Detection for MILP Problems (13 Jan 2024)](http://plato.asu.edu/ftp/infeas.html)
+## [Infeasibility Detection for MILP Problems (14 Jan 2024)](http://plato.asu.edu/ftp/infeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
@@ -249,11 +250,11 @@ Choose base solver for comparison:
 |[🥇 GUROBI-11.0.0](infeas-Gurobi.html) | 1.00 (1.00) | 94%|
 |[🥈 COPT-7.0.0](infeas-COPT.html) | 1.47 (1.47) | 94%|
 |[🥉 OptVerse-0.7.0](infeas-optverse.html) | 3.00 (3.00) | 88%|
-|[📊 SCIPC-8.0.0](infeas-SCIPC.html) | 7.19 (8.18) | 81%|
 |[📊 XOPT-0.0.3](infeas-XOPT.html) | 7.34 (7.34) | 78%|
-|[📊 MindOpt-1.0.0](infeas-MindOpt.html) | 7.81 (7.19) | 84%|
-|[📊 HiGHS-1.6.0](infeas-HiGHS.html) | 8.18 (7.81) | 81%|
-|[📊 SCIP-8.0.0](infeas-SCIP.html) | 9.22 (9.22) | 78%|
+|[📊 MindOpt-1.0.0](infeas-MindOpt.html) | 7.81 (7.81) | 84%|
+|[📊 HiGHS-1.6.0](infeas-HiGHS.html) | 8.18 (8.18) | 81%|
+|[📊 SCIPC-8.1.0](infeas-SCIPC.html) | 8.77 (8.77) | 81%|
+|[📊 SCIP-8.1.0](infeas-SCIP.html) | 9.26 (9.26) | 78%|
 |[📊 CBC-2.10.5](infeas-CBC.html) | 22.51 (22.50) | 62%|
 |[📊 MATLAB-2023a](infeas-MATLAB.html) | 44.55 (44.50) | 50%|
 
@@ -262,6 +263,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/infeas-13-Jan-2024.html">13 Jan 2024</a></li>
 <li><a href="/mittelmann-plots/infeas-6-Dec-2023.html">6 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/infeas-30-Nov-2023.html">30 Nov 2023</a></li>
 <li><a href="/mittelmann-plots/infeas-4-Oct-2023.html">4 Oct 2023</a></li>
@@ -529,7 +531,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Continuous Non-Convex QPLIB Benchmark (5 Dec 2023)](http://plato.asu.edu/ftp/cnconv.html)
+## [Continuous Non-Convex QPLIB Benchmark (14 Jan 2024)](http://plato.asu.edu/ftp/cnconv.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 67|
@@ -540,7 +542,7 @@ Choose base solver for comparison:
 |[🥉 Baron-23.6.22](cnconv-BARON.html) | 3.08 (3.08) | 51%|
 |[📊 ANTIGONE-1.1](cnconv-ANTIGONE.html) | 5.73 (5.73) | 42%|
 |[📊 MINOTAUR-0.3.0](cnconv-MINOTAUR.html) | 9.99 (9.99) | 19%|
-|[📊 SCIP-8.0.0](cnconv-SCIP.html) | 11.63 (11.60) | 19%|
+|[📊 SCIP-8.1.0](cnconv-SCIP.html) | 10.46 (10.50) | 21%|
 |[📊 COUENNE-0.5](cnconv-COUENNE.html) | 13.25 (13.30) | 12%|
 |[📊 RAPOSa-4.0.2](cnconv-RAPOSA.html) | 16.78 (16.80) | 6%|
 
@@ -549,6 +551,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/cnconv-5-Dec-2023.html">5 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/cnconv-18-Jul-2023.html">18 Jul 2023</a></li>
 <li><a href="/mittelmann-plots/cnconv-26-Apr-2023.html">26 Apr 2023</a></li>
 <li><a href="/mittelmann-plots/cnconv-6-Apr-2023.html">6 Apr 2023</a></li>
