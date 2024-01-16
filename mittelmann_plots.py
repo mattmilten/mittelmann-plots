@@ -245,7 +245,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
                 columns[i] = "LP_SOL"
             elif c.startswith("FiberSCIP"):
                 columns[i] = "FSCIP"
-            elif c.startswith("SCIP-spx"):
+            elif c.startswith("SCIP-spx") or c == "SCIP-":
                 columns[i] = "SCIP"
             elif c.startswith("SCIP-cpx"):
                 columns[i] = "SCIPC"
@@ -471,11 +471,8 @@ def parse_table(url, session, timelimit=3600, threads=1):
         )
 
     # clean up non-numeric values and replace with timelimit
-    time = stats["times"]
-    for s in stats["solver"]:
-        time[s] = pd.to_numeric(stats["times"][s], errors="coerce")
-    time.fillna(value=stats["timelimit"], inplace=True)
-    stats["times"] = time
+    stats["times"] = stats["times"].apply(pd.to_numeric, errors="coerce")
+    stats["times"].fillna(value=stats["timelimit"], inplace=True)
 
     return stats
 
