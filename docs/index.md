@@ -199,22 +199,23 @@ Choose base solver for comparison:
 ---
 
 
-## [MILP cases that are slightly pathological (8 Dec 2023)](http://plato.asu.edu/ftp/path.html)
+## [MILP cases that are slightly pathological (15 Jan 2024)](http://plato.asu.edu/ftp/path.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 45|
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](path-vbest.html) | 0.65  | 100%|
-|[🥇 GUROBI-11.0.0](path-Gurobi.html) | 1.00 (1.00) | 96%|
-|[🥈 COPT-7.0.0](path-COPT.html) | 2.91 (2.91) | 91%|
-|[🥉 OptVerse-0.7.0](path-optverse.html) | 3.89 (3.89) | 80%|
-|[📊 MindOpt-1.0.0](path-MindOpt.html) | 16.84 (16.80) | 44%|
-|[📊 HiGHS-1.6.0](path-HiGHS.html) | 19.42 (19.40) | 53%|
-|[📊 SCIPC-8.0.0](path-SCIPC.html) | 22.50 (22.50) | 51%|
-|[📊 SCIP-8.0.0](path-SCIP.html) | 28.83 (28.80) | 42%|
-|[📊 CBC-2.10.7](path-CBC.html) | 45.02 (45.00) | 11%|
-|[📊 GLPK-5.0](path-GLPK.html) | 45.63 (45.60) | 13%|
-|[📊 MATLAB-2023a](path-MATLAB.html) | 60.86 (60.90) | 4%|
+|[🥇 Gurobi](path-Gurobi.html) | 1.00 (1.00) | 96%|
+|[🥈 COPT](path-COPT.html) | 2.91 (2.91) | 91%|
+|[🥉 optverse](path-optverse.html) | 3.89 (3.89) | 80%|
+|[📊 MindOpt](path-MindOpt.html) | 16.84 (16.80) | 44%|
+|[📊 XOPT](path-XOPT.html) | 18.12 (18.10) | 47%|
+|[📊 HiGHS](path-HiGHS.html) | 19.42 (19.40) | 53%|
+|[📊 SCIPC](path-SCIPC.html) | 22.50 (22.50) | 51%|
+|[📊 SCIP](path-SCIP.html) | 28.83 (28.80) | 42%|
+|[📊 CBC](path-CBC.html) | 45.02 (45.00) | 11%|
+|[📊 GLPK](path-GLPK.html) | 45.63 (45.60) | 13%|
+|[📊 MATLAB](path-MATLAB.html) | 60.86 (60.90) | 4%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
@@ -222,6 +223,7 @@ Choose base solver for comparison:
 
 <ul>
 <li><a href="/mittelmann-plots/path-17-Dec-2023.html">17 Dec 2023</a></li>
+<li><a href="/mittelmann-plots/path-8-Dec-2023.html">8 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/path-30-Nov-2023.html">30 Nov 2023</a></li>
 <li><a href="/mittelmann-plots/path-5-Oct-2023.html">5 Oct 2023</a></li>
 <li><a href="/mittelmann-plots/path-25-Jun-2023.html">25 Jun 2023</a></li>
