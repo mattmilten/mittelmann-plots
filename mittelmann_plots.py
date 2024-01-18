@@ -471,8 +471,11 @@ def parse_table(url, session, timelimit=3600, threads=1):
         )
 
     # clean up non-numeric values and replace with timelimit
-    stats["times"] = stats["times"].apply(pd.to_numeric, errors="coerce")
-    stats["times"].fillna(value=stats["timelimit"], inplace=True)
+    time = stats["times"]
+    for s in stats["solver"]:
+        time[s] = pd.to_numeric(stats["times"][s], errors="coerce")
+    time.fillna(value=stats["timelimit"], inplace=True)
+    stats["times"] = time
 
     return stats
 
