@@ -199,7 +199,7 @@ Choose base solver for comparison:
 ---
 
 
-## [MILP cases that are slightly pathological (15 Jan 2024)](http://plato.asu.edu/ftp/path.html)
+## [MILP cases that are slightly pathological (17 Jan 2024)](http://plato.asu.edu/ftp/path.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 45|
@@ -211,8 +211,8 @@ Choose base solver for comparison:
 |[📊 MindOpt](path-MindOpt.html) | 16.84 (16.80) | 44%|
 |[📊 XOPT](path-XOPT.html) | 18.12 (18.10) | 47%|
 |[📊 HiGHS](path-HiGHS.html) | 19.42 (19.40) | 53%|
-|[📊 SCIPC](path-SCIPC.html) | 22.50 (22.50) | 51%|
-|[📊 SCIP](path-SCIP.html) | 28.83 (28.80) | 42%|
+|[📊 SCIPC](path-SCIPC.html) | 21.76 (21.80) | 56%|
+|[📊 SCIP](path-SCIP.html) | 29.52 (29.50) | 49%|
 |[📊 CBC](path-CBC.html) | 45.02 (45.00) | 11%|
 |[📊 GLPK](path-GLPK.html) | 45.63 (45.60) | 13%|
 |[📊 MATLAB](path-MATLAB.html) | 60.86 (60.90) | 4%|
@@ -222,6 +222,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/path-15-Jan-2024.html">15 Jan 2024</a></li>
 <li><a href="/mittelmann-plots/path-17-Dec-2023.html">17 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/path-8-Dec-2023.html">8 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/path-30-Nov-2023.html">30 Nov 2023</a></li>
@@ -693,7 +694,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Mixed Integer Nonlinear Programming Benchmark (MINLPLIB) (21 Oct 2023)](http://plato.asu.edu/ftp/minlp.html)
+## [Mixed Integer Nonlinear Programming Benchmark (MINLPLIB) (17 Jan 2024)](http://plato.asu.edu/ftp/minlp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 87|
@@ -702,7 +703,7 @@ Choose base solver for comparison:
 |[🥇 OCTERACT](minlp-OCTERACT.html) | 1.00 (1.00) | 100%|
 |[🥈 BARON](minlp-BARON.html) | 2.34 (2.30) | 89%|
 |[🥉 SHOT](minlp-SHOT.html) | 7.17 (7.20) | 60%|
-|[📊 SCIP](minlp-SCIP.html) | 10.34 (10.30) | 74%|
+|[📊 SCIP](minlp-SCIP.html) | 9.87 (9.90) | 75%|
 |[📊 LINDO](minlp-LINDO.html) | 32.85 (32.80) | 48%|
 |[📊 ANTIGONE](minlp-ANTIGONE.html) | 39.32 (39.30) | 61%|
 |[📊 COUENNE](minlp-COUENNE.html) | 89.78 (89.80) | 28%|
@@ -712,6 +713,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/minlp-21-Oct-2023.html">21 Oct 2023</a></li>
 <li><a href="/mittelmann-plots/minlp-10-Jul-2023.html">10 Jul 2023</a></li>
 <li><a href="/mittelmann-plots/minlp-20-Apr-2023.html">20 Apr 2023</a></li>
 <li><a href="/mittelmann-plots/minlp-5-Feb-2023.html">5 Feb 2023</a></li>
