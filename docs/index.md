@@ -289,17 +289,17 @@ Choose base solver for comparison:
 ## [Several SDP-codes on sparse and other SDP problems (28 Sep 2023)](http://plato.asu.edu/ftp/sparse_sdp.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 76|
+| solver | score (as reported) | solved of 75|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](sparse_sdp-vbest.html) | 0.62  | 99%|
-|[🥇 COPT-7.0.0](sparse_sdp-COPT.html) | 1.00 (1.00) | 99%|
-|[🥈 MindOpt-1.0.0](sparse_sdp-MDOPT.html) | 1.43 (1.44) | 99%|
-|[🥉 MOSEK-10.1.9](sparse_sdp-MOSEK.html) | 3.13 (3.22) | 96%|
-|[📊 SDPT3-4.0](sparse_sdp-SDPT3.html) | 4.95 (5.14) | 91%|
-|[📊 CSDP-6.2.0](sparse_sdp-CSDP.html) | 5.02 (5.21) | 92%|
-|[📊 HDSDP-1.0.0](sparse_sdp-HDSDP.html) | 7.52 (7.86) | 92%|
-|[📊 SDPA-7.4.2](sparse_sdp-SDPA.html) | 9.96 (10.50) | 80%|
-|[📊 SeDuMi-1.3.5](sparse_sdp-SeDuMi.html) | 27.14 (28.90) | 82%|
+|[⭐ virtual best](sparse_sdp-vbest.html) | 0.61  | 100%|
+|[🥇 COPT-7.0.0](sparse_sdp-COPT.html) | 1.00 (1.00) | 100%|
+|[🥈 MindOpt-1.0.0](sparse_sdp-MDOPT.html) | 1.44 (1.44) | 100%|
+|[🥉 MOSEK-10.1.9](sparse_sdp-MOSEK.html) | 3.22 (3.22) | 97%|
+|[📊 SDPT3-4.0](sparse_sdp-SDPT3.html) | 5.14 (5.14) | 92%|
+|[📊 CSDP-6.2.0](sparse_sdp-CSDP.html) | 5.21 (5.21) | 93%|
+|[📊 HDSDP-1.0.0](sparse_sdp-HDSDP.html) | 7.86 (7.86) | 93%|
+|[📊 SDPA-7.4.2](sparse_sdp-SDPA.html) | 10.45 (10.50) | 81%|
+|[📊 SeDuMi-1.3.5](sparse_sdp-SeDuMi.html) | 28.88 (28.90) | 83%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
@@ -737,8 +737,8 @@ Choose base solver for comparison:
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](mpec-vbest.html) | 1.00  | 83%|
 |[🥇 KNITRO-13.0](mpec-KNITRO.html) | 1.00 (1.00) | 83%|
-|[🥈 filter-MPEC](mpec-filter.html) | 7.82 (8.90) | 62%|
-|[🥉 LOQO-7.03](mpec-LOQO.html) | 16.69 (19.50) | 21%|
+|[🥈 filter-MPEC](mpec-filter.html) | 8.87 (8.90) | 62%|
+|[🥉 LOQO-7.03](mpec-LOQO.html) | 19.48 (19.50) | 21%|
 
 ---
 
