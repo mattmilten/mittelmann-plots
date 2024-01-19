@@ -11,6 +11,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from datetime import datetime as dt
 
+
 # %%
 def get_version(s, version):
     for v in version:
@@ -64,7 +65,14 @@ def parse_table(url, session, timelimit=3600, threads=1):
 
     stats = {}
 
-    stats["date"] = pre[0].text.split("\n")[1].replace("=", "").replace("-", "").replace("`"," ").strip()
+    stats["date"] = (
+        pre[0]
+        .text.split("\n")[1]
+        .replace("=", "")
+        .replace("-", "")
+        .replace("`", " ")
+        .strip()
+    )
     stats["title"] = pre[0].text.split("\n")[2].strip()
 
     if "lpopt.html" in url:
@@ -77,9 +85,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
         solver = tab[tabmark[0] + 1].split()[1:]
         stats["solver"] = solver
         stats["nprobs"] = len(tab[tabmark[1] + 1 : tabmark[2]])
-        stats["score"] = {
-            solver[i]: float(_score[i]) for i in range(len(solver))
-        }
+        stats["score"] = {solver[i]: float(_score[i]) for i in range(len(solver))}
         stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
         stats["version"] = {s: get_version(s, _version) for s in solver}
         stats["timelimit"] = timelimit
@@ -180,9 +186,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
         stats["solver"] = solver
         stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
         stats["version"] = {s: get_version(s, _version) for s in solver}
-        stats["score"] = {
-            solver[i]: float(_score[i]) for i in range(len(solver))
-        }
+        stats["score"] = {solver[i]: float(_score[i]) for i in range(len(solver))}
         stats["times"] = pd.DataFrame(
             [l.split() for l in tab[tabmark[1] + 1 : tabmark[-2]]],
             columns=["instance"] + columns,
@@ -327,7 +331,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
         _solved = tab[5].split()[3:]
         solver = [s.rstrip("&") for s in tab[7].split()[1:]]
         stats["solver"] = solver
-        nprobs = len(tab[tabmark[1] : tabmark[2]])
+        nprobs = len(tab[tabmark[1] + 1 : tabmark[2]])
         stats["nprobs"] = nprobs
         stats["score"] = {solver[i]: float(_score[i]) for i in range(len(solver))}
         stats["solved"] = {
@@ -336,7 +340,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
         stats["version"] = {s: get_version(s, _version) for s in solver}
         stats["timelimit"] = timelimit
         stats["times"] = pd.DataFrame(
-            [l.split() for l in tab[tabmark[1] : tabmark[2]]],
+            [l.split() for l in tab[tabmark[1] + 1 : tabmark[2]]],
             columns=["instance"] + solver,
         )
         # count small violations (marked with an "a" suffix) as solved
@@ -364,7 +368,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
         stats["version"] = {s: get_version(s, _version) for s in solver}
         stats["timelimit"] = timelimit
         stats["times"] = pd.DataFrame(
-            [l.split() for l in tab[tabmark[0] + 2 : tabmark[1]]],
+            [l.split() for l in tab[tabmark[0] + 3 : tabmark[1]]],
             columns=["instance"] + solver,
         )
 
@@ -384,7 +388,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
         stats["timelimit"] = timelimit
         tabmark = [ind for ind, i in enumerate(tab) if i.startswith("-----")]
         # need to get solver names again because of different order in table
-        solver = [s[0:s.find("(")] for s in tab[0].replace("|", " ").split()]
+        solver = [s[0 : s.find("(")] for s in tab[0].replace("|", " ").split()]
         columns = ["instance"] + [f"{solver[0]}_nodes_drop", f"{solver[0]}"]
         for i in range(1, len(solver)):
             columns.append(f"{solver[i]}_nodes_drop")
@@ -437,7 +441,10 @@ def parse_table(url, session, timelimit=3600, threads=1):
         stats["solver"] = solver
         nprobs = len(tab[tabmark[0] + 3 : tabmark[1]])
         stats["nprobs"] = nprobs
-        stats["score"] = {solver[i]: float(_score[i].replace("r","").replace("R","")) for i in range(len(solver))}
+        stats["score"] = {
+            solver[i]: float(_score[i].replace("r", "").replace("R", ""))
+            for i in range(len(solver))
+        }
         stats["solved"] = {
             solver[i]: int(_solved[i].strip("*")) for i in range(len(solver))
         }
@@ -459,7 +466,10 @@ def parse_table(url, session, timelimit=3600, threads=1):
         stats["solver"] = solver
         nprobs = len(tab[tabmark[0] + 3 : tabmark[1]])
         stats["nprobs"] = nprobs
-        stats["score"] = {solver[i]: float(_score[i].replace("r","").replace("R","")) for i in range(len(solver))}
+        stats["score"] = {
+            solver[i]: float(_score[i].replace("r", "").replace("R", ""))
+            for i in range(len(solver))
+        }
         stats["solved"] = {
             solver[i]: int(_solved[i].strip("*")) for i in range(len(solver))
         }
@@ -503,7 +513,7 @@ def plot_benchmark(stats, base):
     time = stats["times"]
     maxtime = time.max(numeric_only=True).max()
     tickvals = np.arange(-int(np.log2(maxtime)), int(np.log2(maxtime)))
-    ticktext = [str(power ** i) if i >= 0 else f"1/{power**-i}" for i in tickvals]
+    ticktext = [str(power**i) if i >= 0 else f"1/{power**-i}" for i in tickvals]
 
     fig = make_subplots(specs=[[{"secondary_y": True}]])
     time = time.sort_values(base).reset_index(drop=True)
@@ -583,7 +593,6 @@ def plot_benchmark(stats, base):
 
 # %%
 def write_bench(url, session, timelimit, threads=1):
-
     medals = {0: "⭐", 1: "🥇", 2: "🥈", 3: "🥉"}
 
     benchname = url.split("/")[-1][:-5]
@@ -612,7 +621,7 @@ def write_bench(url, session, timelimit, threads=1):
     stats["score"]["vbest"] = 0
     logsum = sum(stats["times"]["vbest"].apply(lambda x: math.log(max(1, x + shift))))
     stats["shmean"]["vbest"] = (math.exp(logsum / len(time)) - shift) / bestshmean
-    stats["shmean"]["vbest"] -= 1e-4 # enforce that vbest is always first in the list
+    stats["shmean"]["vbest"] -= 1e-4  # enforce that vbest is always first in the list
 
     storedate = stats["date"].replace(" ", "-")
     newdata = True
@@ -711,7 +720,7 @@ instance. This might reveal how much potential the individual solvers still have
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.\n
     """
         )
-        for (url, timelimit, threads) in parsedata:
+        for url, timelimit, threads in parsedata:
             print(f"processing {url}")
             index.write(write_bench(url, session, timelimit, threads))
 
