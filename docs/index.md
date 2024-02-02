@@ -148,7 +148,7 @@ Choose base solver for comparison:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances - 8 threads (26 Jan 2024)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances - 8 threads (1 Feb 2024)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
@@ -160,8 +160,8 @@ Choose base solver for comparison:
 |[📊 MindOpt-1.0.0](milp_8threads-MindOpt.html) | 4.18 (4.18) | 82%|
 |[📊 XOPT-0.0.3](milp_8threads-XOPT.html) | 7.09 (7.09) | 75%|
 |[📊 HiGHS-1.6.0](milp_8threads-HiGHS.html) | 9.98 (9.98) | 66%|
-|[📊 SCIPC/spx-8.0.0](milp_8threads-SCIPC.html) | 10.08 (10.10) | 63%|
-|[📊 SCIP/spx-8.0.0](milp_8threads-SCIP.html) | 12.32 (12.30) | 57%|
+|[📊 SCIPC/spx-8.1.0](milp_8threads-SCIPC.html) | 10.70 (10.70) | 62%|
+|[📊 SCIP/spx-8.1.0](milp_8threads-SCIP.html) | 12.46 (12.50) | 55%|
 |[📊 CBC-2.10.5](milp_8threads-CBC.html) | 18.42 (18.40) | 45%|
 |[📊 MATLAB-2023a](milp_8threads-Matlab.html) | 37.65 (37.60) | 30%|
 
@@ -170,6 +170,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/milp_8threads-26-Jan-2024.html">26 Jan 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-18-Dec-2023.html">18 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-17-Dec-2023.html">17 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-7-Dec-2023.html">7 Dec 2023</a></li>
@@ -288,7 +289,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Several SDP-codes on sparse and other SDP problems (28 Sep 2023)](http://plato.asu.edu/ftp/sparse_sdp.html)
+## [Several SDP-codes on sparse and other SDP problems (1 Feb 2024)](http://plato.asu.edu/ftp/sparse_sdp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 75|
@@ -296,7 +297,7 @@ Choose base solver for comparison:
 |[⭐ virtual best](sparse_sdp-vbest.html) | 0.61  | 100%|
 |[🥇 COPT-7.0.0](sparse_sdp-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 MindOpt-1.0.0](sparse_sdp-MDOPT.html) | 1.44 (1.44) | 100%|
-|[🥉 MOSEK-10.1.9](sparse_sdp-MOSEK.html) | 3.22 (3.22) | 97%|
+|[🥉 MOSEK-10.1.23](sparse_sdp-MOSEK.html) | 3.64 (3.64) | 97%|
 |[📊 SDPT3-4.0](sparse_sdp-SDPT3.html) | 5.14 (5.14) | 92%|
 |[📊 CSDP-6.2.0](sparse_sdp-CSDP.html) | 5.21 (5.21) | 93%|
 |[📊 HDSDP-1.0.0](sparse_sdp-HDSDP.html) | 7.86 (7.86) | 93%|
@@ -308,6 +309,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/sparse_sdp-28-Sep-2023.html">28 Sep 2023</a></li>
 <li><a href="/mittelmann-plots/sparse_sdp-19-Aug-2023.html">19 Aug 2023</a></li>
 <li><a href="/mittelmann-plots/sparse_sdp-6-Aug-2023.html">6 Aug 2023</a></li>
 <li><a href="/mittelmann-plots/sparse_sdp-27-Jun-2023.html">27 Jun 2023</a></li>
@@ -635,7 +637,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Discrete QPLIB Benchmark (10 Jan 2024)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (1 Feb 2024)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 31|
@@ -646,7 +648,7 @@ Choose base solver for comparison:
 |[🥉 Shot-1.1](convex-SHOT.html) | 1.18 (1.18) | 81%|
 |[📊 OCTERACT-4.7.1](convex-OCTACT.html) | 2.44 (2.44) | 77%|
 |[📊 Baron-23.6.22](convex-BARON.html) | 7.31 (7.30) | 61%|
-|[📊 MOSEK-10.1.9](convex-MOSEK.html) | 10.04 (10.00) | 58%|
+|[📊 MOSEK-10.1.23](convex-MOSEK.html) | 10.05 (10.00) | 58%|
 |[📊 KNITRO-13.1.0](convex-KNITRO.html) | 13.39 (13.40) | 52%|
 |[📊 SCIP-8.1.0](convex-SCIP.html) | 26.71 (26.70) | 42%|
 |[📊 MNTAUR](convex-MNTAUR.html) | 42.32 (42.30) | 45%|
@@ -657,6 +659,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/convex-10-Jan-2024.html">10 Jan 2024</a></li>
 <li><a href="/mittelmann-plots/convex-30-Nov-2023.html">30 Nov 2023</a></li>
 <li><a href="/mittelmann-plots/convex-27-Sep-2023.html">27 Sep 2023</a></li>
 <li><a href="/mittelmann-plots/convex-17-Aug-2023.html">17 Aug 2023</a></li>
