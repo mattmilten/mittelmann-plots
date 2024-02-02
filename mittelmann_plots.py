@@ -160,7 +160,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
                 columns[i] = "LP_SOL"
             elif c.startswith("FiberSCIP"):
                 columns[i] = "FSCIP"
-            elif c.startswith("SCIP-spx"):
+            elif c.startswith("SCIP-spx") or c == "SCIP-":
                 columns[i] = "SCIP"
             elif c.startswith("SCIP-cpx"):
                 columns[i] = "SCIPC"
