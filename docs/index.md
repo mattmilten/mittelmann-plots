@@ -735,15 +735,23 @@ Choose base solver for comparison:
 ---
 
 
-## [MPEC Benchmark (Math. Progr. w. Equilibrium Constraints) (12 Apr 2022)](http://plato.asu.edu/ftp/mpec.html)
+## [MPEC Benchmark (Math. Progr. w. Equilibrium Constraints) (2 Feb 2024)](http://plato.asu.edu/ftp/mpec.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 29|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](mpec-vbest.html) | 1.00  | 83%|
-|[🥇 KNITRO-13.0](mpec-KNITRO.html) | 1.00 (1.00) | 83%|
-|[🥈 filter-MPEC](mpec-filter.html) | 8.87 (8.90) | 62%|
-|[🥉 LOQO-7.03](mpec-LOQO.html) | 19.48 (19.50) | 21%|
+|[⭐ virtual best](mpec-vbest.html) | 1.00  | 69%|
+|[🥇 KNITRO-14.0](mpec-KNITRO.html) | 1.00 (1.00) | 69%|
+|[🥈 filter-MPEC](mpec-filter.html) | 4.28 (4.28) | 62%|
+|[🥉 LOQO-7.03](mpec-LOQO.html) | 9.40 (9.40) | 21%|
+
+
+<details><summary>previous benchmarks 🔽</summary>
+<br>
+
+<ul>
+<li><a href="/mittelmann-plots/mpec-12-Apr-2022.html">12 Apr 2022</a></li>
+</ul></details>
 
 ---
 
