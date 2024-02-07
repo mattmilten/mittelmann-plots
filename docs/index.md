@@ -84,7 +84,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Network-LP Benchmark (commercial vs free) (4 Dec 2023)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (6 Feb 2024)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 25|
@@ -93,7 +93,7 @@ Choose base solver for comparison:
 |[🥇 OptVerse-0.7.0](network-OPTV.html) | 1.00 (1.00) | 100%|
 |[🥈 MindOpt-1.0.0](network-MDOPT.html) | 1.18 (1.18) | 100%|
 |[🥉 Gurobi-11.0.0](network-GUR.html) | 1.69 (1.69) | 100%|
-|[📊 COPT-7.0.0](network-COPT.html) | 2.14 (2.14) | 100%|
+|[📊 COPT-7.1.0](network-COPT.html) | 2.16 (2.16) | 100%|
 |[📊 Clp-1.17.7](network-CLP.html) | 6.07 (6.07) | 100%|
 |[📊 HiGHS-1.6.0](network-HGHS.html) | 12.65 (12.60) | 80%|
 |[📊 MATLAB-R2022b](network-MATL.html) | 21.28 (21.30) | 80%|
@@ -106,6 +106,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/network-4-Dec-2023.html">4 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/network-30-Nov-2023.html">30 Nov 2023</a></li>
 <li><a href="/mittelmann-plots/network-4-Oct-2023.html">4 Oct 2023</a></li>
 <li><a href="/mittelmann-plots/network-18-Aug-2023.html">18 Aug 2023</a></li>
@@ -149,14 +150,14 @@ Choose base solver for comparison:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances - 8 threads (1 Feb 2024)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances - 8 threads (7 Feb 2024)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](milp_8threads-vbest.html) | 0.67  | 98%|
+|[⭐ virtual best](milp_8threads-vbest.html) | 0.66  | 98%|
 |[🥇 Gurobi-11.0.0](milp_8threads-Gurobi.html) | 1.00 (1.00) | 95%|
-|[🥈 COPT-7.0.0](milp_8threads-COPT.html) | 1.74 (1.74) | 88%|
+|[🥈 COPT-7.1.0](milp_8threads-COPT.html) | 1.44 (1.44) | 92%|
 |[🥉 OptVerse-0.7.0](milp_8threads-optverse.html) | 2.88 (2.88) | 84%|
 |[📊 MindOpt-1.0.0](milp_8threads-MindOpt.html) | 4.18 (4.18) | 82%|
 |[📊 XOPT-0.0.3](milp_8threads-XOPT.html) | 7.09 (7.09) | 75%|
@@ -171,6 +172,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/milp_8threads-1-Feb-2024.html">1 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-26-Jan-2024.html">26 Jan 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-18-Dec-2023.html">18 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-17-Dec-2023.html">17 Dec 2023</a></li>
@@ -249,14 +251,14 @@ Choose base solver for comparison:
 ---
 
 
-## [Infeasibility Detection for MILP Problems (14 Jan 2024)](http://plato.asu.edu/ftp/infeas.html)
+## [Infeasibility Detection for MILP Problems (6 Feb 2024)](http://plato.asu.edu/ftp/infeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](infeas-vbest.html) | 0.98  | 94%|
 |[🥇 GUROBI-11.0.0](infeas-Gurobi.html) | 1.00 (1.00) | 94%|
-|[🥈 COPT-7.0.0](infeas-COPT.html) | 1.47 (1.47) | 94%|
+|[🥈 COPT-7.1.0](infeas-COPT.html) | 1.37 (1.37) | 94%|
 |[🥉 OptVerse-0.7.0](infeas-optverse.html) | 3.00 (3.00) | 88%|
 |[📊 XOPT-0.0.3](infeas-XOPT.html) | 7.34 (7.34) | 78%|
 |[📊 MindOpt-1.0.0](infeas-MindOpt.html) | 7.81 (7.81) | 84%|
@@ -271,6 +273,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/infeas-14-Jan-2024.html">14 Jan 2024</a></li>
 <li><a href="/mittelmann-plots/infeas-13-Jan-2024.html">13 Jan 2024</a></li>
 <li><a href="/mittelmann-plots/infeas-6-Dec-2023.html">6 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/infeas-30-Nov-2023.html">30 Nov 2023</a></li>
@@ -703,14 +706,14 @@ Choose base solver for comparison:
 ---
 
 
-## [Mixed Integer Nonlinear Programming Benchmark (MINLPLIB) (17 Jan 2024)](http://plato.asu.edu/ftp/minlp.html)
+## [Mixed Integer Nonlinear Programming Benchmark (MINLPLIB) (6 Feb 2024)](http://plato.asu.edu/ftp/minlp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 87|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](minlp-vbest.html) | 0.43  | 100%|
+|[⭐ virtual best](minlp-vbest.html) | 0.41  | 100%|
 |[🥇 OCTERACT](minlp-OCTERACT.html) | 1.00 (1.00) | 100%|
-|[🥈 BARON](minlp-BARON.html) | 2.34 (2.30) | 89%|
+|[🥈 BARON](minlp-BARON.html) | 2.42 (2.40) | 89%|
 |[🥉 SHOT](minlp-SHOT.html) | 7.17 (7.20) | 60%|
 |[📊 SCIP](minlp-SCIP.html) | 9.87 (9.90) | 75%|
 |[📊 LINDO](minlp-LINDO.html) | 32.85 (32.80) | 48%|
@@ -722,6 +725,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/minlp-17-Jan-2024.html">17 Jan 2024</a></li>
 <li><a href="/mittelmann-plots/minlp-21-Oct-2023.html">21 Oct 2023</a></li>
 <li><a href="/mittelmann-plots/minlp-10-Jul-2023.html">10 Jul 2023</a></li>
 <li><a href="/mittelmann-plots/minlp-20-Apr-2023.html">20 Apr 2023</a></li>
