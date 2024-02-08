@@ -330,23 +330,24 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Second Order Cone Benchmark (30 Nov 2023)](http://plato.asu.edu/ftp/socp.html)
+## [Large Second Order Cone Benchmark (7 Feb 2024)](http://plato.asu.edu/ftp/socp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 18|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](socp-vbest.html) | 0.81  | 100%|
-|[🥇 COPT-7.0.0](socp-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 MOSEK-10.1.9](socp-MOSEK.html) | 1.08 (1.08) | 100%|
-|[🥉 Gurobi-11.0.0](socp-Gurobi.html) | 1.14 (1.14) | 100%|
-|[📊 KNITRO-13.2.0](socp-KNITRO.html) | 13.41 (13.40) | 83%|
-|[📊 ECOS-2.0.4](socp-ECOS.html) | 99.20 (99.20) | 61%|
+|[⭐ virtual best](socp-vbest.html) | 0.80  | 100%|
+|[🥇 COPT-7.1.0](socp-COPT.html) | 1.00 (1.00) | 100%|
+|[🥈 MOSEK-10.1.9](socp-MOSEK.html) | 1.06 (1.06) | 100%|
+|[🥉 Gurobi-11.0.0](socp-Gurobi.html) | 1.11 (1.11) | 100%|
+|[📊 KNITRO-14.0.0](socp-KNITRO.html) | 9.24 (9.24) | 94%|
+|[📊 ECOS-2.0.4](socp-ECOS.html) | 97.22 (97.20) | 61%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/socp-30-Nov-2023.html">30 Nov 2023</a></li>
 <li><a href="/mittelmann-plots/socp-27-Sep-2023.html">27 Sep 2023</a></li>
 <li><a href="/mittelmann-plots/socp-17-Aug-2023.html">17 Aug 2023</a></li>
 <li><a href="/mittelmann-plots/socp-28-Mar-2023.html">28 Mar 2023</a></li>
@@ -365,22 +366,23 @@ Choose base solver for comparison:
 ---
 
 
-## [Mixed-integer SOCP Benchmark (30 Nov 2023)](http://plato.asu.edu/ftp/misocp.html)
+## [Mixed-integer SOCP Benchmark (7 Feb 2024)](http://plato.asu.edu/ftp/misocp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 47|
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](misocp-vbest.html) | 0.97  | 100%|
 |[🥇 Gurobi-11.0.0](misocp-GUROBI.html) | 1.00 (1.00) | 100%|
-|[🥈 COPT-7.0.0](misocp-COPT.html) | 2.34 (2.34) | 100%|
-|[🥉 MOSEK-10.1.9](misocp-MOSEK.html) | 10.68 (10.70) | 77%|
-|[📊 SCIP-8.0.0](misocp-SCIP.html) | 26.68 (26.70) | 66%|
+|[🥈 COPT-7.1.0](misocp-COPT.html) | 2.20 (2.16) | 98%|
+|[🥉 MOSEK-10.1.9](misocp-MOSEK.html) | 10.68 (9.00) | 77%|
+|[📊 SCIP-8.0.0](misocp-SCIP.html) | 26.68 (21.00) | 66%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/misocp-30-Nov-2023.html">30 Nov 2023</a></li>
 <li><a href="/mittelmann-plots/misocp-27-Sep-2023.html">27 Sep 2023</a></li>
 <li><a href="/mittelmann-plots/misocp-17-Aug-2023.html">17 Aug 2023</a></li>
 <li><a href="/mittelmann-plots/misocp-25-Mar-2023.html">25 Mar 2023</a></li>
@@ -594,15 +596,15 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Continuous QPLIB Benchmark (ext) (5 Feb 2024)](http://plato.asu.edu/ftp/cconvex.html)
+## [Convex Continuous QPLIB Benchmark (ext) (7 Feb 2024)](http://plato.asu.edu/ftp/cconvex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 42|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](cconvex-vbest.html) | 0.71  | 100%|
+|[⭐ virtual best](cconvex-vbest.html) | 0.73  | 100%|
 |[🥇 COPT-7.1.0](cconvex-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 OptVerse-0.7.0](cconvex-OPTVERS.html) | 1.28 (1.28) | 98%|
-|[🥉 KNITRO-13.2.0](cconvex-KNITRO.html) | 1.53 (1.53) | 95%|
+|[🥉 KNITRO-14.0.0](cconvex-KNITRO.html) | 1.49 (1.49) | 98%|
 |[📊 Gurobi-11.0.0](cconvex-Gurobi.html) | 1.59 (1.59) | 98%|
 |[📊 MOSEK-10.1.21](cconvex-MOSEK.html) | 1.60 (1.60) | 98%|
 |[📊 MindOpt-1.0.0](cconvex-MINDOPT.html) | 5.74 (5.43) | 81%|
@@ -613,6 +615,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/cconvex-5-Feb-2024.html">5 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/cconvex-9-Dec-2023.html">9 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/cconvex-4-Dec-2023.html">4 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/cconvex-29-Nov-2023.html">29 Nov 2023</a></li>
@@ -706,7 +709,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Mixed Integer Nonlinear Programming Benchmark (MINLPLIB) (6 Feb 2024)](http://plato.asu.edu/ftp/minlp.html)
+## [Mixed Integer Nonlinear Programming Benchmark (MINLPLIB) (7 Feb 2024)](http://plato.asu.edu/ftp/minlp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 87|
@@ -714,7 +717,7 @@ Choose base solver for comparison:
 |[⭐ virtual best](minlp-vbest.html) | 0.41  | 100%|
 |[🥇 OCTERACT](minlp-OCTERACT.html) | 1.00 (1.00) | 100%|
 |[🥈 BARON](minlp-BARON.html) | 2.42 (2.40) | 89%|
-|[🥉 SHOT](minlp-SHOT.html) | 7.17 (7.20) | 60%|
+|[🥉 SHOT](minlp-SHOT.html) | 7.17 (6.20) | 62%|
 |[📊 SCIP](minlp-SCIP.html) | 9.87 (9.90) | 75%|
 |[📊 LINDO](minlp-LINDO.html) | 32.85 (32.80) | 48%|
 |[📊 ANTIGONE](minlp-ANTIGONE.html) | 39.32 (39.30) | 61%|
@@ -725,6 +728,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/minlp-6-Feb-2024.html">6 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/minlp-17-Jan-2024.html">17 Jan 2024</a></li>
 <li><a href="/mittelmann-plots/minlp-21-Oct-2023.html">21 Oct 2023</a></li>
 <li><a href="/mittelmann-plots/minlp-10-Jul-2023.html">10 Jul 2023</a></li>
