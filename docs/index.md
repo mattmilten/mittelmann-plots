@@ -466,7 +466,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Nonconvex QUBO-QPLIB Benchmark (9 Feb 2024)](http://plato.asu.edu/ftp/qubo.html)
+## [Nonconvex QUBO-QPLIB Benchmark (10 Feb 2024)](http://plato.asu.edu/ftp/qubo.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 23|
@@ -475,8 +475,8 @@ Choose base solver for comparison:
 |[🥇 QuBowl](qubo-QUBOWL.html) | 1.00 (1.00) | 65%|
 |[🥈 Gurobi-11.0.0](qubo-GUROBI.html) | 1.30 (1.30) | 57%|
 |[🥉 OCTERACT-4.7.1](qubo-OCTERACT.html) | 1.74 (1.74) | 52%|
+|[📊 SHOT-1.1](qubo-SHOT.html) | 1.76 (1.76) | 52%|
 |[📊 Baron-24.1.30](qubo-BARON.html) | 1.82 (1.82) | 52%|
-|[📊 SHOT-1.1](qubo-SHOT.html) | 1.91 (1.99) | 48%|
 |[📊 McSparse-2.0](qubo-MCSPARSE.html) | 2.36 (2.36) | 52%|
 |[📊 Biqbin](qubo-BIQBIN.html) | 5.40 (5.40) | 39%|
 |[📊 SCIP-8.1](qubo-SCIP.html) | 5.46 (5.46) | 35%|
@@ -486,6 +486,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/qubo-9-Feb-2024.html">9 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/qubo-10-Jan-2024.html">10 Jan 2024</a></li>
 <li><a href="/mittelmann-plots/qubo-30-Nov-2023.html">30 Nov 2023</a></li>
 <li><a href="/mittelmann-plots/qubo-20-Sep-2023.html">20 Sep 2023</a></li>
