@@ -411,7 +411,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Binary Non-Convex QPLIB Benchmark (11 Jan 2024)](http://plato.asu.edu/ftp/qplib.html)
+## [Binary Non-Convex QPLIB Benchmark (11 Feb 2024)](http://plato.asu.edu/ftp/qplib.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 97|
@@ -420,7 +420,7 @@ Choose base solver for comparison:
 |[🥇 Gurobi-11.0.0](qplib-GUROBI.html) | 1.00 (1.00) | 97%|
 |[🥈 SHOT-1.1](qplib-SHOT.html) | 1.48 (1.48) | 88%|
 |[🥉 OCTERACT-4.7.1](qplib-OCTERACT.html) | 1.69 (1.69) | 96%|
-|[📊 Baron-23.6.22](qplib-BARON.html) | 11.61 (11.60) | 60%|
+|[📊 Baron-24.1.30](qplib-BARON.html) | 8.44 (8.44) | 67%|
 |[📊 SCIP-8.1.0](qplib-SCIP.html) | 38.80 (38.80) | 37%|
 |[📊 ANTIGONE-1.1](qplib-ANTIGONE.html) | 81.19 (81.20) | 16%|
 |[📊 COUENNE-0.5](qplib-COUENNE.html) | 96.45 (96.40) | 6%|
@@ -430,6 +430,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/qplib-11-Jan-2024.html">11 Jan 2024</a></li>
 <li><a href="/mittelmann-plots/qplib-1-Dec-2023.html">1 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/qplib-12-Jul-2023.html">12 Jul 2023</a></li>
 <li><a href="/mittelmann-plots/qplib-20-Apr-2023.html">20 Apr 2023</a></li>
@@ -652,7 +653,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Discrete QPLIB Benchmark (9 Feb 2024)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (11 Feb 2024)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 31|
@@ -662,7 +663,7 @@ Choose base solver for comparison:
 |[🥈 COPT-7.1.0](convex-COPT.html) | 1.00 (1.00) | 77%|
 |[🥉 Shot-1.1](convex-SHOT.html) | 1.18 (1.18) | 81%|
 |[📊 OCTERACT-4.7.1](convex-OCTACT.html) | 2.44 (2.44) | 77%|
-|[📊 Baron-23.6.22](convex-BARON.html) | 7.31 (7.31) | 61%|
+|[📊 Baron-24.1.30](convex-BARON.html) | 3.45 (3.45) | 65%|
 |[📊 MOSEK-10.1.23](convex-MOSEK.html) | 10.05 (10.00) | 58%|
 |[📊 KNITRO-14.0.0](convex-KNITRO.html) | 13.63 (13.60) | 52%|
 |[📊 SCIP-8.1.0](convex-SCIP.html) | 26.71 (26.70) | 42%|
@@ -674,6 +675,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/convex-9-Feb-2024.html">9 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/convex-5-Feb-2024.html">5 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/convex-1-Feb-2024.html">1 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/convex-10-Jan-2024.html">10 Jan 2024</a></li>
