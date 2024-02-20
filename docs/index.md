@@ -503,25 +503,26 @@ Choose base solver for comparison:
 ---
 
 
-## [Discrete Non-Convex QPLIB Benchmark (non-binary) (13 Jan 2024)](http://plato.asu.edu/ftp/nonbinary.html)
+## [Discrete Non-Convex QPLIB Benchmark (non-binary) (20 Feb 2024)](http://plato.asu.edu/ftp/nonbinary.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 108|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](nonbinary-vbest.html) | 0.36  | 98%|
+|[⭐ virtual best](nonbinary-vbest.html) | 0.37  | 97%|
 |[🥇 Gurobi-11.0.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 86%|
-|[🥈 SHOT-1.1](nonbinary-SHOT.html) | 2.48 (2.48) | 75%|
-|[🥉 OCTERACT-4.7.1](nonbinary-OCTERACT.html) | 6.31 (6.31) | 73%|
-|[📊 Baron-23.6.22](nonbinary-BARON.html) | 13.58 (13.60) | 52%|
-|[📊 SCIP-8.1.0](nonbinary-SCIP.html) | 29.30 (29.30) | 38%|
-|[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 53.92 (53.90) | 27%|
-|[📊 MINOTAUR-0.3.0](nonbinary-MINOTAUR.html) | 64.13 (64.10) | 14%|
+|[🥈 SHOT-1.1](nonbinary-SHOT.html) | 2.31 (2.48) | 75%|
+|[🥉 OCTERACT-4.7.1](nonbinary-OCTERACT.html) | 5.89 (6.31) | 73%|
+|[📊 Baron-24.1.30](nonbinary-BARON.html) | 18.13 (18.10) | 40%|
+|[📊 SCIP-8.1.0](nonbinary-SCIP.html) | 27.33 (29.30) | 38%|
+|[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 50.30 (53.90) | 27%|
+|[📊 MINOTAUR-0.3.0](nonbinary-MINOTAUR.html) | 59.82 (64.10) | 14%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/nonbinary-13-Jan-2024.html">13 Jan 2024</a></li>
 <li><a href="/mittelmann-plots/nonbinary-6-Dec-2023.html">6 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/nonbinary-14-Jul-2023.html">14 Jul 2023</a></li>
 <li><a href="/mittelmann-plots/nonbinary-23-Apr-2023.html">23 Apr 2023</a></li>
