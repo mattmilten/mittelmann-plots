@@ -503,25 +503,26 @@ Choose base solver for comparison:
 ---
 
 
-## [Discrete Non-Convex QPLIB Benchmark (non-binary) (20 Feb 2024)](http://plato.asu.edu/ftp/nonbinary.html)
+## [Discrete Non-Convex QPLIB Benchmark (non-binary) (22 Feb 2024)](http://plato.asu.edu/ftp/nonbinary.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 108|
+| solver | score (as reported) | solved of 112|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](nonbinary-vbest.html) | 0.37  | 97%|
-|[🥇 Gurobi-11.0.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 86%|
-|[🥈 SHOT-1.1](nonbinary-SHOT.html) | 2.31 (2.48) | 75%|
-|[🥉 OCTERACT-4.7.1](nonbinary-OCTERACT.html) | 5.89 (6.31) | 73%|
-|[📊 Baron-24.1.30](nonbinary-BARON.html) | 18.13 (18.10) | 40%|
-|[📊 SCIP-8.1.0](nonbinary-SCIP.html) | 27.33 (29.30) | 38%|
-|[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 50.30 (53.90) | 27%|
-|[📊 MINOTAUR-0.3.0](nonbinary-MINOTAUR.html) | 59.82 (64.10) | 14%|
+|[⭐ virtual best](nonbinary-vbest.html) | 0.30  | 97%|
+|[🥇 Gurobi-11.0.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 83%|
+|[🥈 SHOT-1.1](nonbinary-SHOT.html) | 2.23 (2.23) | 72%|
+|[🥉 OCTERACT-4.7.1](nonbinary-OCTERACT.html) | 5.47 (5.47) | 71%|
+|[📊 Baron-24.1.30](nonbinary-BARON.html) | 6.19 (6.19) | 59%|
+|[📊 SCIP-8.1.0](nonbinary-SCIP.html) | 24.00 (24.00) | 37%|
+|[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 43.22 (43.20) | 26%|
+|[📊 MINOTAUR-0.3.0](nonbinary-MINOTAUR.html) | 51.09 (51.10) | 13%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/nonbinary-20-Feb-2024.html">20 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/nonbinary-13-Jan-2024.html">13 Jan 2024</a></li>
 <li><a href="/mittelmann-plots/nonbinary-6-Dec-2023.html">6 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/nonbinary-14-Jul-2023.html">14 Jul 2023</a></li>
@@ -553,15 +554,15 @@ Choose base solver for comparison:
 ---
 
 
-## [Continuous Non-Convex QPLIB Benchmark (14 Jan 2024)](http://plato.asu.edu/ftp/cnconv.html)
+## [Continuous Non-Convex QPLIB Benchmark (22 Feb 2024)](http://plato.asu.edu/ftp/cnconv.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 67|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](cnconv-vbest.html) | 0.23  | 94%|
+|[⭐ virtual best](cnconv-vbest.html) | 0.21  | 96%|
 |[🥇 GUROBI-11.0.0](cnconv-GUROBI.html) | 1.00 (1.00) | 66%|
 |[🥈 OCTERACT-4.7.1](cnconv-OCTERACT.html) | 1.55 (1.55) | 69%|
-|[🥉 Baron-23.6.22](cnconv-BARON.html) | 3.08 (3.08) | 51%|
+|[🥉 Baron-24.1.30](cnconv-BARON.html) | 2.60 (2.60) | 49%|
 |[📊 ANTIGONE-1.1](cnconv-ANTIGONE.html) | 5.73 (5.73) | 42%|
 |[📊 MINOTAUR-0.3.0](cnconv-MINOTAUR.html) | 9.99 (9.99) | 19%|
 |[📊 SCIP-8.1.0](cnconv-SCIP.html) | 10.46 (10.50) | 21%|
@@ -573,6 +574,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/cnconv-14-Jan-2024.html">14 Jan 2024</a></li>
 <li><a href="/mittelmann-plots/cnconv-5-Dec-2023.html">5 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/cnconv-18-Jul-2023.html">18 Jul 2023</a></li>
 <li><a href="/mittelmann-plots/cnconv-26-Apr-2023.html">26 Apr 2023</a></li>
