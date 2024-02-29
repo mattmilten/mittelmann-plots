@@ -253,7 +253,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Infeasibility Detection for MILP Problems (6 Feb 2024)](http://plato.asu.edu/ftp/infeas.html)
+## [Infeasibility Detection for MILP Problems (29 Feb 2024)](http://plato.asu.edu/ftp/infeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
@@ -264,9 +264,9 @@ Choose base solver for comparison:
 |[🥉 OptVerse-0.7.0](infeas-optverse.html) | 3.00 (3.00) | 88%|
 |[📊 XOPT-0.0.3](infeas-XOPT.html) | 7.34 (7.34) | 78%|
 |[📊 MindOpt-1.0.0](infeas-MindOpt.html) | 7.81 (7.81) | 84%|
+|[📊 SCIPC-9.0.0](infeas-SCIPC.html) | 7.96 (7.96) | 78%|
 |[📊 HiGHS-1.6.0](infeas-HiGHS.html) | 8.18 (8.18) | 81%|
-|[📊 SCIPC-8.1.0](infeas-SCIPC.html) | 8.77 (8.77) | 81%|
-|[📊 SCIP-8.1.0](infeas-SCIP.html) | 9.26 (9.26) | 78%|
+|[📊 SCIP-9.0.0](infeas-SCIP.html) | 9.26 (9.26) | 78%|
 |[📊 CBC-2.10.5](infeas-CBC.html) | 22.51 (22.50) | 62%|
 |[📊 MATLAB-2023a](infeas-MATLAB.html) | 44.55 (44.50) | 50%|
 
@@ -275,6 +275,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/infeas-6-Feb-2024.html">6 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/infeas-14-Jan-2024.html">14 Jan 2024</a></li>
 <li><a href="/mittelmann-plots/infeas-13-Jan-2024.html">13 Jan 2024</a></li>
 <li><a href="/mittelmann-plots/infeas-6-Dec-2023.html">6 Dec 2023</a></li>
