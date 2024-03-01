@@ -266,7 +266,7 @@ Choose base solver for comparison:
 |[📊 MindOpt-1.0.0](infeas-MindOpt.html) | 7.81 (7.81) | 84%|
 |[📊 SCIPC-9.0.0](infeas-SCIPC.html) | 7.96 (7.96) | 78%|
 |[📊 HiGHS-1.6.0](infeas-HiGHS.html) | 8.18 (8.18) | 81%|
-|[📊 SCIP-9.0.0](infeas-SCIP.html) | 9.26 (9.26) | 78%|
+|[📊 SCIP-9.0.0](infeas-SCIP.html) | 10.97 (10.30) | 81%|
 |[📊 CBC-2.10.5](infeas-CBC.html) | 22.51 (22.50) | 62%|
 |[📊 MATLAB-2023a](infeas-MATLAB.html) | 44.55 (44.50) | 50%|
 
