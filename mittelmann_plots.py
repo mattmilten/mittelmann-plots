@@ -162,7 +162,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
                 columns[i] = "FSCIP"
             elif c.startswith("SCIP-spx") or c == "SCIP-":
                 columns[i] = "SCIP"
-            elif c.startswith("SCIP-cpx"):
+            elif c.startswith("SCIP-cpx") or c == "SCIPC-cpx":
                 columns[i] = "SCIPC"
             elif c.startswith("MATLAB"):
                 columns[i] = "Matlab"
