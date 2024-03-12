@@ -660,7 +660,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Discrete QPLIB Benchmark (11 Feb 2024)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (11 Mar 2024)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 31|
@@ -674,14 +674,15 @@ Choose base solver for comparison:
 |[📊 MOSEK-10.1.23](convex-MOSEK.html) | 10.05 (10.00) | 58%|
 |[📊 KNITRO-14.0.0](convex-KNITRO.html) | 13.63 (13.60) | 52%|
 |[📊 SCIP-8.1.0](convex-SCIP.html) | 26.71 (26.70) | 42%|
-|[📊 MNTAUR](convex-MNTAUR.html) | 42.32 (42.30) | 45%|
 |[📊 Bonmin-1.8.7](convex-BONMIN.html) | 54.64 (54.60) | 23%|
+|[📊 MNTAUR](convex-MNTAUR.html) | 63.99 (64.00) | 26%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/convex-11-Feb-2024.html">11 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/convex-9-Feb-2024.html">9 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/convex-5-Feb-2024.html">5 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/convex-1-Feb-2024.html">1 Feb 2024</a></li>
