@@ -214,17 +214,17 @@ Choose base solver for comparison:
 | solver | score (as reported) | solved of 45|
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](path-vbest.html) | 0.55  | 98%|
-|[🥇 Gurobi](path-Gurobi.html) | 1.00 (1.00) | 96%|
-|[🥈 COPT](path-COPT.html) | 1.98 (1.98) | 87%|
-|[🥉 optverse](path-optverse.html) | 3.89 (3.89) | 80%|
-|[📊 MindOpt](path-MindOpt.html) | 16.84 (16.80) | 44%|
-|[📊 XOPT](path-XOPT.html) | 18.12 (18.10) | 47%|
-|[📊 HiGHS](path-HiGHS.html) | 19.42 (19.40) | 53%|
-|[📊 SCIPC](path-SCIPC.html) | 25.00 (25.00) | 47%|
-|[📊 SCIP](path-SCIP.html) | 30.12 (30.10) | 42%|
-|[📊 CBC](path-CBC.html) | 45.02 (45.00) | 11%|
-|[📊 GLPK](path-GLPK.html) | 45.63 (45.60) | 13%|
-|[📊 MATLAB](path-MATLAB.html) | 60.86 (60.90) | 4%|
+|[🥇 GUROBI-11.0.0](path-Gurobi.html) | 1.00 (1.00) | 96%|
+|[🥈 COPT-7.1.0](path-COPT.html) | 1.98 (1.98) | 87%|
+|[🥉 OptVerse-0.7.0](path-optverse.html) | 3.89 (3.89) | 80%|
+|[📊 MindOpt-1.0.0](path-MindOpt.html) | 16.84 (16.80) | 44%|
+|[📊 XOPT-0.0.3](path-XOPT.html) | 18.12 (18.10) | 47%|
+|[📊 HiGHS-1.6.0](path-HiGHS.html) | 19.42 (19.40) | 53%|
+|[📊 SCIPC-9.0.0](path-SCIPC.html) | 25.00 (25.00) | 47%|
+|[📊 SCIP-9.0.0](path-SCIP.html) | 30.12 (30.10) | 42%|
+|[📊 CBC-2.10.7](path-CBC.html) | 45.02 (45.00) | 11%|
+|[📊 GLPK-5.0](path-GLPK.html) | 45.63 (45.60) | 13%|
+|[📊 MATLAB-2023a](path-MATLAB.html) | 60.86 (60.90) | 4%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
