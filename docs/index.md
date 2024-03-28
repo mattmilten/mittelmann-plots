@@ -47,7 +47,7 @@ Choose base solver for comparison:
 ---
 
 
-## [LPopt Benchmark (find optimal basic solution) (8 Feb 2024)](http://plato.asu.edu/ftp/lpopt.html)
+## [LPopt Benchmark (find optimal basic solution) (27 Mar 2024)](http://plato.asu.edu/ftp/lpopt.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 65|
@@ -58,7 +58,7 @@ Choose base solver for comparison:
 |[🥉 Optverse-0.7.1](lpopt-OPTV.html) | 1.66 (1.66) | 98%|
 |[📊 MindOpt-1.0.0](lpopt-MDOPT.html) | 1.89 (1.89) | 97%|
 |[📊 MOSEK-10.1.9](lpopt-MOSEK.html) | 5.61 (5.61) | 80%|
-|[📊 XOPT-0.0.3](lpopt-XOPT.html) | 6.79 (6.79) | 78%|
+|[📊 XOPT-0.0.6](lpopt-XOPT.html) | 6.33 (6.33) | 80%|
 |[📊 HiGHS-1.6.0](lpopt-HiGHS.html) | 17.44 (17.40) | 78%|
 |[📊 CLP-1.17.7](lpopt-CLP.html) | 26.13 (26.10) | 62%|
 |[📊 MATLAB-R2022b](lpopt-MATL.html) | 39.83 (39.80) | 65%|
@@ -70,6 +70,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpopt-8-Feb-2024.html">8 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/lpopt-13-Jan-2024.html">13 Jan 2024</a></li>
 <li><a href="/mittelmann-plots/lpopt-13-Dec-2023.html">13 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/lpopt-5-Dec-2023.html">5 Dec 2023</a></li>
@@ -152,17 +153,17 @@ Choose base solver for comparison:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances - 8 threads (4 Mar 2024)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances - 8 threads (27 Mar 2024)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](milp_8threads-vbest.html) | 0.66  | 98%|
+|[⭐ virtual best](milp_8threads-vbest.html) | 0.65  | 98%|
 |[🥇 Gurobi-11.0.0](milp_8threads-Gurobi.html) | 1.00 (1.00) | 95%|
 |[🥈 COPT-7.1.0](milp_8threads-COPT.html) | 1.44 (1.44) | 92%|
 |[🥉 OptVerse-0.7.0](milp_8threads-optverse.html) | 2.88 (2.88) | 84%|
 |[📊 MindOpt-1.0.0](milp_8threads-MindOpt.html) | 4.18 (4.18) | 82%|
-|[📊 XOPT-0.0.3](milp_8threads-XOPT.html) | 7.09 (7.09) | 75%|
+|[📊 XOPT-0.0.6](milp_8threads-XOPT.html) | 6.34 (6.34) | 78%|
 |[📊 HiGHS-1.6.0](milp_8threads-HiGHS.html) | 9.98 (9.98) | 66%|
 |[📊 SCIPC/spx-8.1.0](milp_8threads-SCIPC.html) | 10.59 (10.60) | 63%|
 |[📊 SCIP/spx-8.1.0](milp_8threads-SCIP.html) | 12.46 (12.50) | 55%|
@@ -174,6 +175,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/milp_8threads-4-Mar-2024.html">4 Mar 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-7-Feb-2024.html">7 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-1-Feb-2024.html">1 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-26-Jan-2024.html">26 Jan 2024</a></li>
