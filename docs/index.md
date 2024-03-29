@@ -7,7 +7,7 @@ instance. This might reveal how much potential the individual solvers still have
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [LPfeas Benchmark (find PD feasible point) (8 Feb 2024)](http://plato.asu.edu/ftp/lpfeas.html)
+## [LPfeas Benchmark (find PD feasible point) (28 Mar 2024)](http://plato.asu.edu/ftp/lpfeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 65|
@@ -17,7 +17,7 @@ Choose base solver for comparison:
 |[🥈 Gurobi-11.0.0](lpfeas-Gurobi.html) | 1.29 (1.29) | 97%|
 |[🥉 MindOpt-1.0.0](lpfeas-MDOPT.html) | 1.81 (1.81) | 97%|
 |[📊 MOSEK-10.1.9](lpfeas-MOSEK.html) | 2.62 (2.62) | 98%|
-|[📊 XOPT-0.0.3](lpfeas-XOPT.html) | 5.45 (5.45) | 91%|
+|[📊 XOPT-0.0.6](lpfeas-XOPT.html) | 5.41 (5.41) | 91%|
 |[📊 ORTOOLS-9.7](lpfeas-PDLP%.html) | 17.09 (17.10) | 75%|
 |[📊 KNITRO-14.0.0](lpfeas-KNITRO.html) | 19.34 (19.30) | 74%|
 |[📊 HiGHS-1.6.0](lpfeas-HiGHS.html) | 19.35 (19.30) | 80%|
@@ -29,6 +29,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpfeas-8-Feb-2024.html">8 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/lpfeas-5-Feb-2024.html">5 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/lpfeas-15-Jan-2024.html">15 Jan 2024</a></li>
 <li><a href="/mittelmann-plots/lpfeas-12-Jan-2024.html">12 Jan 2024</a></li>
@@ -262,15 +263,15 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](infeas-vbest.html) | 0.98  | 94%|
+|[⭐ virtual best](infeas-vbest.html) | 0.99  | 94%|
 |[🥇 GUROBI-11.0.0](infeas-Gurobi.html) | 1.00 (1.00) | 94%|
 |[🥈 COPT-7.1.0](infeas-COPT.html) | 1.37 (1.37) | 94%|
 |[🥉 OptVerse-0.7.0](infeas-optverse.html) | 3.00 (3.00) | 88%|
-|[📊 XOPT-0.0.3](infeas-XOPT.html) | 7.34 (7.34) | 78%|
 |[📊 MindOpt-1.0.0](infeas-MindOpt.html) | 7.81 (7.81) | 84%|
+|[📊 XOPT-0.0.3](infeas-XOPT.html) | 7.82 (7.34) | 78%|
 |[📊 SCIPC-9.0.0](infeas-SCIPC.html) | 7.96 (7.96) | 78%|
 |[📊 HiGHS-1.6.0](infeas-HiGHS.html) | 8.18 (8.18) | 81%|
-|[📊 SCIP-9.0.0](infeas-SCIP.html) | 10.97 (10.30) | 81%|
+|[📊 SCIP-9.0.0](infeas-SCIP.html) | 10.67 (10.30) | 81%|
 |[📊 CBC-2.10.5](infeas-CBC.html) | 22.51 (22.50) | 62%|
 |[📊 MATLAB-2023a](infeas-MATLAB.html) | 44.55 (44.50) | 50%|
 
