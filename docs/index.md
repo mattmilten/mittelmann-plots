@@ -88,7 +88,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Network-LP Benchmark (commercial vs free) (6 Feb 2024)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (31 Mar 2024)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 25|
@@ -99,7 +99,7 @@ Choose base solver for comparison:
 |[🥉 Gurobi-11.0.0](network-GUR.html) | 1.69 (1.69) | 100%|
 |[📊 COPT-7.1.0](network-COPT.html) | 2.16 (2.16) | 100%|
 |[📊 Clp-1.17.7](network-CLP.html) | 6.07 (6.07) | 100%|
-|[📊 HiGHS-1.6.0](network-HGHS.html) | 12.65 (12.60) | 80%|
+|[📊 HiGHS-1.7.0](network-HGHS.html) | 12.93 (12.90) | 80%|
 |[📊 MATLAB-R2022b](network-MATL.html) | 21.28 (21.30) | 80%|
 |[📊 MOSEK-10.1.9](network-MOSEK.html) | 26.86 (26.90) | 88%|
 |[📊 QSopt-1.01](network-QSOPT.html) | 35.49 (35.50) | 68%|
@@ -110,6 +110,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/network-6-Feb-2024.html">6 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/network-4-Dec-2023.html">4 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/network-30-Nov-2023.html">30 Nov 2023</a></li>
 <li><a href="/mittelmann-plots/network-4-Oct-2023.html">4 Oct 2023</a></li>
@@ -258,7 +259,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Infeasibility Detection for MILP Problems (29 Feb 2024)](http://plato.asu.edu/ftp/infeas.html)
+## [Infeasibility Detection for MILP Problems (31 Mar 2024)](http://plato.asu.edu/ftp/infeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
@@ -268,9 +269,9 @@ Choose base solver for comparison:
 |[🥈 COPT-7.1.0](infeas-COPT.html) | 1.37 (1.37) | 94%|
 |[🥉 OptVerse-0.7.0](infeas-optverse.html) | 3.00 (3.00) | 88%|
 |[📊 MindOpt-1.0.0](infeas-MindOpt.html) | 7.81 (7.81) | 84%|
-|[📊 XOPT-0.0.3](infeas-XOPT.html) | 7.82 (7.34) | 78%|
+|[📊 XOPT-0.0.6](infeas-XOPT.html) | 7.82 (7.82) | 78%|
 |[📊 SCIPC-9.0.0](infeas-SCIPC.html) | 7.96 (7.96) | 78%|
-|[📊 HiGHS-1.6.0](infeas-HiGHS.html) | 8.18 (8.18) | 81%|
+|[📊 HiGHS-1.7.0](infeas-HiGHS.html) | 8.26 (8.26) | 78%|
 |[📊 SCIP-9.0.0](infeas-SCIP.html) | 10.67 (10.30) | 81%|
 |[📊 CBC-2.10.5](infeas-CBC.html) | 22.51 (22.50) | 62%|
 |[📊 MATLAB-2023a](infeas-MATLAB.html) | 44.55 (44.50) | 50%|
@@ -280,6 +281,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/infeas-29-Feb-2024.html">29 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/infeas-6-Feb-2024.html">6 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/infeas-14-Jan-2024.html">14 Jan 2024</a></li>
 <li><a href="/mittelmann-plots/infeas-13-Jan-2024.html">13 Jan 2024</a></li>
