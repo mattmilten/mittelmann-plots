@@ -142,11 +142,11 @@ def parse_table(url, session, timelimit=3600, threads=1):
     elif "milp.html" in url:
         if threads == 1:
             taburl = "http://plato.asu.edu/ftp/milp_tables/1thread.res"
-            scoretab = pre[1].text.split("\n")[5:10]
+            scoretab = pre[1].text.split("\n")[5:12]
             stats["title"] += f" - 1 thread - discontinued"
         else:
             taburl = "http://plato.asu.edu/ftp/milp_tables/8threads.res"
-            scoretab = pre[1].text.split("\n")[5:10]
+            scoretab = pre[1].text.split("\n")[5:12]
             stats["title"] += f" - {threads} threads"
 
         resp = session.get(taburl)
@@ -173,9 +173,9 @@ def parse_table(url, session, timelimit=3600, threads=1):
 
         _version = str(soup.contents[2]).split("<p>")[4].split("\n")[1:-1]
         _version = [x.split()[0].rstrip(":") for x in _version]
-        _solved = scoretab[4].split()[1:]
-        _score = scoretab[3].split()[1:]
-        solver = [get_version(s, "") for s in scoretab[0].split()[:]]
+        _solved = scoretab[5].split()[1:]
+        _score = scoretab[4].split()[1:]
+        solver = [get_version(s, "") for s in scoretab[1].split()[:]]
         # remove FSMOOTHIE results because they are not in the detailed table, yet
         remove_results = ["SMOO", "XSMOO"]
         for r in remove_results:
