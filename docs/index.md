@@ -155,7 +155,7 @@ Choose base solver for comparison:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances - 8 threads (27 Mar 2024)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances - 8 threads (5 Apr 2024)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
@@ -170,13 +170,13 @@ Choose base solver for comparison:
 |[📊 SCIPC/spx-8.1.0](milp_8threads-SCIPC.html) | 10.59 (10.60) | 63%|
 |[📊 SCIP/spx-8.1.0](milp_8threads-SCIP.html) | 12.46 (12.50) | 55%|
 |[📊 CBC-2.10.5](milp_8threads-CBC.html) | 18.42 (18.40) | 45%|
-|[📊 MATLAB-2023a](milp_8threads-Matlab.html) | 37.65 (37.60) | 30%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/milp_8threads-27-Mar-2024.html">27 Mar 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-4-Mar-2024.html">4 Mar 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-7-Feb-2024.html">7 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-1-Feb-2024.html">1 Feb 2024</a></li>
@@ -212,7 +212,7 @@ Choose base solver for comparison:
 ---
 
 
-## [MILP cases that are slightly pathological (7 Mar 2024)](http://plato.asu.edu/ftp/path.html)
+## [MILP cases that are slightly pathological (5 Apr 2024)](http://plato.asu.edu/ftp/path.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 45|
@@ -222,19 +222,19 @@ Choose base solver for comparison:
 |[🥈 COPT-7.1.0](path-COPT.html) | 1.98 (1.98) | 87%|
 |[🥉 OptVerse-0.7.0](path-optverse.html) | 3.89 (3.89) | 80%|
 |[📊 MindOpt-1.0.0](path-MindOpt.html) | 16.84 (16.80) | 44%|
-|[📊 XOPT-0.0.3](path-XOPT.html) | 18.12 (18.10) | 47%|
 |[📊 HiGHS-1.6.0](path-HiGHS.html) | 19.42 (19.40) | 53%|
 |[📊 SCIPC-9.0.0](path-SCIPC.html) | 25.00 (25.00) | 47%|
 |[📊 SCIP-9.0.0](path-SCIP.html) | 30.12 (30.10) | 42%|
+|[📊 XOPT-0.0.3](path-XOPT.html) | 36.94 (18.10) | 47%|
 |[📊 CBC-2.10.7](path-CBC.html) | 45.02 (45.00) | 11%|
 |[📊 GLPK-5.0](path-GLPK.html) | 45.63 (45.60) | 13%|
-|[📊 MATLAB-2023a](path-MATLAB.html) | 60.86 (60.90) | 4%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/path-7-Mar-2024.html">7 Mar 2024</a></li>
 <li><a href="/mittelmann-plots/path-5-Feb-2024.html">5 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/path-17-Jan-2024.html">17 Jan 2024</a></li>
 <li><a href="/mittelmann-plots/path-15-Jan-2024.html">15 Jan 2024</a></li>
@@ -259,7 +259,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Infeasibility Detection for MILP Problems (31 Mar 2024)](http://plato.asu.edu/ftp/infeas.html)
+## [Infeasibility Detection for MILP Problems (5 Apr 2024)](http://plato.asu.edu/ftp/infeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
@@ -274,13 +274,13 @@ Choose base solver for comparison:
 |[📊 HiGHS-1.7.0](infeas-HiGHS.html) | 8.26 (8.26) | 78%|
 |[📊 SCIP-9.0.0](infeas-SCIP.html) | 10.67 (10.30) | 81%|
 |[📊 CBC-2.10.5](infeas-CBC.html) | 22.51 (22.50) | 62%|
-|[📊 MATLAB-2023a](infeas-MATLAB.html) | 44.55 (44.50) | 50%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/infeas-31-Mar-2024.html">31 Mar 2024</a></li>
 <li><a href="/mittelmann-plots/infeas-29-Feb-2024.html">29 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/infeas-6-Feb-2024.html">6 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/infeas-14-Jan-2024.html">14 Jan 2024</a></li>
