@@ -378,22 +378,23 @@ Choose base solver for comparison:
 ---
 
 
-## [Mixed-integer SOCP Benchmark (9 Feb 2024)](http://plato.asu.edu/ftp/misocp.html)
+## [Mixed-integer SOCP Benchmark (9 Apr 2024)](http://plato.asu.edu/ftp/misocp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 47|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](misocp-vbest.html) | 0.97  | 100%|
+|[⭐ virtual best](misocp-vbest.html) | 0.98  | 100%|
 |[🥇 Gurobi-11.0.0](misocp-GUROBI.html) | 1.00 (1.00) | 100%|
 |[🥈 COPT-7.1.0](misocp-COPT.html) | 2.20 (2.16) | 98%|
-|[🥉 MOSEK-10.1.9](misocp-MOSEK.html) | 10.68 (9.00) | 77%|
-|[📊 SCIP-8.1.0](misocp-SCIP.html) | 26.84 (21.10) | 66%|
+|[🥉 MOSEK-10.1.28](misocp-MOSEK.html) | 10.89 (9.03) | 77%|
+|[📊 SCIP-9.0.0](misocp-SCIP.html) | 25.64 (20.10) | 66%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/misocp-9-Feb-2024.html">9 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/misocp-7-Feb-2024.html">7 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/misocp-30-Nov-2023.html">30 Nov 2023</a></li>
 <li><a href="/mittelmann-plots/misocp-27-Sep-2023.html">27 Sep 2023</a></li>
