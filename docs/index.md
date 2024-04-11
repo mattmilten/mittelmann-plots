@@ -477,7 +477,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Nonconvex QUBO-QPLIB Benchmark (10 Feb 2024)](http://plato.asu.edu/ftp/qubo.html)
+## [Nonconvex QUBO-QPLIB Benchmark (10 Apr 2024)](http://plato.asu.edu/ftp/qubo.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 23|
@@ -490,13 +490,14 @@ Choose base solver for comparison:
 |[📊 Baron-24.1.30](qubo-BARON.html) | 1.82 (1.82) | 52%|
 |[📊 McSparse-2.0](qubo-MCSPARSE.html) | 2.36 (2.36) | 52%|
 |[📊 Biqbin](qubo-BIQBIN.html) | 5.40 (5.40) | 39%|
-|[📊 SCIP-8.1](qubo-SCIP.html) | 5.46 (5.46) | 35%|
+|[📊 SCIP-9.0](qubo-SCIP.html) | 5.73 (5.73) | 30%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/qubo-10-Feb-2024.html">10 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/qubo-9-Feb-2024.html">9 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/qubo-10-Jan-2024.html">10 Jan 2024</a></li>
 <li><a href="/mittelmann-plots/qubo-30-Nov-2023.html">30 Nov 2023</a></li>
