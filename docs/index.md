@@ -48,7 +48,7 @@ Choose base solver for comparison:
 ---
 
 
-## [LPopt Benchmark (find optimal basic solution) (27 Mar 2024)](http://plato.asu.edu/ftp/lpopt.html)
+## [LPopt Benchmark (find optimal basic solution) (13 Apr 2024)](http://plato.asu.edu/ftp/lpopt.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 65|
@@ -56,8 +56,8 @@ Choose base solver for comparison:
 |[⭐ virtual best](lpopt-vbest.html) | 0.79  | 100%|
 |[🥇 COPT-7.1.0](lpopt-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 Gurobi-11.0.0](lpopt-Gurob.html) | 1.58 (1.58) | 97%|
-|[🥉 Optverse-0.7.1](lpopt-OPTV.html) | 1.66 (1.66) | 98%|
-|[📊 MindOpt-1.0.0](lpopt-MDOPT.html) | 1.89 (1.89) | 97%|
+|[🥉 MindOpt-1.0.0](lpopt-MDOPT.html) | 1.89 (1.89) | 97%|
+|[📊 Optverse-0.7.2](lpopt-OPTV.html) | 2.01 (2.01) | 95%|
 |[📊 MOSEK-10.1.9](lpopt-MOSEK.html) | 5.61 (5.61) | 80%|
 |[📊 XOPT-0.0.6](lpopt-XOPT.html) | 6.33 (6.33) | 80%|
 |[📊 HiGHS-1.6.0](lpopt-HiGHS.html) | 17.44 (17.40) | 78%|
@@ -71,6 +71,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpopt-27-Mar-2024.html">27 Mar 2024</a></li>
 <li><a href="/mittelmann-plots/lpopt-8-Feb-2024.html">8 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/lpopt-13-Jan-2024.html">13 Jan 2024</a></li>
 <li><a href="/mittelmann-plots/lpopt-13-Dec-2023.html">13 Dec 2023</a></li>
@@ -88,28 +89,29 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Network-LP Benchmark (commercial vs free) (31 Mar 2024)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (13 Apr 2024)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 25|
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](network-vbest.html) | 0.87  | 100%|
-|[🥇 OptVerse-0.7.0](network-OPTV.html) | 1.00 (1.00) | 100%|
-|[🥈 MindOpt-1.0.0](network-MDOPT.html) | 1.18 (1.18) | 100%|
-|[🥉 Gurobi-11.0.0](network-GUR.html) | 1.69 (1.69) | 100%|
-|[📊 COPT-7.1.0](network-COPT.html) | 2.16 (2.16) | 100%|
-|[📊 Clp-1.17.7](network-CLP.html) | 6.07 (6.07) | 100%|
-|[📊 HiGHS-1.7.0](network-HGHS.html) | 12.93 (12.90) | 80%|
-|[📊 MATLAB-R2022b](network-MATL.html) | 21.28 (21.30) | 80%|
-|[📊 MOSEK-10.1.9](network-MOSEK.html) | 26.86 (26.90) | 88%|
-|[📊 QSopt-1.01](network-QSOPT.html) | 35.49 (35.50) | 68%|
-|[📊 SOPLEX-6.0.0](network-SPLX.html) | 67.48 (67.40) | 64%|
+|[🥇 OptVerse-0.7.2](network-OPTV.html) | 1.00 (1.00) | 100%|
+|[🥈 MindOpt-1.0.0](network-MDOPT.html) | 1.17 (1.17) | 100%|
+|[🥉 Gurobi-11.0.0](network-GUR.html) | 1.68 (1.68) | 100%|
+|[📊 COPT-7.1.0](network-COPT.html) | 2.14 (2.14) | 100%|
+|[📊 Clp-1.17.7](network-CLP.html) | 6.03 (6.04) | 100%|
+|[📊 HiGHS-1.7.0](network-HGHS.html) | 12.84 (12.80) | 80%|
+|[📊 MATLAB-R2022b](network-MATL.html) | 21.14 (21.10) | 80%|
+|[📊 MOSEK-10.1.9](network-MOSEK.html) | 26.69 (26.70) | 88%|
+|[📊 QSopt-1.01](network-QSOPT.html) | 35.26 (35.30) | 68%|
+|[📊 SOPLEX-6.0.0](network-SPLX.html) | 67.04 (67.00) | 64%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/network-31-Mar-2024.html">31 Mar 2024</a></li>
 <li><a href="/mittelmann-plots/network-6-Feb-2024.html">6 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/network-4-Dec-2023.html">4 Dec 2023</a></li>
 <li><a href="/mittelmann-plots/network-30-Nov-2023.html">30 Nov 2023</a></li>
@@ -671,7 +673,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Discrete QPLIB Benchmark (11 Apr 2024)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (13 Apr 2024)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 31|
@@ -681,7 +683,7 @@ Choose base solver for comparison:
 |[🥈 COPT-7.1.0](convex-COPT.html) | 1.00 (1.00) | 77%|
 |[🥉 Shot-1.1](convex-SHOT.html) | 1.18 (1.18) | 81%|
 |[📊 OCTERACT-4.7.1](convex-OCTACT.html) | 2.44 (2.44) | 77%|
-|[📊 Baron-24.1.30](convex-BARON.html) | 3.45 (3.45) | 65%|
+|[📊 Baron-24.3.10](convex-BARON.html) | 3.98 (3.98) | 68%|
 |[📊 MOSEK-10.1.23](convex-MOSEK.html) | 10.05 (10.00) | 58%|
 |[📊 KNITRO-14.0.0](convex-KNITRO.html) | 13.63 (13.60) | 52%|
 |[📊 SCIP-9.0.0](convex-SCIP.html) | 21.82 (21.80) | 45%|
@@ -693,6 +695,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/convex-11-Apr-2024.html">11 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/convex-11-Mar-2024.html">11 Mar 2024</a></li>
 <li><a href="/mittelmann-plots/convex-11-Feb-2024.html">11 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/convex-9-Feb-2024.html">9 Feb 2024</a></li>
