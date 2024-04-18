@@ -157,7 +157,7 @@ Choose base solver for comparison:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances - 8 threads (5 Apr 2024)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances - 8 threads (17 Apr 2024)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
@@ -169,8 +169,8 @@ Choose base solver for comparison:
 |[📊 MindOpt-1.0.0](milp_8threads-MindOpt.html) | 4.18 (4.18) | 82%|
 |[📊 XOPT-0.0.6](milp_8threads-XOPT.html) | 6.34 (6.34) | 78%|
 |[📊 HiGHS-1.6.0](milp_8threads-HiGHS.html) | 9.98 (9.98) | 66%|
-|[📊 SCIPC/spx-8.1.0](milp_8threads-SCIPC.html) | 10.59 (10.60) | 63%|
-|[📊 SCIP/spx-8.1.0](milp_8threads-SCIP.html) | 12.46 (12.50) | 55%|
+|[📊 SCIPC/spx-9.0.0](milp_8threads-SCIPC.html) | 10.59 (10.60) | 63%|
+|[📊 SCIP/spx-9.0.0](milp_8threads-SCIP.html) | 12.39 (12.40) | 58%|
 |[📊 CBC-2.10.5](milp_8threads-CBC.html) | 18.42 (18.40) | 45%|
 
 
@@ -178,6 +178,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/milp_8threads-5-Apr-2024.html">5 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-27-Mar-2024.html">27 Mar 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-4-Mar-2024.html">4 Mar 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-7-Feb-2024.html">7 Feb 2024</a></li>
