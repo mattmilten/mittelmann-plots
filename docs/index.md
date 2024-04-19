@@ -48,7 +48,7 @@ Choose base solver for comparison:
 ---
 
 
-## [LPopt Benchmark (find optimal basic solution) (13 Apr 2024)](http://plato.asu.edu/ftp/lpopt.html)
+## [LPopt Benchmark (find optimal basic solution) (18 Apr 2024)](http://plato.asu.edu/ftp/lpopt.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 65|
@@ -62,7 +62,6 @@ Choose base solver for comparison:
 |[📊 XOPT-0.0.6](lpopt-XOPT.html) | 6.33 (6.33) | 80%|
 |[📊 HiGHS-1.6.0](lpopt-HiGHS.html) | 17.44 (17.40) | 78%|
 |[📊 CLP-1.17.7](lpopt-CLP.html) | 26.13 (26.10) | 62%|
-|[📊 MATLAB-R2022b](lpopt-MATL.html) | 39.83 (39.80) | 65%|
 |[📊 Google-GLOP](lpopt-GLOP.html) | 56.97 (57.00) | 51%|
 |[📊 SOPLEX-6.0.0](lpopt-SPLX.html) | 87.20 (87.20) | 49%|
 
@@ -71,6 +70,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpopt-13-Apr-2024.html">13 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/lpopt-27-Mar-2024.html">27 Mar 2024</a></li>
 <li><a href="/mittelmann-plots/lpopt-8-Feb-2024.html">8 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/lpopt-13-Jan-2024.html">13 Jan 2024</a></li>
@@ -89,7 +89,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Network-LP Benchmark (commercial vs free) (13 Apr 2024)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (18 Apr 2024)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 25|
@@ -101,7 +101,6 @@ Choose base solver for comparison:
 |[📊 COPT-7.1.0](network-COPT.html) | 2.14 (2.14) | 100%|
 |[📊 Clp-1.17.7](network-CLP.html) | 6.03 (6.04) | 100%|
 |[📊 HiGHS-1.7.0](network-HGHS.html) | 12.84 (12.80) | 80%|
-|[📊 MATLAB-R2022b](network-MATL.html) | 21.14 (21.10) | 80%|
 |[📊 MOSEK-10.1.9](network-MOSEK.html) | 26.69 (26.70) | 88%|
 |[📊 QSopt-1.01](network-QSOPT.html) | 35.26 (35.30) | 68%|
 |[📊 SOPLEX-6.0.0](network-SPLX.html) | 67.04 (67.00) | 64%|
@@ -111,6 +110,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/network-13-Apr-2024.html">13 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/network-31-Mar-2024.html">31 Mar 2024</a></li>
 <li><a href="/mittelmann-plots/network-6-Feb-2024.html">6 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/network-4-Dec-2023.html">4 Dec 2023</a></li>
