@@ -48,6 +48,8 @@ def get_version(s, version):
         s = "optverse"
     elif s in ["Matlb"]:
         s = "Matlab"
+    elif s in ["leopt"]:
+        s = "LEOPT"
 
     match = [v for v in version if v.lower().startswith(s.lower())]
     return match[0] if match else s
@@ -170,6 +172,8 @@ def parse_table(url, session, timelimit=3600, threads=1):
                 columns[i] = "MindOpt"
             elif c.startswith("MindOpt-L2O/cp"):
                 columns[i] = "MindOpt-L2O"
+            elif c.startswith("leopt"):
+                columns[i] = "LEOPT"
 
         _version = str(soup.contents[2]).split("<p>")[4].split("\n")[1:-1]
         _version = [x.split()[0].rstrip(":") for x in _version]
