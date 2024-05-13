@@ -217,28 +217,29 @@ Choose base solver for comparison:
 ---
 
 
-## [MILP cases that are slightly pathological (5 Apr 2024)](http://plato.asu.edu/ftp/path.html)
+## [MILP cases that are slightly pathological (11 May 2024)](http://plato.asu.edu/ftp/path.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 45|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](path-vbest.html) | 0.55  | 98%|
-|[🥇 GUROBI-11.0.0](path-Gurobi.html) | 1.00 (1.00) | 96%|
-|[🥈 COPT-7.1.0](path-COPT.html) | 1.98 (1.98) | 87%|
-|[🥉 OptVerse-0.7.0](path-optverse.html) | 3.89 (3.89) | 80%|
-|[📊 MindOpt-1.0.0](path-MindOpt.html) | 16.84 (16.80) | 44%|
-|[📊 HiGHS-1.6.0](path-HiGHS.html) | 19.42 (19.40) | 53%|
-|[📊 SCIPC-9.0.0](path-SCIPC.html) | 25.00 (25.00) | 47%|
-|[📊 SCIP-9.0.0](path-SCIP.html) | 30.12 (30.10) | 42%|
-|[📊 XOPT-0.0.3](path-XOPT.html) | 36.94 (18.10) | 47%|
-|[📊 CBC-2.10.7](path-CBC.html) | 45.02 (45.00) | 11%|
-|[📊 GLPK-5.0](path-GLPK.html) | 45.63 (45.60) | 13%|
+|[⭐ virtual best](path-vbest.html) | 0.58  | 100%|
+|[🥇 GUROBI-11.0.0](path-Gurobi.html) | 1.00 (1.00) | 98%|
+|[🥈 COPT-7.1.0](path-COPT.html) | 2.22 (2.22) | 91%|
+|[🥉 OptVerse-0.7.0](path-optverse.html) | 4.59 (4.59) | 82%|
+|[📊 XOPT-0.0.6](path-XOPT.html) | 15.71 (15.70) | 69%|
+|[📊 MindOpt-1.0.0](path-MindOpt.html) | 20.82 (20.80) | 53%|
+|[📊 HiGHS-1.6.0](path-HiGHS.html) | 24.08 (24.10) | 67%|
+|[📊 SCIPC-9.0.0](path-SCIPC.html) | 25.89 (25.90) | 62%|
+|[📊 SCIP-9.0.0](path-SCIP.html) | 44.65 (44.70) | 44%|
+|[📊 CBC-2.10.7](path-CBC.html) | 78.31 (78.30) | 22%|
+|[📊 GLPK-5.0](path-GLPK.html) | 82.99 (83.00) | 13%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/path-5-Apr-2024.html">5 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/path-7-Mar-2024.html">7 Mar 2024</a></li>
 <li><a href="/mittelmann-plots/path-5-Feb-2024.html">5 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/path-17-Jan-2024.html">17 Jan 2024</a></li>
