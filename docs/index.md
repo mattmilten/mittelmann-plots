@@ -217,7 +217,7 @@ Choose base solver for comparison:
 ---
 
 
-## [MILP cases that are slightly pathological (11 May 2024)](http://plato.asu.edu/ftp/path.html)
+## [MILP cases that are slightly pathological (13 May 2024)](http://plato.asu.edu/ftp/path.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 45|
@@ -228,7 +228,7 @@ Choose base solver for comparison:
 |[🥉 OptVerse-0.7.0](path-optverse.html) | 4.59 (4.59) | 82%|
 |[📊 XOPT-0.0.6](path-XOPT.html) | 15.71 (15.70) | 69%|
 |[📊 MindOpt-1.0.0](path-MindOpt.html) | 20.82 (20.80) | 53%|
-|[📊 HiGHS-1.6.0](path-HiGHS.html) | 24.08 (24.10) | 67%|
+|[📊 HiGHS-1.7.0](path-HiGHS.html) | 23.51 (23.50) | 64%|
 |[📊 SCIPC-9.0.0](path-SCIPC.html) | 25.89 (25.90) | 62%|
 |[📊 SCIP-9.0.0](path-SCIP.html) | 44.65 (44.70) | 44%|
 |[📊 CBC-2.10.7](path-CBC.html) | 78.31 (78.30) | 22%|
@@ -239,6 +239,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/path-11-May-2024.html">11 May 2024</a></li>
 <li><a href="/mittelmann-plots/path-5-Apr-2024.html">5 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/path-7-Mar-2024.html">7 Mar 2024</a></li>
 <li><a href="/mittelmann-plots/path-5-Feb-2024.html">5 Feb 2024</a></li>
