@@ -442,6 +442,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
         _score = tab[2].split()[1:]
         _solved = tab[3].split()[1:]
         solver = [s.rstrip("&*") for s in tab[5].split()[1:]]
+        solver.remove("RAPOSA")
         stats["solver"] = solver
         nprobs = len(tab[tabmark[0] + 3 : tabmark[1]])
         stats["nprobs"] = nprobs
