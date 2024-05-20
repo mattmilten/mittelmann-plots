@@ -428,7 +428,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Binary Non-Convex QPLIB Benchmark (29 Apr 2024)](http://plato.asu.edu/ftp/qplib.html)
+## [Binary Non-Convex QPLIB Benchmark (15 May 2024)](http://plato.asu.edu/ftp/qplib.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 97|
@@ -438,6 +438,7 @@ Choose base solver for comparison:
 |[🥈 SHOT-1.1](qplib-SHOT.html) | 1.29 (1.29) | 94%|
 |[🥉 OCTERACT-4.7.1](qplib-OCTERACT.html) | 1.69 (1.69) | 96%|
 |[📊 Baron-24.1.30](qplib-BARON.html) | 8.44 (8.44) | 67%|
+|[📊 RAPOSa-4.3.0](qplib-RAPOSa.html) | 17.29 (17.30) | 69%|
 |[📊 SCIP-9.0.0](qplib-SCIP.html) | 40.75 (40.70) | 35%|
 |[📊 ANTIGONE-1.1](qplib-ANTIGONE.html) | 81.19 (81.20) | 16%|
 |[📊 COUENNE-0.5](qplib-COUENNE.html) | 96.45 (96.40) | 6%|
@@ -447,6 +448,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/qplib-29-Apr-2024.html">29 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/qplib-11-Apr-2024.html">11 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/qplib-11-Feb-2024.html">11 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/qplib-11-Jan-2024.html">11 Jan 2024</a></li>
@@ -587,7 +589,6 @@ Choose base solver for comparison:
 |[📊 MINOTAUR-0.4.0](cnconv-MINOTAUR.html) | 6.87 (6.87) | 23%|
 |[📊 SCIP-8.1.0](cnconv-SCIP.html) | 9.15 (9.15) | 20%|
 |[📊 COUENNE-0.5](cnconv-COUENNE.html) | 11.44 (11.40) | 11%|
-|[📊 RAPOSa-4.0.2](cnconv-RAPOSA.html) | 14.29 (14.30) | 6%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
