@@ -7,7 +7,7 @@ instance. This might reveal how much potential the individual solvers still have
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [LPfeas Benchmark (find PD feasible point) (28 Mar 2024)](http://plato.asu.edu/ftp/lpfeas.html)
+## [LPfeas Benchmark (find PD feasible point) (20 May 2024)](http://plato.asu.edu/ftp/lpfeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 65|
@@ -16,6 +16,7 @@ Choose base solver for comparison:
 |[🥇 COPT-7.1.0](lpfeas-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 Gurobi-11.0.0](lpfeas-Gurobi.html) | 1.29 (1.29) | 97%|
 |[🥉 MindOpt-1.0.0](lpfeas-MDOPT.html) | 1.81 (1.81) | 97%|
+|[📊 Optverse-0.7.3](lpfeas-OPTV.html) | 1.82 (1.82) | 94%|
 |[📊 MOSEK-10.1.9](lpfeas-MOSEK.html) | 2.62 (2.62) | 98%|
 |[📊 XOPT-0.0.6](lpfeas-XOPT.html) | 5.41 (5.41) | 91%|
 |[📊 ORTOOLS-9.7](lpfeas-PDLP%.html) | 17.09 (17.10) | 75%|
@@ -29,6 +30,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpfeas-28-Mar-2024.html">28 Mar 2024</a></li>
 <li><a href="/mittelmann-plots/lpfeas-8-Feb-2024.html">8 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/lpfeas-5-Feb-2024.html">5 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/lpfeas-15-Jan-2024.html">15 Jan 2024</a></li>
@@ -48,16 +50,16 @@ Choose base solver for comparison:
 ---
 
 
-## [LPopt Benchmark (find optimal basic solution) (18 Apr 2024)](http://plato.asu.edu/ftp/lpopt.html)
+## [LPopt Benchmark (find optimal basic solution) (20 May 2024)](http://plato.asu.edu/ftp/lpopt.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 65|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](lpopt-vbest.html) | 0.79  | 100%|
+|[⭐ virtual best](lpopt-vbest.html) | 0.78  | 100%|
 |[🥇 COPT-7.1.0](lpopt-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 Gurobi-11.0.0](lpopt-Gurob.html) | 1.58 (1.58) | 97%|
-|[🥉 MindOpt-1.0.0](lpopt-MDOPT.html) | 1.89 (1.89) | 97%|
-|[📊 Optverse-0.7.2](lpopt-OPTV.html) | 2.01 (2.01) | 95%|
+|[🥉 Optverse-0.7.3](lpopt-OPTV.html) | 1.80 (1.80) | 95%|
+|[📊 MindOpt-1.0.0](lpopt-MDOPT.html) | 1.89 (1.89) | 97%|
 |[📊 MOSEK-10.1.9](lpopt-MOSEK.html) | 5.61 (5.61) | 80%|
 |[📊 XOPT-0.0.6](lpopt-XOPT.html) | 6.33 (6.33) | 80%|
 |[📊 HiGHS-1.6.0](lpopt-HiGHS.html) | 17.44 (17.40) | 78%|
@@ -70,6 +72,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpopt-18-Apr-2024.html">18 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/lpopt-13-Apr-2024.html">13 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/lpopt-27-Mar-2024.html">27 Mar 2024</a></li>
 <li><a href="/mittelmann-plots/lpopt-8-Feb-2024.html">8 Feb 2024</a></li>
@@ -493,15 +496,15 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 23|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](qubo-vbest.html) | 0.87  | 70%|
+|[⭐ virtual best](qubo-vbest.html) | 0.94  | 70%|
 |[🥇 QuBowl](qubo-QUBOWL.html) | 1.00 (1.00) | 65%|
-|[🥈 Gurobi-11.0.0](qubo-GUROBI.html) | 1.30 (1.30) | 57%|
+|[🥈 Gurobi-11.0.0](qubo-GUROBI.html) | 1.56 (1.30) | 57%|
 |[🥉 OCTERACT-4.7.1](qubo-OCTERACT.html) | 1.74 (1.74) | 52%|
-|[📊 SHOT-1.1](qubo-SHOT.html) | 1.76 (1.76) | 52%|
 |[📊 Baron-24.1.30](qubo-BARON.html) | 1.82 (1.82) | 52%|
+|[📊 SHOT-1.1](qubo-SHOT.html) | 1.92 (1.76) | 52%|
 |[📊 McSparse-2.0](qubo-MCSPARSE.html) | 2.36 (2.36) | 52%|
-|[📊 Biqbin](qubo-BIQBIN.html) | 5.40 (5.40) | 39%|
 |[📊 SCIP-9.0](qubo-SCIP.html) | 5.73 (5.73) | 30%|
+|[📊 Biqbin](qubo-BIQBIN.html) | 7.63 (5.40) | 39%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
