@@ -7,7 +7,7 @@ instance. This might reveal how much potential the individual solvers still have
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [LPfeas Benchmark (find PD feasible point) (20 May 2024)](http://plato.asu.edu/ftp/lpfeas.html)
+## [LPfeas Benchmark (find PD feasible point) (22 May 2024)](http://plato.asu.edu/ftp/lpfeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 65|
@@ -15,8 +15,8 @@ Choose base solver for comparison:
 |[⭐ virtual best](lpfeas-vbest.html) | 0.74  | 100%|
 |[🥇 COPT-7.1.0](lpfeas-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 Gurobi-11.0.0](lpfeas-Gurobi.html) | 1.29 (1.29) | 97%|
-|[🥉 MindOpt-1.0.0](lpfeas-MDOPT.html) | 1.81 (1.81) | 97%|
-|[📊 Optverse-0.7.3](lpfeas-OPTV.html) | 1.82 (1.82) | 94%|
+|[🥉 Optverse-0.7.3](lpfeas-OPTV.html) | 1.72 (1.72) | 95%|
+|[📊 MindOpt-1.0.0](lpfeas-MDOPT.html) | 1.81 (1.81) | 97%|
 |[📊 MOSEK-10.1.9](lpfeas-MOSEK.html) | 2.62 (2.62) | 98%|
 |[📊 XOPT-0.0.6](lpfeas-XOPT.html) | 5.41 (5.41) | 91%|
 |[📊 ORTOOLS-9.7](lpfeas-PDLP%.html) | 17.09 (17.10) | 75%|
@@ -30,6 +30,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpfeas-20-May-2024.html">20 May 2024</a></li>
 <li><a href="/mittelmann-plots/lpfeas-28-Mar-2024.html">28 Mar 2024</a></li>
 <li><a href="/mittelmann-plots/lpfeas-8-Feb-2024.html">8 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/lpfeas-5-Feb-2024.html">5 Feb 2024</a></li>
