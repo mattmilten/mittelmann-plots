@@ -7,7 +7,7 @@ instance. This might reveal how much potential the individual solvers still have
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [LPfeas Benchmark (find PD feasible point) (22 May 2024)](http://plato.asu.edu/ftp/lpfeas.html)
+## [LPfeas Benchmark (find PD feasible point) (9 Jun 2024)](http://plato.asu.edu/ftp/lpfeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 65|
@@ -19,7 +19,7 @@ Choose base solver for comparison:
 |[📊 MindOpt-1.0.0](lpfeas-MDOPT.html) | 1.81 (1.81) | 97%|
 |[📊 MOSEK-10.1.9](lpfeas-MOSEK.html) | 2.62 (2.62) | 98%|
 |[📊 XOPT-0.0.6](lpfeas-XOPT.html) | 5.41 (5.41) | 91%|
-|[📊 ORTOOLS-9.7](lpfeas-PDLP%.html) | 17.09 (17.10) | 75%|
+|[📊 ORTOOLS-9.10](lpfeas-PDLP%.html) | 15.66 (15.70) | 77%|
 |[📊 KNITRO-14.0.0](lpfeas-KNITRO.html) | 19.34 (19.30) | 74%|
 |[📊 HiGHS-1.6.0](lpfeas-HiGHS.html) | 19.35 (19.30) | 80%|
 |[📊 MATLAB-R2023a](lpfeas-MATL.html) | 27.07 (27.10) | 77%|
@@ -30,6 +30,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpfeas-22-May-2024.html">22 May 2024</a></li>
 <li><a href="/mittelmann-plots/lpfeas-20-May-2024.html">20 May 2024</a></li>
 <li><a href="/mittelmann-plots/lpfeas-28-Mar-2024.html">28 Mar 2024</a></li>
 <li><a href="/mittelmann-plots/lpfeas-8-Feb-2024.html">8 Feb 2024</a></li>
@@ -432,16 +433,15 @@ Choose base solver for comparison:
 ---
 
 
-## [Binary Non-Convex QPLIB Benchmark (15 May 2024)](http://plato.asu.edu/ftp/qplib.html)
+## [Binary Non-Convex QPLIB Benchmark (13 Jun 2024)](http://plato.asu.edu/ftp/qplib.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 97|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](qplib-vbest.html) | 0.70  | 100%|
+|[⭐ virtual best](qplib-vbest.html) | 0.77  | 100%|
 |[🥇 Gurobi-11.0.0](qplib-GUROBI.html) | 1.00 (1.00) | 97%|
 |[🥈 SHOT-1.1](qplib-SHOT.html) | 1.29 (1.29) | 94%|
-|[🥉 OCTERACT-4.7.1](qplib-OCTERACT.html) | 1.69 (1.69) | 96%|
-|[📊 Baron-24.1.30](qplib-BARON.html) | 8.44 (8.44) | 67%|
+|[🥉 Baron-24.5.8](qplib-BARON.html) | 7.60 (7.60) | 66%|
 |[📊 RAPOSa-4.3.0](qplib-RAPOSa.html) | 17.29 (17.30) | 69%|
 |[📊 SCIP-9.0.0](qplib-SCIP.html) | 40.75 (40.70) | 35%|
 |[📊 ANTIGONE-1.1](qplib-ANTIGONE.html) | 81.19 (81.20) | 16%|
@@ -452,6 +452,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/qplib-15-May-2024.html">15 May 2024</a></li>
 <li><a href="/mittelmann-plots/qplib-29-Apr-2024.html">29 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/qplib-11-Apr-2024.html">11 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/qplib-11-Feb-2024.html">11 Feb 2024</a></li>
@@ -492,7 +493,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Nonconvex QUBO-QPLIB Benchmark (10 Apr 2024)](http://plato.asu.edu/ftp/qubo.html)
+## [Nonconvex QUBO-QPLIB Benchmark (9 Jun 2024)](http://plato.asu.edu/ftp/qubo.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 23|
@@ -500,8 +501,7 @@ Choose base solver for comparison:
 |[⭐ virtual best](qubo-vbest.html) | 0.94  | 70%|
 |[🥇 QuBowl](qubo-QUBOWL.html) | 1.00 (1.00) | 65%|
 |[🥈 Gurobi-11.0.0](qubo-GUROBI.html) | 1.56 (1.30) | 57%|
-|[🥉 OCTERACT-4.7.1](qubo-OCTERACT.html) | 1.74 (1.74) | 52%|
-|[📊 Baron-24.1.30](qubo-BARON.html) | 1.82 (1.82) | 52%|
+|[🥉 Baron-24.5.8](qubo-BARON.html) | 1.82 (1.82) | 52%|
 |[📊 SHOT-1.1](qubo-SHOT.html) | 1.92 (1.76) | 52%|
 |[📊 McSparse-2.0](qubo-MCSPARSE.html) | 2.36 (2.36) | 52%|
 |[📊 SCIP-9.0](qubo-SCIP.html) | 5.73 (5.73) | 30%|
@@ -512,6 +512,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/qubo-10-Apr-2024.html">10 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/qubo-10-Feb-2024.html">10 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/qubo-9-Feb-2024.html">9 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/qubo-10-Jan-2024.html">10 Jan 2024</a></li>
@@ -529,7 +530,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Discrete Non-Convex QPLIB Benchmark (non-binary) (21 May 2024)](http://plato.asu.edu/ftp/nonbinary.html)
+## [Discrete Non-Convex QPLIB Benchmark (non-binary) (7 Jun 2024)](http://plato.asu.edu/ftp/nonbinary.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 105|
@@ -539,12 +540,14 @@ Choose base solver for comparison:
 |[🥈 SHOT-1.1](nonbinary-SHOT.html) | 1.44 (1.44) | 90%|
 |[🥉 Baron-24.3.10](nonbinary-BARON.html) | 7.11 (7.11) | 68%|
 |[📊 SCIP-9.0.0](nonbinary-SCIP.html) | 37.33 (37.30) | 39%|
+|[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 88.68 (88.70) | 27%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/nonbinary-21-May-2024.html">21 May 2024</a></li>
 <li><a href="/mittelmann-plots/nonbinary-22-Feb-2024.html">22 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/nonbinary-20-Feb-2024.html">20 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/nonbinary-13-Jan-2024.html">13 Jan 2024</a></li>
@@ -578,25 +581,24 @@ Choose base solver for comparison:
 ---
 
 
-## [Continuous Non-Convex QPLIB Benchmark (9 Mar 2024)](http://plato.asu.edu/ftp/cnconv.html)
+## [Continuous Non-Convex QPLIB Benchmark (20 Jun 2024)](http://plato.asu.edu/ftp/cnconv.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 71|
+| solver | score (as reported) | solved of 64|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](cnconv-vbest.html) | 0.18  | 96%|
-|[🥇 GUROBI-11.0.0](cnconv-GUROBI.html) | 1.00 (1.00) | 62%|
-|[🥈 OCTERACT-4.7.1](cnconv-OCTERACT.html) | 1.51 (1.51) | 65%|
-|[🥉 Baron-24.1.30](cnconv-BARON.html) | 2.46 (2.46) | 46%|
-|[📊 ANTIGONE-1.1](cnconv-ANTIGONE.html) | 5.18 (5.18) | 39%|
-|[📊 MINOTAUR-0.4.0](cnconv-MINOTAUR.html) | 6.87 (6.87) | 23%|
-|[📊 SCIP-8.1.0](cnconv-SCIP.html) | 9.15 (9.15) | 20%|
-|[📊 COUENNE-0.5](cnconv-COUENNE.html) | 11.44 (11.40) | 11%|
+|[⭐ virtual best](cnconv-vbest.html) | 0.30  | 95%|
+|[🥇 GUROBI-11.0.0](cnconv-GUROBI.html) | 1.00 (1.00) | 70%|
+|[🥈 Baron-24.3.10](cnconv-BARON.html) | 2.79 (2.79) | 55%|
+|[🥉 MINOTAUR-0.4.0](cnconv-MINOTAUR.html) | 7.24 (7.24) | 39%|
+|[📊 ANTIGONE-1.1](cnconv-ANTIGONE.html) | 7.76 (7.76) | 41%|
+|[📊 SCIP-9.0.0](cnconv-SCIP.html) | 12.17 (12.20) | 23%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/cnconv-9-Mar-2024.html">9 Mar 2024</a></li>
 <li><a href="/mittelmann-plots/cnconv-22-Feb-2024.html">22 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/cnconv-14-Jan-2024.html">14 Jan 2024</a></li>
 <li><a href="/mittelmann-plots/cnconv-5-Dec-2023.html">5 Dec 2023</a></li>
@@ -682,7 +684,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Discrete QPLIB Benchmark (28 Apr 2024)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (11 Jun 2024)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 31|
@@ -691,8 +693,7 @@ Choose base solver for comparison:
 |[🥇 GUROBI-11.0.0](convex-GUROBI.html) | 1.00 (1.00) | 81%|
 |[🥈 COPT-7.1.0](convex-COPT.html) | 1.00 (1.00) | 77%|
 |[🥉 Shot-1.1](convex-SHOT.html) | 1.07 (1.07) | 81%|
-|[📊 OCTERACT-4.7.1](convex-OCTACT.html) | 2.44 (2.44) | 77%|
-|[📊 Baron-24.3.10](convex-BARON.html) | 3.98 (3.98) | 68%|
+|[📊 Baron-24.5.8](convex-BARON.html) | 4.28 (4.28) | 65%|
 |[📊 MOSEK-10.1.23](convex-MOSEK.html) | 10.05 (10.00) | 58%|
 |[📊 KNITRO-14.0.0](convex-KNITRO.html) | 13.63 (13.60) | 52%|
 |[📊 SCIP-9.0.0](convex-SCIP.html) | 21.82 (21.80) | 45%|
@@ -704,6 +705,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/convex-28-Apr-2024.html">28 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/convex-13-Apr-2024.html">13 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/convex-11-Apr-2024.html">11 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/convex-11-Mar-2024.html">11 Mar 2024</a></li>
@@ -751,25 +753,25 @@ Choose base solver for comparison:
 ---
 
 
-## [Mixed Integer Nonlinear Programming Benchmark (MINLPLIB) (12 Apr 2024)](http://plato.asu.edu/ftp/minlp.html)
+## [Mixed Integer Nonlinear Programming Benchmark (MINLPLIB) (8 Jun 2024)](http://plato.asu.edu/ftp/minlp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 87|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](minlp-vbest.html) | 0.38  | 100%|
-|[🥇 OCTERACT](minlp-OCTERACT.html) | 1.00 (1.00) | 100%|
-|[🥈 BARON](minlp-BARON.html) | 2.01 (2.00) | 92%|
-|[🥉 SHOT](minlp-SHOT.html) | 6.15 (6.20) | 62%|
-|[📊 SCIP](minlp-SCIP.html) | 9.87 (9.90) | 75%|
-|[📊 LINDO](minlp-LINDO.html) | 32.85 (32.80) | 48%|
-|[📊 ANTIGONE](minlp-ANTIGONE.html) | 39.32 (39.30) | 61%|
-|[📊 COUENNE](minlp-COUENNE.html) | 89.78 (89.80) | 28%|
+|[⭐ virtual best](minlp-vbest.html) | 0.35  | 97%|
+|[🥇 BARON](minlp-BARON.html) | 1.00 (0.10) | 93%|
+|[🥈 SHOT](minlp-SHOT.html) | 2.89 (0.20) | 62%|
+|[🥉 SCIP](minlp-SCIP.html) | 4.64 (0.30) | 75%|
+|[📊 LINDO](minlp-LINDO.html) | 15.43 (0.80) | 48%|
+|[📊 ANTIGONE](minlp-ANTIGONE.html) | 18.47 (1.00) | 61%|
+|[📊 COUENNE](minlp-COUENNE.html) | 42.18 (2.30) | 28%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/minlp-12-Apr-2024.html">12 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/minlp-7-Feb-2024.html">7 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/minlp-6-Feb-2024.html">6 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/minlp-17-Jan-2024.html">17 Jan 2024</a></li>
