@@ -433,16 +433,16 @@ Choose base solver for comparison:
 ---
 
 
-## [Binary Non-Convex QPLIB Benchmark (13 Jun 2024)](http://plato.asu.edu/ftp/qplib.html)
+## [Binary Non-Convex QPLIB Benchmark (28 Jun 2024)](http://plato.asu.edu/ftp/qplib.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 97|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](qplib-vbest.html) | 0.77  | 100%|
+|[⭐ virtual best](qplib-vbest.html) | 0.76  | 100%|
 |[🥇 Gurobi-11.0.0](qplib-GUROBI.html) | 1.00 (1.00) | 97%|
 |[🥈 SHOT-1.1](qplib-SHOT.html) | 1.29 (1.29) | 94%|
 |[🥉 Baron-24.5.8](qplib-BARON.html) | 7.60 (7.60) | 66%|
-|[📊 RAPOSa-4.3.0](qplib-RAPOSa.html) | 17.29 (17.30) | 69%|
+|[📊 RAPOSa-4.4.1](qplib-RAPOSa.html) | 13.20 (13.20) | 71%|
 |[📊 SCIP-9.0.0](qplib-SCIP.html) | 40.75 (40.70) | 35%|
 |[📊 ANTIGONE-1.1](qplib-ANTIGONE.html) | 81.19 (81.20) | 16%|
 |[📊 COUENNE-0.5](qplib-COUENNE.html) | 96.45 (96.40) | 6%|
@@ -452,6 +452,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/qplib-13-Jun-2024.html">13 Jun 2024</a></li>
 <li><a href="/mittelmann-plots/qplib-15-May-2024.html">15 May 2024</a></li>
 <li><a href="/mittelmann-plots/qplib-29-Apr-2024.html">29 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/qplib-11-Apr-2024.html">11 Apr 2024</a></li>
