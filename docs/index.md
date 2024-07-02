@@ -531,15 +531,15 @@ Choose base solver for comparison:
 ---
 
 
-## [Discrete Non-Convex QPLIB Benchmark (non-binary) (7 Jun 2024)](http://plato.asu.edu/ftp/nonbinary.html)
+## [Discrete Non-Convex QPLIB Benchmark (non-binary) (1 Jul 2024)](http://plato.asu.edu/ftp/nonbinary.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 105|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](nonbinary-vbest.html) | 0.63  | 99%|
+|[⭐ virtual best](nonbinary-vbest.html) | 0.62  | 99%|
 |[🥇 Gurobi-11.0.0](nonbinary-GUROBI.html) | 1.00 (1.00) | 94%|
 |[🥈 SHOT-1.1](nonbinary-SHOT.html) | 1.44 (1.44) | 90%|
-|[🥉 Baron-24.3.10](nonbinary-BARON.html) | 7.11 (7.11) | 68%|
+|[🥉 Baron-24.5.8](nonbinary-BARON.html) | 6.86 (6.86) | 69%|
 |[📊 SCIP-9.0.0](nonbinary-SCIP.html) | 37.33 (37.30) | 39%|
 |[📊 ANTIGONE-1.1](nonbinary-ANTIGONE.html) | 88.68 (88.70) | 27%|
 
@@ -548,6 +548,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/nonbinary-7-Jun-2024.html">7 Jun 2024</a></li>
 <li><a href="/mittelmann-plots/nonbinary-21-May-2024.html">21 May 2024</a></li>
 <li><a href="/mittelmann-plots/nonbinary-22-Feb-2024.html">22 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/nonbinary-20-Feb-2024.html">20 Feb 2024</a></li>
