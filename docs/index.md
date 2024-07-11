@@ -162,20 +162,21 @@ Choose base solver for comparison:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances - 8 threads (7 May 2024)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances - 8 threads (5 Jul 2024)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](milp_8threads-vbest.html) | 0.64  | 98%|
+|[⭐ virtual best](milp_8threads-vbest.html) | 0.58  | 99%|
 |[🥇 Gurobi-11.0.0](milp_8threads-Gurobi.html) | 1.00 (1.00) | 95%|
 |[🥈 COPT-7.1.0](milp_8threads-COPT.html) | 1.44 (1.44) | 92%|
-|[🥉 OptVerse-0.7.0](milp_8threads-optverse.html) | 2.88 (2.88) | 84%|
+|[🥉 TAYLORMIP-0.8](milp_8threads-Taylor.html) | 2.45 (2.45) | 95%|
+|[📊 OptVerse-0.7.0](milp_8threads-optverse.html) | 2.88 (2.88) | 84%|
 |[📊 LEOPT-0.5.1](milp_8threads-LEOPT.html) | 4.17 (4.18) | 75%|
 |[📊 MindOpt-1.0.0](milp_8threads-MindOpt.html) | 4.18 (4.18) | 82%|
 |[📊 XOPT-0.0.6](milp_8threads-XOPT.html) | 6.34 (6.34) | 78%|
 |[📊 HiGHS-1.6.0](milp_8threads-HiGHS.html) | 9.98 (9.98) | 66%|
-|[📊 SCIPC/spx-9.0.0](milp_8threads-SCIPC.html) | 10.59 (10.60) | 63%|
+|[📊 SCIPC](milp_8threads-SCIPC.html) | 10.59 (10.60) | 63%|
 |[📊 SCIP/spx-9.0.0](milp_8threads-SCIP.html) | 12.39 (12.40) | 58%|
 |[📊 CBC-2.10.5](milp_8threads-CBC.html) | 18.42 (18.40) | 45%|
 
@@ -184,6 +185,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/milp_8threads-7-May-2024.html">7 May 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-17-Apr-2024.html">17 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-5-Apr-2024.html">5 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-27-Mar-2024.html">27 Mar 2024</a></li>
@@ -222,19 +224,20 @@ Choose base solver for comparison:
 ---
 
 
-## [MILP cases that are slightly pathological (13 May 2024)](http://plato.asu.edu/ftp/path.html)
+## [MILP cases that are slightly pathological (7 Jul 2024)](http://plato.asu.edu/ftp/path.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 45|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](path-vbest.html) | 0.58  | 100%|
+|[⭐ virtual best](path-vbest.html) | 0.49  | 100%|
 |[🥇 GUROBI-11.0.0](path-Gurobi.html) | 1.00 (1.00) | 98%|
 |[🥈 COPT-7.1.0](path-COPT.html) | 2.22 (2.22) | 91%|
 |[🥉 OptVerse-0.7.0](path-optverse.html) | 4.59 (4.59) | 82%|
+|[📊 Taylor](path-Taylor.html) | 5.43 (5.43) | 76%|
 |[📊 XOPT-0.0.6](path-XOPT.html) | 15.71 (15.70) | 69%|
 |[📊 MindOpt-1.0.0](path-MindOpt.html) | 20.82 (20.80) | 53%|
 |[📊 HiGHS-1.7.0](path-HiGHS.html) | 23.51 (23.50) | 64%|
-|[📊 SCIPC-9.0.0](path-SCIPC.html) | 25.89 (25.90) | 62%|
+|[📊 SCIPC](path-SCIPC.html) | 25.89 (25.90) | 62%|
 |[📊 SCIP-9.0.0](path-SCIP.html) | 44.65 (44.70) | 44%|
 |[📊 CBC-2.10.7](path-CBC.html) | 78.31 (78.30) | 22%|
 |[📊 GLPK-5.0](path-GLPK.html) | 82.99 (83.00) | 13%|
@@ -244,6 +247,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/path-13-May-2024.html">13 May 2024</a></li>
 <li><a href="/mittelmann-plots/path-11-May-2024.html">11 May 2024</a></li>
 <li><a href="/mittelmann-plots/path-5-Apr-2024.html">5 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/path-7-Mar-2024.html">7 Mar 2024</a></li>
@@ -282,7 +286,7 @@ Choose base solver for comparison:
 |[🥉 OptVerse-0.7.0](infeas-optverse.html) | 3.00 (3.00) | 88%|
 |[📊 MindOpt-1.0.0](infeas-MindOpt.html) | 7.81 (7.81) | 84%|
 |[📊 XOPT-0.0.6](infeas-XOPT.html) | 7.82 (7.82) | 78%|
-|[📊 SCIPC-9.0.0](infeas-SCIPC.html) | 7.96 (7.96) | 78%|
+|[📊 SCIPC](infeas-SCIPC.html) | 7.96 (7.96) | 78%|
 |[📊 HiGHS-1.7.0](infeas-HiGHS.html) | 8.26 (8.26) | 78%|
 |[📊 SCIP-9.0.0](infeas-SCIP.html) | 10.67 (10.30) | 81%|
 |[📊 CBC-2.10.5](infeas-CBC.html) | 22.51 (22.50) | 62%|
@@ -583,14 +587,14 @@ Choose base solver for comparison:
 ---
 
 
-## [Continuous Non-Convex QPLIB Benchmark (20 Jun 2024)](http://plato.asu.edu/ftp/cnconv.html)
+## [Continuous Non-Convex QPLIB Benchmark (6 Jul 2024)](http://plato.asu.edu/ftp/cnconv.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 64|
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](cnconv-vbest.html) | 0.30  | 95%|
 |[🥇 GUROBI-11.0.0](cnconv-GUROBI.html) | 1.00 (1.00) | 70%|
-|[🥈 Baron-24.3.10](cnconv-BARON.html) | 2.79 (2.79) | 55%|
+|[🥈 Baron-24.5.8](cnconv-BARON.html) | 2.68 (2.68) | 55%|
 |[🥉 MINOTAUR-0.4.0](cnconv-MINOTAUR.html) | 7.24 (7.24) | 39%|
 |[📊 ANTIGONE-1.1](cnconv-ANTIGONE.html) | 7.76 (7.76) | 41%|
 |[📊 SCIP-9.0.0](cnconv-SCIP.html) | 12.17 (12.20) | 23%|
@@ -600,6 +604,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/cnconv-20-Jun-2024.html">20 Jun 2024</a></li>
 <li><a href="/mittelmann-plots/cnconv-9-Mar-2024.html">9 Mar 2024</a></li>
 <li><a href="/mittelmann-plots/cnconv-22-Feb-2024.html">22 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/cnconv-14-Jan-2024.html">14 Jan 2024</a></li>
