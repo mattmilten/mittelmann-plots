@@ -21,8 +21,8 @@ def get_version(s, version):
             version.append(v.replace("(F)", "F"))
             version.remove(v)
         # split up SCIP entry to support SCIP-cpx
-        if v.startswith("SCIP-") or v.startswith("SCIP/"):
-            version.append(v.replace("SCIP", "SCIPC"))
+        # if v.startswith("SCIP-") or v.startswith("SCIP/"):
+            # version.append(v.replace("SCIP", "SCIPC"))
 
     if s in ["SPLX", "SOPLX"]:
         s = "SoPlex"
@@ -36,7 +36,7 @@ def get_version(s, version):
         s = "Mosek"
     elif s in ["HGHS"]:
         s = "HiGHS"
-    elif s in ["GUROBI", "Gurob", "GUROB"]:
+    elif s in ["GUROBI", "Gurob", "GUROB", "Gurb"]:
         s = "Gurobi"
     elif s in ["SCIPC"]:
         s = "SCIPC"
@@ -50,6 +50,8 @@ def get_version(s, version):
         s = "Matlab"
     elif s in ["leopt"]:
         s = "LEOPT"
+    elif s in ["TAYLR", "TAYL"]:
+        s = "Taylor"
 
     match = [v for v in version if v.lower().startswith(s.lower())]
     return match[0] if match else s
@@ -174,6 +176,10 @@ def parse_table(url, session, timelimit=3600, threads=1):
                 columns[i] = "MindOpt-L2O"
             elif c.startswith("leopt"):
                 columns[i] = "LEOPT"
+            elif c.startswith("TAYLR"):
+                columns[i] = "Taylor"
+            elif c.startswith("Gurb"):
+                columns[i] = "Gurobi"
 
         _version = str(soup.contents[2]).split("<p>")[4].split("\n")[1:-1]
         _version = [x.split()[0].rstrip(":") for x in _version]
@@ -181,7 +187,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
         _score = scoretab[4].split()[1:]
         solver = [get_version(s, "") for s in scoretab[1].split()[:]]
         # remove FSMOOTHIE results because they are not in the detailed table, yet
-        remove_results = ["SMOO", "XSMOO"]
+        remove_results = ["SMOO", "XSMO"]
         for r in remove_results:
             id_r = solver.index(r)
             del _solved[id_r]
