@@ -48,7 +48,7 @@ def get_version(s, version):
         s = "optverse"
     elif s in ["Matlb"]:
         s = "Matlab"
-    elif s in ["leopt"]:
+    elif s in ["leopt", "LEOP"]:
         s = "LEOPT"
     elif s in ["TAYLR", "TAYL"]:
         s = "Taylor"
@@ -183,9 +183,9 @@ def parse_table(url, session, timelimit=3600, threads=1):
 
         _version = str(soup.contents[2]).split("<p>")[4].split("\n")[1:-1]
         _version = [x.split()[0].rstrip(":") for x in _version]
-        _solved = scoretab[5].split()[1:]
-        _score = scoretab[4].split()[1:]
-        solver = [get_version(s, "") for s in scoretab[1].split()[:]]
+        _solved = scoretab[6].replace("|"," ").split()[1:]
+        _score = scoretab[5].replace("|"," ").split()[1:]
+        solver = [get_version(s, "") for s in scoretab[2].replace("|"," ").split()[:]]
         # remove FSMOOTHIE results because they are not in the detailed table, yet
         remove_results = ["SMOO", "XSMO"]
         for r in remove_results:
@@ -228,6 +228,8 @@ def parse_table(url, session, timelimit=3600, threads=1):
                 columns[i] = "MindOpt"
             elif c.startswith("MindOpt-L2O/cp"):
                 columns[i] = "MindOpt-L2O"
+            elif c.lower().startswith("leop"):
+                columns[i] = "LEOPT"
 
         _version = str(soup.contents[2]).split("<p>")[0].split("<br/>")[1:-1]
         _version = [x.split()[0].rstrip(":") for x in _version]
