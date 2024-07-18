@@ -162,7 +162,7 @@ Choose base solver for comparison:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances - 8 threads (5 Jul 2024)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances and Robustness Check - 8 threads (14 Jul 2024)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
@@ -185,6 +185,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/milp_8threads-5-Jul-2024.html">5 Jul 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-7-May-2024.html">7 May 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-17-Apr-2024.html">17 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-5-Apr-2024.html">5 Apr 2024</a></li>
@@ -224,7 +225,7 @@ Choose base solver for comparison:
 ---
 
 
-## [MILP cases that are slightly pathological (7 Jul 2024)](http://plato.asu.edu/ftp/path.html)
+## [MILP cases that are slightly pathological (17 Jul 2024)](http://plato.asu.edu/ftp/path.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 45|
@@ -237,6 +238,7 @@ Choose base solver for comparison:
 |[📊 XOPT 0.0.6](path-XOPT.html) | 15.71 (15.70) | 69%|
 |[📊 MindOpt 1.0.0](path-MindOpt.html) | 20.82 (20.80) | 53%|
 |[📊 HiGHS 1.7.0](path-HiGHS.html) | 23.51 (23.50) | 64%|
+|[📊 LEOPT 0.5.1](path-LEOPT.html) | 24.81 (24.80) | 60%|
 |[📊 SCIPC](path-SCIPC.html) | 25.89 (25.90) | 62%|
 |[📊 SCIP 9.0.0](path-SCIP.html) | 44.65 (44.70) | 44%|
 |[📊 CBC 2.10.7](path-CBC.html) | 78.31 (78.30) | 22%|
@@ -247,6 +249,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/path-7-Jul-2024.html">7 Jul 2024</a></li>
 <li><a href="/mittelmann-plots/path-13-May-2024.html">13 May 2024</a></li>
 <li><a href="/mittelmann-plots/path-11-May-2024.html">11 May 2024</a></li>
 <li><a href="/mittelmann-plots/path-5-Apr-2024.html">5 Apr 2024</a></li>
