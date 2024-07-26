@@ -7,7 +7,7 @@ instance. This might reveal how much potential the individual solvers still have
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [LPfeas Benchmark (find PD feasible point) (9 Jun 2024)](http://plato.asu.edu/ftp/lpfeas.html)
+## [LPfeas Benchmark (find PD feasible point) (25 Jul 2024)](http://plato.asu.edu/ftp/lpfeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 65|
@@ -15,8 +15,8 @@ Choose base solver for comparison:
 |[⭐ virtual best](lpfeas-vbest.html) | 0.74  | 100%|
 |[🥇 COPT 7.1.0](lpfeas-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 Gurobi 11.0.0](lpfeas-Gurobi.html) | 1.29 (1.29) | 97%|
-|[🥉 Optverse 0.7.3](lpfeas-OPTV.html) | 1.72 (1.72) | 95%|
-|[📊 MindOpt 1.0.0](lpfeas-MDOPT.html) | 1.81 (1.81) | 97%|
+|[🥉 MindOpt 1.0.0](lpfeas-MDOPT.html) | 1.81 (1.81) | 97%|
+|[📊 Optverse 0.7.4](lpfeas-OPTV.html) | 2.03 (2.03) | 94%|
 |[📊 MOSEK 10.1.9](lpfeas-MOSEK.html) | 2.62 (2.62) | 98%|
 |[📊 XOPT 0.0.6](lpfeas-XOPT.html) | 5.41 (5.41) | 91%|
 |[📊 ORTOOLS 9.10](lpfeas-PDLP%.html) | 15.66 (15.70) | 77%|
@@ -30,6 +30,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpfeas-9-Jun-2024.html">9 Jun 2024</a></li>
 <li><a href="/mittelmann-plots/lpfeas-22-May-2024.html">22 May 2024</a></li>
 <li><a href="/mittelmann-plots/lpfeas-20-May-2024.html">20 May 2024</a></li>
 <li><a href="/mittelmann-plots/lpfeas-28-Mar-2024.html">28 Mar 2024</a></li>
@@ -52,16 +53,16 @@ Choose base solver for comparison:
 ---
 
 
-## [LPopt Benchmark (find optimal basic solution) (20 May 2024)](http://plato.asu.edu/ftp/lpopt.html)
+## [LPopt Benchmark (find optimal basic solution) (25 Jul 2024)](http://plato.asu.edu/ftp/lpopt.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 65|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](lpopt-vbest.html) | 0.78  | 100%|
+|[⭐ virtual best](lpopt-vbest.html) | 0.79  | 100%|
 |[🥇 COPT 7.1.0](lpopt-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 Gurobi 11.0.0](lpopt-Gurob.html) | 1.58 (1.58) | 97%|
-|[🥉 Optverse 0.7.3](lpopt-OPTV.html) | 1.80 (1.80) | 95%|
-|[📊 MindOpt 1.0.0](lpopt-MDOPT.html) | 1.89 (1.89) | 97%|
+|[🥉 MindOpt 1.0.0](lpopt-MDOPT.html) | 1.89 (1.89) | 97%|
+|[📊 Optverse 0.7.4](lpopt-OPTV.html) | 2.01 (2.01) | 92%|
 |[📊 MOSEK 10.1.9](lpopt-MOSEK.html) | 5.61 (5.61) | 80%|
 |[📊 XOPT 0.0.6](lpopt-XOPT.html) | 6.33 (6.33) | 80%|
 |[📊 HiGHS 1.6.0](lpopt-HiGHS.html) | 17.44 (17.40) | 78%|
@@ -74,6 +75,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpopt-20-May-2024.html">20 May 2024</a></li>
 <li><a href="/mittelmann-plots/lpopt-18-Apr-2024.html">18 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/lpopt-13-Apr-2024.html">13 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/lpopt-27-Mar-2024.html">27 Mar 2024</a></li>
@@ -162,7 +164,7 @@ Choose base solver for comparison:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances and Robustness Check - 8 threads (14 Jul 2024)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances and Robustness Spotcheck - 8 threads (14 Jul 2024)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
