@@ -53,7 +53,7 @@ Choose base solver for comparison:
 ---
 
 
-## [LPopt Benchmark (find optimal basic solution) (25 Jul 2024)](http://plato.asu.edu/ftp/lpopt.html)
+## [LPopt Benchmark (find optimal basic solution) (30 Jul 2024)](http://plato.asu.edu/ftp/lpopt.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 65|
@@ -62,7 +62,7 @@ Choose base solver for comparison:
 |[🥇 COPT 7.1.0](lpopt-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 Gurobi 11.0.0](lpopt-Gurob.html) | 1.58 (1.58) | 97%|
 |[🥉 MindOpt 1.0.0](lpopt-MDOPT.html) | 1.89 (1.89) | 97%|
-|[📊 Optverse 0.7.4](lpopt-OPTV.html) | 2.01 (2.01) | 92%|
+|[📊 Optverse 0.7.4](lpopt-OPTV.html) | 1.95 (1.94) | 94%|
 |[📊 MOSEK 10.1.9](lpopt-MOSEK.html) | 5.61 (5.61) | 80%|
 |[📊 XOPT 0.0.6](lpopt-XOPT.html) | 6.33 (6.33) | 80%|
 |[📊 HiGHS 1.6.0](lpopt-HiGHS.html) | 17.44 (17.40) | 78%|
@@ -75,6 +75,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpopt-25-Jul-2024.html">25 Jul 2024</a></li>
 <li><a href="/mittelmann-plots/lpopt-20-May-2024.html">20 May 2024</a></li>
 <li><a href="/mittelmann-plots/lpopt-18-Apr-2024.html">18 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/lpopt-13-Apr-2024.html">13 Apr 2024</a></li>
