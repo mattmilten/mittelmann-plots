@@ -166,7 +166,7 @@ Choose base solver for comparison:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances and Robustness Spotcheck - 8 threads (14 Jul 2024)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances and Robustness Spotcheck - 8 threads (9 Aug 2024)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
@@ -189,6 +189,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/milp_8threads-14-Jul-2024.html">14 Jul 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-5-Jul-2024.html">5 Jul 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-7-May-2024.html">7 May 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-17-Apr-2024.html">17 Apr 2024</a></li>
@@ -646,17 +647,17 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Continuous QPLIB Benchmark (ext) (12 Mar 2024)](http://plato.asu.edu/ftp/cconvex.html)
+## [Convex Continuous QPLIB Benchmark (ext) (9 Aug 2024)](http://plato.asu.edu/ftp/cconvex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 42|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](cconvex-vbest.html) | 0.73  | 100%|
+|[⭐ virtual best](cconvex-vbest.html) | 0.71  | 100%|
 |[🥇 COPT 7.1.0](cconvex-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 OptVerse 0.7.0](cconvex-OPTVERS.html) | 1.28 (1.28) | 98%|
-|[🥉 KNITRO 14.0.0](cconvex-KNITRO.html) | 1.49 (1.49) | 98%|
-|[📊 Gurobi 11.0.0](cconvex-Gurobi.html) | 1.59 (1.59) | 98%|
+|[🥉 Gurobi 11.0.0](cconvex-Gurobi.html) | 1.59 (1.59) | 98%|
 |[📊 MOSEK 10.1.21](cconvex-MOSEK.html) | 1.60 (1.60) | 98%|
+|[📊 KNITRO 14.1.0](cconvex-KNITRO.html) | 1.92 (1.92) | 95%|
 |[📊 MindOpt 1.0.0](cconvex-MINDOPT.html) | 5.74 (5.43) | 81%|
 |[📊 IPOPT 3.14.5](cconvex-IPOPT.html) | 8.95 (8.95) | 83%|
 |[📊 Mnotaur](cconvex-Mnotaur.html) | 45.32 (45.00) | 60%|
@@ -666,6 +667,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/cconvex-12-Mar-2024.html">12 Mar 2024</a></li>
 <li><a href="/mittelmann-plots/cconvex-7-Feb-2024.html">7 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/cconvex-5-Feb-2024.html">5 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/cconvex-9-Dec-2023.html">9 Dec 2023</a></li>
