@@ -166,7 +166,7 @@ Choose base solver for comparison:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances and Robustness Spotcheck - 8 threads (9 Aug 2024)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances and Robustness Spotcheck - 8 threads (12 Aug 2024)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
@@ -189,6 +189,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/milp_8threads-9-Aug-2024.html">9 Aug 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-14-Jul-2024.html">14 Jul 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-5-Jul-2024.html">5 Jul 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-7-May-2024.html">7 May 2024</a></li>
