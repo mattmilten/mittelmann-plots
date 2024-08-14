@@ -701,7 +701,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Discrete QPLIB Benchmark (10 Aug 2024)](http://plato.asu.edu/ftp/convex.html)
+## [Convex Discrete QPLIB Benchmark (13 Aug 2024)](http://plato.asu.edu/ftp/convex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 31|
@@ -712,7 +712,7 @@ Choose base solver for comparison:
 |[🥉 Shot 1.1](convex-SHOT.html) | 1.07 (1.07) | 81%|
 |[📊 Baron 24.5.8](convex-BARON.html) | 4.28 (4.28) | 65%|
 |[📊 MOSEK 10.2.2](convex-MOSEK.html) | 10.03 (10.00) | 58%|
-|[📊 KNITRO 14.0.0](convex-KNITRO.html) | 13.63 (13.60) | 52%|
+|[📊 KNITRO 14.1.0](convex-KNITRO.html) | 12.75 (13.60) | 52%|
 |[📊 SCIP 9.0.0](convex-SCIP.html) | 21.82 (21.80) | 45%|
 |[📊 Bonmin 1.8.7](convex-BONMIN.html) | 54.64 (54.60) | 23%|
 |[📊 MNTAUR](convex-MNTAUR.html) | 63.99 (64.00) | 26%|
@@ -722,6 +722,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/convex-10-Aug-2024.html">10 Aug 2024</a></li>
 <li><a href="/mittelmann-plots/convex-11-Jun-2024.html">11 Jun 2024</a></li>
 <li><a href="/mittelmann-plots/convex-28-Apr-2024.html">28 Apr 2024</a></li>
 <li><a href="/mittelmann-plots/convex-13-Apr-2024.html">13 Apr 2024</a></li>
