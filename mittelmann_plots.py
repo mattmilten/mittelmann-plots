@@ -395,7 +395,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
         _score = scoretab[4].split()[1:]
         _solved = scoretab[5].split()[1:]
         stats["score"] = {solver[i]: float(_score[i]) for i in range(len(solver))}
-        stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
+        stats["solved"] = {solver[i]: int(_solved[i].rstrip("#")) for i in range(len(solver))}
         stats["version"] = {s: s for s in solver}
         stats["timelimit"] = timelimit
         tabmark = [ind for ind, i in enumerate(tab) if i.startswith("-----")]
