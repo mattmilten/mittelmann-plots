@@ -172,15 +172,15 @@ Choose base solver for comparison:
 | solver | score (as reported) | solved of 240|
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](milp_8threads-vbest.html) | 0.68  | 96%|
-|[🥇 COPT 7.1.0](milp_8threads-COPT.html) | 1.00 (1.00) | 92%|
-|[🥈 OptVerse 0.7.0](milp_8threads-optverse.html) | 2.00 (2.00) | 84%|
-|[🥉 LEOPT 0.5.1](milp_8threads-LEOPT.html) | 2.90 (2.90) | 75%|
-|[📊 MindOpt 1.0.0](milp_8threads-MindOpt.html) | 2.90 (2.90) | 82%|
-|[📊 XOPT 0.0.6](milp_8threads-XOPT.html) | 4.41 (4.41) | 78%|
-|[📊 HiGHS 1.6.0](milp_8threads-HiGHS.html) | 6.94 (6.94) | 66%|
+|[🥇 COPT](milp_8threads-COPT.html) | 1.00 (1.00) | 92%|
+|[🥈 optverse](milp_8threads-optverse.html) | 2.00 (2.00) | 84%|
+|[🥉 LEOPT](milp_8threads-LEOPT.html) | 2.90 (2.90) | 75%|
+|[📊 MindOpt](milp_8threads-MindOpt.html) | 2.90 (2.90) | 82%|
+|[📊 XOPT](milp_8threads-XOPT.html) | 4.41 (4.41) | 78%|
+|[📊 HiGHS](milp_8threads-HiGHS.html) | 6.94 (6.94) | 66%|
 |[📊 SCIPC](milp_8threads-SCIPC.html) | 7.36 (7.36) | 63%|
-|[📊 SCIP/spx 9.0.0](milp_8threads-SCIP.html) | 8.61 (8.61) | 58%|
-|[📊 CBC 2.10.5](milp_8threads-CBC.html) | 12.80 (12.80) | 45%|
+|[📊 SCIP](milp_8threads-SCIP.html) | 8.61 (8.61) | 58%|
+|[📊 CBC](milp_8threads-CBC.html) | 12.80 (12.80) | 45%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
