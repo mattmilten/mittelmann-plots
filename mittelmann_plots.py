@@ -309,17 +309,17 @@ def parse_table(url, session, timelimit=3600, threads=1):
         )
 
     elif "socp.html" in url:
-        tab = pre[1].text.split("\n")
+        tab = pre[0].text.split("\n")
         tabmark = [
             ind
             for ind, i in enumerate(tab)
             if i.startswith("-----") or i.startswith("======")
         ]
         # Solvers version on this page are in a table
-        _version = [x.text for x in soup.find_all("td")][0::2]
-        _score = tab[3].split()[1:]
-        _solved = tab[4].split()[1:]
-        solver = [s.rstrip("&") for s in tab[6].split()[1:]]
+        _version = tab[10:15]
+        _score = tab[tabmark[0] - 2].split()[1:]
+        _solved = tab[tabmark[0] - 1].split()[1:]
+        solver = tab[tabmark[0] + 1].split()[1:]
         stats["solver"] = solver
         nprobs = len(tab[tabmark[1] + 1 : tabmark[2]])
         stats["nprobs"] = nprobs
