@@ -169,7 +169,7 @@ Choose base solver for comparison:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances - 8 threads (13 Sep 2024)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances - 8 threads (15 Sep 2024)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
@@ -189,6 +189,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/milp_8threads-13-Sep-2024.html">13 Sep 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-20-Aug-2024.html">20 Aug 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-16-Aug-2024.html">16 Aug 2024</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-12-Aug-2024.html">12 Aug 2024</a></li>
