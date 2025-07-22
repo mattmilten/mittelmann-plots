@@ -10,6 +10,7 @@ import sys, os, fnmatch
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from datetime import datetime as dt
+import re
 
 
 # %%
@@ -52,9 +53,21 @@ def get_version(s, version):
         s = "LEOPT"
     elif s in ["TAYLR", "TAYL"]:
         s = "Taylor"
+    elif s in ["CUPDL"]:
+        s = "cuPDLP-C"
+    elif s in ["CUPDL-H100"]:
+        s = "cuPDLP-C-H100"
+    elif s in ["CUOPT"]:
+        s = "cuOpt"
+    elif s in ["CUOPT-H100"]:
+        s = "cuOpt-H100"
 
     match = [v for v in version if v.lower().startswith(s.lower())]
-    return match[0].replace("-"," ") if match else s
+    if match:
+        # Replace "-" only if followed by a number
+        return re.sub(r"-(?=\d)", " ", match[0])
+    else:
+        return s
 
 
 # %%
@@ -103,9 +116,11 @@ def parse_table(url, session, timelimit=3600, threads=1):
         tabmark = [ind for ind, i in enumerate(tab) if i.startswith("=====")]
         _version = pre[0].text.split("\n\n")[6].split("\n")
         _version = [x.split()[0].rstrip(":") for x in _version]
-        _score = tab[tabmark[0] - 2].split()[2:]
+        _score = tab[tabmark[0] - 2].split()[1:]
         _solved = tab[tabmark[0] - 1].split()[1:]
-        solver = tab[tabmark[0] + 1].split()[1:]
+        solver = tab[tabmark[0] + 1].replace("&", "& &").replace("$", "$ $").split()[2:]
+        solver = [s.replace("&", "") for s in solver]
+        solver = [s.replace("$", "") + "-H100" if "$" in s else s for s in solver]
         stats["solver"] = solver
         stats["nprobs"] = len(tab[tabmark[1] + 1 : tabmark[2]])
         stats["score"] = {
@@ -149,7 +164,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
             scoretab = pre[1].text.split("\n")[5:12]
             stats["title"] += f" - 1 thread - discontinued"
         else:
-            taburl = "http://plato.asu.edu/ftp/milp_tables/8threads.res"
+            taburl = "http://plato.asu.edu/ftp/milp_tables/12threads.res"
             scoretab = pre[1].text.split("\n")[5:12]
             stats["title"] += f" - {threads} threads"
 
@@ -186,8 +201,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
         _solved = scoretab[4].replace("|"," ").split()[1:]
         _score = scoretab[3].replace("|"," ").split()[1:]
         solver = [get_version(s, "") for s in scoretab[0].replace("|"," ").split()[:]]
-        # remove FSMOOTHIE results because they are not in the detailed table, yet
-        remove_results = ["SMOO", "XSMO"]
+        remove_results = ["TAYLOR%"]
         for r in remove_results:
             id_r = solver.index(r)
             del _solved[id_r]
@@ -201,11 +215,12 @@ def parse_table(url, session, timelimit=3600, threads=1):
             [l.split() for l in tab[tabmark[1] + 1 : tabmark[-2]]],
             columns=["instance"] + columns,
         )
+        stats["times"].drop("Taylor", axis="columns", inplace=True)
         stats["nprobs"] = len(stats["times"])
         stats["timelimit"] = timelimit
 
     elif "path.html" in url:
-        taburl = "http://plato.asu.edu/ftp/path.res"
+        taburl = "https://plato.asu.edu/ftp/p_path.res"
         scoretab = pre[1].text.split("\n")[3:7]
         resp = session.get(taburl)
         souptab = BeautifulSoup(resp.text, features="html.parser")
@@ -220,7 +235,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
                 columns[i] = "FSCIP"
             elif c.startswith("SCIP-spx") or c == "SCIP-":
                 columns[i] = "SCIP"
-            elif c.startswith("SCIP-cpx"):
+            elif c.startswith("SCIPC-cpx"):
                 columns[i] = "SCIPC"
             elif c.startswith("GUROB"):
                 columns[i] = "Gurobi"
@@ -233,9 +248,15 @@ def parse_table(url, session, timelimit=3600, threads=1):
 
         _version = str(soup.contents[2]).split("<p>")[0].split("<br/>")[1:-1]
         _version = [x.split()[0].rstrip(":") for x in _version]
-        _solved = scoretab[3].split()[:]
-        _score = scoretab[2].split()[:]
+        _solved = scoretab[2].split()[1:]
+        _score = scoretab[3].split()[1:]
         solver = [get_version(s, "") for s in scoretab[0].split()[:]]
+        remove_results = ["SMOO", "XSMO"]
+        for r in remove_results:
+            id_r = solver.index(r)
+            del _solved[id_r]
+            del _score[id_r]
+            del solver[id_r]
         stats["solver"] = solver
         stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
         stats["version"] = {s: get_version(s, _version) for s in solver}
@@ -339,9 +360,9 @@ def parse_table(url, session, timelimit=3600, threads=1):
         tabmark = [ind for ind, i in enumerate(tab) if i.startswith("=====")]
         _version = pre[1].text.split("\n")[1:-1]
         _version = [x.split()[0].rstrip(":") for x in _version]
-        _score = tab[2].split()[:]
-        _solved = tab[5].split()[3:]
-        solver = [s.rstrip("&") for s in tab[7].split()[1:]]
+        _score = tab[3].split()[:]
+        _solved = tab[6].split()[3:]
+        solver = [s.rstrip("&") for s in tab[8].split()[1:]]
         stats["solver"] = solver
         nprobs = len(tab[tabmark[1] + 1 : tabmark[2]])
         stats["nprobs"] = nprobs
@@ -390,17 +411,17 @@ def parse_table(url, session, timelimit=3600, threads=1):
         souptab = BeautifulSoup(resp.text, features="html.parser")
         tab = souptab.contents[0].split("\n")
         scoretab = pre[1].text.split("\n")
-        solver = [s.rstrip("&") for s in scoretab[1].split()]
-        stats["solver"] = solver
-        _score = scoretab[4].split()[1:]
-        _solved = scoretab[5].split()[1:]
+        solver = [s for s in scoretab[2].split() if not s.find("*") >= 0]
+        _score = scoretab[5].split()[1:]
+        _solved = scoretab[6].split()[1:]
         stats["score"] = {solver[i]: float(_score[i]) for i in range(len(solver))}
-        stats["solved"] = {solver[i]: int(_solved[i].rstrip("#")) for i in range(len(solver))}
+        stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
         stats["version"] = {s: s for s in solver}
         stats["timelimit"] = timelimit
         tabmark = [ind for ind, i in enumerate(tab) if i.startswith("-----")]
         # need to get solver names again because of different order in table
         solver = [s[0 : s.find("(")] for s in tab[0].replace("|", " ").split()]
+        stats["solver"] = solver
         columns = ["instance"] + [f"{solver[0]}_nodes_drop", f"{solver[0]}"]
         for i in range(1, len(solver)):
             columns.append(f"{solver[i]}_nodes_drop")
@@ -464,6 +485,31 @@ def parse_table(url, session, timelimit=3600, threads=1):
         stats["timelimit"] = timelimit
         stats["times"] = pd.DataFrame(
             [l.replace("*", "").split() for l in tab[tabmark[0] + 3 : tabmark[1]]],
+            columns=["instance"] + solver,
+        )
+
+    elif "cconvex.html" in url:
+        tab = pre[2].text.split("\n")
+        tabmark = [ind for ind, i in enumerate(tab) if i.startswith("=====")]
+        _version = [x for x in pre[1].text.split("\n") if x]
+        _version = [x.split()[0].rstrip(":") for x in _version]
+        _score = tab[1].split()[1:]
+        _solved = tab[2].split()[1:7]
+        solver = [s for s in tab[4].split()[1:7]]
+        stats["solver"] = solver
+        nprobs = len(tab[tabmark[0] + 3 : tabmark[1]])
+        stats["nprobs"] = nprobs
+        stats["score"] = {
+            solver[i]: float(_score[i].replace("r", "").replace("R", ""))
+            for i in range(len(solver))
+        }
+        stats["solved"] = {
+            solver[i]: int(_solved[i].strip("*")) for i in range(len(solver))
+        }
+        stats["version"] = {s: get_version(s, _version) for s in solver}
+        stats["timelimit"] = timelimit
+        stats["times"] = pd.DataFrame(
+            [l.replace("*", "").split()[:7] for l in tab[tabmark[0] + 3 : tabmark[1]]],
             columns=["instance"] + solver,
         )
 
@@ -705,6 +751,8 @@ parsedata = [
     ("http://plato.asu.edu/ftp/sparse_sdp.html", 40000, 1),
     ("http://plato.asu.edu/ftp/socp.html", 3600, 1),
     ("http://plato.asu.edu/ftp/misocp.html", 7200, 1),
+    # NLP (currently impossible to parse because of completely different page layout)
+    # ("http://plato.asu.edu/ftp/ampl-nlp.html", 7200, 1),
     # MIQP/QCP
     ("http://plato.asu.edu/ftp/qplib.html", 3600, 1),
     ("http://plato.asu.edu/ftp/qubo.html", 3600, 1),
