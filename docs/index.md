@@ -337,18 +337,18 @@ Choose base solver for comparison:
 ---
 
 
-## [Several SDP-codes on sparse and other SDP problems (also on GPUs) (20 Jul 2025)](http://plato.asu.edu/ftp/sparse_sdp.html)
+## [Several SDP-codes on sparse and other SDP problems (also on GPUs) (9 Aug 2025)](http://plato.asu.edu/ftp/sparse_sdp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 75|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](sparse_sdp-vbest.html) | 0.38  | 100%|
+|[⭐ virtual best](sparse_sdp-vbest.html) | 0.35  | 100%|
 |[🥇 COPT 7.2.0](sparse_sdp-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 MOSEK 11.0.16](sparse_sdp-MOSEK.html) | 2.69 (2.69) | 97%|
 |[🥉 cuLoRADS 1.0.0](sparse_sdp-cuLoRAD.html) | 3.97 (3.97) | 95%|
 |[📊 SDPT3 4.0](sparse_sdp-SDPT3.html) | 5.34 (5.34) | 92%|
 |[📊 CSDP 6.2.0](sparse_sdp-CSDP.html) | 5.41 (5.41) | 93%|
-|[📊 SDPA 7.4.2](sparse_sdp-SDPA.html) | 10.85 (10.90) | 81%|
+|[📊 SDPA 7.4.4](sparse_sdp-SDPA.html) | 8.01 (8.01) | 81%|
 |[📊 SeDuMi 1.3.5](sparse_sdp-SeDuMi.html) | 29.99 (30.00) | 83%|
 
 
@@ -356,6 +356,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/sparse_sdp-20-Jul-2025.html">20 Jul 2025</a></li>
 <li><a href="/mittelmann-plots/sparse_sdp-28-Aug-2024.html">28 Aug 2024</a></li>
 <li><a href="/mittelmann-plots/sparse_sdp-8-Feb-2024.html">8 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/sparse_sdp-1-Feb-2024.html">1 Feb 2024</a></li>
