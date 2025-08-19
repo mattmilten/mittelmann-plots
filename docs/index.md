@@ -792,22 +792,23 @@ Choose base solver for comparison:
 ---
 
 
-## [Mixed Integer Nonlinear Programming Benchmark (MINLPLIB) (24 Jun 2025)](http://plato.asu.edu/ftp/minlp.html)
+## [Mixed Integer Nonlinear Programming Benchmark (MINLPLIB) (18 Aug 2025)](http://plato.asu.edu/ftp/minlp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 200|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](minlp-vbest.html) | 0.28  | 92%|
+|[⭐ virtual best](minlp-vbest.html) | 0.31  | 92%|
 |[🥇 BARON](minlp-BARON.html) | 1.00 (1.00) | 80%|
-|[🥈 SCIP](minlp-SCIP.html) | 1.59 (1.50) | 76%|
-|[🥉 LINDO](minlp-LINDO.html) | 4.95 (4.80) | 58%|
-|[📊 SHOT](minlp-SHOT.html) | 5.23 (5.10) | 48%|
+|[🥈 SCIP](minlp-SCIP.html) | 1.71 (1.70) | 76%|
+|[🥉 LINDO](minlp-LINDO.html) | 5.32 (5.30) | 58%|
+|[📊 SHOT](minlp-SHOT.html) | 5.63 (5.60) | 48%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/minlp-24-Jun-2025.html">24 Jun 2025</a></li>
 <li><a href="/mittelmann-plots/minlp-6-Sep-2024.html">6 Sep 2024</a></li>
 <li><a href="/mittelmann-plots/minlp-8-Jun-2024.html">8 Jun 2024</a></li>
 <li><a href="/mittelmann-plots/minlp-12-Apr-2024.html">12 Apr 2024</a></li>
