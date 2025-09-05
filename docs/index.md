@@ -376,7 +376,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Second Order Cone Benchmark (5 Apr 2025)](http://plato.asu.edu/ftp/socp.html)
+## [Large Second Order Cone Benchmark (4 Sep 2025)](http://plato.asu.edu/ftp/socp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 18|
@@ -385,7 +385,7 @@ Choose base solver for comparison:
 |[🥇 COPT 7.2.0       COPT ](socp-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 Optverse 1.0.0   OPTVERSE](socp-OPTVERSE.html) | 1.10 (1.10) | 100%|
 |[🥉 MOSEK 11.0.13    MOSEK ](socp-MOSEK.html) | 1.24 (1.24) | 100%|
-|[📊 KNITRO 14.0.0    Knitro ](socp-KNITRO.html) | 11.11 (11.10) | 94%|
+|[📊 KNITRO 15.0.1    Knitro ](socp-KNITRO.html) | 7.28 (11.10) | 94%|
 |[📊 ECOS 2.0.4       ECOS ](socp-ECOS.html) | 116.88 (117.00) | 61%|
 
 
@@ -393,6 +393,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/socp-5-Apr-2025.html">5 Apr 2025</a></li>
 <li><a href="/mittelmann-plots/socp-11-Sep-2024.html">11 Sep 2024</a></li>
 <li><a href="/mittelmann-plots/socp-21-Aug-2024.html">21 Aug 2024</a></li>
 <li><a href="/mittelmann-plots/socp-8-Apr-2024.html">8 Apr 2024</a></li>
