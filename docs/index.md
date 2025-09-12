@@ -833,21 +833,22 @@ Choose base solver for comparison:
 ---
 
 
-## [MPEC Benchmark (Math. Progr. w. Equilibrium Constraints) (14 Apr 2025)](http://plato.asu.edu/ftp/mpec.html)
+## [MPEC Benchmark (Math. Progr. w. Equilibrium Constraints) (11 Sep 2025)](http://plato.asu.edu/ftp/mpec.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 29|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](mpec-vbest.html) | 1.00  | 97%|
-|[🥇 KNITRO 14.2](mpec-KNITRO.html) | 1.00 (1.00) | 97%|
-|[🥈 filter-MPEC](mpec-filter.html) | 18.15 (18.10) | 62%|
-|[🥉 LOQO 7.03](mpec-LOQO.html) | 39.84 (39.80) | 21%|
+|[⭐ virtual best](mpec-vbest.html) | 0.85  | 86%|
+|[🥇 KNITRO 15.0.1](mpec-KNITRO.html) | 1.00 (1.00) | 86%|
+|[🥈 filter-MPEC](mpec-filter.html) | 10.40 (10.40) | 62%|
+|[🥉 LOQO 7.03](mpec-LOQO.html) | 22.85 (22.80) | 21%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/mpec-14-Apr-2025.html">14 Apr 2025</a></li>
 <li><a href="/mittelmann-plots/mpec-9-Feb-2024.html">9 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/mpec-2-Feb-2024.html">2 Feb 2024</a></li>
 <li><a href="/mittelmann-plots/mpec-12-Apr-2022.html">12 Apr 2022</a></li>
