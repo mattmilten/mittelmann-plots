@@ -249,14 +249,14 @@ Choose base solver for comparison:
 | solver | score (as reported) | solved of 45|
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](path-vbest.html) | 0.57  | 98%|
-|[🥇 OptVerse 1.0.0](path-optverse.html) | 1.00 (1.00) | 489%|
-|[🥈 COPT 8.0.0](path-COPT.html) | 1.16 (1.16) | 569%|
-|[🥉 XSMO](path-XSMO.html) | 7.30 (7.30) | 3564%|
-|[📊 SMOO](path-SMOO.html) | 8.86 (8.86) | 4331%|
-|[📊 HiGHS 1.11.0](path-HiGHS.html) | 9.81 (9.81) | 4791%|
-|[📊 XOPT 0.0.8](path-XOPT.html) | 10.75 (10.80) | 5253%|
-|[📊 SCIPC](path-SCIPC.html) | 13.17 (13.20) | 6436%|
-|[📊 SCIP 9.2.1](path-SCIP.html) | 19.06 (19.10) | 9311%|
+|[🥇 OptVerse 1.0.0](path-optverse.html) | 1.00 (1.00) | 91%|
+|[🥈 COPT 8.0.0](path-COPT.html) | 1.16 (1.16) | 89%|
+|[🥉 XSMO](path-XSMO.html) | 7.30 (7.30) | 73%|
+|[📊 SMOO](path-SMOO.html) | 8.86 (8.86) | 64%|
+|[📊 HiGHS 1.11.0](path-HiGHS.html) | 9.81 (9.81) | 53%|
+|[📊 XOPT 0.0.8](path-XOPT.html) | 10.75 (10.80) | 53%|
+|[📊 SCIPC](path-SCIPC.html) | 13.17 (13.20) | 58%|
+|[📊 SCIP 9.2.1](path-SCIP.html) | 19.06 (19.10) | 51%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
