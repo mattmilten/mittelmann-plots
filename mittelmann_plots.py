@@ -222,7 +222,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
 
     elif "path.html" in url:
         taburl = "https://plato.asu.edu/ftp/p_path.res"
-        scoretab = pre[1].text.split("\n")[3:7]
+        scoretab = pre[1].text.split("\n")[3:8]
         resp = session.get(taburl)
         souptab = BeautifulSoup(resp.text, features="html.parser")
         tab = souptab.contents[0].split("\n")
@@ -251,7 +251,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
 
         _version = str(soup.contents[2]).split("<p>")[0].split("<br/>")[1:-1]
         _version = [x.split()[0].rstrip(":") for x in _version]
-        _solved = scoretab[2].split()[1:]
+        _solved = scoretab[4].split()[1:]
         _score = scoretab[3].split()[1:]
         solver = [get_version(s, "") for s in scoretab[0].split()[:]]
         stats["solver"] = solver
