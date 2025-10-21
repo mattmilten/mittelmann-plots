@@ -97,7 +97,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
         tabmark = [ind for ind, i in enumerate(tab) if i.startswith("=====")]
         _version = pre[0].text.split("\n\n")[6].split("\n")
         _version = [x.split()[0].rstrip(":") for x in _version]
-        _score = tab[tabmark[0] - 2].split()[2:]
+        _score = tab[tabmark[0] - 2].split()[1:]
         _solved = tab[tabmark[0] - 1].split()[1:]
         solver = tab[tabmark[0] + 1].split()[1:]
         stats["solver"] = solver
@@ -178,7 +178,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
             if c.startswith("lpsolve"):
                 columns[i] = "LP_SOL"
             elif c.startswith("FiberSCIP"):
-                columns[i] = "FSCIP"
+                columns[i] = "XSMOO"
             elif c.startswith("SCIP-spx") or c == "SCIP-":
                 columns[i] = "SCIP"
             elif c.startswith("SCIP-cpx") or c == "SCIPC-cpx":
@@ -201,12 +201,13 @@ def parse_table(url, session, timelimit=3600, threads=1):
         _solved = scoretab[4].replace("|"," ").split()[1:]
         _score = scoretab[3].replace("|"," ").split()[1:]
         solver = [get_version(s, "") for s in scoretab[0].replace("|"," ").split()[:]]
-        remove_results = ["TAYLOR%"]
-        for r in remove_results:
-            id_r = solver.index(r)
-            del _solved[id_r]
-            del _score[id_r]
-            del solver[id_r]
+        # remove_results = ["TAYLOR%"]
+        # for r in remove_results:
+        #     if r in solver:
+        #         id_r = solver.index(r)
+        #         del _solved[id_r]
+        #         del _score[id_r]
+        #         del solver[id_r]
         stats["solver"] = solver
         stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
         stats["version"] = {s: get_version(s, _version) for s in solver}
@@ -215,7 +216,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
             [l.split() for l in tab[tabmark[1] + 1 : tabmark[-2]]],
             columns=["instance"] + columns,
         )
-        stats["times"].drop("Taylor", axis="columns", inplace=True)
+        # stats["times"].drop("Taylor", axis="columns", inplace=True)
         stats["nprobs"] = len(stats["times"])
         stats["timelimit"] = timelimit
 
@@ -231,8 +232,10 @@ def parse_table(url, session, timelimit=3600, threads=1):
         for i, c in enumerate(columns):
             if c.startswith("lpsolve"):
                 columns[i] = "LP_SOL"
-            elif c.startswith("FiberSCIP"):
-                columns[i] = "FSCIP"
+            elif c.startswith("FiberSCIP-cpx"):
+                columns[i] = "XSMO"
+            elif c.startswith("FiberSCIP-"):
+                columns[i] = "SMOO"
             elif c.startswith("SCIP-spx") or c == "SCIP-":
                 columns[i] = "SCIP"
             elif c.startswith("SCIPC-cpx"):
@@ -251,12 +254,6 @@ def parse_table(url, session, timelimit=3600, threads=1):
         _solved = scoretab[2].split()[1:]
         _score = scoretab[3].split()[1:]
         solver = [get_version(s, "") for s in scoretab[0].split()[:]]
-        remove_results = ["SMOO", "XSMO"]
-        for r in remove_results:
-            id_r = solver.index(r)
-            del _solved[id_r]
-            del _score[id_r]
-            del solver[id_r]
         stats["solver"] = solver
         stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
         stats["version"] = {s: get_version(s, _version) for s in solver}
@@ -419,15 +416,14 @@ def parse_table(url, session, timelimit=3600, threads=1):
         stats["version"] = {s: s for s in solver}
         stats["timelimit"] = timelimit
         tabmark = [ind for ind, i in enumerate(tab) if i.startswith("-----")]
-        # need to get solver names again because of different order in table
-        solver = [s[0 : s.find("(")] for s in tab[0].replace("|", " ").split()]
+        tabsolver = [s[0 : s.find("(")] for s in tab[0].replace("|", " ").split()]
         stats["solver"] = solver
         columns = ["instance"] + [f"{solver[0]}_nodes_drop", f"{solver[0]}"]
-        for i in range(1, len(solver)):
-            columns.append(f"{solver[i]}_nodes_drop")
-            columns.append(f"{solver[i]}")
-            columns.append(f"{solver[i]}_nodesQ_drop")
-            columns.append(f"{solver[i]}_timeQ_drop")
+        for i in range(1, len(tabsolver)):
+            columns.append(f"{tabsolver[i]}_nodes_drop")
+            columns.append(f"{tabsolver[i]}")
+            columns.append(f"{tabsolver[i]}_nodesQ_drop")
+            columns.append(f"{tabsolver[i]}_timeQ_drop")
         columns.append("check_drop")
         times = pd.DataFrame(
             [
@@ -436,7 +432,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
             ],
             columns=columns,
         )
-        drop = [c for c in times.columns if c.find("drop") >= 0]
+        drop = [c for c in times.columns if c.find("drop") >= 0 or c.find("GUROBI") >= 0 or c.find("XPRESS") >= 0]
         times.drop(drop, axis=1, inplace=True)
         stats["times"] = times
         stats["nprobs"] = len(times)
