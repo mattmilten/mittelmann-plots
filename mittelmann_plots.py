@@ -35,7 +35,7 @@ def get_version(s, version):
         s = "Google-GLOP"
     elif s in ["MSK"]:
         s = "Mosek"
-    elif s in ["HGHS"]:
+    elif s in ["HGHS", "HiGHSR"]:
         s = "HiGHS"
     elif s in ["GUROBI", "Gurob", "GUROB", "Gurb"]:
         s = "Gurobi"
@@ -490,9 +490,13 @@ def parse_table(url, session, timelimit=3600, threads=1):
         _version = [x for x in pre[1].text.split("\n") if x]
         _version = [x.split()[0].rstrip(":") for x in _version]
         _score = tab[1].split()[1:]
-        _solved = tab[2].split()[1:7]
-        solver = [s for s in tab[4].split()[1:7]]
+        _solved = tab[2].split()[1:]
+        if _solved[-1].find("/") >= 0:
+            _solved[-1] = _solved[-1][: _solved[-1].find("/")]
+        solver = [s for s in tab[4].split()[1:]]
         stats["solver"] = solver
+        if len(solver) > len(_score):
+            _score.append("0")
         nprobs = len(tab[tabmark[0] + 3 : tabmark[1]])
         stats["nprobs"] = nprobs
         stats["score"] = {
