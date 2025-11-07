@@ -305,10 +305,10 @@ Choose base solver for comparison:
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](infeas-vbest.html) | 0.99  | 94%|
 |[🥇 COPT 8.0.0](infeas-COPT.html) | 1.00 (1.00) | 94%|
-|[🥈 XOPT 0.0.8](infeas-XOPT.html) | 6.32 (6.44) | 78%|
-|[🥉 SCIPC](infeas-SCIPC.html) | 6.44 (9.15) | 81%|
+|[🥈 XOPT 0.0.8](infeas-XOPT.html) | 6.32 (6.32) | 78%|
+|[🥉 SCIPC](infeas-SCIPC.html) | 6.44 (6.44) | 81%|
 |[📊 HiGHS 1.11.0](infeas-HiGHS.html) | 8.22 (8.22) | 78%|
-|[📊 SCIP 9.2.1](infeas-SCIP.html) | 9.15 (1.00) | 69%|
+|[📊 SCIP 9.2.1](infeas-SCIP.html) | 9.15 (9.15) | 69%|
 |[📊 CBC 2.10.5](infeas-CBC.html) | 20.16 (20.20) | 62%|
 
 
