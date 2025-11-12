@@ -7,7 +7,7 @@ instance. This might reveal how much potential the individual solvers still have
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [LPfeas Benchmark (find PD feasible point) + ADDENDUM (3 Nov 2025)](http://plato.asu.edu/ftp/lpfeas.html)
+## [LPfeas Benchmark (find PD feasible point) + ADDENDUM (11 Nov 2025)](http://plato.asu.edu/ftp/lpfeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 65|
@@ -21,15 +21,16 @@ Choose base solver for comparison:
 |[📊 HPRLP](lpfeas-HPRLP.html) | 3.03 (3.03) | 91%|
 |[📊 MOSEK 11.0.5](lpfeas-MOSEK.html) | 3.93 (3.93) | 91%|
 |[📊 XOPT 0.0.8](lpfeas-XOPT.html) | 6.87 (6.87) | 91%|
+|[📊 HiGHS 1.12.0](lpfeas-HiGHS.html) | 19.70 (20.00) | 80%|
 |[📊 PDLP](lpfeas-PDLP.html) | 19.86 (20.00) | 77%|
 |[📊 KNTRO](lpfeas-KNTRO.html) | 20.32 (20.30) | 75%|
-|[📊 HiGHS 1.12.0](lpfeas-HiGHS.html) | 26.09 (26.10) | 75%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpfeas-3-Nov-2025.html">3 Nov 2025</a></li>
 <li><a href="/mittelmann-plots/lpfeas-29-Oct-2025.html">29 Oct 2025</a></li>
 <li><a href="/mittelmann-plots/lpfeas-20-Oct-2025.html">20 Oct 2025</a></li>
 <li><a href="/mittelmann-plots/lpfeas-31-Jul-2025.html">31 Jul 2025</a></li>
