@@ -62,16 +62,16 @@ Choose base solver for comparison:
 ---
 
 
-## [LPopt Benchmark (find optimal basic solution) (3 Nov 2025)](http://plato.asu.edu/ftp/lpopt.html)
+## [LPopt Benchmark (find optimal basic solution) (13 Nov 2025)](http://plato.asu.edu/ftp/lpopt.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 65|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](lpopt-vbest.html) | 0.96  | 100%|
+|[⭐ virtual best](lpopt-vbest.html) | 0.87  | 100%|
 |[🥇 COPT 8.0.0](lpopt-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 XOPT 0.0.8](lpopt-XOPT.html) | 6.63 (6.63) | 80%|
 |[🥉 MOSEK 11.0.13](lpopt-MOSEK.html) | 7.49 (7.49) | 80%|
-|[📊 HiGHS 1.12.0](lpopt-HiGHS.html) | 17.09 (17.10) | 78%|
+|[📊 HiGHS 1.12.0](lpopt-HiGHS.html) | 17.87 (17.90) | 78%|
 |[📊 CLP 1.17.7](lpopt-CLP.html) | 27.38 (27.40) | 62%|
 |[📊 Google-GLOP](lpopt-GLOP.html) | 59.71 (59.70) | 51%|
 |[📊 SOPLEX 7.1.2](lpopt-SPLX.html) | 94.05 (94.10) | 49%|
@@ -81,6 +81,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpopt-3-Nov-2025.html">3 Nov 2025</a></li>
 <li><a href="/mittelmann-plots/lpopt-29-Oct-2025.html">29 Oct 2025</a></li>
 <li><a href="/mittelmann-plots/lpopt-18-Oct-2025.html">18 Oct 2025</a></li>
 <li><a href="/mittelmann-plots/lpopt-16-Jun-2025.html">16 Jun 2025</a></li>
