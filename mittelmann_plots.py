@@ -251,8 +251,8 @@ def parse_table(url, session, timelimit=3600, threads=1):
 
         _version = str(soup.contents[2]).split("<p>")[0].split("<br/>")[1:-1]
         _version = [x.split()[0].rstrip(":") for x in _version]
-        _solved = scoretab[4].split()[1:]
-        _score = scoretab[3].split()[1:]
+        _solved = scoretab[3].split()[1:]
+        _score = scoretab[2].split()[1:]
         solver = [get_version(s, "") for s in scoretab[0].split()[:]]
         stats["solver"] = solver
         stats["solved"] = {solver[i]: int(_solved[i]) for i in range(len(solver))}
@@ -409,6 +409,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
         tab = souptab.contents[0].split("\n")
         scoretab = pre[1].text.split("\n")
         solver = [s for s in scoretab[2].split() if not s.find("*") >= 0]
+        solver.remove("SCIP")  # instance-wise result are missing in table
         _score = scoretab[5].split()[1:]
         _solved = scoretab[6].split()[1:]
         stats["score"] = {solver[i]: float(_score[i]) for i in range(len(solver))}
