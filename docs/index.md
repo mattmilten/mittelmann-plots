@@ -588,23 +588,23 @@ Choose base solver for comparison:
 ---
 
 
-## [Discrete Non-Convex QPLIB Benchmark (non-binary) (28 Sep 2025)](http://plato.asu.edu/ftp/nonbinary.html)
+## [Discrete Non-Convex QPLIB Benchmark (non-binary) (3 Jan 2026)](http://plato.asu.edu/ftp/nonbinary.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 110|
+| solver | score (as reported) | solved of 113|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](nonbinary-vbest.html) | 0.44  | 97%|
-|[🥇 SHOT 1.1](nonbinary-SHOT.html) | 1.00 (1.00) | 86%|
-|[🥈 COPT 8.0.0](nonbinary-COPT.html) | 2.07 (2.07) | 80%|
-|[🥉 Baron 25.3.19](nonbinary-BARON.html) | 6.87 (6.87) | 63%|
-|[📊 SCIP 9.2.1](nonbinary-SCIP.html) | 29.31 (29.30) | 36%|
-|[📊 ANTIGONE 1.1](nonbinary-ANTIGONE.html) | 64.32 (64.30) | 25%|
+|[⭐ virtual best](nonbinary-vbest.html) | 0.49  | 96%|
+|[🥇 SHOT 1.1](nonbinary-SHOT.html) | 1.00 (1.00) | 88%|
+|[🥈 COPT 8.0.2](nonbinary-COPT.html) | 2.09 (2.09) | 78%|
+|[🥉 Baron 25.3.19](nonbinary-BARON.html) | 7.92 (7.92) | 58%|
+|[📊 SCIP 10.0.0](nonbinary-SCIP.html) | 24.84 (24.80) | 35%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/nonbinary-28-Sep-2025.html">28 Sep 2025</a></li>
 <li><a href="/mittelmann-plots/nonbinary-13-Jul-2025.html">13 Jul 2025</a></li>
 <li><a href="/mittelmann-plots/nonbinary-21-Aug-2024.html">21 Aug 2024</a></li>
 <li><a href="/mittelmann-plots/nonbinary-1-Jul-2024.html">1 Jul 2024</a></li>
