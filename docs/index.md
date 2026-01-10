@@ -393,14 +393,14 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Second Order Cone Benchmark (29 Oct 2025)](http://plato.asu.edu/ftp/socp.html)
+## [Large Second Order Cone Benchmark (9 Jan 2026)](http://plato.asu.edu/ftp/socp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 18|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](socp-vbest.html) | 0.94  | 100%|
+|[⭐ virtual best](socp-vbest.html) | 0.95  | 100%|
 |[🥇 COPT 8.0.1       COPT ](socp-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 MOSEK 11.0.13    MOSEK ](socp-MOSEK.html) | 1.35 (1.35) | 100%|
+|[🥈 MOSEK 11.1.2     MOSEK ](socp-MOSEK.html) | 1.41 (1.35) | 100%|
 |[🥉 KNITRO 15.0.1    Knitro ](socp-KNITRO.html) | 7.94 (7.94) | 94%|
 |[📊 ECOS 2.0.4       ECOS ](socp-ECOS.html) | 127.61 (128.00) | 61%|
 
@@ -409,6 +409,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/socp-29-Oct-2025.html">29 Oct 2025</a></li>
 <li><a href="/mittelmann-plots/socp-22-Oct-2025.html">22 Oct 2025</a></li>
 <li><a href="/mittelmann-plots/socp-18-Oct-2025.html">18 Oct 2025</a></li>
 <li><a href="/mittelmann-plots/socp-4-Sep-2025.html">4 Sep 2025</a></li>
@@ -436,14 +437,14 @@ Choose base solver for comparison:
 ---
 
 
-## [Mixed-integer SOCP Benchmark (1 Dec 2025)](http://plato.asu.edu/ftp/misocp.html)
+## [Mixed-integer SOCP Benchmark (9 Jan 2026)](http://plato.asu.edu/ftp/misocp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 47|
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](misocp-vbest.html) | 0.98  | 100%|
 |[🥇 COPT 8.0.0](misocp-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 MOSEK 11.0.13](misocp-MOSEK.html) | 7.37 (6.22) | 77%|
+|[🥈 MOSEK 11.0.30](misocp-MOSEK.html) | 7.03 (6.04) | 81%|
 |[🥉 SCIP 10.0.0](misocp-SCIP.html) | 8.36 (7.40) | 83%|
 
 
@@ -451,6 +452,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/misocp-1-Dec-2025.html">1 Dec 2025</a></li>
 <li><a href="/mittelmann-plots/misocp-19-Sep-2025.html">19 Sep 2025</a></li>
 <li><a href="/mittelmann-plots/misocp-9-Apr-2025.html">9 Apr 2025</a></li>
 <li><a href="/mittelmann-plots/misocp-21-Aug-2024.html">21 Aug 2024</a></li>
