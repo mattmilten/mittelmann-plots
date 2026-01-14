@@ -7,29 +7,29 @@ instance. This might reveal how much potential the individual solvers still have
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [LPfeas Benchmark (find PD feasible point) + ADDENDUM (19 Dec 2025)](http://plato.asu.edu/ftp/lpfeas.html)
+## [LPfeas Benchmark (find PD feasible point) + ADDENDUM (13 Jan 2026)](http://plato.asu.edu/ftp/lpfeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 65|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](lpfeas-vbest.html) | 0.24  | 100%|
-|[🥇 COPTG](lpfeas-COPTG.html) | 1.00 (1.00) | 98%|
-|[🥈 cuOpt 25.10](lpfeas-CUOPT.html) | 1.06 (1.06) | 95%|
-|[🥉 COPT 8.0.0](lpfeas-COPT.html) | 1.19 (1.19) | 100%|
-|[📊 CUPDLX](lpfeas-CUPDLX.html) | 1.94 (1.94) | 94%|
-|[📊 cuPDLP-C](lpfeas-CUPDL.html) | 2.22 (2.22) | 86%|
-|[📊 HPRLP](lpfeas-HPRLP.html) | 3.03 (3.03) | 91%|
-|[📊 MOSEK 11.0.5](lpfeas-MOSEK.html) | 3.93 (3.93) | 91%|
-|[📊 XOPT 0.0.8](lpfeas-XOPT.html) | 6.87 (6.87) | 91%|
-|[📊 HiGHS 1.12.0](lpfeas-HiGHS.html) | 19.70 (20.00) | 80%|
-|[📊 PDLP](lpfeas-PDLP.html) | 19.86 (20.00) | 77%|
-|[📊 KNTRO](lpfeas-KNTRO.html) | 20.32 (20.30) | 75%|
+|[⭐ virtual best](lpfeas-vbest.html) | 0.31  | 100%|
+|[🥇 cuOpt 25.12](lpfeas-CUOPT.html) | 1.00 (1.00) | 97%|
+|[🥈 COPTG](lpfeas-COPTG.html) | 1.15 (1.15) | 98%|
+|[🥉 COPT 8.0.0/2](lpfeas-COPT.html) | 1.46 (1.19) | 100%|
+|[📊 HPRLP](lpfeas-HPRLP.html) | 1.74 (1.74) | 91%|
+|[📊 CUPDLX](lpfeas-CUPDLX.html) | 2.36 (2.36) | 85%|
+|[📊 MOSEK 11.0.5](lpfeas-MOSEK.html) | 4.81 (3.93) | 91%|
+|[📊 XOPT 0.0.8](lpfeas-XOPT.html) | 8.41 (6.87) | 91%|
+|[📊 HiGHS 1.12.0](lpfeas-HiGHS.html) | 24.11 (20.00) | 80%|
+|[📊 PDLP](lpfeas-PDLP.html) | 24.31 (20.00) | 77%|
+|[📊 KNTRO](lpfeas-KNTRO.html) | 24.88 (20.30) | 75%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpfeas-19-Dec-2025.html">19 Dec 2025</a></li>
 <li><a href="/mittelmann-plots/lpfeas-11-Nov-2025.html">11 Nov 2025</a></li>
 <li><a href="/mittelmann-plots/lpfeas-3-Nov-2025.html">3 Nov 2025</a></li>
 <li><a href="/mittelmann-plots/lpfeas-29-Oct-2025.html">29 Oct 2025</a></li>
