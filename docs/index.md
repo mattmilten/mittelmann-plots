@@ -7,28 +7,29 @@ instance. This might reveal how much potential the individual solvers still have
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [LPfeas Benchmark (find PD feasible point) + ADDENDUM (13 Jan 2026)](http://plato.asu.edu/ftp/lpfeas.html)
+## [LPfeas Benchmark (find PD feasible point) + ADDENDUM (12 Feb 2026)](http://plato.asu.edu/ftp/lpfeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 65|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](lpfeas-vbest.html) | 0.31  | 100%|
-|[🥇 cuOpt 25.12](lpfeas-CUOPT.html) | 1.00 (1.00) | 97%|
-|[🥈 COPTG](lpfeas-COPTG.html) | 1.15 (1.15) | 98%|
-|[🥉 COPT 8.0.0/2](lpfeas-COPT.html) | 1.46 (1.19) | 100%|
-|[📊 HPRLP](lpfeas-HPRLP.html) | 1.74 (1.74) | 91%|
-|[📊 CUPDLX](lpfeas-CUPDLX.html) | 2.36 (2.36) | 85%|
-|[📊 MOSEK 11.0.5](lpfeas-MOSEK.html) | 4.81 (3.93) | 91%|
-|[📊 XOPT 0.0.8](lpfeas-XOPT.html) | 8.41 (6.87) | 91%|
-|[📊 HiGHS 1.12.0](lpfeas-HiGHS.html) | 24.11 (20.00) | 80%|
-|[📊 PDLP](lpfeas-PDLP.html) | 24.31 (20.00) | 77%|
-|[📊 KNTRO](lpfeas-KNTRO.html) | 24.88 (20.30) | 75%|
+|[⭐ virtual best](lpfeas-vbest.html) | 0.43  | 100%|
+|[🥇 COPTG](lpfeas-COPTG.html) | 1.00 (1.00) | 98%|
+|[🥈 cuOpt 26.02](lpfeas-CUOPT.html) | 1.43 (1.19) | 94%|
+|[🥉 COPT 8.0.0/3](lpfeas-COPT.html) | 1.56 (1.19) | 100%|
+|[📊 CUPDLX](lpfeas-CUPDLX.html) | 4.21 (2.61) | 83%|
+|[📊 HPRLP](lpfeas-HPRLP.html) | 4.39 (2.60) | 83%|
+|[📊 MOSEK 11.0.5](lpfeas-MOSEK.html) | 5.14 (3.93) | 91%|
+|[📊 XOPT 0.0.8](lpfeas-XOPT.html) | 9.00 (6.87) | 91%|
+|[📊 HiGHS 1.13.0](lpfeas-HiGHS.html) | 16.77 (15.70) | 86%|
+|[📊 PDLP](lpfeas-PDLP.html) | 26.01 (20.00) | 77%|
+|[📊 KNTRO](lpfeas-KNTRO.html) | 26.62 (20.30) | 75%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpfeas-13-Jan-2026.html">13 Jan 2026</a></li>
 <li><a href="/mittelmann-plots/lpfeas-19-Dec-2025.html">19 Dec 2025</a></li>
 <li><a href="/mittelmann-plots/lpfeas-11-Nov-2025.html">11 Nov 2025</a></li>
 <li><a href="/mittelmann-plots/lpfeas-3-Nov-2025.html">3 Nov 2025</a></li>
@@ -63,16 +64,16 @@ Choose base solver for comparison:
 ---
 
 
-## [LPopt Benchmark (find optimal basic solution) (10 Dec 2025)](http://plato.asu.edu/ftp/lpopt.html)
+## [LPopt Benchmark (find optimal basic solution) (8 Feb 2026)](http://plato.asu.edu/ftp/lpopt.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 65|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](lpopt-vbest.html) | 0.87  | 100%|
+|[⭐ virtual best](lpopt-vbest.html) | 0.97  | 100%|
 |[🥇 COPT 8.0.0](lpopt-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 XOPT 0.0.8](lpopt-XOPT.html) | 6.63 (6.63) | 80%|
 |[🥉 MOSEK 11.0.13](lpopt-MOSEK.html) | 7.49 (7.49) | 80%|
-|[📊 HiGHS 1.12.0](lpopt-HiGHS.html) | 17.87 (17.90) | 78%|
+|[📊 HiGHS 1.13.0](lpopt-HiGHS.html) | 21.59 (21.60) | 74%|
 |[📊 CLP 1.17.7](lpopt-CLP.html) | 27.38 (27.40) | 62%|
 |[📊 Google-GLOP](lpopt-GLOP.html) | 59.71 (59.70) | 51%|
 |[📊 SOPLEX 8.0.0](lpopt-SPLX.html) | 103.92 (104.00) | 48%|
@@ -82,6 +83,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpopt-10-Dec-2025.html">10 Dec 2025</a></li>
 <li><a href="/mittelmann-plots/lpopt-13-Nov-2025.html">13 Nov 2025</a></li>
 <li><a href="/mittelmann-plots/lpopt-3-Nov-2025.html">3 Nov 2025</a></li>
 <li><a href="/mittelmann-plots/lpopt-29-Oct-2025.html">29 Oct 2025</a></li>
@@ -183,24 +185,24 @@ Choose base solver for comparison:
 ---
 
 
-## [The MIPLIB2017 Benchmark Instances (preprocessed data) - 8 threads (30 Nov 2025)](http://plato.asu.edu/ftp/milp.html)
+## [The MIPLIB2017 Benchmark Instances (preprocessed data) - 8 threads (9 Feb 2026)](http://plato.asu.edu/ftp/milp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 240|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](milp_8threads-vbest.html) | 0.85  | 93%|
+|[⭐ virtual best](milp_8threads-vbest.html) | 0.78  | 94%|
 |[🥇 COPT](milp_8threads-COPT.html) | 1.00 (1.00) | 91%|
-|[🥈 XSMOO](milp_8threads-XSMOO.html) | 4.14 (4.14) | 72%|
-|[🥉 XOPT](milp_8threads-XOPT.html) | 5.09 (5.09) | 67%|
-|[📊 HiGHS](milp_8threads-HiGHS.html) | 6.61 (6.61) | 65%|
-|[📊 SCIPC](milp_8threads-SCIPC.html) | 7.34 (7.34) | 60%|
-|[📊 SCIP](milp_8threads-SCIP.html) | 8.41 (8.41) | 55%|
+|[🥈 optverse](milp_8threads-optverse.html) | 1.72 (1.72) | 88%|
+|[🥉 HiGHS](milp_8threads-HiGHS.html) | 7.36 (7.36) | 68%|
+|[📊 SCIPC](milp_8threads-SCIPC.html) | 8.45 (8.45) | 62%|
+|[📊 SCIP](milp_8threads-SCIP.html) | 9.93 (9.93) | 57%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/milp_8threads-30-Nov-2025.html">30 Nov 2025</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-29-Oct-2025.html">29 Oct 2025</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-18-Oct-2025.html">18 Oct 2025</a></li>
 <li><a href="/mittelmann-plots/milp_8threads-20-Jun-2025.html">20 Jun 2025</a></li>
@@ -251,7 +253,7 @@ Choose base solver for comparison:
 ---
 
 
-## [MILP cases that are slightly pathological (preprocessed data) (29 Nov 2025)](http://plato.asu.edu/ftp/path.html)
+## [MILP cases that are slightly pathological (preprocessed data) (12 Feb 2026)](http://plato.asu.edu/ftp/path.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 45|
@@ -260,7 +262,7 @@ Choose base solver for comparison:
 |[🥇 COPT 8.0.0](path-COPT.html) | 1.00 (1.00) | 89%|
 |[🥈 XSMO](path-XSMO.html) | 6.28 (6.28) | 73%|
 |[🥉 SMOO](path-SMOO.html) | 7.63 (7.63) | 64%|
-|[📊 HiGHS 1.11.0](path-HiGHS.html) | 8.44 (8.44) | 53%|
+|[📊 HiGHS 1.13.0](path-HiGHS.html) | 8.96 (8.96) | 53%|
 |[📊 XOPT 0.0.8](path-XOPT.html) | 9.25 (9.25) | 53%|
 |[📊 SCIPC](path-SCIPC.html) | 9.69 (9.69) | 62%|
 |[📊 SCIP 10.0.0](path-SCIP.html) | 17.01 (17.00) | 44%|
@@ -270,6 +272,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/path-29-Nov-2025.html">29 Nov 2025</a></li>
 <li><a href="/mittelmann-plots/path-29-Oct-2025.html">29 Oct 2025</a></li>
 <li><a href="/mittelmann-plots/path-19-Sep-2025.html">19 Sep 2025</a></li>
 <li><a href="/mittelmann-plots/path-23-Jun-2025.html">23 Jun 2025</a></li>
@@ -353,15 +356,15 @@ Choose base solver for comparison:
 ---
 
 
-## [Several SDP-codes on sparse and other SDP problems (also on GPUs) (27 Sep 2025)](http://plato.asu.edu/ftp/sparse_sdp.html)
+## [Several SDP-codes on sparse and other SDP problems (also on GPUs) (22 Jan 2026)](http://plato.asu.edu/ftp/sparse_sdp.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 75|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](sparse_sdp-vbest.html) | 0.29  | 100%|
+|[⭐ virtual best](sparse_sdp-vbest.html) | 0.31  | 100%|
 |[🥇 COPT 8.0.0](sparse_sdp-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 MOSEK 11.0.16](sparse_sdp-MOSEK.html) | 2.67 (2.67) | 97%|
-|[🥉 cuLoRADS 1.0.0](sparse_sdp-cuLoRAD.html) | 2.99 (2.99) | 95%|
+|[🥈 cuLoRADS 1.0.0](sparse_sdp-cuLoRAD.html) | 2.99 (2.99) | 95%|
+|[🥉 MOSEK 11.1.2](sparse_sdp-MOSEK.html) | 3.65 (3.65) | 97%|
 |[📊 SDPT3 4.0](sparse_sdp-SDPT3.html) | 5.30 (5.30) | 92%|
 |[📊 CSDP 6.2.0](sparse_sdp-CSDP.html) | 5.38 (5.38) | 93%|
 |[📊 SDPA 7.4.4](sparse_sdp-SDPA.html) | 7.96 (7.96) | 81%|
@@ -372,6 +375,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/sparse_sdp-27-Sep-2025.html">27 Sep 2025</a></li>
 <li><a href="/mittelmann-plots/sparse_sdp-9-Aug-2025.html">9 Aug 2025</a></li>
 <li><a href="/mittelmann-plots/sparse_sdp-20-Jul-2025.html">20 Jul 2025</a></li>
 <li><a href="/mittelmann-plots/sparse_sdp-28-Aug-2024.html">28 Aug 2024</a></li>
