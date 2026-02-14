@@ -15,14 +15,14 @@ Choose base solver for comparison:
 |[⭐ virtual best](lpfeas-vbest.html) | 0.43  | 100%|
 |[🥇 COPTG](lpfeas-COPTG.html) | 1.00 (1.00) | 98%|
 |[🥈 cuOpt 26.02](lpfeas-CUOPT.html) | 1.43 (1.19) | 94%|
-|[🥉 COPT 8.0.0/3](lpfeas-COPT.html) | 1.56 (1.19) | 100%|
-|[📊 CUPDLX](lpfeas-CUPDLX.html) | 4.21 (2.61) | 83%|
+|[🥉 COPT 8.0.0/3](lpfeas-COPT.html) | 1.56 (1.67) | 100%|
+|[📊 CUPDX](lpfeas-CUPDX.html) | 4.21 (2.61) | 83%|
 |[📊 HPRLP](lpfeas-HPRLP.html) | 4.39 (2.60) | 83%|
-|[📊 MOSEK 11.0.5](lpfeas-MOSEK.html) | 5.14 (3.93) | 91%|
-|[📊 XOPT 0.0.8](lpfeas-XOPT.html) | 9.00 (6.87) | 91%|
-|[📊 HiGHS 1.13.0](lpfeas-HiGHS.html) | 16.77 (15.70) | 86%|
-|[📊 PDLP](lpfeas-PDLP.html) | 26.01 (20.00) | 77%|
-|[📊 KNTRO](lpfeas-KNTRO.html) | 26.62 (20.30) | 75%|
+|[📊 MOSEK 11.0.5](lpfeas-MOSEK.html) | 5.14 (5.50) | 91%|
+|[📊 XOPT 0.0.8](lpfeas-XOPT.html) | 9.00 (9.63) | 91%|
+|[📊 HiGHS 1.13.0](lpfeas-HiGHS.html) | 16.77 (18.00) | 86%|
+|[📊 PDLP](lpfeas-PDLP.html) | 26.01 (27.80) | 77%|
+|[📊 KNTRO](lpfeas-KNTRO.html) | 26.62 (28.50) | 75%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
