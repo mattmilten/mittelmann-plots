@@ -308,7 +308,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Infeasibility Detection for MILP Problems (2 Dec 2025)](http://plato.asu.edu/ftp/infeas.html)
+## [Infeasibility Detection for MILP Problems (15 Feb 2026)](http://plato.asu.edu/ftp/infeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 32|
@@ -317,7 +317,7 @@ Choose base solver for comparison:
 |[🥇 COPT 8.0.0](infeas-COPT.html) | 1.00 (1.00) | 94%|
 |[🥈 XOPT 0.0.8](infeas-XOPT.html) | 6.32 (6.32) | 94%|
 |[🥉 SCIPC](infeas-SCIPC.html) | 7.56 (7.56) | 84%|
-|[📊 HiGHS 1.12.0](infeas-HiGHS.html) | 8.28 (8.28) | 81%|
+|[📊 HiGHS 1.13.0](infeas-HiGHS.html) | 8.65 (8.65) | 78%|
 |[📊 SCIP 10.0.0](infeas-SCIP.html) | 9.22 (9.22) | 69%|
 |[📊 CBC 2.10.5](infeas-CBC.html) | 20.16 (20.20) | 62%|
 
@@ -326,6 +326,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/infeas-2-Dec-2025.html">2 Dec 2025</a></li>
 <li><a href="/mittelmann-plots/infeas-29-Oct-2025.html">29 Oct 2025</a></li>
 <li><a href="/mittelmann-plots/infeas-19-Oct-2025.html">19 Oct 2025</a></li>
 <li><a href="/mittelmann-plots/infeas-25-Jun-2025.html">25 Jun 2025</a></li>
