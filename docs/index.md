@@ -12,17 +12,17 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 65|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](lpfeas-vbest.html) | 0.43  | 100%|
+|[⭐ virtual best](lpfeas-vbest.html) | 0.46  | 100%|
 |[🥇 COPTG](lpfeas-COPTG.html) | 1.00 (1.00) | 98%|
-|[🥈 cuOpt 26.02](lpfeas-CUOPT.html) | 1.43 (1.19) | 94%|
-|[🥉 COPT 8.0.0/3](lpfeas-COPT.html) | 1.56 (1.67) | 100%|
-|[📊 CUPDX](lpfeas-CUPDX.html) | 4.21 (2.61) | 83%|
-|[📊 HPRLP](lpfeas-HPRLP.html) | 4.39 (2.60) | 83%|
-|[📊 MOSEK 11.0.5](lpfeas-MOSEK.html) | 5.14 (5.50) | 91%|
-|[📊 XOPT 0.0.8](lpfeas-XOPT.html) | 9.00 (9.63) | 91%|
-|[📊 HiGHS 1.13.0](lpfeas-HiGHS.html) | 16.77 (18.00) | 86%|
-|[📊 PDLP](lpfeas-PDLP.html) | 26.01 (27.80) | 77%|
-|[📊 KNTRO](lpfeas-KNTRO.html) | 26.62 (28.50) | 75%|
+|[🥈 cuOpt 26.02](lpfeas-CUOPT.html) | 1.19 (1.19) | 94%|
+|[🥉 COPT 8.0.0/3](lpfeas-COPT.html) | 1.67 (1.67) | 100%|
+|[📊 HPRLP](lpfeas-HPRLP.html) | 2.60 (2.60) | 83%|
+|[📊 CUPDX](lpfeas-CUPDX.html) | 2.61 (2.61) | 83%|
+|[📊 MOSEK 11.0.5](lpfeas-MOSEK.html) | 5.50 (5.50) | 91%|
+|[📊 XOPT 0.0.8](lpfeas-XOPT.html) | 9.63 (9.63) | 91%|
+|[📊 HiGHS 1.13.0](lpfeas-HiGHS.html) | 17.95 (18.00) | 86%|
+|[📊 PDLP](lpfeas-PDLP.html) | 27.85 (27.80) | 77%|
+|[📊 KNTRO](lpfeas-KNTRO.html) | 28.49 (28.50) | 75%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
