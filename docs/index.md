@@ -114,24 +114,25 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Network-LP Benchmark (commercial vs free) (8 Dec 2025)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (16 Feb 2026)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 25|
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](network-vbest.html) | 1.00  | 100%|
 |[🥇 COPT 8.0.0](network-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 Clp 1.17.7](network-CLP.html) | 2.74 (2.74) | 100%|
-|[🥉 HiGHS 1.12.0](network-HGHS.html) | 6.47 (6.47) | 80%|
-|[📊 MOSEK 11.0.16](network-MOSEK.html) | 12.50 (12.50) | 84%|
-|[📊 QSopt 1.01](network-QSOPT.html) | 16.04 (16.00) | 68%|
-|[📊 SOPLEX 8.0.0](network-SPLX.html) | 33.03 (33.00) | 64%|
+|[🥈 Clp 1.17.7](network-CLP.html) | 2.74 (2.81) | 100%|
+|[🥉 HiGHS 1.13.0](network-HGHS.html) | 5.96 (6.10) | 80%|
+|[📊 MOSEK 11.0.16](network-MOSEK.html) | 12.50 (13.30) | 84%|
+|[📊 QSopt 1.01](network-QSOPT.html) | 16.04 (17.20) | 68%|
+|[📊 SOPLEX 8.0.0](network-SPLX.html) | 33.03 (35.60) | 64%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/network-8-Dec-2025.html">8 Dec 2025</a></li>
 <li><a href="/mittelmann-plots/network-29-Oct-2025.html">29 Oct 2025</a></li>
 <li><a href="/mittelmann-plots/network-18-Oct-2025.html">18 Oct 2025</a></li>
 <li><a href="/mittelmann-plots/network-26-Jun-2025.html">26 Jun 2025</a></li>
