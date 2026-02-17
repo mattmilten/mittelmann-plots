@@ -544,6 +544,11 @@ def parse_table(url, session, timelimit=3600, threads=1):
     for s in stats["solver"]:
         time[s] = pd.to_numeric(stats["times"][s], errors="coerce")
     time.fillna(value=stats["timelimit"], inplace=True)
+    if "lpfeas.html" in url:
+        # for lpfeas, GPU-based solvers use a different time limit of 1000s
+        for s in stats["solver"]:
+            if s in ["CUOPT", "CUPDX", "COPTG", "HPRLP"]:
+                time[s] = time[s].apply(lambda x: min(x, 1000))
     stats["times"] = time
 
     return stats
