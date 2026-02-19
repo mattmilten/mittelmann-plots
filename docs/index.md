@@ -7,17 +7,17 @@ instance. This might reveal how much potential the individual solvers still have
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [LPfeas Benchmark (find PD feasible point) + ADDENDUM (12 Feb 2026)](http://plato.asu.edu/ftp/lpfeas.html)
+## [LPfeas Benchmark (find PD feasible point) + ADDENDUM (18 Feb 2026)](http://plato.asu.edu/ftp/lpfeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 65|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](lpfeas-vbest.html) | 0.46  | 100%|
+|[⭐ virtual best](lpfeas-vbest.html) | 0.43  | 100%|
 |[🥇 COPTG](lpfeas-COPTG.html) | 1.00 (1.00) | 98%|
 |[🥈 cuOpt 26.02](lpfeas-CUOPT.html) | 1.19 (1.19) | 94%|
 |[🥉 COPT 8.0.0/3](lpfeas-COPT.html) | 1.67 (1.67) | 100%|
+|[📊 CUPDX](lpfeas-CUPDX.html) | 1.74 (1.74) | 89%|
 |[📊 HPRLP](lpfeas-HPRLP.html) | 2.60 (2.60) | 83%|
-|[📊 CUPDX](lpfeas-CUPDX.html) | 2.61 (2.61) | 83%|
 |[📊 MOSEK 11.0.5](lpfeas-MOSEK.html) | 5.50 (5.50) | 91%|
 |[📊 XOPT 0.0.8](lpfeas-XOPT.html) | 9.63 (9.63) | 91%|
 |[📊 HiGHS 1.13.0](lpfeas-HiGHS.html) | 17.95 (18.00) | 86%|
@@ -29,6 +29,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpfeas-12-Feb-2026.html">12 Feb 2026</a></li>
 <li><a href="/mittelmann-plots/lpfeas-13-Jan-2026.html">13 Jan 2026</a></li>
 <li><a href="/mittelmann-plots/lpfeas-19-Dec-2025.html">19 Dec 2025</a></li>
 <li><a href="/mittelmann-plots/lpfeas-11-Nov-2025.html">11 Nov 2025</a></li>
@@ -706,7 +707,7 @@ Choose base solver for comparison:
 ---
 
 
-## [Convex Continuous QPLIB Benchmark (also on GPUs) (31 Dec 2025)](http://plato.asu.edu/ftp/cconvex.html)
+## [Convex Continuous QPLIB Benchmark (also on GPUs) (18 Feb 2026)](http://plato.asu.edu/ftp/cconvex.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 42|
@@ -717,13 +718,13 @@ Choose base solver for comparison:
 |[🥉 MOSEK 11.0.30](cconvex-MOSEK.html) | 2.38 (2.38) | 98%|
 |[📊 IPOPT 3.14.5](cconvex-IPOPT.html) | 12.21 (12.20) | 83%|
 |[📊 Mnotaur](cconvex-Mnotaur.html) | 61.83 (61.80) | 60%|
-|[📊 HPR_QP](cconvex-HPR_QP.html) | 268.72 (0.00) | 31%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/cconvex-31-Dec-2025.html">31 Dec 2025</a></li>
 <li><a href="/mittelmann-plots/cconvex-29-Oct-2025.html">29 Oct 2025</a></li>
 <li><a href="/mittelmann-plots/cconvex-19-Oct-2025.html">19 Oct 2025</a></li>
 <li><a href="/mittelmann-plots/cconvex-17-Jul-2025.html">17 Jul 2025</a></li>
