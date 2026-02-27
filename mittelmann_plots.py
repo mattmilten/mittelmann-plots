@@ -409,7 +409,6 @@ def parse_table(url, session, timelimit=3600, threads=1):
         tab = souptab.contents[0].split("\n")
         scoretab = pre[1].text.split("\n")
         solver = [s for s in scoretab[2].split() if not s.find("*") >= 0]
-        solver.remove("SCIP")  # instance-wise result are missing in table
         _score = scoretab[5].split()[1:]
         _solved = scoretab[6].split()[1:]
         stats["score"] = {solver[i]: float(_score[i]) for i in range(len(solver))}
