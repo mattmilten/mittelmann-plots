@@ -255,25 +255,27 @@ Choose base solver for comparison:
 ---
 
 
-## [MILP cases that are slightly pathological (preprocessed data) (12 Feb 2026)](http://plato.asu.edu/ftp/path.html)
+## [MILP cases that are slightly pathological (preprocessed data) (1 Marb 2026)](http://plato.asu.edu/ftp/path.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 45|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](path-vbest.html) | 0.74  | 93%|
-|[🥇 COPT 8.0.0](path-COPT.html) | 1.00 (1.00) | 89%|
-|[🥈 XSMO](path-XSMO.html) | 6.28 (6.28) | 73%|
-|[🥉 SMOO](path-SMOO.html) | 7.63 (7.63) | 64%|
-|[📊 HiGHS 1.13.0](path-HiGHS.html) | 8.96 (8.96) | 53%|
-|[📊 XOPT 0.0.8](path-XOPT.html) | 9.25 (9.25) | 53%|
-|[📊 SCIPC](path-SCIPC.html) | 9.69 (9.69) | 62%|
-|[📊 SCIP 10.0.0](path-SCIP.html) | 17.01 (17.00) | 44%|
+|[⭐ virtual best](path-vbest.html) | 0.57  | 98%|
+|[🥇 COPT 8.0.3](path-COPT.html) | 1.00 (1.00) | 89%|
+|[🥈 Optverse 2.0.1](path-optverse.html) | 1.41 (1.41) | 84%|
+|[🥉 XSMO](path-XSMO.html) | 7.19 (7.19) | 73%|
+|[📊 SMOO](path-SMOO.html) | 8.74 (8.74) | 64%|
+|[📊 HiGHS 1.13.0](path-HiGHS.html) | 10.26 (10.30) | 53%|
+|[📊 XOPT 0.0.8](path-XOPT.html) | 10.60 (10.60) | 53%|
+|[📊 SCIPC](path-SCIPC.html) | 11.10 (11.10) | 62%|
+|[📊 SCIP 10.0.0](path-SCIP.html) | 19.49 (19.50) | 44%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/path-12-Feb-2026.html">12 Feb 2026</a></li>
 <li><a href="/mittelmann-plots/path-29-Nov-2025.html">29 Nov 2025</a></li>
 <li><a href="/mittelmann-plots/path-29-Oct-2025.html">29 Oct 2025</a></li>
 <li><a href="/mittelmann-plots/path-19-Sep-2025.html">19 Sep 2025</a></li>
