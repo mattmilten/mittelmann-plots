@@ -846,10 +846,10 @@ Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 200|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](minlp-vbest.html) | 0.29  | 93%|
+|[⭐ virtual best](minlp-vbest.html) | 0.29  | 92%|
 |[🥇 BARON](minlp-BARON.html) | 1.00 (1.00) | 79%|
 |[🥈 SCIP](minlp-SCIP.html) | 1.43 (1.40) | 77%|
-|[🥉 LINDO](minlp-LINDO.html) | 4.82 (4.80) | 58%|
+|[🥉 LINDO](minlp-LINDO.html) | 4.46 (4.80) | 58%|
 |[📊 SHOT](minlp-SHOT.html) | 5.02 (5.60) | 48%|
 
 
