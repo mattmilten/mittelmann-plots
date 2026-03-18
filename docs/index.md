@@ -654,23 +654,24 @@ Choose base solver for comparison:
 ---
 
 
-## [Continuous Non-Convex QPLIB Benchmark (28 Sep 2025)](http://plato.asu.edu/ftp/cnconv.html)
+## [Continuous Non-Convex QPLIB Benchmark (17 Mar 2026)](http://plato.asu.edu/ftp/cnconv.html)
 Choose base solver for comparison:
 
-| solver | score (as reported) | solved of 53|
+| solver | score (as reported) | solved of 56|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](cnconv-vbest.html) | 0.18  | 100%|
-|[🥇 Baron 25.3.19](cnconv-BARON.html) | 1.00 (1.00) | 66%|
-|[🥈 COPT 8.0.0](cnconv-COPT.html) | 2.62 (2.62) | 47%|
-|[🥉 MINOTAUR 0.4.1](cnconv-MINOTAUR.html) | 4.36 (4.49) | 47%|
-|[📊 ANTIGONE 1.1](cnconv-ANTIGONE.html) | 5.07 (5.23) | 51%|
-|[📊 SCIP 9.2.1](cnconv-SCIP.html) | 10.86 (11.40) | 26%|
+|[⭐ virtual best](cnconv-vbest.html) | 0.13  | 93%|
+|[🥇 Baron 25.12.10](cnconv-BARON.html) | 1.00 (1.00) | 55%|
+|[🥈 COPT 8.0.2](cnconv-COPT.html) | 1.50 (1.50) | 48%|
+|[🥉 ANTIGONE 1.1](cnconv-ANTIGONE.html) | 1.64 (1.64) | 62%|
+|[📊 MINOTAUR 0.4.1](cnconv-MINOTAUR.html) | 3.06 (3.06) | 39%|
+|[📊 SCIP 10.0.1](cnconv-SCIP.html) | 5.13 (5.13) | 27%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/cnconv-28-Sep-2025.html">28 Sep 2025</a></li>
 <li><a href="/mittelmann-plots/cnconv-11-Jul-2025.html">11 Jul 2025</a></li>
 <li><a href="/mittelmann-plots/cnconv-21-Aug-2024.html">21 Aug 2024</a></li>
 <li><a href="/mittelmann-plots/cnconv-6-Jul-2024.html">6 Jul 2024</a></li>
