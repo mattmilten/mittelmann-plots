@@ -7,7 +7,7 @@ instance. This might reveal how much potential the individual solvers still have
 [Please let me know](https://github.com/mattmilten/mittelmann-plots/issues/new) if you have a question or if there is an error.
 
     
-## [LPfeas Benchmark (find PD feasible point) + ADDENDUM (18 Feb 2026)](http://plato.asu.edu/ftp/lpfeas.html)
+## [LPfeas Benchmark (find PD feasible point) + ADDENDUM (10 Apr 2026)](http://plato.asu.edu/ftp/lpfeas.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 65|
@@ -20,7 +20,7 @@ Choose base solver for comparison:
 |[📊 HPRLP](lpfeas-HPRLP.html) | 2.60 (2.60) | 83%|
 |[📊 MOSEK 11.0.5](lpfeas-MOSEK.html) | 5.50 (5.50) | 91%|
 |[📊 XOPT 0.0.8](lpfeas-XOPT.html) | 9.63 (9.63) | 91%|
-|[📊 HiGHS 1.13.0](lpfeas-HiGHS.html) | 17.95 (18.00) | 86%|
+|[📊 HiGHS 1.14.0](lpfeas-HiGHS.html) | 17.24 (17.20) | 86%|
 |[📊 PDLP](lpfeas-PDLP.html) | 27.85 (27.80) | 77%|
 |[📊 KNTRO](lpfeas-KNTRO.html) | 28.49 (28.50) | 75%|
 
@@ -29,6 +29,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpfeas-18-Feb-2026.html">18 Feb 2026</a></li>
 <li><a href="/mittelmann-plots/lpfeas-12-Feb-2026.html">12 Feb 2026</a></li>
 <li><a href="/mittelmann-plots/lpfeas-13-Jan-2026.html">13 Jan 2026</a></li>
 <li><a href="/mittelmann-plots/lpfeas-19-Dec-2025.html">19 Dec 2025</a></li>
@@ -65,16 +66,16 @@ Choose base solver for comparison:
 ---
 
 
-## [LPopt Benchmark (find optimal basic solution) (8 Feb 2026)](http://plato.asu.edu/ftp/lpopt.html)
+## [LPopt Benchmark (find optimal basic solution) (10 apr 2026)](http://plato.asu.edu/ftp/lpopt.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 65|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](lpopt-vbest.html) | 0.97  | 100%|
+|[⭐ virtual best](lpopt-vbest.html) | 0.96  | 100%|
 |[🥇 COPT 8.0.0](lpopt-COPT.html) | 1.00 (1.00) | 100%|
 |[🥈 XOPT 0.0.8](lpopt-XOPT.html) | 6.63 (6.63) | 80%|
 |[🥉 MOSEK 11.0.13](lpopt-MOSEK.html) | 7.49 (7.49) | 80%|
-|[📊 HiGHS 1.13.0](lpopt-HiGHS.html) | 21.59 (21.60) | 74%|
+|[📊 HiGHS 1.14.0](lpopt-HiGHS.html) | 13.07 (13.10) | 82%|
 |[📊 CLP 1.17.7](lpopt-CLP.html) | 27.38 (27.40) | 62%|
 |[📊 Google-GLOP](lpopt-GLOP.html) | 59.71 (59.70) | 51%|
 |[📊 SOPLEX 8.0.0](lpopt-SPLX.html) | 103.92 (104.00) | 48%|
@@ -84,6 +85,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpopt-8-Feb-2026.html">8 Feb 2026</a></li>
 <li><a href="/mittelmann-plots/lpopt-10-Dec-2025.html">10 Dec 2025</a></li>
 <li><a href="/mittelmann-plots/lpopt-13-Nov-2025.html">13 Nov 2025</a></li>
 <li><a href="/mittelmann-plots/lpopt-3-Nov-2025.html">3 Nov 2025</a></li>
