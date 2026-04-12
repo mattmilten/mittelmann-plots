@@ -66,7 +66,7 @@ Choose base solver for comparison:
 ---
 
 
-## [LPopt Benchmark (find optimal basic solution) (10 apr 2026)](http://plato.asu.edu/ftp/lpopt.html)
+## [LPopt Benchmark (find optimal basic solution) (10 Apr 2026)](http://plato.asu.edu/ftp/lpopt.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 65|
@@ -85,6 +85,7 @@ Choose base solver for comparison:
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/lpopt-10-apr-2026.html">10 apr 2026</a></li>
 <li><a href="/mittelmann-plots/lpopt-8-Feb-2026.html">8 Feb 2026</a></li>
 <li><a href="/mittelmann-plots/lpopt-10-Dec-2025.html">10 Dec 2025</a></li>
 <li><a href="/mittelmann-plots/lpopt-13-Nov-2025.html">13 Nov 2025</a></li>
@@ -117,24 +118,25 @@ Choose base solver for comparison:
 ---
 
 
-## [Large Network-LP Benchmark (commercial vs free) (16 Feb 2026)](http://plato.asu.edu/ftp/network.html)
+## [Large Network-LP Benchmark (commercial vs free) (11 Apr 2026)](http://plato.asu.edu/ftp/network.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 25|
 | :--- | ---:  | ---:   |
 |[⭐ virtual best](network-vbest.html) | 1.00  | 100%|
 |[🥇 COPT 8.0.0](network-COPT.html) | 1.00 (1.00) | 100%|
-|[🥈 Clp 1.17.7](network-CLP.html) | 2.74 (2.81) | 100%|
-|[🥉 HiGHS 1.13.0](network-HGHS.html) | 5.96 (6.10) | 80%|
-|[📊 MOSEK 11.0.16](network-MOSEK.html) | 12.50 (13.30) | 84%|
-|[📊 QSopt 1.01](network-QSOPT.html) | 16.04 (17.20) | 68%|
-|[📊 SOPLEX 8.0.0](network-SPLX.html) | 33.03 (35.60) | 64%|
+|[🥈 Clp 1.17.7](network-CLP.html) | 2.74 (2.74) | 100%|
+|[🥉 HiGHS 1.14.0](network-HGHS.html) | 6.59 (6.59) | 80%|
+|[📊 MOSEK 11.0.16](network-MOSEK.html) | 12.50 (12.50) | 84%|
+|[📊 QSopt 1.01](network-QSOPT.html) | 16.04 (16.00) | 68%|
+|[📊 SOPLEX 8.0.0](network-SPLX.html) | 33.03 (33.00) | 64%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/network-16-Feb-2026.html">16 Feb 2026</a></li>
 <li><a href="/mittelmann-plots/network-8-Dec-2025.html">8 Dec 2025</a></li>
 <li><a href="/mittelmann-plots/network-29-Oct-2025.html">29 Oct 2025</a></li>
 <li><a href="/mittelmann-plots/network-18-Oct-2025.html">18 Oct 2025</a></li>
@@ -560,25 +562,26 @@ Choose base solver for comparison:
 ---
 
 
-## [Nonconvex QUBO-QPLIB Benchmark (10 Dec 2025)](http://plato.asu.edu/ftp/qubo.html)
+## [Nonconvex QUBO-QPLIB Benchmark (11 Apr 2026)](http://plato.asu.edu/ftp/qubo.html)
 Choose base solver for comparison:
 
 | solver | score (as reported) | solved of 23|
 | :--- | ---:  | ---:   |
-|[⭐ virtual best](qubo-vbest.html) | 0.96  | 70%|
-|[🥇 QuBowl](qubo-QUBOWL.html) | 1.00 (1.00) | 65%|
-|[🥈 Baron 25.11.17](qubo-BARON.html) | 1.81 (1.81) | 57%|
-|[🥉 SHOT 1.1](qubo-SHOT.html) | 1.84 (1.84) | 52%|
-|[📊 COPT 8.0.0](qubo-COPT.html) | 2.18 (2.18) | 57%|
-|[📊 McSparse 2.0](qubo-MCSPARSE.html) | 2.89 (2.89) | 52%|
-|[📊 SCIP 10.0.0](qubo-SCIP.html) | 6.69 (6.69) | 35%|
-|[📊 Biqbin](qubo-BIQBIN.html) | 9.33 (6.60) | 39%|
+|[⭐ virtual best](qubo-vbest.html) | 1.00  | 70%|
+|[🥇 QuBowl](qubo-QUBOWL.html) | 1.00 (1.00) | 70%|
+|[🥈 Baron 25.11.17](qubo-BARON.html) | 2.59 (2.59) | 57%|
+|[🥉 SHOT 1.1](qubo-SHOT.html) | 2.64 (2.64) | 52%|
+|[📊 COPT 8.0.0](qubo-COPT.html) | 3.13 (3.13) | 57%|
+|[📊 McSparse 2.0](qubo-MCSPARSE.html) | 4.15 (4.15) | 52%|
+|[📊 SCIP 10.0.0](qubo-SCIP.html) | 9.60 (9.60) | 35%|
+|[📊 Biqbin](qubo-BIQBIN.html) | 13.40 (9.48) | 39%|
 
 
 <details><summary>previous benchmarks 🔽</summary>
 <br>
 
 <ul>
+<li><a href="/mittelmann-plots/qubo-10-Dec-2025.html">10 Dec 2025</a></li>
 <li><a href="/mittelmann-plots/qubo-19-Sep-2025.html">19 Sep 2025</a></li>
 <li><a href="/mittelmann-plots/qubo-12-Jul-2025.html">12 Jul 2025</a></li>
 <li><a href="/mittelmann-plots/qubo-21-Aug-2024.html">21 Aug 2024</a></li>
