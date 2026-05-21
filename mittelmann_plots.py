@@ -702,7 +702,12 @@ def write_bench(url, session, timelimit, threads=1):
         for root, _, files in os.walk(path):
             for name in files:
                 if fnmatch.fnmatch(name, pattern):
-                    result.append(os.path.join(root, name))
+                    filename = os.path.basename(name)
+                    try:
+                        dt.strptime(filename, f"{benchname}-%d-%b-%Y.html")
+                        result.append(os.path.join(root, name))
+                    except ValueError:
+                        continue
         return sorted(
             result,
             key=lambda x: dt.strptime(
