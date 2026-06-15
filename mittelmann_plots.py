@@ -278,7 +278,7 @@ def parse_table(url, session, timelimit=3600, threads=1):
             if c.startswith("lpsolve"):
                 columns[i] = "LP_SOL"
             elif c.startswith("FiberSCIP"):
-                columns[i] = "FSCIP"
+                columns[i] = "XSMOO"
             elif c.startswith("SCIP-spx") or c == "SCIP-":
                 columns[i] = "SCIP"
             elif c.startswith("SCIP-cpx"):
@@ -287,7 +287,6 @@ def parse_table(url, session, timelimit=3600, threads=1):
                 columns[i] = "Gurobi"
             elif c.startswith("MDOPT"):
                 columns[i] = "MindOpt"
-
         _version = str(soup.contents[2]).split("<p>")[3].split("\n")[1:-1]
         _version = [x.split()[0].rstrip(":") for x in _version]
         _solved = scoretab[4].split()[1:]
